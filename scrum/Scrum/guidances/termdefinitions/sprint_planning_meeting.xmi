@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-sn7UkWq_5c2tFfkZq7XYRw" name=",_d24NQESREdyDx7cbCULuLg" guid="-sn7UkWq_5c2tFfkZq7XYRw" authors="Lyndon Washington" changeDate="2011-01-15T01:20:02.081+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The start of a Sprint is marked by a planning meeting where the Product Owner will go through the highest priority&#xD;
+    Product Backlog items, and based on that information the team will select the Product Backlog Items they will implement&#xD;
+    during the next Sprint.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在每一个冲刺开始时，召开计划会议，会议上产品负责人产品订单中具有最高优先级的订单项，Scrum团队基于描述的信息，选择他们将在即将来临的冲刺中实现的产品订单项。&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

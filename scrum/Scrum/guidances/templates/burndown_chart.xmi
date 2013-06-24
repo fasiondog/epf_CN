@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3AgWsgStwa4K2S5b_pS3jA" name="new_template,_OO6A0F8rEd22Gu98eFOlrQ" guid="-3AgWsgStwa4K2S5b_pS3jA" changeDate="2011-01-09T17:07:12.753+0800">
+  <mainDescription>&lt;p>&#xD;
+    If you are considering using a&amp;nbsp;spreadsheet to track your project's backlog and burndown consider these two&#xD;
+    templates&amp;nbsp;kindly provided by Clay Ver Valen and Petri Heiramo.&amp;nbsp; Both templates are excellent and one is sure&#xD;
+    to be appeal to your project. Petri's template uses macros which provide a richer functionality but may be an&#xD;
+    impediment to some.&amp;nbsp; Petris' template is pre-loaded with sample data while Clay provides a separate sample for his&#xD;
+    template.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    如果你正在考虑使用电子表格来跟踪你的项目订单和燃尽图，可以使用下面由Clay Ver Valen和Petri&#xD;
+    Heiramo提供的两个模板。这两个模板都很优秀，相信一定有一个适合你的项目。Petri的模板使用Excel宏提供了更丰富的功能,但对某些人来说可能是一个障碍。Petris的模板中提供了样例数据，而Clay的模板中也提供了自己的样例数据。&#xD;
+&lt;/p></mainDescription>
+  <attachments>resources/Burndown_Template_Clay.xls|resources/Burndown_Template_Petri.xls|resources/Burndown_Sample_Clay.xls</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

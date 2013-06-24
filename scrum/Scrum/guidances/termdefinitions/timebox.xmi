@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Pqj9AAvbOheabK1S1iNR7w" name="new_term_definition,_3qdXkILXEduLd8CaF_IcMA" guid="-Pqj9AAvbOheabK1S1iNR7w" changeDate="2006-12-03T22:11:12.609+0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    A period of time with a fixed and unmovable end date even if all objectives aren't reached.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    一个固定的、完成时间不可移动的时间周期，即使不能完成所有的目标。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qw1zzcdgS16heKCPSMtXNA" name="new_term_definition,_wzGykF5YEd22Gu98eFOlrQ" guid="-qw1zzcdgS16heKCPSMtXNA" changeDate="2011-01-15T00:26:15.728+0800">
+  <mainDescription>&lt;p>&#xD;
+    The Daily&amp;nbsp;Scrum (also known as the Daily Stand-up)&amp;nbsp;is a short&amp;nbsp;meeting (15-30 minutes) attended by all&#xD;
+    members of the Scrum Team and facilitated by the Scrum Master.&amp;nbsp; The Daily Scrum is not a status meeting it is a&#xD;
+    commitment in front of peers. During the Daily Scrum each team member provides answers to the following three&#xD;
+    questions:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        What did you do yesterday?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What will you do today?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there any impediments in your way?&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    每日Scrum（也被称为每日站会）&#xD;
+    是一个15~30分钟的简短会议，由所有Scrum团队参加，Scrum主管主持。每日Scrum不是一个状态报告会议，而是一个在同行面前进行承诺的会议。在每日Scrum中，每一位团队成员需要提供下述三个问题的答案：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        昨天你做了什么？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        今天你将做什么？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        你的工作中存在什么障碍？&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

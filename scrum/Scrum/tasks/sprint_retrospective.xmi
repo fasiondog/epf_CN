@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xohW6akCXeAm21kFxbyPgA" name="sprint_retrospective,_sKJ9AOF-Edyp34pwdTOSVQ" guid="-xohW6akCXeAm21kFxbyPgA" changeDate="2011-01-09T03:05:51.652+0800">
+  <copyrightStatement href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_4kVeYOGBEdyp34pwdTOSVQ"/>
+  <mainDescription>&lt;p>&#xD;
+    The Sprint Retrospective is an opportunity for the team to discuss what's working and what's not working, and agree on&#xD;
+    changes to try.&amp;nbsp; One approach taken is that the whole team gathers and discusses what they’d like to&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Stop doing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Continue doing&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Sprint回顾会议是一个团队成员讨论什么应该被保留、什么应该被抛弃和对改变和尝试达成一致意见的一个机会。该途径收集和讨论整个团体将要：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        开始做什么&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        结束做什么&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        继续做什么&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    The &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/scrum_team_8D8F2B3.html&quot; guid=&quot;_O65KUOF6Edyp34pwdTOSVQ&quot;>Scrum Team&#xD;
+    Scrum团队&lt;/a>, the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot;&#xD;
+    guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner 产品负责人&lt;/a>, and the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/scrummaster_357FCB70.html&quot; guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>ScrumMaster Scrum教练&lt;/a> will all&#xD;
+    attend, and a neutral outsider will facilitate the meeting.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/scrum_team_8D8F2B3.html&quot; guid=&quot;_O65KUOF6Edyp34pwdTOSVQ&quot;>Scrum Team&#xD;
+    Scrum团队&lt;/a>，&lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot;&#xD;
+    guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner 产品负责人&lt;/a>和&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/scrummaster_357FCB70.html&quot; guid=&quot;_Bw-twOF6Edyp34pwdTOSVQ&quot;>ScrumMaster&#xD;
+    Scrum教练&lt;/a>需要参加该会议，并且一个保持中立的局外人会有利于促进会议。&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    The Sprint Retrospective is the main mechanism for taking the visibility that Scrum provides into areas of potential&#xD;
+    improvement, and turning it into results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Sprint回顾会议是使潜在的改进领域可见，并将其转化为成果的主要机制。&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

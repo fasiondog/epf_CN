@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-sKs1c_RcKx_VoP3H4546-w" name="new_term_definition,_7frQsF5dEd22Gu98eFOlrQ" guid="-sKs1c_RcKx_VoP3H4546-w" changeDate="2011-01-15T00:43:57.970+0800">
+  <mainDescription>&lt;p>&#xD;
+    The product burndown chart is a &quot;big picture&quot; view of a team's progress. It shows how much work remains&amp;nbsp;at the&#xD;
+    beginning of each sprint. The scope of this chart spans releases; however, a release burndown chart is limited to a&#xD;
+    single release.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    产品燃尽图一份项目进度的全景视图。它展示了每个冲刺（sprint）开始时的剩余工作。该图范围贯穿了多个发布版本，而发布燃尽图仅仅包含了一个发布。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-d3HBqQdxKSpDApXqiQo9Iw" name="new_term_definition,_UJZQwESQEdyDx7cbCULuLg" guid="-d3HBqQdxKSpDApXqiQo9Iw" authors="Lyndon Washington" changeDate="2007-08-10T23:54:16.636+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Sprint Backlog contains the work that the team has committed to for the Sprint, including all of the tasks that&#xD;
+    need to be completed to implement the Product Backlog Items.&amp;nbsp; The Sprint backlog is owned by the team.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    冲刺订单中，包含了团队承诺在该冲刺中完成的工作，包括为了实现产品订单项所需的所有任务。冲刺订单的所有者是Scrum团队。&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

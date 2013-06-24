@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-cfGxn29uR-ajTuxloxCwVQ" name=",_lesG8F53Ed22Gu98eFOlrQ" guid="-cfGxn29uR-ajTuxloxCwVQ" changeDate="2010-12-23T01:52:42.032+0800">
+  <mainDescription>&lt;p>&#xD;
+    Prior to release planning and periodically as the product backlog evolves and the team gains insight through experience&#xD;
+    the Scrum Team will estimate the size of items on the Product Backlog.&amp;nbsp;&amp;nbsp; This is key information to help&#xD;
+    the&amp;nbsp;Product Owner make prioritization decisions (some items may become less of a priority if the&amp;nbsp;Product&#xD;
+    Owner learns that major effort will be required to deliver them).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Estimations are relative and&amp;nbsp;are measured in “points” rather than real-world units of effort.&amp;nbsp; To the&#xD;
+    uninitiated this may&amp;nbsp;seem unpredicatable but after the first few sprints Scrum teams can empirically derive&amp;nbsp;a&#xD;
+    velocity&amp;nbsp;that allows them to&amp;nbsp;accurately predict delivery capability.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    通过定期发布计划和演进的产品备忘论，团队从经验中获得有关估算的洞察力。这是帮助产品负责人做出优先级决定的关键信息（一旦产品负责人了解了为完成交付所需要的主要工作量，那么某些条目的重要性将被降低）。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    估算是相对于真实世界中的工作单位而言的，并且以“点”为单位被测量。对毫无经验的人来说，这看起来不可预测。但是通过初始几轮Sprint，积累有关交付速度的经验后，Scrum团队可以准确地预测交付能力。&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Enables the&amp;nbsp;Product Owner to make prioritization decisions&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    促使产品负责人对优先级做出决定&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZheRa5V_fOtaDb9_tJXPiQ" name=",_Tlr8MESPEdyDx7cbCULuLg" guid="-ZheRa5V_fOtaDb9_tJXPiQ" authors="Lyndon Washington" changeDate="2011-01-15T00:34:48.967+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    A Product backlog Item has an amount of effort associated with it.&amp;nbsp; This represents a team estimation as to the&#xD;
+    complexity of the item and is usually expressed in &quot;Ideal Days&quot; or &quot;Story Points&quot;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    每一个产品订单项都有和它一系列工作量。&lt;br />&#xD;
+    它体现了一个团队对它的复杂度的估算，通常被表达为“理想工作日”或“故事点”。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

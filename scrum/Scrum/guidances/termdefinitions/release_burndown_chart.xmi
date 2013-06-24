@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5ZwUAb_042ViuoKsGdsWmw" name="new_term_definition,_YCtMUF5eEd22Gu98eFOlrQ" guid="-5ZwUAb_042ViuoKsGdsWmw" changeDate="2008-07-31T01:40:15.125+0800">
+  <mainDescription>&lt;p>&#xD;
+    On a Scrum project, the team tracks its progress against a release plan by updating a release burndown chart at the end&#xD;
+    of each sprint. The horizontal axis of the release burndown chart shows the sprints; the vertical axis shows the amount&#xD;
+    of work remaining at the start of each sprint.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The scope of this chart is a single release; however, a product burndown chart spans all releases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在Scrum项目中，团队通过在每个冲刺结束时根据发布计划更新发布燃尽图，来跟踪项目进度。发布燃尽图中，水平轴代表该发布中的每一个冲刺，竖轴则表示每一个冲刺开始时的剩余工作数量。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    发布燃尽图仅仅包含了一个发布，而产品燃尽图则包含了所有的发布。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

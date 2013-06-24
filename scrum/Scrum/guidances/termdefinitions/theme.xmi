@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3pNlw9WCCt2_yQj7AdMFOQ" name="new_term_definition,_aeYKoIKlEduQgtHqedKdMA" guid="-3pNlw9WCCt2_yQj7AdMFOQ" changeDate="2011-01-15T01:38:32.814+0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    A theme defines a functional group of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    主题定义了一个功能组的需求。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

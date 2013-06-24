@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-TiV3gmeEcaJC9fHWazqHLA" name="story_point_def,_CI6VAO6oEduaarO4hBWeSg" guid="-TiV3gmeEcaJC9fHWazqHLA" changeDate="2011-01-15T01:33:23.962+0800">
+  <mainDescription>&lt;p>&#xD;
+    Story points are a measurement employed to indicate the effort required to implement a user story, or product backlog&#xD;
+    feature.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    故事点是为了实现一个用户故事或产品订单中的特性所需的工作量度量。&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

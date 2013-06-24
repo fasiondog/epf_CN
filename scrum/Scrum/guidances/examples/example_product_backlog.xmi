@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-rfXDg30uLSggSmzHYCYVlg" name="example_product_backlog,_t2djoPVPEdyMdecrgpMbRg" guid="-rfXDg30uLSggSmzHYCYVlg" changeDate="2011-01-09T16:51:57.598+0800">
+  <mainDescription>&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/产品订单示例.jpg&quot; width=&quot;600&quot; height=&quot;394&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

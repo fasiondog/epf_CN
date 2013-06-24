@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bCkVJ-SAp9NAYXzU082xAw" name=",_qNOmQESOEdyDx7cbCULuLg" guid="-bCkVJ-SAp9NAYXzU082xAw" authors="Lyndon Washington" changeDate="2011-01-15T00:38:20.558+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Product Backlog is a prioritized list of features desired in the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    产品订单是一份经过优先级排序的产品期望特性列表。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

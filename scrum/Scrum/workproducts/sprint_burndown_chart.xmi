@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-EQ9gGoEO7QfWA_0iXzILuA" name="sprint_burndown_chart,_YzmSIF8sEd22Gu98eFOlrQ" guid="-EQ9gGoEO7QfWA_0iXzILuA" changeDate="2011-01-11T00:43:06.010+0800">
+  <mainDescription>&lt;p>&#xD;
+    The estimated work remaining in the sprint is calculated daily and graphed, resulting in a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/workproducts/sprint_burndown_chart_F647C347.html&quot; guid=&quot;_YzmSIF8sEd22Gu98eFOlrQ&quot;>Sprint Burndown&#xD;
+    Chart 冲刺燃尽图&lt;/a> The vertical axis displays the hours of effort remaining for the Sprint.&amp;nbsp; The horizontal axis&#xD;
+    displays the days of the Sprint.&amp;nbsp; The burndown is supposed to be shown by the line of descent from the start of&#xD;
+    the Sprint with the starting hours, down to the end of the Sprint with no hours remaining.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/sprintburndown.jpg&quot; width=&quot;400&quot; height=&quot;300&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The team does its best to pull the right amount of work into the sprint but sometimes too much or too little work is&#xD;
+    pulled in during the &lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>Sprint Planning Meeting Sprint计划会议&lt;/a> in this case the team needs to add or remove&#xD;
+    tasks. In the above sprint burndown chart you can see that the team had pulled in too much work initially and still had&#xD;
+    nearly 600 hours to go on 5/16/02. In this case the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot; guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner 产品负责人&lt;/a> was&#xD;
+    consulted and it was agreed to remove some work from the sprint, which resulted in the big drop on the chart between&#xD;
+    5/16/02 (619 hours) and 5/17/02. From there the team made good consistent progress and finished the sprint&#xD;
+    successfully.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在冲刺期间，每天都需要进行剩余工作的估算，并且估算的结果使用图形的方式予以表达，这就是冲刺燃尽图。 燃尽图中，纵轴表示当前冲刺中的剩余工作量。 横轴表示冲刺的日子。&#xD;
+    燃尽线从冲刺（sprint）开始时的小时数（工作总量）逐日下降到冲刺结束时为0。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;./resources/sprintburndown.jpg&quot; width=&quot;400&quot; height=&quot;300&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    团队尽全力冲刺完成适量的工作，但有时在&lt;a class=&quot;elementLink&quot; href=&quot;./../../Scrum/tasks/sprint_planning_meeting_9F0B8F28.html&quot;&#xD;
+    guid=&quot;_4gCKAOF9Edyp34pwdTOSVQ&quot;>Sprint Planning Meeting Sprint计划会议&lt;/a>中被放入了过多或过少的工作，此时需要团队增加或删除任务。&#xD;
+    从上面的冲刺燃尽图中,可以看到团队在初始时“拉”入了过多的工作，在2002年5月16日时，仍就剩余近600个小时的工作。 在这种情况下，&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../Scrum/roles/product_owner_10E7BD3.html&quot; guid=&quot;_QcnRMOF5Edyp34pwdTOSVQ&quot;>Product Owner&#xD;
+    产品负责人&lt;/a>被询问是否同意在当前冲刺（sprint）中删除一部分工作，这导致在上图中5/16/02(619小时)和5/17/02之间出现大幅的落差。 在那之后，团队取得了良好一致的进展，并成功完成了本次冲刺。&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Used by the team to gauge how well the Sprint is going.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Scrum团队使用它来描述当前冲刺（sprint）的进展。&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

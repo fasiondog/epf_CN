@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-f9YylbaBfAK7kFZ0wCySMg" name=",_15X88ESREdyDx7cbCULuLg" guid="-f9YylbaBfAK7kFZ0wCySMg" authors="Lyndon Washington" changeDate="2011-01-15T01:26:59.786+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    At the end of the Sprint the Team will meet at a retrospective to discuss the things that worked and did not work&#xD;
+    during the Sprint.&amp;nbsp; This provides the feedback and adapt opportunity for the process and allows the process to&#xD;
+    evolve and fit the team.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在每个冲刺结束时，团队召开回顾会议，讨论在这个冲刺中，哪些有益的工作应该被保留，哪些无用或有害处的工作应该被抛弃。回顾会议提供了过程改进的反馈和机会，并运行团队自行发展适合自己的过程。&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

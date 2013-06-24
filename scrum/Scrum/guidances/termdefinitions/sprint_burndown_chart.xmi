@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-7-9C-kYSzQHQc_uQkYm-_g" name=",_mJqYQESQEdyDx7cbCULuLg" guid="-7-9C-kYSzQHQc_uQkYm-_g" authors="Lyndon Washington" changeDate="2011-01-15T01:10:59.017+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Sprint Burndown Chart is a graphical representation of the work remaining over the duration of the Sprint.&amp;nbsp;&#xD;
+    The Vertical axis displays the hours of effort remaining for the Sprint.&amp;nbsp; The horizontal axis displays the days of&#xD;
+    the Sprint.&amp;nbsp; The burndown is supposed to be shown by the line of descent from the start of the Sprint with the&#xD;
+    starting hours, down to the end of the Sprint with no hours remaining.&amp;nbsp; The Burndown chart is used by the team to&#xD;
+    gauge how well the Sprint is going.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    冲刺燃尽图是表达每一个冲刺中剩余工作的图形。竖轴表示该冲刺中剩余待完成任务工作量，水平轴显示的是冲刺中的天数。“燃尽”通过冲刺初始时的剩余工作量，到冲刺结束时剩余工作量燃尽为0来表达。团队使用燃尽图来确认当前冲刺的进展是否正常。&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

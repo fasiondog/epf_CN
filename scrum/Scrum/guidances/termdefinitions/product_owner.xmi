@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-h9Xx7G_42VKrAJeiPoEXhA" name="new_term_definition,_lV7DoESPEdyDx7cbCULuLg" guid="-h9Xx7G_42VKrAJeiPoEXhA" authors="Lyndon Washington" changeDate="2011-01-15T00:45:58.081+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Product Owner is the role in charge of the product that is being built by the team.&amp;nbsp; The Product Owner decides&#xD;
+    the priority of the Product Backlog, and also when the product should be released.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    产品负责人是负责团队正在构建的产品的角色。产品负责人决定产品订单的优先级，并且决定产品应该何时发布。&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

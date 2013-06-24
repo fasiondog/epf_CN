@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zpO7ZtcagvtTA67EJ_m4rg" name=",_OG9iUESSEdyDx7cbCULuLg" guid="-zpO7ZtcagvtTA67EJ_m4rg" authors="Lyndon Washington" changeDate="2011-01-15T01:31:57.220+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;p>&#xD;
+    The Sprint Backlog is made up of a list of tasks that the team needs to work through to complete the Product Backlog&#xD;
+    Items that they committed to at the start of the Sprint.&amp;nbsp; The Sprint tasks have attributes to show the point&#xD;
+    person, the state of the task (i.e. not started, in progress, impeded or done) and the amount of time left to complete&#xD;
+    the task.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Sprint tasks are the smallest level of work represented in either of the backlogs and refer to work that is usually up&#xD;
+    to 16 hours of work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    冲刺订单由团队为了完成在冲刺开始时承诺完成的产品订单项，所需的一系列任务组成。冲刺任务拥有如下属性：规模、状态（未进行、进行中、障碍或完成），以及完成所需的剩余时间。&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>
