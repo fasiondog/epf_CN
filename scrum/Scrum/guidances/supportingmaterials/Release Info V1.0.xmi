@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iNN-kF9o1K21Wxe97vfEKA" name="Release Info V1.0,_ItBb8N80EeKTtvvJlxlgHA" guid="-iNN-kF9o1K21Wxe97vfEKA" changeDate="2013-06-27T22:21:36.775+0800">
+  <mainDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        基于EPF发布的&lt;a&#xD;
+        href=&quot;http://www.eclipse.org/downloads/download.php?file=/technology/epf/Scrum/library/scrum_library_1.5_20080820.zip&quot;&#xD;
+         target=&quot;_blank&quot;>Scrum 1.5英文版本&lt;/a>作为中文版翻译的基础版本。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        该版本保留英文对照，方便后续跟踪英文的相关变动&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

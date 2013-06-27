@@ -54,6 +54,7 @@
     <resourceDescriptors xmi:id="_XrI2QV8hEd22Gu98eFOlrQ" id="-JGaSKq8Cd3WrAqkPLTUUGg" uri="workproducts/taskboard.xmi"/>
     <resourceDescriptors xmi:id="_OcNAgV8sEd22Gu98eFOlrQ" id="-3AgWsgStwa4K2S5b_pS3jA" uri="guidances/templates/burndown_chart.xmi"/>
     <resourceDescriptors xmi:id="_vnxNgV8sEd22Gu98eFOlrQ" id="-EQ9gGoEO7QfWA_0iXzILuA" uri="workproducts/sprint_burndown_chart.xmi"/>
+    <resourceDescriptors xmi:id="_UOdpYN81EeKTtvvJlxlgHA" id="-iNN-kF9o1K21Wxe97vfEKA" uri="guidances/supportingmaterials/Release%20Info%20V1.0.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_6Ab_EOF4Edyp34pwdTOSVQ" name="Scrum" guid="_6Ab_EOF4Edyp34pwdTOSVQ" briefDescription="Scrum Plug-In" authors="Mike Cohn, Ken Clyne, Claude Aubry et al" changeDate="2008-07-31T01:49:30.453+0800" copyrightStatement="_Ybm6AFp4Ed2BQt1093tw4A">
     <methodElementProperty xmi:id="_c36-YAFcEeC_ZoqUNUawzg" name="plugin_synFree" value="true"/>
@@ -75,11 +76,14 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6Ab_GuF4Edyp34pwdTOSVQ" name="Hidden" guid="_6Ab_GuF4Edyp34pwdTOSVQ">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6Ab_G-F4Edyp34pwdTOSVQ" name="定制类别" guid="_6Ab_G-F4Edyp34pwdTOSVQ" categorizedElements="_Om8IAOGEEdyp34pwdTOSVQ"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Om8IAOGEEdyp34pwdTOSVQ" name="scrum_overview" guid="_Om8IAOGEEdyp34pwdTOSVQ" presentationName="Scrum Overview Scrum简介" categorizedElements="_lC260PVhEdyMdecrgpMbRg _hUIKcOGFEdyp34pwdTOSVQ _IAabwOGLEdyp34pwdTOSVQ _4tsR4OGFEdyp34pwdTOSVQ _CWWNMOGREdyp34pwdTOSVQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Om8IAOGEEdyp34pwdTOSVQ" name="scrum_overview" guid="_Om8IAOGEEdyp34pwdTOSVQ" presentationName="Scrum Overview Scrum简介" categorizedElements="_lC260PVhEdyMdecrgpMbRg _hUIKcOGFEdyp34pwdTOSVQ _IAabwOGLEdyp34pwdTOSVQ _4tsR4OGFEdyp34pwdTOSVQ _CWWNMOGREdyp34pwdTOSVQ _UOVGgN81EeKTtvvJlxlgHA">
             <methodElementProperty xmi:id="_ZMWAcOGEEdyp34pwdTOSVQ" name="PUBLISH_CATEGORY" value="true"/>
             <presentation xmi:id="-OUAVEKu-MpijImO-oy53Rg" href="uma://-OUAVEKu-MpijImO-oy53Rg#-OUAVEKu-MpijImO-oy53Rg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CWWNMOGREdyp34pwdTOSVQ" name="scrum_guidance" guid="_CWWNMOGREdyp34pwdTOSVQ" presentationName="Scrum Guidance Scrum指南" categorizedElements="_SCv2oOF7Edyp34pwdTOSVQ _L1t78F5nEd22Gu98eFOlrQ _PmtE0F5oEd22Gu98eFOlrQ _8PMFQF5hEd22Gu98eFOlrQ _28Gp8F6AEd22Gu98eFOlrQ"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_UOVGgN81EeKTtvvJlxlgHA" name="Release Info" guid="_UOVGgN81EeKTtvvJlxlgHA" presentationName="发布信息" categorizedElements="_ItBb8N80EeKTtvvJlxlgHA">
+            <methodElementProperty xmi:id="_gGQ90N81EeKTtvvJlxlgHA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6Ab_HOF4Edyp34pwdTOSVQ" name="CoreContent" guid="_6Ab_HOF4Edyp34pwdTOSVQ">
@@ -115,6 +119,7 @@
             <presentation xmi:id="-xohW6akCXeAm21kFxbyPgA" href="uma://-xohW6akCXeAm21kFxbyPgA#-xohW6akCXeAm21kFxbyPgA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_4kVeYOGBEdyp34pwdTOSVQ" name="scrum_copyright" guid="_4kVeYOGBEdyp34pwdTOSVQ" presentationName="Copyright" variabilityType="extendsReplaces" variabilityBasedOnElement="_Ybm6AFp4Ed2BQt1093tw4A">
+            <methodElementProperty xmi:id="_Dx1UUN80EeKTtvvJlxlgHA" name="me_edited" value="true"/>
             <presentation xmi:id="-_aNvcFLkG6dHmKhaz93BwA" href="uma://-_aNvcFLkG6dHmKhaz93BwA#-_aNvcFLkG6dHmKhaz93BwA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t2djoPVPEdyMdecrgpMbRg" name="example_product_backlog" guid="_t2djoPVPEdyMdecrgpMbRg" presentationName="Example Product Backlog 产品订单样例">
@@ -123,7 +128,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__uNYkPVgEdyMdecrgpMbRg" name="potentially_shippable_product_incremement" guid="__uNYkPVgEdyMdecrgpMbRg" presentationName="Potentially Shippable Product Incremement 可运行的产品增量" briefDescription="The outcome of every sprint is a potentially shippable product increment.&#xD;&#xA;&#xD;&#xA;每次冲刺的成果是一个可运行的产品增量。">
             <presentation xmi:id="-r4CP_1w3uk0ClgSnUrm80w" href="uma://-r4CP_1w3uk0ClgSnUrm80w#-r4CP_1w3uk0ClgSnUrm80w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_lC260PVhEdyMdecrgpMbRg" name="scrum_overview" guid="_lC260PVhEdyMdecrgpMbRg" presentationName="Scrum Overview Scrum简介" briefDescription="Scrum is an empirical Agile project management framework used to deliver increments of high value to the customer iteratively. Scrum relies on self organizing, empowered teams to deliver the product increments. It also relies on a customer, or Product Owner, to provide a team with a list of desired features using business value as the priority mechanism.&#xD;&#xA;&#xD;&#xA;Scrum在英语中的意思是橄榄球里的争球，此处是指一种基于经验的敏捷项目管理框架,用来以迭代的方式交付对客户高价值的增量。 Scrum依赖于自组织的、被授权的团队来交付产品增量。 同时，它也依赖于顾客，或产品责任人来提供一份根据商业价值进行优先级排序的预期特性列表。">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_lC260PVhEdyMdecrgpMbRg" name="scrum_overview" guid="_lC260PVhEdyMdecrgpMbRg" presentationName="Scrum Overview Scrum简介" briefDescription="Scrum is an empirical Agile project management framework used to deliver increments of high value to the customer iteratively. Scrum relies on self organizing, empowered teams to deliver the product increments. It also relies on a customer, or Product Owner, to provide a team with a list of desired features using business value as the priority mechanism.&#xD;&#xA;&#xD;&#xA;Scrum在英语中的意思是橄榄球里的争球，此处是指一种基于经验的敏捷项目管理框架，通过迭代的方式向客户交付高价值的增量。 Scrum依赖于自组织的、被授权的团队来交付产品增量。 同时，它也依赖于顾客，或产品责任人来提供一份根据商业价值进行优先级排序的预期特性列表。">
+            <methodElementProperty xmi:id="_o_lScN82EeKTtvvJlxlgHA" name="me_edited" value="true"/>
             <presentation xmi:id="-B-d2Wl0Vyk_-I-RwtKzhKQ" href="uma://-B-d2Wl0Vyk_-I-RwtKzhKQ#-B-d2Wl0Vyk_-I-RwtKzhKQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tFw9IPVoEdyJbYuqG3X5Ag" name="release_burndown_chart" guid="_tFw9IPVoEdyJbYuqG3X5Ag" presentationName="Release Burndown Chart 发布燃尽图" briefDescription="The release burndown chart tracks a team's progress against its release plant. &#xD;&#xA;发布燃尽图提供了对项目发布计划进展的跟踪。" examples="_zUZ0MPVpEdyJbYuqG3X5Ag" templates="_OO6A0F8rEd22Gu98eFOlrQ">
@@ -241,7 +247,12 @@
             <presentation xmi:id="-EQ9gGoEO7QfWA_0iXzILuA" href="uma://-EQ9gGoEO7QfWA_0iXzILuA#-EQ9gGoEO7QfWA_0iXzILuA"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4uTwwB_4EeCwnOkmCDkN0A" name="english_chinese_translation_information" guid="_4uTwwB_4EeCwnOkmCDkN0A" presentationName="英汉翻译说明" briefDescription="英文关键术语的翻译说明"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4uTwwB_4EeCwnOkmCDkN0A" name="english_chinese_translation_information" guid="_4uTwwB_4EeCwnOkmCDkN0A" presentationName="英汉翻译说明" briefDescription="英文关键术语的翻译说明">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_ItBb8N80EeKTtvvJlxlgHA" name="Release Info V1.0" guid="_ItBb8N80EeKTtvvJlxlgHA" presentationName="V1.0发布说明" briefDescription="发表于2013年6月27日">
+            <methodElementProperty xmi:id="_V1pNIN82EeKTtvvJlxlgHA" name="me_edited" value="true"/>
+            <presentation xmi:id="-iNN-kF9o1K21Wxe97vfEKA" href="uma://-iNN-kF9o1K21Wxe97vfEKA#-iNN-kF9o1K21Wxe97vfEKA"/>
+          </contentElements>
+        </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6Ab_HeF4Edyp34pwdTOSVQ" name="CapabilityPatterns" guid="_6Ab_HeF4Edyp34pwdTOSVQ"/>
     </methodPackages>
