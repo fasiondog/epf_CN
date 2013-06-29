@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-thr-EbJ0MVoSOjB07oOFhg" name=",_VqapgESOEdyDx7cbCULuLg" guid="-thr-EbJ0MVoSOjB07oOFhg" authors="Lyndon Washington" changeDate="2011-01-15T00:33:51.416+0800" changeDescription="Initial revision" version="0.1">
-  <mainDescription>&lt;p>&#xD;
-    Impediments are any hurdles or problems that the team encounters that hampers their ability to work through their&#xD;
-    sprint tasks.&amp;nbsp; Impediments are uncovered during teh Daily Scrum meeting.&amp;nbsp; The ScrumMaster is responsible&#xD;
-    for&amp;nbsp;ensuring impediments get resolved.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    障碍是指团队工作过程中，任何阻碍他们完成冲刺（sprint）中的工作任务能力的束缚或问题。&lt;br />&#xD;
-    障碍在每日Scrum会议中被揭示。&lt;br />&#xD;
-    Scrum主管负责确保障碍得到解决。&#xD;
-&lt;/p></mainDescription>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-thr-EbJ0MVoSOjB07oOFhg" name=",_VqapgESOEdyDx7cbCULuLg" guid="-thr-EbJ0MVoSOjB07oOFhg" authors="Lyndon Washington" changeDate="2013-06-30T00:40:50.456+0800" changeDescription="Initial revision" version="0.1">
+  <mainDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        障碍（Impediments）是指团队工作过程中，任何阻碍他们完成Sprint中的工作的束缚或问题。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        障碍在每日立会中被揭示。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Scrum主管负责确保障碍得到解决。&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

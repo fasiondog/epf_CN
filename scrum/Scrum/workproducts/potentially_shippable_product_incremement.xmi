@@ -1,45 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-r4CP_1w3uk0ClgSnUrm80w" name="new_artifact,__uNYkPVgEdyMdecrgpMbRg" guid="-r4CP_1w3uk0ClgSnUrm80w" changeDate="2011-01-09T15:25:00.949+0800">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-r4CP_1w3uk0ClgSnUrm80w" name="new_artifact,__uNYkPVgEdyMdecrgpMbRg" guid="-r4CP_1w3uk0ClgSnUrm80w" changeDate="2013-06-30T02:41:33.946+0800">
   <copyrightStatement href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_4kVeYOGBEdyp34pwdTOSVQ"/>
   <mainDescription>&lt;p>&#xD;
-    Scrum requires that each sprint deliver a potentially shippable product increment.&amp;nbsp; The increment must consist of&#xD;
-    thoroughly tested code that has been built into an executable, and the user operation of the functionality is&#xD;
-    documeneted&amp;nbsp;either in Help files or user documentation.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Scrum要求每次冲刺交付一个可运行的产品增量。 该增量必须包含已经过全面测试并可运行的代码，以及文档化的用户操作功能（如帮助文件或用户文档）。&#xD;
+    Scrum要求每次Sprint交付一个潜在可交付的产品增量。 该增量必须包含已经过全面测试的代码，以及用户操作功能的文档（如帮助文件或用户文档）。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    There is much debate&amp;nbsp;about the difference between &quot;potentially shippable (done)&quot; and&amp;nbsp;&quot;shippable&quot;.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Mike Cohn states:&#xD;
-&lt;/p>&#xD;
-&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
-    &lt;p>&#xD;
-        .. &quot;potentially shippable&quot; and &quot;shippable&quot; are not the same thing. Some large or complex projects will require the&#xD;
-        use of &quot;release sprint&quot; or &quot;hardening sprint&quot; at the end of a release cycle (say 6 two-week sprints then a 2-week&#xD;
-        release sprint). The release sprint is not a dumping ground for sloppy work; rather it is a place where some&#xD;
-        hardening of the system can occur.&#xD;
-    &lt;/p>&#xD;
-&lt;/blockquote>&#xD;
-&lt;p>&#xD;
-    One thing is clear Scrum teams&amp;nbsp;need to agree&amp;nbsp;on their definition of &quot;potentially shippable&quot;&#xD;
-    and&amp;nbsp;&quot;shippable&quot; and to&amp;nbsp;come to a shared&amp;nbsp;understanding with the Product Owner.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    存在很多关于“可运行potentially shippable(done)”和“运行shippable”之间区别的讨论。&#xD;
+    存在很多关于“潜在可交付（potentially shippable(done)）”和“可交付（shippable）”之间区别的讨论。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Mike Cohn提到: . .&#xD;
 &lt;/p>&#xD;
 &lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
     &lt;p>&#xD;
-        “可运行（potentially shippable）”和“运行（shippable）”不是一回事。 某些大型或复杂的项目要求在一个版本发布周期结束时采用“发布冲刺（release sprint）”或“强化冲刺（hardening&#xD;
-        sprint）”(约定在6个两周的冲刺后进行一个2周的发布冲刺)。 发布冲刺（release sprint）不是一个草率粗心的倾销地,而是一个系统获得强化的地方。&#xD;
+        “潜在可交付（potentially shippable）”和“可交付（shippable）”不是一回事。 某些大型或复杂的项目要求在一个版本发布周期结束时采用“发布冲刺（release&#xD;
+        sprint）”或“强化冲刺（hardening sprint）”(约定在6个两周的冲刺后进行一个2周的发布冲刺)。 发布冲刺（release sprint）不是一个草率粗心的倾销地,而是一个系统获得强化的地方。&#xD;
     &lt;/p>&#xD;
 &lt;/blockquote>&#xD;
 &lt;p>&#xD;
-    有一件事情很清楚：Scrum团队需要认同他们自己对“可运行（potentially shippable）”和“运行（shippable）”的定义,并和产品负责人达成一致的理解。&#xD;
+    有一件事情很清楚：Scrum团队需要认同他们自己对“潜在可交付（potentially shippable）”和“可交付（shippable）”的定义，并和产品负责人达成一致的理解。&#xD;
 &lt;/p></keyConsiderations>
 </org.eclipse.epf.uma:ArtifactDescription>

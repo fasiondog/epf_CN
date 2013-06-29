@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vYDEjOsyiDLCq28_kSwqLg" name="new_term_definition,_KKPDgESREdyDx7cbCULuLg" guid="-vYDEjOsyiDLCq28_kSwqLg" authors="Lyndon Washington" changeDate="2011-01-15T01:15:58.014+0800" changeDescription="Initial revision" version="0.1">
   <mainDescription>&lt;p>&#xD;
-    The Product Owner and Team will identify some scope for the Sprint to provide some indications of the expectations for&#xD;
-    the Sprint and provide some measure of success.&amp;nbsp; Sprint goals help provide focus on Team design and implementation&#xD;
-    decisions.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    产品负责人和Scrum团队需要为每一个“冲刺”提供期望的范围并且提供某些成果标准的度量。冲刺目标将帮助团队进行在设计和实现决策时聚焦。&#xD;
+    产品负责人和Scrum团队需要为每一次“冲刺（Sprint）”提供期望的范围并且提供某些有关判断成功标准的度量。冲刺目标将帮助团队进行在设计和实现决策时聚焦。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

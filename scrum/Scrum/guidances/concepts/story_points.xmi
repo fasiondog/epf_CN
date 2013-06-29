@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ILQMonu5qLiOKjvMlGtDPg" name="new_concept,_28Gp8F6AEd22Gu98eFOlrQ" guid="-ILQMonu5qLiOKjvMlGtDPg" changeDate="2011-01-13T00:20:37.431+0800">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ILQMonu5qLiOKjvMlGtDPg" name="new_concept,_28Gp8F6AEd22Gu98eFOlrQ" guid="-ILQMonu5qLiOKjvMlGtDPg" changeDate="2013-06-30T01:46:59.467+0800">
   <mainDescription>&lt;p>&#xD;
-    Story points are probably the most commonly used estimating unit among agile teams today.&amp;nbsp; The name&amp;nbsp;is&#xD;
-    derived from agile teams commonly expressing requirements as “user stories”.&amp;nbsp;&amp;nbsp;A story point is a relative&#xD;
-    estimate of the &quot;size&quot; of the work compared to other work on the project.&amp;nbsp;So,&amp;nbsp;a 10-point user story is&#xD;
-    expected to take twice as long as a 5-point user story.&#xD;
+    故事点（Story Points）可能是当今敏捷团队中最常使用的估算单位。 “故事点”的名字源自敏捷团队中表达需求的方式“用户故事”。 一个故事点是项目中某项工作相对于其他工作的“规模”估算。 例如，一个规模为10点（10 -&#xD;
+    points）的用户故事预计将比规模为5点（5 - points）的用户故事多花费一倍的时间。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Estimates are not quantified but implicitly&amp;nbsp;include&amp;nbsp;the&amp;nbsp;team's collective&amp;nbsp;understanding of the&#xD;
-    complexity, risk and time for&amp;nbsp;the work being estimated.&amp;nbsp; A story point is unique to the team and cannot be&#xD;
-    compared with a story point on another team.&amp;nbsp;&amp;nbsp;It can be counter productive to map&amp;nbsp;story points to&#xD;
-    their&amp;nbsp;absolute time equivalent and the accepted technique&amp;nbsp;for predicting time to completion is the team's&#xD;
-    velocity.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    故事点可能是当今敏捷团队中最常使用的估算单位。 “故事点”的名字源自敏捷团队中表达需求的方式“用户故事”。 一个故事点是项目中某些工作相对其他工作的估算规模。 所以,一个规模为10点的用户故事预计将比规模为5点的用户故事多花费一倍的时间。&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    估算并不量化但隐式包含了团队对被估算的工作的正确理解的复杂性、风险和时间。 对每个团队而言，故事点规模都只是针对他们自己的，不能用于不同团队之间的比较。 故事点可以等价的映射为团队所花费的绝对时间，可以用来预测团队速度。&#xD;
+    估算并未量化但隐式包含了团队对“被估算的工作”的复杂性、风险和时间的综合理解。 对每个团队而言，故事点规模都只是针对他们自己的，不能用于不同团队之间的比较。 故事点可以等价的映射为团队所花费的绝对时间，可以用来预测团队速度。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

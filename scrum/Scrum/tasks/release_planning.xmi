@@ -1,58 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-NrSTjiuzDnfEiZxA7N_tFA" name=",_RunHEF8ZEd22Gu98eFOlrQ" guid="-NrSTjiuzDnfEiZxA7N_tFA" changeDate="2010-12-27T21:32:55.983+0800">
-  <mainDescription>&lt;p>&#xD;
-    At the beginning of a project the team will create a&amp;nbsp;high-level release plan.&amp;nbsp; The team cannot possibly know&#xD;
-    everything up front so a detailed plan is not necessary.&amp;nbsp; The&amp;nbsp;release plan should&amp;nbsp;address:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
-        The number and duration of the sprints&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        How many people or teams should be on this project&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The number of releases&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The value delivered in&amp;nbsp;each release&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The ship date for the releases&#xD;
-    &lt;/li>&#xD;
-&lt;/ul>&#xD;
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-NrSTjiuzDnfEiZxA7N_tFA" name=",_RunHEF8ZEd22Gu98eFOlrQ" guid="-NrSTjiuzDnfEiZxA7N_tFA" changeDate="2013-06-30T02:30:03.945+0800">
+  <mainDescription>&lt;br />&#xD;
 &lt;p>&#xD;
-    Key inputs to release planning are:&#xD;
-&lt;/p>&#xD;
-&lt;ul>&#xD;
-    &lt;li>&#xD;
-        The prioritized Product Backlong&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        The&amp;nbsp;estimated velocity&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Any hard and fast&amp;nbsp;to-market dates the Product Owner must satisfy&#xD;
-    &lt;/li>&#xD;
-&lt;/ul>&#xD;
-&lt;p>&#xD;
-    在项目的初始阶段，团队需要创建一个概要的发布计划。团队不可能详尽的知道每一件事，所以不需要一份详细的计划。发布计划应该包含：&#xD;
+    在项目开始时，团队需要创建一个概要的发布计划。团队不可能详尽的知道每一件事，所以不需要一份详细的计划。发布计划（release plan）应该包含：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
         sprint的数量和持续周期&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        在该项目中的人数或团队数&#xD;
+        项目预期的人数或团队数&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        发布的数量&#xD;
+        发布的次数&amp;nbsp;&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        每一次发布交付的价值&#xD;
+        每次发布交付的价值&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        发布日期&#xD;
+        每次发布的交付日期&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
@@ -60,19 +26,16 @@
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        优先级排序的产品备忘录&#xD;
+        优先级排序的产品订单&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        估计的速率&#xD;
+        估计的速度&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        任何产品负责人需要满足的硬性和最快的上市日期&#xD;
+        任何产品负责人须要满足的硬性和最快的上市日期要求&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
   <purpose>&lt;p>&#xD;
-    To level-set expectations (internal and external) and to proactively uncover needs and dependencies&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
     平衡内部和外部的期望，并主动收集需求和依赖关系。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
