@@ -111,13 +111,14 @@
             <presentation xmi:id="-u_0D0nwGoZhpANLeqrq14A" href="uma://-u_0D0nwGoZhpANLeqrq14A#-u_0D0nwGoZhpANLeqrq14A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_SCv2oOF7Edyp34pwdTOSVQ" name="scrum_of_scrums" guid="_SCv2oOF7Edyp34pwdTOSVQ" presentationName="Scrum of Scrums">
+            <methodElementProperty xmi:id="_j2lgsOGZEeKdpPwMi4l2qA" name="me_edited" value="true"/>
             <presentation xmi:id="-e9FxENZuCFr7WkungxFv0Q" href="uma://-e9FxENZuCFr7WkungxFv0Q#-e9FxENZuCFr7WkungxFv0Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_OZIPIOF8Edyp34pwdTOSVQ" name="product_backlog" guid="_OZIPIOF8Edyp34pwdTOSVQ" presentationName="产品订单" briefDescription="The Product Backlog is the master list of all functionality desired in the product.&#xD;&#xA;&#xD;&#xA;产品订单是一份产品期望功能的列表。" examples="_t2djoPVPEdyMdecrgpMbRg" templates="_OO6A0F8rEd22Gu98eFOlrQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_OZIPIOF8Edyp34pwdTOSVQ" name="product_backlog" guid="_OZIPIOF8Edyp34pwdTOSVQ" presentationName="产品订单" briefDescription="产品订单（Product Backlog）是一份产品期望的所有功能的清单。" examples="_t2djoPVPEdyMdecrgpMbRg" templates="_OO6A0F8rEd22Gu98eFOlrQ">
             <methodElementProperty xmi:id="_woyaMODQEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-v5-z0Dm_JF0P2xtKd0FDrA" href="uma://-v5-z0Dm_JF0P2xtKd0FDrA#-v5-z0Dm_JF0P2xtKd0FDrA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Q5Ki8OF8Edyp34pwdTOSVQ" name="sprint_backlog" guid="_Q5Ki8OF8Edyp34pwdTOSVQ" presentationName="冲刺订单" briefDescription="The sprint backlog is the list of tasks that the Scrum team is committing that they will complete in the current sprint. &#xD;&#xA;冲刺订单是Scrum团队承诺将在当前冲刺（sprint）中完成的任务清单列表。" templates="_OO6A0F8rEd22Gu98eFOlrQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Q5Ki8OF8Edyp34pwdTOSVQ" name="sprint_backlog" guid="_Q5Ki8OF8Edyp34pwdTOSVQ" presentationName="冲刺订单" briefDescription="冲刺订单（Sprint Backlog）是Scrum团队承诺将在当前冲刺（sprint）中完成的任务清单列表。" templates="_OO6A0F8rEd22Gu98eFOlrQ">
             <methodElementProperty xmi:id="_x51yYODQEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-N_A3a4KFML6T529HCXOO8w" href="uma://-N_A3a4KFML6T529HCXOO8w#-N_A3a4KFML6T529HCXOO8w"/>
           </contentElements>
@@ -141,7 +142,8 @@
             <methodElementProperty xmi:id="_Dx1UUN80EeKTtvvJlxlgHA" name="me_edited" value="true"/>
             <presentation xmi:id="-_aNvcFLkG6dHmKhaz93BwA" href="uma://-_aNvcFLkG6dHmKhaz93BwA#-_aNvcFLkG6dHmKhaz93BwA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t2djoPVPEdyMdecrgpMbRg" name="example_product_backlog" guid="_t2djoPVPEdyMdecrgpMbRg" presentationName="Example Product Backlog 产品订单样例">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t2djoPVPEdyMdecrgpMbRg" name="example_product_backlog" guid="_t2djoPVPEdyMdecrgpMbRg" presentationName="产品订单样例">
+            <methodElementProperty xmi:id="_s0jhQOGZEeKdpPwMi4l2qA" name="me_edited" value="true"/>
             <presentation xmi:id="-rfXDg30uLSggSmzHYCYVlg" href="uma://-rfXDg30uLSggSmzHYCYVlg#-rfXDg30uLSggSmzHYCYVlg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__uNYkPVgEdyMdecrgpMbRg" name="potentially_shippable_product_incremement" guid="__uNYkPVgEdyMdecrgpMbRg" presentationName="潜在可交付的产品增量" briefDescription="每次冲刺（Sprint）的输出是一个潜在可交付的产品增量（a potentially shippable product increment）。">
@@ -152,11 +154,12 @@
             <methodElementProperty xmi:id="_o_lScN82EeKTtvvJlxlgHA" name="me_edited" value="true"/>
             <presentation xmi:id="-B-d2Wl0Vyk_-I-RwtKzhKQ" href="uma://-B-d2Wl0Vyk_-I-RwtKzhKQ#-B-d2Wl0Vyk_-I-RwtKzhKQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tFw9IPVoEdyJbYuqG3X5Ag" name="release_burndown_chart" guid="_tFw9IPVoEdyJbYuqG3X5Ag" presentationName="发布燃尽图" briefDescription="The release burndown chart tracks a team's progress against its release plant. &#xD;&#xA;发布燃尽图提供了对项目发布计划进展的跟踪。" examples="_zUZ0MPVpEdyJbYuqG3X5Ag" templates="_OO6A0F8rEd22Gu98eFOlrQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tFw9IPVoEdyJbYuqG3X5Ag" name="release_burndown_chart" guid="_tFw9IPVoEdyJbYuqG3X5Ag" presentationName="发布燃尽图" briefDescription="发布燃尽图（Release Burndown Chart）提供了对项目发布计划进展的跟踪。" examples="_zUZ0MPVpEdyJbYuqG3X5Ag" templates="_OO6A0F8rEd22Gu98eFOlrQ">
             <methodElementProperty xmi:id="_9_5lQODQEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-f7PDqWbPWJ4XP9HiP8IVKQ" href="uma://-f7PDqWbPWJ4XP9HiP8IVKQ#-f7PDqWbPWJ4XP9HiP8IVKQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_zUZ0MPVpEdyJbYuqG3X5Ag" name="alternative_release_burndown_chart" guid="_zUZ0MPVpEdyJbYuqG3X5Ag" presentationName="Alternative Release Burndown Chart 备选发布燃尽图">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_zUZ0MPVpEdyJbYuqG3X5Ag" name="alternative_release_burndown_chart" guid="_zUZ0MPVpEdyJbYuqG3X5Ag" presentationName="备选发布燃尽图" briefDescription="备选发布燃尽图（Alternative Release Burndown Chart）">
+            <methodElementProperty xmi:id="_MRt9oOGYEeKdpPwMi4l2qA" name="me_edited" value="true"/>
             <presentation xmi:id="-KkrHQnR4XqgdNpWEvfFEtw" href="uma://-KkrHQnR4XqgdNpWEvfFEtw#-KkrHQnR4XqgdNpWEvfFEtw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_Ybm6AFp4Ed2BQt1093tw4A" name="eclipse_copyright" guid="_Ybm6AFp4Ed2BQt1093tw4A" presentationName="Copyright">
@@ -268,14 +271,15 @@
             <methodElementProperty xmi:id="_96ZA4ODVEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-NrSTjiuzDnfEiZxA7N_tFA" href="uma://-NrSTjiuzDnfEiZxA7N_tFA#-NrSTjiuzDnfEiZxA7N_tFA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rU4H4F8fEd22Gu98eFOlrQ" name="taskboard" guid="_rU4H4F8fEd22Gu98eFOlrQ" presentationName="任务墙" briefDescription="The task board shows all the work the team is doing during a sprint&#xD;&#xA;&#xD;&#xA;任务墙展示了在一个Sprint期间团队的所有工作。任务墙（TaskBoard）也称为“看板”。">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rU4H4F8fEd22Gu98eFOlrQ" name="taskboard" guid="_rU4H4F8fEd22Gu98eFOlrQ" presentationName="任务墙" briefDescription="任务墙展示了在一个Sprint期间团队的所有工作。任务墙（TaskBoard）也称为“看板”。">
             <methodElementProperty xmi:id="_1FXTMODQEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-JGaSKq8Cd3WrAqkPLTUUGg" href="uma://-JGaSKq8Cd3WrAqkPLTUUGg#-JGaSKq8Cd3WrAqkPLTUUGg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_OO6A0F8rEd22Gu98eFOlrQ" name="burndown_chart" guid="_OO6A0F8rEd22Gu98eFOlrQ" presentationName="Burndown Chart 燃尽图" briefDescription="These Excel spreadsheets provide useful capabilities for creating burndown charts.&#xD;&#xA;可以使用下面这些Excel表格创建燃尽图">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_OO6A0F8rEd22Gu98eFOlrQ" name="burndown_chart" guid="_OO6A0F8rEd22Gu98eFOlrQ" presentationName="燃尽图" briefDescription="可以使用下面这些Excel表格创建燃尽图（Burndown Chart）">
+            <methodElementProperty xmi:id="_IGo2kOGTEeKdpPwMi4l2qA" name="me_edited" value="true"/>
             <presentation xmi:id="-3AgWsgStwa4K2S5b_pS3jA" href="uma://-3AgWsgStwa4K2S5b_pS3jA#-3AgWsgStwa4K2S5b_pS3jA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_YzmSIF8sEd22Gu98eFOlrQ" name="sprint_burndown_chart" guid="_YzmSIF8sEd22Gu98eFOlrQ" presentationName="Sprint 燃尽图" briefDescription="The Sprint Burndown Chart is a graphical representation of the work remaining over the duration of the Sprint.&#xD;&#xA;冲刺燃尽图是一种用于表示冲刺（sprint）期间剩余工作的图形。" templates="_OO6A0F8rEd22Gu98eFOlrQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_YzmSIF8sEd22Gu98eFOlrQ" name="sprint_burndown_chart" guid="_YzmSIF8sEd22Gu98eFOlrQ" presentationName="冲刺燃尽图" briefDescription="冲刺燃尽图（Sprint Burndown Chart）是一种用于表示冲刺（sprint）期间剩余工作的图形。" templates="_OO6A0F8rEd22Gu98eFOlrQ">
             <methodElementProperty xmi:id="_3JlNsODQEeKetZKGBc3auA" name="me_edited" value="true"/>
             <presentation xmi:id="-EQ9gGoEO7QfWA_0iXzILuA" href="uma://-EQ9gGoEO7QfWA_0iXzILuA#-EQ9gGoEO7QfWA_0iXzILuA"/>
           </contentElements>

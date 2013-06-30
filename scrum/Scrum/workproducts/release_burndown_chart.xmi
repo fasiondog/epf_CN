@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-f7PDqWbPWJ4XP9HiP8IVKQ" name="release_burndown_chart,_tFw9IPVoEdyJbYuqG3X5Ag" guid="-f7PDqWbPWJ4XP9HiP8IVKQ" changeDate="2011-01-09T17:22:36.259+0800">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-f7PDqWbPWJ4XP9HiP8IVKQ" name="release_burndown_chart,_tFw9IPVoEdyJbYuqG3X5Ag" guid="-f7PDqWbPWJ4XP9HiP8IVKQ" changeDate="2013-06-30T22:49:10.057+0800">
   <copyrightStatement href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_4kVeYOGBEdyp34pwdTOSVQ"/>
   <mainDescription>&lt;p>&#xD;
-    On a Scrum project, the team tracks its progress against a release plan by updating a release burndown chart at the end&#xD;
-    of each sprint. The horizontal axis of the release burndown chart shows the sprints; the vertical axis shows the amount&#xD;
-    of work remaining at the start of each sprint. Work remaining can be shown in whatever unit the team prefers--story&#xD;
-    points, ideal days, team days, and so on.&amp;nbsp;&#xD;
+    在Scrum项目中，团队通过在每一次Sprint结束时，更新发布燃尽图来跟踪发布计划的进展。发布燃尽图的横轴显示每一个Sprint；竖轴显示在每个sprint开始时的剩余工作量。剩余工作量的单位可以是任何Scrum团队喜欢的方式，如故事点,理想的天数、团队天数等等。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     &lt;img alt=&quot;&quot; src=&quot;./resources/releaseburndown.png&quot; width=&quot;298&quot; height=&quot;358&quot; />&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    On this burndown chart, the team started a project that was planned to be eleven two-week sprints. They began with 200&#xD;
-    story points of work. The first sprint went well and from the chart you can infer that they had around 180 story points&#xD;
-    of work remaining after the first sprint. During the second sprint, however, the estimated work remaining actually&#xD;
-    burned up. This could have been because work was added to the project or because the team changed some estimates of the&#xD;
-    remaining work. From there the project continued well. Progress slowed during sprint 7 but then quickly resumed.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    This type of release burndown chart works very well in many situations and in many teams. However, on projects with&#xD;
-    lots of changing requirements you may want to look at an &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../Scrum/guidances/examples/alternative_release_burndown_chart_565346BF.html&quot;&#xD;
-    guid=&quot;_zUZ0MPVpEdyJbYuqG3X5Ag&quot;>Alternative Release Burndown Chart 备选发布燃尽图&lt;/a>.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    在Scrum项目中，团队通过在每一次冲刺（sprint）结束时，更新发布燃尽图来跟踪发布计划的进展。发布燃尽图的横轴显示每一个冲刺（sprint）；竖轴显示在每个sprint开始时的剩余工作量。剩余工作量单位可以是任何Scrum团队喜欢的方式，如故事点,理想的天数、团队天数等等。&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &lt;img alt=&quot;&quot; src=&quot;./resources/releaseburndown.png&quot; width=&quot;298&quot; height=&quot;358&quot; />&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    在上述的燃尽图中,项目被计划为11个以2周为周期的冲刺（sprint）。他们以200个故事点开始工作。第一次冲刺进行得很好,从图中，你可以判断出在第一次冲刺（sprint）后，他们还剩下180个故事点的工作。然而，在第二个冲刺阶段，估计的剩余工作量被实际花费的工作燃尽了。这可能是因为新的工作被加入到项目中，或者因为团队改变了对剩余工作的估算。从那之后，项目一直顺利地进行。在第7个冲刺（sprint）时，进度又变慢了，但很快得到了恢复。&#xD;
+    在上述的燃尽图中,项目被计划为11个以2周为周期的冲刺（Sprint）。他们以200个故事点开始工作。第一次冲刺进行得很好,从图中，你可以判断出在第一次冲刺（sprint）后，他们还剩下180个故事点的工作。然而，在第二个冲刺阶段，估计的剩余工作量被实际花费的工作燃尽了。这可能是因为新的工作被加入到项目中，或者因为团队改变了对剩余工作的估算。从那之后，项目一直顺利地进行。在第7个冲刺（sprint）时，进度又变慢了，但很快得到了恢复。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     这种类型的发布燃尽图在多数情况和多数团队中工作良好。然而，当项目中含有大量的需求变更时，或许你想看看另一种形式的&lt;a class=&quot;elementLink&quot;&#xD;

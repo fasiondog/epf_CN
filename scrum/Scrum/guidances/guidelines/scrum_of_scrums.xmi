@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-e9FxENZuCFr7WkungxFv0Q" name="new_guideline,_SCv2oOF7Edyp34pwdTOSVQ" guid="-e9FxENZuCFr7WkungxFv0Q" changeDate="2011-01-12T23:23:59.678+0800">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-e9FxENZuCFr7WkungxFv0Q" name="new_guideline,_SCv2oOF7Edyp34pwdTOSVQ" guid="-e9FxENZuCFr7WkungxFv0Q" changeDate="2013-06-30T23:23:56.655+0800">
   <copyrightStatement href="uma://_6Ab_EOF4Edyp34pwdTOSVQ#_4kVeYOGBEdyp34pwdTOSVQ"/>
   <mainDescription>&lt;p>&#xD;
-    The primary way of scaling Scrum to work with large teams is to coordinate a &quot;Scrum of Scrums.&quot; With this approach each&#xD;
-    Scrum team proceeds as normal but each team also contributes one person who attends Scrum of Scrum meetings to&#xD;
-    coordinate the work of multiple Scrum teams. These meetings are analogous to the Daily Scrum Meeting, but do not&#xD;
-    necessarily happen every day. In many organizations, having a Scrum of Scrums meeting two or three times a week is&#xD;
-    sufficient.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    The illustration below shows how a Scrum of Scrums approach allows Scrum to scale up (in this case to 243 people). Each&#xD;
-    cell represents one person on a Scrum team. The bottom of this illustration shows teams with nine developers on them.&#xD;
-    One person from each team (the differently colored cell) also participates in a Scrum of Scrum to coordinate work above&#xD;
-    that team. Then from those nine-person teams another person is selected (this time shown with diagonal lines) to&#xD;
-    participate in what might be called a Scrum of Scrums of Scrums.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    &lt;img alt=&quot;Scrum of scrums&quot; src=&quot;http://www.mountaingoatsoftware.com/images/scrumofscrums.gif&quot; width=&quot;400&quot;&#xD;
-    height=&quot;242&quot; />&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    一种扩展Scrum方法到大型团队中基本方法叫做“Scrum of Scrums”。 该方法中，每个Scrum团队正常运作，但是需要每个团队贡献一位成员参与“Scrum of Scrum”会议，以协调多个Scrum团队之间的工作。&#xD;
+    一种扩展Scrum方法到大型团队中的基本方法叫做“Scrum of Scrums”。 该方法中，每个Scrum团队正常运作，但是需要每个团队贡献一位成员参与“Scrum of Scrum”会议，以协调多个Scrum团队之间的工作。&#xD;
     这些会议类似于日常Scrum会议,但不一定每天都进行。 在许多组织中,一周召开2~3次的“Scrum of Scrums”已经足够。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     如下图，展示了“Scrum of Scrums”是如何对Scrum进行扩展的（在这个示例中，扩展到了243人）。 图中的每一个“细胞”Scrum团队中的一位成员。 示例的底部显示出团队中有9名成员。&#xD;
     每个团队（不同颜色的“细胞”）中有一名成员参与“Scrum of Scrums”以协调团队之间的工作。 然后从那些9人的团队中选择另一位成员(斜线所示)参与可能被称为“Scrum of Scrums”的Scrum。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>注：原版的图不知什么原因已经丢失（在英文版本中就已丢失），下图为另外的示意图，和上述的描述，不能完全对应）&lt;/em>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/figure2.jpg&quot; width=&quot;572&quot; height=&quot;360&quot; />&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>
