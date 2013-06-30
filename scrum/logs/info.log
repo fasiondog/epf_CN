@@ -1,35 +1,36 @@
-信息：: 1128 mini-second(s) publishing element CustomCategory:scrum_overview[Scrum\customcategories\scrum_overview_A34DDE47.html]
-信息：CustomCategory:scrum_overview: 1130 mini seconds publishing element
-信息：SupportingMaterial:scrum_overview: 458 mini seconds publishing element
-信息：RoleSet:scrum_roles: 17 mini seconds publishing element
-信息：: 3150 mini-second(s) publishing element Role:product_owner[Scrum\roles\product_owner_10E7BD3.html]
-信息：Role:product_owner: 3150 mini seconds publishing element
-信息：Role:scrummaster: 40 mini seconds publishing element
-信息：Role:scrum_team: 126 mini seconds publishing element
-信息：WorkProductType:scrum_work_products: 23 mini seconds publishing element
-信息：Artifact:potentially_shippable_product_incremement: 515 mini seconds publishing element
-信息：Artifact:product_backlog: 117 mini seconds publishing element
-信息：Artifact:release_burndown_chart: 50 mini seconds publishing element
-信息：Artifact:sprint_backlog: 42 mini seconds publishing element
-信息：Artifact:sprint_burndown_chart: 32 mini seconds publishing element
-信息：Artifact:taskboard: 29 mini seconds publishing element
-信息：Discipline:scrum_activities: 19 mini seconds publishing element
-信息：Task:sprint_planning_meeting: 371 mini seconds publishing element
-信息：Task:sprint_retrospective: 19 mini seconds publishing element
-信息：Task:sprint_review_meeting: 164 mini seconds publishing element
-信息：Task:the_daily_scrum: 18 mini seconds publishing element
-信息：Task:estimating_the_backlog: 21 mini seconds publishing element
-信息：Task:prioritizing_the_backlog: 20 mini seconds publishing element
-信息：Task:release_planning: 19 mini seconds publishing element
-信息：CustomCategory:scrum_guidance: 14 mini seconds publishing element
-信息：Guideline:scrum_of_scrums: 16 mini seconds publishing element
-信息：Guideline:estimation_techniques: 16 mini seconds publishing element
-信息：Guideline:prioritizing_the_backlog: 14 mini seconds publishing element
-信息：SupportingMaterial:scrum_references: 13 mini seconds publishing element
-信息：Concept:story_points: 17 mini seconds publishing element
-信息：CustomCategory:Release Info: 15 mini seconds publishing element
-信息：SupportingMaterial:Release Info V1.0: 12 mini seconds publishing element
-信息：Template:burndown_chart: 407 mini seconds publishing element
-信息：Example:example_product_backlog: 36 mini seconds publishing element
-信息：Example:alternative_release_burndown_chart: 24 mini seconds publishing element
-信息：: Publishing time: 0 minutes 16 seconds
+信息：CustomCategory:scrum_overview: 25 mini seconds publishing element
+信息：SupportingMaterial:scrum_overview: 23 mini seconds publishing element
+信息：RoleSet:scrum_roles: 15 mini seconds publishing element
+信息：Role:product_owner: 35 mini seconds publishing element
+信息：Role:scrummaster: 32 mini seconds publishing element
+信息：Role:scrum_team: 68 mini seconds publishing element
+信息：WorkProductType:scrum_work_products: 16 mini seconds publishing element
+信息：Artifact:potentially_shippable_product_incremement: 18 mini seconds publishing element
+信息：Artifact:product_backlog: 32 mini seconds publishing element
+信息：Artifact:release_burndown_chart: 21 mini seconds publishing element
+信息：Artifact:sprint_backlog: 25 mini seconds publishing element
+信息：Artifact:sprint_burndown_chart: 15 mini seconds publishing element
+信息：Artifact:taskboard: 17 mini seconds publishing element
+信息：Discipline:scrum_activities: 14 mini seconds publishing element
+信息：Task:sprint_planning_meeting: 17 mini seconds publishing element
+信息：Task:sprint_retrospective: 13 mini seconds publishing element
+信息：Task:sprint_review_meeting: 15 mini seconds publishing element
+信息：Task:the_daily_scrum: 15 mini seconds publishing element
+信息：Task:estimating_the_backlog: 14 mini seconds publishing element
+信息：Task:prioritizing_the_backlog: 13 mini seconds publishing element
+信息：Task:release_planning: 14 mini seconds publishing element
+信息：CustomCategory:scrum_guidance: 11 mini seconds publishing element
+信息：Guideline:scrum_of_scrums: 14 mini seconds publishing element
+信息：Guideline:estimation_techniques: 15 mini seconds publishing element
+信息：Guideline:prioritizing_the_backlog: 10 mini seconds publishing element
+信息：SupportingMaterial:scrum_references: 11 mini seconds publishing element
+信息：Concept:story_points: 12 mini seconds publishing element
+信息：CustomCategory:Release Info: 10 mini seconds publishing element
+信息：SupportingMaterial:英汉翻译对照表: 11 mini seconds publishing element
+信息：SupportingMaterial:Release Info: 9 mini seconds publishing element
+信息：TermDefinition:impediments: 11 mini seconds publishing element
+信息：Template:burndown_chart: 24 mini seconds publishing element
+信息：Example:example_product_backlog: 16 mini seconds publishing element
+信息：Example:alternative_release_burndown_chart: 20 mini seconds publishing element
+信息：TermDefinition:sprint_goals: 10 mini seconds publishing element
+信息：: Publishing time: 0 minutes 1 seconds
