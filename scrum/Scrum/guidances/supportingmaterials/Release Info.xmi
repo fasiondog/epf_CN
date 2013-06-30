@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iNN-kF9o1K21Wxe97vfEKA" name="Release Info,_ItBb8N80EeKTtvvJlxlgHA" guid="-iNN-kF9o1K21Wxe97vfEKA" changeDate="2013-06-29T22:26:56.834+0800">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iNN-kF9o1K21Wxe97vfEKA" name="Release Info,_ItBb8N80EeKTtvvJlxlgHA" guid="-iNN-kF9o1K21Wxe97vfEKA" changeDate="2013-07-01T00:18:53.693+0800">
   <mainDescription>&lt;p>&#xD;
-    &lt;strong>2013年6月27日 V1.0&lt;/strong>&amp;nbsp; 翻译：&lt;a href=&quot;http://fasiondog.cn/&quot; target=&quot;_blank&quot;>fasiondog&lt;/a>&#xD;
+    &lt;strong>2013-07-01 V1.1&lt;/strong>&amp;nbsp; 翻译：&lt;a href=&quot;http://fasiondog.cn/&quot; target=&quot;_blank&quot;>fasiondog&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        删除英文对照，发布纯中文版本&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>2013-06-27 V1.0&lt;/strong>&amp;nbsp; 翻译：&lt;a href=&quot;http://fasiondog.cn/&quot; target=&quot;_blank&quot;>fasiondog&lt;/a>&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
