@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9u_igLekEd-D7YZN9NgldQ" guid="_9u_igLekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__g_EkLekEd-D7YZN9NgldQ" id="-cGfGHqSFsvSqPwBKeoShxA" uri="disciplinegroupings/openup_disciplines.xmi"/>
     <resourceDescriptors xmi:id="__g_EkbekEd-D7YZN9NgldQ" id="-PSRjLwuucSbqE2ylFAbF9w" uri="customcategories/practices.xmi"/>
@@ -16,7 +16,7 @@
     <resourceDescriptors xmi:id="__hlhgrekEd-D7YZN9NgldQ" id="-5KKBPZ4Oza-UdqN4OlQiqg" uri="guidances/supportingmaterials/introduction_to_openup.xmi"/>
     <resourceDescriptors xmi:id="__hurcLekEd-D7YZN9NgldQ" id="-id3gpeJmU5zSUE12SUm8Ag" uri="guidances/supportingmaterials/release_info_openup.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4ulTgMg7EdyXeo04os5BOw" name="publish.openup.base" guid="_4ulTgMg7EdyXeo04os5BOw" presentationName="Practices for OpenUP" briefDescription="This plug-in defines content unique to the configuration with the same name." changeDate="2012-05-09T12:30:55.508-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4ulTgMg7EdyXeo04os5BOw" name="publish.openup.base" guid="_4ulTgMg7EdyXeo04os5BOw" presentationName="Practices for OpenUP" briefDescription="This plug-in defines content unique to the configuration with the same name." changeDate="2013-07-03T01:03:49.874+0800">
     <methodElementProperty xmi:id="_-gnM4bekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_gdypQJoNEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -34,9 +34,9 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9u1xh7ekEd-D7YZN9NgldQ" name="StandardCategories" guid="_9u1xh7ekEd-D7YZN9NgldQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9u1xiLekEd-D7YZN9NgldQ" name="CustomCategories" guid="_9u1xiLekEd-D7YZN9NgldQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9u1xibekEd-D7YZN9NgldQ" name="Hidden" guid="_9u1xibekEd-D7YZN9NgldQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9u1xirekEd-D7YZN9NgldQ" name="Custom Categories" guid="_9u1xirekEd-D7YZN9NgldQ" categorizedElements="_s-pk0Mg_EdygFZkm1d5NtQ"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_9u1xirekEd-D7YZN9NgldQ" name="定制类别" guid="_9u1xirekEd-D7YZN9NgldQ" categorizedElements="_s-pk0Mg_EdygFZkm1d5NtQ"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Gc5BIMg9EdyXeo04os5BOw" name="practices" guid="_Gc5BIMg9EdyXeo04os5BOw" presentationName="Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityType="replaces" categorizedElements="_-VOD4CB3Ed2BC837SW9yQQ _L0maICB4Ed2BC837SW9yQQ _TgP0wJoNEeGnJt_Qpwdfdg">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Gc5BIMg9EdyXeo04os5BOw" name="practices" guid="_Gc5BIMg9EdyXeo04os5BOw" presentationName="实践集" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" variabilityType="replaces" categorizedElements="_-VOD4CB3Ed2BC837SW9yQQ _L0maICB4Ed2BC837SW9yQQ _TgP0wJoNEeGnJt_Qpwdfdg">
             <methodElementProperty xmi:id="_-bsQcLekEd-D7YZN9NgldQ" name="PUBLISH_CATEGORY" value="false"/>
             <methodElementProperty xmi:id="_wThg8JoPEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <presentation xmi:id="-PSRjLwuucSbqE2ylFAbF9w" href="uma://-PSRjLwuucSbqE2ylFAbF9w#-PSRjLwuucSbqE2ylFAbF9w"/>
@@ -45,10 +45,12 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_s-pk0Mg_EdygFZkm1d5NtQ" name="view_tabs_for_openup" guid="_s-pk0Mg_EdygFZkm1d5NtQ" presentationName="View Tabs for OpenUP" shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif" categorizedElements="_Sq2EYMhAEdygFZkm1d5NtQ _pA1jIMn6EdyuBO4ZIzcyig"/>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Sq2EYMhAEdygFZkm1d5NtQ" name="epf_practices_library" guid="_Sq2EYMhAEdygFZkm1d5NtQ" presentationName="EPF Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif" categorizedElements="_Gc5BIMg9EdyXeo04os5BOw"/>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pA1jIMn6EdyuBO4ZIzcyig" name="openup" guid="_pA1jIMn6EdyuBO4ZIzcyig" presentationName="OpenUP" shapeicon="customcategories/resources/delproc_lg_dgm32.gif" nodeicon="customcategories/resources/delproc_obj.gif" categorizedElements="_sOaNACatEd21TMX858E1gw _CjSiUMn-EdyuBO4ZIzcyig _lOKqcCB4Ed2BC837SW9yQQ _1LVMUJouEeGnJt_Qpwdfdg"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qktUMMn7EdyuBO4ZIzcyig" name="core_principles_category" guid="_qktUMMn7EdyuBO4ZIzcyig" presentationName="Core Principles" briefDescription="Four core principles capture the general intentions behind OpenUP. They create the foundation for interpreting roles and work products, and for performing tasks." shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif" categorizedElements="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA _9gocwMvoEdqukPpotm3DYg _GXiogMvoEdqukPpotm3DYg">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qktUMMn7EdyuBO4ZIzcyig" name="core_principles_category" guid="_qktUMMn7EdyuBO4ZIzcyig" presentationName="核心原则" briefDescription="Four core principles capture the general intentions behind OpenUP. They create the foundation for interpreting roles and work products, and for performing tasks." shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif" categorizedElements="_ssG6MMvpEdqukPpotm3DYg _KkTIsMp7EdqC_NfSivunjA _9gocwMvoEdqukPpotm3DYg _GXiogMvoEdqukPpotm3DYg">
+            <methodElementProperty xmi:id="_uKgG0OJlEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
             <presentation xmi:id="-2Exr8xUknR1c7fbnPMMrTw" href="uma://-2Exr8xUknR1c7fbnPMMrTw#-2Exr8xUknR1c7fbnPMMrTw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CjSiUMn-EdyuBO4ZIzcyig" name="getting_started" guid="_CjSiUMn-EdyuBO4ZIzcyig" presentationName="Getting Started" briefDescription="This area provides information useful for understanding how to deploy and adopt OpenUP." shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" variabilityType="contributes">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_CjSiUMn-EdyuBO4ZIzcyig" name="getting_started" guid="_CjSiUMn-EdyuBO4ZIzcyig" presentationName="Getting Started" briefDescription="这里提供了帮助理解 如何部署和采用 OpenUP 的有用信息。" shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" variabilityType="contributes">
+            <methodElementProperty xmi:id="_LLnBUOMxEeKv3olp3YBXdQ" name="me_edited" value="true"/>
             <presentation xmi:id="-BZL7M9SUWacUmnxTIShrmA" href="uma://-BZL7M9SUWacUmnxTIShrmA#-BZL7M9SUWacUmnxTIShrmA"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_k0MJEFUOEd2_rMtRMt_EMg"/>
@@ -99,13 +101,15 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_wDZIUOCFEeC1y_NExchKwQ#_nJAmkPUmEeC8PqSK-VPp4w"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_mYfo8OCIEeC1y_NExchKwQ#__-Y2MPWeEeC-OfQYYSW77w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_k0MJEFUOEd2_rMtRMt_EMg" name="understanding_openup" guid="_k0MJEFUOEd2_rMtRMt_EMg" presentationName="Understanding OpenUP" briefDescription="OpenUP is a lean Unified Process that applies iterative and incremental approaches within a structured lifecycle. OpenUP embraces a pragmatic, agile philosophy that focuses on the collaborative nature of software development. It is a tools-agnostic, low-ceremony process that can be extended to address a broad variety of project types." shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" categorizedElements="_Q2ErcMn-EdyuBO4ZIzcyig _jd1tQMn9EdyuBO4ZIzcyig _qktUMMn7EdyuBO4ZIzcyig _xKvXkMn8EdyuBO4ZIzcyig"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_k0MJEFUOEd2_rMtRMt_EMg" name="understanding_openup" guid="_k0MJEFUOEd2_rMtRMt_EMg" presentationName="理解OpenUP" briefDescription="OpenUP是一个精益的统一过程，该过程在一个结构化的生命周期中，提供了迭代和增量的方法。OpenUP强调务实的、关注软件开发协作性的敏捷哲学。是一个与工具无关，低形式要求的过程，可以被扩展处理广泛的各式各样的项目类型。 " shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" categorizedElements="_Q2ErcMn-EdyuBO4ZIzcyig _jd1tQMn9EdyuBO4ZIzcyig _qktUMMn7EdyuBO4ZIzcyig _xKvXkMn8EdyuBO4ZIzcyig">
+            <methodElementProperty xmi:id="_MWf8kOMwEeKv3olp3YBXdQ" name="me_edited" value="true"/>
+          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TgP0wJoNEeGnJt_Qpwdfdg" name="deployment_practice_list" guid="_TgP0wJoNEeGnJt_Qpwdfdg" presentationName="Deployment Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
             <methodElementProperty xmi:id="_X_1lgJoNEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zdZceB8EeC1y_NExchKwQ"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5wOB-EeC1y_NExchKwQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1LVMUJouEeGnJt_Qpwdfdg" name="role_set_list" guid="_1LVMUJouEeGnJt_Qpwdfdg" presentationName="Roles" briefDescription="This category lists roles organized by role set." shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" variabilityType="replaces">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_1LVMUJouEeGnJt_Qpwdfdg" name="role_set_list" guid="_1LVMUJouEeGnJt_Qpwdfdg" presentationName="角色集" briefDescription="此分类提供角色集列表。" shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" variabilityType="replaces">
             <methodElementProperty xmi:id="_1MrQIJouEeGnJt_Qpwdfdg" name="include" value="RoleSet"/>
             <methodElementProperty xmi:id="_6DWrMJouEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHZMRdEdyD76CYS6Ta7A"/>
@@ -157,7 +161,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_9gocwMvoEdqukPpotm3DYg" name="core_principle_focus" guid="_9gocwMvoEdqukPpotm3DYg" presentationName="Focus on the architecture early to minimize risks and organize development" briefDescription="An evolving architecture helps the team to address complexity, drive risk mitigation, and organize development.">
             <presentation xmi:id="-HTMJFV29MTZkKWqnIo01Gg" href="uma://-HTMJFV29MTZkKWqnIo01Gg#-HTMJFV29MTZkKWqnIo01Gg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_sOaNACatEd21TMX858E1gw" name="introduction_to_openup" guid="_sOaNACatEd21TMX858E1gw" presentationName="Introduction to OpenUP" shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="replaces">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_sOaNACatEd21TMX858E1gw" name="introduction_to_openup" guid="_sOaNACatEd21TMX858E1gw" presentationName="OpenUP 简介" shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="replaces">
+            <methodElementProperty xmi:id="_KvKRkOJPEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
             <presentation xmi:id="-5KKBPZ4Oza-UdqN4OlQiqg" href="uma://-5KKBPZ4Oza-UdqN4OlQiqg#-5KKBPZ4Oza-UdqN4OlQiqg"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
             <conceptsAndPapers href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_DI_tICNaEdyCq8v2ZO4QcA"/>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yUsnoOJrEeKz5sNvSNvWvQ" guid="_yUsnoOJrEeKz5sNvSNvWvQ">
+    <resourceDescriptors xmi:id="_kZbQcOM4EeKv3olp3YBXdQ" id="-1p6i8UFpTI8utz9ScGjJWg" uri="guidances/supportingmaterials/release_info.xmi"/>
+    <resourceDescriptors xmi:id="_xpcNoOM7EeKv3olp3YBXdQ" id="-n1Mi0VJmTIKoj5oHvqWuBg" uri="guidances/supportingmaterials/copyright.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_yUl58OJrEeKz5sNvSNvWvQ" name="中文版.release_copyright.base" guid="_yUl58OJrEeKz5sNvSNvWvQ" changeDate="2013-07-03T01:10:24.523+0800">
+    <methodElementProperty xmi:id="_yUtOsOJrEeKz5sNvSNvWvQ" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_TLRQcOM6EeKv3olp3YBXdQ" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl58eJrEeKz5sNvSNvWvQ" name="Content" guid="_yUl58eJrEeKz5sNvSNvWvQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl58uJrEeKz5sNvSNvWvQ" name="Categories" guid="_yUl58uJrEeKz5sNvSNvWvQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl58-JrEeKz5sNvSNvWvQ" name="Domains" guid="_yUl58-JrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl59OJrEeKz5sNvSNvWvQ" name="Disciplines" guid="_yUl59OJrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl59eJrEeKz5sNvSNvWvQ" name="RoleSets" guid="_yUl59eJrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl59uJrEeKz5sNvSNvWvQ" name="WP Types" guid="_yUl59uJrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl59-JrEeKz5sNvSNvWvQ" name="Tools" guid="_yUl59-JrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl5-OJrEeKz5sNvSNvWvQ" name="StandardCategories" guid="_yUl5-OJrEeKz5sNvSNvWvQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl5-eJrEeKz5sNvSNvWvQ" name="CustomCategories" guid="_yUl5-eJrEeKz5sNvSNvWvQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl5-uJrEeKz5sNvSNvWvQ" name="Hidden" guid="_yUl5-uJrEeKz5sNvSNvWvQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_yUl5--JrEeKz5sNvSNvWvQ" name="定制类别" guid="_yUl5--JrEeKz5sNvSNvWvQ" categorizedElements="_mgOk4OM4EeKv3olp3YBXdQ"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_mgOk4OM4EeKv3olp3YBXdQ" name="chinese_release_info" guid="_mgOk4OM4EeKv3olp3YBXdQ" shapeicon="customcategories/resources/whats_new.gif" nodeicon="customcategories/resources/whats_new_obj.gif" variabilityType="contributes" categorizedElements="_MIdgoOJsEeKz5sNvSNvWvQ">
+            <methodElementProperty xmi:id="_qgiYoOM4EeKv3olp3YBXdQ" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_yUl5_OJrEeKz5sNvSNvWvQ" name="CoreContent" guid="_yUl5_OJrEeKz5sNvSNvWvQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_3fvJIOJrEeKz5sNvSNvWvQ" name="release_info" guid="_3fvJIOJrEeKz5sNvSNvWvQ" presentationName="中文版发布说明">
+          <methodElementProperty xmi:id="_3fvwMOJrEeKz5sNvSNvWvQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_75TKYOJrEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_MIdgoOJsEeKz5sNvSNvWvQ" name="release_info" guid="_MIdgoOJsEeKz5sNvSNvWvQ" presentationName="中文版发布说明" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <methodElementProperty xmi:id="_scrO4OJsEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-1p6i8UFpTI8utz9ScGjJWg" href="uma://-1p6i8UFpTI8utz9ScGjJWg#-1p6i8UFpTI8utz9ScGjJWg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_hVAV0OM7EeKv3olp3YBXdQ" name="copyright" guid="_hVAV0OM7EeKv3olp3YBXdQ" variabilityType="contributes">
+            <methodElementProperty xmi:id="_xpZxYOM7EeKv3olp3YBXdQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-n1Mi0VJmTIKoj5oHvqWuBg" href="uma://-n1Mi0VJmTIKoj5oHvqWuBg#-n1Mi0VJmTIKoj5oHvqWuBg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yUl5_eJrEeKz5sNvSNvWvQ" name="CapabilityPatterns" guid="_yUl5_eJrEeKz5sNvSNvWvQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yUl5_uJrEeKz5sNvSNvWvQ" name="DeliveryProcesses" guid="_yUl5_uJrEeKz5sNvSNvWvQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_yUl5_-JrEeKz5sNvSNvWvQ" name="ProcessContributions" guid="_yUl5_-JrEeKz5sNvSNvWvQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

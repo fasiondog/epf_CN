@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9UnTr7ekEd-D7YZN9NgldQ" guid="_9UnTr7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-7lRcLekEd-D7YZN9NgldQ" id="-WeT7CrjLCAbaJKlpVk3O8w" uri="guidances/supportingmaterials/release_info_iterative_dev.xmi"/>
     <resourceDescriptors xmi:id="_-7vCcLekEd-D7YZN9NgldQ" id="-Aw8p59vJ9rWsOV82rljQiQ" uri="guidances/reports/iteration_burndown.xmi"/>
@@ -29,7 +29,7 @@
     <resourceDescriptors xmi:id="_--ajALekEd-D7YZN9NgldQ" id="_BcBR8KX5EdmvhNXG0Oc2uA" uri="workproducts/iteration_plan.xmi"/>
     <resourceDescriptors xmi:id="_--ajAbekEd-D7YZN9NgldQ" id="-i0ekME-sXjZ7YmeJwZzW_A" uri="workproducts/work_items_list.contributes.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" name="practice.mgmt.iterative_dev.base" guid="_qqyzAJ6WEdyQN-zRFaRrCQ" presentationName="Iterative Development" briefDescription="Create a solution in increments.  Each increment is completed in a fixed period of time, an &quot;iteration&quot;." changeDate="2008-02-22T06:31:42.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qqyzAJ6WEdyQN-zRFaRrCQ" name="practice.mgmt.iterative_dev.base" guid="_qqyzAJ6WEdyQN-zRFaRrCQ" presentationName="Iterative Development" briefDescription="Create a solution in increments.  Each increment is completed in a fixed period of time, an &quot;iteration&quot;." changeDate="2008-02-22T22:31:42.000+0800">
     <methodElementProperty xmi:id="_-gnMw7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9UnToLekEd-D7YZN9NgldQ" name="Content" guid="_9UnToLekEd-D7YZN9NgldQ">
@@ -100,7 +100,8 @@
             <contentReferences xsi:type="org.eclipse.epf.uma:Report" href="#_uAzgkDg3Edu4E8ZdmlYjtA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_DI_tICNaEdyCq8v2ZO4QcA" name="iteration_lifecycle" guid="_DI_tICNaEdyCq8v2ZO4QcA" presentationName="Iteration Lifecycle" briefDescription="The iteration lifecycle provides a set of team-based practices describing how to leverage iterations to focus the team on delivering incremental value to stakeholders in a predictable manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_DI_tICNaEdyCq8v2ZO4QcA" name="iteration_lifecycle" guid="_DI_tICNaEdyCq8v2ZO4QcA" presentationName="迭代生命周期" briefDescription="迭代生命周期（Iteration Lifecycle）提供了一组基于团队的实践，这些实践描述了如何利用迭代聚焦于团队以可预见的方式向利益相关人交付增量价值。">
+            <methodElementProperty xmi:id="___SA4OMyEeKv3olp3YBXdQ" name="me_edited" value="true"/>
             <presentation xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" href="uma://-5xbLr54QjpynnPU8ZJ3_fw#-5xbLr54QjpynnPU8ZJ3_fw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_S80VwCNbEdyCq8v2ZO4QcA" name="micro_increments" guid="_S80VwCNbEdyCq8v2ZO4QcA" presentationName="Micro-Increments" briefDescription="A micro-increment is a small, measurable step towards reaching the goals of an iteration. A micro-increment represents the outcome of a few hours to a few days of work performed by one person (or typically a few people collaborating) to reach a goal.">

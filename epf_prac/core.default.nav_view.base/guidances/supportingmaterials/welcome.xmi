@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-GHjXglv-7VqexaeTpzqp3Q" name="new_supporting_material,_g910gCapEd21TMX858E1gw" guid="-GHjXglv-7VqexaeTpzqp3Q" changeDate="2008-08-05T01:32:14.000-0700" version="7.5.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-GHjXglv-7VqexaeTpzqp3Q" name="new_supporting_material,_g910gCapEd21TMX858E1gw" guid="-GHjXglv-7VqexaeTpzqp3Q" changeDate="2013-07-01T21:30:05.027+0800" version="7.5.0">
   <mainDescription>&lt;br />&#xD;
 &lt;table title=&quot;&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot;>&#xD;
     &lt;tbody>&#xD;
         &lt;tr>&#xD;
             &lt;td>&#xD;
-                &lt;img alt=&quot;image of jigsaw pieces&quot; src=&quot;resources/practices.jpg&quot; width=&quot;198&quot; height=&quot;165&quot; />&#xD;
+                &lt;img alt=&quot;image of jigsaw pieces&quot; src=&quot;resources/practices.jpg&quot; width=&quot;198&quot; height=&quot;165&quot; /> &#xD;
             &lt;/td>&#xD;
             &lt;td>&#xD;
                 &lt;h2>&#xD;
@@ -61,19 +61,19 @@
                 &lt;/div>&#xD;
             &lt;/td>&#xD;
         &lt;/tr>&#xD;
-        &lt;tr valign=&quot;top&quot; align=&quot;middle&quot;>&#xD;
+        &lt;tr valign=&quot;top&quot; align=&quot;center&quot;>&#xD;
             &lt;td width=&quot;96&quot;>&#xD;
                 &lt;div align=&quot;center&quot;>&#xD;
                     &lt;a class=&quot;elementLink&quot;&#xD;
                     href=&quot;./../../../core.default.nav_view.base/customcategories/getting_started_list_87D18B69.html&quot;&#xD;
-                    guid=&quot;_WCIHYMRdEdyD76CYS6Ta7A&quot;>Getting Started&lt;/a>&#xD;
+                    guid=&quot;_WCIHYMRdEdyD76CYS6Ta7A&quot;>开始&lt;/a>&#xD;
                 &lt;/div>&#xD;
             &lt;/td>&#xD;
             &lt;td width=&quot;95&quot;>&#xD;
                 &lt;div align=&quot;center&quot;>&#xD;
                     &lt;a class=&quot;elementLink&quot;&#xD;
                     href=&quot;./../../../core.default.nav_view.base/customcategories/structured_practice_list_402CA5A4.html&quot;&#xD;
-                    guid=&quot;_RJ__ECLJEd2ct852UDqXGQ&quot;>Practices&lt;/a>&#xD;
+                    guid=&quot;_RJ__ECLJEd2ct852UDqXGQ&quot;>实践集&lt;/a>&#xD;
                 &lt;/div>&#xD;
             &lt;/td>&#xD;
             &lt;td width=&quot;88&quot;>&#xD;
@@ -100,7 +100,7 @@
             &lt;td width=&quot;98&quot;>&#xD;
                 &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
                 href=&quot;./../../../core.default.nav_view.base/customcategories/delivery_process_list_81087F8F.html&quot;&#xD;
-                guid=&quot;_WCIHYsRdEdyD76CYS6Ta7A&quot;>Processes&lt;/a>&#xD;
+                guid=&quot;_WCIHYsRdEdyD76CYS6Ta7A&quot;>Processes&lt;/a> &#xD;
             &lt;/td>&#xD;
         &lt;/tr>&#xD;
     &lt;/tbody>&#xD;

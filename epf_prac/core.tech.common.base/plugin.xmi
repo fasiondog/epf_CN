@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9RCbMLekEd-D7YZN9NgldQ" guid="_9RCbMLekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-uU4kLekEd-D7YZN9NgldQ" id="-aCI9T-9TIe8D35yXBU6qvg" uri="guidances/supportingmaterials/references.tech.xmi"/>
     <resourceDescriptors xmi:id="_-unzgLekEd-D7YZN9NgldQ" id="-VJBtRm2brEKpRlnLWNF8_g" uri="guidances/termdefinitions/pattern.xmi"/>
@@ -12,7 +12,7 @@
     <resourceDescriptors xmi:id="_-vNpYrekEd-D7YZN9NgldQ" id="-vq2pL6yQuqGhql9Wo_Av4w" uri="guidances/termdefinitions/furps.xmi"/>
     <resourceDescriptors xmi:id="_-vXaYLekEd-D7YZN9NgldQ" id="-0sCBiohjw_wBDKk0WEeDJQ" uri="guidances/termdefinitions/requirement.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Qyp8YGpiEd24CboUCnKL3A" name="core.tech.common.base" guid="_Qyp8YGpiEd24CboUCnKL3A" presentationName="Technical Common" changeDate="2008-08-20T08:36:12.000-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Qyp8YGpiEd24CboUCnKL3A" name="core.tech.common.base" guid="_Qyp8YGpiEd24CboUCnKL3A" presentationName="Technical Common" changeDate="2008-08-20T23:36:12.000+0800">
     <methodElementProperty xmi:id="_-gnMvrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_8-xXYJrGEeGh3oL3htx9ag" name="me_edited" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -51,7 +51,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_d82_AEvDEdunZcj9T5hrMQ" name="component" guid="_d82_AEvDEdunZcj9T5hrMQ" presentationName="component">
             <presentation xmi:id="-BWZsh3vKrqSOzfkBJmDTLA" href="uma://-BWZsh3vKrqSOzfkBJmDTLA#-BWZsh3vKrqSOzfkBJmDTLA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Z-AukEvpEdunZcj9T5hrMQ" name="build" guid="_Z-AukEvpEdunZcj9T5hrMQ" presentationName="build">
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_Z-AukEvpEdunZcj9T5hrMQ" name="build" guid="_Z-AukEvpEdunZcj9T5hrMQ" presentationName="构建（Build）">
+            <methodElementProperty xmi:id="_q-mgkOMrEeKv3olp3YBXdQ" name="me_edited" value="true"/>
             <presentation xmi:id="-Wh-byAGHoy_gGry0Jq6VaA" href="uma://-Wh-byAGHoy_gGry0Jq6VaA#-Wh-byAGHoy_gGry0Jq6VaA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_lzAWkK9eEdyltJ0KgEd9WQ" name="code_instrumentation" guid="_lzAWkK9eEdyltJ0KgEd9WQ" presentationName="code instrumentation">
