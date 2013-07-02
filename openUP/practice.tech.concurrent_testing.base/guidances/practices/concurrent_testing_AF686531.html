@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Concurrent Testing</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="concurrent_testing">
+<meta name="uma.presentationName" content="Concurrent Testing">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_9z1PgJ6NEdyQN-zRFaRrCQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Concurrent Testing</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This practice describes how to fold testing into agile development.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.concurrent_testing.base/guidances/roadmaps/how_to_adopt_concurrent_testing_B84C80BA.html" guid="_rV_9MPndEdyLA5PXdgVJXw">How to Adopt the Concurrent Testing practice</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/test_ideas_ED562B58.html" guid="_0jnYcMlgEdmt3adZL5Dmdw">Test Ideas</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html" guid="_0aJ6cMlgEdmt3adZL5Dmdw">Testing Qualitative Requirements</a>
+</li>
+</ul>
+<ul>
+<li>工作产品</li>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/test_case_335C5DEA.html" guid="_0ZS-0MlgEdmt3adZL5Dmdw">Test Case</a>
+</li>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html" guid="_0ZlSsMlgEdmt3adZL5Dmdw">Test Log</a>
+</li>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>任务</li>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html" guid="_0iwc0clgEdmt3adZL5Dmdw">Create Test Cases</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>指导信息</li>
+<ul>
+<li>指南</li>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/maintaining_automated_test_suite_13EF3D5.html" guid="_0kF5kMlgEdmt3adZL5Dmdw">Maintaining Automated Test Suites</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html" guid="_0j5sUMlgEdmt3adZL5Dmdw">Programming Automated Tests</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/test_ideas_55AF9B0F.html" guid="_0jzlsMlgEdmt3adZL5Dmdw">Test Ideas</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html" guid="_0aDz0MlgEdmt3adZL5Dmdw">Test Suite</a>
+</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[Technical Implementation]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[Technical Specification]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell">This practice adopts testing throughout an iteration, concurrent with development. This prevents teams from compressing
+testing into a separate activity at the end of an iteration or release. Concurrent testing reinforces the concept of
+feature teams working in parallel.</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    This practice requires a high degree of integration and high-bandwidth communication between developers and testers.
+    Given these requirements, the following are the main conditions for applying this practice:
+</p>
+<ul>
+    <li>
+        <b>Coverage:</b> Component, feature, and subsystem (or system) testing
+    </li>
+    <li>
+        <b>Team considerations:</b> Small team with embedded tester or testers
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">如何读取该实践</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    Use a multi-prong approach when you review this practice. You can start by focusing on the work products that will be
+    produced or used during testing and then shift to the tasks involved in processing those artifacts. You might play
+    different roles within your team. If you are a tester, then you will need to get a very good understanding of the
+    artifacts, the tasks, and the guidelines supporting them. For a developer, the main points of interest are the
+    artifacts used within this practice.
+</p>
+<p>
+    Start with the Test artifacts, read their description, and understand when they are used (produced or used), by whom,
+    and which roles are mainly responsible:
+</p>
+<ul>
+    <li>
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/workproducts/test_case_335C5DEA.html" guid="_0ZS-0MlgEdmt3adZL5Dmdw">Test Case</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html" guid="_0ZlSsMlgEdmt3adZL5Dmdw">Test Log</a>
+    </li>
+</ul>
+<p>
+    Switch the focus to tasks and, depending on your main role within the team, review the associated guidelines, concepts
+    and, if applicable, the tool-related guidance:
+</p>
+<ul>
+    <li>
+        <a class="elementLink" href="./../../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html" guid="_0iwc0clgEdmt3adZL5Dmdw">Create Test Cases</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

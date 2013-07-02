@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Evolve the Design</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="evolve_the_design">
+<meta name="uma.presentationName" content="Evolve the Design">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_C4U9QPTeEduDKIuqTXQ8SA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Evolve the Design</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes techniques to refine and evolve the design of the software. Good object-oriented techniques are applied within the context of the architecture <br/>&#xD;&#xA;to create a system design that's understandable, extensible, and maintainable.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">Design the Solution</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Review the design
+</h3>
+<p>
+    Design is best accomplished collaboratively, because it is a problem-solving activity with a range of&nbsp;parts and
+    perspectives. There should be a constant level of review to ensure that the decisions make sense within the area being
+    designed and in the design of the system overall. There also might be occasions where some area of design is reviewed
+    by a set of interested or knowledgeable parties, such as the architect who will verify that the design conforms to an
+    architectural decision or a developer who will be expected to implement the design.
+</p>
+<p>
+    The design should be examined to ensure that it follows heuristics of quality design, such as loose coupling and high
+    cohesion. Responsibilities should be appropriately distributed to elements in ways that there are no elements with too
+    much responsibility and no elements that are left without any responsibilities. The design should be able to clearly
+    communicate the design decisions, yet not delve into concerns best dealt with during implementation of code.
+</p>
+<p>
+    Ensure that the design follows any project-specific guidelines and conforms to the architecture. Modifications to the
+    design to improve it (based on issues identified in reviewing it) should apply <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>&nbsp;to ensure that the design and any existing implementation of the
+    design continues to fulfill its responsibilities.
+</p>Revisit the relationships between elements to improve the coupling in the design. Remove redundant relationships, try
+to make relationships unidirectional, and so forth. See <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Guideline：Analyze the Design</a> for more information. 
+<h3>
+    Refine the design
+</h3>
+<p>
+    After creating an implementation that includes a set of collaborating elements, with the behavior and relationships
+    robust enough to pass developer tests, the design can be improved and transformed into a more robust and maintainable
+    system.
+</p>
+<p>
+    The visibility of each operation should be selected to be as restrictive as possible. Based on walking through the
+    scenario, it should be clear which operations must be available to other elements in the design and which can be
+    considered behavior inside of the element that has the operation. Minimizing the number of public operations creates a
+    more maintainable and understandable design.
+</p>
+<p>
+    With respect to parameters, the return value, and a description of how it perform the behavior, operations can be
+    detailed at a lower level that drives the actual implementation, or that detail might be left to be handled when
+    writing the code.
+</p>
+<p>
+    Data attributes can be identified based on information needed to support behavior or based on additional requirements,
+    such as information to be presented to the user or transmitted to another system. Avoid indiscriminate domain analysis,
+    because there might be a great deal of data in the domain that is not needed to support the requirements. Data
+    attributes can simply be identified or they can be designed in detail, with attribute types, initial values, and
+    constraints. Decide on the visibility of the data attribute; operations to access and update the data can be added or
+    deferred until implementation.
+</p>
+<p>
+    Generalization and interfaces can be applied to simplify or otherwise improve the design. Ensure that the use of these
+    techniques actually improves the design, rather than bogging it down with complexity. For example, common behavior can
+    be factored into a parent class through generalization or out to a helper class through delegation. The latter solution
+    can be more understandable and maintainable, because generalization is an inflexible relationship (see the section that
+    follows on inheritance).
+</p>
+<p>
+    The refinement of any portion of the design could include another pass through the design process. You might find that
+    what was initially identified as a single behavior of an element warrants a detailed walkthrough of the collaborating
+    elements to realize that behavior.
+</p>
+<p>
+    When updating an existing design -- especially one that has had portions already implemented -- apply refactoring to
+    ensure that the improved design continues to perform as expected.
+</p>
+<h4>
+    Organize elements
+</h4>
+<p>
+    In a design of any notable size, the elements must be organized into packages. Assign the elements to existing or new
+    packages, and ensure that the visibility relationships between the packages support the navigation required between the
+    elements. Decide whether each element should be visible to elements outside of the package.
+</p>
+<p>
+    When structuring the design into packages, consider <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/guidelines/layering_F169CF07.html" guid="_0gpkAMlgEdmt3adZL5Dmdw">Layering</a> and other patterns. Although all design work must conform to existing
+    architectural decisions, the allocation of elements to packages and possible updates to package visibility are of
+    significant architectural concern. The developer should collaborate with the architect to ensure that package-level
+    decisions are in accordance with the rest of the architecture.
+</p>
+<p>
+    This guideline first talks about the identification and design of the elements and then about organizing the elements
+    into packages. However, this is not a strict order of events. There is nothing wrong with identifying a package
+    structure for the system and then populating that structure with identified elements, as long as the actual elements
+    identified are allowed to influence the resulting package structure. See the sections on identification and behavior of
+    elements in <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Guideline：Analyze the Design</a>.
+</p>
+<h4>
+    Identify patterns
+</h4>
+<p>
+    Identifying <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>s and seeking opportunities to leverage patterns are useful techniques. The
+    value of patterns here is that they provide a shortcut to a robust design. For instance, when there's an interface
+    realized by multiple classes, it's possible that an Abstract Factory pattern will be useful, because the pattern
+    encapsulates the logic of what class should be instantiated. The more experienced a developer is, the better the
+    developer is at identifying opportunities to take advantage of, or leverage, patterns.
+</p>
+<p>
+    The longer you use patterns, the easier it will be to identify opportunities to leverage them. At first, look for
+    places where you can clearly specify the need for some behavior. Perhaps there's a place where some function or
+    algorithm must be shared between many different classes. How can this behavior be shared over and over among
+    heterogeneous classes? Or perhaps a third-party library is replacing a block of custom code. Is there a way to make
+    this transition easier by creating an interface that can use either implementation? These are opportunities for finding
+    or possibly creating a pattern.
+</p>
+<p>
+    See also <a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#GAM95" guid="__nHToFndEd2EdJKkAyeBng">[GAM95]</a>&nbsp;and <a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#SHA05" guid="__nHToFndEd2EdJKkAyeBng">[SHA05]</a>
+</p>
+<h3>
+    Inheriting behavior versus inheriting interfaces
+</h3>
+<p>
+    Inheritance (or generalization) is often used as a shortcut during implementation to quickly re-use behavior (code).
+</p>
+<p>
+    <b>Caution:</b><br />
+    Work hard to remove behavior inheritance in design. It will almost always cost more effort than it saves.
+</p>
+<p>
+    Inheritance is a very rigid structure with strict rules. A class that inherits from another class is establishing an
+    <b>is-a</b> relationship. The inheriting class is a type of the parent class-- the child has the same relationships and
+    behaviors as the parent. In most hierarchies, it will be impossible to maintain this type of relationship. Exceptions
+    quickly creep in, and it's common to find child classes that remove or override behavior in the parent classes. This
+    increases maintenance costs and makes it difficult to understand what each class does.
+</p>
+<p>
+    It's also too tempting to instantiate parent classes, which makes the parent class both abstract and concrete. If a
+    class has children, it must be abstract enough to support the generalized behavior of the children. But if it's
+    instantiated, it must be concrete enough to provide specific behavior. It's rarely possible to fulfill both of these
+    competing imperatives at the same time, and the design suffers.
+</p>
+<p>
+    Use association and aggregation relationships instead of inheriting behavior. Patterns are a good tool to leverage in
+    breaking up inheritance hierarchies.
+</p>
+<p>
+    Inheriting interfaces is safe, because only the description and not the implementation of what needs to be done is
+    reused.
+</p>
+<p>
+    Avoiding inheriting behavior is an application of the Open-Closed Principle. See <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Concept：Design</a> for more information.
+</p>
+<h3>
+    <strong>Revisit the analysis</strong>
+</h3>
+<p>
+    The <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Guideline：Analyze the Design</a>&nbsp;describes techniques that are also useful when
+    evolving a more robust design.<br />
+</p>
+<h4>
+    <strong>Consider the architecture</strong>
+</h4>
+<p>
+    The architecture must be considered in all design changes. The "best" design for a particular part of the solution may
+    not be appropriate because of architectural constraints that must support the entire system. The architecture may also
+    help to make design decisions, because it can be part of the selection criteria between two potential solutions.
+    Developers should always be up-to-date with the architecture and review it often, particularly in early iterations.
+</p>
+<p>
+    This guideline remarks on conforming to the architecture in various ways; it is written as though it is about designing
+    within a pre-existing architecture. Although projects will often have pre-existing architectures available, a
+    particular architecture is the result of design activities. Therefore, in addition to discussing conformance to some
+    existing architecture, you must also consider the creation of the architecture, as well as updates and improvements
+    based on the work of design.
+</p>
+<p>
+    Also, see&nbsp;<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#SHA05" guid="__nHToFndEd2EdJKkAyeBng">[SHA05]</a> for a&nbsp;useful introduction to object-oriented techniques that should be
+    applied when evolving a good design.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">核对表</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/checklists/design_68980812.html" guid="_0XSzsMlgEdmt3adZL5Dmdw">Design</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">概念</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Design</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/refactoring_1B63BA3B.html" guid="_Poc7IPDzEdqYgerqi84oCA">Refactoring</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/requirements_realization_55C64ACB.html" guid="_T9FbYFRFEd2o7OqLaYh8nA">Requirements Realization</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">指南</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/designing_visually_BDE9A06A.html" guid="_1fM3AC9_EduW5uTjiIcspQ">Designing Visually</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Software Reuse</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

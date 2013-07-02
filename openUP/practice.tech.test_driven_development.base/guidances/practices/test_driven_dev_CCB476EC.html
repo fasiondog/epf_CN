@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Test Driven Development</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="test_driven_dev">
+<meta name="uma.presentationName" content="Test Driven Development">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_FUDtMB4mEd2bS8fFOQ7WWA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Test Driven Development</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/guidances/roadmaps/adopt_tdd_practice_7D642D12.html" guid="_8yG48JRqEdyrdaw_xGakyw">How to Adopt the Test Driven Development Practice</a>
+</li>
+</ul>
+<ul>
+<li>关键概念</li>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/coding_standard_1FF691E0.html" guid="_aGqAsJ01EdyQ3oTO93enUw">Coding Standard</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/guidances/concepts/collective_code_ownership_E71A897B.html" guid="_xYMPoCZnEdyUaK463Ozu5g">Collective Code Ownership</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/developer_testing_FEBDAED6.html" guid="_ADwlAJRtEdyrdaw_xGakyw">Developer Testing</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/refactoring_1B63BA3B.html" guid="_Poc7IPDzEdqYgerqi84oCA">Refactoring</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">Developer Test</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/implementation_AFFEFC46.html" guid="_JqYbgJ01EdyQ3oTO93enUw">Implementation</a>
+</li>
+</ul>
+<ul>
+<li>任务</li>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/tasks/implement_developer_tests_C61D8062.html" guid="_znlIcJR9EdyVKbgqUOtqQA">Implement Developer Tests</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/tasks/implement_solution_BB8B03DA.html" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ">Implement Solution</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/tasks/run_developer_tests_3D3E4A79.html" guid="_R7atwJfIEdyZkIR-s-Y8wQ">Run Developer Tests</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>指导信息</li>
+<ul>
+<li>
+<img src="./../../../images/supportingmaterial.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/guidances/supportingmaterials/using_tdd_in_context_2ADBB50B.html" guid="_vLvAUGjFEd2PJ-nlV-86WA">Using TDD in context</a>
+</li>
+<li>指南</li>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/developer_testing_9974EA47.html" guid="_ByOd4O6pEduvoopEslG-4g">Developer Testing</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/mapping_design_to_code_FA4B08DA.html" guid="_mlKb8JyJEdy9brKHb521mQ">Mapping from Design to Code</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.test_driven_development.base/guidances/guidelines/test_driven_development_F581182D.html" guid="_5s_DUJ03EdyQ3oTO93enUw">Test Driven Development</a>
+</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_design_slot_84295A08.html" guid="_IcQOUEqdEdyi3_jfs__bIQ">[Technical Design]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[Technical Implementation]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[Technical Specification]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The test driven development practice reduces time to market by reducing the amount of time needed to integrate and
+    stabilize builds. It improves productivity by finding and fixing errors close to the time that they are introduced. And
+    it increases the overall quality of the software by guaranteeing that all new code has been tested, and all existing
+    code has been regression tested, prior to check-in.
+</p>
+<p>
+    Developers use TDD to create the <a class="elementLink" href="./../../../core.tech.common.extend_supp/workproducts/implementation_AFFEFC46.html" guid="_JqYbgJ01EdyQ3oTO93enUw">Implementation</a> and the <a class="elementLink" href="./../../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">Developer Test</a>s.
+</p>
+<p>
+    See the <a class="elementLink" href="./../../../practice.tech.test_driven_development.base/guidances/roadmaps/adopt_tdd_practice_7D642D12.html" guid="_8yG48JRqEdyrdaw_xGakyw">How to Adopt the Test Driven Development Practice</a> for information on navigating the
+    TDD Practice.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">背景</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    TDD was originally part of Kent Beck's Extreme Programming process. It's now also used in many other Agile and
+    non-Agile contexts.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    Test driven development (TDD) is the practice of writing developer tests and implementation code concurrently and at a
+    very fine level of granularity.
+</p>
+<p>
+    In test driven design, the developer first writes a small test to validate a small change, runs the test to ensure that
+    it fails (a sanity check), and then writes just enough implementation code to make that developer test run
+    successfully. This cycle is short and it rarely goes beyond 10 minutes. In each cycle, the tests come first. Once a
+    test is done, the developer goes on to the next test until there are no more tests to be written for the implementation
+    of the work item currently under development.
+</p>
+<p>
+    <img alt="file:///C:/Documents%20and%20Settings/Administrator/Desktop/tdd_flow.jpg" src="./../../../practice.tech.test_driven_development.base/guidances/practices/resources/tdd_flow.jpg" />
+</p>
+<p>
+    The practice of test driven development changes how the developer thinks. Tests are not written as an afterthought.
+    Instead, developer tests are written as part of the everyday, every minute way of building software.
+</p>
+<p>
+    What are the advantages of test driven design?
+</p>
+<ol>
+    <li>
+        Assumptions in the design are analyzed before the implementation code is written. To write developer tests, an
+        examination must be made of the behavior of each piece of code to be written. Correct and incorrect behaviors must
+        be defined. In a way, writing the tests before the code can be considered a version of detailed design.
+    </li>
+    <li>
+        Code units designed for testability up front are cleaner and more loosely coupled.
+    </li>
+    <li>
+        Errors are found earlier. Errors or gaps in the requirements and design are identified before coding begins, when
+        it could be tempting to move ahead based on assumptions.
+    </li>
+    <li>
+        A clearer collaboration strategy between the developer and others that might be responsible for the requirements,
+        architecture, and design is put in place. During the creation of the tests, there must be a meeting of the minds as
+        to what has been specified. After that, the implementation can carry on with confidence that there is a shared
+        vision of what the code should do.
+    </li>
+    <li>
+        There are unambiguous criteria for completion of the code. When the tests conclude successfully, the code is
+        working as specified. Non-functional quality dimensions can be dealt with separately, but there is a clear moment
+        when the code behaves correctly.
+    </li>
+    <li>
+        The technique drives the developer to work in smaller increments with faster quality feedback. At any time, the
+        developer is just one test away from having error-free code.
+    </li>
+    <li>
+        There is a separation of concerns and effort between getting code working and improving the quality of the code
+        that already runs correctly. Separating out these two areas of concern provides focus and time management support
+        to a developer. In one pass over the implementation, the developer makes it pass the tests as simply as possible,
+        and then in a subsequent pass, looks for areas to improve.
+    </li>
+</ol>
+<p>
+    See <a class="elementLink" href="./../../../practice.tech.test_driven_development.base/guidances/supportingmaterials/using_tdd_in_context_2ADBB50B.html" guid="_vLvAUGjFEd2PJ-nlV-86WA">Using TDD in context</a> for more information.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">其他信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    If you are just getting started with TDD or developer testing in general, you will need to know why developer testing
+    is a good idea, and the basics of what makes good developer tests. A good starting place is this <a href="http://itc.conversationsnetwork.org/shows/detail301.html" target="_blank">Kent Beck presentation</a>. Kent Beck
+    is the creator of Extreme Programming, which is where TDD was originally defined.
+</p>
+<p>
+    Here are some useful links to expand your understanding of TDD. Make use of these as you learn to enact TDD. Some of
+    these links are also good resources for on-going support and information.
+</p>
+<ul>
+    <li>
+        The <a href="http://en.wikipedia.org/wiki/Test_driven_development" target="_blank">TDD: Wikipedia</a> entry gives
+        an overview of TDD and links to other TDD resources.
+    </li>
+    <li>
+        <a href="http://blog.james-carr.org/?p=44" target="_blank">James Carr's TDD Anti-pattern Catalogue</a> lists some
+        things to avoid when adopting TDD.
+    </li>
+    <li>
+        The <a href="http://blog.james-carr.org/?p=44" target="_blank">TDD Mailing List</a> is a discussion forum for TDD
+        questions and issues.
+    </li>
+    <li>
+        <a href="http://www.testdriven.com/" target="_blank">Testdriven.com</a> is a developer testing site with a wealth
+        of information, news, and partner links about developer testing.
+    </li>
+    <li>
+        Read the TDD whitepaper <a href="http://www.agiledata.org/essays/tdd.html" target="_blank">Introduction to TDD.</a>
+    </li>
+</ul>
+<p>
+    Once you are familiar with the basics of TDD, select various tasks to view more detail about what needs to be done to
+    perform the task. If you will be creating a capability pattern or delivery process that includes TDD, see <a class="elementLink" href="./../../../practice.tech.test_driven_development.base/guidances/supportingmaterials/using_tdd_in_context_2ADBB50B.html" guid="_vLvAUGjFEd2PJ-nlV-86WA">Using TDD in context</a>. This shows one example of how TDD can be used in conjunction
+    with other activities and capability patterns to create a pattern for developing software. This is only one possible
+    example: there are many was to use TDD with other development practices.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

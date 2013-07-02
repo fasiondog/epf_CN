@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Identify Common Architectural Mechanisms</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="identify_common_architectural_mechanisms">
+<meta name="uma.presentationName" content="Identify Common Architectural Mechanisms">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_M2lNcJo7Ed2Jdb_Cbj3yAA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Identify Common Architectural Mechanisms</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Many architectural mechanisms have common characteristics that can be used to quickly identify mechanisms that are useful in defining the system.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><table cellspacing="0" cellpadding="2" width="85%" summary="Example Architectural Mechanisms" border="1" valign="top">
+    <tbody>
+        <tr>
+            <th scope="col">
+                Architectural Mechanism
+            </th>
+            <th scope="col">
+                Description
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Availability
+            </td>
+            <td>
+                The percentage of time that the system must be available for use, including planned outages.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Archiving
+            </td>
+            <td>
+                Provides a means to move data from active storage when it has reached a specific state.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Auditing
+            </td>
+            <td>
+                Provides audit trails of system execution.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Communication
+            </td>
+            <td>
+                A mechanism for handling inter-process communication.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Debugging
+            </td>
+            <td>
+                Provides elements to support application debugging.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Disaster Recovery
+            </td>
+            <td>
+                Provides facilities to recover systems, application, data and networks.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Error Management
+            </td>
+            <td>
+                Allows errors to be detected, propagated, and reported.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Event Management
+            </td>
+            <td>
+                Supports the use of asynchronous events within a system.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Graphics
+            </td>
+            <td>
+                Supports user interface services, such as 3D rendering.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Information Exchange
+            </td>
+            <td>
+                Supports information interchange across technical and organizational boundaries with appropriate semantic
+                and format translations.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Licensing
+            </td>
+            <td>
+                Provides services for acquiring, installing, tracking, and monitoring license usage. Might be required as
+                part of authorizing corporate bodies.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Localization / Internationalization
+            </td>
+            <td>
+                Provides facilities for supporting multiple human languages and rendering the language preferred by the
+                user.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mail
+            </td>
+            <td>
+                Services that allow applications to send and receive electronic mail.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mega-data
+            </td>
+            <td>
+                Support for handling very large amounts of data.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Memory Management
+            </td>
+            <td>
+                Services for abstracting how memory is allocated and freed.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Meta-data
+            </td>
+            <td>
+                Supports the runtime introspection of components and data.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Online help
+            </td>
+            <td>
+                Provides online help capability
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Persistence
+            </td>
+            <td>
+                Services to handle the reading and writing of stored data.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Printing
+            </td>
+            <td>
+                Provides facilities for interfacing with printers.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Process Management
+            </td>
+            <td>
+                Provides support for the management of processes and threads.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Reporting
+            </td>
+            <td>
+                Provides flexible reporting facilities
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Resource Management
+            </td>
+            <td>
+                Provides support for the management of expensive resources, such as database connections.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Scheduling
+            </td>
+            <td>
+                Provides the ability to execute tasks at a specified time.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Security
+            </td>
+            <td>
+                Provides services to protect access to certain resources or information.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                System Management
+            </td>
+            <td>
+                Services that facilitate management of applications in an operational environment.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Time
+            </td>
+            <td>
+                Services to synchronize time on a network, and to translate times into different time zones.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Transaction Management
+            </td>
+            <td>
+                A mechanism for handling ACID transactions.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Workflow
+            </td>
+            <td>
+                Support for the movement of documents and other items of work, typically through an organization.
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

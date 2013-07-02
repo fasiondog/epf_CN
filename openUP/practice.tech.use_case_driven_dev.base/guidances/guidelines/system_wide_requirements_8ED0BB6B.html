@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Developing System-Wide Requirements Specification</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="system_wide_requirements">
+<meta name="uma.presentationName" content="Developing System-Wide Requirements Specification">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_wr24gNcGEdqz_d2XWoVt6Q"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Developing System-Wide Requirements Specification</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline explains how to develop and use the system-wide requirements specification.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/tasks/detail_system_wide_requirements_B5BBACC3.html" guid="_4z8Z0EbEEdyx8quJU3Grxg">Detail System-Wide Requirements</a>
+</li>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/tasks/identify_and_outline_requirements_90D272B9.html" guid="_P9cMUPV_EdmdHa9MmVPgqQ">Identify and Outline Requirements</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    There is a finite set of requirements to consider when it comes to gathering system-wide requirements, qualities, or
+    constraints. Many of them are unfamiliar to stakeholders; therefore, they&nbsp;might find it difficult to answer
+    questions related to topics such as availability, performance, scalability, or localization. You can use this guideline
+    and the associated checklist <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/checklists/system_wide_rqmts_furps_3158BF2F.html" guid="_Vael8CGMEdu3VKXZx45D3A">Checklist：System-Wide Requirements (FURPS+)</a>&nbsp;when speaking to stakeholders to
+    ensure that all topics are discussed. Make sure that stakeholders understand the costs of their selections and do not
+    end up wanting everything that is on the list.
+</p>
+<h3>
+    Functional
+</h3>
+<ul>
+    <li>
+        <p>
+            <strong>Auditing:</strong> Is there a need to track who used the system and when they used it? State
+            requirements for providing audit trails when running the system.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Authentication:</strong> Will access to the system be controlled? State requirements for
+            authentication.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Licensing:</strong> Will the system or parts of the system be licensed? If open-source software has
+            been used in the system, have all open-source agreements been respected? State requirements for acquiring,
+            installing, tracking, and monitoring licenses.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Printing:</strong> Will printing capability be required? State requirements for printing.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Reporting:</strong> Is reporting capability required? State requirements for reporting.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Scheduling:</strong> Will certain system actions need to be scheduled? State requirements for
+            scheduling capability.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Security:</strong> Will elements of the system or system data need to be secure? State requirements to
+            protect access to certain resources or information.
+        </p>
+    </li>
+</ul>
+<h3>
+    Usability
+</h3>
+<p>
+    Usability requirements are critical to the success of any system. Unfortunately, usability requirements are often the
+    most poorly specified requirements. Consider this common requirement: The system shall be easy to use. This doesn't
+    help much, because it cannot be verified.
+</p>
+<p>
+    While capturing usability requirements, it is a good idea to identify issues and concerns first, and then refine these
+    into verifiable requirements later (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/writing_good_requirements_48248536.html" guid="_6jXzYNcKEdqz_d2XWoVt6Q">Guideline：Writing Requirements Statements</a>). According to a traditional definition,
+    usability consists of five factors:
+</p>
+<ul>
+    <li>
+        <p>
+            <strong>Ease of learning:</strong> A user with a specified level of experience must be able to learn how to use
+            the system in a specified amount of time.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Task efficiency:</strong> A user must be able to complete a specified task in a specified time (or
+            number of mouse clicks).
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Ease of remembering:</strong> A user must be able to remember how to accomplish specified tasks after
+            not using the system for a specified period of time.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Understandability:</strong> A user must be able to understand system prompts and messages and what the
+            system does.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Subjective satisfaction:</strong> A specified percentage of the user community must express
+            satisfaction with using the system.
+        </p>
+    </li>
+</ul>
+<p>
+    You might want to use the following method to identify and specify usability requirements:
+</p>
+<div style="MARGIN-LEFT: 2em">
+    <ol>
+        <li>
+            Identify the key usability issues by looking at critical tasks, user profiles, system goals, and previous
+            usability problems.
+        </li>
+        <li>
+            Choose the appropriate style to express the requirements: 
+            <ul>
+                <li>
+                    <strong>Performance style:</strong> Specify how fast users can learn various tasks and how fast they
+                    can perform the tasks after training.
+                </li>
+                <li>
+                    <strong>Defect style:</strong> Rather than measuring task times, identify usability defects and
+                    specifies how frequently they can occur.
+                </li>
+                <li>
+                    <strong>Guideline style:</strong> Specify the general appearance and response time of the user
+                    interface by reference to an accepted and well-defined standard
+                </li>
+            </ul>
+        </li>
+        <li>
+            Write the actual requirements, including performance criteria (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/writing_good_requirements_48248536.html" guid="_6jXzYNcKEdqz_d2XWoVt6Q">Guideline：Writing Requirements Statements</a>&nbsp;for more information).
+        </li>
+    </ol>
+</div>
+<h3>
+    Reliability
+</h3>
+<p>
+    Reliability includes the system's ability to continue running under stress and adverse conditions. In the case of an
+    application, reliability relates to the amount of time that the software is available and running as opposed to time
+    unavailable. Specify reliability acceptance levels, as well as how they will be measured and evaluated. Describe
+    reliability criteria in measurable terms. This is usually expressed as the allowable time between failures or the total
+    allowable failure rate. Other important reliability considerations include:
+</p>
+<ul>
+    <li>
+        <p>
+            <strong>Accuracy:</strong> Specify requirements for the precision (resolution) and the accuracy (by some known
+            standard) that is required in any calculation performed or in system output.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Availability:</strong> Specify requirements for the percentage of time the system is available for use,
+            hours of use, maintenance access, and degraded-mode operations. Availability is typically specified in terms of
+            the Mean Time Between Failures (MTBF).
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Recoverability:</strong> Specify requirements for recovery from failure. This is typically specified in
+            terms of the Mean Time to Repair (MTTR).
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Frequency and severity of failures:</strong> Specify the maximum defect rate (typically expressed as
+            defects/KSLOC or defects/function-point) and severity of failures. Severity&nbsp;can be categorized in terms of
+            <strong>minor</strong>, <strong>significant</strong>, and <strong>critical</strong> defects. The requirements
+            must define each of these terms unambiguously. For example, a <strong>critical</strong> defect could be defined
+            as one that results in loss of data or complete inability to use certain functionality of the system.
+        </p>
+    </li>
+</ul>
+<h3>
+    Performance
+</h3>
+<ul>
+    <li>
+        <p>
+            <strong>Response times:</strong> Specify the amount of time available for the system to complete specified
+            tasks and transactions (average, maximum). Use units of measurement. <em>Examples:</em>
+        </p>
+        <ul>
+            <li>
+                Any interface between a user and the system shall have a maximum response time of 2 seconds.
+            </li>
+            <li>
+                The product shall download the new status parameters within 5 minutes of a change.<br />
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Throughput:</strong> Specify the capacity of the system to support a given flow of information (for
+        example, transactions per second).<br />
+    </li>
+    <li>
+        <strong>Capacity:</strong> Specify on the volumes that the product must be able to deal with and the numbers of
+        data stored by the product. Make sure that the requirement description is quantified, and thus can be tested. Use
+        unit of measurement such as: the number of customers or transactions the system can accommodate, resource usage
+        (memory, disk, . . . ), or degradation modes (what is the acceptable mode of operation when the system has been
+        degraded in some manner) <em>Examples:</em> 
+        <ul>
+            <li>
+                The product shall cater for 300 simultaneous users within the period from 9:00 AM to 11 AM.
+            </li>
+            <li>
+                Maximum loading at other periods will be 150.<br />
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Start-up:</strong> The time for the system to start up.<br />
+    </li>
+    <li>
+        <strong>Shut-down:</strong> The time for the system to shut down.
+    </li>
+</ul>
+<h3>
+    Supportability
+</h3>
+<ul>
+    <li>
+        <p>
+            <strong>Adaptability:</strong> Are there any special requirements regarding adaptation of the software
+            (including upgrading)? List requirements for the ease with which the system is adapted to new environments.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Compatibility:</strong> Are there any requirements regarding this system and its compatibility with
+            previous versions of this system or legacy systems that provide the same capability?
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Configurability:</strong> Will the product be configured after it has been deployed? In what way will
+            the system be configured?
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Installation:</strong> State any special requirements regarding system installation
+        </p>
+    </li>
+    <li>
+        <strong>Level of Support:</strong> What is the level of support that the product requires? This is often performed
+        using a Help desk. If there are to be people who provide support for the product, is that support considered part
+        of what you are providing to the customer? Are there any requirements for that support? You might also build
+        support into the product itself, in which case this is the place to write those requirements. Consider the level of
+        support that you anticipate providing and what forms it might take.<br />
+    </li>
+    <li>
+        <strong>Maintainability:</strong> Are there any special requirements regarding system maintenance? What are the
+        requirements for the intended release cycle for the product and the form that the release will take? Quantify the
+        time necessary to make specified changes to the product. There can also be special requirements for
+        maintainability, such as&nbsp;a requirement that&nbsp;the product must be able to be maintained by its end-users or
+        developers who are not your development team. This has an effect on the way that the product is developed, and
+        there can be additional requirements for documentation or training. Describe the type of maintenance and the amount
+        of effort required. <em>Examples:</em><br />
+    </li>
+    <li style="LIST-STYLE-TYPE: none">
+        <ul>
+            <li>
+                A new weather station must be able to be added to the system overnight.
+            </li>
+            <li>
+                The maintenance releases will be offered to end-users once a year.<br />
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Scalability:</strong> What volumes of users and data will the system support? This specifies the expected
+        increases in size that the product must be able to handle As businesses grow (or are expected to grow), the
+        software products must increase their capacities to cope with the new volumes. This can be expressed as a profile
+        over time.<br />
+    </li>
+    <li>
+        <strong>Testability:</strong> Are there any special requirements regarding the testability of the system?
+    </li>
+</ul>
+<h3>
+    Constraints (+)
+</h3>
+<ul>
+    <li>
+        <p>
+            <strong>Design constraints:</strong> Are there any design decisions that have been mandated that the product
+            must adhered to?
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Third-party components:</strong> Specify any mandated legacy, COTS, or open-source components to be
+            used with the system.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Implementation languages:</strong> Specify requirements on the implementation languages to be used
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Platform support:</strong> Specify requirements on the platforms that the system will support
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Resource limits:</strong> Specify requirements on the use of system resources, such as memory and hard
+            disk space
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Physical Constraints:</strong> Specify requirements on the shape, size, and weight of the resulting
+            hardware to house the system
+        </p>
+    </li>
+</ul>
+<h3>
+    Interface Requirements (+)
+</h3>
+<p>
+    Describe both the user interface and interfaces with external systems.
+</p>
+<h4>
+    User interface
+</h4>
+<p>
+    Describe requirements related to user interfaces that are to be implemented by the software. The intention of this
+    section is to state the requirements, but not to describe the user interface itself, because interface design can
+    overlap the requirements-gathering process. This is particularly true if you are using prototyping as part of your
+    requirements gathering process. As you develop prototypes, it is important to capture the requirements that relate to
+    the look and feel of the user interface. In other words, be sure that you understand your client's intentions for the
+    product's look and feel. Record these as requirements, rather than merely using a prototype for approval.
+</p>
+<ul>
+    <li>
+        <p>
+            <strong>Look and feel:</strong> A description of the aesthetic appearance and layout of the interface. Your
+            client might have given you particular demands, such as style, colors, degree of interaction, and so on. This
+            section captures the requirements for the interface, rather than the design for the interface. The motivation
+            is to capture the expectations, the constraints, and the client's demands for the interface before designing
+            it. <em>Examples:</em>
+        </p>
+        <ul>
+            <li>
+                The product shall have the same layout as the district maps from the engineering department.
+            </li>
+            <li>
+                The product shall use the company color.<br />
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Layout and navigation requirements:</strong> Specify requirements on major screen areas and how they must
+        be grouped together.<br />
+    </li>
+    <li>
+        <strong>Consistency:</strong> Consistency in the user interface enables users to predict what will happen. This
+        section states requirements on the use of mechanisms to be employed in the user interface. This applies both within
+        the system, and with other systems and can be applied at different levels: navigation controls, screen areas sizes
+        and shapes, placements for entering / presenting data, terminology<br />
+    </li>
+    <li>
+        <strong>User personalization and customization requirements:</strong> Requirements on content that must
+        automatically displayed to users or available based on user attributes. Sometimes users allowed to customize the
+        content displayed or to personalize displayed content.
+    </li>
+</ul>
+<h4>
+    Interfaces to external systems or devices
+</h4>
+<ul>
+    <li>
+        <p>
+            <strong>Software interfaces:</strong> Are there any external systems with which this system must interface? Are
+            there any constraints on the nature of the interface between this system and any external system, such as the
+            format of data passed between these systems? Do they use any particular protocol? Describe software interfaces
+            with other components. These can be purchased components, components reused from another application, or
+            components being developed for subsystems outside of the scope of the system under consideration, but with
+            which this it must interact. For each system, consider both provided and required interfaces.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Hardware interfaces:</strong> Define any hardware interfaces that are to be supported by the software,
+            including logical structure, physical addresses, expected behavior, and so on.
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong>Communications interfaces:</strong> Describe any communications interfaces to other systems or devices,
+            such as local area networks (LANs), remote serial devices, and so on.
+        </p>
+    </li>
+</ul>
+<h3>
+    Business Rules (+)
+</h3>
+<p>
+    Besides technical requirements, also consider the particular business domain in which the system needs to fit.
+</p>
+<p>
+    Business rules or policies that the system must conform to can constrain system functionality. Business rules are
+    referred to by system use cases and can be in the form of decision tables, computation rules, decision trees,
+    algorithms, and so forth. Describing the rules in the flows of the use cases usually clutters the use-case
+    specifications. Therefore, they are normally captured in separate artifacts or as annexes related to the use-case
+    specifications. In many cases, a business rule applies to more then one use case. Shared business rules must be stored
+    in a single repository or&nbsp;document.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">核对表</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/checklists/system_wide_rqmts_furps_3158BF2F.html" guid="_Vael8CGMEdu3VKXZx45D3A">System-Wide Requirements (FURPS+)</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

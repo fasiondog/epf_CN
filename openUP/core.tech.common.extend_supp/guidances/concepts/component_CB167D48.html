@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Component</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="component">
+<meta name="uma.presentationName" content="Component">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0YP18MlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Component</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This concept describes components as they are applied within this process.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html" guid="_we3F4ACpEdu8m4dIntu6jA">Abstract Away Complexity</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">Architecture Notebook</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">Refine the Architecture</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Representing Interfaces to External Systems</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p align="left">
+    The software industry and literature use the term <strong>componen</strong>t to refer to many different things. It is
+    often used in the broad sense to mean a constituent part. It is also frequently used in a narrow sense to denote
+    specific characteristics that enable replacement and assembly in larger systems.
+</p>
+<p align="left">
+    The Unified Modeling Language [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">UML05</a>] defines <em>component</em> as follows:
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <blockquote>
+        <p>
+            A modular part of a system that encapsulates its contents and whose manifestation is replaceable within its
+            environment. A component defines its behavior in terms of provided and required interfaces. As such, a
+            component serves as a type, whose conformance is defined by these provided and required interfaces
+            (encompassing both their static as well as dynamic semantics).
+        </p>
+        <p>
+            A <em>component</em> is defined as a subtype of structured class. Therefore, a component has attributes and
+            operations, is able to participate in associations and generalizations, and has internal structure and ports.
+        </p>
+    </blockquote>
+</blockquote>
+<p align="left">
+    Here, we use&nbsp;the term <em>component&nbsp;</em>in a&nbsp;broader way than the UML definition. Rather than defining
+    components as having characteristics, such as modularity, deployability, and replaceability, we instead recommend these
+    as desirable characteristics of components. We use <em>component</em> to mean <strong>an encapsulated part of a
+    system</strong> that is nontrivial, nearly independent, and replaceable part of a system that fulfills a clear function
+    in the context of well-defined architecture. This includes two types of components:
+</p>
+<ul>
+    <li>
+        <div align="left">
+            <p>
+                <strong>Design component.</strong> A significant encapsulated part of the design that includes design
+                subsystems and, sometimes, significant design classes and design packages.
+            </p>
+        </div>
+    </li>
+    <li>
+        <div align="left">
+            <p>
+                <strong>Implementation component.</strong> A significant encapsulated part of the implementation, generally
+                code that implements a design component.
+            </p>
+        </div>
+    </li>
+</ul>
+<p align="left">
+    Ideally, the design reflects the implementation; therefore, you can simply refer to <em>components</em>, with each
+    component having a design and an implementation.
+</p>
+<p align="left">
+    Components interact through interfaces&nbsp;and&nbsp;may be composed of successively smaller components and interfaces.
+</p>
+<h3 align="left">
+    Component replaceability
+</h3>
+<p align="left">
+    In UML terminology, components should be replaceable. However, this may mean only that the component exposes a set of
+    interfaces that hide an underlying implementation.
+</p>
+<p align="left">
+    There are other, stronger, kinds of replaceability: .
+</p>
+<div align="left">
+    <ul>
+        <li>
+            <p>
+                <strong>Source file replaceability:</strong> If two classes are implemented in a single source code file,
+                then those classes cannot usually be separately versioned and controlled. However, if a set of files fully
+                implements a single component (and no other component), then the component source files are replaceable.
+                This characteristic makes it easier to use version control, to use the file as a baseline, and to reuse the
+                source file.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Deployment replaceability:</strong> If two classes are deployed in a single executable file, then
+                each class is not independently replaceable in a deployed system. It is desirable for larger-granularity
+                components to be replaceable during deployment, which allows new versions of the component to be deployed
+                without having to rebuild the other components. This usually means that there is one file or one set of
+                files that deploy the component, and no other component.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Run-time replaceability:</strong> If a component can be redeployed into a running system, then it
+                is referred to as <em>run-time replaceable</em>. This enables you to upgrade software without loss of
+                availability.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Location transparency:</strong> Components with network-addressable interfaces are referred to as
+                having <em>location transparency</em>. This allows components to be relocated to other servers or to be
+                replicated on multiple servers to support fault tolerance, load balancing, and so on. These kinds of
+                components are often referred to as <em>distributed</em> or <em>distributable</em> components.
+            </p>
+        </li>
+    </ul>
+</div>
+<h3 align="left">
+    Component instantiation
+</h3>
+<p align="left">
+    A component may or may not be directly instantiated at run time.
+</p>
+<p align="left">
+    An indirectly instantiated component is implemented, or realized, by a set of classes, subcomponents, or parts. The
+    component itself does not appear in the implementation; it merely serves as a design that an implementation must
+    follow. The set of realizing classes, subcomponents, or parts must cover the entire set of operations specified in the
+    provided interface of the component. The manner of implementing the component is the responsibility of the implementer.
+</p>
+<p align="left">
+    A directly instantiated component specifies its own encapsulated implementation. It is instantiated as an addressable
+    object, which means that a design component has a corresponding construct in the implementation language; therefore, it
+    can be referenced explicitly.
+</p><p/><h3 align="left">
+    Modeling Components
+</h3>
+<p align="left">
+    The UML component is a modeling construct that provides the following capabilities:
+</p>
+<div align="left">
+    <ul>
+        <li>
+            Group classes to define a larger granularity part of a system
+        </li>
+        <li>
+            Separate the visible interfaces from internal implementation
+        </li>
+        <li>
+            Execute instances run-time
+        </li>
+    </ul>
+</div>
+<p align="left">
+    A component includes <strong>provided</strong> and <strong>required</strong> interfaces that form the basis for wiring
+    components together. A <strong>provided interface</strong> is one that is either implemented directly by the component
+    or one of its realizing classes or subcomponents, or it is the type of a provided port of the component. A
+    <strong>required interface</strong> is designated by a usage dependency of the component or one of its realizing
+    classes or subcomponents, or it is the type of a required port.
+</p>
+<p align="left">
+    A component has an external view (or <em>black box</em> view) through its publicly visible properties and operations
+    .Optionally, a behavior such as a protocol state machine may be attached to an interface, a port, and the component
+    itself to define the external view more precisely by making dynamic constraints in the sequence of operation calls
+    explicit. The wiring between components in a system or other context can be structurally defined by using dependencies
+    between component interfaces (typically on component diagrams).
+</p>
+<p align="left">
+    Optionally, you can make a more detailed specification of the structural collaboration by using parts and connectors in
+    composite structures to specify the role or instance-level collaboration between components. That is the component's
+    internal view (or <em>white-box</em> view) through its private properties and realizing classes or subcomponents. This
+    view shows how the external behavior is realized internally. The mapping between external and internal views is by
+    dependencies on components diagrams or delegation connectors to internal parts on composite structure diagrams.
+</p>
+<p align="left">
+    A number of UML standard stereotypes exist that apply to components, including &lt;&lt;subsystem&gt;&gt; to model
+    large-scale components, and &lt;&lt;specification&gt;&gt; and &lt;&lt;realization&gt;&gt; to model components with
+    distinct specification and realization definitions, where one specification may have multiple realizations.&nbsp;
+</p>
+<p align="left">
+    The recommendation is to&nbsp;use components as the representation for design subsystems.
+</p>
+<h3 align="left">
+    UML Definitions -- A History
+</h3>
+<p align="left">
+    The definition of <em>component</em> with the UML has changed over time with the release of different versions. The
+    version of UML you use may be constrained by the capabilities of the modeling tools you use. That is why the
+    definitions from 1.3 to 2.0 are provided here.
+</p>
+<p align="left">
+    UML 2.0 defined <em>component</em> as the following:
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <blockquote>
+        <p align="left">
+            ...a modular part of a system that encapsulates its contents and whose manifestation is replaceable within its
+            environment.
+        </p>
+        <p align="left">
+            A component defines its behavior in terms of provided and required interfaces. As such, a component serves as a
+            type whose conformance is defined by these provided and required interfaces (encompassing both their static as
+            well as dynamic semantics).
+        </p>
+    </blockquote>
+</blockquote>
+<p align="left">
+    UML 1.5 defined <em>component</em> as the following:
+</p>
+<blockquote>
+    <blockquote>
+        <div align="left">
+            A modular, deployable, and replaceable part of a system that encapsulates implementation and exposes a set of
+            interfaces. A component is typically specified by one or more classes or subcomponents that reside on it and
+            may be implemented by one or more artifacts (e.g., binary, executable, or script files).
+        </div>
+        <div align="left">
+            <p>
+                In UML 1.3 and earlier versions of the UML, the component notation was used to represent files in the
+                implementation. Files are no longer considered components by the latest UML definitions. However, many
+                tools and UML profiles still use the component notation to represent files.
+            </p>
+            <p>
+                <br />
+                <br />
+                &nbsp;
+            </p>
+        </div>
+    </blockquote>
+</blockquote></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

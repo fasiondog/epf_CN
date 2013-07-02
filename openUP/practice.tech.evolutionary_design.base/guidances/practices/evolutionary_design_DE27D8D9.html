@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Evolutionary Design</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="evolutionary_design">
+<meta name="uma.presentationName" content="Evolutionary Design">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_aSVhIB4qEd2bS8fFOQ7WWA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Evolutionary Design</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/roadmaps/how_to_adopt_evolutionary_design_7CA256E4.html" guid="_irQiEOCsEdynptYdmll41Q">How to Adopt the Evolutionary Design Practice</a>
+</li>
+</ul>
+<ul>
+<li>关键概念</li>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Design</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">Implementation Mechanism</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/requirements_realization_55C64ACB.html" guid="_T9FbYFRFEd2o7OqLaYh8nA">Requirements Realization</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html" guid="_0WuL8slgEdmt3adZL5Dmdw">Design</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">Design the Solution</a>
+</li>
+</ul>
+<ul>
+<li>指导信息</li>
+<ul>
+<li>
+<img src="./../../../images/supportingmaterial.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/supportingmaterials/using_ed_in_context_4E5732E2.html" guid="_atpj0GjLEd2PJ-nlV-86WA">Using Evolutionary Design in Context</a>
+</li>
+<li>指南</li>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html" guid="_C4U9QPTeEduDKIuqTXQ8SA">Evolve the Design</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>
+</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html" guid="_8OD-cLPTEduocbW-TPTq7A">[Technical Architecture]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[Technical Specification]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The Evolutionary Design practice reduces time-to-market for agile teams by incrementally formulating the design while
+    implementing the software. It improves productivity, innovation, and time-to-market by leveraging refactoring and
+    patterns to improve quality and maximizing reuse opportunities.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">背景</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell">The application of evolutionary, iterative, and incremental development methods for software dates back to the 1950s.
+Evolutionary development is an alternative to a waterfall process. In the waterfall process, each past step or phase in the
+process was considered complete before moving on to the next. The waterfall implies it is not possible to re-enter previous
+phases to perform rework on any part of the project. The evolutionary design process realizes a solution by enhancing and
+changing its structure and capabilities incrementally. This practice fits well within the framework of an incremental,
+iterative or spiral development process, but can be used in any methodology.</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h4>
+    The Essence of Evolutionary Design
+</h4>
+<p>
+    During each pass of the design, you will add, refine, and refactor your solution. The following steps summarize the
+    evolutionary design practice:
+</p>
+<ul>
+    <li>
+        Understand new requirement details
+    </li>
+    <li>
+        Identify design elements
+    </li>
+    <li>
+        Determine how elements collaborate to realize the scenario
+    </li>
+    <li>
+        Refine design decisions
+    </li>
+    <li>
+        Design internals
+    </li>
+    <li>
+        Communicate the design
+    </li>
+    <li>
+        Understand the architecture
+    </li>
+    <li>
+        Evaluate the design<br />
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">如何读取该实践</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h4>
+    Become familiar with its overall structure. Be sure that you understand what it is in it and how it is organized.<br />
+    <br />
+    Review all of the key concepts to understand the terminology used in this practice, including:
+</h4>
+<ul>
+    <li>
+        <a class="elementLink" href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Design</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">Implementation Mechanism</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/requirements_realization_55C64ACB.html" guid="_T9FbYFRFEd2o7OqLaYh8nA">Requirements Realization</a>
+    </li>
+</ul>
+<p>
+    Read the&nbsp;<a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">Task：Design the Solution</a>&nbsp;to understand what needs to be done. Finally, review
+    the associated guidelines for more information on the overall workflow.
+</p>
+<p>
+    See <a class="elementLink" href="./../../../practice.tech.evolutionary_design.base/guidances/supportingmaterials/using_ed_in_context_4E5732E2.html" guid="_atpj0GjLEd2PJ-nlV-86WA">Using Evolutionary Design in Context</a>&nbsp;for more information.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">其他信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    Meyer, B., <em>Object-Oriented Software Construction</em>, Prentice Hall, 1997
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        A primer on OO basics.
+    </p>
+</blockquote>
+<p>
+    Gamma, E., Helm, R., Johnson, R., Vlissides, J., <em>Design Patterns: Elements of Reusable Object-Oriented
+    Software</em>, Addison-Wesley Professional; 1995
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        The "bible" on learning what patterns are and how to describe them.
+    </p>
+</blockquote>
+<p>
+    Shalloway, J., Trott, J. <em>Design Patterns Explained</em> A New Perspective on Object-Oriented Design, Second
+    Edition, Addison Wesley, 2005
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        This book describes how to evolve a design via design patterns.
+    </p>
+</blockquote>
+<p dir="ltr">
+    Richard E. Fairley, Mary Jane Willshire, "<a href="http://doi.ieeecomputersociety.org/10.1109/MC.2005.303" target="_blank">Iterative Rework: The Good, the Bad, and the Ugly</a>," Computer, vol. 38, no. 9, pp. 34-41, Sept.,
+    2005.<br />
+    <br />
+    Martin Fowler, <a href="http://martinfowler.com/articles/designDead.html" target="_blank">"Is Design Dead?"</a>
+    Retrieved 8 August 2008<br />
+    <br />
+    Craig Larman, Victor R. Basili, "<a href="http://doi.ieeecomputersociety.org/10.1109/MC.2003.1204375" target="_blank">Iterative and Incremental Development: A Brief History</a>" Computer, vol. 36, no. 6, pp. 47-56, Jun.,
+    2003.
+</p>
+<p dir="ltr">
+    <br />
+    &nbsp;
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

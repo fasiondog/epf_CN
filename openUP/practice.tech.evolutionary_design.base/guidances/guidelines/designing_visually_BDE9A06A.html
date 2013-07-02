@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Designing Visually</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="designing_visually">
+<meta name="uma.presentationName" content="Designing Visually">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_1fM3AC9_EduW5uTjiIcspQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Designing Visually</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline provides information on how to apply visual modeling to designing a system.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html" guid="_0WuL8slgEdmt3adZL5Dmdw">Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">Design the Solution</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html" guid="_C4U9QPTeEduDKIuqTXQ8SA">Evolve the Design</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    Using visual modeling techniques to design software can help break down complex problems into a series of smaller,
+    easier to manage tasks. Sharing pictures rather than written documents or source code also helps the understanding and
+    communication of difficult concepts. Adopting standard modeling notations such as the UML increases this capability by
+    helping to make diagrams precise and unambiguous.
+</p>
+<p>
+    The degree of formality used when producing and disseminating models should vary according to your needs. Small,
+    collaborative teams modeling around whiteboards and capturing the results on a sheet of paper or with digital cameras
+    can yield good results. This can also help the team focus on producing software with the help of models; rather than
+    becoming sidetracked into over-engineering both the models and the solution. Modeling tools provide additional value to
+    projects, especially for more complex systems. Their specifics of use are outside the scope of this guideline, however.
+</p>
+<p>
+    This guideline does not describe a formal sequential progression through prescriptive design steps. Whether some or all
+    of these techniques are needed, or how long is spent on them will vary depending on real-world issues such as the
+    complexity of the requirements; the experience of the designer; and the way the team works.
+</p>
+<p>
+    This guideline uses a simplified scenario (Login) to help keep the focus on understanding the techniques rather than
+    the specific requirements. In the real-world, it is doubtful that much time would be spent modeling a simple problem.
+    Here is the use case diagram, for reference;
+</p>
+<p>
+    <img height="142" alt="User Login Use Case Model" src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/user_login_ucm.jpg" width="472" />
+</p>
+<h3>
+    Identify elements
+</h3>
+<p>
+    Render the identified design elements as classes in a UML diagram.&nbsp; Apply appropriate stereotypes and optionally
+    render the class using an icon specific to the stereotype to characterize the intent of the class in the design.&nbsp;
+    Name and briefly describe the classes in a few sentences. Do not spend too much time working on associations, as these
+    will be developed through working on collaborations in the next step.
+</p>
+<p>
+    Classes can be drawn as a basic UML rectangle or with a specific symbol associated with a particular stereotype.
+</p>
+<p>
+    The resulting class diagram should be conceptually similar to this one:
+</p>
+<p>
+    <img height="228" alt="Identify Elements - Initial Class Model" src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/identify_elements_bce.jpg"     width="290" />
+</p>
+<p>
+    For this example, the <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html" guid="_uF-QYEAhEdq_UJTvM1DM2Q">Entity-Control-Boundary Pattern</a> has been used to derive two classes (LoginUI and
+    LoginController). In addition, two design elements already identified in the architecture (SecuritySystemInterface and
+    User) have also been incorporated.
+</p>
+<h3>
+    Determine how elements collaborate to realize the scenario
+</h3>
+<p>
+    When determining collaboration, two kinds of diagrams are useful.
+</p>
+<ul>
+    <li>
+        A dynamic object diagram, showing how the design elements collaborate to realize the requirements.
+    </li>
+    <li>
+        A static class diagram, showing the classes involved in realizing the requirements.
+    </li>
+</ul>
+<p>
+    Remember to also update any other impacted diagrams as appropriate, based on modifications or additions to the design.
+</p>
+<p>
+    Create a number of dynamic object diagrams that walk through how a set of objects collaborate to perform the behavior
+    of the scenarios.&nbsp; Even if just one scenario is being designed, this might take multiple diagrams to render it in
+    smaller, understandable chunks or from multiple contexts.
+</p>
+<p>
+    <img style="WIDTH: 776px; HEIGHT: 355px" height="355" alt="User Login Sequence Diagram"     src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/user_login_seq.jpg" width="776" />
+</p>
+<p>
+    The above sequence diagram shows the user credentials being passed through to the security system for authentication.
+    Steps in the use case scenario are transformed into messages between the participating objects. The messages in this
+    example are not yet fully formed (there are no parameters or return values), so they are prefixed with "//" to show
+    that more work is needed.&nbsp; A sequence diagram was used in this example, but a communication diagram could have
+    been used.
+</p>
+<p>
+    It&nbsp;can be&nbsp;useful to create one or more static class diagrams that show the classes in the design that support
+    the realization.&nbsp; These class diagrams are often called View of Participating Classes diagrams, they provide a
+    focused view on the overall design by only showing the classes, relationships, operations, and attributes relevant to
+    the collaboration.
+</p>
+<p>
+    <img height="469" alt="Login VOPC" src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/login_vopc.jpg" width="448" />
+</p>
+<p>
+    This diagram shows the operations and relationships that were identified by drawing the sequence diagram. The
+    relationships in this example&nbsp;have not been refined yet, so they are just shown as simple associations. Remember
+    to examine the diagram to verify that the design can support the behavior in the sequence diagram.
+</p>
+<p>
+    Working at this level of detail in the model during the early stages of design can be helpful. It keeps the diagrams
+    relatively simple and easy to understand. It makes them easier to draw in a workshop and easier to change during
+    discussion. It is often easier to add the detail once there is agreement on the fundamentals.
+</p>
+<h3>
+    Refine design decisions
+</h3>
+<p>
+    Once the fundamentals of the design are relatively stable, you can begin to add detail to the design. Some of this can
+    be performed in code or in the model. If modeling is chosen, then refine attributes, responsibilities and
+    relationships.
+</p>
+<h4>
+    Describe responsibilities
+</h4>
+<p>
+    Class responsibilities are either actions to be performed by an object or knowledge maintained and provided to other
+    objects. Each class will typically have several responsibilities; each responsibility will evolve into one or more
+    operations during design.
+</p>
+<p>
+    Responsibilities are derived from messages on interaction diagrams or from non-functional requirements that a class has
+    to support. Document a responsibility by giving it a name, and optionally a brief description (what it does).
+</p>
+<p>
+    These operations can be left as self-evident from their context, they can be given textual descriptions of the
+    algorithm required to perform the behavior, or they could spawn off another whole pass of this technique where a set of
+    classes that collaborate together to perform the internals of the operation are identified, etc.
+</p>
+<h4>
+    Describe attributes and associations
+</h4>
+<p>
+    A class may have to store simple data information, like: string, integer, and the like. For such simple type of
+    information, attributes are defined for classes. For a more complex or "behavioral" attribute, consider creating an
+    extra class and establish an association to it.
+</p>
+<p>
+    To perform their responsibilities, classes may depend on other classes to supply needed behavior. These other classes
+    might be ones already identified in this design session, they might be existing classes pulled from the architecture,
+    or the need for new classes might be conceived. Associations in a class diagram can be used to represent inter-class
+    relationships.
+</p>
+<p>
+    <img height="439" alt="Login VOPC (Refined)" src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/login_vopc_refined.jpg" width="557" />
+</p>
+<p>
+    This diagram shows a number of refinements. The LoginUI class has been replaced by LoginForm. The User class has been
+    renamed UserCredentials and is created by the LoginForm class rather than LoginController. It is then used as a
+    parameter for subsequent messages rather than passing the individual attributes. The SecuritySystemInterface class has
+    been refined into two elements, ISystemSecurity, which provides a simple façade for interaction with the rests of the
+    design; and SecuritySystemProxy, which handles interaction with the external security system.
+</p>
+<h3>
+    Design internals
+</h3>
+<p>
+    The classes in the design are likely to need to be distributed amongst different packages and subsystems or components.
+</p>
+<p>
+    <img height="304" alt="User Login - Design Packages" src="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/resources/dv_packaging.jpg" width="571" />
+</p>
+<p>
+    In this example, the LoginForm, LoginController and UserCredentials elements have been placed in a package called
+    LocalSecurity. The SecuritySystemProxy is a part of a subsystem called SecuritySystemAdapter which realizes the
+    ISecuritySystem interface. The SecuritySystemAdapter wraps the legacy SecuritySystem, expressed here as a component
+    offering a validateUser interface.
+</p>
+<p>
+    Each of these packaged elements can be distributed amongst the team for further development work.
+</p>
+<h3>
+    Conclusion
+</h3>
+<p>
+    This guideline walked through the techniques in a concrete manner started with a scenario of a use case through to
+    distributing the classes identified into a set of packages. This example demonstrates a technique for designing
+    visually, but it should be considered as just one conceptual pass of design.&nbsp; One could as easily apply this
+    technique when defining the internals of how the SecuritySystemProxy class will collaborate with a set of classes to
+    validate the credentials.
+</p>
+<p>
+    When applying this guideline, work in small chunks and keep in mind the goal of delivering software to the users that
+    provides value. To deliver high-quality software requires consideration of how the pieces will work together to deliver
+    that value. But as soon as key decisions have been made and the decisions have been communicated to the appropriate
+    team members, the team should move on to implementing the source code to verify the design and deliver the value.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

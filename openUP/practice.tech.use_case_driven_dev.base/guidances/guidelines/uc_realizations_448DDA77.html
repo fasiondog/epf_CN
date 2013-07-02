@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Use-Cases Realizations</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="uc_realizations">
+<meta name="uma.presentationName" content="Use-Cases Realizations">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_2uan8NbyEdqu5o2S60g5LA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Use-Cases Realizations</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">A use-case realization represents how a use case will be implemented in terms of collaborating objects. This guideline describes its purpose and UML notation.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/guidances/guidelines/design_guidance_slot_AB88B43E.html" guid="_z_wMgJI7Edyk6dG0ehkW5Q">[Design Guidance]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    A use-case realization represents how a use case will be implemented in terms of collaborating objects. This artifact
+    can take various forms. It can include, for example, a textual description (a document), class diagrams of
+    participating classes and subsystems, and interaction diagrams (communication and sequence diagrams) that illustrate
+    the flow of interactions between class and subsystem instances.
+</p>
+<p>
+    The reason for separating the use-case realization from its use case is that doing so allows the use cases to be
+    managed separately from their realizations. This is particularly important for larger projects, or families of systems
+    where the same use cases can be designed differently in different products within the product family. Consider the case
+    of a family of telephone switches which have many use cases in common, but which design and implement them differently
+    according to product positioning, performance and price.
+</p>
+<p>
+    For larger projects, separating the use case and its realization allows changes to the design of the use case without
+    affecting the baselined use case itself.
+</p>
+<p>
+    In a model, a use-case realization is represented as a UML collaboration that groups the diagrams and other information
+    (such as textual descriptions) that form part of the use-case realization.
+</p>
+<p>
+    UML diagrams that&nbsp;support use-case realizations can be produced in an analysis context, a&nbsp;design context, or
+    both, depending on the needs of the project. For each use case in the use-case model, there&nbsp;can be&nbsp;a use-case
+    realization in the analysis/design model with a realization relationship to the use case. In UML this is shown as a
+    dashed arrow, with an arrowhead like a generalization relationship, indicating that a realization is a kind of
+    inheritance, as well as a dependency.<br />
+</p>
+<p align="center">
+    <img alt="Use Case Realizations" src="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/resources/ucrea1.gif" width="277" height="109" />
+</p>
+<p>
+    A use-case realization in the&nbsp;design can be traced to a use case in the use-case model.
+</p>
+<h4>
+    Class Diagrams Owned by a Use-Case Realization
+</h4>
+<p>
+    For each use-case realization there can be one or more class diagrams depicting its participating classes. A class and
+    its objects often participate in several use-case realizations. It is important&nbsp;while designing to coordinate all
+    the requirements on a class and its objects that different use-case realizations can have. The figure below shows an
+    analysis&nbsp;class diagram for the realization of the Receive Deposit Item use case. Note the use of
+    boundary-control-entity stereotypes to represent analysis classes (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html" guid="_uF-QYEAhEdq_UJTvM1DM2Q">Guideline：Entity-Control-Boundary Pattern</a>).
+</p>
+<p align="center">
+    <img alt="Class diagram for the realization of Receive Deposit Item" src="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/resources/md_ucre3.gif" width="328"     height="213" />
+</p>
+<p align="center">
+    <strong>The use case Receive Deposit Item and its analysis-level class diagram</strong>.
+</p>
+<h4>
+    Communication and Sequence Diagrams Owned by a Use-Case Realization
+</h4>
+<p>
+    For each use-case realization there&nbsp;can be&nbsp;one or more interaction diagrams depicting its participating
+    objects and their interactions. There are two types of interaction diagrams: sequence diagrams and communication
+    diagrams. They express similar information, but show it in different ways. Sequence diagrams show the explicit sequence
+    of messages and are better when it is important to visualize the time ordering of messages, whereas communication
+    diagrams show the communication links between objects and are better for understanding all of the effects on a given
+    object and for algorithm design.
+</p>
+<p>
+    Realizing use cases through interaction diagrams helps to keep the design simple and cohesive. Assigning
+    responsibilities to classes on the basis of what the use-case scenario explicitly requires encourages the design to
+    contain the following:
+</p>
+<ul>
+    <li>
+        Only the functionality actually used in support of a use case scenario,
+    </li>
+    <li>
+        Functionality that can be tested through an associated test case,
+    </li>
+    <li>
+        Functionality that is more easily traceable to requirements and changes,
+    </li>
+    <li>
+        Explicitly declared class dependencies that are easier to manage.
+    </li>
+</ul>
+<p>
+    These factors help improve the overall quality of the system.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">指南</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html" guid="_uF-QYEAhEdq_UJTvM1DM2Q">Entity-Control-Boundary Pattern</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

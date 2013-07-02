@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Managing Work Items</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="managing_work_items">
+<meta name="uma.presentationName" content="Managing Work Items">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_7vEXEMA4EdqSgKaj2SZBmg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Managing Work Items</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline explains the lifecycle of work items and how the work items list is used.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html" guid="_rGNWsCbSEdqh1LYUOGRh2A">Work Items List</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Overview
+</h3>
+<p>
+    The <a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html" guid="_rGNWsCbSEdqh1LYUOGRh2A">Artifact：Work Items List</a>&nbsp;captures all scheduled work to be done within the
+    project, as well as proposed work that may affect the product. Some of the work items may be implemented in this
+    project, some of them may be implemented in a future project, and some of them may never be implemented.
+</p>
+<p>
+    Some of the work items may still be poorly defined; therefore, it could represent a big chunk of work, requiring
+    potentially several staff months of effort. As the priority of these work items increases, they are typically
+    decomposed into smaller work items that represent specific and well-defined tasks that may take hours or days to
+    address, see <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html" guid="_S80VwCNbEdyCq8v2ZO4QcA">Micro-Increments</a>. In other cases, specific and well-defined work items are created
+    directly, representing, for example, a defect to be addressed, as Figure 1illustrates.
+</p>
+<p align="left">
+    <strong><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><strong><font     face="Verdana, Arial, Helvetica, sans-serif" size="2">Figure 1. Work Items List provides one prioritized list of
+    scheduled and proposed work</font></strong></font></strong>
+</p>
+<div align="left">
+    <strong><br />
+    <img alt="" src="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/resources/work_item_prioritization_diagram.jpg" /></strong>
+</div>
+<p>
+    A work item may represent work associated with a defect, enhancement request, change request, use case, scenario, user
+    story, supporting requirement, stakeholder request, or anything else that captures a potential requirement or
+    improvement to your system. A work item may reference any type of requirement or other useful information that guides
+    you in what needs to be done.
+</p>
+<p>
+    A big advantage with the <a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html" guid="_rGNWsCbSEdqh1LYUOGRh2A">Artifact：Work Items List</a>&nbsp;is that it enables you to prioritize only one list
+    containing all of the things that may need to be addressed, whether the work item represents work related to a
+    requirement, enhancement, or defect. The one exception is that you should prioritize the risk list separately.
+</p>
+<p>
+    Nothing in the project will get done if it is not represented or mapped to a work item. This means that all
+    requirements, defect reports, and change requests have to be mapped to a work item at some stage. Also, a developer
+    will not take on work that is not represented in a work item. Only work items need to be prioritized. This also means
+    that tracking work items is a primary means of understanding the status of the project.
+</p>
+<p>
+    There are two major types of work items:
+</p>
+<ul>
+    <li>
+        <strong>Unscheduled work items:</strong> These work items have not yet been assigned to an iteration, and there is
+        no detailed effort estimate for the work item yet.<br />
+    </li>
+    <li>
+        <strong>Scheduled work items:</strong> These work items are assigned to an iteration, and they typically have an
+        additional set of attributes filled in, such as detailed effort estimates.
+    </li>
+</ul>
+<h3>
+    Unscheduled work items
+</h3>
+<p>
+    Most work items are initially unscheduled, meaning that it has not yet been decided whether to do them and when to do
+    them. Unscheduled work items should always represent something meaningful to deliver to stakeholders, such as a
+    scenario to be detailed, designed, implemented, and tested. You may consider capturing the following data for such work
+    items:
+</p>
+<ul>
+    <li>
+        Name
+    </li>
+    <li>
+        Description
+    </li>
+    <li>
+        Priority
+    </li>
+    <li>
+        Size estimate, such as a point estimate (see <a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html" guid="_CGHskBEdEdqY7JB6N6CW2w">Guideline：Agile Estimation</a>)
+    </li>
+    <li>
+        State, such as New, Assigned, Resolved, Verified, Closed (see work items states section below)
+    </li>
+    <li>
+        Links to other reference material, such as requirements or detailed specifications of what needs to be done
+    </li>
+</ul>
+<h3>
+    Scheduled work items
+</h3>
+<p>
+    After a work item has been assigned to an iteration, it becomes <i>scheduled</i>. You assign work items only to the
+    current or next iteration. There is no point in assigning work items to a specific future iteration, because you cannot
+    predict what a meaningful schedule will be more than an iteration in advance (see <a class="elementLinkWithType" href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/iteration_planning_C77F13CE.html" guid="_0auiMMlgEdmt3adZL5Dmdw">Guideline：Iteration Planning</a>).
+</p>
+<p>
+    The following additional attributes are useful for Scheduled work items:
+</p>
+<ul>
+    <li>
+        Target iteration
+    </li>
+    <li>
+        Responsible team member
+    </li>
+    <li>
+        Effort estimate left, such as actual hours of work (see <a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html" guid="_CGHskBEdEdqY7JB6N6CW2w">Guideline：Agile Estimation</a>)
+    </li>
+    <li>
+        Hours worked
+    </li>
+</ul>
+<p>
+    This provides the information required to plan and manage an iteration. You can plan iterations by understanding effort
+    involved, and you can manage iterations by tracking how much work is left to do (see <a class="elementLinkWithType" href="./../../../practice.mgmt.iterative_dev.base/guidances/reports/iteration_burndown_9C1C96F5.html" guid="_uAzgkDg3Edu4E8ZdmlYjtA">Report：Iteration Burndown</a>).
+</p>
+<h3>
+    Work item states
+</h3>
+<p>
+    The following states are useful for tracking work items:
+</p>
+<ul>
+    <li>
+        <b>New:</b> The work item has been created, but not yet assigned to a team member.
+    </li>
+    <li>
+        <b>Assigned:</b> A team member has been identified as responsible for the work item.
+    </li>
+    <li>
+        <b>Resolved:</b> The team member responsible for the work items has implemented and tested the work item.
+    </li>
+    <li>
+        <b>Verified:</b> The work item has been independently tested.
+    </li>
+    <li>
+        <b>Closed:</b> The work item is no longer active.
+    </li>
+</ul>
+<p>
+    You may choose another set of states, based on your needs.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

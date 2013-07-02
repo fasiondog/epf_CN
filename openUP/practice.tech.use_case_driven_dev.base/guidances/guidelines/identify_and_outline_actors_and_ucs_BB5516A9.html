@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Identify and Outline Actors and Use Cases</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="identify_and_outline_actors_and_ucs">
+<meta name="uma.presentationName" content="Identify and Outline Actors and Use Cases">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_eyL0wCu-EdqSxKAVa9kmvA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Identify and Outline Actors and Use Cases</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes how to find and outline actors and use cases.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/tasks/identify_and_outline_requirements_90D272B9.html" guid="_P9cMUPV_EdmdHa9MmVPgqQ">Identify and Outline Requirements</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h4>
+    Identifying actors
+</h4>
+<p>
+    Find the external entities with which the system under development must interact. Candidates include groups of users
+    who will require help from the system to perform their tasks and run the system's primary or secondary functions, as
+    well as external hardware, software, and other systems.
+</p>
+<p>
+    Define each candidate actor by naming it and writing a brief description. Includes the actor's area of responsibility
+    and the goals that the actor will attempt to accomplish when using the system. Eliminate actor candidates who do not
+    have any goals.
+</p>
+<p>
+    These questions are useful in identifying actors:
+</p>
+<ul>
+    <li>
+        Who will supply, use, or remove information from the system?
+    </li>
+    <li>
+        Who will use the system?
+    </li>
+    <li>
+        Who is interested in a certain feature or service provided by the system?
+    </li>
+    <li>
+        Who will support and maintain the system?
+    </li>
+    <li>
+        What are the system's external resources?
+    </li>
+    <li>
+        What other systems will need to interact with the system under development?
+    </li>
+</ul>
+<p>
+    Review the list of stakeholders that you captured in the Vision statement. Not all stakeholders will be actors
+    (meaning, they will not all interact directly with the system under development), but this list of stakeholders is
+    useful for identifying candidates for actors.
+</p>
+<h4>
+    Identifying&nbsp;use cases
+</h4>
+<p>
+    The best way to find use cases is to consider what each actor requires of the system. For each actor, human or not,
+    ask:
+</p>
+<ul>
+    <li>
+        What are the goals that the actor will attempt to accomplish with the system?
+    </li>
+    <li>
+        What are the primary tasks that the actor wants the system to perform?
+    </li>
+    <li>
+        Will the actor create, store, change, remove, or read data in the system?
+    </li>
+    <li>
+        Will the actor need to inform the system about sudden external changes?
+    </li>
+    <li>
+        Does the actor need to be informed about certain occurrences, such as unavailability of a network resource,&nbsp;in
+        the system?
+    </li>
+    <li>
+        Will the actor perform a system startup or shutdown?
+    </li>
+</ul>
+<p>
+    Understanding how&nbsp;the target&nbsp;organization works and how this information system might be incorporated into
+    existing operations gives an idea of system's surroundings. That information can reveal other use case candidates.
+</p>
+<p>
+    Give a unique name and brief description that clearly describes the goals for each use case. If the candidate use case
+    does not have goals, ask yourself why it exists, and then either identify a goal or eliminate the use case.
+</p>
+<h4>
+    Outlining Use Cases
+</h4>
+<p>
+    Without going into details, write a first draft of the flow of events of the use cases identified as being of high
+    priority. Initially, write a simple step-by-step description of the basic flow of the use case. The step-by-step
+    description is a simple ordered list of interactions between the actor and the system. For example, the description of
+    the basic flow of the Withdraw Cash use case of an automated teller machine (ATM) would be something like this:
+</p>
+<ol>
+    <li>
+        The&nbsp;customer inserts a bank card.
+    </li>
+    <li>
+        The system validates the card and prompts the person to enter a personal identification number (PIN).
+    </li>
+    <li>
+        The customer&nbsp;enters a PIN.
+    </li>
+    <li>
+        The system validates the PIN and prompts the customer to select an action.
+    </li>
+    <li>
+        The customer selects Withdraw Cash.
+    </li>
+    <li>
+        The system prompts the customer to choose which account.
+    </li>
+    <li>
+        The customer selects the checking account.
+    </li>
+    <li>
+        The system prompts for an amount.
+    </li>
+    <li>
+        The customer enters the amount to withdraw.
+    </li>
+    <li>
+        The system validates the amount (assuming sufficient funds), and then issues cash and receipt.
+    </li>
+    <li>
+        The customer takes the cash and receipt, and then retrieves the bank card.
+    </li>
+    <li>
+        The use case ends.
+    </li>
+</ol>
+<p>
+    As you create this step-by-step description of the basic flow of events, you can discover alternative and exceptional
+    flows. For example, what happens if the customer enters an invalid PIN? Record the name and a brief description of each
+    alternate flow that you identified.
+</p>
+<h4>
+    Representing relationships between actors and use cases
+</h4>
+<p>
+    The relationship between actors and use cases&nbsp;can be captured, or documented.&nbsp; There are several ways to do
+    this. If you are using a use-case model on the project, you can create use-case diagrams to show how&nbsp;actors and
+    use cases&nbsp;relate to each other.&nbsp; Refer to&nbsp;<a href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html" guid="_0VAUsMlgEdmt3adZL5Dmdw">Guideline: Use-Case Model</a>&nbsp;for more information.
+</p>
+<p>
+    If you are not using a use-case model for the project, make sure that each use case identifies the associated primary
+    and secondary actors.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

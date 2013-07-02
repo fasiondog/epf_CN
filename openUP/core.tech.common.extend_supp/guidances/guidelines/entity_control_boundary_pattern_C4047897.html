@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Entity-Control-Boundary Pattern</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="entity_control_boundary_pattern">
+<meta name="uma.presentationName" content="Entity-Control-Boundary Pattern">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_uF-QYEAhEdq_UJTvM1DM2Q"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Entity-Control-Boundary Pattern</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes a rapid way to build a design that is robust enough to realize the functional requirements.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">Design the Solution</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Representing Interfaces to External Systems</a>
+</li>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/uc_realizations_448DDA77.html" guid="_2uan8NbyEdqu5o2S60g5LA">Use-Cases Realizations</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    When identifying the elements for a scenario of system behavior, you can align each participating element with one of
+    three key perspectives: <b>Entity</b>, <b>Control</b>, or <b>Boundary</b>. Although specifics of languages, frameworks,
+    and heuristics of quality design will drive the final design, a first cut that covers required system behavior can
+    always be assembled with elements of these three perspectives.
+</p>
+<p>
+    This pattern is similar to the Model View Controller pattern (described here [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#BUS96" guid="__nHToFndEd2EdJKkAyeBng">BUS96</a>] and here [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#WIKP-MVC" guid="__nHToFndEd2EdJKkAyeBng">WIKP-MVC</a>], among other places), but the Entity Control Boundary (ECB) pattern is not
+    solely appropriate for dealing with user interfaces, and it gives the controller a slightly different role to play.
+</p>
+<h4 align="left">
+    ECB&nbsp;pattern example
+</h4>
+<p>
+    &nbsp;<img alt="" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/ebc_diagram.jpg" />
+</p>
+<h3>
+    Entity elements
+</h3>
+<p>
+    An entity is a long-lived, passive element that is responsible for some meaningful chunk of information. This is not to
+    say that entities are "data," while other design elements are "function." Entities perform behavior organized around
+    some cohesive amount of data.
+</p>
+<p>
+    An example of an entity for a customer service application is a Customer entity that manages all information about a
+    customer. A design element for&nbsp;this entity would include data about the customer, behavior to manage the data,
+    behavior to validate customer information&nbsp;and to perform other business calculations, such as "Is this customer
+    allowed to purchase product X?"
+</p>
+<p>
+    The identification of the entities as part of this pattern can be done many times at different levels of abstraction
+    from the code, at different levels of granularity in size, and from the perspectives of different contexts. For
+    example, you could do an analysis pass on a scenario of creating a marketing campaign and identify the customer element
+    with various customer data elements, such as name and address, plus various required behaviors, such as the management
+    of the name and address data and the ability to rate the customer based on some algorithm (such an application of this
+    pattern would be abstract from code, coarse-grained, and have no specific context). Later, you could do a pass on the
+    same scenario applying an architectural mechanism for database access that breaks the address out as its own element,
+    moves the responsibility for storing and retrieving customers to a new control element, and identifies specific
+    database decisions, such as the use of primary keys in the entities. (Such an application of this pattern would be
+    closer to the code, finer-grained, and aligned with a database&nbsp;context.)
+</p>
+<h3>
+    Control elements
+</h3>
+<p>
+    A control element manages the flow of interaction of the scenario. A control element could manage the end-to-end
+    behavior of a scenario or it could manage the interactions between a subset of the elements. Behavior and business
+    rules relating to the information relevant to the scenario should be assigned to the entities; the control elements are
+    responsible only for the flow of the scenario.
+</p>
+<p>
+    CreateMarketingCampaign is an example of a control element for a customer service application. This design element
+    would&nbsp;be responsive to certain front-end boundary elements and would collaborate with other entities,
+    control&nbsp;elements, and back-end boundary elements to support the creation of a marketing campaign.
+</p>
+<p>
+    As with the entity example here, there might be many passes over the identification of control elements. A first pass
+    might be an analysis pass that identifies one control element for a scenario, with behavior to make sure that the
+    design can support the flow of events. A&nbsp;subsequent pass might find controllers to manage reusable collaborations
+    of low-level elements that will map to a specific code&nbsp;unit to be written.
+</p>
+<h3>
+    Boundary elements
+</h3>
+<p>
+    A boundary element lies on the periphery of a system or subsystem, but within it. For any scenario being considered
+    either across the whole system or within some subsystem, some boundary elements will be "front end" elements that
+    accept input from outside of the area under design, and other elements will be "back end," managing communication to
+    supporting elements outside of the system or subsystem.
+</p>
+<p>
+    Two examples of boundary elements for a customer service application might be a front end MarketingCampaignForm and a
+    back end BudgetSystem element. The MarketingCampaignForm would manage the exchange of information between a user and
+    the system, and the BudgetSystem would manage the exchange of information between the system and an external system
+    that manages budgets.
+</p>
+<p>
+    If the system communicates with another system (where that system could be anything from software to hardware units
+    that the current system will use, such as printers, terminals, alarm devices, and sensors).&nbsp; An analysis pass
+    could identify one boundary element for each external relevant to a scenario.
+</p>
+<p>
+    Example:
+</p>
+<blockquote>
+    <p>
+        An automated teller machine (ATM) must communicate with the ATM network to ascertain whether a customer's bank
+        number and PIN are correct, and whether the customer has sufficient funds to withdrawal the requested amount. The
+        ATM network is an external system (from the perspective of the ATM); therefore, you would use a
+        <strong>boundary</strong> class to represent it in a use-case analysis.
+    </p>
+</blockquote>
+<p>
+    Subsequently, these could be broken down into multiple boundary elements or small communities made up of collaborating
+    elements of all three stereotypes. If the interfaces with the system are simple and well-defined, a single class may be
+    sufficient to represent the external system. Often, however, these interfaces are too complex to be represented by
+    using a single class; they often require complex collaborations of many classes. Moreover, interfaces between systems
+    are often highly reusable across applications. As a result, in many cases, a component models the system interfaces
+    more appropriately.&nbsp; The use of a component allows the interface to the external system to be defined and
+    stabilized, while leaving the design details of the system interface hidden as the system evolves.
+</p>
+<h3>
+    Walking through the scenario
+</h3>
+<p>
+    You can walk through a scenario initiated by something outside of the boundaries of the system or subsystem being
+    designed and distribute the responsibility to perform behavior supporting the scenario to the elements identified of
+    each type. The appropriate design element responsible for each action in the scenario will be as described in the
+    definition of each of the element types described here previously.
+</p>
+<p>
+    In addition to identifying the behavior necessary to perform the scenario, the initiation of this behavior from design
+    element to design element identifies the necessary relationships. There are certain appropriate relations between the
+    participating elements. An element can communicate with other elements of the same kind. Control elements can
+    communicate with each of the other two kinds, but entities and boundary elements should not communicate directly.
+</p>
+<p>
+    This table shows appropriate links between design elements.
+</p>
+<table cellspacing="2" cellpadding="2" width="400" summary="Appropriate Links" border="1">
+    <tbody>
+        <tr>
+            <td>
+            </td>
+            <th scope="col">
+                <center>
+                    Entity
+                </center>
+            </th>
+            <th scope="col">
+                <center>
+                    Boundary
+                </center>
+            </th>
+            <th scope="col">
+                <center>
+                    Control
+                </center>
+            </th>
+        </tr>
+        <tr>
+            <th scope="row">
+                Entity
+            </th>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+            <td>
+            </td>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                Boundary
+            </th>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                Control
+            </th>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+            <td>
+                <center>
+                    X
+                </center>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    By applying this pattern, you can put a robust design together that identifies the elements, behavior, and
+    relationships necessary to support a scenario.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

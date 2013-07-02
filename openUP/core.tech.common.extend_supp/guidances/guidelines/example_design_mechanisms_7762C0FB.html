@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Example: Design Mechanisms</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="example_design_mechanisms">
+<meta name="uma.presentationName" content="Example: Design Mechanisms">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_4k_Hsg4LEduibvKwrGxWxA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Example: Design Mechanisms</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Examples that show how to describe design mechanisms</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Design Mechanism Characteristics and Mapping
+</h3>
+<p>
+    Consider the analysis mechanism for <strong>persistence</strong>.
+</p>
+<ul>
+    <li>
+        There might be a need for many (2,000) small objects (200 bytes each) to be stored for a few seconds, with no need
+        for them to survive thereafter.
+    </li>
+    <li>
+        There might be a need for several very large objects to be stored permanently on disk for several months, never
+        updated, but with sophisticated means of retrieval.
+    </li>
+</ul>
+<p>
+    These objects require different support for persistency. The best option depends on the characteristics of the design
+    mechanism:
+</p>
+<ul>
+    <li>
+        <b>In-memory storag</b><strong>e:</strong> For up to 1 Mb total (size x volume); very fast access for read, write,
+        update.
+    </li>
+    <li>
+        <b>Flash card</b><strong>:</strong> For up to 8 Mb; slow update and write access; moderate read access.
+    </li>
+    <li>
+        <b>Binary file</b><strong>:</strong> For 100 Kb to 200 Mb; slow update; slow read-and-write access.
+    </li>
+    <li>
+        <b>Database management system (DBMS)</b><strong>:</strong> For 100 Kb and upward (essentially no upper limit); even
+        slower update and read-and-write access.
+    </li>
+</ul>
+<p>
+    Note that these speeds are rated as slow only as compared to in-memory storage. Obviously, in some environments,
+    caching can improve apparent access times. (See Figure 1.)
+</p>
+<blockquote>
+    <p align="center">
+        <img title="Figure 1. Mapping Analysis Mechanisms to Design Mechanisms and Classes" height="221"         alt="Mapping Analysis Mechanisms to Design Mechanisms and Classes" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/co_dmec1.gif" width="372" />
+    </p>
+</blockquote>
+<div align="center">
+    <p>
+        <strong>Figure 1. Mapping Analysis Mechanisms to Design Mechanisms and Classes</strong>
+    </p>
+    <h3 align="left">
+        Mapping Design Mechanisms to Implementation Mechanisms
+    </h3>
+    <p align="left">
+        The <b>persistence</b> design mechanisms can be mapped to implementation mechanisms as Figure 2 shows:
+    </p>
+    <p align="center">
+        <img title="Figure 2. How persistence design mechanism map to implementation mechanism" height="216"         alt="How persistence design mechanism map to implementation mechanism" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/co_dmec2.gif" width="325" />
+    </p>
+    <p align="center">
+        <strong>Figure 2. How persistence design mechanism map to implementation mechanism</strong>
+    </p>
+    <p align="left">
+        A possible mapping between analysis mechanisms and design mechanisms. Dotted arrows mean "is specialized by,"
+        implying that the characteristics of the design mechanisms are inherited from the analysis mechanisms but that they
+        will be specialized and refined.
+    </p>
+    <p align="left">
+        After you have finished optimizing the mechanisms, the following mappings exist (see Figure 3):
+    </p>
+    <blockquote>
+        <p align="center">
+            <img title="Figure 3. Mapping structure after optimizing the mechanisms" height="110"             alt="Illustration of mapping structure after optimizing the mechanisms" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/co_dmec3.gif"             width="418" />
+        </p>
+        <p class="picturetext" align="center">
+            <strong>Figure 3. Mapping structure after optimizing the mechanisms</strong>
+        </p>
+        <p class="picturetext" align="left">
+            The design decisions for a client class in terms of mappings between mechanisms. <font             face="Courier New, Courier, mono">Flight</font> class needs two forms of persistency<strong>:</strong>
+            <strong>in-memory storage</strong>, implemented by a predefined library routine, and <strong>a
+            database,</strong> implemented with an off-the-shelf ObjectStorage product.
+        </p>
+    </blockquote>
+    <p align="left">
+        The map must be navigable in both directions to make it easy to determine client classes when changing
+        implementation mechanisms.
+    </p>
+    <h4 align="left">
+        Refining the mapping between design and implementation mechanisms
+    </h4>
+</div>
+<p>
+    Initially, the mapping between design mechanisms and implementation mechanisms is likely to be less than optimal, but
+    it will get the project running, identify unforeseen risks, and trigger further investigations and evaluations. As the
+    project continues and you gain more knowledge, you will need to refine the mapping.
+</p>
+<p>
+    Proceed iteratively to refine the mapping between design and implementation mechanisms. Eliminate redundant paths,
+    working both top-down and bottom-up.
+</p>
+<p>
+    <b>Working top-down:</b> When working top-down (from top to bottom), new and refined use-case realizations will put new
+    requirements on the necessary design mechanisms through the analysis mechanisms that you need. These new requirements
+    might uncover additional characteristics of a design mechanism, forcing a split between mechanisms. A compromise
+    between the system's complexity and its performance is also necessary:
+</p>
+<ul>
+    <li>
+        Too many different design mechanisms make the system too complex.
+    </li>
+    <li>
+        Too few design mechanisms can create performance problems for implementation mechanisms that stretch the limits of
+        the reasonable ranges of the values of their characteristics.
+    </li>
+</ul>
+<p>
+    <b>Working bottom-up:</b> When working bottom-up (from bottom to top) and investigating the available implementation
+    mechanisms, you might find products that satisfy several design mechanisms at once, but force some adaptation or
+    repartitioning of your design mechanisms. You want to minimize the number of implementation mechanisms you use, but too
+    few of them can also lead to performance problems.
+</p>
+<p>
+    After you decide to use a DBMS to store class A objects, you might be tempted to use it to store all objects in the
+    system. This could be very inefficient or very cumbersome. Not all objects that require persistency need to be stored
+    in the DBMS. Some objects may be persistent, but one application may access them frequently, while other applications
+    access them only infrequently. A hybrid strategy, in which the object is read from the DBMS into memory and
+    periodically synchronized, may be the best approach.
+</p>
+<blockquote>
+    <p class="example">
+        <b>Example</b>
+    </p>
+    <p class="example">
+        A flight can be stored both in memory for fast access and in a DBMS for long-term persistency. However, this
+        triggers a need for a mechanism to synchronize both.
+    </p>
+</blockquote>
+<p>
+    It is not uncommon to have more than one design mechanism associated with a client class as a compromise between
+    different characteristics.
+</p>
+<p>
+    Because implementation mechanisms often come in bundles in off-the-shelf components (operating systems and middleware
+    products), some optimization based on cost, impedance mismatch, or uniformity of style needs to occur. Also, mechanisms
+    are often interdependent, which makes clear separation of services into design mechanisms difficult.
+</p>
+<blockquote>
+    <p class="example">
+        <b>Examples</b>
+    </p>
+    <ul>
+        <li>
+            The notification mechanism can be based on the inter-process communication mechanism.
+        </li>
+        <li>
+            The error reporting mechanism can be based on the persistency mechanism.
+        </li>
+    </ul>
+</blockquote>
+<p>
+    Refinement continues over the whole Elaboration phase, and is always a compromise between:
+</p>
+<ul>
+    <li>
+        An exact fit with the requirements of the clients of the design mechanism, in terms of the expected
+        characteristics.
+    </li>
+    <li>
+        The cost and complexity of having too many different implementation mechanisms to acquire and integrate.
+    </li>
+</ul>
+<p>
+    The overall goal is always to have a simple, clean set of mechanisms that give conceptual integrity, simplicity, and
+    elegance to a large system.
+</p>
+<h3>
+    Describing Design Mechanisms
+</h3>
+<p>
+    As with analysis mechanisms, design mechanisms can be modeled using a collaboration, which may instantiate one or more
+    architectural or design patterns.
+</p>
+<blockquote>
+    <p>
+        <strong>Example: A persistence mechanism</strong>
+    </p>
+    <p>
+        This example uses an instance of a pattern for RDBMS-based persistency drawn from <a href="http://java.sun.com/products/jdbc/index.html" target="_blank"><u>Java&trade; Database Connectivity (JDBC)</u></a>.
+        Although we present the design here, JDBC supplies actual code for some of the classes. Therefore, it is a short
+        step from what is presented here to an implementation mechanism.
+    </p>
+</blockquote>
+<p>
+    Figure 4, titled <strong>JDBC: Static view,</strong> shows the classes (actually, the classifier roles) in the
+    collaboration.
+</p>
+<p align="center">
+    <img title="Figure 4. JDBC: Static View" height="382"     alt="Diagram of the figure titled Static View: JDBC shows the classes (actually, the classifier roles) in the collaboration. "      src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc1.gif" width="571" />
+</p>
+<p align="center">
+    <strong>Figure 4. JDBC: Static view</strong>
+</p>
+<p align="left">
+    The yellow classes are the ones that were supplied. The others, in tan (<font     face="Courier New, Courier, mono">myDBClass</font> class and so on), were bound by the designer to create the
+    mechanism.
+</p>
+<p align="left">
+    In a Java database class, a client will work with a <b>DBClass</b> to read and write persistent data. <font     face="Courier New, Courier, mono">DBClass</font> is responsible for accessing the JDBC database, using the
+    <b>DriverManager</b> class. Once a database <b>connection</b> is open, the <font     face="Courier New, Courier, mono">DBClass</font> can then create SQL statements that will be sent to the underlying
+    RDBMS and executed using the <b>Statement</b> class. <font face="Courier New, Courier, mono">Statement</font> class is
+    what communicates with the database. The result of the SQL query is returned in a <b>ResultSet</b> object.<span     style="mso-spacerun: yes">&nbsp;</span>
+</p>
+<p align="left">
+    The <b>DBClass</b> is responsible for making another class instance persistent. It understands the OO-to-RDBMS mapping
+    and can interface with the RDBMS. <font face="Courier New, Courier, mono">DBClass</font> flattens the object, writes it
+    to the RDBMS, and then reads the object data from the RDBMS and builds the object. Every class that is persistent has a
+    corresponding <font face="Courier New, Courier, mono">DBClass</font>.&nbsp;
+</p>
+<p align="left">
+    The <b>PersistentClassList</b> is used to return a set of persistent objects as a result of a database query, for
+    example: <font face="Courier New, Courier, mono">"DBClass.read()"</font>.
+</p>
+<p align="left">
+    A series of dynamic views follow, in Figures 5 thorough 9, to show how the mechanism actually works.
+</p>
+<p align="center">
+    <img title="Figure 5. JDBC: Initialize" height="146" alt="Diagram of JDBC: Initialize" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc2.gif"     width="285" />
+</p>
+<p align="center">
+    <b>Figure5. JDBC: Initialize</b>
+</p>
+<p>
+    Initialization must occur before any persistent class can be accessed.
+</p>
+<p>
+    To initialize the connection to the database, the <font face="Courier New, Courier, mono">DBClass</font> must load the
+    appropriate driver by calling the <font face="Courier New, Courier, mono">DriverManager getConnection()</font>
+    operation with a URL, user, and password.
+</p>
+<p>
+    The operation <font face="Courier New, Courier, mono">getConnection()</font> attempts to establish a connection to the
+    given database URL. The driver manager attempts to select an appropriate driver from the set of registered JDBC
+    drivers.
+</p>
+<blockquote>
+    <p>
+        <strong>Parameters</strong>
+    </p>
+    <blockquote>
+        <p>
+            <b>URL</b><strong>:</strong> A database URL in the form <font             face="Courier New, Courier, mono">jdbc:subprotocol:subname</font>. This URL is used to locate the actual
+            database server and is not Web-related, in this instance.
+        </p>
+        <p>
+            <b>user</b><strong>:</strong> The database user who is making the connection.
+        </p>
+        <p>
+            <b>pass</b><strong>:</strong> The user's password
+        </p>
+    </blockquote>
+    <p>
+        <strong>Returns</strong>
+    </p>
+    <blockquote>
+        <p>
+            A connection to the URL.
+        </p>
+    </blockquote>
+</blockquote>
+<p align="center">
+    <img title="Figure 6. JDBC: Create" height="253" alt="Diagram of JDBC: Create" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc3.gif" width="478" />
+</p>
+<p align="center">
+    <b>Figure 6. JDBC: Create</b>
+</p>
+<p align="left">
+    To create a new class, the persistency client asks the <font face="Courier New, Courier, mono">DBClass</font> object to
+    create the new class. <font face="Courier New, Courier, mono">DBClass</font> creates a new instance of a class "<font     face="Courier New, Courier, mono">PersistentClass</font>". <font face="Courier New, Courier, mono">DBClass</font>
+    object then creates a new <font face="Courier New, Courier, mono">Statement</font> object using <font     face="Courier New, Courier, mono">Connection class createStatement()</font> operation. <font     face="Courier New, Courier, mono">Statement</font> object runs, and the data is added to the database.
+</p>
+<p align="center">
+    <img title="Figure 7. JDBC: Read" height="352" alt="Diagram of JDBC: Read" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc4.gif" width="600" />
+</p>
+<p align="center">
+    <b>Figure 7. JDBC: Read</b>
+</p>
+<p>
+    To read a persistent class, the persistency client asks the <font face="Courier New, Courier, mono">DBClass</font>
+    object to read. <font face="Courier New, Courier, mono">DBClass</font> object creates a new <font     face="Courier New, Courier, mono">Statement</font> object using <font face="Courier New, Courier, mono">Connection
+    class createStatement()</font> operation. The Statement is executed, and the data is returned in the <font     face="Courier New, Courier, mono">ResultSet</font> object. <font face="Courier New, Courier, mono">DBClass</font>
+    object then creates a new instance of the <font face="Courier New, Courier, mono">PersistentClass</font> class and
+    populates it with the retrieved data. The data is returned in a collection object, an instance of <font     face="Courier New, Courier, mono">PersistentClassList</font> class.
+</p>
+<p>
+    <strong>Note:</strong>
+</p>
+<p>
+    The string passed to the <font face="Courier New, Courier, mono">"executeQuery()"</font> method is not necessarily
+    exactly the same string as the one passed into the method <font face="Courier New, Courier, mono">"read()"</font>.
+    <font face="Courier New, Courier, mono">DBClass</font> object will build the SQL query to retrieve the persistent data
+    from the database, using the criteria passed into the method <font face="Courier New, Courier, mono">"read()"</font>.
+    This is because the client of the <font face="Courier New, Courier, mono">DBClass</font> object does not need to know
+    the internal structure of the database to create a valid query. This knowledge is encapsulated within the object <font     face="Courier New, Courier, mono">"DBClass"</font>.
+</p>
+<p align="center">
+    <img title="Figure 8. JDBC: Update" height="255" alt="Diagram of JDBC: Update" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc5.gif" width="473" />
+</p>
+<p align="center">
+    <b>Figure 8. JDBC: Update</b>
+</p>
+<p>
+    To update a class, the persistency client asks the <font face="Courier New, Courier, mono">DBClass</font> object to
+    update. <font face="Courier New, Courier, mono">DBClass</font> object retrieves the data from the given object "<font     face="Courier New, Courier, mono">PersistentClass</font>". It creates a new object "<font     face="Courier New, Courier, mono">Statement</font>" using the operation "<font     face="Courier New, Courier, mono">Connection class createStatement()</font>". Once <font     face="Courier New, Courier, mono">Statement</font> object is built, the database is updated with the new data from the
+    class.
+</p>
+<p>
+    <strong>Remember:</strong> It is the job of <font face="Courier New, Courier, mono">DBClass</font> object to flatten
+    the object <font face="Courier New, Courier, mono">"PersistentClass"</font>, and write it to the database. That is why
+    it must be retrieved from the given object "<font face="Courier New, Courier, mono">PersistentClass</font>" before
+    creating the SQL <font face="Courier New, Courier, mono">Statement</font>.
+</p>
+<p>
+    <strong>Note:</strong>
+</p>
+<p>
+    In the above mechanism, the <font face="Courier New, Courier, mono">PersistentClass</font> must provide access routines
+    for all persistent data so that the <font face="Courier New, Courier, mono">DBClass</font> can access them. This
+    provides external access to certain persistent attributes that would have been private otherwise. This is a price you
+    have to pay to pull the persistence knowledge out of the class that encapsulates the data.
+</p>
+<p align="center">
+    <img title="Figure 9. JDBC: Delete" height="255" alt="Diagram of JDBC: Delete" src="./../../../core.tech.common.extend_supp/guidances/guidelines/resources/jdbc6.gif" width="473" />
+</p>
+<p align="center">
+    <b>Figure 9. JDBC: Delete</b>
+</p>
+<p align="left">
+    To delete a class, the persistency client asks the <font face="Courier New, Courier, mono">DBClass</font> object to
+    delete <font face="Courier New, Courier, mono">PersistentClass</font>. <font     face="Courier New, Courier, mono">DBClass</font> object creates a new object "<font     face="Courier New, Courier, mono">Statement</font>" using the operation "<font     face="Courier New, Courier, mono">Connection class createStatement()</font>". <font     face="Courier New, Courier, mono">Statement</font> object is executed and the data is removed from the database.
+</p>
+<p align="left">
+    In the actual implementation of this design, you would make some decisions about the mapping of the <font     face="Courier New, Courier, mono">DBClass</font> object to the persistent classes, such as having one <font     face="Courier New, Courier, mono">DBClass</font> per persistent class and allocating them to appropriate packages.
+    These packages will depend on the supplied java.sql file (see <a href="http://java.sun.com/products/jdbc/index.jsp">JDBC: API Documentation</a>) package that contains the supporting
+    classes <font face="Courier New, Courier, mono">"DriverManager", "Connection", "Statement", "ResultSet"</font>.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

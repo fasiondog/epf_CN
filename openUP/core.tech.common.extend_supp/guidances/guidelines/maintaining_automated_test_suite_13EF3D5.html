@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Maintaining Automated Test Suites</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="maintaining_automated_test_suite">
+<meta name="uma.presentationName" content="Maintaining Automated Test Suites">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0kF5kMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Maintaining Automated Test Suites</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline explains ways to maintain automated test suites - collection of tests performed together for breadth and depth coverage.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+</li>
+<li>
+<a href="./../../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    At some point in your test effort, you may find it necessary to manage your test effort by creating test suites for
+    your test assets.&nbsp;Maintaining test suites can take many different forms. To facilitate your testing, you may want
+    to introduce some&nbsp;level of&nbsp;automation of your test suites.&nbsp;The fact that you've automated your test
+    suites does not necessarily make your testing easier however. It may actually increase the maintenance burden of your
+    suites.
+</p>
+<p>
+    This guideline introduces you to useful heuristics on how to facilitate the maintenance of your automated test suites.
+</p>
+<h4>
+    Plan your test&nbsp;suites
+</h4>
+<p>
+    Automating your testing without planning increases&nbsp;the chances that testing will be ineffective
+    and&nbsp;inefficient.&nbsp;Some level of planning should take place whether implicit or explicit.&nbsp;An essential
+    part of any test plan is the definition of a strategy for test automation.&nbsp;Use your plan to articulate to the
+    development team how you plan to maintain your test assets.&nbsp;In many cases, this is never done.&nbsp;The rest of
+    the development team may be unaware of how you intend to maintain your tests.&nbsp;It is also a good practice to get
+    the rest of the development team to understand that this maintenance can be a substantial part of the overall
+    development effort.&nbsp;Use your test tooling to capture this information and treat this plan just like you would
+    treat any other test asset in your test repository.
+</p>
+<h4>
+    Centrally locate your test assets
+</h4>
+<p>
+    To facilitate the maintenance of your automated test suites, locate your test assets in a repository that can be
+    accessed by the development team.&nbsp;Many test automation environments provide test management tools that make it
+    easier to organize and access your test assets by maintaining the test assets (test cases, test scripts, and test
+    suites) in a common repository.
+</p>
+<p>
+    In addition, some form of access control is enforced by the automation test tool.&nbsp;This eases the maintenance
+    burden by ensuring the integrity of your test suites.&nbsp;You may choose to grant stakeholders and managers read-only
+    access, whereas developers and testers at the practitioner level may have read/write access.
+</p>
+<h4>
+    Treat your test assets like any other software
+</h4>
+<p>
+    Software must be maintained.&nbsp;This also applies to the software in your test suites.&nbsp;Test cases and their
+    associated test scripts, whether recorded or programmed, should be maintained.&nbsp;And just as software has different
+    kinds of maintenance (e.g., corrective, preventative, or adaptive) so too do the assets in your automated test suites.
+    As you lifecycle your test suites, identify, if only informally,&nbsp;how&nbsp;you plan to disposition the test suite
+    corrective maintenance (e.g., syntactical errors in your scripts),&nbsp;preventative maintenance (e.g., where possible
+    to write generalized test scripts), and adaptive maintenance (e.g., how you&nbsp;can use your test tooling to re-assign
+    test&nbsp;assets within one suite to&nbsp;another suite or suites).&nbsp;This can be captured, as described in the
+    section <strong>Plan Your Test Suites</strong> above, in your test plan.
+</p>
+<h4>
+    Improve the testability of your test suites through collaboration with developers
+</h4>
+<p>
+    It's one thing to say that your test suites will need to be maintained due to changes in the application, changes in
+    the testing target, etc.&nbsp;It's quite another thing to actually determine whether a test suite needs to be
+    revamped&nbsp;and, if it does, what test assets within it need to be addressed.
+</p>
+<p>
+    One way to facilitate this is to use test suites as a way to communicate test decision to the developers.&nbsp;One way
+    to perform continuous perfective maintenance of test suites is to think of your test suites as assets that belong to
+    the development team rather than just the testers.&nbsp; You can perform a kind of perfective maintenance on test in
+    the following ways:
+</p>
+<ul>
+    <li>
+        use test suites to raise the level of abstraction
+    </li>
+    <li>
+        use test suites to provide focus for the developer
+    </li>
+    <li>
+        use test suites to articulate areas that the developers would like testers to focus on
+    </li>
+    <li>
+        make the construction and maintenance&nbsp;of test suites more efficient&nbsp;by understanding what area(s)
+        developers want to focus on
+    </li>
+    <li>
+        use test suites to clarify test targets with developers
+    </li>
+</ul>
+<h4>
+    Don't be afraid to clean up your suites
+</h4>
+<p>
+    Your test assets will evolve just as the application under test will.&nbsp;As requirements to the system change, the
+    application will change as well.&nbsp;To maintain your test suites, you should continually&nbsp;check whether test
+    assets are valid.&nbsp;If possible, validity checks should be performed after each new release of the software,
+    preferably more frequently.&nbsp;Keeping your test suites relevant is a full-time job.&nbsp;Assume that changes in the
+    software will lead to some degree of invalid tests within your test suites.&nbsp;Once these test assets have been
+    identified as invalid, get rid of them.&nbsp;This will make the maintenance burden much more tolerable.&nbsp;Some
+    automated test tooling environments make this task easier by providing ways to package outdated or invalid
+    tests.&nbsp;In some cases, you may not be absolutely sure whether you want to completely get rid of tests within your
+    test suite or even of getting rid of test suites altogether.&nbsp; To alleviate this burden, you can create packages
+    for obsolete tests or test suites and dispose of tests or test suites by putting them in packages labeled for this
+    purpose.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

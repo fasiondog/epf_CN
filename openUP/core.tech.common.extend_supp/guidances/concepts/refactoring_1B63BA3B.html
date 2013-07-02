@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Refactoring</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="refactoring">
+<meta name="uma.presentationName" content="Refactoring">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_Poc7IPDzEdqYgerqi84oCA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Refactoring</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This concept explains ways of improving the design of existing code in a way that does not alter its external behavior.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html" guid="_C4U9QPTeEduDKIuqTXQ8SA">Evolve the Design</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/guidances/roadmaps/how_to_adopt_evolutionary_design_7CA256E4.html" guid="_irQiEOCsEdynptYdmll41Q">How to Adopt the Evolutionary Design Practice</a>
+</li>
+<li>
+<a href="./../../../practice.tech.test_driven_development.base/tasks/implement_solution_BB8B03DA.html" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ">Implement Solution</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Software Reuse</a>
+</li>
+<li>
+<a href="./../../../practice.tech.test_driven_development.base/guidances/guidelines/test_driven_development_F581182D.html" guid="_5s_DUJ03EdyQ3oTO93enUw">Test Driven Development</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    Refactoring is a disciplined way to restructure code when small changes are made to the code to improve its design. An
+    important aspect of a refactoring is that it improves the design while not changing the behavior of the design; a
+    refactoring neither adds nor removes functionality.
+</p>
+<p>
+    Refactoring enables you to evolve the code slowly over time, to take an iterative and incremental approach to
+    implementation.
+</p>
+<p>
+    These are the types of refactoring:
+</p>
+<ol>
+    <li>
+        Code refactoring. Often referred to simply as refactoring, this is the refactoring of programming source code.
+        Examples of code refactorings include Rename Method, Encapsulate Field, Extract Class, Introduce Assertion, and
+        Pushdown Method.
+    </li>
+    <li>
+        Database refactoring. A database refactoring is a simple change to a database schema that improves its design while
+        retaining both its behavioral and informational semantics. Examples of database refactorings include Rename Column,
+        Split Table, Move Method to Database, Replace LOB with Table, Introduce Column Constraint, and Use Official Data
+        Source.
+    </li>
+    <li>
+        User interface (UI) refactoring. A UI refactoring is a simple change to the UI which retains its semantics.
+        Examples of UI refactorings include Align Entry Fields, Apply Common Button Size, Apply Common Font, Indicate
+        Format, Reword in Active Voice, and Increase Color Contrast.
+    </li>
+</ol>
+<p>
+    Martin Fowler [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html#FOW99" guid="__nHToFndEd2EdJKkAyeBng">FOW99</a>] identifies four key reasons to refactor:
+</p>
+<ul>
+    <li>
+        Refactoring improves the design of software.
+    </li>
+    <li>
+        Refactoring makes software easier to understand.
+    </li>
+    <li>
+        Refactoring helps you find bugs.
+    </li>
+    <li>
+        Refactoring helps you program faster.
+    </li>
+</ul>
+<p>
+    Refactoring can improve the design of existing code, but it does not take the place of considering the design before
+    writing code. Refactoring instead changes the role of up-front design, allowing the strictly design work to be more
+    abstract. Small-scale, very tactical decisions can be made during the implementation of the solution with confidence
+    that refactoring will ensure a quality implementation at that level. The designing of the solution before
+    implementation will be more lightweight and focused on broad factors that will drive the implementation.
+</p>
+<p>
+    There is an additional benefit of refactoring: it changes the way a developer thinks about the implementation when not
+    refactoring. The basic task of implementing a solution becomes solely about getting the solution to pass its developer
+    tests in the simplest way possible. Then the design of that solution can be examined and refactored separately. Even if
+    these two things -- implementation of the solution and then improvement -- are just a minute apart, it can be freeing
+    for a developer to single-mindedly create code that causes a test to pass, and then separately single-mindedly improve
+    that code.
+</p>
+<p>
+    These are some additional resources:
+</p>
+<ul>
+    <li>
+        <a href="http://www.refactoring.com/" target="_blank"><u><font         color="#0000ff">http://www.refactoring.com/</font></u></a>
+    </li>
+    <li>
+        <a href="http://www.agiledata.org/essays/databaseRefactoring.html"><u><font         color="#0000ff">http://www.agiledata.org/essays/databaseRefactoring.html</font></u></a>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Use-Case Model</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="use_case_model">
+<meta name="uma.presentationName" content="Use-Case Model">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_2jyfUAhVEduRe8TeoBmuGg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Use-Case Model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This artifact is a model of the system's intended functions and its surroundings, and serves as a contract between the customer and the project team.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html" guid="_W2SgEDR5EdutE_HNDTJk5Q">Use-Case Model</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Explanation
+</h3>
+<p>
+    A use-case model is a model of how different types of users interact with the system to solve a problem.&nbsp; As such,
+    it describes the goals of the users, the interactions between the users and the system, and the required behavior of
+    the system in satisfying these goals.
+</p>
+<p>
+    A use-case model consists of a number of model elements.&nbsp; The most important model elements are: use cases, actors
+    and the relationships between them.&nbsp;
+</p>
+<p>
+    A use-case diagram is used to graphically depict a subset of the model to simplify communications.&nbsp; There will
+    typically be several use-case diagrams associated with a given model, each showing a subset of the model elements
+    relevant for a particular purpose.&nbsp; The same model element may be shown on several use-case diagrams, but each
+    instance must be consistent.&nbsp; If tools are used to maintain the use-case model, this consistency constraint is
+    automated so that any changes to the model element (changing the name for example) will be automatically reflected on
+    every use-case diagram that shows that element.
+</p>
+<p>
+    The use-case model may contain packages that are used to structure the model to simplify analysis, communications,
+    navigation, development, maintenance and planning.
+</p>
+<p>
+    Much of the use-case model is in fact textual, with the text captured in the&nbsp;use-case specifications&nbsp;that are
+    associated with each use-case model element.&nbsp;These specifications describe the flow of events of the use case.
+</p>
+<p>
+    The use-case model serves as a unifying thread throughout system development. It is used as the primary specification
+    of the functional requirements for the system, as the basis for analysis and design, as an input to iteration planning,
+    as the basis of defining test cases and as the basis for user documentation&nbsp;&nbsp;
+</p>
+<h3>
+    Basic model elements
+</h3>
+<p>
+    The use-case model contains, as a minimum, the following basic model elements.
+</p>
+<h4>
+    Actor
+</h4>
+<p>
+    A model element representing&nbsp;each actor. Properties include the actors name and brief description. See&nbsp;<a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html" guid="_zGqO0MDpEduTGJ8i4u8TMw">Concept：Actor</a> for more information.
+</p>
+<h4>
+    Use Case
+</h4>
+<p>
+    A model element representing&nbsp;each use case. Properties include the use case name and use case specification.
+    See&nbsp;Use Case artifact and <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/use_case_BB199D1B.html" guid="_KudM0NcJEdqz_d2XWoVt6Q">Concept：Use Case</a> for more information.
+</p>
+<h4>
+    Associations
+</h4>
+<p>
+    Associations are used to describe the relationships between actors and the use cases they participate in. This
+    relationship is commonly known as a "communicates-association".
+</p>
+<h3>
+    Advanced model elements
+</h3>
+<p>
+    The use-case model may also contain the following advanced model elements.
+</p>
+<h4>
+    Subject
+</h4>
+<p>
+    A model element that represents the boundary of the system of interest.&nbsp;&nbsp;
+</p>
+<h4>
+    Use-Case Package
+</h4>
+<p>
+    A model element used to structure the use case model to simplify analysis, communications, navigation, and
+    planning.&nbsp; If there are many use cases or actors, you can use use-case packages to further structure the use-case
+    model in much the same manner you use folders or directories to structure the information on your hard-disk.
+</p>
+<p>
+    You can partition a use-case model into use-case packages for several reasons, including:
+</p>
+<ul>
+    <li>
+        To reflect the order, configuration, or delivery units in the finished system thus supporting iteration planning.
+    </li>
+    <li>
+        To support parallel development by dividing the problem into bite-sized pieces.
+    </li>
+    <li>
+        To simplify communication with different stakeholders by creating packages for containing use cases and actors
+        relevant to a particular stakeholder.
+    </li>
+</ul>
+<h4>
+    Generalizations
+</h4>
+<p>
+    A relationship&nbsp;between actors to support re-use of common properties.
+</p>
+<h4>
+    Dependencies
+</h4>
+<p>
+    A number of dependency types between use cases are defined in UML. In particular, &lt;&lt;extend&gt;&gt; and
+    &lt;&lt;include&gt;&gt;.
+</p>
+<p>
+    &lt;&lt;extend&gt;&gt; is used to include optional behavior from an extending use case in an extended use case.
+</p>
+<p>
+    &lt;&lt;include&gt;&gt; is used to include common behavior from an included use case into a base use case in order to
+    support re-use of common behavior.
+</p>
+<p>
+    The latter is the most widely used dependency and is useful for:
+</p>
+<ul>
+    <li>
+        Factoring out behavior from the base use case that is not necessary for the understanding of the primary purpose of
+        the use case to simplify communications.
+    </li>
+    <li>
+        Factoring out behavior that is in common for two or more use cases to maximize re-use, simplify maintenance and
+        ensure consistency.
+    </li>
+</ul>
+<h3>
+    Example Use-Case Diagram
+</h3>
+<p>
+    Figure 1 shows a use-case diagram from an Automated Teller Machine (ATM) use-case model.
+</p>
+<p>
+    &nbsp;<img alt="Figure 1: ATM Use-Case Diagram" src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/atm_uc_diagram.gif" />
+</p>
+<p>
+    Figure 1: ATM Use-Case Diagram
+</p>
+<p>
+    This diagram shows the subject (atm:ATM), four actors (Bank Customer, Bank, Cashier and Maintenance Person), five use
+    cases (Withdraw Cash, Transfer Funds, Deposit Funds, Refill Machine and Validate User), three &lt;&lt;includes&gt;&gt;
+    dependencies, and the associations between the performing actors and the use cases.
+</p>
+<p>
+    The use cases Withdraw Cash, Deposit Funds, and Transfer Funds all need to include how the customer is identified to
+    the system. This behavior can be extracted to a new inclusion use case called Validate User, which the three base use
+    cases &lt;&lt;include&gt;&gt;. The base use cases are independent of the method used for identification, and it is
+    therefore encapsulated in the inclusion use case. From the perspective of the base use cases, it does not matter
+    whether the method for identification is to read a magnetic bank card, or perform a retinal scan. They only depend on
+    the result of Validate Customer.
+</p>
+<p>
+    Note that Figure 1 is only a partial view of the use-case model. The complete use-case model also includes descriptions
+    of each actor, descriptions of each use case, and use-case specifications for each use case.&nbsp; For a more complete
+    example of this use case model see&nbsp;<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/examples/uc_model_evolve_960F136B.html" guid="_t4QdAMNqEdu2IdAIaWZyAw">Evolution of the Use-Case Model</a>.<br />
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

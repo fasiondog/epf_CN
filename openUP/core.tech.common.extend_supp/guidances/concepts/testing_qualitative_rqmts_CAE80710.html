@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Testing Qualitative Requirements</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="testing_qualitative_rqmts">
+<meta name="uma.presentationName" content="Testing Qualitative Requirements">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0aJ6cMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Testing Qualitative Requirements</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This concept covers some of different types of testing that is applicable to test the different qualitative requirements based on FURPS.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/test_case_335C5DEA.html" guid="_0ZS-0MlgEdmt3adZL5Dmdw">Test Case</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    There is much more to testing computer software than simply evaluating the functions, interface, and response-time
+    characteristics of a target-of-test.&nbsp;Additional tests must focus on characteristics and attributes, such as the
+    target-of-test.
+</p>
+<ul>
+    <li>
+        integrity (resistance to failure)
+    </li>
+    <li>
+        ability to be installed and executed on different platforms
+    </li>
+    <li>
+        ability to handle many requests simultaneously
+    </li>
+</ul>
+<p>
+    To achieve this, many different types of tests are implemented and executed.&nbsp;Each test type has a specific
+    objective and support technique.&nbsp;Each technique focuses on testing one or more characteristics or attributes of
+    the target-of-test.
+</p>
+<p>
+    The following sections list the types of test based on the most obvious quality&nbsp;attributes they address.
+</p>
+<h3>
+    Types of test for&nbsp;Functionality
+</h3>
+<p>
+    <strong>Function test:</strong>&nbsp;Tests focused on validating the target-of-test functions as intended, providing
+    the required services, methods, or use cases. This test is implemented and executed against different targets-of-test,
+    including units, integrated units, applications, and systems.
+</p>
+<p>
+    <strong>Security test:</strong>&nbsp;Tests focused on ensuring the target-of-test data (or systems) are accessible only
+    to those actors for which they are intended. This test is implemented and executed on various targets-of-test.
+</p>
+<p>
+    <strong>Volume test:</strong>&nbsp;Tests focused on verifying the target-of-test's ability to handle large amounts of
+    data, either as input and output or resident within the database.&nbsp;Volume testing includes test strategies such as
+    creating queries that would return the entire contents of the database, or that would have so many restrictions that no
+    data is returned, or where the data entry has the maximum amount of data for each field.
+</p>
+<h3>
+    Types of test for&nbsp;Usability
+</h3>
+<p>
+    <strong>Usability test:</strong>&nbsp;Tests that focus on:
+</p>
+<ul>
+    <li>
+        human factors
+    </li>
+    <li>
+        esthetics
+    </li>
+    <li>
+        consistency in the user interface
+    </li>
+    <li>
+        online and context-sensitive help
+    </li>
+    <li>
+        wizards and agents
+    </li>
+    <li>
+        user documentation
+    </li>
+    <li>
+        training materials
+    </li>
+</ul>
+<p>
+    <strong>Integrity test:</strong>&nbsp;Tests that focus on assessing the target-of-test's robustness (resistance to
+    failure), and technical compliance to language, syntax, and resource usage.&nbsp;This test is implemented and executed
+    against different targets-of-tests, including units and integrated units.
+</p>
+<p>
+    <strong>Structure test</strong>: Tests that focus on assessing the target-of-test's adherence to its design and
+    formation.&nbsp;Typically, this test is done for Web-enabled applications ensuring that all links are connected,
+    appropriate content is displayed, and no content is orphaned.
+</p>
+<h3>
+    Types of test for&nbsp;Reliability
+</h3>
+<p>
+    <strong>Stress test:</strong>&nbsp; A type of reliability test that focuses on evaluating how the system responds under
+    abnormal conditions.&nbsp;Stresses on the system could include extreme workloads, insufficient memory, unavailable
+    services and hardware, or limited shared resources.&nbsp;These tests are often performed to gain a better understanding
+    of how and in what areas the system will break, so that contingency plans and upgrade maintenance can be planned and
+    budgeted for well in advance.
+</p>
+<p>
+    <strong>Benchmark test:</strong>&nbsp; A type of performance test that compares the performance of a new or unknown
+    target-of-test to a known reference-workload and system.
+</p>
+<p>
+    <strong>Contention test:</strong>&nbsp; Tests focused on validating the target-of-test's ability to acceptably handle
+    multiple actor demands on the same resource (data records, memory, and so on).
+</p>
+<h3>
+    Types of test for Performance
+</h3>
+<p>
+    <strong>Load test:</strong>&nbsp; A type of performance test used to validate and assess acceptability of the
+    operational limits of a system under varying workloads while the system-under-test remains constant.&nbsp;In some
+    variants, the workload remains constant and the configuration of the system-under-test is varied.&nbsp; Measurements
+    are usually taken based on the workload throughout and in-line transaction response time.&nbsp;The variations in
+    workload usually include emulation of average and peak workloads that occur within normal operational tolerances.
+</p>
+<p>
+    <strong>Performance profile:</strong> A test in which the target-of-test's timing profile is monitored, including
+    execution flow, data access, function and system calls to identify and address both performance bottlenecks and
+    inefficient processes.
+</p>
+<p>
+    <strong>Configuration test:</strong>&nbsp; Tests focused on ensuring the target-of-test functions as intended on
+    different hardware and software configurations.&nbsp;This test might also be implemented as a system performance test.
+</p>
+<h3>
+    Types of test for Supportability
+</h3>
+<p>
+    <strong>Installation test:</strong>&nbsp; Tests focused on ensuring the target-of-test installs as intended on
+    different hardware and software configurations, and under different conditions (such as insufficient disk space or
+    power interruptions).&nbsp;This test is implemented and executed against applications and systems.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

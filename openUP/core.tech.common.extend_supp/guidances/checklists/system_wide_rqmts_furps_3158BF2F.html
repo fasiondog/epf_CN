@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>核对表：System-Wide Requirements (FURPS+)</title>
+<meta name="uma.type" content="Checklist">
+<meta name="uma.name" content="system_wide_rqmts_furps">
+<meta name="uma.presentationName" content="System-Wide Requirements (FURPS+)">
+<meta name="element_type" content="Checklist">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', true, false, false);
+					
+					//override the subsection text
+					contentPage.subSection.expandAllText = '展开所有检查项';
+					contentPage.subSection.collapseAllText = '折叠所有检查项';					
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_Vael8CGMEdu3VKXZx45D3A"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">核对表：System-Wide Requirements (FURPS+)</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/checklist.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This check list is used to verify that the different types of system-wide requirements covered by FURPS+ have been considered.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/system_wide_requirements_8ED0BB6B.html" guid="_wr24gNcGEdqz_d2XWoVt6Q">Developing System-Wide Requirements Specification</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">检查项</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableCell">
+<div class="stepHeading">Global functional requirements have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Are functional requirements that affect multiple use cases identified? For example, all use cases may be subject to
+        access control, audit trails, general responses to abnormal situations (overflow, communication facilities, error
+        handling and recovery and so on).
+    </li>
+    <li>
+        For each of these requirements, are they behavioral and could be better captured in a common use case?
+    </li>
+    <li>
+        For each of these functions, is it clear how input and shared data generate output and shared data?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Usability requirements have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have the efficiency and usability factors of user tasks been considered?&nbsp;
+    </li>
+    <li>
+        Are the requirements specified in a way that is verifiable, including metrics and target values?
+    </li>
+    <li>
+        Have&nbsp;novice as well as expert users been considered?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Reliability requirements have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have reliability requirements been specified as measurable requirements or prioritized design goals?
+    </li>
+    <li>
+        Is error checking and recovery required?
+    </li>
+    <li>
+        Are undesired events considered and their required responses specified?
+    </li>
+    <li>
+        Are initial or special states considered (such as cold starts or abnormal termination)?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Performance requirements have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have the resource and performance margin requirements been stated (for example speed, response time, recovery time
+        of various software functions)?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Supportability requirements have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Are there any requirements that will enhance the supportability or maintainability of the system being built?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Constraints have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Are there any required standards in effect, implementation language, policies for database integrity, resource
+        limits, operating environments, and so forth?
+    </li>
+    <li>
+        Has the use of inherited design or code or pre-selected tools been specified?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">External interfaces have been identified</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Is it clear how the software interacts with people, the system's hardware, other hardware, and other software?
+    </li>
+    <li>
+        Have all critical data elements that cross system boundaries been identified for those scenarios that will be
+        implemented&nbsp;next?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Business rules have been captured and validated</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Are the rules relevant to the use cases identified (data validation rules, formulas, flow decisions)?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Applicable standards and regulatory compliance requirements have been identified</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have all requirements derived from existing standard and regulations been specified?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

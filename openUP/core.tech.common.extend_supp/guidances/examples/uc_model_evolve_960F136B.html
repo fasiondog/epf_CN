@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>示例：Evolution of the Use-Case Model</title>
+<meta name="uma.type" content="Example">
+<meta name="uma.name" content="uc_model_evolve">
+<meta name="uma.presentationName" content="Evolution of the Use-Case Model">
+<meta name="element_type" content="example">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_t4QdAMNqEdu2IdAIaWZyAw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">示例：Evolution of the Use-Case Model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This example illustrates how the use-case model evolves over time when you use a &quot;breadth before depth&quot; approach to maximize value and minimize risk early in the lifecycle and to minimize re-work later.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html" guid="_W2SgEDR5EdutE_HNDTJk5Q">Use-Case Model</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/use_case_spec_CD5DD9B1.html" guid="_JLOiIMNvEdu2IdAIaWZyAw">Use-Case Specification</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    This example illustrates how the use-case model and associated use-case specification will evolve during the lifecycle.
+    It shows the state of the use case model at two points in the lifecycle: early inception and towards the end of
+    elaboration. The purpose is to illustrate how one would identify, outline and detail requirements so as to maximize
+    stakeholder value and minimize risk early in the project, as well as to minimize re-work later.&nbsp;
+</p>
+<p>
+    The example uses an Automated Teller Machine as the example system, because it is familiar to most people. This
+    familiarity simplifies understanding the principles without getting lost in domain specific terminology.
+</p>
+<h4>
+    Early inception
+</h4>
+<p>
+    Assume you have just started on the project as the Analyst. You have identified the key stakeholders and met with them
+    to discuss their needs. During your meetings, you identified a number of key actors, use cases, and supporting
+    requirements for the ATM system. You captured the use cases and actors, with names and brief descriptions only, in the
+    use-case model. An example of this work is given in the document <strong>ATM UC Model Inception</strong>.
+</p>
+<p>
+    Prior to committing significant time to detailing these use cases now, you recognize that a "breadth before depth"
+    approach can save you valuable time and permit you to identify the highest value and highest risk items so that you can
+    concentrate on those first.
+</p>
+<p>
+    You hold a brainstorming session with the stakeholders and outline the basic flow of each of the main use cases. As you
+    are working through, you may identify some additional alternative flows. Fight the urge to "dive-in" to the details on
+    these alternative flows at this point, simply list them and come back later when you have a better understanding of the
+    "big picture".
+</p>
+<p>
+    Examples of the notes you took during this exercise are attached (<strong>Withdraw Cash Outline</strong>,
+    <strong>Deposit Funds Outline</strong> and <strong>Transfer</strong> <strong>Funds Outline</strong>).<br />
+    <b>Note:</b> the choice of font is intentional to illustrate that these are notes, not formal documents.
+</p>
+<p>
+    Reviewing your notes, you recognize that there is some behavior that is common to most of the use cases, namely the
+    steps required to validate the Bank Customer. Factoring this behavior out into an &lt;&lt;included&gt;&gt; use case
+    will simplify communications, iteration planning, and maintenance.
+</p>
+<p>
+    You update the use case model accordingly: <strong>ATM UC Model Elaboration</strong>.
+</p>
+<h4>
+    Elaboration
+</h4>
+<p>
+    With a better understanding of the system, you can now prioritize your effort to maximize value and minimize risk. You
+    start by detailing the common behavior captured in the use case: Validate User. This use case captures key
+    architectural requirements that will exercise a significant portion of the system (communications with the Bank, card
+    reader interface, and so on). Implementing this one key scenario will go a long way to reducing risk.
+</p>
+<p>
+    An example of the Validate User use-case specification is attached: <strong>Use Case Spec - Validate User.</strong>
+</p>
+<p>
+    Note that there may still be some un-answered questions, but that's OK. Capture these directly in the use-case
+    specification and get them answered (see Section 5.6 of the <strong>Validate User UC Specification</strong>, for an
+    example).
+</p>
+<p>
+    Continuing with another architecturally significant thread, you detail the basic flow and some key alternative flows of
+    the use case: Withdraw Cash. You know that if the team can implement this, much of the other functionality will be low
+    risk.
+</p>
+<p>
+    An example of the Withdraw Cash use-case specification is attached:&nbsp;<strong>Use Case Spec - Withdraw
+    Cash</strong>.
+</p>
+<h3>
+    Summary
+</h3>
+<p>
+    By following a breadth before depth approach to outlining and detailing use cases, you can make better decisions on
+    priorities. Start by identifying actors. Then for each actor, ask "What is the main purpose this actor would like to
+    use the system?". This will lead to the identification of the use cases. Capture the actors and use cases in the
+    use-case model along with a brief description.
+</p>
+<p>
+    Prioritize the use cases, and then draft the main scenario or basic flow. As you are working through this you may
+    identify alternate flows (what can go wrong, what options are available, and so on). Capture these, along with a brief
+    description.
+</p>
+<p>
+    Review the use-case model and reprioritize and assess risk. For the high priority (based on value to the stakeholders)
+    or high risk use cases,&nbsp;detail the main scenario and the critical alternate flows.
+</p>
+<p>
+    If you follow this approach, you will increase the likelihood of delivering value early, minimizing risk, and
+    minimizing re-work.<br />
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">示例</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_deposit_funds_outline_AB06FCD4.html" guid="_jiwo4IHGEd6NhZnUM27HMQ">Use Case - Deposit Funds Outline</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_model_elaboration_phase_70035F60.html" guid="_MNZ2kIHHEd6NhZnUM27HMQ">Use Case - Model Elaboration Phase</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_model_inception_phase_31D1C889.html" guid="_gbL6UIHOEd6NhZnUM27HMQ">Use Case - Model Inception Phase</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_spec_validate_user_85DF99C7.html" guid="_BkKmAIHSEd6NhZnUM27HMQ">Use Case - Specification Validate User</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_transfer_funds_outline_8C101C35.html" guid="_nwykAIHQEd6NhZnUM27HMQ">Use Case - Transfer Funds Outline</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_withdraw_cash_outline_98D0EC9A.html" guid="_7MzegIHVEd6NhZnUM27HMQ">Use Case - Withdraw Cash Outline</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

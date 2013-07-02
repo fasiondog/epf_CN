@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Use-Case Model</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="use_case_model">
+<meta name="uma.presentationName" content="Use-Case Model">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0VAUsMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Use-Case Model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes how to develop and evolve the use-case model to capture the functional requirements for the system under development.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    The key to successful iterative development is ensuring that the development team maximizes stakeholder value and
+    minimizes risk early in the lifecycle, while minimizing re-work later.&nbsp; This imposes some constraints on how we
+    develop the use-case model.
+</p>
+<p>
+    At one extreme is the classical waterfall approach, which attempts to&nbsp;detail all of the requirements prior to
+    design and implementation.&nbsp; This approach delays delivery of stakeholder value and risk reduction unnecessarily.
+</p>
+<p>
+    At the other extreme is&nbsp;beginning development prior to understanding what the system must do.&nbsp; This approach
+    results in significant, and costly, re-work later in the lifecycle.
+</p>
+<p>
+    A better approach is to detail only those requirements which will be the focus of development in the next iteration (or
+    two).&nbsp; Selection of these requirements is driven by value and risk, and thus requires as a minimum an abstract
+    understanding of the "big-picture".
+</p>
+<p>
+    The following discussion will outline the approach used to evolve the use-case model to achieve these goals.
+</p>
+<h3>
+    <a id="How the Use-Case Model Evolves" name="How the Use-Case Model Evolves">How the Use-Case Model Evolves</a>
+</h3>
+<p>
+    The recommended approach to evolving the use-case model takes a "breadth before depth" approach.&nbsp; In this
+    approach, one identifies the actors and use cases and outlines them quickly.&nbsp; Based on this knowledge, one can
+    then perform an initial assessment of risk and priorities and thus focus the effort of&nbsp;detailing&nbsp;the use
+    cases on the right areas.
+</p>
+<h4>
+    Inception
+</h4>
+<p>
+    The purpose of inception is to understand the scope of the system.&nbsp; We need to understand the main purpose of the
+    system, what is within the scope of the system, and what is external to the system.&nbsp; We must strive to list all
+    the primary actors and use cases, however we don't have the luxury of being able to detail all of these requirements at
+    this time.&nbsp; Strive to&nbsp;identify by name&nbsp;~80% of the primary actors and use cases and provide a brief
+    description (one - three sentences) for each.
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <h5>
+        Identify stakeholders
+    </h5>
+    <p>
+        Begin by listing all the external stakeholders for the system.&nbsp; These individuals will be the source of the
+        requirements.
+    </p>
+    <h5>
+        Identify Actors
+    </h5>
+    <p>
+        Name and describe the primary actors.&nbsp; See <a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html" guid="_eyL0wCu-EdqSxKAVa9kmvA">Guideline：Identify and Outline Actors and Use Cases</a>.
+    </p>
+    <h5>
+        Identify Use Cases
+    </h5>
+    <p>
+        For each actor, ask "what does this actor want to accomplish with the system"?&nbsp; This will reveal the primary
+        use cases for the system.&nbsp; Name and describe each of these as you discover them.
+    </p>
+    <h5>
+        Update the Use-Case Model
+    </h5>
+    <p>
+        Update the use case model to capture the actor and use case names and brief description.&nbsp; Capture the
+        relationship between the actors and use cases.
+    </p>
+    <h5>
+        Outline the Basic Flows
+    </h5>
+    <p>
+        For those use cases that are considered high priority by the stakeholders, or high risk by the development team,
+        capture a step-by-step description of the Basic Flow.&nbsp; Don't worry about structuring the flow at this
+        point.&nbsp; Focus on capturing the dialogue between the actor and the system and the key requirements for the
+        system.
+    </p>
+    <h5>
+        Identify Alternate Flows
+    </h5>
+    <p>
+        As you work through the Basic Flows, ask: "What can go wrong?"; "What options are available at this point?";
+        etc.&nbsp; These types of questions will reveal alternate flows.&nbsp; Capture these, giving each a name and brief
+        description.&nbsp; Fight the urge to detail these alternate flows at this time.
+    </p>
+    <h5>
+        Refactor the Use Case Model
+    </h5>
+    <p>
+        Based on the Basic Flows you have identified, determine if there is common behavior that could be factored out into
+        &lt;&lt;include&gt;&gt; use cases.&nbsp; Refactor the Use Case model accordingly.
+    </p>
+    <h5>
+        Prioritize Use Cases
+    </h5>
+    <p>
+        Given the abstract description you now have of the requirements, work with stakeholders to prioritize the use
+        cases.&nbsp; This will be the primary input to iteration planning.
+    </p>
+</blockquote>
+<h4>
+    Elaboration
+</h4>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        The purpose of elaboration is to demonstrate the feasibility of&nbsp;the solution prior to committing additional
+        resources.&nbsp; To be successful, one must demonstrate that stakeholder value can be delivered and that the risk
+        of continuing is acceptable.&nbsp; We must strive to detail and implement ~20% of the scenarios.&nbsp; These
+        scenarios must be selected to achieve good coverage of the architecture (for example, a vertical slice through the
+        architecture, touching as many&nbsp;components and interfaces as possible, is preferred to elaborating the GUI
+        only).
+    </p>
+    <h5>
+        Detail Basic Flow
+    </h5>
+    <p>
+        For those UC selected for the next iteration, spend the time to detail the basic flow now.&nbsp; See <a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html" guid="_4BJ_YCxSEdqjsdw1QLH_6Q">Guideline：Detail Use Cases and Scenarios</a>.
+    </p>
+    <h5>
+        Detail Alternate Flow
+    </h5>
+    <p>
+        For those alternate flows selected for the next iteration, spend the time to detail the flows now.
+    </p>
+    <h5>
+        Update the Use-Case Model
+    </h5>
+    <p>
+        Update the Use-Case Model to capture any refinements made as a result of your work.&nbsp; Depending upon the
+        complexity of the system, you might want to introduce packages to group the use cases in a logical manner to
+        simplify communications, iteration planning, and parallel development.
+    </p>
+</blockquote>
+<h4>
+    Construction
+</h4>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        The purpose of construction is to incrementally deliver functionality (and value).&nbsp; Working from the iteration
+        plan, continue detailing the remaining requirements.&nbsp; Shoot for completion of ~90 - ~95% of use cases by the
+        end of construction.
+    </p>
+    <h5>
+        Detail Basic Flows
+    </h5>
+    <p>
+        For those UC selected for the next iteration, spend the time to detail the basic flow now.&nbsp; See <a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html" guid="_4BJ_YCxSEdqjsdw1QLH_6Q">Guideline：Detail Use Cases and Scenarios</a>.
+    </p>
+    <h5>
+        Detail Alternate Flows
+    </h5>
+    <p>
+        For those alternate flows selected for the next iteration, spend the time to detail the flows now.
+    </p>
+    <h5>
+        Update the Use-Case Model
+    </h5>
+    <p>
+        Update the Use-Case Model to capture any refinements made as a result of your work.
+    </p>
+</blockquote>
+<h4>
+    Transition
+</h4>
+<p>
+    The purpose of transition is to make the system operational in its intended environment.&nbsp; Some requirements will
+    not be covered at this point.&nbsp; But the requirements must clearly not stress the design.&nbsp; The remaining ~5% to
+    ~10% of use cases must be detailed and implemented in this phase.
+</p>
+<h3>
+    <a id="Avoiding Functional Decomposition" name="Avoiding Functional Decomposition">Avoiding Functional
+    Decomposition</a>
+</h3>
+<p>
+    A common pitfall for those new to use-case models is to perform a&nbsp;functional decomposition of the system. This
+    results in many small "use cases", that on their own do not deliver the "observable result of value" to the
+    actor.&nbsp; To avoid this, watch for the following symptoms:
+</p>
+<ul>
+    <li>
+        <strong>Small</strong> use cases, meaning that the description of the flow of events is only one or a few
+        sentences.
+    </li>
+    <li>
+        <strong>Many</strong> use cases, meaning that the number of use cases is some multiple of a hundred, rather than a
+        multiple of ten.
+    </li>
+    <li>
+        Use-case names that are constructions such as "do this operation on this particular data" or "do this function with
+        this particular data". For example, "Enter Personal Identification Number in an ATM machine" must not be modeled as
+        a separate use case for the ATM machine, because no one would use the system to do just this. A use case is a
+        complete flow of events that results in something of value to an actor.
+    </li>
+</ul>
+<p>
+    To avoid functional decomposition, make sure that the use-case model helps answer these kinds of questions:
+</p>
+<ul>
+    <li>
+        What is the context of the system?
+    </li>
+    <li>
+        Why are you building this system?
+    </li>
+    <li>
+        What does the user want the system to do?
+    </li>
+    <li>
+        How&nbsp;do the users benefit from the system?
+    </li>
+</ul>
+<h3>
+    <a id="Structuring the Use-Case Model" name="Structuring the Use-Case Model">Structuring the Use-Case Model</a>
+</h3>
+<p>
+    There are three main reasons for structuring the use-case model:
+</p>
+<ul>
+    <li>
+        To make the use cases easier to understand.
+    </li>
+    <li>
+        To partition common behavior described within many use cases.
+    </li>
+    <li>
+        To make the use-case model easier to maintain.
+    </li>
+</ul>
+<p>
+    Structuring is not the first thing you do, however. There is no point in structuring the use cases until you know a bit
+    more about their behavior than a one-sentence description. Establishing a step-by-step outline of the flow of events
+    can assure your decisions are based on an accurate understanding of the behavior
+</p>
+<p>
+    There are several advanced modeling concepts available in the literature for&nbsp;structuring the use-case model,
+    however, following the principle of "keep-it-simple" only the most useful of these, namely the &lt;&lt;include&gt;&gt;
+    relationship is discussed in this process.&nbsp; This relationship permits one to factor out common behavior into a
+    separate use case that is "include" in other use cases.&nbsp; See <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/use_case_model_CD178AF9.html" guid="_2jyfUAhVEduRe8TeoBmuGg">Concept：Use-Case Model</a>&nbsp;for more&nbsp;details.
+</p>
+<p>
+    Another aspect of&nbsp;structuring the use-case model for easier understanding is grouping the use cases into packages.
+    The use-case model can be organized as a hierarchy of use-case packages. For more information on use-case packages, see
+    <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/use_case_model_CD178AF9.html" guid="_2jyfUAhVEduRe8TeoBmuGg">Concept：Use-Case Model</a>.
+</p>
+<h3>
+    <a id="Use Cases Are Always Related to Actors" name="Use Cases Are Always Related to Actors">Relationship Between Use
+    Cases and Actors</a>
+</h3>
+<p>
+    Running each use case includes communication with one or more actors. A use-case instance is always started by an actor
+    asking the system to do something. This implies that every use case must have communicates-associations with actors.
+    The reason for this rule is to enforce that the system provides only the functionality that users need and nothing
+    else. Having use cases that no one requests is an indication that something is wrong in the use-case model or in the
+    requirements.
+</p>
+<p>
+    However, there are some exceptions to this rule:
+</p>
+<ul>
+    <li>
+        An&nbsp;"included" use case might not interact with an actor if the base use case does.
+    </li>
+    <li>
+        A use case can be initiated according to a schedule (for example, once a week or once a day), which means that the
+        system clock is the initiator. The system clock is internal to the system; therefore, the use case is not initiated
+        by an actor but by an internal system event. If no other actor interaction occurs in the use case, it will not have
+        any associations to actors. However, for clarity, you can use "time" as an actor to show how the use case is
+        initiated in your use-case diagrams. <strong>CAUTION:</strong> if you have a lot of "time" actors in your model,
+        challenge them.&nbsp; Perhaps you missed a real actor, such as an administrator responsible for scheduling reports,
+        etc.
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

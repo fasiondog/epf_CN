@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>核对表：Use-Case Model</title>
+<meta name="uma.type" content="Checklist">
+<meta name="uma.name" content="use_case_model">
+<meta name="uma.presentationName" content="Use-Case Model">
+<meta name="element_type" content="Checklist">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', true, false, false);
+					
+					//override the subsection text
+					contentPage.subSection.expandAllText = '展开所有检查项';
+					contentPage.subSection.collapseAllText = '折叠所有检查项';					
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0U6OEMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">核对表：Use-Case Model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/checklist.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This checklist provides questions to verify that the use-case model is described in a consistent and complete manner.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html" guid="_W2SgEDR5EdutE_HNDTJk5Q">Use-Case Model</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">检查项</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableCell">
+<div class="stepHeading">It is easy to understand what the system does by reviewing the model</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Does the use-case model provide a clear, concise overview of the purpose and functionality of the system?
+    </li>
+    <li>
+        Are there no long chains of <i>include</i> relationships, such as when an included use case&nbsp;includes other use
+        cases? These can obscure comprehension.
+    </li>
+    <li>
+        Are&nbsp;included use cases independent of the use cases that include them?
+    </li>
+    <li>
+        If several use cases contain similar&nbsp;subflows, have you investigated whether factoring this&nbsp;common
+        behavior into an included use case will simplify the model?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">All use cases have been identified</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Do the use cases identified collectively account for all required behavior of the system?
+    </li>
+    <li>
+        Have all features identified in the vision document been addressed by at least one use case?
+    </li>
+    <li>
+        Have all nonfunctional requirements that must be satisfied by a specific use case been captured in that use case?
+    </li>
+    <li>
+        Have you verified that the use-case model contains no superfluous behavior (known as "gold-plating")?
+    </li>
+    <li>
+        Is each concrete use case associated with at least one actor, as it should be?
+    </li>
+    <li>
+        Is every actor associated with at least one use case?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">The model is consistent</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Is the system behavior consistent under the same conditions and with the same input?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">All relationships between use cases are required</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Does each included use case make the model easier to understand, implement, and maintain?
+    </li>
+    <li>
+        Is each concrete use case (not an included use case) independent of other use cases?<br />
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Use-case packages are used appropriately</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have cross-package dependencies been reduced or eliminated to prevent model ownership conflicts
+    </li>
+    <li>
+        Is packaging intuitive?&nbsp;Does the packaging make the model easier to understand and implement?&nbsp;&nbsp;
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">All model elements have appropriate names</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have you verified that no two use cases have the same name?
+    </li>
+    <li>
+        Does each actor have a name that effectively describes that person's role?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Individual use cases are properly specified</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        Have you reviewed the quality of each&nbsp;use-case specification using the&nbsp;<a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/checklists/use_case_C5362874.html" guid="_0kNwINk1Edq2Q8qZoWbvGA">Checklist：Use Case</a>?
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

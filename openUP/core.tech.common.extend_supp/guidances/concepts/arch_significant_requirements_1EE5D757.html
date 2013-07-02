@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Architecturally Significant Requirements</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="arch_significant_requirements">
+<meta name="uma.presentationName" content="Architecturally Significant Requirements">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_HrZGIA4MEduibvKwrGxWxA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Architecturally Significant Requirements</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This concept describes what architecturally significant requirements are and why they are important.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">Architecture Notebook</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/guidelines/effective_req_reviews_5913D369.html" guid="_E-dPIL-GEdqb7N6KIeDL8Q">Effective Requirement Reviews</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">Envision the Architecture</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Executable Architecture</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">Refine the Architecture</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    Architecturally significant requirements are those requirements that play an important role in determining the
+    architecture of the system.&nbsp; Such requirements require special attention. Not all requirements have equal
+    significance with regards to the architecture.
+</p>
+<p>
+    Architecturally significant requirements&nbsp;are a subset of the requirements that need to be satisfied before the
+    architecture can be considered "stable". Typically, these are requirements that are technically challenging,
+    technically constraining, or central to the system's purpose. Furthermore, the system will generally be more sensitive
+    to changes&nbsp;against architecturally significant requirements, so identifying and communicating this subset will
+    help others understand the potential implications of change.
+</p>
+<p>
+    Requirements can be explicitly or implicitly architecturally significant. Explicitly significant requirements are often
+    overtly technical in nature, such as performance targets; the need to interface to other systems; the number of users
+    that must be supported; or security requirements. Implicitly significant requirements may define the essence of the
+    functional behaviour of the system (for example, making a purchase from an on-line store).
+</p>
+<p>
+    Deciding whether a specific requirement is architecturally significant is often a matter of judgment. The selection of
+    requirements that are considered "architecturally significant" is driven by several key driving factors:
+</p>
+<ul>
+    <li>
+        The benefit of the requirement to stakeholders: critical, <b>important</b>, or <b>useful</b>.
+    </li>
+    <li>
+        The architectural impact of the requirement: <b>none</b>, <b>extends</b>, or <b>modifies</b>. There may be critical
+        requirements that have little or no impact on the architecture and low-benefit requirements that have a big impact.
+        Low-benefit requirements with big architectural impacts should be reviewed by the project manager for possible
+        removal from the scope of the project.
+    </li>
+    <li>
+        The risks to be mitigated: performance, availability of a product, and suitability of a component.
+    </li>
+    <li>
+        The completion of the coverage of the architecture.
+    </li>
+    <li>
+        Other tactical objectives or constraints, such as demonstration to the user, and so on.
+    </li>
+</ul>
+<p>
+    There may be two requirements that hit the same components and address similar risks. If you implement A first, then B
+    is not architecturally significant. If you implement B first, then A is not architecturally significant. Thus these
+    attributes can depend on the order the requirements are realized, and should be re-evaluated when the order changes, as
+    well as when the requirements themselves change.
+</p>
+<p>
+    The following are good examples of Architecturally Significant Requirements:
+</p>
+<ul>
+    <li>
+        The system must record every modification to customer records for audit purposes.
+    </li>
+    <li>
+        The system must respond within 5 seconds.
+    </li>
+    <li>
+        The system must&nbsp;deploy on Microsoft Windows XP and Linux.
+    </li>
+    <li>
+        The system must encrypt all network traffic.
+    </li>
+    <li>
+        The ATM system must dispense cash on&nbsp;demand&nbsp;to validated account holders with sufficient cleared funds.
+    </li>
+</ul>
+<p>
+    Architecturally significant requirements also describe key behaviors that the system needs to perform.&nbsp; Such
+    scenarios represent the important interactions between key abstractions.and should be identified as architecturally
+    significant requirements. For example, for an on-line book store describing the way the software handles the scenarios
+    for ordering a book and checking out the shopping cart are often enough to communicate the essence of the architecture.
+</p><br />
+<br />
+<br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

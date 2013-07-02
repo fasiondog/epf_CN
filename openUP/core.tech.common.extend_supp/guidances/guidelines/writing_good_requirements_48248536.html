@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Writing Requirements Statements</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="writing_good_requirements">
+<meta name="uma.presentationName" content="Writing Requirements Statements">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_6jXzYNcKEdqz_d2XWoVt6Q"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Writing Requirements Statements</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes ways of writing good requirements.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/system_wide_requirements_7D9DD47C.html" guid="_BVh9cL-CEdqb7N6KIeDL8Q">System-Wide Requirements</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    To write a good requirement, you must write it as a complete sentence, with a subject and a predicate (usually a verb).
+    The subject&nbsp;is an Actor, a stakeholder, the system under development, or a design entity that is related to the
+    requirement. The predicate specifies a condition, action, or intended result that is done for, by, with, or to the
+    subject.
+</p>
+<p>
+    Consistent use of the verb <strong>to be</strong> solidifies the link between the subject and the predicate. Thus, you
+    can analyze a requirement from a grammatical point of view.
+</p>
+<p>
+    Beware of lists, bullets, and words such as <strong>all</strong>, <strong>every</strong>, and <strong>some</strong>.
+    For example:
+</p>
+<blockquote>
+    <p>
+        The order entry clerk must be able to complete 10 customer orders in less than two hours.
+    </p>
+</blockquote>
+<p>
+    This requirement has a subject (the order entry clerk, who is an Actor), a specific and measurable end state (10
+    customer orders completed), and a performance criterion (in less than two hours).
+</p>
+<p>
+    Follow these simple guidelines in writing any requirement. For consistency, these examples are all in the context of an
+    aircraft. [[WAS: is used throughout.]] <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[TEL06]</a>
+</p>
+<ul>
+    <li>
+        Define one requirement at a time. 
+        <blockquote>
+            <p>
+                The pilot shall be able to control the aircraft's angle of climb with one hand.
+            </p>
+        </blockquote>
+    </li>
+</ul>
+<blockquote>
+    <blockquote>
+        <p>
+            The pilot shall be able to feel the angle of climb from the climb control.
+        </p>
+    </blockquote>
+</blockquote>
+<ul>
+    <li>
+        Avoid conjunctions (and, or) that make multiple requirements.
+    </li>
+</ul>
+<blockquote>
+    <blockquote>
+        <p>
+            The navigator shall be able to view the aircraft's position relative to the route's radio beacons.
+        </p>
+        <p>
+            The navigator shall be able to view the aircraft's position as estimated by inertial guidance.
+        </p>
+    </blockquote>
+</blockquote>
+<ul>
+    <li>
+        Avoid let-out clauses or words that imply options or exceptions (unless, except, if necessary, but).
+    </li>
+    <li style="list-style: none">
+        <blockquote>
+            <p>
+                The design shall provide a rear-facing seat for each cabin crew member.
+            </p>
+        </blockquote>
+    </li>
+    <li>
+        Use simple, direct sentences.
+    </li>
+</ul>
+<ul>
+    <li style="list-style: none">
+        <blockquote>
+            <p>
+                The pilot shall be able to see the airspeed indicator.
+            </p>
+        </blockquote>
+    </li>
+    <li>
+        Use a limited (500-word) vocabulary, especially if your audience is international. 
+        <blockquote>
+            <p>
+                The airline shall be able to convert the aircraft from business to holiday charter use in less than 12
+                hours
+            </p>
+        </blockquote>
+    </li>
+    <li style="list-style: none">
+        <blockquote>
+            <p>
+                <strong>Note:</strong> There is no need to use words such as <strong>reconfigured.</strong>
+            </p>
+        </blockquote>
+    </li>
+    <li>
+        Identify the type of user who needs each requirement.
+    </li>
+</ul>
+<ul>
+    <li style="list-style: none">
+        <blockquote>
+            <p>
+                The navigator shall be able to...
+            </p>
+        </blockquote>
+    </li>
+    <li>
+        Focus on stating what result you will provide for that type of user.
+    </li>
+</ul>
+<ul>
+    <li style="list-style: none">
+        <blockquote>
+            <p>
+                ...view storm clouds by radar...
+            </p>
+        </blockquote>
+    </li>
+    <li>
+        Define verifiable criteria 
+        <blockquote>
+            <p>
+                ...at least 100 miles ahead.
+            </p>
+        </blockquote>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

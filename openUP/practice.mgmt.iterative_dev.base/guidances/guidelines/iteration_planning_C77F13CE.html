@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Iteration Planning</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="iteration_planning">
+<meta name="uma.presentationName" content="Iteration Planning">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0auiMMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Iteration Planning</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline presents the activities related to iteration planning that help establish high-level iteration objectives, produce a plan outlining who needs to do what, and define how to assess end results.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.mgmt.iterative_dev.base/tasks/plan_iteration_957C90DC.html" guid="_0keUEMlgEdmt3adZL5Dmdw">Plan Iteration</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    The goal with iteration planning is to establish a few high-level objectives for what to accomplish during the
+    iteration, produce a sufficiently detailed plan outlining who needs to do what to accomplish those objectives, and
+    define how to assess that you accomplished what you set out to accomplish.
+</p>
+<p>
+    Iteration planning is ideally done with the entire team (including key stakeholders) in a meeting (typically lasting
+    one to a few hours), at the beginning of an iteration. This ensures that the entire team understands what needs to be
+    done, and they become committed to the success of the team. In some cases, it is preferred to have a smaller subset of
+    people (such as the Project Manager, an Architect, and an Analyst) to meet in advance to prepare the meeting with a
+    draft iteration plan.
+</p>
+<h3>
+    Define high-level objectives
+</h3>
+<p>
+    A key aspect of an iteration is to focus the team on a short-term deliverable of measurable value. Document between one
+    and five high-level objectives to make sure that you do not lose focus on what to accomplish during the iteration.
+    Typically, the project plan should outline one or several objectives for each iteration, and those objectives are used
+    as a starting point. If you need to further detail or clarify the objectives as you plan your iteration, do so.
+</p>
+<p>
+    The objectives are usually based on the following factors:
+</p>
+<ul>
+    <li>
+        <strong>Critical risks not yet mitigated:</strong> Iteration goals often include driving down the most critical
+        risks.
+    </li>
+    <li>
+        <strong>The time allocated to the iteration:</strong> Iterations are fixed in duration, so the Project Manager must
+        ensure that the goals for the iteration are realistic relative to the time and the resources allocated to the
+        iteration.
+    </li>
+    <li>
+        <strong>The highest priority features:</strong> Requirements are prioritized to ensure that the critical features
+        of the application will be developed and tested early on.
+    </li>
+</ul>
+<h3>
+    Produce an Iteration Plan
+</h3>
+<p>
+    There is an Iteration Plan per iteration that should outline who will implement which work item in how long a time.
+    Since iterations are time-boxed, you need to understand how big your "box" is by assessing how many hours of actual
+    work can be taken on (see <a class="elementLinkWithType" href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html" guid="_CGHskBEdEdqY7JB6N6CW2w">Guideline：Agile Estimation</a>. Let's assume that you have six team members, and you
+    have 15 working days in your iteration, and you on average can do five actual hours of work per person and day. This
+    will give you 6x15x5h = 450 hours of actual work. Note that the average team member only performs between four and six
+    hours of actual project work per day, with the rest being consumed by e-mails, meetings, and other overhead activities
+    not directly related to the project.
+</p>
+<p>
+    The team should then revisit and update priorities for all of the high-priority items in the Work Items List, to make
+    sure that an important work item is not missed that would otherwise fall just below the list of what can be taken on in
+    this iteration.
+</p>
+<p>
+    Pick the top-priority work item and see if it matches the objectives of the iteration. If it does, assess whether the
+    work item is too big to take on within an iteration. If it is too big, break it down into smaller work items. Once the
+    work item has been decomposed, the team determines whether to take on one or several child work items.
+</p>
+<p>
+    <b>Example:</b> The team would like to take on the work item called <i>Develop Use Case A</i>, but it would take
+    roughly 300 hours to develop, so they feel that it is only necessary to do a subset of the use case to achieve their
+    iteration objectives, allowing them to take on other high-priority work items. They divide the work item into five
+    smaller work items representing different scenarios of use case A. The team decides to take on one out of the five
+    identified scenarios in this iteration.
+</p>
+<p>
+    When a team has decided to take on a work item, it will assign the work to one or several team members. Ideally, this
+    is done by team members signing up to do the work, because this makes people motivated and committed to doing the job.
+    However, based on your team culture, you may instead have the project manager assign the work.
+</p>
+<p>
+    The next step is for team member(s) to assess how many actual hours or days it will take to do the work. Ideally, you
+    want to have each work assignment to be from a few hours up to&nbsp;two days of work. If the work item is too big,
+    consider breaking it down into smaller work items.
+</p>
+<p>
+    The team sums up the actual estimate for each work item they have committed to, and checks if they can commit to any
+    more work.
+</p>
+<p>
+    <b>Example:</b> Jack signed up to develop the chosen scenario for use case A. He thinks that it would take 50 hours, so
+    he decided to develop the work into a set of tasks, and he asks other team members to help out with various subtasks:
+</p>
+<ul>
+    <li>
+        Detail the requirements (Jack): five hours
+    </li>
+    <li>
+        Design the scenario (Jack, Ann, and David): five hours
+    </li>
+    <li>
+        Implement and test the dB changes (Ann): 12 hours
+    </li>
+    <li>
+        Implement and test the server portion (David): 16 hours
+    </li>
+    <li>
+        Implement and test the client portion (Jack): 12 hours
+    </li>
+    <li>
+        Total: 50 hours
+    </li>
+</ul>
+<p>
+    As work items are decomposed into smaller tasks, estimates can typically be improved. You also better come to
+    understand what is involved, and whether other team members may be better suited to take on a subset of the task.
+</p>
+<p>
+    The team now determines whether they are willing to take on another work item by comparing actual hours signed up for
+    to the actual hours available. In this case, the team has only signed up for 50 hours so far, and hence has another 400
+    hours available.
+</p>
+<h3>
+    Define Evaluation Criteria
+</h3>
+<p>
+    It is critical that it is clear to all team members and other stakeholders how you will measure success at the end of
+    the iteration. Obvious success criteria should include that you can test the functionality implemented, and that no or
+    few defects are detected. Having too many defects makes it impossible to use the functionality, and it will prevent
+    meaningful feedback. Test objectives and test cases need to be clearly outlined.
+</p>
+<p>
+    There may be other success criteria, such as that you demo the capabilities to a certain set of stakeholders with
+    favorable review comments, or that you can successfully demonstrate or make available a tech preview at a conference.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

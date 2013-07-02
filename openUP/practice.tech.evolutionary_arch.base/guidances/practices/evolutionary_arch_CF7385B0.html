@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Evolutionary Architecture</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="evolutionary_arch">
+<meta name="uma.presentationName" content="Evolutionary Architecture">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_uVnpQB4qEd2bS8fFOQ7WWA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Evolutionary Architecture</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">How to adopt the Evolutionary Architecture practice</a>
+</li>
+</ul>
+<ul>
+<li>关键概念</li>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">Architectural Views and Viewpoints</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">Architecture Notebook</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">Envision the Architecture</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">Refine the Architecture</a>
+</li>
+</ul>
+<ul>
+<li>指导信息</li>
+<ul>
+<li>指南</li>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html" guid="_we3F4ACpEdu8m4dIntu6jA">Abstract Away Complexity</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html" guid="_HrgUQNcuEdy1nJEYZGzN4A">Modeling the Architecture</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Software Reuse</a>
+</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_design_slot_84295A08.html" guid="_IcQOUEqdEdyi3_jfs__bIQ">[Technical Design]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[Technical Implementation]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[Technical Specification]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    <span class="c1">The Evolutionary Architecture practice describes how to incrementally build and improve the software
+    architecture while uncovering and addressing architectural issues during software development. This reduces technical
+    risk without requiring significant up-front architectural effort.</span>
+</p>
+<p>
+    <span class="c1">This practice:</span>
+</p>
+<ul>
+    <li>
+        Improves quality and productivity by reducing the need to make time-consuming, error-prone fixes to late-detected
+        problems that result from architectural flaws. This is possible because the architecture is validated early, and
+        key architectural problems are corrected before the majority of development is done.
+    </li>
+</ul>
+<ul>
+    <li>
+        Reduces time to market by focusing on reuse. It improves the consistency and maintainability of the system by
+        incorporating lessons learned from development back into the architecture and applying those lessons to the rest of
+        development.
+    </li>
+</ul>
+<ul>
+    <li>
+        <div class="MsoNormal c2">
+            <span class="c1">Improves predictability by identifying and implementing the highest-risk technical areas
+            first.</span> It improves the team's responsiveness to change by shortening the architectural cycle and
+            minimizing time wasted in architectural scrap and rework when changes arise.
+        </div>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    The essence of evolutionary architecture
+</h3>
+<p>
+    In the Evolutionary Architecture practice, you analyze the major technical concerns that affect the solution and
+    document architectural decisions to ensure that you have assessed and communicated those decisions.
+</p>
+<h3>
+    The key principles of the Evolutionary Architecture practice are:
+</h3>
+<ul type="disc">
+    <li class="MsoNormal c3">
+        <strong><span class="c1">Perform architecture work "just in time" for all other work.</span></strong> <span         class="c1">When planning your project, identify and discuss architectural issues with your team, and then
+        prioritize architectural work with any other work.</span> Base your priorities on mitigating technical risk rather
+        than creating value. Deferring architectural issues to handle them "just in time" enables the architecture to
+        <em><span class="c2">evolve over time</span></em>.
+    </li>
+</ul>
+<ul type="disc">
+    <li class="MsoNormal c3">
+        <strong><span class="c1">Document key architectural decisions and outstanding issues</span></strong><span         class="c1">. The <a class="elementLink" href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">Architecture Notebook</a> a list of the architectural issues to make it easy to
+        understand which architectural decisions you've made and which you've not yet addressed.</span>
+    </li>
+</ul>
+<ul type="disc">
+    <li class="MsoNormal c3">
+        <strong><span class="c1">Implement and test key capabilities as a way to address architectural
+        issues</span></strong><span class="c1">. Resolving architectural issues typically requires not only architectural
+        brainstorming, but also associated prototyping. In other words: implement enough code to validate the assumptions
+        behind the architecture. The code becomes production code, except for anything thrown away because it proves the
+        architecture invalid.</span>
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">如何读取该实践</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The best way to read this practice is to first familiarize yourself with its overall structure: what is in it and how
+    it is organized.
+</p>
+<p>
+    Next, review the key concepts for the practice. An especially important concept is <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Concept：Software Architecture</a>. After you understand what architecture is, turn your
+    attention to the Architecture Notebook. Then review the tasks, accessing guidelines and tool mentors associated with
+    each task as needed. You can also access the guidance provided by the practice directly through the Guidance folder.
+</p>
+<p>
+    Be sure to take a look at the list of enablement materials for additional sources of information. See the Additional
+    Resources section of this page.
+</p>
+<p>
+    For step-by-step instructions on how to adopt this practice, see <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">Roadmap：How to adopt the Evolutionary Architecture practice</a>.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">其他信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    Additional resources
+</h3>
+<p>
+    See these sources for more information on the evolutionary architecture approach:
+</p>
+<ul>
+    <li>
+        <a href="http://www.agilemodeling.com/essays/agileArchitecture.htm" target="_blank">Agile Architecture: Strategies
+        for Scaling Agile Development</a>
+    </li>
+    <li>
+        <a href="http://www.agilemodeling.com/essays/initialArchitectureModeling.htm" target="_blank">Architectural
+        Envisioning</a>
+    </li>
+    <li>
+        <a href="http://www.agiledata.org/essays/enterpriseArchitecture.html" target="_blank">Agile Enterprise
+        Architecture</a>
+    </li>
+</ul><br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

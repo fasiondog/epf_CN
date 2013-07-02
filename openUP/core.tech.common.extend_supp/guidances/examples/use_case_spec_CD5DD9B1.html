@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>示例：Use-Case Specification</title>
+<meta name="uma.type" content="Example">
+<meta name="uma.name" content="use_case_spec">
+<meta name="uma.presentationName" content="Use-Case Specification">
+<meta name="element_type" content="example">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_JLOiIMNvEdu2IdAIaWZyAw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">示例：Use-Case Specification</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">An example of a completed use-case specification for the Withdraw Cash use case for an Automated Teller Machine.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html" guid="_0VGbUMlgEdmt3adZL5Dmdw">Use Case</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/templates/use_case_specification_9D9A2226.html" guid="_3Y3XUI5fEdyO5aWob1UGDA">Use-Case Specification</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    1 Brief Description
+</h3>
+<p>
+    This use case describes how the Bank Customer uses the ATM to withdraw money to his/her bank account.
+</p>
+<h3>
+    2 Actors
+</h3>
+<h4>
+    2.1 Bank Customer
+</h4>
+<h4>
+    2.2 Bank
+</h4>
+<h3>
+    3 Preconditions
+</h3>
+<p>
+    There is an active network connection to the Bank.<br />
+    <br />
+    The ATM has cash available.
+</p>
+<h3>
+    4 Basic Flow of Events
+</h3>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The use case begins when Bank Customer inserts their Bank Card.
+    </p>
+    <p>
+        2. Use Case: Validate User is performed.
+    </p>
+    <p>
+        3. The ATM displays the different alternatives that are available on this unit. [See Supporting Requirement SR-xxx
+        for list of alternatives]. In this case the Bank Customer always selects "Withdraw Cash".
+    </p>
+    <p>
+        4. The ATM prompts for an account. See Supporting Requirement SR-yyy for account types that shall be supported.
+    </p>
+    <p>
+        5. The Bank Customer selects an account.
+    </p>
+    <p>
+        6. The ATM prompts for an amount.
+    </p>
+    <p>
+        7. The Bank Customer enters an amount.
+    </p>
+    <p>
+        8. Card ID, PIN, amount and account is sent to Bank as a transaction. The Bank Consortium replies with a go/no go
+        reply telling if the transaction is ok.
+    </p>
+    <p>
+        9. Then money is dispensed.
+    </p>
+    <p>
+        10. The Bank Card is returned.
+    </p>
+    <p>
+        11. The receipt is printed.
+    </p>
+    <p>
+        12. The use case ends successfully.
+    </p>
+</blockquote>
+<h3>
+    5 Alternative Flows
+</h3>
+<h4>
+    5.1 Invalid User
+</h4>
+<p>
+    If in step 2 of the basic flow Bank Customer the use case: Validate User does not complete this successfully, then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The use case ends with a failure condition.
+    </p>
+</blockquote>
+<h4>
+    5.2 Wrong account
+</h4>
+<p>
+    If in step 8 of the basic flow the account selected by the Bank Customer is not associated with this bank card, then
+</p>
+<p>
+    1. The ATM shall display the message "Invalid Account – please try again".
+</p>
+<p>
+    2. The use case resumes at step 4.
+</p>
+<h4>
+    5.3 Wrong amount
+</h4>
+<p>
+    If in step 7 in the basic flow, the Bank Customer enters an amount that can't be 'created' with the kind of in the ATM
+    (See Special Requirement WC-1 for valid amounts), then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The ATM shall display a the message indicating that the amount must be a multiple of the bills on hand, and ask
+        the Bank Customer to reenter the amount.
+    </p>
+    <p>
+        2. The use case resumes at step 7.
+    </p>
+</blockquote>
+<h4>
+    5.4 Amount Exceeds Withdrawal Limit
+</h4>
+<p>
+    If in step 7 in the basic flow, the Bank Customer enters an amount that exceeds the withdrawal limit (See Special
+    Requirement WC-2 for maximum amount), then
+</p>
+<p>
+    1. the ATM shall display a warning message, and ask the Bank Customer to reenter the amount
+</p>
+<p>
+    2. The use case resumes at step 7
+</p>
+<h4>
+    5.5 Amount Exceeds Daily Withdrawal Limit
+</h4>
+<p>
+    If in step 8 in the basic flow, the Bank response indicates the daily withdrawal limit has been exceeded (this is
+    determined by the Bank and depends upon the specific account), then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The ATM shall display a warning message, and ask the Bank Customer to reenter the amount.
+    </p>
+    <p>
+        2. The use case resumes at step 7.
+    </p>
+</blockquote>
+<h4>
+    5.6 Insufficient Cash
+</h4>
+<p>
+    If in step 7 in the basic flow, the Bank Customer enters an amount that exceeds the amount of cash available in the
+    ATM, then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The ATM will display a warning message, and ask the Bank Customer to reenter the amount.
+    </p>
+    <p>
+        2. The use case resumes at step 7.
+    </p>
+</blockquote>
+<h4>
+    5.7 No Response from Bank
+</h4>
+<p>
+    If in step 8 of the basic there is no response from the Bank within 3 seconds, then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The ATM will re-try, up to three times.
+    </p>
+    <p>
+        2. If there is still no response from the Bank, the ATM shall display the message "Network unavailable – try again
+        later".
+    </p>
+    <p>
+        3. The ATM shall return the card.
+    </p>
+    <p>
+        4. The ATM shall indicate that it is "Closed".
+    </p>
+    <p>
+        5. The use case ends with a failure condition.
+    </p>
+</blockquote>
+<h4>
+    5.8 Money Not Removed
+</h4>
+<p>
+    If in step 9 of the basic flow the money is not removed from the machine within 15 seconds, then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. the ATM shall issue a warning sound and display the message "Please remove cash".
+    </p>
+    <p>
+        2. If there is still no response from the Bank Customer within 15 seconds the ATM will re-tract the money and note
+        the failure in the log.
+    </p>
+    <p>
+        3. the use case end with a failure condition.
+    </p>
+</blockquote>
+<h4>
+    5.9 Quit
+</h4>
+<p>
+    If at point prior to step 8 in the basic flow the Bank Customer selects Quit, then
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        1. The ATM shall print a receipt indicating the transaction was canceled.
+    </p>
+    <p>
+        2. The ATM shall return the card.
+    </p>
+    <p>
+        3. The use case ends.
+    </p>
+</blockquote>
+<h3>
+    6 Key Scenarios
+</h3>
+<h4>
+    6.1 No Response from Bank
+</h4>
+<h3>
+    7 Post-conditions
+</h3>
+<h4>
+    7.1 Successful Completion
+</h4>
+<p>
+    The user has received their cash and the internal logs have been updated.
+</p>
+<h4>
+    7.2 Failure Condition
+</h4>
+<p>
+    The logs have been updated accordingly.
+</p>
+<h3>
+    8 Special Requirements
+</h3>
+<p>
+    [SpReq:WC-1] The ATM shall dispense cash in multiples of $20.
+</p>
+<p>
+    [SpReq2:WC-2] The maximum individual withdrawal is $500.
+</p>
+<p>
+    [SpReq:WC-1] The ATM shall keep a log, including date and time, of all complete and incomplete transactions with the
+    Bank.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">示例</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/uc_model_evolve_960F136B.html" guid="_t4QdAMNqEdu2IdAIaWZyAw">Evolution of the Use-Case Model</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

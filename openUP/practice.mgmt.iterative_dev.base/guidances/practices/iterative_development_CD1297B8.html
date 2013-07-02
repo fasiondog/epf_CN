@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Iterative Development</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="iterative_development">
+<meta name="uma.presentationName" content="Iterative Development">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_LR_g4J9WEdy3Nc4rvuj7bA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Iterative Development</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Create a solution in increments. Each increment is completed in a fixed period of time, an iteration.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/roadmaps/how_to_adopt_85BF1B9B.html" guid="_bpWt8OMPEdyM47cGD2jiaQ">How to Adopt the Iterative Development Practice</a>
+</li>
+</ul>
+<ul>
+<li>关键概念</li>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/iteration_lifecycle_B16552E2.html" guid="_DI_tICNaEdyCq8v2ZO4QcA">迭代生命周期</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html" guid="_S80VwCNbEdyCq8v2ZO4QcA">Micro-Increments</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/retrospective_B003F386.html" guid="_2PfbIA4QEdy2q5zsU8WDnA">Retrospective</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html" guid="_lam4ADkBEduxovfWMDsntw">Iteration</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>工作产品</li>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html" guid="_0aQBEslgEdmt3adZL5Dmdw">Iteration Plan</a>
+</li>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html" guid="_rGNWsCbSEdqh1LYUOGRh2A">Work Items List</a>
+</li>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/workproducts/risk_list_C4B6F290.html" guid="_Ckay8Cc_EduIsqH1Q6ZuqA">Risk List</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>任务</li>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html" guid="_0l53cMlgEdmt3adZL5Dmdw">Assess Results</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/tasks/manage_iteration_E4D93A64.html" guid="_8S2aICbYEdqh1LYUOGRh2A">Manage Iteration</a>
+</li>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/tasks/plan_iteration_957C90DC.html" guid="_0keUEMlgEdmt3adZL5Dmdw">Plan Iteration</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>指导信息</li>
+<ul>
+<li>
+<img src="./../../../images/report.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/reports/iteration_burndown_9C1C96F5.html" guid="_uAzgkDg3Edu4E8ZdmlYjtA">Iteration Burndown</a>
+</li>
+<li>指南</li>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html" guid="_CGHskBEdEdqY7JB6N6CW2w">Agile Estimation</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/assign_changes_to_iteration_67B3DEA2.html" guid="__yQQ4L6REdqti4GwqTkbsQ">Assign Changes to an Iteration</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/conduct_retrospective_1A6C7321.html" guid="_277QEA4gEdy63f1yVoPyfA">Conduct Project Retrospective</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/iteration_assessment_E27E9DDE.html" guid="_FekBAC4IEdyhZrtGEIITGQ">Iteration Assessment</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/iteration_planning_C77F13CE.html" guid="_0auiMMlgEdmt3adZL5Dmdw">Iteration Planning</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html" guid="_VNxL4ACsEdu8m4dIntu6jA">Managing Risks</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/managing_work_items_32AC6ABD.html" guid="_7vEXEMA4EdqSgKaj2SZBmg">Managing Work Items</a>
+</li>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.mgmt.iterative_dev.base/guidances/guidelines/prioritizing_work_items_A12C9BEC.html" guid="_oVMZADSoEdy07ZJqOGUGaQ">Prioritizing Work Items</a>
+</li>
+</ul>
+</ul>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.mgmt.slot.base/workproducts/project_definition_and_scope_slot_BB8EB6F7.html" guid="_RJMUcNpUEdyzZqGyZ7hwdw">[Project Definition and Scope]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html" guid="_8OD-cLPTEduocbW-TPTq7A">[Technical Architecture]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[Technical Specification]</a>
+</li>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_test_results_slot_7B0CA334.html" guid="_fahB0EfUEdyiPI8btkmvmw">[Technical Test Results]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    Why adopt this practice?
+</h3>
+<p>
+    Today's software applications are too complex to allow you to sequentially define the requirements, come up with an
+    architecture and design, do an implementation, carry out testing, and get it all right. Whether you use waterfall or
+    iterative development approaches, your initial requirements, architecture, design, and code will be suboptimal. With
+    waterfall development, you typically do not get meaningful feedback on what improvements can be made until it is so
+    late in the project that it is too costly to make them. By contrast, dividing the project into a series of time-boxed
+    iterations allows you to deliver capabilities that can be assessed by stakeholders at the end of each iteration. This
+    approach provides rapid and timely feedback loops enabling issues to be addressed and improvements made at a lower cost
+    while budget and time still allow, and before the project has gone so far ahead that major rework is required.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">如何读取该实践</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The best way to read this practice is to first familiarize yourself with its overall structure: what it is in it, and
+    how it is organized.
+</p>
+<p>
+    Begin by making sure that the teams, including stakeholders, understand what the key concepts are, such as:
+</p>
+<ul>
+    <li>
+        <a class="elementLink" href="./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html" guid="_lam4ADkBEduxovfWMDsntw">Iteration</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/iteration_lifecycle_B16552E2.html" guid="_DI_tICNaEdyCq8v2ZO4QcA">迭代生命周期</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html" guid="_S80VwCNbEdyCq8v2ZO4QcA">Micro-Increments</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/guidances/concepts/retrospective_B003F386.html" guid="_2PfbIA4QEdy2q5zsU8WDnA">Retrospective</a>
+    </li>
+</ul>
+<p>
+    Next, understand how the various participants in a project collaborate on an iterative development approach.
+</p>
+<ul>
+    <li>
+        The <b>project manager</b> facilitates the planning of the project iterations, coordinates interactions with the
+        stakeholders, and keeps the project team focused on meeting the project objectives.
+    </li>
+    <li>
+        <b>Stakeholders</b> help the project manager and the team on requirements prioritization in order to minimize
+        project risks and maximize business value throughout the iterations. Their constant feedback also directs and
+        improves the quality of the project outcome.
+    </li>
+    <li>
+        The <b>team</b> commits to completing the work within each iteration.
+    </li>
+</ul>
+<p>
+    Understand how these groups collaborate when they perform the following tasks:
+</p>
+<ol>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/tasks/plan_iteration_957C90DC.html" guid="_0keUEMlgEdmt3adZL5Dmdw">Plan Iteration</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/tasks/manage_iteration_E4D93A64.html" guid="_8S2aICbYEdqh1LYUOGRh2A">Manage Iteration</a>
+    </li>
+    <li>
+        <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html" guid="_0l53cMlgEdmt3adZL5Dmdw">Assess Results</a>
+    </li>
+</ol>
+<p>
+    Also, understand what work products are used as inputs to and outputs from these tasks, such as work items list, risk
+    list and <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/workproducts/iteration_plan_B46FED39.html" guid="_0aQBEslgEdmt3adZL5Dmdw">Iteration Plan</a>.
+</p>
+<p>
+    Last, understand the various guidelines that explain how to plan, run, and assess iterations.
+</p>
+<p>
+    For details on how to adopt this practice, see <a class="elementLink" href="./../../../practice.mgmt.iterative_dev.base/guidances/roadmaps/how_to_adopt_85BF1B9B.html" guid="_bpWt8OMPEdyM47cGD2jiaQ">How to Adopt the Iterative Development Practice</a>.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">其他信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    Additional Resources
+</h3>
+<p>
+    For more information on the iterative development approach, see the following:
+</p>
+<ul>
+    <li>
+        Kruchten, P. <em>From Waterfall to Iterative Development - A Challenging Transition for Project Managers</em>. The
+        Rational Edge, 2000.
+    </li>
+</ul>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <p>
+        Retrieved from <a href="http://www-128.ibm.com/developerworks/rational/library/content/RationalEdge/dec00/FromWaterfalltoIterativeDevelopmentDec00.pdf">http://www-128.ibm.com/developerworks/rational/library/content/RationalEdge/dec00/FromWaterfalltoIterativeDevelopmentDec00.pdf</a>.&nbsp;&nbsp;(<a href="http://get.adobe.com/reader/">Get Adobe Reader</a>)
+    </p>
+</blockquote>
+<ul>
+    <li>
+        Royce, W. <em>Software Project Management: A Unified Framework</em>. Addison Wesley. 1999.<br />
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

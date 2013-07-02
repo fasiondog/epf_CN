@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Mapping from Design to Code</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="mapping_design_to_code">
+<meta name="uma.presentationName" content="Mapping from Design to Code">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_mlKb8JyJEdy9brKHb521mQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Mapping from Design to Code</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline describes some different options for moving from a design to the implementation, and discusses the benefits and drawbacks of these approaches.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.test_driven_development.base/tasks/implement_solution_BB8B03DA.html" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ">Implement Solution</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h4>
+    <a id="Introduction" name="Introduction">Introduction</a>
+</h4>
+<p>
+    Design must define enough of the system so that it can be implemented unambiguously. What constitutes enough varies
+    from project to project and company to company.
+</p>
+<p>
+    In some cases the design resembles a sketch, elaborated only far enough to ensure that the implementer can proceed (a
+    "sketch and code" approach). The degree of specification varies with the expertise of the implementer, the complexity
+    of the design, and the risk that the design might be misconstrued.
+</p>
+<p>
+    In other cases, the design is elaborated to the point that the design can be transformed automatically into code. This
+    typically involves extensions to standard UML to represent language and/or environment specific semantics.
+</p>
+<p>
+    The design may also be hierarchical, such as the following:
+</p>
+<ul>
+    <li>
+        a high level design model which sketches an overview of the overall system
+    </li>
+    <li>
+        a subsystem specification model which precisely specifies the required interfaces and behavior of major subsystems
+        within the system
+    </li>
+    <li>
+        a detailed design model for the internals of subsystems
+    </li>
+</ul>
+<p>
+    The sections below describe some different options for relating a design and implementation, and discuss benefits and
+    drawbacks of these approaches.
+</p>
+<h4>
+    <a id="sketch" name="sketch">Sketch and Code</a>
+</h4>
+<p>
+    One common approach to design is to sketch out the design at a fairly abstract level, and then move directly to code.
+    Maintenance of the design model is manual.
+</p>
+<p>
+    In this approach, we let a design class be an abstraction of several code-level classes. We recommend that you map each
+    design class to one "head" class that, in turn, can use several "helper" classes to perform its behavior. You can use
+    "helper" classes to implement a complex attribute or to build a data structure that you need for the implementation of
+    an operation. In design, you don't model the "helper" classes and you only model the key attributes, relationships, and
+    operations defined by the head class. The purpose of such a model is to abstract away details that can be completed by
+    the implementer.
+</p>
+<p>
+    This approach is extended to apply to the other design model elements. You may have design interfaces which are more
+    abstract than the code-level interfaces, and so on.
+</p>
+<h4>
+    <a id="round" name="round">Round-Trip Engineering</a>
+</h4>
+<p>
+    In round-trip engineering environments, the design model evolves to a level of detail where it becomes a visual
+    representation of the code. The code and its visual representation are synchronized (with tool support).
+</p>
+<p>
+    The following are some options for representing a Design Model in a round-trip engineering context.
+</p>
+<p>
+    <b><a id="trace" name="trace">High Level Design Model and Detailed Design Model</a></b>
+</p>
+<p>
+    In this approach, there are two levels of design model maintained. Each high level design element is an abstraction of
+    one or more detailed elements in the round-tripped model. For example, a design class may map to one "head" class and
+    several "helper" classes, just as in the "sketch and code" approach described previously. Traceability from the high
+    level design model elements to round-trip model elements can help maintain consistency between the two models.
+</p>
+<p>
+    Although this can help abstract away less important details, this benefit must be balanced against the effort required
+    to maintain consistency between the models.
+</p>
+<p>
+    <b><a id="evolves" name="evolves">Single Evolving Design Model</a></b>
+</p>
+<p>
+    In this approach, there is a single Design Model. Initial sketches of design elements evolve to the point where they
+    can be synchronized with code. Diagrams, such as those used to describe design use-case realizations, initially
+    reference sketched design classes, but eventually reference language-specific classes. High level descriptions of the
+    design are maintained as needed, such as:
+</p>
+<ul>
+    <li>
+        diagrams of the logical structure of the system,
+    </li>
+    <li>
+        subsystem/component specifications,
+    </li>
+    <li>
+        design patterns / mechanisms.<br />
+    </li>
+</ul>
+<p>
+    Such a model is easier to maintain consistent with the implementation.
+</p>
+<h4>
+    <a id="specification" name="specification">Specification and Realization Models</a>
+</h4>
+<p>
+    A related approach is to define the design in terms of specifications for major subsystems, detailed to the point where
+    client implementations can compile against them.
+</p>
+<p>
+    The detailed design of the subsystem realization can be modeled and maintained separately from this specification
+    model.
+</p>
+<p>
+    Models can be detailed and used to generate an implementation. Both structure (class and package diagrams) and behavior
+    diagrams (such as collaboration, state, and activity diagrams) can be used to generate executable code. These initial
+    versions can be further refined as needed.
+</p>
+<p>
+    The design may be platform-independent to varying degrees. Platform-specific design models or even code can be
+    generated by transformations that apply various rules to map high-level abstractions of platform-specific elements.
+    This is the focus of the Object Management Group (OMG) Model-Driven Architecture (MDA) <a href="http://www.omg.org/" target="_blank">(http://www.omg.org</a>) initiative.
+</p>
+<p>
+    Platform-specific visual models can be used to generate an initial code framework. This framework can be further
+    elaborated with additional code not specified in the design.
+</p>
+<h4>
+    Patterns
+</h4>
+<p>
+    Standard patterns can be applied to generate design and code elements from related design and implementation. For
+    example, a standard transformation pattern can be applied to a data table to create Java&trade; classes to access the data
+    table. Another example is using an <a href="http://www.eclipse.org/emf/" target="_blank">Eclipse Modeling Framework</a>
+    to generate code for storing data that matches the model and to generate a user interface implementation for populating
+    data. A pattern or transformation engine can be used to create the implementation, or the implementation can be done by
+    hand. Pattern engines are easier and more reliable, but handwritten code implementing a defined pattern will have fewer
+    errors than handwritten code implementing a novel or unique design.
+</p><br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Detail Use Cases and Scenarios</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="detail_ucs_and_scenarios">
+<meta name="uma.presentationName" content="Detail Use Cases and Scenarios">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_4BJ_YCxSEdqjsdw1QLH_6Q"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Detail Use Cases and Scenarios</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline provides help on detailing use cases and scenarios.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/tasks/detail_use_case_scenarios_3DBC6A10.html" guid="_SL7N0LPdEduocbW-TPTq7A">Detail Use-Case Scenarios</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h4>
+    Most efficient way to write use cases
+</h4>
+<p>
+    Because use cases model requirements, they are highly dynamic by nature. The more we examine a requirement, the more we
+    learn, and the more things change. To further complicate the issue, changes to one use case can lead to changes in
+    others. Therefore, we want a flexible, highly efficient method for writing use cases that eliminates unnecessary work
+    and rewriting.
+</p>
+<p>
+    An iterative, breadth-first approach, in which the use case is continuously evaluated before adding detail, is an
+    effective way to write use cases. This breadth-first approach involves two aspects: writing the set of use cases and
+    writing individual use cases.
+</p>
+<p>
+    <strong>Writing sets of use cases:</strong> Use cases exist in sets, and the relationships between the various use
+    cases and Actors&nbsp;are important. As you learn more about the Actors, you also learn more about the system's
+    boundaries and transactions. Likewise, as you learn more about the system's transactions, you learn more about its
+    Actors. Therefore, it is more efficient to write several use cases simultaneously than to write them sequentially. This
+    way, you can identify and understand the effects of the various use cases upon each other as you write them, rather
+    than as afterthoughts that require rewriting or elimination of previous work.
+</p>
+<p>
+    <strong>Writing individual use cases.</strong> Similarly, it makes sense to write each individual use case iteratively.
+    Starting with the main scenario, you can then identify various alternative and error flows that the use case might
+    follow, then evaluate, rearrange or eliminate them, and then add the details of the surviving scenarios.
+</p>
+<p>
+    Consider factors that can influence the format and level of detail for your use case description.
+</p>
+<h4>
+    Detail the flow of events of the main scenario
+</h4>
+<p>
+    As a starting point, use the step-by-step description of the use-case main scenario. Then, gradually add details to
+    this scenario, describing <strong>what</strong> the use case does, <strong>not how</strong> to solve problems internal
+    to the system.
+</p>
+<p>
+    A flow of events description explores:
+</p>
+<ul>
+    <li>
+        How and when the use case starts
+    </li>
+    <li>
+        When the use case interacts with the Actors, and what data they exchange
+    </li>
+    <li>
+        When the use case uses data stored in the system or stores data in the system
+    </li>
+    <li>
+        How and when the use case ends
+    </li>
+</ul>
+<p>
+    It does not describe:
+</p>
+<ul>
+    <li>
+        The GUI
+    </li>
+    <li>
+        Technical details of hardware or software
+    </li>
+    <li>
+        Design issues
+    </li>
+</ul>
+<h4>
+    Identify alternate flows
+</h4>
+<p>
+    A use case consists of a number of scenarios, each representing specific instances of the use case that correspond to
+    specific inputs from the Actor or to specific conditions in the environment. Each scenario describes alternate ways
+    that the system provides a behavior, or it can describe failure or exception cases.
+</p>
+<p>
+    As you detail the main scenario, identify alternate flows by asking these questions:
+</p>
+<ul>
+    <li>
+        Are there different options available, depending on input from the Actor? (for example, if the Actor enters an
+        invalid PIN number while accessing an ATM)
+    </li>
+    <li>
+        What business rules can come into play? (For instance, the Actor requests more money from the ATM than is available
+        in her account)
+    </li>
+    <li>
+        What could go wrong? (Such as no network connection available when required to perform a transaction)
+    </li>
+</ul>
+<p>
+    It is best to develop these scenarios iteratively, as well. Begin by identifying them. Examine each possible scenario
+    to determine whether it is relevant, that it can actually happen, and that it is distinct from other scenarios.
+    Eliminate redundant or unnecessary scenarios, and then start elaborating on the more important ones.
+</p>
+<h4>
+    Structure the use case
+</h4>
+<p>
+    It is useful to structure the use case according to scenarios. This helps both to simplify communication and
+    maintenance and to permit the use cases to be implemented iteratively.
+</p>
+<p>
+    In addition to structuring the use cases according to scenarios, it is often useful to structure the scenarios
+    themselves into sub-flows. This provides an additional level of granularity for planning work and tracking progress.
+    Unless a sub-flow involves only a minor part of the complete flow of events (which can be described in the body of the
+    text), it is recommended that you describe each sub-flow in a separate section to the Flow of Events section. Sub-flows
+    that need to be in a separate section include these examples:
+</p>
+<ul>
+    <li>
+        Sub-flows that occupy a large segment of a given flow of events.
+    </li>
+    <li>
+        Exceptional and alternate flows of events. This helps the use case's basic flow of events to stand out more
+        clearly.
+    </li>
+    <li>
+        Any sub-flow that can be executed at several intervals in the same flow of events.
+    </li>
+</ul>
+<h4>
+    Describe special requirements
+</h4>
+<p>
+    You must also capture any requirements that are related to the use case, but are not taken into consideration in the
+    flow of events of the use case. Such requirements are likely to be nonfunctional.
+</p>
+<p>
+    Typically, nonfunctional requirements that refer to a specific use case are captured in the special requirements
+    section of the use case.&nbsp;If there are nonfunctional requirements that apply to more than one use case, capture
+    these in the system-wide requirements specification.
+</p>
+<h4>
+    Describe preconditions and postconditions
+</h4>
+<p>
+    A <strong>precondition</strong> on a use case explains the state that the system must be in for the use case to be able
+    to start. Be careful in describing the system state. Avoid describing the detail of other, incidental activities that
+    might already have taken place.
+</p>
+<p>
+    A <strong>postcondition</strong> on a use case lists possible states that the system can be in at the end of the use
+    case execution. The system must be in one of those states. A postcondition also states actions that the system performs
+    at the end of the use case, regardless of what occurred in the use case. Post-Conditions can be categorized as Minimal
+    Guarantees&nbsp;or Success Guarantees.&nbsp; A Minimal Guarantee represents a condition that will be true when the use
+    case ends, regardless of how it terminates.&nbsp; A Success Guarantee represents a condition that will be true when the
+    use case ends successfully, regardless of which path it took.
+</p>
+<p>
+    Neither preconditions nor postconditions need to be used to create a sequence of use cases. As a general rule, there
+    must never be a case where you have to first perform one use case and then another to have a meaningful flow of events.
+    If that is the case, correct the problem by reviewing the use cases.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">概念</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/use_case_BB199D1B.html" guid="_KudM0NcJEdqz_d2XWoVt6Q">Use Case</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

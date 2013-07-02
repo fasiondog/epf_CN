@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Deploying Tools</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="deploying_tools">
+<meta name="uma.presentationName" content="Deploying Tools">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_A1qOACu3Ed-UrP371xHUyw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Deploying Tools</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.mgmt.project_process_tailoring.base/tasks/deploy_process_7C00B2CE.html" guid="_XlJ80CZpEd-XKYR2S73PfQ">Deploy the Process</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Install the Tool on the Server
+</h3>
+<p>
+    Identify what other software is required for the specific tool to work, and install this software. For example, a tool
+    may require a database management system (DBMS) be installed first.<br />
+    <br />
+    When you have installed the support software, you can install the tool on the server.
+</p>
+<h3>
+    Customize the Tool (on the Server)
+</h3>
+<p>
+    Decide how to customize the tool so that it supports the Development Process in the best way.&nbsp; The following are
+    some brief examples of how you can customize tools:
+</p>
+<h4>
+    Modeling tools
+</h4>
+<p>
+    You can create a template model that defines the structure of models. The template model will be used when creating a
+    new model. You can create a file in which you define what stereotypes to use, and their icons. Then this file can be
+    installed on all users' computers, so that they use the same set of stereotypes.
+</p>
+<h4>
+    Requirements and Change Management tools
+</h4>
+<p>
+    You can create a project template, in which you define the attribute types to use. You can start with provided
+    templates and customize according to your needs.
+</p>
+<h4>
+    Configuration Management tools
+</h4>
+<p>
+    You can often configure actions in response to 'events' that make the tool behave in a certain way. For example, you
+    can customize the tool so that when a user checks-in an item, a script is automatically executed that does some
+    checking on the item.&nbsp; There may also be customizations that support distributed development, such as "multi-site"
+    support with duplicated repositories.
+</p>
+<h3>
+    Document the customizations in your process.<br />
+    <br />
+    Integrate with Other Tools
+</h3>
+<p>
+    Integrate the tool with other tools to make it easier to use. An integration between tools is in most cases in the form
+    of an extension to one or several tools. An 'integration extension' to a tool typically:
+</p>
+<p>
+    Synchronize data between the different tools. It automates the creation and maintenance of related items in development
+    projects<br />
+    Automatically adds traceability between related items in different tools.<br />
+    Allow the user to add traceability between items in different tools.<br />
+    Allow the user to navigate between tools. For example, access an item in a test tool from a requirements management
+    tool.<br />
+    Allow the user to run certain functionality from one tool. For example, the possibility to create items in another
+    tool.<br />
+    Allow the user to version a tool's items in a configuration management tool. For example, the possibility to version
+    control requirements (from RequisitePro) using ClearCase.<br />
+    Most tools offer ready-to-use extensions to integrate tools with each other.
+</p>
+<p>
+    Describe how the tools are integrated with each other in the process.
+</p>
+<h3>
+    Install and Customize Tools on Clients
+</h3>
+<p>
+    Install the tool on each client. The least that is needed to do when installing a tool on the client side, is to set up
+    the connection to the repository on the server.<br />
+    <br />
+    Customize the tool on the clients, just as you customized the tool on the server:<br />
+    <br />
+    In some cases you do not have to do anything with the client. For example, if the client is a web-interface it is
+    enough that the clients get the address to the application on the server. Some tools allow you to do all customization
+    on the server side. When the users access the repository on the server, they automatically get the correct
+    settings.<br />
+    In other cases you customize the tool on the client by installing software that customizes the tool, or installing
+    files with customization information.<br />
+    It may be necessary to install 'integration software' on the client. Place the 'integration software' on a server and
+    allow the users to download and install it on their computers.<br />
+    <br />
+    If it possible you should automate the tool installation, and the tool customization for the users. The benefit of
+    creating installation programs is that it allows you to set up the tools so that the clients get all the right
+    settings, extensions, and connections to the repository. You create installation (and customization) programs, and
+    place them on a server. Then the users download these programs and run them to install and customize the tool in their
+    computer.
+</p>
+<h3>
+    Setting up workspaces
+</h3>
+<p>
+    Most project teams require workspaces for a variety of purposes including:
+</p>
+<p>
+    - development workspaces for individuals to do their work
+</p>
+<p>
+    - integration workspaces for individuals to share their work
+</p>
+<p>
+    - build workspaces for builds that have achieved a certain level of quality
+</p>
+<p>
+    Part of setting up the tool environment is to set up the needed workspaces and the policies for how they are used.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

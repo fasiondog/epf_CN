@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Actor</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="actor">
+<meta name="uma.presentationName" content="Actor">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_zGqO0MDpEduTGJ8i4u8TMw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Actor</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">An Actor is a role that a person or external system plays when interacting with a system. Instances of an Actor can be an individual or an external system.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/use_case_BB199D1B.html" guid="_KudM0NcJEdqz_d2XWoVt6Q">Use Case</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html" guid="_W2SgEDR5EdutE_HNDTJk5Q">Use-Case Model</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    To fully understand the system's purpose, you must know who the system is for, that is: Who will use the system? The
+    answer to this question is: the Actors.
+</p>
+<p>
+    An Actor is a role that a person or external system plays&nbsp;when interacting with the system.&nbsp; Instances of an
+    Actor can be an individual or an external system, however each Actor&nbsp;provides a
+    unique&nbsp;and&nbsp;important&nbsp;perspective on the system that is shared by every instance of the Actor.
+</p>
+<p>
+    This difference between an actor and an instance of an actor is illustrated below.&nbsp;&nbsp;Figure 1 shows a case in
+    which Ivar and Mark are operators of a recycling machine. When they are using the machine in this capacity, each is
+    represented by an instance of the actor called Operator that expects certain functionality of the system (Print Daily
+    Reports in this example).
+</p>
+<p>
+    <img alt="" src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/md_acto2.gif" width="396" height="322" />&nbsp;
+</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <p>
+        <strong>Figure 1:&nbsp;Example Actor with multiple instances</strong>&nbsp;
+    </p>
+</blockquote>
+<p>
+    Conversely, the same user can act as several actors (that is, the same person can take on different roles). In Figure
+    2, Charlie uses the Depot-Handling System primarily as Depot Manager, but sometimes he also uses the Depot-Handling
+    System as an ordinary Depot Staff member. Each of these actors expects different functionality of the system.
+</p>
+<p>
+    <img alt="" src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/md_acto3.gif" width="367" height="139" />
+</p>
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
+    <p>
+        <strong>Figure 2: Example of user playing different roles</strong><br />
+    </p>
+</blockquote>
+<p>
+    Actors help you to identify external interfaces and to determine the scope the system (what is in the system, vs. what
+    is outside the system boundary).&nbsp; Each&nbsp;Actor typically has associated use cases which describe what that
+    particular&nbsp;actor expects of the system.&nbsp; It will be very difficult, if not impossible,&nbsp;to assess the
+    completeness of the set of Use Cases without the context provided by the associated Actors. Furthermore, missing an
+    actor may result in&nbsp;missing important stakeholder perspectives, resulting&nbsp;in a solution that does not meet
+    all&nbsp;stakeholder needs.
+</p>
+<p>
+    Hence, identifying the Actors for the system&nbsp;should be done early in the lifecycle.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

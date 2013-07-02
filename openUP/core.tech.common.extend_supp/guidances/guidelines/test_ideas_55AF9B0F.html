@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>指南：Test Ideas</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="test_ideas">
+<meta name="uma.presentationName" content="Test Ideas">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_0jzlsMlgEdmt3adZL5Dmdw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">指南：Test Ideas</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This guideline identifies common faults and mistakes done when developing software. It shows how to create test ideas from method calls, and from boolean and relational expressions.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html" guid="_0iwc0clgEdmt3adZL5Dmdw">Create Test Cases</a>
+</li>
+<li>
+<a href="./../../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    Test ideas are used to generate tests.&nbsp;Test ideas can come from many different sources.&nbsp;In general, they can
+    be derived in different ways depending on the given development domain, the kind of application being developed, and
+    the sophistication of the testers.&nbsp;Although test ideas are derived in many different ways, there are some useful
+    categories for generating them.&nbsp;This guideline will describe some of these categories as well as some general
+    heuristics for creating good test ideas.
+</p>
+<h4>
+    Test Ideas and Functions
+</h4>
+<p>
+    Below are some test ideas to calculate the square root:
+</p>
+<ol>
+    <li>
+        A number that's barely less than zero as input
+    </li>
+    <li>
+        Zero as the input
+    </li>
+    <li>
+        Number that's a perfect square, like 4 or 16 (is the result exactly 2 or 4?)
+    </li>
+    <li>
+        Print to a LaserJet IIIp
+    </li>
+    <li>
+        Test with database full
+    </li>
+</ol>
+<p>
+    The first&nbsp;3 test ideas validate input while the last 2 address environmental issues.&nbsp; Even though these
+    statements are very incomplete they ensure that an idea is not forgotten.
+</p>
+<h4>
+    Test Ideas and Boundaries
+</h4>
+<p>
+    Test ideas are often based on fault models.&nbsp; Consider boundaries. It's safe to assume the square root function can
+    be implemented something like this:<br />
+    <!-- START NON-TRANSLATABLE -->
+    double sqrt(double x) {<br />
+    &nbsp;&nbsp;&nbsp; if (x &lt; 0)<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // signal error<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br />
+    <!-- END NON-TRANSLATABLE -->
+    It's also plausible that the &lt; will be incorrectly typed as &lt;=. People often make that kind of mistake, so it's
+    worth checking. The fault cannot be detected with X having the value 2, because both the incorrect expression (x&lt;=0)
+    and the correct expression (x&lt;0) will take the same branch of the if statement. Similarly, giving X the value -5
+    cannot find the fault. The only way to find it is to give X the value 0, which justifies the second test idea.
+</p>
+<h4>
+    Test Idea and Methods
+</h4>
+<p>
+    Let's suppose you're designing tests for a method that searches for a string in a sequential collection. It can either
+    obey case or ignore case in its search, and it returns the index of the first match found or -1 if no match is
+    found.<br />
+    int Collection.find(String string, Boolean ignoreCase);
+</p>
+<p>
+    Here are some test ideas for this method, each of which could be implemented as a test.&nbsp;
+</p>
+<ol>
+    <li>
+        Match found in the first position
+    </li>
+    <li>
+        Match found in the last position
+    </li>
+    <li>
+        No match found
+    </li>
+    <li>
+        Two or more matches found in the collection
+    </li>
+    <li>
+        Case is ignored; match found, but it wouldn't match if case was obeyed
+    </li>
+    <li>
+        Case is obeyed; an exact match is found
+    </li>
+    <li>
+        Case is obeyed; a string that would have matched if case were ignored is skipped
+    </li>
+</ol>
+<p>
+    However, different test ideas can be combined into a single test; for example, the following test satisfies test ideas
+    2, 6, and 7:
+</p>
+<p>
+    <strong>Setup:</strong> Collection initialized to ["dawn", "Dawn"]<br />
+    <strong>Invocation:</strong> Collection.find("Dawn", false)<br />
+    <strong>Expected result:</strong> Return value is 1 (it would be 0 if "dawn" were not skipped)
+</p>
+<h4>
+    Test Idea Simplicity and Complexity
+</h4>
+<p>
+    Making test ideas nonspecific makes them easier to combine.<br />
+    Creating many several small tests that satisfy a few test ideas makes it simpler to:
+</p>
+<ul>
+    <li>
+        "Copy and Tweak" the tests to meet other test idea
+    </li>
+    <li>
+        Easy of debugging - if you have test that covers 2 test ideas then you know the fault is one or two area, but if
+        the test covers 7 test ideas you will spend more time debugging the issue.&nbsp;
+    </li>
+</ul>
+<p>
+    If the test ideas list were complete, with a test idea for every fault in the program, it wouldn't matter how you wrote
+    the tests. But the list is always missing some test ideas that could find bugs. Smaller more complex tests increase the
+    chance the test will satisfy a test idea that you didn't know you needed.
+</p>
+<h4>
+    Complex Tests
+</h4>
+<p>
+    Sometimes when you're creating more complex tests, new test ideas come to mind. However, there are reasons for not
+    creating complex tests.
+</p>
+<ul>
+    <li>
+        Complex test are more difficult to debug because they usually cover multiple test ideas
+    </li>
+    <li>
+        Complex tests are more difficult to understand and maintain. The intent of the test is less obvious.
+    </li>
+    <li>
+        Complex tests are more difficult to create.
+    </li>
+</ul>
+<p>
+    Constructing a test that satisfies five test ideas often takes more time than constructing five tests that each
+    satisfies one. Moreover, it's easier to make mistakes - to think you're satisfying all five when you're only satisfying
+    four.<br />
+    In practice, find a reasonable balance between complexity and simplicity.<br />
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

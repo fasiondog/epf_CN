@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>实践：Continuous Integration</title>
+<meta name="uma.type" content="Practice">
+<meta name="uma.name" content="continous_integration">
+<meta name="uma.presentationName" content="Continuous Integration">
+<meta name="element_type" content="Practice">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_rJNiMB4rEd2bS8fFOQ7WWA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">实践：Continuous Integration</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">In a Continuous Integration practice, team members integrate their work frequently (at least daily).</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
+<ul>
+<li>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/guidances/roadmaps/how_to_adopt_continuous_integration_DBC46C5D.html" guid="_4qbzQPnTEdyLA5PXdgVJXw">How to adopt the Continuous Integration practice</a>
+</li>
+</ul>
+<ul>
+<li>关键概念</li>
+<ul>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/guidances/concepts/change_requests_AD4868FE.html" guid="_6jdvECb3Edqh1LYUOGRh2A">Change Requests</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html" guid="_1QU9MAIoEdyLh7vsrHZ4YA">Change Set</a>
+</li>
+<li>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/guidances/concepts/workspace_722BBA90.html" guid="_0cEmAMlgEdmt3adZL5Dmdw">Workspace</a>
+</li>
+</ul>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/artifact.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/workproducts/build_95D7D8FD.html" guid="_0YuXEMlgEdmt3adZL5Dmdw">Build</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/task.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/tasks/integrate_and_create_build_6191BF5D.html" guid="_kkZBgJOKEdyaRbFYa4AN4A">Integrate and Create Build</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html" guid="_i8bUEL6cEdqti4GwqTkbsQ">Continuous Integration</a>
+</li>
+</ul>
+<ul>
+<li>
+<img src="./../../../images/guidance.gif" height="16" width="16"><a href="./../../../practice.tech.continuous_integration.base/guidances/guidelines/promoting_changes_9087B764.html" guid="_SM4YIL6dEdqti4GwqTkbsQ">Promoting Changes</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">输入</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[Technical Implementation]</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">用途</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The effort required to integrate a system increases exponentially with time. By integrating the system more frequently,
+    integration issues are identified earlier, when they are easier to fix, and&nbsp;the overall integration effort is
+    reduced.&nbsp; The result is a higher-quality product and more predictable delivery schedules.
+</p>
+<p>
+    Continuous integration provides the following benefits:
+</p>
+<ul>
+    <li>
+        <b>Improved feedback.</b> Continuous integration shows constant and demonstrable progress.
+    </li>
+    <li>
+        <b>Improved error detection.</b> Continuous integration enables you to detect and address errors early, often
+        minutes after they've been injected into the product. Effective continuous integration requires automated unit
+        testing with appropriate code coverage.
+    </li>
+    <li>
+        <b>Improved collaboration.</b> Continuous integration enables team members to work together safely. They know that
+        they can make a change to their code, integrate the system, and determine very quickly whether or not their change
+        conflicts with others.
+    </li>
+    <li>
+        <b>Improved system integration.</b> By integrating continuously throughout your project, you know that you can
+        actually build the system, thereby mitigating integration surprises at the end of the lifecycle.
+    </li>
+    <li>
+        <b>Reduced&nbsp;number of parallel changes</b> that need to be merged and tested.
+    </li>
+    <li>
+        <b>Reduced number of errors</b> found during system testing. All conflicts&nbsp;are resolved before making new
+        change sets available and by the person who is in the best position to resolve them.
+    </li>
+    <li>
+        <b>Reduced technical risk.</b> You always have an up-to-date system to test against.
+    </li>
+    <li>
+        <b>Reduced management risk.</b> By continuously integrating your system, you know exactly how much functionality
+        that you have built to date, thereby improving your ability to predict when and if you are actually going to be
+        able to deliver the necessary functionality.
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    The essence of continuous integration
+</h3>
+<p>
+    The essence of continuous integration can be described by the following activities:
+</p>
+<ul>
+    <li>
+        Developers make small changes to the latest integration-tested implementation in their workspaces, and they unit
+        test them before making the changes available to the team.
+    </li>
+</ul>
+<ul>
+    <li>
+        Change sets from all developers are integrated in an integration workspace and tested frequently (at least daily--
+        ideally any time a new change set is available).
+    </li>
+</ul>
+<p>
+    The first activity ensures that changes are made to a configuration that is known to be good and tested before making
+    the changes available. The second activity identifies integration issues early so that they can be corrected while the
+    change is still fresh in the developer's mind.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">如何读取该实践</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><p>
+    The best way to read this practice is to first familiarize yourself with its overall structure: what is in it and how
+    it is organized.&nbsp; Then begin by reviewing the key concepts to understand the terminology. Next, review the <a class="elementLink" href="./../../../practice.tech.continuous_integration.base/tasks/integrate_and_create_build_6191BF5D.html" guid="_kkZBgJOKEdyaRbFYa4AN4A">Integrate and Create Build</a> task <a class="elementLink" href="./../../../practice.tech.continuous_integration.base/tasks/integrate_and_create_build_6191BF5D.html" guid="_kkZBgJOKEdyaRbFYa4AN4A">Integrate and Create Build</a> to learn what needs to be done. Finally, review the
+    associated guidelines for&nbsp;more information on the overall workflow.
+</p>
+<p>
+    For step-by-step instructions on how to adopt this practice, see&nbsp;<a class="elementLink" href="./../../../practice.tech.continuous_integration.base/guidances/roadmaps/how_to_adopt_continuous_integration_DBC46C5D.html" guid="_4qbzQPnTEdyLA5PXdgVJXw">How to adopt the Continuous Integration practice</a>.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">其他信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableCell"><h3>
+    Books and articles<br />
+    <br />
+</h3>
+<table width="100%" summary="layout table" border="0">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                Martin Fowler. "Continuous Integration," <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">www.martinfowler.com/articles/continuousIntegration.html</a> (2006).
+            </td>
+        </tr>
+        <tr>
+            <td width="10%">
+            </td>
+            <td width="78%" valign="top" style="PADDING-BOTTOM: 10px">
+                Seminal paper on continuous integration.&nbsp;Great overview of&nbsp;the benefits and practices.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Paul&nbsp;M. Duval with Steve Matyas and Andrew Glover. <i>Continuous Integration: Improving Software
+                Quality and Reducing Risk.</i> Addison-Wesley (2007).
+            </td>
+        </tr>
+        <tr>
+            <td width="10%">
+            </td>
+            <td style="PADDING-BOTTOM: 10px" width="78%">
+                Comprehensive guidance on the practice and subpractices of continuous integration (CI). Great overview of
+                motivation and benefits of the practice. Detailed discussion of more than 40 CI-related subpractices, with
+                examples of scripts and code segments. Appendix provides an overview of tools available to support the
+                practice.
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

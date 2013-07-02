@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Focus on the architecture early to minimize risks and organize development</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="core_principle_focus">
+<meta name="uma.presentationName" content="Focus on the architecture early to minimize risks and organize development">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_9gocwMvoEdqukPpotm3DYg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Focus on the architecture early to minimize risks and organize development</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">An evolving architecture helps the team to address complexity, drive risk mitigation, and organize development.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html" guid="_2plxwBOMEduCNqgZdt_OaA">Elaboration Phase</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Introduction
+</h3>
+<p>
+    The architecture of a software system is the organization or structure of the system's significant components
+    interacting through interfaces, with components composed of successively smaller components and interfaces.
+</p>
+<p>
+    Without an architectural foundation, a system will evolve in an inefficient and haphazard way. Such a system often
+    proves difficult to extend, reuse, or integrate without substantial rework. It is also difficult to organize the team,
+    or to communicate ideas without the <b>common technical focus</b> that the architecture provides.
+</p>
+<p>
+    Focus on the architecture early to minimize risks and organize development.
+</p>
+<h3>
+    Practices
+</h3>
+<h4>
+    Create the architecture for what you know today
+</h4>
+<p>
+    As Albert Einstein said, make everything as simple as possible, but no simpler. Software projects are
+    resource-constrained, and the desire of developers to create elegant solutions may lead to a system of greater
+    complexity than the stakeholder requires. Efforts to future-proof a system in a turbulent or uncertain environment will
+    likely lead to code bloat, which increases overall costs and complexity with few real benefits.
+</p>
+<p>
+    Create architectures that address the stakeholder's real needs, and provide appropriate flexibility and speed for the
+    requirements as they are known today. Avoid the desire, no matter how well-intentioned, to speculate on future
+    requirements and thereby over-engineer the architecture. There is a distinction between over-architecting and building
+    an architecture that is flexible and extensible. For example, there may not be an apparent reason for creating three
+    architectural layers in a system, but it is probable that the system will grow in ways one can't predict, so we should
+    architect for that.
+</p>
+<h4>
+    Leverage the architecture as a collaborative tool
+</h4>
+<p>
+    Lack of a common understanding by developers about a system leads to indecision and contrary opinions among developers,
+    and can quickly paralyze the project. Developers may have different mental models of the system and work at cross
+    purposes to each other.
+</p>
+<p>
+    Create and evolve the system architecture with the intention of using it to align the developers' competing mental
+    models of the system. A good architecture facilitates collaboration by providing a common vocabulary for all
+    discussions regarding the system under development.
+</p>
+<h4>
+    Cope with complexity by raising the level of abstraction
+</h4>
+<p>
+    Software is complex, and people have a limited capacity for coping with complexity. As a system gets larger, it is
+    difficult for the team to develop a common understanding of the system, because it's hard to see the bigger picture.
+</p>
+<p>
+    Use models to raise the level of abstraction to focus on important high-level decisions, such as relationships and
+    patterns, rather than getting bogged down in details. Modeling raises the level of abstraction, and allows the system
+    to be more easily understood from different perspectives.
+</p>
+<h4>
+    Organize the architecture into loosely coupled, highly cohesive components
+</h4>
+<p>
+    Tight coupling between components makes a system fragile and difficult to understand. Software is expensive to create,
+    so if existing components can be reused, that may reduce effort required to create a system.
+</p>
+<p>
+    Organize the architecture of the system into components to maximize cohesion and minimize coupling. This improves
+    comprehension, and increases flexibility and opportunities for re-use.
+</p>
+<h4>
+    Reuse existing assets
+</h4>
+<p>
+    It is wasteful to build what you can simply reuse, download, or even buy.
+</p>
+<p>
+    Make every effort to reuse existing assets. Developers are often reluctant to reuse assets, because those assets do not
+    exactly meet their needs, or those assets are of poor quality. Be prepared to balance the savings you can realize using
+    an existing asset, even if the asset requires you to make some accommodation in the architecture or relax a constraint.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

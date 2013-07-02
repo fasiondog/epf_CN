@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：System-Wide Requirements</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="system_wide_requirements">
+<meta name="uma.presentationName" content="System-Wide Requirements">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_VXZ5wO0IEdqHTdbLTmC5IQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：System-Wide Requirements</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This concept describes the system-wide requirements.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/tasks/identify_and_outline_requirements_90D272B9.html" guid="_P9cMUPV_EdmdHa9MmVPgqQ">Identify and Outline Requirements</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Definition
+</h3>
+<p>
+    System-wide requirements are requirements that&nbsp;define necessary system quality attributes&nbsp;such as
+    performance, usability and reliability, as well as global functional requirements&nbsp;that are not captured in
+    behavioral requirements artifacts such as use cases.
+</p>
+<h3>
+    System-wide&nbsp;Requirements Categories
+</h3>
+<p>
+    System-wide&nbsp;requirements are categorized according to the FURPS+ model (Functional, Usability, Reliability,
+    Performance, Supportability + constraints). Constraints&nbsp;include design, implementation, interfaces, physical
+    constraints, and business rules. A description of each of these types of requirements follows.
+</p>
+<p>
+    System-wide requirements and use cases, together, define the requirements of the system. These requirements support the
+    features listed in the vision statement. Each requirement should&nbsp;support at least one feature, and each feature
+    should be supported by at least one requirement.
+</p>
+<p>
+    In general, <strong>functional</strong> requirements describe behavior and can be captured as&nbsp;use cases.
+    <strong>Non-functional</strong> requirements are captured in a system-wide requirements specification.&nbsp;However,
+    nonfunctional requirements that are closely associated with a particular use case are often captured within the
+    use-case specification itself to simplify communication and maintenance.&nbsp;Similarly, there are global, or
+    system-wide functional requirements that are often captured among the system-wide requirements for the same
+    reasons.&nbsp;
+</p>
+<h4>
+    Functional requirements
+</h4>
+<p>
+    Functional requirements include all the over-arching, system-wide functional requirements that are not expressed as use
+    cases. These functional requirements represent the main system features that are familiar within the business domain or
+    technically oriented requirements such as auditing, licensing, localization, e-mail, online help, printing, reporting,
+    security, system management, or workflow.
+</p>
+<h4>
+    Usability requirements
+</h4>
+<p>
+    Usability requirements include requirements based on human factors and user-interface issues such as accessibility,
+    interface aesthetics, and consistency within the user interface.
+</p>
+<h4>
+    Reliability requirements
+</h4>
+<p>
+    Reliability requirements include aspects such as availability, accuracy, predictability, frequency of failure or
+    recoverability of the system from shut-down failure.
+</p>
+<h4>
+    Performance requirements
+</h4>
+<p>
+    Performance requirements address concerns such as throughput of information through the system, system response time
+    and resource usage.
+</p>
+<h4>
+    Supportability requirements
+</h4>
+<p>
+    Supportability requirements include&nbsp;requirements such as compatibility and the abilities to test, adapt, maintain,
+    configure, install, scale, and localize the system.
+</p>
+<h4>
+    + Constraints
+</h4>
+<p>
+    The <strong>+</strong> of the FURPS+ acronym allows you to specify constraints, such as design, implementation,
+    interfaces, physical constraints, and business rules:
+</p>
+<ul>
+    <li>
+        <strong>Design constraints</strong> limit the design and state requirements on the approach that should be taken in
+        developing the system.
+    </li>
+    <li>
+        <strong>Implementation constraints</strong> put limits on coding or construction (required standards, languages,
+        tools, or platform)
+    </li>
+    <li>
+        <strong>Interface constraints</strong> are requirements to interact with external systems, describing protocols or
+        the nature of the information that is passed across that interface.
+    </li>
+    <li>
+        <strong>Physical constraints</strong> affect the hardware or packaging housing the system (shape, size, and
+        weight).
+    </li>
+    <li>
+        <strong>Business rules</strong> are policies or decisions that govern how the business operates. They may constrain
+        the steps described in the us-case flow.
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

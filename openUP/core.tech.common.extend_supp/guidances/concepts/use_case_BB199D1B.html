@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>概念：Use Case</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="use_case">
+<meta name="uma.presentationName" content="Use Case">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_KudM0NcJEdqz_d2XWoVt6Q"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">概念：Use Case</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">A use case describes what the system must do to provide value to the stakeholders.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">关系</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html" guid="_4BJ_YCxSEdqjsdw1QLH_6Q">Detail Use Cases and Scenarios</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html" guid="_0VGbUMlgEdmt3adZL5Dmdw">Use Case</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html" guid="_W2SgEDR5EdutE_HNDTJk5Q">Use-Case Model</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">主要描述</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Overview
+</h3>
+<p>
+    A use case describes the interactions between one of more&nbsp;<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html" guid="_zGqO0MDpEduTGJ8i4u8TMw">Actor</a>s and the system in order to provide an observable result of value for the
+    initiating actor.
+</p>
+<p>
+    The functionality of a system is defined by different use cases, each of which represents a specific goal (to obtain
+    the observable result of value) for a particular actor.
+</p>
+<p>
+    In an automated teller machine shown in Figure 1, the Bank Customer can withdraw cash from an account, transfer funds
+    between accounts, or deposit funds to an account. These correspond to specific goals that the actor has in using the
+    system.&nbsp;
+</p><br />
+<p>
+    <img height="321" alt="Figure 1: ATM Use-Case Example" src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/fig1_atm_ex.gif" width="456" />
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+        <p>
+            Figure 1: ATM Use-Case Example
+        </p>
+    </blockquote>
+</blockquote>
+<p>
+    Each use case is associated with a goal of one of the actors. The collection of use cases constitutes all the possible
+    ways of using the system. You should be able to determine the goal of a use case simply by observing its name.
+</p>
+<p>
+    A use case describes the interactions between the actor(s) and the system in the form of a dialog between the actor(s)
+    and the system, structured as follows:
+</p>
+<ol>
+    <li>
+        The actor &lt;&lt;does something&gt;&gt;
+    </li>
+    <li>
+        The system &lt;&lt;does something in response&gt;&gt;
+    </li>
+    <li>
+        The actor &lt;&lt;does something else&gt;&gt;
+    </li>
+    <li>
+        The system ...
+    </li>
+</ol>
+<p>
+    Each dialog of this form is called a "Flow of Events".
+</p>
+<p>
+    Because there are many flows of events possible for achieving the goal (for example, the flow may differ depending upon
+    specific input from the actor), and there are situations in which the goal cannot be achieved (for example, a required
+    network connection is currently unavailable), each use case will contain several flows, including one "Basic Flow of
+    Events" and several "Alternative Flows".
+</p>
+<p>
+    The Basic Flow of Events specifies the interactions between the actor(s) and the system for the ideal case, where
+    everything goes as planned, and the actor's goal (the observable result of value) is met. The basic flow represents the
+    main capability provided by the system for this use case.
+</p>
+<p>
+    As the name implies, Alternative Flows specify alternative interactions associated with the same goal.
+</p>
+<p>
+    Closely related to use cases is the concept of a scenario. A scenario is a <em><strong>specific</strong></em> flow of
+    events, for a <em><strong>specific</strong></em> set of inputs to the system, states of the system, and states of the
+    system's environment. Scenarios are closely related to test cases.
+</p>
+<h3>
+    Properties of Use Cases
+</h3>
+<h4>
+    <a id="Name" name="Name">Name</a>
+</h4>
+<p>
+    Each use case should have a name that indicates what is achieved by its interaction with the actors. The name may have
+    to be several words to be understood. Note: No two use cases can have the same name.
+</p>
+<h4>
+    <a id="Brief Description" name="Brief Description">Brief Description</a>
+</h4>
+<p>
+    The brief description of the use case should reflect its purpose.
+</p>
+<h4>
+    Flow of Events
+</h4>
+<h5>
+    <a id="Flow of Events - Contents" name="Flow of Events - Contents">Flow of Events - Contents</a>
+</h5>
+<p>
+    The flow of events should describe the use case's flow of events clearly enough for an outsider to easily understand.
+    Remember, the flow of events should represent <em>what</em> the system does, not <em>how</em> the system is design to
+    perform the required behavior.
+</p>
+<p>
+    Follow these guidelines for the contents of the flow of events:
+</p>
+<ul>
+    <li>
+        Describe how the use case starts and ends.
+    </li>
+    <li>
+        Describe what data is exchanged between the actor and the use case.
+    </li>
+    <li>
+        Do not describe the details of the user interface, unless it is necessary to understand the behavior of the
+        system.&nbsp;Specifying user interface details too early will limit design options.&nbsp;
+    </li>
+    <li>
+        Describe the flow of events, not only the functionality. To enforce this, start every action with "When the actor
+        ... ".
+    </li>
+    <li>
+        Describe only the events that belong to the use case, and not what happens in other use cases or outside of the
+        system.
+    </li>
+    <li>
+        Avoid vague terminology.
+    </li>
+    <li>
+        Detail the flow of events. Specify what happens when, for each action. Remember this text will be used to identify
+        test cases.
+    </li>
+</ul>
+<p>
+    If you have used certain terms in other use cases, be sure to use the exact same terms in this use case, and
+    that&nbsp;the meaning of the terms is consistent. To manage common terms, put them in a glossary.
+</p>
+<h5>
+    <a id="Flow of Events - Structure" name="Flow of Events - Structure">Flow of Events - Structure</a>
+</h5>
+<p>
+    The two main parts of the flow of events are <b>basic flow of events</b> and <b>alternative flows of events</b>. The
+    basic flow of events should cover what "normally" happens when the use case is performed. The alternative flows of
+    events cover behavior of optional or exceptional character in relation to the normal behavior, and also variations of
+    the normal behavior. You can think of the alternative flows of events as detours from the basic flow of events, some of
+    which will return to the basic flow of events and some of which will end the execution of the use case.
+</p>
+<p>
+    The straight arrow in Figure 2 represents the basic flow of events, and the curves represent alternative paths in
+    relation to the normal. Some alternative paths return to the basic flow of events, whereas others end the use case.
+</p>
+<p>
+    <img height="212" alt="Diagram described in caption." src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/ucstrct.gif" width="231" />&nbsp;
+</p>
+<p>
+    Figure 2: Typical structure of a use case flow of events
+</p>
+<p class="picturetext">
+    Both the basic and alternative flows should be further structured into steps or sub-flows. In doing this, your main
+    goal should be readability of the text. A&nbsp;guideline is that a sub-flow should be a segment of behavior within the
+    use case that has a clear purpose, and is "atomic" in the sense that you do either all or none of the actions
+    described.
+</p>
+<h4 class="picturetext">
+    <a id="Special Requirements" name="Special Requirements">Special Requirements</a>
+</h4>
+<p>
+    In the Special Requirements of a use case, you describe all the requirements associated with&nbsp;the use case that are
+    not covered by the flow of events. These are non-functional requirements that will influence the design. See also the
+    discussion on non-functional requirements in <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/requirements_8006414F.html" guid="_0Wh-sMlgEdmt3adZL5Dmdw">Concept：Requirements</a>.
+</p>
+<h4>
+    <a id="preconditions and Postconditions" name="preconditions and Postconditions">Preconditions and Post-conditions</a>
+</h4>
+<p>
+    A <strong>precondition</strong> is the state of the system and its&nbsp;environment that is required before the use
+    case can be started.&nbsp;Post-Conditions are&nbsp;the states the system can be in after the use case has ended. It can
+    be&nbsp;helpful to use the&nbsp;concepts of <b>precondition</b> and <b>post-condition</b> to clarify how the flow of
+    events starts and ends. However, only use them only if the audience for the description of the use case agrees that it
+    is helpful. Figure 3 shows an example.
+</p>
+<p>
+    <img height="278" alt="Diagram described in caption." src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/ucprepst.gif" width="344" />
+</p><br class="picturetext" />
+<br />
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+        <blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+            <p>
+                Figure 3: Illustration of preconditions and resulting post-conditions
+            </p>
+        </blockquote>
+    </blockquote>
+</blockquote>
+<p class="exampleheading" dir="ltr">
+    Examples
+</p>
+<p class="example" dir="ltr">
+    <strong>A precondition for the use case Cash Withdrawal in the ATM machine:</strong> The customer has a personally
+    issued card that fits in the card reader, has been issued a PIN number, and is registered with the banking system.
+</p>
+<p class="example" dir="ltr" style="MARGIN-RIGHT: 0px">
+    <strong>A post-condition for the use case Cash Withdrawal in the ATM machine:</strong> At the end of the use case, all
+    account and transaction logs are balanced, communication with the banking system is reinitialized and the card is
+    returned to the customer.
+</p><p/><h3>
+    <a id="Use-Case Diagrams" name="Use-Case Diagrams">Use-Case Diagrams</a>
+</h3>
+<p>
+    You may choose to illustrate how a use case relates to actors and other use cases in a use-case diagram (in unusual
+    cases, more than one diagram). This is useful if the use case is involved with many actors, or has relationships to
+    many other use cases. A diagram of this kind is of "local" character, since it shows the use-case model from the
+    perspective of one use case only and is not intended to explain any general facts about the whole use-case model. Refer
+    to&nbsp;<a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/use_case_model_4C64E97D.html" guid="_0VAUsMlgEdmt3adZL5Dmdw">Guideline：Use-Case Model</a> for more information.<br />
+</p><p/><h3>
+    Specifying Use Cases
+</h3>
+<h4>
+    <a id="How to Find Use Cases" name="How to Find Use Cases">How to Find Use Cases</a>
+</h4>
+<p>
+    See the&nbsp;<a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html" guid="_eyL0wCu-EdqSxKAVa9kmvA">Guideline：Identify and Outline Actors and Use Cases</a>&nbsp;for guidance on finding
+    Actors and Use Cases.
+</p>
+<h4>
+    <a id="How a Use Case Evolves" name="How a Use Case Evolves">How a Use Case Evolves</a>
+</h4>
+<p>
+    See the <a class="elementLinkWithType" href="./../../../practice.tech.use_case_driven_dev.base/guidances/guidelines/detail_ucs_and_scenarios_6BC56BB7.html" guid="_4BJ_YCxSEdqjsdw1QLH_6Q">Guideline：Detail Use Cases and Scenarios</a>&nbsp;for guidance on evolving use cases.
+</p>
+<h4>
+    Level of detail necessary in use cases&nbsp;
+</h4>
+<p>
+    There will often be use cases in your model that are so simple that they do not need a detailed description of the flow
+    of events, a step-by-step outline is quite enough. The criteria for making this decision is that you don't see
+    disagreement among user kind of readers on what the use case means, and that designers and testers are comfortable with
+    the level of detail provided by the step-by-step format. Examples are use cases that describe simple entry or retrieval
+    of some data from the system.
+</p>
+<h4>
+    <a id="The Scope of a Use Case" name="The Scope of a Use Case">The Scope of a Use Case</a>
+</h4>
+<p>
+    It is often hard to decide if a set of user-system interactions, or dialog, is one or several use cases. Consider the
+    use of a recycling machine. The customer inserts deposit items, such as cans, bottles, and crates, into the recycling
+    machine. When she has inserted all her deposit items, she presses a button, and a receipt is printed. She can then
+    exchange this receipt for money.
+</p>
+<p>
+    Is it one use case to insert a deposit item, and another use case to require the receipt? Or is it all one use case?
+    There are two actions, but one without the other is of little value to the customer. Rather, it is the complete dialog
+    with all the insertions, and getting the receipt, that is of value for the customer (and makes sense to her). Thus, the
+    complete dialog, from inserting the first deposit item, to pressing the button and getting the receipt, is a complete
+    case of use, a use case.
+</p>
+<p>
+    Additionally, you want to keep the two actions together, to be able to review them at the same time, modify them
+    together, test them together, write manuals for them and in general manage them as a unit. This becomes very obvious in
+    larger systems.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">更多信息</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">概念</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html" guid="_zGqO0MDpEduTGJ8i4u8TMw">Actor</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/requirements_8006414F.html" guid="_0Wh-sMlgEdmt3adZL5Dmdw">Requirements</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p><p/><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+Copyright &copy; 2013<span class="Apple-converted-space">&nbsp;</span></span><a style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,51,153); WORD-SPACING: 0px; TEXT-DECORATION: none; -webkit-text-stroke-width: 0px" href="http://fasiondog.github.io/epf_CN/" target="_blank">Chinese-epf.</a><span style="TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(112,128,176); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space">&nbsp;</span>All rights reserved.</span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>
