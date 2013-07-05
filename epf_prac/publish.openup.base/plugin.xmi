@@ -146,7 +146,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jd1tQMn9EdyuBO4ZIzcyig" name="who_should_use_openup" guid="_jd1tQMn9EdyuBO4ZIzcyig" presentationName="Who Should Use OpenUP" briefDescription="This supporting material explains who should use OpenUP.">
             <presentation xmi:id="-gIuZFV8-iU-9QVhpmPUtWw" href="uma://-gIuZFV8-iU-9QVhpmPUtWw#-gIuZFV8-iU-9QVhpmPUtWw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Q2ErcMn-EdyuBO4ZIzcyig" name="openup_roadmap" guid="_Q2ErcMn-EdyuBO4ZIzcyig" presentationName="OpenUP Roadmap" briefDescription="This roadmap presents an overview of OpenUP, its purpose, and its lifecycle.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Q2ErcMn-EdyuBO4ZIzcyig" name="openup_roadmap" guid="_Q2ErcMn-EdyuBO4ZIzcyig" presentationName="OpenUP 指引" briefDescription="本指引对OpenUP及其目标和生命周期进行简单的介绍。">
+            <methodElementProperty xmi:id="_YmalIOWYEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="-APgHPRv2KxEoFdcbHUli5w" href="uma://-APgHPRv2KxEoFdcbHUli5w#-APgHPRv2KxEoFdcbHUli5w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ssG6MMvpEdqukPpotm3DYg" name="core_principle_balance" guid="_ssG6MMvpEdqukPpotm3DYg" presentationName="Balance competing priorities to maximize stakeholder value" briefDescription="Develop a solution that maximizes stakeholder benefits and complies with constraints  placed on the project.">

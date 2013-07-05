@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9K7zP7ekEd-D7YZN9NgldQ" guid="_9K7zP7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-kyiEbekEd-D7YZN9NgldQ" id="_x459k9nmEdmO6L4XMImrsA" uri="guidances/termdefinitions/task.xmi"/>
     <resourceDescriptors xmi:id="_-k7sALekEd-D7YZN9NgldQ" id="_x7cUNNnmEdmO6L4XMImrsA" uri="guidances/termdefinitions/artifact.xmi"/>
@@ -59,7 +59,7 @@
     <resourceDescriptors xmi:id="_-sFc4bekEd-D7YZN9NgldQ" id="-eZLnHptq-FYlpV-K31FTGg" uri="guidances/supportingmaterials/resources_for_contributing_to_epf.xmi"/>
     <resourceDescriptors xmi:id="_-sPN4LekEd-D7YZN9NgldQ" id="-xL8v-tHFI6eyHLEaZ4rblA" uri="guidances/concepts/basic_process_concepts.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_WCUhAO8KEdmKSqa_gSYthg" name="core.default.uma_concept.base" guid="_WCUhAO8KEdmKSqa_gSYthg" presentationName="Default UMA Concepts" briefDescription="This plug-in describes basic concepts that help a reader to understand and navigate a published process." authors="IBM Rational" changeDate="2008-01-30T09:28:56.000-0800" changeDescription="This plug-in was base_concepts.|Simplified to just contain term definitions related to UMA." version="1.0.1">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_WCUhAO8KEdmKSqa_gSYthg" name="core.default.uma_concept.base" guid="_WCUhAO8KEdmKSqa_gSYthg" presentationName="Default UMA Concepts" briefDescription="This plug-in describes basic concepts that help a reader to understand and navigate a published process." authors="IBM Rational" changeDate="2008-01-31T01:28:56.000+0800" changeDescription="This plug-in was base_concepts.|Simplified to just contain term definitions related to UMA." version="1.0.1">
     <methodElementProperty xmi:id="_-gnMtrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K7zMLekEd-D7YZN9NgldQ" name="Content" guid="_9K7zMLekEd-D7YZN9NgldQ">
@@ -78,10 +78,12 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9K7zO7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9K7zO7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_eNnSAO8LEdmKSqa_gSYthg" name="uma_end-user_glossary_definitions" guid="_eNnSAO8LEdmKSqa_gSYthg" presentationName="UMA end-user glossary definitions" briefDescription="This content package includes concepts and other general guidance related to UMA &#xD;&#xA;and related tooling.">
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_x459ktnmEdmO6L4XMImrsA" name="task" guid="_x459ktnmEdmO6L4XMImrsA" presentationName="task">
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_x459ktnmEdmO6L4XMImrsA" name="task" guid="_x459ktnmEdmO6L4XMImrsA" presentationName="任务（Task）">
+            <methodElementProperty xmi:id="_NDhe0OWaEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="_x459k9nmEdmO6L4XMImrsA" href="uma://_x459k9nmEdmO6L4XMImrsA#_x459k9nmEdmO6L4XMImrsA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_x7cUM9nmEdmO6L4XMImrsA" name="artifact" guid="_x7cUM9nmEdmO6L4XMImrsA" presentationName="artifact">
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_x7cUM9nmEdmO6L4XMImrsA" name="artifact" guid="_x7cUM9nmEdmO6L4XMImrsA" presentationName="工件（Artifact）">
+            <methodElementProperty xmi:id="_PIMFQOWaEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="_x7cUNNnmEdmO6L4XMImrsA" href="uma://_x7cUNNnmEdmO6L4XMImrsA#_x7cUNNnmEdmO6L4XMImrsA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_yFbWoNnmEdmO6L4XMImrsA" name="deliverable" guid="_yFbWoNnmEdmO6L4XMImrsA" presentationName="deliverable">
@@ -102,7 +104,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_ycE8HNnmEdmO6L4XMImrsA" name="activity_detail_diagram" guid="_ycE8HNnmEdmO6L4XMImrsA" presentationName="activity detail diagram">
             <presentation xmi:id="_ycE8HdnmEdmO6L4XMImrsA" href="uma://_ycE8HdnmEdmO6L4XMImrsA#_ycE8HdnmEdmO6L4XMImrsA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_yUefQNnmEdmO6L4XMImrsA" name="role" guid="_yUefQNnmEdmO6L4XMImrsA" presentationName="role">
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_yUefQNnmEdmO6L4XMImrsA" name="role" guid="_yUefQNnmEdmO6L4XMImrsA" presentationName="角色（Role）">
+            <methodElementProperty xmi:id="_JL9-cOWaEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="_yUefQdnmEdmO6L4XMImrsA" href="uma://_yUefQdnmEdmO6L4XMImrsA#_yUefQdnmEdmO6L4XMImrsA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_yYy-mdnmEdmO6L4XMImrsA" name="tool_mentor" guid="_yYy-mdnmEdmO6L4XMImrsA" presentationName="tool mentor">
@@ -132,7 +135,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_95LCoB_QEdq6CKKKq4D7YA" name="breakdown_structure" guid="_95LCoB_QEdq6CKKKq4D7YA" presentationName="breakdown structure">
             <presentation xmi:id="-dpUlq7kJXlJBUjvh7lHW7Q" href="uma://-dpUlq7kJXlJBUjvh7lHW7Q#-dpUlq7kJXlJBUjvh7lHW7Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_H4JXwB_SEdq6CKKKq4D7YA" name="work_product" guid="_H4JXwB_SEdq6CKKKq4D7YA" presentationName="work product">
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_H4JXwB_SEdq6CKKKq4D7YA" name="work_product" guid="_H4JXwB_SEdq6CKKKq4D7YA" presentationName="工作产品（Work Product）">
+            <methodElementProperty xmi:id="_Wrun0OWdEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="-dcYwPivhczonAxeyXweyIQ" href="uma://-dcYwPivhczonAxeyXweyIQ#-dcYwPivhczonAxeyXweyIQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_BqZloB_eEdqAHrsQ7-jSbw" name="step" guid="_BqZloB_eEdqAHrsQ7-jSbw" presentationName="step">
