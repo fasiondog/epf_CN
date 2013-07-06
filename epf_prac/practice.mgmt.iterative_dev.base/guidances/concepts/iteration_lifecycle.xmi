@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" name="new_concept,_DI_tICNaEdyCq8v2ZO4QcA" guid="-5xbLr54QjpynnPU8ZJ3_fw" changeDate="2008-09-30T01:18:11.000-0700" version="7.5.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" name="new_concept,_DI_tICNaEdyCq8v2ZO4QcA" guid="-5xbLr54QjpynnPU8ZJ3_fw" changeDate="2013-07-07T00:03:26.829+0800" version="7.5.0">
   <mainDescription>&lt;p>&#xD;
-    Iterations&amp;nbsp;keep the team focused on delivering incremental customer value every few weeks by delivering a fully&#xD;
-    tested, demonstrable or shippable build (product increment). This creates a healthy focus on ensuring that whatever is&#xD;
-    worked on is of value to the stakeholders. Decision making must happen faster than in a process without iterations,&#xD;
-    because there is no time for endless debate. Iterative development focuses on producing working code, reducing the risk&#xD;
-    of analysis-paralysis. Frequent demonstration of working code provides feedback mechanisms that allow course&#xD;
-    corrections to be taken as needed.&#xD;
+    迭代使团队聚焦于每隔几周通过提交充分测试的、可演示或可交付的Build（产品增量）来交付递增的客户价值。这创建了一个健康的关注点，关注于保证所做的工作都是利益相关人需要的价值。必须比在一个没有迭代的过程中更快的进行决策，因为没有时间进行无休止的争论。迭代开发关注生产工作的代码，减少分析瘫痪的风险。频繁的展示工作代码提供了反馈机制，该机制允许在需要的时候进行纠正活动。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Iteration planning, estimation, and progress tracking are centered on work items. The iteration plan is created by&#xD;
-    selecting the top-priority work items. Agile estimation techniques are used to understand how many work items can&#xD;
-    safely fit within the time-boxed iteration, and work items are filtered to ensure that the chosen work items will allow&#xD;
-    the team to deliver upon iteration objectives agreed to by stakeholders. Progress is demonstrated through continuous&#xD;
-    completion of many small work items (see &lt;a class=&quot;elementLink&quot;&#xD;
+    迭代计划、估算和进度跟踪被集中的工作项里。通过选定高优先级的工作项创建迭代计划。敏捷估算技术有助于理解在固定时间周期的时间盒迭代中可以完成多少合适的工作项，以及过滤工作项确保所选的工作项允许团队交付经利益相关人同意的迭代目标。通过持续的完成许多小的工作项以展示进展（参见：&lt;a&#xD;
+     class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../../practice.mgmt.iterative_dev.base/guidances/concepts/micro_increments_C8773066.html&quot;&#xD;
-    guid=&quot;_S80VwCNbEdyCq8v2ZO4QcA&quot;>Micro-Increments&lt;/a>).&#xD;
+    guid=&quot;_S80VwCNbEdyCq8v2ZO4QcA&quot;>微增量&lt;/a>）。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Just as a project goes through a lifecycle, iterations go through a lifecycle with a different focus for the team,&#xD;
-    depending on whether you are in the first or the last week of the iteration (see Figure 1 below). An iteration starts&#xD;
-    with an iteration planning meeting that is a few hours long. The initial one or two days are typically focused on&#xD;
-    further planning and architecture to, among other things, understand the dependencies and logical ordering of work&#xD;
-    items, and the architectural impacts of the work to be done. Most of the time during an iteration is spent on executing&#xD;
-    the micro increments. Each micro increment should deliver tested code to a build, as well as validated artifacts. To&#xD;
-    give additional discipline, stable builds are produced at the end of each week. More attention is spent on these builds&#xD;
-    to make sure that the quality is not eroding, and issues are dealt with early so that the success of the iteration&#xD;
-    isn't jeopardized. The last week or last few days of the iteration typically have a stronger emphasis on polishing and&#xD;
-    bug fixing than earlier weeks, even though new features are added as appropriate. The goal is to never let quality&#xD;
-    erode, thus ensuring&amp;nbsp;that a high-quality useful product increment is produced at the end of the iteration. The&#xD;
-    iteration ends with an assessment (with stakeholders) of what was built, and a retrospective to understand how to&#xD;
-    improve the process for next iteration.&#xD;
+    正如项目经历生命周期，迭代生命周期在不同时间对团队有不同的关注点，依赖于你在迭代的起点还是终点（如下图1所示）。每次迭代通过一个花费数小时时间的迭代计划会议启动。初始的1天或2天通常聚焦于进一步计划和架构等诸如此类的事，理解工作项之间的依赖关系和逻辑顺序，以及工作完成时的架构效果。迭代中的大部分时间花费在执行微增量上。每个微增量需要在一个Build中交付经过测试代码，或经过确认的工件。作为额外的规定，在每周周末产生稳定的Build。花费更多的注意力在这些Build上，以保证质量没有被损坏。尽早的处理问题以保证没有危及到迭代的成功。相对于早期的几周，在迭代的最后一周或最后几天里通常更着重于完善和修复缺陷，即便被加入适当的新特性。我们的目标是永远不要让质量受到侵害，这保证了在每次迭代结束时产生高质量有用的产品增量。迭代在（由利益相关人）评估构建和回顾如何改进下一次迭代中结束。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    &lt;b>Figure 1. An iteration goes through a lifecycle with a stronger focus on planning and architecture early on, and a&#xD;
-    stronger focus on bug fixing and stabilization toward the end.&lt;/b>&#xD;
+    &lt;b>图1. 一个生命周期的一个迭代，该迭代更加关注于在早期进行计划和架构，更加关注于缺陷修复和稳定的到达终点。&lt;/b>&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     &lt;img&#xD;
     alt=&quot;Picture shows an iteration that starts with a planning meeting, has stable weekly builds, and ends with an iteration review.&quot;&#xD;
-     src=&quot;resources/iteration_lifecycle.jpg&quot; />&#xD;
-&lt;/p>&lt;br />&#xD;
+     src=&quot;./resources/iteration_lifecycle.jpg&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;br />&#xD;
 &lt;br /></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

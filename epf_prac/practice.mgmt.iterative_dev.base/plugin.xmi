@@ -104,7 +104,8 @@
             <methodElementProperty xmi:id="___SA4OMyEeKv3olp3YBXdQ" name="me_edited" value="true"/>
             <presentation xmi:id="-5xbLr54QjpynnPU8ZJ3_fw" href="uma://-5xbLr54QjpynnPU8ZJ3_fw#-5xbLr54QjpynnPU8ZJ3_fw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_S80VwCNbEdyCq8v2ZO4QcA" name="micro_increments" guid="_S80VwCNbEdyCq8v2ZO4QcA" presentationName="Micro-Increments" briefDescription="A micro-increment is a small, measurable step towards reaching the goals of an iteration. A micro-increment represents the outcome of a few hours to a few days of work performed by one person (or typically a few people collaborating) to reach a goal.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_S80VwCNbEdyCq8v2ZO4QcA" name="micro_increments" guid="_S80VwCNbEdyCq8v2ZO4QcA" presentationName="微增量" briefDescription="微增量（Micro-Increments）是一个达成迭代目标的小的、可度量的步骤。微增量代表了为实现一个目标而由一个人(或几个人合作)几小时到几天的工作成果。">
+            <methodElementProperty xmi:id="_YehFwOY6EeKRIbpGK467Bg" name="me_edited" value="true"/>
             <presentation xmi:id="-vysTxqikgsqd3pYIkSofjg" href="uma://-vysTxqikgsqd3pYIkSofjg#-vysTxqikgsqd3pYIkSofjg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2PfbIA4QEdy2q5zsU8WDnA" name="retrospective" guid="_2PfbIA4QEdy2q5zsU8WDnA" presentationName="Retrospective" briefDescription="Retrospectives provide a way for monitoring the health of a project and helping the team learn from lessons.">

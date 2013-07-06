@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9dHIULekEd-D7YZN9NgldQ" guid="_9dHIULekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__DoaMLekEd-D7YZN9NgldQ" id="-PZv-hK8T1VJ10ii7iZn85Q" uri="guidances/supportingmaterials/release_info_whole_team.xmi"/>
     <resourceDescriptors xmi:id="__DoaMbekEd-D7YZN9NgldQ" id="-zqsjK1qfcSGuOsNO5K7UhA" uri="guidances/guidelines/daily_meetings.xmi"/>
@@ -10,7 +10,7 @@
     <resourceDescriptors xmi:id="__Eq8ALekEd-D7YZN9NgldQ" id="-pXI3ZcdGOOyWtDdzIg2E7w" uri="guidances/concepts/whole_team.xmi"/>
     <resourceDescriptors xmi:id="__Eq8AbekEd-D7YZN9NgldQ" id="-3Poew8AinbZvOYouGiQx6A" uri="guidances/concepts/iteration_lifecycle.contribute.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_40sbAJ6YEdyQN-zRFaRrCQ" name="practice.mgmt.whole_team.base" guid="_40sbAJ6YEdyQN-zRFaRrCQ" presentationName="Whole Team" briefDescription="Organize the team and work assignments through a collaborative approach." changeDate="2009-08-07T02:34:29.000-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_40sbAJ6YEdyQN-zRFaRrCQ" name="practice.mgmt.whole_team.base" guid="_40sbAJ6YEdyQN-zRFaRrCQ" presentationName="Whole Team" briefDescription="Organize the team and work assignments through a collaborative approach." changeDate="2009-08-07T17:34:29.000+0800">
     <methodElementProperty xmi:id="_-gnMzLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9c9XULekEd-D7YZN9NgldQ" name="Content" guid="_9c9XULekEd-D7YZN9NgldQ">
@@ -62,6 +62,7 @@
             <presentation xmi:id="-pXI3ZcdGOOyWtDdzIg2E7w" href="uma://-pXI3ZcdGOOyWtDdzIg2E7w#-pXI3ZcdGOOyWtDdzIg2E7w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_SrioEE9wEd2FdckE7CIizQ" name="iteration_lifecycle.contribute" guid="_SrioEE9wEd2FdckE7CIizQ" variabilityType="contributes">
+            <methodElementProperty xmi:id="_OlgZcOZfEeKRIbpGK467Bg" name="me_edited" value="true"/>
             <presentation xmi:id="-3Poew8AinbZvOYouGiQx6A" href="uma://-3Poew8AinbZvOYouGiQx6A#-3Poew8AinbZvOYouGiQx6A"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_DI_tICNaEdyCq8v2ZO4QcA"/>
           </contentElements>

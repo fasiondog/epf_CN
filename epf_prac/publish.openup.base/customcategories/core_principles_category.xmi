@@ -1,45 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2Exr8xUknR1c7fbnPMMrTw" name="core_principles,_HEu9QBOHEduCNqgZdt_OaA" guid="-2Exr8xUknR1c7fbnPMMrTw" changeDate="2008-01-23T05:10:09.000-0800" version="1.0.0">
-  <mainDescription>&lt;p>
-    OpenUP is based on four mutually supporting core principles.
-&lt;/p>
-&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
-    Balance competing priorities to maximize stakeholder value
-&lt;/h5>
-&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
-    &lt;p>
-        Promote practices that allow project participants and stakeholders to develop a solution that maximizes stakeholder
-        benefits, and is compliant with constraints placed on the project.&lt;br />
-        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_balance_793DD27.html&quot; guid=&quot;_ssG6MMvpEdqukPpotm3DYg&quot;>Balance&lt;/a> core principle for more information.
-    &lt;/p>
-&lt;/blockquote>
-&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
-    Collaborate to align interests and share understanding
-&lt;/h5>
-&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
-    &lt;p>
-        Promote practices that foster a healthy team environment, enable collaboration and develop a shared understanding
-        of the project.&lt;br />
-        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_collaborate_EC5EB51F.html&quot; guid=&quot;_KkTIsMp7EdqC_NfSivunjA&quot;>Collaborate&lt;/a> core principle for more information.
-    &lt;/p>
-&lt;/blockquote>
-&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>
-    Focus on the architecture early to minimize risks and organize development
-&lt;/h5>
-&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
-    &lt;p>
-        Promote practices that allow the team to focus on architecture to minimize risks and organize development.&lt;br />
-        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_focus_346C6FAF.html&quot; guid=&quot;_9gocwMvoEdqukPpotm3DYg&quot;>Focus&lt;/a> core principle for more information.
-    &lt;/p>
-&lt;/blockquote>
-&lt;h5>
-    Evolve to continuously obtain feedback and improve
-&lt;/h5>
-&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>
-    &lt;p>
-        Promote practices that allow the team to get early and continuous feedback from stakeholders, and demonstrate
-        incremental value to them.&lt;br />
-        See &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_evolve_BFD9AEB4.html&quot; guid=&quot;_GXiogMvoEdqukPpotm3DYg&quot;>Evolve&lt;/a> core principle for more information.
-    &lt;/p>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-2Exr8xUknR1c7fbnPMMrTw" name="core_principles,_HEu9QBOHEduCNqgZdt_OaA" guid="-2Exr8xUknR1c7fbnPMMrTw" changeDate="2013-07-06T15:22:40.343+0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    OpenUP基于四个相互支持的核心原则：&#xD;
+&lt;/p>&#xD;
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>&#xD;
+    平衡竞争优先权以最大化利益相关人价值&#xD;
+&lt;/h5>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        促进实践，这些实践允许项目参与者和利益相关人开发一个解决方案，最大化利益相关人利益，并符合项目的约束。&lt;br />&#xD;
+        更多信息参见：&lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_balance_793DD27.html&quot;&#xD;
+        guid=&quot;_ssG6MMvpEdqukPpotm3DYg&quot;>Balance competing priorities to maximize stakeholder value&lt;/a>&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>&#xD;
+    合作从而协调利益和共享理解&#xD;
+&lt;/h5>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        促进实践，这些实践培养一个健康的团队环境，实现协作和发展对项目的共同理解。&lt;br />&#xD;
+        更多信息参见：&lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_collaborate_EC5EB51F.html&quot;&#xD;
+        guid=&quot;_KkTIsMp7EdqC_NfSivunjA&quot;>Collaborate to align interests and share understanding&lt;/a>&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;h5 style=&quot;MARGIN: 12pt 0in 3pt&quot;>&#xD;
+    聚焦于尽早架构以最小化风险和组织发展&#xD;
+&lt;/h5>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        促进实践，这些实践运行团队聚焦于架构以最小化风险和组织发展。&lt;br />&#xD;
+        更多信息参见：&lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_focus_346C6FAF.html&quot;&#xD;
+        guid=&quot;_9gocwMvoEdqukPpotm3DYg&quot;>Focus on the architecture early to minimize risks and organize development&lt;/a>&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;h5>&#xD;
+    演进从而持续的获得反馈和改进&#xD;
+&lt;/h5>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        促进实践，这些实践运行团队尽早、持续的从利益相关人处获得反馈，并向他们展示增量价值。&lt;br />&#xD;
+        更多信息参见：&lt;a class=&quot;elementLink&quot;&#xD;
+        href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_evolve_BFD9AEB4.html&quot;&#xD;
+        guid=&quot;_GXiogMvoEdqukPpotm3DYg&quot;>Evolve to continuously obtain feedback and improve&lt;/a>&#xD;
+    &lt;/p>&#xD;
 &lt;/blockquote></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>
