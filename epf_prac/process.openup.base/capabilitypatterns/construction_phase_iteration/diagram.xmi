@@ -5,25 +5,25 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YwV9YtUBEdylRpA9TBY1SQ" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0AdONEdyqlogshP8l4g"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YwV9Y9UBEdylRpA9TBY1SQ" key="type" value="Activity"/>
     </eAnnotations>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8INUBEdylRpA9TBY1SQ" name="Plan and Manage Iteration" outgoing="_sqrvcNUCEdylRpA9TBY1SQ" incoming="_sKDHkNUCEdylRpA9TBY1SQ">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8INUBEdylRpA9TBY1SQ" name="计划与管理迭代" outgoing="_sqrvcNUCEdylRpA9TBY1SQ" incoming="_sKDHkNUCEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yx-8IdUBEdylRpA9TBY1SQ" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8ItUBEdylRpA9TBY1SQ" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_3s7aYdONEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8I9UBEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8KNUBEdylRpA9TBY1SQ" name="Develop Solution Increment" outgoing="_q4rmUNUCEdylRpA9TBY1SQ" incoming="_qcOT0NUCEdylRpA9TBY1SQ">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8KNUBEdylRpA9TBY1SQ" name="开发解决方案增量" outgoing="_q4rmUNUCEdylRpA9TBY1SQ" incoming="_qcOT0NUCEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yx-8KdUBEdylRpA9TBY1SQ" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8KtUBEdylRpA9TBY1SQ" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_CqFrgdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8K9UBEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8LNUBEdylRpA9TBY1SQ" name="Test Solution" outgoing="_rz_YANUCEdylRpA9TBY1SQ" incoming="_rePKcNUCEdylRpA9TBY1SQ">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8LNUBEdylRpA9TBY1SQ" name="测试解决方案" outgoing="_rz_YANUCEdylRpA9TBY1SQ" incoming="_rePKcNUCEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yx-8LdUBEdylRpA9TBY1SQ" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8LtUBEdylRpA9TBY1SQ" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_HhjJsdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8L9UBEdylRpA9TBY1SQ" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8MNUBEdylRpA9TBY1SQ" name="Ongoing Tasks" outgoing="_toYGwNUCEdylRpA9TBY1SQ" incoming="_tLBcYNUCEdylRpA9TBY1SQ">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_Yx-8MNUBEdylRpA9TBY1SQ" name="其它执行任务" outgoing="_toYGwNUCEdylRpA9TBY1SQ" incoming="_tLBcYNUCEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yx-8MdUBEdylRpA9TBY1SQ" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8MtUBEdylRpA9TBY1SQ" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_GQejYdOOEdyqlogshP8l4g"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yx-8M9UBEdylRpA9TBY1SQ" key="type" value="Activity"/>
@@ -33,13 +33,13 @@
     <node xmi:type="uml:JoinNode" xmi:id="_hGWwoNUCEdylRpA9TBY1SQ" outgoing="_ua5I0NUCEdylRpA9TBY1SQ" incoming="_p7JAANUCEdylRpA9TBY1SQ _q4rmUNUCEdylRpA9TBY1SQ _rz_YANUCEdylRpA9TBY1SQ _sqrvcNUCEdylRpA9TBY1SQ _toYGwNUCEdylRpA9TBY1SQ _ORh2wJlVEeGlkdGl1HQlDA"/>
     <node xmi:type="uml:InitialNode" xmi:id="_nPn08NUCEdylRpA9TBY1SQ" outgoing="_o_1OUNUCEdylRpA9TBY1SQ"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_n3jXoNUCEdylRpA9TBY1SQ" incoming="_ua5I0NUCEdylRpA9TBY1SQ"/>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ujGWIJlUEeGlkdGl1HQlDA" name="Develop Product Documentation and Training" outgoing="_ORh2wJlVEeGlkdGl1HQlDA" incoming="_M0ssYJlVEeGlkdGl1HQlDA">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_ujGWIJlUEeGlkdGl1HQlDA" name="开发产品文档并培训" outgoing="_ORh2wJlVEeGlkdGl1HQlDA" incoming="_M0ssYJlVEeGlkdGl1HQlDA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ujGWIZlUEeGlkdGl1HQlDA" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujGWIplUEeGlkdGl1HQlDA" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_8--9sZigEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ujGWI5lUEeGlkdGl1HQlDA" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_yw_dcplVEeGlkdGl1HQlDA" name="Identify and Refine Requirements" outgoing="_p7JAANUCEdylRpA9TBY1SQ" incoming="_phqJANUCEdylRpA9TBY1SQ">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_yw_dcplVEeGlkdGl1HQlDA" name="识别并细化需求" outgoing="_p7JAANUCEdylRpA9TBY1SQ" incoming="_phqJANUCEdylRpA9TBY1SQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yw_dc5lVEeGlkdGl1HQlDA" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yw_ddJlVEeGlkdGl1HQlDA" key="uri" value="uma://_RQi0ANONEdyqlogshP8l4g#_yw_dcZlVEeGlkdGl1HQlDA"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yw_ddZlVEeGlkdGl1HQlDA" key="type" value="Activity"/>
@@ -216,7 +216,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_rz_YA9UCEdylRpA9TBY1SQ" fontName="Arial" fontHeight="8"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_rz_YBNUCEdylRpA9TBY1SQ" lineColor="0"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rz_YBdUCEdylRpA9TBY1SQ" points="[-7, 25, -91, -36]$[-7, 60, -91, -1]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eAwcMNUDEdylRpA9TBY1SQ" id="(0.536862,0.125)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eAwcMNUDEdylRpA9TBY1SQ" id="(0.3856332703213611,0.875)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_sKDHkdUCEdylRpA9TBY1SQ" type="3001" element="_sKDHkNUCEdylRpA9TBY1SQ" source="_goaQYdUCEdylRpA9TBY1SQ" target="_L-T_4NUCEdylRpA9TBY1SQ">
       <children xmi:type="notation:Node" xmi:id="_sKDHltUCEdylRpA9TBY1SQ" type="4012">

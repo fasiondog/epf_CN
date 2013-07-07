@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9XTbT7ekEd-D7YZN9NgldQ" guid="_9XTbT7ekEd-D7YZN9NgldQ">
     <subManagers xmi:id="__CvCULekEd-D7YZN9NgldQ" href="uma://_SKnAwOL9EdyM47cGD2jiaQ#__CvCULekEd-D7YZN9NgldQ"/>
     <resourceDescriptors xmi:id="__BivgLekEd-D7YZN9NgldQ" id="-sqx8arvFbAtMVoqGeHA_kA" uri="guidances/supportingmaterials/release_info_risk_value_lifecycle.xmi"/>
@@ -24,7 +24,7 @@
     <resourceDescriptors xmi:id="__Cl4YbekEd-D7YZN9NgldQ" id="-3Jpwts4YZlF8GJjQaSINRA" uri="tasks/plan_the_project.additions.xmi"/>
     <resourceDescriptors xmi:id="__Cl4YrekEd-D7YZN9NgldQ" id="_SKnAwOL9EdyM47cGD2jiaQ" uri="capabilitypatterns/risk_value_lifecycle_phases/model.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gXdoL8BEdyWX5Yd-9QZ1A" name="practice.mgmt.risk_value_lifecycle.base" guid="_4gXdoL8BEdyWX5Yd-9QZ1A" presentationName="Risk Value Lifecycle" briefDescription="Align the project around the Unified Process phases of Inception, Elaboration, Construction, and Transition.  Each phase has specific goals that drive the project towards a successful completion." changeDate="2008-02-21T10:48:11.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gXdoL8BEdyWX5Yd-9QZ1A" name="practice.mgmt.risk_value_lifecycle.base" guid="_4gXdoL8BEdyWX5Yd-9QZ1A" presentationName="Risk Value Lifecycle" briefDescription="Align the project around the Unified Process phases of Inception, Elaboration, Construction, and Transition.  Each phase has specific goals that drive the project towards a successful completion." changeDate="2008-02-22T02:48:11.000+0800">
     <methodElementProperty xmi:id="_-gnMyLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9XTbQLekEd-D7YZN9NgldQ" name="Content" guid="_9XTbQLekEd-D7YZN9NgldQ">
@@ -77,7 +77,8 @@
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_nSfVwCNYEdyCq8v2ZO4QcA" name="project_lifecycle" guid="_nSfVwCNYEdyCq8v2ZO4QcA" presentationName="Project Lifecycle" briefDescription="The project lifecycle provides stakeholders and team members with visibility, synchronization points, and decision points throughout the project, thereby enabling oversight and go or no-go decisions at appropriate times." shapeicon="guidances/concepts/resources/concept_dgm32.gif" nodeicon="guidances/concepts/resources/concept_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_nSfVwCNYEdyCq8v2ZO4QcA" name="project_lifecycle" guid="_nSfVwCNYEdyCq8v2ZO4QcA" presentationName="项目生命周期" briefDescription="项目生命周期（Project Liftcycle）为利益相关人和团队成员提供了贯穿项目的可视点、同步点和决策点，从而能够在合适的时间对项目保持监督以及作出“通过或不通过（go or no-go）”的决策。" shapeicon="guidances/concepts/resources/concept_dgm32.gif" nodeicon="guidances/concepts/resources/concept_obj.gif">
+            <methodElementProperty xmi:id="_UaEjAOa1EeKxKPHdq3K7Jw" name="me_edited" value="true"/>
             <presentation xmi:id="-ebKPqn9bWfbh1K2spgOwWQ" href="uma://-ebKPqn9bWfbh1K2spgOwWQ#-ebKPqn9bWfbh1K2spgOwWQ"/>
             <conceptsAndPapers href="#_48EKsBOMEduCNqgZdt_OaA"/>
             <conceptsAndPapers href="#_2plxwBOMEduCNqgZdt_OaA"/>

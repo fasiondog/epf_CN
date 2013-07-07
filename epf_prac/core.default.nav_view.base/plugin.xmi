@@ -33,7 +33,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHYMRdEdyD76CYS6Ta7A" name="getting_started_list" guid="_WCIHYMRdEdyD76CYS6Ta7A" presentationName="开始" briefDescription="该内容提供如何开始使用此配置的指导。" shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif">
             <methodElementProperty xmi:id="_42XuQOJSEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHYsRdEdyD76CYS6Ta7A" name="delivery_process_list" guid="_WCIHYsRdEdyD76CYS6Ta7A" presentationName="交付流程" briefDescription="此处提供发布的交付流程列表。" shapeicon="customcategories/resources/delproc_lg_dgm32.gif" nodeicon="customcategories/resources/delproc_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHYsRdEdyD76CYS6Ta7A" name="delivery_process_list" guid="_WCIHYsRdEdyD76CYS6Ta7A" presentationName="交付过程" briefDescription="此处提供发布的交付过程列表。" shapeicon="customcategories/resources/delproc_lg_dgm32.gif" nodeicon="customcategories/resources/delproc_obj.gif">
             <methodElementProperty xmi:id="_9wohQLekEd-D7YZN9NgldQ" name="include" value="DeliveryProcess"/>
             <methodElementProperty xmi:id="_UjeGcOJeEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
           </contentElements>
