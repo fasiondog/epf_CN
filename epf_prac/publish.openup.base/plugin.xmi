@@ -135,6 +135,7 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bGjA8OFQEdyhmsbt0Xyl8A" name="contributions_to_open_source_practices" guid="_bGjA8OFQEdyhmsbt0Xyl8A" presentationName="Contributions to Open Source Practices">
             <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cxOwQOL0EdyM47cGD2jiaQ" name="risk-value_lifecycle" guid="_cxOwQOL0EdyM47cGD2jiaQ" presentationName="Risk-Value Lifecycle">
               <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_j0leQOL0EdyM47cGD2jiaQ" name="project_lifecycle.additon" guid="_j0leQOL0EdyM47cGD2jiaQ" variabilityType="contributes">
+                <methodElementProperty xmi:id="_qbxBgOcWEeKSAN4LuRCSSw" name="me_edited" value="true"/>
                 <presentation xmi:id="-zuqK2tneGKchXpqLVRtwlg" href="uma://-zuqK2tneGKchXpqLVRtwlg#-zuqK2tneGKchXpqLVRtwlg"/>
                 <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_nSfVwCNYEdyCq8v2ZO4QcA"/>
               </contentElements>
@@ -143,7 +144,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_xKvXkMn8EdyuBO4ZIzcyig" name="minimal_complete_extensible" guid="_xKvXkMn8EdyuBO4ZIzcyig" presentationName="Minimal, Complete, and Extensible" briefDescription="OpenUP is minimal, complete, and extensible. It's the minimum amount of process for a small team. It can be used as-is or extended and customized for specific purposes." shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
             <presentation xmi:id="-AO488Z6M5HCAbxm1c-SjUA" href="uma://-AO488Z6M5HCAbxm1c-SjUA#-AO488Z6M5HCAbxm1c-SjUA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jd1tQMn9EdyuBO4ZIzcyig" name="who_should_use_openup" guid="_jd1tQMn9EdyuBO4ZIzcyig" presentationName="Who Should Use OpenUP" briefDescription="This supporting material explains who should use OpenUP.">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jd1tQMn9EdyuBO4ZIzcyig" name="who_should_use_openup" guid="_jd1tQMn9EdyuBO4ZIzcyig" presentationName="谁应该使用OpenUP" briefDescription="该支持材料解释了“谁应该使用OpenUP”。">
+            <methodElementProperty xmi:id="_cP0NQOcjEeKSAN4LuRCSSw" name="me_edited" value="true"/>
             <presentation xmi:id="-gIuZFV8-iU-9QVhpmPUtWw" href="uma://-gIuZFV8-iU-9QVhpmPUtWw#-gIuZFV8-iU-9QVhpmPUtWw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Q2ErcMn-EdyuBO4ZIzcyig" name="openup_roadmap" guid="_Q2ErcMn-EdyuBO4ZIzcyig" presentationName="OpenUP 指引" briefDescription="本指引对OpenUP及其目标和生命周期进行简单的介绍。">
