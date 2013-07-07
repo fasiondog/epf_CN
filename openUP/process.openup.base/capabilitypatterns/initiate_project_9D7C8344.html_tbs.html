@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Activity：Initiate Project</title>
+<title>Activity：项目初始化</title>
 <meta name="uma.type" content="Activity">
 <meta name="uma.name" content="initiate_project">
-<meta name="uma.presentationName" content="Initiate Project">
+<meta name="uma.presentationName" content="项目初始化">
 <meta name="element_type" content="workflow_detail">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -27,7 +27,7 @@
 <div id="page-guid" value="_nfpeAdOOEdyqlogshP8l4g"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">Activity：Initiate Project</td><td width="100%">
+<td class="pageTitle" nowrap="true">Activity：项目初始化</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -46,7 +46,7 @@
 <td valign="top">Kick off the project and gain agreement with the stakeholders on the scope of the project, and an initial plan for achieving it. This activity bundles tasks required to define the vision and create a project plan.</td>
 </tr>
 <tr>
-<td valign="top">扩展：<a href="./../../process.openup.base/capabilitypatterns/initiate_project_37A47ADB.html" guid="_eWxZgdOEEdyqlogshP8l4g">Initiate Project</a></td>
+<td valign="top">扩展：<a href="./../../process.openup.base/capabilitypatterns/initiate_project_37A47ADB.html" guid="_eWxZgdOEEdyqlogshP8l4g">项目初始化</a></td>
 </tr>
 </table>
 </td>
@@ -81,8 +81,8 @@ columns: [
 ["is_optional", "可选"]],
 rows: [
 
-{id: "979e8440", parentId: "", relPath: ",_RJ8hYeY5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "analyst", title: "Analyst", url: "./../../process.openup.base/capabilitypatterns/analyst_A52B9B95.html", 
+{id: "9afd482f", parentId: "", relPath: ",_9mWLNObCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "tester", title: "测试人员", url: "./../../process.openup.base/capabilitypatterns/tester_D9ADF553.html", 
 	predecessors: "", info: "", type: "角色描述符", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -90,7 +90,52 @@ rows: [
 
 		
 
-{id: "49528c85", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "9fdb1854", parentId: "9afd482f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_case", title: "Test Case", url: "./../../process.openup.base/capabilitypatterns/test_case_A3469F6F.html", 
+	predecessors: "", info: "负责", type: "工件描述符", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "45f2ea27", parentId: "9afd482f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_log", title: "Test Log", url: "./../../process.openup.base/capabilitypatterns/test_log_793F6D78.html", 
+	predecessors: "", info: "负责", type: "工件描述符", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "43fa164a", parentId: "9afd482f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "test_script", title: "Test Script", url: "./../../process.openup.base/capabilitypatterns/test_script_C2AFF156.html", 
+	predecessors: "", info: "负责", type: "工件描述符", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "f2eccfab", parentId: "9afd482f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
+	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "47a70961", parentId: "", relPath: ",_9lfPkebCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "analyst", title: "分析人员", url: "./../../process.openup.base/capabilitypatterns/analyst_C959C800.html", 
+	predecessors: "", info: "", type: "角色描述符", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "ed17bb68", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "glossary", title: "Glossary", url: "./../../process.openup.base/capabilitypatterns/glossary_559BC141.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -99,8 +144,8 @@ rows: [
 
 		
 
-{id: "f41d0acf", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "system_wide_requirements", title: "System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/system_wide_requirements_7FAD939E.html", 
+{id: "a126487a", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "system_wide_requirements", title: "System-Wide Requirements", url: "./../../process.openup.base/capabilitypatterns/system_wide_requirements_D852DAEF.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -108,8 +153,8 @@ rows: [
 
 		
 
-{id: "a2b6f01d", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "use_case", title: "Use Case", url: "./../../process.openup.base/capabilitypatterns/use_case_9F16E585.html", 
+{id: "9f39114c", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case", title: "Use Case", url: "./../../process.openup.base/capabilitypatterns/use_case_70EEC6AB.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -117,8 +162,8 @@ rows: [
 
 		
 
-{id: "9e792850", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "use_case_model", title: "Use-Case Model", url: "./../../process.openup.base/capabilitypatterns/use_case_model_55A661A7.html", 
+{id: "f270f8a4", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "use_case_model", title: "Use-Case Model", url: "./../../process.openup.base/capabilitypatterns/use_case_model_9AF5F8A2.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -126,7 +171,7 @@ rows: [
 
 		
 
-{id: "4263ab8b", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "eeb6c08a", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "vision", title: "Vision", url: "./../../process.openup.base/capabilitypatterns/vision_69999C5F.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -135,7 +180,7 @@ rows: [
 
 		
 
-{id: "9b1d19ea", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "9a137646", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "glossary", title: "Glossary", url: "./../../process.openup.base/capabilitypatterns/glossary_559BC141.html", 
 	predecessors: "", info: "修改", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -144,7 +189,7 @@ rows: [
 
 		
 
-{id: "9bc5c3ef", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "99224cfd", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "vision", title: "Vision", url: "./../../process.openup.base/capabilitypatterns/vision_69999C5F.html", 
 	predecessors: "", info: "修改", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -153,7 +198,7 @@ rows: [
 
 		
 
-{id: "f42d0672", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "f90653bc", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "develop_technical_vision", title: "Develop Technical Vision", url: "./../../process.openup.base/capabilitypatterns/develop_technical_vision_89F6E7DB.html", 
 	predecessors: "", info: "作为拥有者执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -162,7 +207,7 @@ rows: [
 
 		
 
-{id: "470b43b0", parentId: "979e8440", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "9e446f96", parentId: "47a70961", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
 	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -171,8 +216,8 @@ rows: [
 
 		
 
-{id: "9d555449", parentId: "", relPath: ",_RJ8hZOY5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "architect", title: "Architect", url: "./../../process.openup.base/capabilitypatterns/architect_7B24699E.html", 
+{id: "f0178072", parentId: "", relPath: ",_9lfPlObCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "architect", title: "架构师", url: "./../../process.openup.base/capabilitypatterns/architect_9F529609.html", 
 	predecessors: "", info: "", type: "角色描述符", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -180,8 +225,8 @@ rows: [
 
 		
 
-{id: "9b32db5d", parentId: "9d555449", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "architecture_notebook", title: "Architecture Notebook", url: "./../../process.openup.base/capabilitypatterns/architecture_notebook_EA09F916.html", 
+{id: "4b43a5c5", parentId: "f0178072", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "architecture_notebook", title: "Architecture Notebook", url: "./../../process.openup.base/capabilitypatterns/architecture_notebook_DCE07699.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -189,7 +234,7 @@ rows: [
 
 		
 
-{id: "f5ded792", parentId: "9d555449", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "a2bf4797", parentId: "f0178072", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "develop_technical_vision", title: "Develop Technical Vision", url: "./../../process.openup.base/capabilitypatterns/develop_technical_vision_89F6E7DB.html", 
 	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -198,7 +243,7 @@ rows: [
 
 		
 
-{id: "9bbd1361", parentId: "9d555449", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "f9d29b49", parentId: "f0178072", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
 	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -207,8 +252,8 @@ rows: [
 
 		
 
-{id: "a374a895", parentId: "", relPath: ",_RKsIQuY5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "developer", title: "Developer", url: "./../../process.openup.base/capabilitypatterns/developer_127DF1B4.html", 
+{id: "f3ed93d1", parentId: "", relPath: ",_9mWLMebCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "developer", title: "开发人员", url: "./../../process.openup.base/capabilitypatterns/developer_3B5274A.html", 
 	predecessors: "", info: "", type: "角色描述符", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -216,8 +261,8 @@ rows: [
 
 		
 
-{id: "eda670cd", parentId: "a374a895", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "build", title: "Build", url: "./../../process.openup.base/capabilitypatterns/build_9AFE5C9E.html", 
+{id: "4ae12c6b", parentId: "f3ed93d1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "build", title: "Build", url: "./../../process.openup.base/capabilitypatterns/build_33917430.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -225,8 +270,8 @@ rows: [
 
 		
 
-{id: "fbd2ccf3", parentId: "a374a895", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "design", title: "Design", url: "./../../process.openup.base/capabilitypatterns/design_70F72AA7.html", 
+{id: "a03873d2", parentId: "f3ed93d1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "design", title: "Design", url: "./../../process.openup.base/capabilitypatterns/design_98A4239.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -234,8 +279,8 @@ rows: [
 
 		
 
-{id: "41cf4193", parentId: "a374a895", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "developer_test", title: "Developer Test", url: "./../../process.openup.base/capabilitypatterns/developer_test_6CB20828.html", 
+{id: "edb9cbdc", parentId: "f3ed93d1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "developer_test", title: "Developer Test", url: "./../../process.openup.base/capabilitypatterns/developer_test_163DEF36.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -243,8 +288,8 @@ rows: [
 
 		
 
-{id: "f93f6a18", parentId: "a374a895", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "implementation", title: "Implementation", url: "./../../process.openup.base/capabilitypatterns/implementation_E10A5A8F.html", 
+{id: "a2c92302", parentId: "f3ed93d1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "implementation", title: "Implementation", url: "./../../process.openup.base/capabilitypatterns/implementation_D031F145.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -252,7 +297,7 @@ rows: [
 
 		
 
-{id: "94e648b2", parentId: "a374a895", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "487d98bd", parentId: "f3ed93d1", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
 	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -261,8 +306,8 @@ rows: [
 
 		
 
-{id: "f1890c8e", parentId: "", relPath: ",_RJ8hZ-Y5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "project_manager", title: "Project Manager", url: "./../../process.openup.base/capabilitypatterns/project_manager_C494ED7C.html", 
+{id: "f4eb8109", parentId: "", relPath: ",_9lfPmubCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "stakeholder", title: "利益相关人", url: "./../../process.openup.base/capabilitypatterns/stakeholder_5D1B6C4E.html", 
 	predecessors: "", info: "", type: "角色描述符", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -270,8 +315,35 @@ rows: [
 
 		
 
-{id: "41757eaa", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "iteration_plan", title: "Iteration Plan", url: "./../../process.openup.base/capabilitypatterns/iteration_plan_29D7FDF1.html", 
+{id: "fe4a040b", parentId: "f4eb8109", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "develop_technical_vision", title: "Develop Technical Vision", url: "./../../process.openup.base/capabilitypatterns/develop_technical_vision_89F6E7DB.html", 
+	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "eed323dd", parentId: "f4eb8109", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
+	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "f8391282", parentId: "", relPath: ",_9lfPl-bCEeKxKPHdq3K7Jw", isSuppressed: "", indentSize: 0, hasChildren:true, 
+	index: "", prefix: "", name: "project_manager", title: "项目经理", url: "./../../process.openup.base/capabilitypatterns/project_manager_E8C319E7.html", 
+	predecessors: "", info: "", type: "角色描述符", 
+	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "4ac999d3", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "iteration_plan", title: "Iteration Plan", url: "./../../process.openup.base/capabilitypatterns/iteration_plan_F96B1C5A.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -279,7 +351,7 @@ rows: [
 
 		
 
-{id: "9b25b63f", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "4bc955f2", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "project_plan", title: "Project Plan", url: "./../../process.openup.base/capabilitypatterns/project_plan_73DF1826.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -288,8 +360,8 @@ rows: [
 
 		
 
-{id: "ed13cb7f", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "risk_list", title: "Risk List", url: "./../../process.openup.base/capabilitypatterns/risk_list_9B3C18B4.html", 
+{id: "f02478fb", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "risk_list", title: "Risk List", url: "./../../process.openup.base/capabilitypatterns/risk_list_CF63EA63.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -297,8 +369,8 @@ rows: [
 
 		
 
-{id: "3fea333c", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_E4AC9C92.html", 
+{id: "f072d8ec", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "work_items_list", title: "Work Items List", url: "./../../process.openup.base/capabilitypatterns/work_items_list_9CD1FA96.html", 
 	predecessors: "", info: "负责", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -306,7 +378,7 @@ rows: [
 
 		
 
-{id: "9d828580", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "f204b8bd", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "project_plan", title: "Project Plan", url: "./../../process.openup.base/capabilitypatterns/project_plan_73DF1826.html", 
 	predecessors: "", info: "修改", type: "工件描述符", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -315,7 +387,7 @@ rows: [
 
 		
 
-{id: "f0887c74", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "9977b7b8", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
 	predecessors: "", info: "作为拥有者执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -324,80 +396,8 @@ rows: [
 
 		
 
-{id: "9f44d0c7", parentId: "f1890c8e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "ecfc4a1e", parentId: "f8391282", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "develop_technical_vision", title: "Develop Technical Vision", url: "./../../process.openup.base/capabilitypatterns/develop_technical_vision_89F6E7DB.html", 
-	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "4ae9cff9", parentId: "", relPath: ",_RKGSYeY5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "stakeholder", title: "Stakeholder", url: "./../../process.openup.base/capabilitypatterns/stakeholder_65461BD2.html", 
-	predecessors: "", info: "", type: "角色描述符", 
-	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "efefbfce", parentId: "4ae9cff9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "develop_technical_vision", title: "Develop Technical Vision", url: "./../../process.openup.base/capabilitypatterns/develop_technical_vision_89F6E7DB.html", 
-	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "9f0cdf6f", parentId: "4ae9cff9", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
-	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "f03f2e8f", parentId: "", relPath: ",_RKsIReY5EeKRIbpGK467Bg", isSuppressed: "", indentSize: 0, hasChildren:true, 
-	index: "", prefix: "", name: "tester", title: "Tester", url: "./../../process.openup.base/capabilitypatterns/tester_CC71F3C3.html", 
-	predecessors: "", info: "", type: "角色描述符", 
-	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "a5265840", parentId: "f03f2e8f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "test_case", title: "Test Case", url: "./../../process.openup.base/capabilitypatterns/test_case_99AE99DA.html", 
-	predecessors: "", info: "负责", type: "工件描述符", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "94e52f04", parentId: "f03f2e8f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "test_log", title: "Test Log", url: "./../../process.openup.base/capabilitypatterns/test_log_E06EC41.html", 
-	predecessors: "", info: "负责", type: "工件描述符", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "446797f6", parentId: "f03f2e8f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "test_script", title: "Test Script", url: "./../../process.openup.base/capabilitypatterns/test_script_C7FAEE50.html", 
-	predecessors: "", info: "负责", type: "工件描述符", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "44ecf780", parentId: "f03f2e8f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "plan_the_project", title: "Plan Project", url: "./../../process.openup.base/capabilitypatterns/plan_the_project_9D16B97F.html", 
 	predecessors: "", info: "作为其他用户执行", type: "Task Descriptor", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
