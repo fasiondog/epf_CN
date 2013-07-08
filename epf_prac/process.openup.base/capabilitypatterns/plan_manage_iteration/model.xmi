@@ -19,7 +19,7 @@
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_oZgCsNOEEdyqlogshP8l4g" name="plan_manage_iteration" guid="_oZgCsNOEEdyqlogshP8l4g">
     <methodElementProperty xmi:id="_v80H4JigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_o1WpwJoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwJoQEeGnJt_Qpwdfdg">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_o1WpwZoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwZoQEeGnJt_Qpwdfdg" presentationName="Prepare Environment" superActivities="_oZgCsdOEEdyqlogshP8l4g" breakdownElements="_3MJwMZoQEeGnJt_Qpwdfdg _3MJwMpoQEeGnJt_Qpwdfdg _3MJwM5oQEeGnJt_Qpwdfdg _3MJwMJoQEeGnJt_Qpwdfdg _3MJwNJoQEeGnJt_Qpwdfdg _3MJwNpoQEeGnJt_Qpwdfdg">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_o1WpwZoQEeGnJt_Qpwdfdg" name="Prepare Environment" guid="_o1WpwZoQEeGnJt_Qpwdfdg" presentationName="准备项目环境" superActivities="_oZgCsdOEEdyqlogshP8l4g" breakdownElements="_3MJwMZoQEeGnJt_Qpwdfdg _3MJwMpoQEeGnJt_Qpwdfdg _3MJwM5oQEeGnJt_Qpwdfdg _3MJwMJoQEeGnJt_Qpwdfdg _3MJwNJoQEeGnJt_Qpwdfdg _3MJwNpoQEeGnJt_Qpwdfdg">
         <methodElementProperty xmi:id="_qSCDIZoQEeGnJt_Qpwdfdg" name="wbe_GlobalPresentedAfter" value="_y05RQNOJEdyqlogshP8l4g"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3MJwMJoQEeGnJt_Qpwdfdg" name="deploy_process" guid="_3MJwMJoQEeGnJt_Qpwdfdg" presentationName="Deploy the Process" briefDescription="This task describes how to rollout a development process to the project team." superActivities="_o1WpwZoQEeGnJt_Qpwdfdg" mandatoryInput="_3MJwNJoQEeGnJt_Qpwdfdg" output="_3MJwNJoQEeGnJt_Qpwdfdg">

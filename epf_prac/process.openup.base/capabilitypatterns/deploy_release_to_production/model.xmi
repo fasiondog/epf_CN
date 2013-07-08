@@ -103,7 +103,7 @@
       <presentation xmi:id="-gqZXQq4TChMY4CEhzQ3Qgw" href="uma://-zxy4hzFT2yBzt2lUjCwnqA#-gqZXQq4TChMY4CEhzQ3Qgw"/>
       <WorkProduct href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAIH4OB-EeC1y_NExchKwQ"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0GZiLEeGOvpP1fVrVNA" name="deploy_release_to_production" guid="_y7a0GZiLEeGOvpP1fVrVNA" presentationName="部署生产环境" briefDescription="This activity results in the release of a set of integrated components into the production environment." breakdownElements="_y7a0GJiLEeGOvpP1fVrVNA _y7a0IJiLEeGOvpP1fVrVNA _y7a0KZiLEeGOvpP1fVrVNA _y7a0HZiLEeGOvpP1fVrVNA _y7a0JZiLEeGOvpP1fVrVNA _y7a0J5iLEeGOvpP1fVrVNA _y7a0JpiLEeGOvpP1fVrVNA _y7a0I5iLEeGOvpP1fVrVNA _y7a0IpiLEeGOvpP1fVrVNA _y7a0JJiLEeGOvpP1fVrVNA _y7a0H5iLEeGOvpP1fVrVNA">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0GZiLEeGOvpP1fVrVNA" name="deploy_release_to_production" guid="_y7a0GZiLEeGOvpP1fVrVNA" presentationName="部署生产环境" briefDescription="此活动是将一系列发布的集成组件应用到生产环境中。" breakdownElements="_y7a0GJiLEeGOvpP1fVrVNA _y7a0IJiLEeGOvpP1fVrVNA _y7a0KZiLEeGOvpP1fVrVNA _y7a0HZiLEeGOvpP1fVrVNA _y7a0JZiLEeGOvpP1fVrVNA _y7a0J5iLEeGOvpP1fVrVNA _y7a0JpiLEeGOvpP1fVrVNA _y7a0I5iLEeGOvpP1fVrVNA _y7a0IpiLEeGOvpP1fVrVNA _y7a0JJiLEeGOvpP1fVrVNA _y7a0H5iLEeGOvpP1fVrVNA">
       <presentation xmi:id="-9b9XP-r9g-DV7tK4qdy5Hg" href="uma://-zxy4hzFT2yBzt2lUjCwnqA#-9b9XP-r9g-DV7tK4qdy5Hg"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

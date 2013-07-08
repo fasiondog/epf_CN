@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9N6Ov7ekEd-D7YZN9NgldQ" guid="_9N6Ov7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-s-0wLekEd-D7YZN9NgldQ" id="_7ygXoMM3EdmSIPI87WLu3g" uri="guidances/concepts/metrics.xmi"/>
     <resourceDescriptors xmi:id="_-s-0wbekEd-D7YZN9NgldQ" id="-vi8wxwxVZLY0SMPFxZjD7A" uri="guidances/concepts/iteration.xmi"/>
@@ -19,7 +19,7 @@
     <resourceDescriptors xmi:id="_S0J38brSEd-0rKmWr1vEGQ" id="-wBOoiWwZUP1LDeCTqoNMBQ" uri="workproducts/project_defined_process.xmi"/>
     <resourceDescriptors xmi:id="_25AiEbrZEd-0rKmWr1vEGQ" id="-AALyHEAmllXObYA9d6qzfg" uri="guidances/checklists/project_defined_process.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" name="core.mgmt.common.extend_supp" guid="_0TmecJ-VEdy3Nc4rvuj7bA" presentationName="Management Common (Extend-SUPP)" briefDescription="This plug-in defines management work products and guidance that is shared across practices." changeDate="2008-08-14T05:24:52.000-0700" supporting="true">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0TmecJ-VEdy3Nc4rvuj7bA" name="core.mgmt.common.extend_supp" guid="_0TmecJ-VEdy3Nc4rvuj7bA" presentationName="Management Common (Extend-SUPP)" briefDescription="This plug-in defines management work products and guidance that is shared across practices." changeDate="2008-08-14T20:24:52.000+0800" supporting="true">
     <methodElementProperty xmi:id="_-gnMu7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9N6OsLekEd-D7YZN9NgldQ" name="Content" guid="_9N6OsLekEd-D7YZN9NgldQ">
@@ -41,7 +41,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0mYYkMlgEdmt3adZL5Dmdw" name="metrics" guid="_0mYYkMlgEdmt3adZL5Dmdw" presentationName="Metrics" briefDescription="A metric is used to interpret measurements so that team members and stakeholders can know the state of the project.">
             <presentation xmi:id="_7ygXoMM3EdmSIPI87WLu3g" href="uma://_7ygXoMM3EdmSIPI87WLu3g#_7ygXoMM3EdmSIPI87WLu3g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_lam4ADkBEduxovfWMDsntw" name="iteration" guid="_lam4ADkBEduxovfWMDsntw" presentationName="Iteration" briefDescription="An iteration is a set period of time within a project in which you produce a stable, executable version of the product, together with any other supporting documentation, install scripts, or similar, necessary to use this release. Also referred to as a cycle or a timebox.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_lam4ADkBEduxovfWMDsntw" name="iteration" guid="_lam4ADkBEduxovfWMDsntw" presentationName="迭代" briefDescription="An iteration is a set period of time within a project in which you produce a stable, executable version of the product, together with any other supporting documentation, install scripts, or similar, necessary to use this release. Also referred to as a cycle or a timebox.">
+            <methodElementProperty xmi:id="_dwzg0OfREeKUw8zFLOZv2w" name="me_edited" value="true"/>
             <presentation xmi:id="-vi8wxwxVZLY0SMPFxZjD7A" href="uma://-vi8wxwxVZLY0SMPFxZjD7A#-vi8wxwxVZLY0SMPFxZjD7A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0bsLgMlgEdmt3adZL5Dmdw" name="risk" guid="_0bsLgMlgEdmt3adZL5Dmdw" presentationName="Risk" briefDescription="A risk is whatever may stand in the way to success, and is currently unknown or uncertain. Usually, a risk is qualified by the probability of occurrence and the impact in the project, if it occurs.">

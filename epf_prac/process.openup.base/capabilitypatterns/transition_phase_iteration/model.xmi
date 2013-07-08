@@ -62,7 +62,7 @@
         <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_y7a0KpiLEeGOvpP1fVrVNA#_y7a0LJiLEeGOvpP1fVrVNA"/>
       </processElements>
     </childPackages>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_pzQU0dONEdyqlogshP8l4g" name="transition_phase_iteration" guid="_pzQU0dONEdyqlogshP8l4g" presentationName="Transition Phase Iteration" briefDescription="This iteration template defines the activities (and associated roles and work products) performed in a typical iteration in the Transition phase." breakdownElements="_5v_o4dOOEdyqlogshP8l4g _-iix4dOOEdyqlogshP8l4g _AZ58IdOPEdyqlogshP8l4g _ybaHoZlYEeGlkdGl1HQlDA _qRAugZlXEeGlkdGl1HQlDA _tcRJkZlXEeGlkdGl1HQlDA _CoJVUdOPEdyqlogshP8l4g _sL8xMZlXEeGlkdGl1HQlDA">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_pzQU0dONEdyqlogshP8l4g" name="transition_phase_iteration" guid="_pzQU0dONEdyqlogshP8l4g" presentationName="交付阶段迭代" briefDescription="此迭代模板定义了在交付阶段中典型的迭代需要执行的活动（以及相关的角色和工作产品）。" breakdownElements="_5v_o4dOOEdyqlogshP8l4g _-iix4dOOEdyqlogshP8l4g _AZ58IdOPEdyqlogshP8l4g _ybaHoZlYEeGlkdGl1HQlDA _qRAugZlXEeGlkdGl1HQlDA _tcRJkZlXEeGlkdGl1HQlDA _CoJVUdOPEdyqlogshP8l4g _sL8xMZlXEeGlkdGl1HQlDA">
       <methodElementProperty xmi:id="_-aWzsbekEd-D7YZN9NgldQ" name="publish_ad" value="true"/>
       <presentation xmi:id="-ybGHhzGQT4fXY7TTaBPxug" href="uma://-ybGHhzGQT4fXY7TTaBPxug#-ybGHhzGQT4fXY7TTaBPxug"/>
     </process>

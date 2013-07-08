@@ -152,7 +152,7 @@
             <methodElementProperty xmi:id="_YmalIOWYEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="-APgHPRv2KxEoFdcbHUli5w" href="uma://-APgHPRv2KxEoFdcbHUli5w#-APgHPRv2KxEoFdcbHUli5w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ssG6MMvpEdqukPpotm3DYg" name="core_principle_balance" guid="_ssG6MMvpEdqukPpotm3DYg" presentationName="平衡竞争优先权以最大化利益相关人价值" briefDescription="Develop a solution that maximizes stakeholder benefits and complies with constraints  placed on the project.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ssG6MMvpEdqukPpotm3DYg" name="core_principle_balance" guid="_ssG6MMvpEdqukPpotm3DYg" presentationName="平衡竞争优先权以最大化利益相关人价值" briefDescription="开发最大化利益相关人利益并符合项目约束的解决方案。">
             <methodElementProperty xmi:id="_FsProOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-I4IbR1GW6IFBCdq9SiMUsw" href="uma://-I4IbR1GW6IFBCdq9SiMUsw#-I4IbR1GW6IFBCdq9SiMUsw"/>
           </contentElements>

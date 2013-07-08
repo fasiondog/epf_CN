@@ -82,7 +82,7 @@
       <selectedSteps href="uma://-zT8t7LcbcrgIhYd_XUi6DA#_IAJWAeB-EeC1y_NExchKwQ"/>
       <selectedSteps href="uma://-zT8t7LcbcrgIhYd_XUi6DA#_IAJWAOB-EeC1y_NExchKwQ"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0B5iLEeGOvpP1fVrVNA" name="prepare_for_release" guid="_y7a0B5iLEeGOvpP1fVrVNA" presentationName="准备发布" briefDescription="This activity prepares a product for release." breakdownElements="_y7az_piLEeGOvpP1fVrVNA _y7a0ApiLEeGOvpP1fVrVNA _y7az-5iLEeGOvpP1fVrVNA _y7a0AJiLEeGOvpP1fVrVNA _y7a0BpiLEeGOvpP1fVrVNA _y7a0AZiLEeGOvpP1fVrVNA _y7a0A5iLEeGOvpP1fVrVNA _y7a0BJiLEeGOvpP1fVrVNA _y7az_ZiLEeGOvpP1fVrVNA">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0B5iLEeGOvpP1fVrVNA" name="prepare_for_release" guid="_y7a0B5iLEeGOvpP1fVrVNA" presentationName="准备发布" briefDescription="此活动准备产品发布。" breakdownElements="_y7az_piLEeGOvpP1fVrVNA _y7a0ApiLEeGOvpP1fVrVNA _y7az-5iLEeGOvpP1fVrVNA _y7a0AJiLEeGOvpP1fVrVNA _y7a0BpiLEeGOvpP1fVrVNA _y7a0AZiLEeGOvpP1fVrVNA _y7a0A5iLEeGOvpP1fVrVNA _y7a0BJiLEeGOvpP1fVrVNA _y7az_ZiLEeGOvpP1fVrVNA">
       <presentation xmi:id="-eZJOOlVLjwqJ6USAOlOsJQ" href="uma://-PSYszO1VnJHhh76PS4GsoQ#-eZJOOlVLjwqJ6USAOlOsJQ"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

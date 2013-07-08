@@ -83,7 +83,7 @@
       <presentation xmi:id="-81zxeCXkSnPW-ndmULZWlQ" href="uma://-fz8LKMHNt9wb0sZo4mO04w#-81zxeCXkSnPW-ndmULZWlQ"/>
       <WorkProduct href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zeAguB8EeC1y_NExchKwQ"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="开发产品文档并培训" briefDescription="This activity prepares product documentation and training materials." breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_y7a0LJiLEeGOvpP1fVrVNA" name="prep_doc_trng" guid="_y7a0LJiLEeGOvpP1fVrVNA" presentationName="开发产品文档并培训" briefDescription="准备产品文档和培训材料。" breakdownElements="_y7kklJiLEeGOvpP1fVrVNA _y7kkkpiLEeGOvpP1fVrVNA _y7kkkJiLEeGOvpP1fVrVNA _y7kkk5iLEeGOvpP1fVrVNA _y7a0K5iLEeGOvpP1fVrVNA _y7kkkZiLEeGOvpP1fVrVNA _ofI9sJlWEeGlkdGl1HQlDA _ofSHoplWEeGlkdGl1HQlDA">
       <presentation xmi:id="-yeqVyv9laglLKJHLoavEgA" href="uma://-fz8LKMHNt9wb0sZo4mO04w#-yeqVyv9laglLKJHLoavEgA"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

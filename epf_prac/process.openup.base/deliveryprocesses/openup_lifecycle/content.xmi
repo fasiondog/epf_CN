@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dV7s6ZJXratblG37Lbu0mw" name="openup_lifecycle,_SuWj4dOPEdyqlogshP8l4g" guid="-dV7s6ZJXratblG37Lbu0mw" version="7.2.0">
-  <mainDescription>&lt;p>
-    OpenUP is an iterative process with &lt;a class=&quot;elementlinkwithusertext&quot; href=&quot;./../../publish.openup.base/guidances/concepts/core_principle_evolve_BFD9AEB4.html&quot; guid=&quot;_GXiogMvoEdqukPpotm3DYg&quot;>iterations&lt;/a> distributed throughout four phases: &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction&lt;/a>, and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition&lt;/a>.
-&lt;/p>
-&lt;p>
-    Each phase may have as many iterations as needed (depending on the degree of novelty of the business domain, the
-    technology being used, architectural complexity, and project size, to name a few factors).
-&lt;/p>
-&lt;p>
-    To offer a quick start for teams to plan their iterations, OpenUP provides work breakdown structure (WBS) templates for
-    each iteration, and a WBS template for an end-to-end process.
-&lt;/p>
-&lt;p>
-    Iterations may have variable lengths, depending on project characteristics. One-month iterations are typically
-    recommended, because this timeframe provides:
-&lt;/p>
-&lt;ul>
-    &lt;li>
-        A reasonable amount of time for projects to deliver meaningful increments in functionality.
-    &lt;/li>
-    &lt;li>
-        Early and frequent customer feedback.
-    &lt;/li>
-    &lt;li>
-        Timely management of risks and issues during the course of the project.
-    &lt;/li>
-&lt;/ul>
-&lt;p>
-    OpenUP is intended to offer process guidance to small, co-located teams.
+<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dV7s6ZJXratblG37Lbu0mw" name="openup_lifecycle,_SuWj4dOPEdyqlogshP8l4g" guid="-dV7s6ZJXratblG37Lbu0mw" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    OpenUP是一个&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html&quot;&#xD;
+    guid=&quot;_lam4ADkBEduxovfWMDsntw&quot;>Iteration&lt;/a>的过程，迭代分布在四个阶段：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot;&#xD;
+    guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>初始阶段&lt;/a>、&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;&#xD;
+    guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>细化阶段&lt;/a>、&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot;&#xD;
+    guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>构造阶段&lt;/a>、&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot;&#xD;
+    guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>交付阶段&lt;/a>。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    每个阶段根据需要可能有多个迭代（依赖于业务领域的熟悉程度、使用的技术、架构的复杂性、项目规模等等因素）。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    为了团队快速启动计划他们的迭代，OpenUP提供了每个迭代的工作分解结构（WBS）模板，以及一个端到端过程的WBS模板。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    依赖于项目的特定，迭代可能有不同的长度。通常建议迭代周期为一个月，因为这段时间内提供了：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        一个合理的时间以便项目交付有意义的增量功能&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        早期和频繁的客户反馈&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        在项目过程中及时的管理风险和问题&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    OpenUP是为同一地点办公的小型团队提供的过程指南。&#xD;
 &lt;/p></mainDescription>
-  <purpose>&lt;p>
-    This delivery process is intended to:
-&lt;/p>
-&lt;ul>
-    &lt;li>
-        Promote collaboration (both internal and external to the team), to align interests and share understanding
-    &lt;/li>
-    &lt;li>
-        Help the team focus on the architecture early, to minimize risks and organize development
-    &lt;/li>
-    &lt;li>
-        Help the team balance competing priorities to maximize stakeholder value
-    &lt;/li>
-    &lt;li>
-        Help the team evolve the product to continuously obtain feedback and improve
-    &lt;/li>
-    &lt;li>
-        &lt;div id=&quot;comment_text_7&quot;>
-            Allow project managers to track status based on goals
-        &lt;/div>
-    &lt;/li>
-    &lt;li>
-        Allow team members to understand how to perform their work to achieve project goals
-    &lt;/li>
+  <purpose>&lt;p>&#xD;
+    此交付过程的目的是：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        促进协作（包括团队的内部和外部），从而协调利益和共享理解&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        帮助团队尽早开始架构，从而最小化风险并组织开发&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        帮助团队平衡优先权从而使利益相关人价值最大化&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        帮助团队演进产品从而持续的获得反馈和改进&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        让项目经理基于目标跟踪状态&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        让团队成员了解如何执行他们的工作从而达成项目目标&#xD;
+    &lt;/li>&#xD;
 &lt;/ul></purpose>
 </org.eclipse.epf.uma:DeliveryProcessDescription>
