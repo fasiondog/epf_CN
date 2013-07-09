@@ -1,85 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-HTMJFV29MTZkKWqnIo01Gg" name="core_principle_focus,_9gocwMvoEdqukPpotm3DYg" guid="-HTMJFV29MTZkKWqnIo01Gg" authors="Steve Adolph" changeDate="2008-01-23T05:14:28.000-0800" changeDescription="Added first draft of content." version="0.02">
-  <mainDescription>&lt;h3>
-    Introduction
-&lt;/h3>
-&lt;p>
-    The architecture of a software system is the organization or structure of the system's significant components
-    interacting through interfaces, with components composed of successively smaller components and interfaces.
-&lt;/p>
-&lt;p>
-    Without an architectural foundation, a system will evolve in an inefficient and haphazard way. Such a system often
-    proves difficult to extend, reuse, or integrate without substantial rework. It is also difficult to organize the team,
-    or to communicate ideas without the &lt;b>common technical focus&lt;/b> that the architecture provides.
-&lt;/p>
-&lt;p>
-    Focus on the architecture early to minimize risks and organize development.
-&lt;/p>
-&lt;h3>
-    Practices
-&lt;/h3>
-&lt;h4>
-    Create the architecture for what you know today
-&lt;/h4>
-&lt;p>
-    As Albert Einstein said, make everything as simple as possible, but no simpler. Software projects are
-    resource-constrained, and the desire of developers to create elegant solutions may lead to a system of greater
-    complexity than the stakeholder requires. Efforts to future-proof a system in a turbulent or uncertain environment will
-    likely lead to code bloat, which increases overall costs and complexity with few real benefits.
-&lt;/p>
-&lt;p>
-    Create architectures that address the stakeholder's real needs, and provide appropriate flexibility and speed for the
-    requirements as they are known today. Avoid the desire, no matter how well-intentioned, to speculate on future
-    requirements and thereby over-engineer the architecture. There is a distinction between over-architecting and building
-    an architecture that is flexible and extensible. For example, there may not be an apparent reason for creating three
-    architectural layers in a system, but it is probable that the system will grow in ways one can't predict, so we should
-    architect for that.
-&lt;/p>
-&lt;h4>
-    Leverage the architecture as a collaborative tool
-&lt;/h4>
-&lt;p>
-    Lack of a common understanding by developers about a system leads to indecision and contrary opinions among developers,
-    and can quickly paralyze the project. Developers may have different mental models of the system and work at cross
-    purposes to each other.
-&lt;/p>
-&lt;p>
-    Create and evolve the system architecture with the intention of using it to align the developers' competing mental
-    models of the system. A good architecture facilitates collaboration by providing a common vocabulary for all
-    discussions regarding the system under development.
-&lt;/p>
-&lt;h4>
-    Cope with complexity by raising the level of abstraction
-&lt;/h4>
-&lt;p>
-    Software is complex, and people have a limited capacity for coping with complexity. As a system gets larger, it is
-    difficult for the team to develop a common understanding of the system, because it's hard to see the bigger picture.
-&lt;/p>
-&lt;p>
-    Use models to raise the level of abstraction to focus on important high-level decisions, such as relationships and
-    patterns, rather than getting bogged down in details. Modeling raises the level of abstraction, and allows the system
-    to be more easily understood from different perspectives.
-&lt;/p>
-&lt;h4>
-    Organize the architecture into loosely coupled, highly cohesive components
-&lt;/h4>
-&lt;p>
-    Tight coupling between components makes a system fragile and difficult to understand. Software is expensive to create,
-    so if existing components can be reused, that may reduce effort required to create a system.
-&lt;/p>
-&lt;p>
-    Organize the architecture of the system into components to maximize cohesion and minimize coupling. This improves
-    comprehension, and increases flexibility and opportunities for re-use.
-&lt;/p>
-&lt;h4>
-    Reuse existing assets
-&lt;/h4>
-&lt;p>
-    It is wasteful to build what you can simply reuse, download, or even buy.
-&lt;/p>
-&lt;p>
-    Make every effort to reuse existing assets. Developers are often reluctant to reuse assets, because those assets do not
-    exactly meet their needs, or those assets are of poor quality. Be prepared to balance the savings you can realize using
-    an existing asset, even if the asset requires you to make some accommodation in the architecture or relax a constraint.
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HTMJFV29MTZkKWqnIo01Gg" name="core_principle_focus,_9gocwMvoEdqukPpotm3DYg" guid="-HTMJFV29MTZkKWqnIo01Gg" authors="Steve Adolph" changeDate="2013-07-10T00:54:33.542+0800" changeDescription="Added first draft of content." version="0.02">
+  <mainDescription>&lt;h3>&#xD;
+    介绍&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    软件系统架构是系统关键组件的组织结构，这些组件通过接口交互，并由较小的组件和接口依次组合而成。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    没有架构基础，系统将会以低效、偶然的方式演进。这样的系统常常被证明难以扩展、重用，或没有大量返工的进行集成。这对组织团队，或者是在没有架构提供&lt;strong>共同的技术焦点&lt;/strong>的情况下进行沟通交流来说，也是困难的。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    尽早聚焦于架构从而最小化风险和组织开发。&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    实践&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    Create the architecture for what you know today 为你今天已知的创建架构&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    As Albert Einstein said, make everything as simple as possible, but no simpler. Software projects are&#xD;
+    resource-constrained, and the desire of developers to create elegant solutions may lead to a system of greater&#xD;
+    complexity than the stakeholder requires. Efforts to future-proof a system in a turbulent or uncertain environment will&#xD;
+    likely lead to code bloat, which increases overall costs and complexity with few real benefits.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Create architectures that address the stakeholder's real needs, and provide appropriate flexibility and speed for the&#xD;
+    requirements as they are known today. Avoid the desire, no matter how well-intentioned, to speculate on future&#xD;
+    requirements and thereby over-engineer the architecture. There is a distinction between over-architecting and building&#xD;
+    an architecture that is flexible and extensible. For example, there may not be an apparent reason for creating three&#xD;
+    architectural layers in a system, but it is probable that the system will grow in ways one can't predict, so we should&#xD;
+    architect for that.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Leverage the architecture as a collaborative tool 利用架构作为协作工具&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Lack of a common understanding by developers about a system leads to indecision and contrary opinions among developers,&#xD;
+    and can quickly paralyze the project. Developers may have different mental models of the system and work at cross&#xD;
+    purposes to each other.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Create and evolve the system architecture with the intention of using it to align the developers' competing mental&#xD;
+    models of the system. A good architecture facilitates collaboration by providing a common vocabulary for all&#xD;
+    discussions regarding the system under development.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Cope with complexity by raising the level of abstraction 通过提高抽象层次应对复杂性&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Software is complex, and people have a limited capacity for coping with complexity. As a system gets larger, it is&#xD;
+    difficult for the team to develop a common understanding of the system, because it's hard to see the bigger picture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use models to raise the level of abstraction to focus on important high-level decisions, such as relationships and&#xD;
+    patterns, rather than getting bogged down in details. Modeling raises the level of abstraction, and allows the system&#xD;
+    to be more easily understood from different perspectives.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Organize the architecture into loosely coupled, highly cohesive components 组织架构为松散耦合、高内聚的组件&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Tight coupling between components makes a system fragile and difficult to understand. Software is expensive to create,&#xD;
+    so if existing components can be reused, that may reduce effort required to create a system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organize the architecture of the system into components to maximize cohesion and minimize coupling. This improves&#xD;
+    comprehension, and increases flexibility and opportunities for re-use.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Reuse existing assets 重用现有资产&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    It is wasteful to build what you can simply reuse, download, or even buy.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Make every effort to reuse existing assets. Developers are often reluctant to reuse assets, because those assets do not&#xD;
+    exactly meet their needs, or those assets are of poor quality. Be prepared to balance the savings you can realize using&#xD;
+    an existing asset, even if the asset requires you to make some accommodation in the architecture or relax a constraint.&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

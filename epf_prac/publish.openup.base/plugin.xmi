@@ -156,7 +156,7 @@
             <methodElementProperty xmi:id="_FsProOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-I4IbR1GW6IFBCdq9SiMUsw" href="uma://-I4IbR1GW6IFBCdq9SiMUsw#-I4IbR1GW6IFBCdq9SiMUsw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_KkTIsMp7EdqC_NfSivunjA" name="core_principle_collaborate" guid="_KkTIsMp7EdqC_NfSivunjA" presentationName="合作从而协调利益和共享理解" briefDescription="Develop collaborative practices that foster a healthy team environment. Good collaborative practices align the interests of project participants and help them develop a shared understanding of the project.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_KkTIsMp7EdqC_NfSivunjA" name="core_principle_collaborate" guid="_KkTIsMp7EdqC_NfSivunjA" presentationName="合作从而协调利益和共享理解" briefDescription="发展协作实践将培养健康的项目环境。良好的协作实践将使项目参与者的利益趋于一致，并且有助于发展项目的共享理解。">
             <methodElementProperty xmi:id="_HWyh4OYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-IXfkG-XfnoEo0xgux482Kw" href="uma://-IXfkG-XfnoEo0xgux482Kw#-IXfkG-XfnoEo0xgux482Kw"/>
           </contentElements>
@@ -164,7 +164,7 @@
             <methodElementProperty xmi:id="_Lgp6QOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-aMD1wQVJLzzlMARfHBdOBQ" href="uma://-aMD1wQVJLzzlMARfHBdOBQ#-aMD1wQVJLzzlMARfHBdOBQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_9gocwMvoEdqukPpotm3DYg" name="core_principle_focus" guid="_9gocwMvoEdqukPpotm3DYg" presentationName="聚焦于尽早架构以最小化风险和组织发展" briefDescription="An evolving architecture helps the team to address complexity, drive risk mitigation, and organize development.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_9gocwMvoEdqukPpotm3DYg" name="core_principle_focus" guid="_9gocwMvoEdqukPpotm3DYg" presentationName="尽早聚焦于架构以最小化风险和组织开发" briefDescription="一个持续演进的架构有助于团队解决复杂性、降低风险以及组织开发。">
             <methodElementProperty xmi:id="_Jo_OAOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-HTMJFV29MTZkKWqnIo01Gg" href="uma://-HTMJFV29MTZkKWqnIo01Gg#-HTMJFV29MTZkKWqnIo01Gg"/>
           </contentElements>
