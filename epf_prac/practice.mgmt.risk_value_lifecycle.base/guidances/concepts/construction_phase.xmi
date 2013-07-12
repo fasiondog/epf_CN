@@ -1,44 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bbpT_BdDRrv6waNI365Qhg" name=",_48EKsBOMEduCNqgZdt_OaA" guid="-bbpT_BdDRrv6waNI365Qhg" changeDate="2008-02-24T08:12:12.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-bbpT_BdDRrv6waNI365Qhg" name=",_48EKsBOMEduCNqgZdt_OaA" guid="-bbpT_BdDRrv6waNI365Qhg" changeDate="2013-07-13T01:29:07.897+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    The purpose in this phase is to complete the development of the system based upon the baselined architecture.&#xD;
+    此阶段的目的是基于基线的架构完成系统的开发。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    There are objectives for the Construction phase that help us to&amp;nbsp;have cost-efficient development of a complete&#xD;
-    product -- an operational version of your system -- that can be deployed&amp;nbsp;in the user community&amp;nbsp;&lt;a&#xD;
-    class=&quot;elementlinkwithusertext&quot;&#xD;
+    构造阶段的目标有助于我们经济的开发完整的产品——系统的运行版本——其可以被部署在用户环境中 &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
     href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#KRO03&quot;&#xD;
-    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[KRO03]&lt;/a>:&#xD;
+    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[KRO03]&lt;/a>：&#xD;
 &lt;/p>&#xD;
 &lt;ol>&#xD;
     &lt;li>&#xD;
-        Iteratively develop a complete product that is ready to transition to its user community. Describe remaining&#xD;
-        requirements, fill in design details, complete the implementation, and test the software. Release the first&#xD;
-        operational version (beta) of the system and determine whether users are ready for the application to be deployed.&#xD;
+        迭代开发完整的产品，该产品将准备交付给用户。描述剩下的需求，完成设计细节，完整实现，并测试软件。发布系统的第一个可运行版本（beta版）并确定用户是否已经准备好部署应用。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Minimize development costs and achieve some degree of parallelism. Optimize resources and leverage development&#xD;
-        parallelism between developers or teams of developers by, for example, assigning components that can be developed&#xD;
-        independently of one another.&#xD;
+        最小化开发成本并实现一定程度的并行度。优化资源并利用开发者或开发团队之间的并行开发，例如，分配彼此可独立开发的组件。&#xD;
     &lt;/li>&#xD;
 &lt;/ol>&#xD;
 &lt;h4>&#xD;
-    Key considerations&#xD;
+    关键因素&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
     Typically, the Construction phase has more iterations (two to four) than the other phases, depending on the types of&#xD;
     projects:&#xD;
 &lt;/p>&#xD;
+&lt;p>&#xD;
+    通常，构造阶段比其它阶段拥有更多的迭代（2~4），这依赖于项目的类型：&#xD;
+&lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        &lt;b>Simple project:&lt;/b> One iteration to build the product (to a beta release)&#xD;
+        &lt;strong>简单项目&lt;/strong>：一次迭代构建产品（beta发布）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        &lt;b>More substantial project:&lt;/b> One iteration to expose a partial system and one to mature it to beta testing&#xD;
+        &lt;strong>比较大的项目&lt;/strong>：一次迭代完成部分系统，另一次迭代完成系统做beta测试&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        &lt;b>Large project:&lt;/b> Three or more iterations, depending upon the size of the project (number of requirements to&#xD;
-        implement for a beta release)&#xD;
+        &lt;strong>大型项目&lt;/strong>：3~4次迭代，取决于项目的规模（针对beta测试需要实现的需求的数量）&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

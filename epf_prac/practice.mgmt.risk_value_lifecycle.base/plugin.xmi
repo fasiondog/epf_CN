@@ -53,20 +53,20 @@
               <presentation xmi:id="-IdlCQXdDNYGrGJU4TBwvCA" href="uma://-IdlCQXdDNYGrGJU4TBwvCA#-IdlCQXdDNYGrGJU4TBwvCA"/>
             </contentElements>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_48EKsBOMEduCNqgZdt_OaA" name="construction_phase" guid="_48EKsBOMEduCNqgZdt_OaA" presentationName="构造阶段" briefDescription="As the third of the four phases in the project lifecycle, Construction focuses on design, implementation, and testing of functions to develop a complete system.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_48EKsBOMEduCNqgZdt_OaA" name="construction_phase" guid="_48EKsBOMEduCNqgZdt_OaA" presentationName="构造阶段" briefDescription="作为项目生命周期四个阶段中的第三个阶段，构造阶段聚焦于功能的设计、实现和测试从而开发一个完整的系统。">
             <methodElementProperty xmi:id="_1lCMQOcnEeKSAN4LuRCSSw" name="me_edited" value="true"/>
             <presentation xmi:id="-bbpT_BdDRrv6waNI365Qhg" href="uma://-bbpT_BdDRrv6waNI365Qhg#-bbpT_BdDRrv6waNI365Qhg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2plxwBOMEduCNqgZdt_OaA" name="elaboration_phase" guid="_2plxwBOMEduCNqgZdt_OaA" presentationName="细化阶段" briefDescription="This is the second of four phases in the project lifecycle, when architecturally significant risks are addressed.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2plxwBOMEduCNqgZdt_OaA" name="elaboration_phase" guid="_2plxwBOMEduCNqgZdt_OaA" presentationName="细化阶段" briefDescription="这是项目生命周期四个阶段中的第二个阶段，此时解决关键的架构风险。">
             <methodElementProperty xmi:id="_y6OL0OcnEeKSAN4LuRCSSw" name="me_edited" value="true"/>
             <presentation xmi:id="-F-eWIBzxEXE1jygbN3nrrQ" href="uma://-F-eWIBzxEXE1jygbN3nrrQ#-F-eWIBzxEXE1jygbN3nrrQ"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
             <conceptsAndPapers href="#_nSfVwCNYEdyCq8v2ZO4QcA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0hmKgBOMEduCNqgZdt_OaA" name="inception_phase" guid="_0hmKgBOMEduCNqgZdt_OaA" presentationName="初始阶段" briefDescription="As the first of the four phases in the project lifecycle, Inception is about understanding the project scope and objectives and getting enough information to confirm that the project should proceed - or to convince you that it should not.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0hmKgBOMEduCNqgZdt_OaA" name="inception_phase" guid="_0hmKgBOMEduCNqgZdt_OaA" presentationName="初始阶段" briefDescription="作为项目生命周期四个阶段中的第一个，初始阶段是为了理解项目的范围和目标，并获得足够的信息来确认项目是否应该进行。">
             <methodElementProperty xmi:id="_w0enUOcnEeKSAN4LuRCSSw" name="me_edited" value="true"/>
             <presentation xmi:id="-GRJW_KNOJoEQF3r6lmBrEw" href="uma://-GRJW_KNOJoEQF3r6lmBrEw#-GRJW_KNOJoEQF3r6lmBrEw"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
