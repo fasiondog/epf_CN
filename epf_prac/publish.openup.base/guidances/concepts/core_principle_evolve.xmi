@@ -1,123 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aMD1wQVJLzzlMARfHBdOBQ" name="core_principle_evolve,_GXiogMvoEdqukPpotm3DYg" guid="-aMD1wQVJLzzlMARfHBdOBQ" changeDate="2008-03-10T04:20:37.000-0700" changeDescription="removed OpenUP from page name." version="0.02">
-  <mainDescription>&lt;h3>
-    Introduction
-&lt;/h3>
-&lt;p>
-    It is usually not possible to know all stakeholders' needs, be aware of all project risks, comprehend all project
-    technologies, or know how to work with your colleagues. Even if it were possible to know all of these things, they are
-    likely to change over the life of the project. Promote practices that allow the team to demonstrate incremental value,
-    and to get early and continuous feedback from stakeholders.
-&lt;/p>
-&lt;p>
-    The intention behind this principle is to continuously get feedback, and to improve both the product and the process of
-    the project team. When you provide structure and create a mindset for continuous feedback and improvement, changes are
-    accommodated more easily. In addition, feedback is captured early and often, and high-priority risks are confronted
-    early in the project. By constantly identifying and attacking risks, there is more confidence in project progress and
-    quality.
-&lt;/p>
-&lt;p>
-    Not only does the product evolve, but the team also finds better ways to work together and get involved with
-    stakeholders. The process followed by the team can be adjusted accordingly to leverage lessons learned and adjust
-    project pace and needs.
-&lt;/p>
-&lt;h3>
-    Practices
-&lt;/h3>
-&lt;h4>
-    Develop your project in iterations
-&lt;/h4>
-&lt;p>
-    Developing a system in a single, linear pass is difficult, because it makes it expensive to incorporate changes and new
-    knowledge. Worse, it can delay the discovery and mitigation of risks, because development efforts are scheduled later
-    in the lifecycle.
-&lt;/p>
-&lt;p>
-    Divide your project into a series of time-boxed &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html&quot; guid=&quot;_lam4ADkBEduxovfWMDsntw&quot;>iterations&lt;/a>, and plan your project iteratively. This iterative strategy enables you
-    to incrementally deliver capabilities (such as an executable, usable subset of implemented and tested requirements)
-    that can be assessed by stakeholders at the end of each iteration. This provides rapid and timely feedback loops, so
-    that issues can be addressed and improvements made at a lower cost. Also, this is accomplished while you still have
-    sufficient budget and time left to do so, and you have not gone so far ahead that major rework is required.
-&lt;/p>
-&lt;p>
-    Iterative development enables teams to continuously improve software throughout the development &lt;a class=&quot;elementLinkwithusertext&quot; href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot; guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>lifecycle&lt;/a>.
-&lt;/p>
-&lt;h4>
-    Focus iterations on meeting the next management milestone
-&lt;/h4>
-&lt;p>
-    A project can appear to make progress while risks and unresolved issues pile up. Focus on bringing closure to important
-    project issues (such as stakeholder concurrence regarding scope, and proving the proposed architecture).
-&lt;/p>
-&lt;p>
-    Divide the project into phases (such as &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition&lt;/a>), with each phase having a clearly visible management &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>milestone&lt;/a>. The focus of each iteration within a phase is on achieving that
-    milestone.
-&lt;/p>
-&lt;h4>
-    Manage risks
-&lt;/h4>
-&lt;p>
-    Deferring difficult and risky issues until later in a project significantly increases the risk of project failure. Such
-    procrastination may lead to investing in the wrong technologies, a bad design, or a set of requirements that may not
-    address stakeholder needs.
-&lt;/p>
-&lt;p>
-    Attack &lt;a href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>risks&lt;/a> early, or they will attack you. Continuously identify and prioritize risks,
-    and then devise strategies to mitigate them. Determine the focus of iterations based on risks. For example,
-    architecturally significant risks should be addressed early in the project, no later than the end of the Elaboration
-    phase, when the architecture has been proven and baselined.
-&lt;/p>
-&lt;p>
-    Fore more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html&quot; guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>Guideline: Managing Risks&lt;/a>.
-&lt;/p>
-&lt;h4>
-    Embrace and manage change
-&lt;/h4>
-&lt;p>
-    Change is inevitable, and while change presents opportunities to enhance stakeholder value, unconstrained change will
-    result in a bloated, deficient system and unmet stakeholder needs. Furthermore, the later in the development cycle a
-    change is made, the more the change is likely to cost.
-&lt;/p>
-&lt;p>
-    Embrace and manage change. Embracing change helps you to build a system that addresses stakeholder needs, and managing
-    change allows you to reduce costs and improve predictability of those changes. Changes made early in the project can
-    usually be made with limited cost. As you progress in your project, changes can become increasingly costly.
-&lt;/p>
-&lt;p>
-    To satisfy customer needs, you typically need to introduce changes to the project, but the customer must be made aware
-    of the impact that those changes have on the project cost and schedule. Understand the impact of a change in the
-    current phase, and isolate team members from disruptive changes during the current iteration. Change requests are
-    reviewed and prioritized during the current iteration, but are not acted upon until assigned to a future iteration.
-&lt;/p>
-&lt;p>
-    If necessary, document the changes. For informal projects, a discussion with stakeholders may be enough.
-&lt;/p>
-&lt;h4>
-    Measure progress objectively
-&lt;/h4>
-&lt;p>
-    If you do not objectively know how your project is progressing, you do not really know if it is failing or succeeding.
-    Uncertainty and change make a software project's progress difficult to measure objectively, and people are prone to
-    making objective assessments from subjective information.
-&lt;/p>
-&lt;p>
-    Get a clear picture of project status by objectively measuring progress. The best measure of progress is the delivery
-    of working software, which is something that you do by taking an evolutionary approach. You can also define a set of
-    objective &lt;a href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/metrics_37698708.html&quot; guid=&quot;_0mYYkMlgEdmt3adZL5Dmdw&quot;>metrics&lt;/a> to collect during an iteration (for example, requirements that were
-    implemented and validated, number of defects issued compared with number fixed) and review them as part of the &lt;a href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot; guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>iteration assessment&lt;/a>.
-&lt;/p>
-&lt;h4>
-    Continuously re-evaluate what you do
-&lt;/h4>
-&lt;p>
-    On a regular basis, ask questions and verify assumptions about the project. Regularly meet with the team to track
-    status and identify risks and issues. This can be done daily when the team gathers to share the status of individual
-    responsibilities and identify and address issues. At the end of iterations, &lt;a href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot; guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>assess the status&lt;/a> of what has been done and look for areas of improvement that can
-    be addressed in the next iteration. Have a retrospective review at the end of the project and capture lessons learned
-    to run future projects in a more efficient way.
-&lt;/p>
-&lt;p>
-    If we always challenge what we do and seek new, innovative ways to develop software, we improve how we work. This leads
-    to improved project results.
-&lt;/p></mainDescription>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-aMD1wQVJLzzlMARfHBdOBQ" name="core_principle_evolve,_GXiogMvoEdqukPpotm3DYg" guid="-aMD1wQVJLzzlMARfHBdOBQ" changeDate="2013-07-11T00:00:01.499+0800" changeDescription="removed OpenUP from page name." version="0.02">
+  <mainDescription>&lt;h3>&#xD;
+    介绍&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    知道所有利益相关人的需要、了解所有的风险、理解所有的项目技术，或者知道如何和同事共事，通常是不可能的。即使知道所有这些事情，在项目的生命周期中它们也会发生变化。 促进那些允许团队展示增量价值，以及尽早且持续的获得利益相关人反馈的实践。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    这一原则背后的意图是不断的获得反馈，以及改进团队的产品和过程。当你提供或创建了持续反馈和改进的结构或心态时，将更容易接纳变更。此外，将尽早并经常的获得反馈，也将尽早的面对项目中高优先级的风险。通过不断的识别和攻击风险，将对项目的进展和质量更有信心。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    不仅产品在演进，团队也将发现更好的共事方式，并获得利益相关人的参与。通过吸取经验教训，可以调整项目遵循的过程，以及项目的步伐和需要。&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    实践&#xD;
+&lt;/h3>&#xD;
+&lt;h4>&#xD;
+    以迭代的方式开发项目&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    使用单一、线性的方式开发系统是困难的，因为，这将使合入变更和新的知识变得昂贵。更糟糕的是，这可能导致延迟发现并减缓风险，因为在生命周期中计划的开发工作滞后于这些情况的发生。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    将项目划分为一系列“时间盒”&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/iteration_C20B1904.html&quot;&#xD;
+    guid=&quot;_lam4ADkBEduxovfWMDsntw&quot;>迭代&lt;/a>，并以迭代的方式规划项目。这个迭代的策略可以使你增量的交付功能（例如可执行、可重用的已实现并测试过的需求子集），这些功能可以由利益相关人在迭代结束时进行评估。这提供了快速且及时的反馈循环，从而使问题得到解决，并使得改进的成本更低。同样，这些是在你仍旧拥有足够的预算和时间的情况下完成的，并且你没有在要求的主要返工前走的太远。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    迭代开发使得团队能够在&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../process.openup.base/deliveryprocesses/openup_lifecycle_EE511F3A.html&quot;&#xD;
+    guid=&quot;_SuWj4dOPEdyqlogshP8l4g&quot;>开发生命周期&lt;/a>中持续的改进软件。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    聚焦迭代于下一个管理里程碑&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    当风险和未解决的问题堆积如山时，项目可以获得进展。聚焦于关闭那些重要的项目问题（例如利益相关人确认范围，并证明建议的架构）。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    将项目划分成不同的阶段（如&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../publish.openup.base/guidances/concepts/inception_phase.principle_D13E29B1.html&quot;&#xD;
+    guid=&quot;_8pcQQN4YEdyhmsbt0Xyl8A&quot;>初始阶段&lt;/a>、&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../publish.openup.base/guidances/concepts/elaboration_phase.principle_84B61255.html&quot;&#xD;
+    guid=&quot;_IXkEQN4ZEdyhmsbt0Xyl8A&quot;>细化阶段&lt;/a>、&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../publish.openup.base/guidances/concepts/construction_phase.principle_A3D5F465.html&quot;&#xD;
+    guid=&quot;_PglVYN4ZEdyhmsbt0Xyl8A&quot;>构造阶段&lt;/a>和&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../publish.openup.base/guidances/concepts/transition_phase.principle_8C2DCDBB.html&quot;&#xD;
+    guid=&quot;_Ug9fAN4ZEdyhmsbt0Xyl8A&quot;>交付阶段&lt;/a>），每个阶段有一个清晰可见的管理&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>里程碑&lt;/a>。每个阶段中的每个迭代的焦点都是到达这些里程碑。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    管理风险&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    延迟处理项目中困难和有风险的问题将明显的增加项目失败的风险。这种拖延可能导致在错误的技术上投资、糟糕的设计，或者一组不能解决利益相关人需要的需求。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    尽早攻克风险，否则它们将攻击你。持续的识别风险并排序优先级，然后制定措施减缓这些风险。确定迭代的焦点基于风险。例如，架构上重要的风险应该尽早在项目中解决，最迟在细化阶段结束时，此时架构已被证明并基线化。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    更多信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html&quot;&#xD;
+    guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>Managing Risks&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    拥抱并管理变更&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    变更是不可避免的，并且变更出现时也意味着增强利益相关人价值的机会。无约束的变更将导致臃肿的、有缺陷的系统，并且不满足利益相关人的需要。更多的，在开发周期后期发生的变更，往往意味着更多的成本。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    拥抱并管理变更。拥抱变更有助于构建处理利益相关人需要的系统，而管理变更可以降低成本并提高对变更的预见性。在项目早期发生的变更通常只需花费有限的成本，随着项目的进展，变更将变得越来越昂贵。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    为了满足客户需求，通常需要在项目中引入变更，但是必须让客户清楚的知道这些变更对项目成本和进度的影响。了解变更在当前阶段的影响，并防止项目成员在当前迭代中实施破坏性的变更。在当前迭代中，Review并排序变更请求，但不要处理这些请求，而是分派到未来的某个迭代。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    如果需要，文档化变更。对于非正式的项目，与利益相关人进行讨论可能就足够了。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    客观衡量进展&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    如果没有客观的了解项目进展，就不能真正的知道项目将会成功还是失败。不确定性和变化使软件项目进展很难被客观衡量，而人们却很容易以主观评判客观。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    获取一份客观衡量项目进展的状态视图。衡量进展的最佳方式是交付可工作的软件，这是以一种渐进的方式进行的。你也可以定义一组在迭代中收集的&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/metrics_37698708.html&quot;&#xD;
+    guid=&quot;_0mYYkMlgEdmt3adZL5Dmdw&quot;>度量&lt;/a>目标（例如，被实现和验证的需求数量，发现的缺陷数和已修复的缺陷数比例），并在&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot;&#xD;
+    guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>迭代评估&lt;/a>中对它们进行Review。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    持续的评估你所做的&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    定期的，提出问题并验证项目有关的假设。定期的进行团队会议跟踪状态并识别风险和问题。这可以在日常团队收集风险个人工作状态以及识别和解决问题时完成。在迭代结束时，&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../../practice.mgmt.iterative_dev.base/tasks/assess_results_EC34D88D.html&quot;&#xD;
+    guid=&quot;_0l53cMlgEdmt3adZL5Dmdw&quot;>评估所完成的工作的状态&lt;/a>，并寻找可以在下一次迭代中改进的领域。在项目结束时进行一次回顾评审，捕获那些可使未来项目以更高效的方式运作的经验教训。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    如果我们总是挑战我们的做法，并寻找新的、创新的方法开发软件，我们将改进我们的工作。这也将改进项目的结果。&#xD;
+&lt;/p>&#xD;
+&lt;br /></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

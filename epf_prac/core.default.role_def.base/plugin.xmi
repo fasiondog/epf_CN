@@ -61,7 +61,7 @@
             <methodElementProperty xmi:id="_80JvsOa2EeKxKPHdq3K7Jw" name="me_edited" value="true"/>
             <presentation xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" href="uma://_Nx8icKYdEdmvhNXG0Oc2uA#_Nx8icKYdEdmvhNXG0Oc2uA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0dsWoMlgEdmt3adZL5Dmdw" name="any_role" guid="_0dsWoMlgEdmt3adZL5Dmdw" presentationName="任何角色" briefDescription="任何团队成员，可以执行一般性任务。">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_0dsWoMlgEdmt3adZL5Dmdw" name="any_role" guid="_0dsWoMlgEdmt3adZL5Dmdw" presentationName="任何人" briefDescription="任何团队成员，可以执行一般性任务。">
             <methodElementProperty xmi:id="_Ua0O4JCyEeGPeI4Nok81MQ" name="me_jazzEnactment" value="false"/>
             <methodElementProperty xmi:id="_dWqIgJCyEeGPeI4Nok81MQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" href="uma://_NqqcUqeqEdmKDbQuyzCoqQ#_NqqcUqeqEdmKDbQuyzCoqQ"/>

@@ -141,7 +141,8 @@
               </contentElements>
             </childPackages>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_xKvXkMn8EdyuBO4ZIzcyig" name="minimal_complete_extensible" guid="_xKvXkMn8EdyuBO4ZIzcyig" presentationName="Minimal, Complete, and Extensible" briefDescription="OpenUP is minimal, complete, and extensible. It's the minimum amount of process for a small team. It can be used as-is or extended and customized for specific purposes." shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_xKvXkMn8EdyuBO4ZIzcyig" name="minimal_complete_extensible" guid="_xKvXkMn8EdyuBO4ZIzcyig" presentationName="最小化的、完整的，并可扩展的" briefDescription="OpenUP是最小化的、完整的，并可扩展的；是针对小团队的最少数量的过程；可以被直接使用，或者针对特定的目的进行扩展和定制化。" shapeicon="guidances/supportingmaterials/resources/micl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <methodElementProperty xmi:id="_c0t40OmOEeKoyaPq3_8rZg" name="me_edited" value="true"/>
             <presentation xmi:id="-AO488Z6M5HCAbxm1c-SjUA" href="uma://-AO488Z6M5HCAbxm1c-SjUA#-AO488Z6M5HCAbxm1c-SjUA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jd1tQMn9EdyuBO4ZIzcyig" name="who_should_use_openup" guid="_jd1tQMn9EdyuBO4ZIzcyig" presentationName="谁应该使用OpenUP" briefDescription="该支持材料解释了“谁应该使用OpenUP”。">
@@ -152,7 +153,7 @@
             <methodElementProperty xmi:id="_YmalIOWYEeKwEc8xdcWUPw" name="me_edited" value="true"/>
             <presentation xmi:id="-APgHPRv2KxEoFdcbHUli5w" href="uma://-APgHPRv2KxEoFdcbHUli5w#-APgHPRv2KxEoFdcbHUli5w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ssG6MMvpEdqukPpotm3DYg" name="core_principle_balance" guid="_ssG6MMvpEdqukPpotm3DYg" presentationName="平衡竞争优先权以最大化利益相关人价值" briefDescription="开发最大化利益相关人利益并符合项目约束的解决方案。">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_ssG6MMvpEdqukPpotm3DYg" name="core_principle_balance" guid="_ssG6MMvpEdqukPpotm3DYg" presentationName="权衡竞争优先权以最大化利益相关人价值" briefDescription="开发最大化利益相关人利益并符合项目约束的解决方案。">
             <methodElementProperty xmi:id="_FsProOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-I4IbR1GW6IFBCdq9SiMUsw" href="uma://-I4IbR1GW6IFBCdq9SiMUsw#-I4IbR1GW6IFBCdq9SiMUsw"/>
           </contentElements>
@@ -160,7 +161,7 @@
             <methodElementProperty xmi:id="_HWyh4OYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-IXfkG-XfnoEo0xgux482Kw" href="uma://-IXfkG-XfnoEo0xgux482Kw#-IXfkG-XfnoEo0xgux482Kw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_GXiogMvoEdqukPpotm3DYg" name="core_principle_evolve" guid="_GXiogMvoEdqukPpotm3DYg" presentationName="演进从而持续的获得反馈和改进" briefDescription="Promote practices that allow the team to get early and continuous feedback from stakeholders, and demonstrate incremental value to them.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_GXiogMvoEdqukPpotm3DYg" name="core_principle_evolve" guid="_GXiogMvoEdqukPpotm3DYg" presentationName="演进从而持续的获得反馈和改进" briefDescription="促进那些允许团队尽早和持续的获得利益相关人反馈，并向他们展示增量价值的实践。">
             <methodElementProperty xmi:id="_Lgp6QOYQEeKN1sHJBU37lA" name="me_edited" value="true"/>
             <presentation xmi:id="-aMD1wQVJLzzlMARfHBdOBQ" href="uma://-aMD1wQVJLzzlMARfHBdOBQ#-aMD1wQVJLzzlMARfHBdOBQ"/>
           </contentElements>

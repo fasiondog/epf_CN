@@ -246,13 +246,15 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mNzjQFRREd2CWscN8Mx6rg" name="basic_concepts" guid="_mNzjQFRREd2CWscN8Mx6rg" presentationName="Basic concepts">
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_qhCTAFRREd2CWscN8Mx6rg" name="practice" guid="_qhCTAFRREd2CWscN8Mx6rg" presentationName="Practice" briefDescription="A practice is an approach to solving one or several commonly occurring problems. Practices are intended as &quot;chunks&quot; of process for adoption, enablement, and configuration.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_qhCTAFRREd2CWscN8Mx6rg" name="practice" guid="_qhCTAFRREd2CWscN8Mx6rg" presentationName="实践" briefDescription="实践是解决一个或多个一般问题的方法。实践被视为采纳、使能和配置过程的“块”。&#xD;&#xA;">
+            <methodElementProperty xmi:id="_YURKMOpDEeKNaNS8TZl1cw" name="me_edited" value="true"/>
             <presentation xmi:id="-vY5HfUn9RSoqJC3J7QtxhA" href="uma://-vY5HfUn9RSoqJC3J7QtxhA#-vY5HfUn9RSoqJC3J7QtxhA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_skPXU1RFEd2CWscN8Mx6rg" name="resources_for_contributing_to_epf" guid="_skPXU1RFEd2CWscN8Mx6rg" presentationName="Resources for contributing to the Eclipse Process Framework" briefDescription="There are many ways to contribute to EPF. Everyone who uses EPF is encouraged to participate in its ongoing improvement.">
             <presentation xmi:id="-eZLnHptq-FYlpV-K31FTGg" href="uma://-eZLnHptq-FYlpV-K31FTGg#-eZLnHptq-FYlpV-K31FTGg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_FxJEkFUKEd2_rMtRMt_EMg" name="basic_process_concepts" guid="_FxJEkFUKEd2_rMtRMt_EMg" presentationName="Basic Process Concepts" briefDescription="All users of a process should be familiar with these basic process concepts.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_FxJEkFUKEd2_rMtRMt_EMg" name="basic_process_concepts" guid="_FxJEkFUKEd2_rMtRMt_EMg" presentationName="过程的基础概念" briefDescription="所有过程的使用者应该熟悉这些基础的过程概念。">
+            <methodElementProperty xmi:id="_A7TKkOpBEeKNaNS8TZl1cw" name="me_edited" value="true"/>
             <presentation xmi:id="-xL8v-tHFI6eyHLEaZ4rblA" href="uma://-xL8v-tHFI6eyHLEaZ4rblA#-xL8v-tHFI6eyHLEaZ4rblA"/>
           </contentElements>
         </childPackages>
