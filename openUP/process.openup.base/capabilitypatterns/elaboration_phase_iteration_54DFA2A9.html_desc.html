@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>能力模式：Elaboration Phase Iteration</title>
+<title>能力模式：细化阶段迭代</title>
 <meta name="uma.type" content="CapabilityPattern">
 <meta name="uma.name" content="elaboration_phase_iteration">
-<meta name="uma.presentationName" content="Elaboration Phase Iteration">
+<meta name="uma.presentationName" content="细化阶段迭代">
 <meta name="element_type" content="other">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_aUsVEdONEdyqlogshP8l4g"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">能力模式：Elaboration Phase Iteration</td><td width="100%">
+<td class="pageTitle" nowrap="true">能力模式：细化阶段迭代</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This iteration template defines the activities (and associated roles and work  products) performed in a typical iteration in the Elaboration phase.</td>
+<td valign="top">此迭代模板定义了在细化阶段中典型的迭代需要执行的活动（以及相关的角色和工作产品）。</td>
 </tr>
 </table>
 </td>
@@ -60,52 +60,36 @@
 <td colspan="10" class="activeTab"><img src="./../../images/shim.gif" height="5" alt="" title=""></td>
 </tr>
 </table>
-<div class="sectionHeading">关系</div>
-<div class="sectionContent">
-<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<th class="sectionTableHeading" scope="row">环境</th><td class="sectionTableCell">
-<ul>
-<li>
-<a>-- None --</a>
-</li>
-</ul>
-</td>
-</tr>
-</table>
-</div>
 <div class="sectionHeading">描述</div>
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    Most activities during a typical iteration in Elaboration phase happen in parallel. Essentially, the main objectives
-    for Elaboration are related to better understanding the requirements, creating and establishing a baseline of the
-    architecture for the system, and mitigating top-priority risks.
+    细化阶段的典型迭代里，大部分活动是并行发生的。从本质上看，细化阶段的主要目标和更好的理解需求、创建和建立系统的架构基线以及缓解高优先级风险相关。
 </p>
 <p>
-    The following table summarizes the&nbsp;Elaboration phase objectives and&nbsp;what activities address each objective:
+    下表总结了细化阶段的目标和支持目标的活动：
 </p>
 <p align="center">
-    <strong>Elaboration phase objectives and activities</strong>
+    <strong>细化阶段目标和活动</strong>
 </p>
-<table cellspacing="0" cellpadding="0" width="648" align="center" border="1">
+<table border="1" cellspacing="0" cellpadding="0" width="648" align="center">
     <tbody>
         <tr>
             <td class="Normal" valign="top" width="300">
                 <p style="TEXT-ALIGN: justify">
-                    <b>Phase objectives</b>
+                    <b>阶段目标</b>&nbsp;
                 </p>
             </td>
             <td class="Normal" valign="top" width="348">
                 <p style="TEXT-ALIGN: justify">
-                    <b>Activities that address objectives</b>
+                    <b>支持目标的活动</b>
                 </p>
             </td>
         </tr>
         <tr>
             <td class="Normal" valign="top" width="300">
-                Get a more detailed understanding of the requirements
+                获得对需求更详细的理解
             </td>
             <td class="Normal" valign="top" width="348">
                 <p>
@@ -115,7 +99,7 @@
         </tr>
         <tr>
             <td class="Normal" valign="top" width="300">
-                Design, implement, validate, and baseline an architecture
+                设计、实现、验证以及建立架构基线
             </td>
             <td class="Normal" valign="top" width="348">
                 <p style="TEXT-ALIGN: justify">
@@ -131,7 +115,10 @@
         </tr>
         <tr>
             <td class="Normal" valign="top" width="300">
-                Mitigate essential risks, and produce accurate schedule and cost estimates
+                <p>
+                    降低基本风险，产生精确的进度和成本估算
+                </p>
+                <br />
             </td>
             <td class="Normal" valign="top" width="348">
                 <a class="elementLink" href="./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html" guid="_oZgCsdOEEdyqlogshP8l4g">计划与管理迭代</a><br />
@@ -169,9 +156,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">There will be iterations when projects risks are being addressed by creating software, but they may not be architecturally
-significant. In this case, <a class="elementLink" href="./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html" guid="_RXGoodOFEdyqlogshP8l4g">开发解决方案增量</a> will be performed outside the context of the architecture. For the most part, Develop Solution will
-be performed in the context of <a class="elementLink" href="./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html" guid="_KaeNsdOFEdyqlogshP8l4g">开发架构</a> during the Elaboration phase.</td>
+<td class="sectionTableSingleCell"><p>
+    在解决项目风险的过程中会有一些迭代，但是这些迭代可能对架构没有重大影响。在这种情况中，<a class="elementLink" href="./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html" guid="_RXGoodOFEdyqlogshP8l4g">开发解决方案增量</a>&nbsp;将在架构的上下文之外被执行。但对细化阶段里大部分的迭代来说，开发方案是在 <a class="elementLink" href="./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html" guid="_KaeNsdOFEdyqlogshP8l4g">开发架构</a>&nbsp;的上下文中被执行。
+</p></td>
 </tr>
 </table>
 </div>

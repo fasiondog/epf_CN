@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：聚焦于尽早架构以最小化风险和组织发展</title>
+<title>概念：尽早聚焦于架构以最小化风险和组织开发</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="core_principle_focus">
-<meta name="uma.presentationName" content="聚焦于尽早架构以最小化风险和组织发展">
+<meta name="uma.presentationName" content="尽早聚焦于架构以最小化风险和组织开发">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_9gocwMvoEdqukPpotm3DYg"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：聚焦于尽早架构以最小化风险和组织发展</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：尽早聚焦于架构以最小化风险和组织开发</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">An evolving architecture helps the team to address complexity, drive risk mitigation, and organize development.</td>
+<td valign="top">一个持续演进的架构有助于团队解决复杂性、降低风险以及组织开发。</td>
 </tr>
 </table>
 </td>
@@ -55,7 +55,7 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html" guid="_2plxwBOMEduCNqgZdt_OaA">Elaboration Phase</a>
+<a href="./../../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html" guid="_2plxwBOMEduCNqgZdt_OaA">细化阶段</a>
 </li>
 </ul>
 </td>
@@ -67,86 +67,65 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><h3>
-    Introduction
+    介绍
 </h3>
 <p>
-    The architecture of a software system is the organization or structure of the system's significant components
-    interacting through interfaces, with components composed of successively smaller components and interfaces.
+    软件系统架构是系统关键组件的组织结构，这些组件通过接口交互，并由较小的组件和接口依次组合而成。
 </p>
 <p>
-    Without an architectural foundation, a system will evolve in an inefficient and haphazard way. Such a system often
-    proves difficult to extend, reuse, or integrate without substantial rework. It is also difficult to organize the team,
-    or to communicate ideas without the <b>common technical focus</b> that the architecture provides.
+    没有架构基础，系统将会以低效、偶然的方式演进。这样的系统常常被证明难以扩展、重用，或没有大量返工的进行集成。这对组织团队，或者是在没有架构提供<strong>共同的技术焦点</strong>的情况下进行沟通交流来说，也是困难的。
 </p>
 <p>
-    Focus on the architecture early to minimize risks and organize development.
+    尽早聚焦于架构从而最小化风险和组织开发。
 </p>
 <h3>
-    Practices
+    实践
 </h3>
 <h4>
-    Create the architecture for what you know today
+    为你今天已知的创建架构
 </h4>
 <p>
-    As Albert Einstein said, make everything as simple as possible, but no simpler. Software projects are
-    resource-constrained, and the desire of developers to create elegant solutions may lead to a system of greater
-    complexity than the stakeholder requires. Efforts to future-proof a system in a turbulent or uncertain environment will
-    likely lead to code bloat, which increases overall costs and complexity with few real benefits.
+    爱因斯坦说过，让一切尽可能的简单，但不能超过简单的极致（make everything as simple as possible, but no
+    simpler）。软件项目是资源受限的，期望开发者创建优雅的解决方案可能导致系统的复杂度超出利益相关人的要求。在混乱或不确定的环境中开发所谓“面向未来”的系统，将可能导致代码臃肿，增加了总体成本以及复杂度却很少有真正的收益。
 </p>
 <p>
-    Create architectures that address the stakeholder's real needs, and provide appropriate flexibility and speed for the
-    requirements as they are known today. Avoid the desire, no matter how well-intentioned, to speculate on future
-    requirements and thereby over-engineer the architecture. There is a distinction between over-architecting and building
-    an architecture that is flexible and extensible. For example, there may not be an apparent reason for creating three
-    architectural layers in a system, but it is probable that the system will grow in ways one can't predict, so we should
-    architect for that.
+    为当前已知的需求创建架构，处理利益相关的真实需求，并提供适当的灵活性和速度。避免奢求，以及任何用心良苦的推测未来需求的行为，那将导致架构过度化。过度设计架构和构建灵活可扩展的架构之间是有区别的。例如，可能没有明显的理由为系统创建一个三层架构，但是系统可能会以我们无法预测的方式发展到需要的地步，因此我们应该创建三层架构。
 </p>
 <h4>
-    Leverage the architecture as a collaborative tool
+    利用架构作为协作工具
 </h4>
 <p>
-    Lack of a common understanding by developers about a system leads to indecision and contrary opinions among developers,
-    and can quickly paralyze the project. Developers may have different mental models of the system and work at cross
-    purposes to each other.
+    开发者们如果缺乏对系统的共同理解将导致他们之间犹豫不决以及互相矛盾的意见，并能迅速使项目陷入瘫痪。并且，开发者们还可能对系统有不同的心智模型，彼此的工作南辕北辙。
 </p>
 <p>
-    Create and evolve the system architecture with the intention of using it to align the developers' competing mental
-    models of the system. A good architecture facilitates collaboration by providing a common vocabulary for all
-    discussions regarding the system under development.
+    创建和演进系统架构的意图是使用它来保持开发者们一致的系统心智模型。一个好的架构通过提供统一的术语表做为所有和系统有关的讨论的基础，来帮助开发者之间的协作。
 </p>
 <h4>
-    Cope with complexity by raising the level of abstraction
+    通过提高抽象层次应对复杂性
 </h4>
 <p>
-    Software is complex, and people have a limited capacity for coping with complexity. As a system gets larger, it is
-    difficult for the team to develop a common understanding of the system, because it's hard to see the bigger picture.
+    软件开发充满了复杂性，而人们处理复杂性的能力是有限的。当系统变得更大时，将使开发团队很难发展对系统的共同理解，因为很难看到全貌。
 </p>
 <p>
-    Use models to raise the level of abstraction to focus on important high-level decisions, such as relationships and
-    patterns, rather than getting bogged down in details. Modeling raises the level of abstraction, and allows the system
-    to be more easily understood from different perspectives.
+    使用模型来提供抽象的层次从而聚焦于高层决策，例如关系和模式，而不是陷入细节。建模提高了抽象的层次，并且使得更容易从不同的角度理解系统。
 </p>
 <h4>
-    Organize the architecture into loosely coupled, highly cohesive components
+    组织架构为松散耦合、高内聚的组件
 </h4>
 <p>
-    Tight coupling between components makes a system fragile and difficult to understand. Software is expensive to create,
-    so if existing components can be reused, that may reduce effort required to create a system.
+    组件之间的紧密耦合将使用系统变得脆弱且难以理解。软件的创建是昂贵的，因此，如果可以重用现有的组件，将可能减少创建系统的工作量。
 </p>
 <p>
-    Organize the architecture of the system into components to maximize cohesion and minimize coupling. This improves
-    comprehension, and increases flexibility and opportunities for re-use.
+    使用最大化内聚和最小化耦合的组件来组织系统架构。这将提高对系统的理解，并增加灵活性和重用的机会。
 </p>
 <h4>
-    Reuse existing assets
+    重用现有资产
 </h4>
 <p>
-    It is wasteful to build what you can simply reuse, download, or even buy.
+    当你可以简单的重用、下载甚至购买时，构建是一种浪费。
 </p>
 <p>
-    Make every effort to reuse existing assets. Developers are often reluctant to reuse assets, because those assets do not
-    exactly meet their needs, or those assets are of poor quality. Be prepared to balance the savings you can realize using
-    an existing asset, even if the asset requires you to make some accommodation in the architecture or relax a constraint.
+    尽一切努力来重用现有资产。开发人员常常不愿意重用资产，因为这些资产并不能完全满足他们的需要，或者这些资产的质量低劣。做好使用重用资产的权衡，你可以实现使用现有资产来节约工作量，即使使用这些资产可能需要进行调整或放宽约束。
 </p></td>
 </tr>
 </table>
