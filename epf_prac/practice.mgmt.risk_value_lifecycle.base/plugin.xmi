@@ -75,7 +75,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HNxbwMBJEdqSgKaj2SZBmg" name="phase_milestones" guid="_HNxbwMBJEdqSgKaj2SZBmg" presentationName="Phase Milestones" briefDescription="These are the point at which a phase formally ends, thus providing a checkpoint for whether the project is ready to move to the next phase." conceptsAndPapers="_48EKsBOMEduCNqgZdt_OaA _2plxwBOMEduCNqgZdt_OaA _0hmKgBOMEduCNqgZdt_OaA __ca5UBOMEduCNqgZdt_OaA">
             <presentation xmi:id="-DG8mYMnTGosWIxjPQFUoTA" href="uma://-DG8mYMnTGosWIxjPQFUoTA#-DG8mYMnTGosWIxjPQFUoTA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__ca5UBOMEduCNqgZdt_OaA" name="transition_phase" guid="__ca5UBOMEduCNqgZdt_OaA" presentationName="交付阶段" briefDescription="Fourth and final phase in the project lifecycle, Transition focuses on deploying software to users and ensuring that theirs expectations about the software were met.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__ca5UBOMEduCNqgZdt_OaA" name="transition_phase" guid="__ca5UBOMEduCNqgZdt_OaA" presentationName="交付阶段" briefDescription="项目周期中的第四个也是最后一个阶段，交付阶段聚焦于向用户部署软件并确认用户对软件的期望被满足。">
             <methodElementProperty xmi:id="_4E4S0OcnEeKSAN4LuRCSSw" name="me_edited" value="true"/>
             <presentation xmi:id="-FrUmsKsGW4bnNmb9uaNOkg" href="uma://-FrUmsKsGW4bnNmb9uaNOkg#-FrUmsKsGW4bnNmb9uaNOkg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>

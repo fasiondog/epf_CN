@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9WQSYLekEd-D7YZN9NgldQ" guid="_9WQSYLekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__ApXoLekEd-D7YZN9NgldQ" id="-rZqO0o7t94PG0CUh3wZe3w" uri="roles/analyst.assign_guidance.xmi"/>
     <resourceDescriptors xmi:id="__ApXobekEd-D7YZN9NgldQ" id="-UH4bpYyCuhaEFAe4De1mzA" uri="roles/developer.assign_guidance.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_NBRHwMh3EdygFZkm1d5NtQ" name="practice.mgmt.release_planning.assign" guid="_NBRHwMh3EdygFZkm1d5NtQ" presentationName="Release Planning Assignments" changeDate="2008-01-21T03:19:18.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_NBRHwMh3EdygFZkm1d5NtQ" name="practice.mgmt.release_planning.assign" guid="_NBRHwMh3EdygFZkm1d5NtQ" presentationName="Release Planning Assignments" changeDate="2008-01-21T19:19:18.000+0800">
     <methodElementProperty xmi:id="_-gnMxrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WHIcLekEd-D7YZN9NgldQ" name="Content" guid="_9WHIcLekEd-D7YZN9NgldQ">
@@ -47,6 +47,7 @@
             <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_T-dywEIuEd2GCesTWQms8Q" name="analyst.assign_guidance" guid="_T-dywEIuEd2GCesTWQms8Q" variabilityType="contributes">
+            <methodElementProperty xmi:id="_N-4YgOuoEeKna71GZFtYEA" name="me_edited" value="true"/>
             <presentation xmi:id="-rZqO0o7t94PG0CUh3wZe3w" href="uma://-rZqO0o7t94PG0CUh3wZe3w#-rZqO0o7t94PG0CUh3wZe3w"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
           </contentElements>

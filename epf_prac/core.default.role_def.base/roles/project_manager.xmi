@@ -1,42 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2008-10-14T02:20:12.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Fdq-8KX4EdmvhNXG0Oc2uA" name="project_manager,_0a0o0MlgEdmt3adZL5Dmdw" guid="_Fdq-8KX4EdmvhNXG0Oc2uA" changeDate="2013-07-13T17:55:17.202+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    The person in this role:&#xD;
+    该角色：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Coaches the team to drive a successful outcome of the project and the acceptance of the product by the customer&#xD;
+        指导团队推动项目获得成功，以及客户对产品的接受。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is accountable for the outcome of the project and the acceptance of the product by the customer&#xD;
+        负责项目的输出和客户对产品的接受。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is responsible for the evaluation of project's risks and for controlling those risks through mitigation strategies&#xD;
+        负责评估项目风险，并通过缓解措施控制这些风险。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Applies management knowledge, skills, tools, and techniques to a broad range of tasks to deliver the&#xD;
-        desired result for a particular project in a timely manner&#xD;
+        运用管理知识、技能、工具和技术以及时交付特定项目期望的结果&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
   <skills>&lt;p>&#xD;
-    A person performing this role needs the following skills:&#xD;
+    承担该角色的人员需要具备以下技能：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Leadership and team-building capabilities&#xD;
+        领导和团队建设能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Thorough experience in the software development lifecycle to coach, guide, and support other team members&#xD;
+        具有在整个软件开发周期中教授、指导并支持其他团队成员的经验&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Proficiency in conflict resolution and problem-solving techniques&#xD;
+        具有熟练的冲突和问题解决技术&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Good skills in presentation, facilitation, communication, and negotiation&#xD;
+        具有良好的表达、简化、沟通和谈判技能&#xD;
     &lt;/li>&#xD;
 &lt;/ul></skills>
   <assignmentApproaches>&lt;p>&#xD;
-    This role is often played by a single person. It is difficult to have this role shared by multiple people, but it might&#xD;
-    not use all of a person's available time.&lt;br />&#xD;
+    该角色往往由一个人承担。很难由多人同时承担该角色，但是，承担该角色可能不需要花费一个人的所有时间。&lt;br />&#xD;
 &lt;/p></assignmentApproaches>
 </org.eclipse.epf.uma:RoleDescription>

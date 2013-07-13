@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_qktWQMM0EdmSIPI87WLu3g" name="vision,_0WoFUMlgEdmt3adZL5Dmdw" guid="_qktWQMM0EdmSIPI87WLu3g" changeDate="2005-07-07T01:30:32.000-0700" version="1.0.0">
-  <sections xmi:id="_VwoioAeiEduWycDgioo5rg" name="The problem behind the problem has been fully explored" guid="_VwoioAeiEduWycDgioo5rg">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_qktWQMM0EdmSIPI87WLu3g" name="vision,_0WoFUMlgEdmt3adZL5Dmdw" guid="_qktWQMM0EdmSIPI87WLu3g" changeDate="2005-07-07T16:30:32.000+0800" version="1.0.0">
+  <sections xmi:id="_VwoioAeiEduWycDgioo5rg" name="已完全探索了问题背后的问题" guid="_VwoioAeiEduWycDgioo5rg">
     <sectionDescription>&lt;p>&#xD;
-    Make sure that you have found the root cause of the stakeholder's problem or need. Often, stakeholders define solutions&#xD;
-    rather than stating the problem that they are experiencing or the pain they are experiencing. Subsequently, they may&#xD;
-    not have identified the problem correctly or the correct solution for it.&#xD;
+    确信你已经发现了利益相关人的问题或需要的根本原因。往往，利益相关人定义了解决方案，而不是他们正在经历的问题或痛苦。他们可能没有正确的识别问题或针对这些问题的正确的解决方案。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For example, &quot;We can't support customers who want to buy online&quot; is better than &quot;We need an on-line purchasing system&quot;.&#xD;
+    例如，“我们无法支持那些想在网上进行购买的顾客”比“我们需要一个在线购物系统”更好。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_dBs8gAeiEduWycDgioo5rg" name="The problem statement is correctly formulated" guid="_dBs8gAeiEduWycDgioo5rg">
-    <sectionDescription>Make sure that you have agreement on the problem to be solved.</sectionDescription>
-  </sections>
-  <sections xmi:id="_jGUxYAeiEduWycDgioo5rg" name="The list of stakeholders is complete and correct" guid="_jGUxYAeiEduWycDgioo5rg">
-    <sectionDescription>Make sure you didn't miss any stakeholders. If you did, you probably do not yet have all of the perspectives that you need&#xD;
-to consider.</sectionDescription>
-  </sections>
-  <sections xmi:id="_s-be8AeiEduWycDgioo5rg" name="Everyone agrees on the definition of the system boundaries" guid="_s-be8AeiEduWycDgioo5rg">
-    <sectionDescription>Define what is &lt;strong>in&lt;/strong> and what is &lt;strong>out&lt;/strong> of system boundaries. This is a critical step in&#xD;
-defining the scope of work.</sectionDescription>
-  </sections>
-  <sections xmi:id="_z1uG4AeiEduWycDgioo5rg" name="Constraints on the system have been sufficiently explored" guid="_z1uG4AeiEduWycDgioo5rg">
-    <sectionDescription>Don't forget about the non-functional requirements and constraints. These are often the largest cost of development.</sectionDescription>
-  </sections>
-  <sections xmi:id="_7KzeEAeiEduWycDgioo5rg" name="All kinds of constraints, including political, economic, and environmental, have been covered." guid="_7KzeEAeiEduWycDgioo5rg">
+  <sections xmi:id="_dBs8gAeiEduWycDgioo5rg" name="已正确的描述了问题" guid="_dBs8gAeiEduWycDgioo5rg">
     <sectionDescription>&lt;p>&#xD;
-    These non-technical constraints often lead to problems later.&#xD;
+    确保已就待解决的问题达成了一致意见&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_DymaUAejEduWycDgioo5rg" name="All key features of the system been identified and defined" guid="_DymaUAejEduWycDgioo5rg">
-    <sectionDescription>Do a completeness check, comparing the features with the problem statement, to make sure that you didn't miss a critical&#xD;
-feature.</sectionDescription>
-  </sections>
-  <sections xmi:id="_LRX5AAejEduWycDgioo5rg" name="The features solve the identified problems" guid="_LRX5AAejEduWycDgioo5rg">
-    <sectionDescription>Are all the features really necessary?&amp;nbsp; Perhaps you can reduce the scope.</sectionDescription>
-  </sections>
-  <sections xmi:id="_UGRdIAejEduWycDgioo5rg" name="The features are consistent with the identified constraints" guid="_UGRdIAejEduWycDgioo5rg">
+  <sections xmi:id="_jGUxYAeiEduWycDgioo5rg" name="利益相关人列表是完整且正确的" guid="_jGUxYAeiEduWycDgioo5rg">
     <sectionDescription>&lt;p>&#xD;
-    Check that conflicting requirements do not exist. If you find conflicts, resolve them now.&#xD;
+    确保没有遗漏利益相关人。如果遗漏了，会缺失需要考虑的视角。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_5y4uAAhUEduRe8TeoBmuGg" name="Someone unfamiliar with the project can understand the project objectives" guid="_5y4uAAhUEduRe8TeoBmuGg">
-    <sectionDescription>The purpose of the Vision document is to describe the objectives of the project in terms that non-technical people, who are&#xD;
-not closely involved with the project, can understand.</sectionDescription>
+  <sections xmi:id="_s-be8AeiEduWycDgioo5rg" name="所有人都同意系统边界的定义" guid="_s-be8AeiEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    定义系统边界，明确什么在内、什么在外。这是定义工作范围的关键步骤。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_z1uG4AeiEduWycDgioo5rg" name="已充分探索了系统约束" guid="_z1uG4AeiEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    不要忘记有关的非功能需求和约束。它们往往占用了开发最大的成本。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7KzeEAeiEduWycDgioo5rg" name="各种类型的约束，包括政治、经济和环境，都已经被覆盖" guid="_7KzeEAeiEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    这些非技术性约束常常导致后续问题。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_DymaUAejEduWycDgioo5rg" name="已经识别和定义了所有的系统关键特性" guid="_DymaUAejEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    做一次完整性检查，比较特性和问题描述，确信没有遗漏关键的特性。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_LRX5AAejEduWycDgioo5rg" name="这些特性解决了已识别的问题" guid="_LRX5AAejEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    是否所有的特性都是真正需要的？也许你可以缩减范围。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_UGRdIAejEduWycDgioo5rg" name="特性与识别的约束相一致" guid="_UGRdIAejEduWycDgioo5rg">
+    <sectionDescription>&lt;p>&#xD;
+    检查是否存在冲突的需求。如果存在，立刻解决。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_5y4uAAhUEduRe8TeoBmuGg" name="一个不熟悉项目的人能够理解项目目标" guid="_5y4uAAhUEduRe8TeoBmuGg">
+    <sectionDescription>&lt;p>&#xD;
+    愿景文档的目的是逐条描述项目目标，使没有技术背景的人、没有参与项目的人能够理解项目目标。&#xD;
+&lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:ContentDescription>

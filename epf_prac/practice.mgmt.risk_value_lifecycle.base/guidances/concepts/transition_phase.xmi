@@ -1,49 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-FrUmsKsGW4bnNmb9uaNOkg" name=",__ca5UBOMEduCNqgZdt_OaA" guid="-FrUmsKsGW4bnNmb9uaNOkg" changeDate="2008-02-24T08:16:27.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FrUmsKsGW4bnNmb9uaNOkg" name=",__ca5UBOMEduCNqgZdt_OaA" guid="-FrUmsKsGW4bnNmb9uaNOkg" changeDate="2013-07-13T16:45:36.001+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    The purpose in this phase is to ensure that the software is ready for delivery to users.&#xD;
+    此阶段的目的是确认软件已经做好交付给客户的准备。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    There are objectives for the Transition phase that help you to&amp;nbsp;fine-tune functionality, performance, and overall&#xD;
-    quality of the beta product from the end of&amp;nbsp;the previous phase &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
+    交付阶段的目标帮助你微调来自上一阶段的beta产品的功能、性能和质量&lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
     href=&quot;./../../../core.mgmt.common.base/guidances/supportingmaterials/references.mgmt_D80619F3.html#KRO03&quot;&#xD;
-    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[KRO03]&lt;/a>:&#xD;
+    guid=&quot;_JlTPUM6aEdyuBO4ZIzcyig&quot;>[KRO03]&lt;/a>：&#xD;
 &lt;/p>&#xD;
 &lt;ol>&#xD;
     &lt;li>&#xD;
         &lt;p>&#xD;
-            &lt;strong>Beta test to validate that user expectations are met.&lt;/strong> This typically requires some fine-tuning&#xD;
-            activities, such as bug-fixing and making enhancements for performance and usability.&#xD;
+            &lt;strong>进行Beta测试以验证是否符合用户期望&lt;/strong> - 这通常需要某些微调的活动，如缺陷修改以及增强性能和可用性。&#xD;
         &lt;/p>&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
         &lt;p>&#xD;
-            &lt;strong>Achieve stakeholder concurrence that deployment is complete.&lt;/strong> This may involve various levels&#xD;
-            of tests for product acceptance, including formal and informal tests and beta tests.&#xD;
+            &lt;strong>获得利益相关人的同意从而结束部署&lt;/strong> - 这可能涉及对产品不同层次的验收测试，包括正式的和非正式的测试以及Beta测试。&#xD;
         &lt;/p>&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        &lt;p>&#xD;
-            &lt;strong>Improve future project performance through lessons learned.&lt;/strong> Document lessons learned and&#xD;
-            improve the process and tool environment for the project.&#xD;
-        &lt;/p>&#xD;
+        &lt;strong>通过经验总结改进未来项目的性能&lt;/strong> - 记录经验教训，并改进项目的过程和工具环境。&#xD;
     &lt;/li>&#xD;
 &lt;/ol>&#xD;
 &lt;h4>&#xD;
-    Key considerations&#xD;
+    关键因素&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
-    The Transition phase can include running old and new systems in parallel, migrating data, training users, and adjusting&#xD;
-    business processes.&#xD;
+    交付阶段可能包括并行的运行新、旧系统，迁移数据、培训用户，以及调整业务流程。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The number of iterations in the Transition phase varies from one iteration for a simple system requiring primarily&#xD;
-    minor bug fixing, to many iterations for a complex system, involving addition of features and performing activities to&#xD;
-    make the business transition from using the old system to using the new system.&#xD;
+    交付阶段的迭代次数可以从主要修复小缺陷的简单系统需要的一次迭代，到针对复杂系统需要的多次迭代，涉及到所增加的特性，以及从旧系统到新系统的业务迁移活动。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    When the Transition phase objectives are met, the project can be closed.&amp;nbsp;For some products, the end of the current&#xD;
-    project lifecycle may coincide with the beginning of the next lifecycle, leading to the next generation of the same&#xD;
-    product.&#xD;
+    当满足交付阶段的目标时，项目可以关闭。对于某些项目，当前项目生命周期的的结束的同时，可能启动同一产品新下一代版本的生命周期。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

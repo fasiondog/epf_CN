@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9S-U4LekEd-D7YZN9NgldQ" guid="_9S-U4LekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-ypX4LekEd-D7YZN9NgldQ" id="_zHTQUKYSEdmvhNXG0Oc2uA" uri="workproducts/vision.xmi"/>
     <resourceDescriptors xmi:id="_-y8S0LekEd-D7YZN9NgldQ" id="-_dNuyh-0q5vpCiIiLfbj6w" uri="workproducts/system_wide_requirements.xmi"/>
@@ -87,7 +87,7 @@
     <resourceDescriptors xmi:id="_-5zIwrekEd-D7YZN9NgldQ" id="-BYG2r_TAmU4OL3BapLIU1A" uri="guidances/examples/uc_spec_validate_user.xmi"/>
     <resourceDescriptors xmi:id="_-58SsLekEd-D7YZN9NgldQ" id="-xHyqz01D_uL6xXLgQUG7Tw" uri="guidances/examples/uc_withdraw_cash_outline.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_OOB2AAouEdyhlpBPrduOMw" name="core.tech.common.extend_supp" guid="_OOB2AAouEdyhlpBPrduOMw" presentationName="Technical Common (Extend-SUPP)" briefDescription="This plug-in defines technical work products and guidance that is shared across practices." changeDate="2008-08-14T05:25:14.000-0700" supporting="true">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_OOB2AAouEdyhlpBPrduOMw" name="core.tech.common.extend_supp" guid="_OOB2AAouEdyhlpBPrduOMw" presentationName="Technical Common (Extend-SUPP)" briefDescription="This plug-in defines technical work products and guidance that is shared across practices." changeDate="2008-08-14T20:25:14.000+0800" supporting="true">
     <methodElementProperty xmi:id="_-gnMv7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K8LekEd-D7YZN9NgldQ" name="Content" guid="_9S1K8LekEd-D7YZN9NgldQ">
@@ -112,7 +112,8 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9S1K-7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9S1K-7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_RhLBwAouEdyhlpBPrduOMw" name="technical_work_products" guid="_RhLBwAouEdyhlpBPrduOMw" presentationName="Technical Work Products">
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WVxcMlgEdmt3adZL5Dmdw" name="vision" guid="_0WVxcMlgEdmt3adZL5Dmdw" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." checklists="_0WoFUMlgEdmt3adZL5Dmdw" templates="_DtlRQI5gEdyO5aWob1UGDA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WVxcMlgEdmt3adZL5Dmdw" name="vision" guid="_0WVxcMlgEdmt3adZL5Dmdw" presentationName="愿景" briefDescription="此工件定义了利益相关人和待开发的技术解决方案的视图。此视图是依据利益相关人的关键需要和特性制定的。愿景概述了对系统核心需求的展望。" checklists="_0WoFUMlgEdmt3adZL5Dmdw" templates="_DtlRQI5gEdyO5aWob1UGDA">
+            <methodElementProperty xmi:id="_MPezcOvUEeKna71GZFtYEA" name="me_edited" value="true"/>
             <presentation xmi:id="_zHTQUKYSEdmvhNXG0Oc2uA" href="uma://_zHTQUKYSEdmvhNXG0Oc2uA#_zHTQUKYSEdmvhNXG0Oc2uA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BVh9cL-CEdqb7N6KIeDL8Q" name="system_wide_requirements" guid="_BVh9cL-CEdqb7N6KIeDL8Q" presentationName="System-Wide Requirements" briefDescription="This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements." guidelines="_6jXzYNcKEdqz_d2XWoVt6Q" templates="_m7p-AI5fEdyO5aWob1UGDA">
@@ -127,7 +128,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_KudM0NcJEdqz_d2XWoVt6Q" name="use_case" guid="_KudM0NcJEdqz_d2XWoVt6Q" presentationName="Use Case" briefDescription="A use case describes what the system must do to provide value to the stakeholders." conceptsAndPapers="_0Wh-sMlgEdmt3adZL5Dmdw _zGqO0MDpEduTGJ8i4u8TMw">
             <presentation xmi:id="-BQLZ5GRUNrMdU6XeZAfe9Q" href="uma://-BQLZ5GRUNrMdU6XeZAfe9Q#-BQLZ5GRUNrMdU6XeZAfe9Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0WoFUMlgEdmt3adZL5Dmdw" name="vision" guid="_0WoFUMlgEdmt3adZL5Dmdw" presentationName="Vision" briefDescription="This check list provides questions to verify that the Vision is described in a consistent and complete manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0WoFUMlgEdmt3adZL5Dmdw" name="vision" guid="_0WoFUMlgEdmt3adZL5Dmdw" presentationName="愿景" briefDescription="此检查单提供了一些问题，用来验证愿景描述的一致性和完整性。">
+            <methodElementProperty xmi:id="_X6GqsOvYEeKna71GZFtYEA" name="me_edited" value="true"/>
             <presentation xmi:id="_qktWQMM0EdmSIPI87WLu3g" href="uma://_qktWQMM0EdmSIPI87WLu3g#_qktWQMM0EdmSIPI87WLu3g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2jyfUAhVEduRe8TeoBmuGg" name="use_case_model" guid="_2jyfUAhVEduRe8TeoBmuGg" presentationName="Use-Case Model" briefDescription="This artifact is a model of the system's intended functions and its surroundings, and serves as a contract between the customer and the project team.">
@@ -354,7 +356,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_3Y3XUI5fEdyO5aWob1UGDA" name="use_case_specification" guid="_3Y3XUI5fEdyO5aWob1UGDA" presentationName="Use-Case Specification" briefDescription="This is the informal template suggested for representing a use case specification." examples="_JLOiIMNvEdu2IdAIaWZyAw">
             <presentation xmi:id="-zGnAaKUwKnn2pPANr7E0MQ" href="uma://-zGnAaKUwKnn2pPANr7E0MQ#-zGnAaKUwKnn2pPANr7E0MQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_DtlRQI5gEdyO5aWob1UGDA" name="vision" guid="_DtlRQI5gEdyO5aWob1UGDA" presentationName="Vision" briefDescription="This is the informal template suggested for representing the Vision document.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_DtlRQI5gEdyO5aWob1UGDA" name="vision" guid="_DtlRQI5gEdyO5aWob1UGDA" presentationName="愿景" briefDescription="这是建议的表示愿景文档的非正式模板。">
+            <methodElementProperty xmi:id="_zKFDAOvYEeKna71GZFtYEA" name="me_edited" value="true"/>
             <presentation xmi:id="-DUD2tbhBn23i6Jm6gcoN9Q" href="uma://-DUD2tbhBn23i6Jm6gcoN9Q#-DUD2tbhBn23i6Jm6gcoN9Q"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t4QdAMNqEdu2IdAIaWZyAw" name="uc_model_evolve" guid="_t4QdAMNqEdu2IdAIaWZyAw" presentationName="Evolution of the Use-Case Model" briefDescription="This example illustrates how the use-case model evolves over time when you use a &amp;quot;breadth before depth&amp;quot; approach to maximize value and minimize risk early in the lifecycle and to minimize re-work later." examples="_jiwo4IHGEd6NhZnUM27HMQ _MNZ2kIHHEd6NhZnUM27HMQ _gbL6UIHOEd6NhZnUM27HMQ _nwykAIHQEd6NhZnUM27HMQ _BkKmAIHSEd6NhZnUM27HMQ _7MzegIHVEd6NhZnUM27HMQ">

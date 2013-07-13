@@ -1,72 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iOn7_gfX_iELWRNGJ2JKPQ" name="glossary,_Wn7HcNcEEdqz_d2XWoVt6Q" guid="-iOn7_gfX_iELWRNGJ2JKPQ" changeDate="2008-08-15T00:43:08.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iOn7_gfX_iELWRNGJ2JKPQ" name="glossary,_Wn7HcNcEEdqz_d2XWoVt6Q" guid="-iOn7_gfX_iELWRNGJ2JKPQ" changeDate="2013-07-13T20:11:06.068+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+    此工件通过提供两个基础资源帮助避免误解：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        A central location to look for terms and abbreviations that are new to development team members&#xD;
+        可供新的开发团队成员查询术语和缩略语的集中的地点&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Definitions of terms that are used in specific ways within the domain&#xD;
+        在领域内以特定的方式使用的术语定义&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
-    discussions with stakeholders and domain experts.&#xD;
+    术语定义有不同的来源，例如需求文档、规格说明，以及和利益相关人、领域专家的讨论。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
-    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
-    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
-    are being used consistently.&#xD;
+    尽管此工件被当做需求规程里相关任务的输入、输出被列出，但它可以在任何时间、由任何角色进行更新，只要识别出新的术语。在所有的项目文档中使用这些定义的术语，从而使利益相关人可以清晰的看见这些术语被一致的使用。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
-    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
-    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+    在开发此工件时，有一个主要的决策，是使用单一的术语表，还是在多份不同的术语表（业务术语、工件和模型）中进行记录术语。如果它们在多个地方中定义，你需要和团队沟通所有的来源并确定它们的优先顺序。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
-    artifacts, or data models, where they exist.&#xD;
+    这可能很重要，即使在小项目中，引用和使用已存在的广泛术语表、业务术语工件、或数据模型，在它们存在的地方。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
-    required.&#xD;
+    针对行业或组织的术语表可能被引用，并需要遵循特定的标准。&#xD;
 &lt;/p></keyConsiderations>
   <purpose>&lt;p>&#xD;
-    These are the purposes of&amp;nbsp;this artifact:&#xD;
+    此工件的目的：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        To record the terms that are being used on the project so that everyone has a common understanding of them&#xD;
+        记录项目中正在使用的术语，以使每个人对其有共同的理解。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        To achieve consistency by promoting the use of common terminology across the project&#xD;
+        通过推广使用跨项目的共同术语，以实现一致性&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        To make explicit different stakeholders' use of the same terms to mean different things or different terms to mean&#xD;
-        the same thing&#xD;
+        显示的明确：不同的利益相关人使用相同的术语表达不同的事物，或者使用不同的术语表达相同的事物&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        To provide important terms to the Analysis and Design team.&#xD;
+        为分析和设计团队提供重要的术语&#xD;
     &lt;/li>&#xD;
 &lt;/ul></purpose>
-  <impactOfNotHaving>Misunderstandings about the meanings of data items account for many failed projects. Increased costs and delayed schedules&#xD;
-are associated with projects that lack a common understanding of the terms being used.</impactOfNotHaving>
+  <impactOfNotHaving>&lt;p>&#xD;
+    在许多失败的项目中出现的有关对数据项含义的误解。成本增加，进度延迟和那些缺乏达成共识的术语的项目有关。&#xD;
+&lt;/p></impactOfNotHaving>
   <reasonsForNotNeeding>&lt;p>&#xD;
-    On small projects (for example,&amp;nbsp;enhancement projects), which rely on a team very familiar with the terms, this&#xD;
-    artifact may be omitted.&#xD;
+    在小型的项目（如，增强型项目）中，团队对术语非常熟悉，可以省略此工件。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If a project team has access to the glossary terms in some other form, this&amp;nbsp;artifact may be&#xD;
-    disregarded.&amp;nbsp;&amp;nbsp;&#xD;
-&lt;/p>&lt;br /></reasonsForNotNeeding>
+    如果项目团队已经可以通过其他形式获取术语列表，该工件可以被忽略。&#xD;
+&lt;/p>&#xD;
+&lt;br /></reasonsForNotNeeding>
   <briefOutline>&lt;p>&#xD;
-    A project glossary defines the terms used during all phases of the project. There is a short definition for each term.&#xD;
+    项目术语表定义了在整个项目周期中使用的术语。对每个术语有一个简单的定义。&#xD;
 &lt;/p></briefOutline>
   <representationOptions>&lt;p>&#xD;
-    This is a simple alphabetical listing of domain terms and their definitions. It can be captured in a spreadsheet,&#xD;
-    document, or published on a Wiki site to simplify access and maintenance.&#xD;
+    这是一个简单的按首字母排序的领域术语及其定义的列表。可以使用电子表格、文档，或发布在Wiki站点上方便存取和维护。&#xD;
 &lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>
