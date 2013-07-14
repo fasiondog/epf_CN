@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9TbA0LekEd-D7YZN9NgldQ" guid="_9TbA0LekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-6GDsLekEd-D7YZN9NgldQ" id="-jbCbONi6H6_jHT7i7yGLtQ" uri="workproducts/technical_specification_slot.xmi"/>
     <resourceDescriptors xmi:id="_-6GDsbekEd-D7YZN9NgldQ" id="-OEaOjKP9J283DeVnMku6nA" uri="workproducts/technical_design_slot.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_-bv0ELXuEduGP_98XMd0fg" name="core.tech.slot.base" guid="_-bv0ELXuEduGP_98XMd0fg" presentationName="Technical Slot" briefDescription="This plug-in defines the technical slots." changeDate="2007-08-05T07:25:00.000-0700" supporting="true">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_-bv0ELXuEduGP_98XMd0fg" name="core.tech.slot.base" guid="_-bv0ELXuEduGP_98XMd0fg" presentationName="Technical Slot" briefDescription="This plug-in defines the technical slots." changeDate="2007-08-05T22:25:00.000+0800" supporting="true">
     <methodElementProperty xmi:id="_-gnMwLekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR24LekEd-D7YZN9NgldQ" name="Content" guid="_9TR24LekEd-D7YZN9NgldQ">
@@ -23,13 +23,21 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9TR267ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9TR267ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__wRXALXuEduGP_98XMd0fg" name="technical_work_product_slots" guid="__wRXALXuEduGP_98XMd0fg" presentationName="Technical Work Product Slots" briefDescription="This package contains the work products that cross practices.  They are organized into content packages that are associated with the practices that produce them.">
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8OD-cLPTEduocbW-TPTq7A" name="technical_architecture_slot" guid="_8OD-cLPTEduocbW-TPTq7A" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isAbstract="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i3vkoLS-EduDY8LNbMCDBA" name="technical_specification_slot" guid="_i3vkoLS-EduDY8LNbMCDBA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isAbstract="true">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_8OD-cLPTEduocbW-TPTq7A" name="technical_architecture_slot" guid="_8OD-cLPTEduocbW-TPTq7A" presentationName="[技术-架构]" briefDescription="该槽为一个抽象的高层工件集，代表了架构的文档。" isAbstract="true">
+            <methodElementProperty xmi:id="_6IR34OxfEeKEiq3hWmSRfw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_i3vkoLS-EduDY8LNbMCDBA" name="technical_specification_slot" guid="_i3vkoLS-EduDY8LNbMCDBA" presentationName="[技术-规格]" briefDescription="该槽作为一个抽象的高层工件集描述解决方案的需求、约束和目标。" isAbstract="true">
+            <methodElementProperty xmi:id="_tK0fwOxbEeKEiq3hWmSRfw" name="me_edited" value="true"/>
             <presentation xmi:id="-jbCbONi6H6_jHT7i7yGLtQ" href="uma://-jbCbONi6H6_jHT7i7yGLtQ#-jbCbONi6H6_jHT7i7yGLtQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Vux8UEfUEdyiPI8btkmvmw" name="technical_implementation_slot" guid="_Vux8UEfUEdyiPI8btkmvmw" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isAbstract="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fahB0EfUEdyiPI8btkmvmw" name="technical_test_results_slot" guid="_fahB0EfUEdyiPI8btkmvmw" presentationName="[Technical Test Results]" briefDescription="This slot serves as an abstraction of high level artifacts that define the results of testing the hardware and software for the system being developed." isAbstract="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IcQOUEqdEdyi3_jfs__bIQ" name="technical_design_slot" guid="_IcQOUEqdEdyi3_jfs__bIQ" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isAbstract="true">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Vux8UEfUEdyiPI8btkmvmw" name="technical_implementation_slot" guid="_Vux8UEfUEdyiPI8btkmvmw" presentationName="[技术-实现]" briefDescription="该槽包括了代表技术实现的工件，包括源代码、可执行代码、数据以及软/硬件配置。" isAbstract="true">
+            <methodElementProperty xmi:id="_6IghYOxfEeKEiq3hWmSRfw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fahB0EfUEdyiPI8btkmvmw" name="technical_test_results_slot" guid="_fahB0EfUEdyiPI8btkmvmw" presentationName="[技术-测试结果]" briefDescription="该槽为一个抽象的高层工件集，定义了对所开发的硬件和软件的测试结果。" isAbstract="true">
+            <methodElementProperty xmi:id="_6In2IOxfEeKEiq3hWmSRfw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IcQOUEqdEdyi3_jfs__bIQ" name="technical_design_slot" guid="_IcQOUEqdEdyi3_jfs__bIQ" presentationName="[技术-设计]" briefDescription="该槽为描述系统功能实现的抽象的高层工件集，也是一个解决方案的抽象。" isAbstract="true">
+            <methodElementProperty xmi:id="_6IZMoOxfEeKEiq3hWmSRfw" name="me_edited" value="true"/>
             <presentation xmi:id="-OEaOjKP9J283DeVnMku6nA" href="uma://-OEaOjKP9J283DeVnMku6nA#-OEaOjKP9J283DeVnMku6nA"/>
           </contentElements>
         </childPackages>

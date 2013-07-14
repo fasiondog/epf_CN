@@ -49,7 +49,8 @@
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_B3azkMh5EdygFZkm1d5NtQ" name="template_report_and_examples" guid="_B3azkMh5EdygFZkm1d5NtQ" presentationName="Template, Report, and Examples">
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Nzv5kDoAEdusGsHODb-STA" name="project_plan" guid="_Nzv5kDoAEdusGsHODb-STA" presentationName="Project Plan" briefDescription="This is an example of a project plan taken from the Eclipse Process Framework project.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Nzv5kDoAEdusGsHODb-STA" name="project_plan" guid="_Nzv5kDoAEdusGsHODb-STA" presentationName="项目计划" briefDescription="这是Eclipse Process Framework项目的项目计划示例。">
+              <methodElementProperty xmi:id="_WQyMIOyLEeKYneof16PLgw" name="me_edited" value="true"/>
               <presentation xmi:id="-IdlCQXdDNYGrGJU4TBwvCA" href="uma://-IdlCQXdDNYGrGJU4TBwvCA#-IdlCQXdDNYGrGJU4TBwvCA"/>
             </contentElements>
           </childPackages>

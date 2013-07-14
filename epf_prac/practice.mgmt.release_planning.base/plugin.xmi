@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9WjNX7ekEd-D7YZN9NgldQ" guid="_9WjNX7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__AzIoLekEd-D7YZN9NgldQ" id="-FMA7pB1MClBDXVA8-A8D2A" uri="guidances/supportingmaterials/release_info_release_planning.xmi"/>
     <resourceDescriptors xmi:id="__AzIobekEd-D7YZN9NgldQ" id="_XjOXcMM2EdmSIPI87WLu3g" uri="guidances/templates/project_plan.xmi"/>
@@ -13,7 +13,7 @@
     <resourceDescriptors xmi:id="__BZlkLekEd-D7YZN9NgldQ" id="-txho2faQkfNfyMw-X-Y_aA" uri="guidances/practices/release_planning.xmi"/>
     <resourceDescriptors xmi:id="__BZlkbekEd-D7YZN9NgldQ" id="_IbVp8KX4EdmvhNXG0Oc2uA" uri="workproducts/project_plan.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_nKS10J6YEdyQN-zRFaRrCQ" name="practice.mgmt.release_planning.base" guid="_nKS10J6YEdyQN-zRFaRrCQ" presentationName="Release Planning" briefDescription="Do release-level planning and define long term coarse schedule." changeDate="2008-02-22T09:29:17.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_nKS10J6YEdyQN-zRFaRrCQ" name="practice.mgmt.release_planning.base" guid="_nKS10J6YEdyQN-zRFaRrCQ" presentationName="Release Planning" briefDescription="Do release-level planning and define long term coarse schedule." changeDate="2008-02-23T01:29:17.000+0800">
     <methodElementProperty xmi:id="_-gnMx7ekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9WjNULekEd-D7YZN9NgldQ" name="Content" guid="_9WjNULekEd-D7YZN9NgldQ">
@@ -38,20 +38,25 @@
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_A7xlwDNYEd22VN1l0Y4pLw" name="template_report_and_examples" guid="_A7xlwDNYEd22VN1l0Y4pLw" presentationName="Template, Report, and Examples">
-            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_0c7hoMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0c7hoMlgEdmt3adZL5Dmdw" presentationName="Project Plan" briefDescription="This is the informal template for representing the project plan.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_0c7hoMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0c7hoMlgEdmt3adZL5Dmdw" presentationName="项目计划" briefDescription="这是建议的一个非正式的项目计划模板。">
+              <methodElementProperty xmi:id="_iEM-kOyFEeKYneof16PLgw" name="me_edited" value="true"/>
               <presentation xmi:id="_XjOXcMM2EdmSIPI87WLu3g" href="uma://_XjOXcMM2EdmSIPI87WLu3g#_XjOXcMM2EdmSIPI87WLu3g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Yiq2EDcGEdyTZ9G7ByfQTw" name="project_burndown_report_example" guid="_Yiq2EDcGEdyTZ9G7ByfQTw" presentationName="Project Burndown Report" briefDescription="This is an example of a project burndown report.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_Yiq2EDcGEdyTZ9G7ByfQTw" name="project_burndown_report_example" guid="_Yiq2EDcGEdyTZ9G7ByfQTw" presentationName="项目燃尽报告" briefDescription="项目燃尽报告示例">
+              <methodElementProperty xmi:id="_a8yBMOyLEeKYneof16PLgw" name="me_edited" value="true"/>
               <presentation xmi:id="-ThmcJuMmkwabvA7gn7hC6g" href="uma://-ThmcJuMmkwabvA7gn7hC6g#-ThmcJuMmkwabvA7gn7hC6g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_ePrt8Dj3EduxovfWMDsntw" name="project_burndown" guid="_ePrt8Dj3EduxovfWMDsntw" presentationName="Project Burndown" briefDescription="This report is an effective way of communicating project progress. Trends are measured so better predictions and estimates can be made." examples="_Yiq2EDcGEdyTZ9G7ByfQTw">
+            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_ePrt8Dj3EduxovfWMDsntw" name="project_burndown" guid="_ePrt8Dj3EduxovfWMDsntw" presentationName="项目燃尽报告" briefDescription="此报告是沟通项目进展的有效方式。度量趋势比通过预测和估计做的效果更好。" examples="_Yiq2EDcGEdyTZ9G7ByfQTw">
+              <methodElementProperty xmi:id="_fWDHgOyLEeKYneof16PLgw" name="me_edited" value="true"/>
               <presentation xmi:id="-hrDndmFd0zexB0HNYX3gww" href="uma://-hrDndmFd0zexB0HNYX3gww#-hrDndmFd0zexB0HNYX3gww"/>
             </contentElements>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_-qtjsAasEdy1uLAzgK8btg" name="project_plan" guid="_-qtjsAasEdy1uLAzgK8btg" presentationName="Project Plan" briefDescription="This check list provides questions to verify that project plans are created in a consistent manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_-qtjsAasEdy1uLAzgK8btg" name="project_plan" guid="_-qtjsAasEdy1uLAzgK8btg" presentationName="项目计划" briefDescription="此检查单罗列一系列问题，验证是否已一致的方式创建了项目计划。">
+            <methodElementProperty xmi:id="_gPjPcOyYEeKYneof16PLgw" name="me_edited" value="true"/>
             <presentation xmi:id="-iMEYJ2Jbm9S8GihBKFOaFA" href="uma://-iMEYJ2Jbm9S8GihBKFOaFA#-iMEYJ2Jbm9S8GihBKFOaFA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0lC70MlgEdmt3adZL5Dmdw" name="plan_the_project" guid="_0lC70MlgEdmt3adZL5Dmdw" presentationName="Plan Project" briefDescription="A collaborative task that outlines an initial agreement on how the project will achieve its goals. The resulting project plan provides a summary-level overview of the project." output="_0a6vcMlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0lC70MlgEdmt3adZL5Dmdw" name="plan_the_project" guid="_0lC70MlgEdmt3adZL5Dmdw" presentationName="项目策划" briefDescription="一个协作的任务，概括的描述了有关项目如何实现其目标的初始一致意见。项目策划的结果提供了项目总体的概要描述。" output="_0a6vcMlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_l7UI8OxXEeKEiq3hWmSRfw" name="me_edited" value="true"/>
             <presentation xmi:id="_fPbdIKe2Edmzde8VFK5bxg" href="uma://_fPbdIKe2Edmzde8VFK5bxg#_fPbdIKe2Edmzde8VFK5bxg"/>
             <guidelines href="#_Jq64EJjsEduad8I_c-ogIA"/>
             <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
@@ -79,7 +84,8 @@
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0mYYkMlgEdmt3adZL5Dmdw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_Jq64EJjsEduad8I_c-ogIA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a6vcMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0a6vcMlgEdmt3adZL5Dmdw" presentationName="Project Plan" briefDescription="This artifact gathers all of the information required to manage the project on a strategic level. Its main part consists of a coarse-grained plan, identifying project iterations and their goals." checklists="_-qtjsAasEdy1uLAzgK8btg" examples="_Yiq2EDcGEdyTZ9G7ByfQTw" reports="_ePrt8Dj3EduxovfWMDsntw" templates="_0c7hoMlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0a6vcMlgEdmt3adZL5Dmdw" name="project_plan" guid="_0a6vcMlgEdmt3adZL5Dmdw" presentationName="项目计划" briefDescription="此工件在战略层面收集了管理项目所要求的所有信息。其主要部分包含了一个粗粒度的计划、确定项目的迭代和它们的目标。" checklists="_-qtjsAasEdy1uLAzgK8btg" examples="_Yiq2EDcGEdyTZ9G7ByfQTw" reports="_ePrt8Dj3EduxovfWMDsntw" templates="_0c7hoMlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_fC29MOx0EeKEiq3hWmSRfw" name="me_edited" value="true"/>
             <presentation xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" href="uma://_IbVp8KX4EdmvhNXG0Oc2uA#_IbVp8KX4EdmvhNXG0Oc2uA"/>
             <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
           </contentElements>

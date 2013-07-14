@@ -22,7 +22,7 @@
       <templates href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_QwUJYDg0Edu4E8ZdmlYjtA"/>
       <WorkProduct href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="其它执行任务" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__ZInMdOEEdyqlogshP8l4g" name="ongoing_tasks" guid="__ZInMdOEEdyqlogshP8l4g" presentationName="持续进行的任务" briefDescription="Perform ongoing tasks that are not necessarily part of the project schedule." isPlanned="false" breakdownElements="_HGqkMNnTEdyNj6EOmqy5Rg _HGqkMdnTEdyNj6EOmqy5Rg">
       <presentation xmi:id="-aXudKqi6rjimd3UsF0smZA" href="uma://-aXudKqi6rjimd3UsF0smZA#-aXudKqi6rjimd3UsF0smZA"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

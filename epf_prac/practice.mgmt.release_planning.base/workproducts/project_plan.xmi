@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" name="project_plan,_0a6vcMlgEdmt3adZL5Dmdw" guid="_IbVp8KX4EdmvhNXG0Oc2uA" changeDate="2009-11-23T06:59:45.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_IbVp8KX4EdmvhNXG0Oc2uA" name="project_plan,_0a6vcMlgEdmt3adZL5Dmdw" guid="_IbVp8KX4EdmvhNXG0Oc2uA" changeDate="2013-07-14T19:22:47.382+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This artifact describes how the project is organized, and identifies what practices will be followed. Additionally, it&#xD;
-    defines the parameters for tracking project progress, and specifies the high-level objectives of the iterations and&#xD;
-    their milestones.&#xD;
+    此工件描述了项目如何被组织，并定义了将采用的实践。此外，还定义了跟踪项目进展的参数，以及迭代的高层目标和它们的里程碑。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The project plan allows stakeholders and other team members to understand the big picture and, roughly, when to expect&#xD;
-    a certain level of functionality be available.&amp;nbsp;Update the plan&amp;nbsp;as often as necessary, usually at the end of&#xD;
-    each iteration, in order to reflect changing priorities and needs, as well as record the lessons learned from the&#xD;
-    project.&#xD;
+    该项目计划允许利益相关人和其他团体成员理解项目整体的整体视图及概况。为了不断的反应变化的优先级和需要以及记录项目的经验教训，应在需要时常更新此计划，这通常发生在每次迭代结束时。&#xD;
 &lt;/p></mainDescription>
-  <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in&#xD;
-order to make sure that everybody agrees with it.</keyConsiderations>
+  <keyConsiderations>&lt;p>&#xD;
+    在计划会议中创建并更新项目计划，会议参与人包括整个团队和合适的项目利益相关人，以保证每一个人都同意此计划。&#xD;
+&lt;/p></keyConsiderations>
   <purpose>&lt;p>&#xD;
-    The purpose of this artifact is&amp;nbsp;to provide a central document where any project team member can find the&#xD;
-    information on how the project will be conducted.&amp;nbsp;&#xD;
+    此工件的目的是提供一个集中的文档，以使任何项目成员能够从其中找到项目如何管理执行的信息。&#xD;
 &lt;/p></purpose>
-  <impactOfNotHaving>Without this artifact, there can be a lack of clear boundaries of the project scope that can lead to: &#xD;
+  <impactOfNotHaving>&lt;p>&#xD;
+    没有该工件，可能因项目缺少清晰的边界，而导致：&#xD;
+&lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Risks of gaps or overlap between the roles acting on the project&#xD;
+        项目中的角色存在覆盖或与期望存在差距&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Poorly defined or inadequate plan for the project&#xD;
+        不充分或不确定的项目计划&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Subsequent difficulties in controlling the project&#xD;
+        在控制项目时出现困难&#xD;
     &lt;/li>&#xD;
 &lt;/ul></impactOfNotHaving>
-  <reasonsForNotNeeding>This artifact is typically required in some form on all but the smallest projects.&amp;nbsp; However, projects taking a purely&#xD;
-evolutionary or maintenance approach to development may choose to omit this artifact.</reasonsForNotNeeding>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    此工件通常有某种形式要求，除了非常微小的项目。然而，当项目采取纯粹的升级（进化）方式或维护方式，则可能省略该工件。&#xD;
+&lt;/p></reasonsForNotNeeding>
 </org.eclipse.epf.uma:ArtifactDescription>

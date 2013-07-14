@@ -1,96 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2008-07-14T01:50:23.000-0700" version="1.0.0">
-  <mainDescription>Developing the project plan provides an opportunity for the team to agree on project scope, objectives, initial timeframe,&#xD;
-and deliverables. It allows the team to begin demonstrating self-organization by defining success criteria and work&#xD;
-practices to be used. Collaboration and consensus by all key project participants is the goal, but the role responsible for&#xD;
-this task must ensure that everybody is committed to the plan.</mainDescription>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_fPbdIKe2Edmzde8VFK5bxg" name="plan_the_project,_0lC70MlgEdmt3adZL5Dmdw" guid="_fPbdIKe2Edmzde8VFK5bxg" changeDate="2013-07-14T15:32:50.721+0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    开发项目计划为团队提供了对项目范围、目标、初始时间窗和交付物达成一致意见的机会。它允许团队通过定义成功标准和使用的工作实践来演示其自组织。所有项目关键参与者的协作和共识是此活动的目标，但负责此活动的角色（项目经理）必须确保每个人都致力于该计划。&#xD;
+&lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    Gain agreement with stakeholders and the rest of the project team regarding the order of objectives and the duration of&#xD;
-    the project. Make adjustments as&amp;nbsp;necessary.&#xD;
+    获得利益相关人和项目团体其他成员对项目目标和持续时间的一致同意。需要的话，进行调整。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_gu-PgIyBEdyhZb-MhCJrlA" name="Identify a cohesive team" guid="_gu-PgIyBEdyhZb-MhCJrlA">
-    <sectionDescription>Revisit the resourcing for the project.&amp;nbsp;Identify gaps and initiate hiring or re-allocation of resources as needed.&#xD;
-Discuss with the team who plays which roles, and have them agree on their responsibilities.</sectionDescription>
-  </sections>
-  <sections xmi:id="_jknm8IyBEdyhZb-MhCJrlA" name="Estimate project size" guid="_jknm8IyBEdyhZb-MhCJrlA">
+  <sections xmi:id="_gu-PgIyBEdyhZb-MhCJrlA" name="确定一个有凝聚力的团队" guid="_gu-PgIyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p>&#xD;
-    The&amp;nbsp;team produces rough size estimates for each work item&amp;nbsp;found in the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
-    Work]&lt;/a>.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Discuss with stakeholders to&amp;nbsp;determine what is realistic to develop within the constraints of the&#xD;
-    project.&amp;nbsp;Use stakeholder priorities and estimates from the team to guide these discussions.&#xD;
+    重新讨论项目的资源分配。识别缺口，需要的话，启动招聘或重新分配资源。同团结讨论，谁将扮演什么角色，并得到他们对职责的认可。&lt;br />&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_4Xg3QOFpEdyhmsbt0Xyl8A" name="Forecast project velocity and duration" guid="_4Xg3QOFpEdyhmsbt0Xyl8A">
+  <sections xmi:id="_jknm8IyBEdyhZb-MhCJrlA" name="估算项目规模" guid="_jknm8IyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p>&#xD;
-    Define the iteration length and use it to assess target velocity. The number of items to be delivered in each iteration&#xD;
-    will be set by the velocity of the team and the estimates for each item.&#xD;
+    团队为每个工作项粗略的估算其规模。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If the project is feature-driven, the team uses the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
-    Work]&lt;/a>&amp;nbsp;and target velocity to forecast the number of iterations required to complete the project. If the&#xD;
-    project instead is date-driven, the team assesses (using the known velocity of the&amp;nbsp;team) roughly how much work can&#xD;
-    be done in the given time-frame. Out-of-scope work can be considered&amp;nbsp;for future releases.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    The team should not spend too much time&amp;nbsp;doing this planning. The project plan should document only&amp;nbsp;a brief&#xD;
-    summary of&amp;nbsp;project milestones&amp;nbsp;and between one and three objectives for each iteration. Do not commit&#xD;
-    individual work items to the plan, because this will force too much re-planning. The goal is just to create a&#xD;
-    high-level plan outlining how&amp;nbsp;the team&amp;nbsp;can build the resulting application in the given set of iterations.&#xD;
-    Extra levels of detail will be achieved in other planning sessions throughout the project (for example, when planning&#xD;
-    iterations). You may need to revisit&amp;nbsp;this plan&amp;nbsp;later to adapt it based on what you will&#xD;
-    learn&amp;nbsp;by&amp;nbsp;running&amp;nbsp;the iterations.&#xD;
+    同利益相关人讨论确定在项目约束中开发什么是现实的。使用利益相关人优先级和来自团队的估算来指导这些讨论。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_lrYj0MBAEdqSgKaj2SZBmg" name="Evaluate risks" guid="_lrYj0MBAEdqSgKaj2SZBmg">
+  <sections xmi:id="_4Xg3QOFpEdyhmsbt0Xyl8A" name="预测项目速率和持续时间" guid="_4Xg3QOFpEdyhmsbt0Xyl8A">
     <sectionDescription>&lt;p>&#xD;
-    The team identifies project risks, performs a qualitative risk analysis to assess their order of magnitude, and updates&#xD;
-    the&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_risk_slot_FC0351C4.html&quot;&#xD;
-    guid=&quot;_0TkXgNpUEdyzZqGyZ7hwdw&quot;>[Project Risk]&lt;/a>. The project manager facilitates the team decision about which risks&#xD;
-    they should respond to, and which risks they should watch for.&#xD;
+    定义迭代的长度并使用它来获取速率目标。每个迭代中交付的工件数量决定了团队的生产速度，这对它们每一项进行估算。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Responses may include avoiding or mitigating risks, exploring opportunities, or increasing the probability and positive&#xD;
-    impacts of the risk. Depending on the case, work items may have to be added or removed from the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
-    Work]&lt;/a> to make sure that responses will be prioritized and handled by the team along with other project work.&#xD;
-    Because it is not feasible to plan responses for all identified risks, the team&amp;nbsp;may decide to accept some of them.&#xD;
-    Keep the risks to watch in the risks list, and communicate them to stakeholders.&amp;nbsp;Determine actions only if they&#xD;
-    occur.&#xD;
-&lt;/p></sectionDescription>
-  </sections>
-  <sections xmi:id="_xWBhUIyBEdyhZb-MhCJrlA" name="Establish costs and articulate value" guid="_xWBhUIyBEdyhZb-MhCJrlA">
-    <sectionDescription>&lt;p>&#xD;
-    Develop a rough order of magnitude estimate for the costs of resources needed to complete project work items.&amp;nbsp;A&#xD;
-    simplified project costing model&amp;nbsp;can be&amp;nbsp;applied by&amp;nbsp;multiplying the approximate cost per person for the&#xD;
-    entire team by the length of an iteration to derive ongoing financial impact (that is, cost per iteration). This first&#xD;
-    round of planning should keep things very rough and flexible. The goal is just to articulate value against the budget&#xD;
-    constraints of the project, and to help stakeholders decide whether it is worth moving forward with the project or not.&#xD;
-    If necessary, propose options to decrease costs, such as removing low-value and high-cost work items from the scope .&#xD;
-&lt;/p></sectionDescription>
-  </sections>
-  <sections xmi:id="_zeN84IyBEdyhZb-MhCJrlA" name="Plan deployment" guid="_zeN84IyBEdyhZb-MhCJrlA">
-    <sectionDescription>&lt;p>&#xD;
-    Plan the strategy for deploying the software (and its updates) into the production environment as early as possible,&#xD;
-    because it may impact the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot; guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[Project&#xD;
-    Work]&lt;/a>. The team may need to discuss the release timeframe with the operations and support departments to ensure&#xD;
-    that the project fits into the overall corporate deployment system.&#xD;
+    如果是特征驱动的项目，团队使用 &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>&#xD;
+    以及速率目标来预测完成项目所需的迭代数量。如果项目是数据驱动的，那么团队估计在给定的时间窗内可以完成的工作数量（使用已知的团队生产率）。去掉范围外的工作，它们可以在未来的版本中考虑。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Whenever possible, the team should consider deploying small releases (release cycles of three to four months at most).&#xD;
-    Releasing software into production frequently is a good way to&amp;nbsp;get early feedback from the users, in order&#xD;
-    to&amp;nbsp;enhance the overall product quality.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Capture the objectives for deployment and release dates in the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../practice.mgmt.release_planning.base/workproducts/project_plan_1CDBB7E4.html&quot;&#xD;
-    guid=&quot;_0a6vcMlgEdmt3adZL5Dmdw&quot;>Project Plan&lt;/a>.&#xD;
+    团队不应该在此计划上花费过多的时间。项目计划文档应该仅包括项目里程碑概述和每个迭代的1~3个目标。不要将个人的工作项放入此计划中，因为将导致过多的重计划。此计划的目标是创建一份高层的计划，描述团队如何在给定的系列迭代中构建应用。更详细的计划将通过贯穿项目的其它计划会议（例如，迭代策划）得到。后续，依赖于你从执行迭代的过程中所学到的，可能需要调整此计划。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <purpose>Get stakeholder buy-in for starting the project and team commitment to move forward with it. This plan can be updated as&#xD;
-the project progresses based on feedback and changes in the environment.</purpose>
+  <sections xmi:id="_lrYj0MBAEdqSgKaj2SZBmg" name="评估风险" guid="_lrYj0MBAEdqSgKaj2SZBmg">
+    <sectionDescription>&lt;p>&#xD;
+    团队识别风险，对风险进行量化分析以确定它们的优先值，并更新 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_risk_slot_FC0351C4.html&quot;&#xD;
+    guid=&quot;_0TkXgNpUEdyzZqGyZ7hwdw&quot;>[项目风险]&lt;/a>。项目经理帮助团队决定哪些风险需要他们应对，哪些风险需要观察。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    对风险的响应包括避免或缓解风险、探索的机会、或增加风险正面影响的概率。依赖于具体的情况，可能需要在 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>&#xD;
+    中增加或删除工作项，以保证对风险的响应在团队的项目工作中被优先考虑和处理。对所有识别的风险进行响应是不可行的，因此团队需要决定需要处理哪些风险。在风险列表中保留以观察这些风险，并和利益相关人进行沟通。仅当它们发生时决定行动。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_xWBhUIyBEdyhZb-MhCJrlA" name=" 建立成本并说明价值" guid="_xWBhUIyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    建立一个粗略的数量级估算完成项目工作项所需要的成本。一个简单的项目成本模型可以使用团队近似的人平均成本乘以团队人数再乘以迭代的长度，来获得持续的财务影响（如，每迭代的成本）。这是第一轮的计划应该保持粗略和灵活性。该任务的目标是为了说明价值和项目的预算限制之间的对比，从而帮助利益相关人决定项目应该继续还是中止。如果需求，可以建议降低成本，如从范围中移除低价值和高成本的工作任务。&#xD;
+&lt;/p>&#xD;
+&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_zeN84IyBEdyhZb-MhCJrlA" name="部署策划" guid="_zeN84IyBEdyhZb-MhCJrlA">
+    <sectionDescription>&lt;p>&#xD;
+    尽早为将软件（或更新）部署到生产环境制定计划策略，因为可能对 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>&amp;nbsp;造成影响。团队可能需要同操作运行支持部门一起讨论发布的时间表，以保证项目适合于整个企业部署系统。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    只要可能，团队应该考虑部署多次小的发布（发布周期至少3~4个月）。频繁发布软件到生产环境是尽早从用户获得反馈以提升整个产品质量的一种好的途径。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在 &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.release_planning.base/workproducts/project_plan_1CDBB7E4.html&quot;&#xD;
+    guid=&quot;_0a6vcMlgEdmt3adZL5Dmdw&quot;>Project Plan&lt;/a>&amp;nbsp;确定部署目标和发布日期。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    为项目启动获取利益相关人的参与，以及团队一致推进项目的承诺。此计划在项目进展过程中，可随反馈和变化进行更新。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

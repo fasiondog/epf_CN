@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3Jpwts4YZlF8GJjQaSINRA" name="plan_the_project.additions,_yKWvEL8HEdyWX5Yd-9QZ1A" guid="-3Jpwts4YZlF8GJjQaSINRA" version="7.2.0">
-  <sections xmi:id="_X63B4OFtEdyhmsbt0Xyl8A" name="Outline project lifecycle" guid="_X63B4OFtEdyhmsbt0Xyl8A">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3Jpwts4YZlF8GJjQaSINRA" name="plan_the_project.additions,_yKWvEL8HEdyWX5Yd-9QZ1A" guid="-3Jpwts4YZlF8GJjQaSINRA" version="7.2.0">
+  <sections xmi:id="_X63B4OFtEdyhmsbt0Xyl8A" name="概述项目生命周期" guid="_X63B4OFtEdyhmsbt0Xyl8A">
     <sectionDescription>&lt;p>&#xD;
-    Organize&amp;nbsp;iterations into a set of phases. Each phase in the project lifecycle will end with a milestone aimed at&#xD;
-    providing stakeholders with&amp;nbsp;oversight and steering mechanisms to control project funding, scope, risk exposure,&#xD;
-    value provided, and other aspects of the process (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    将迭代安排在系列的阶段中。项目生命周期中的每个阶段以一个里程碑结束，里程碑旨在为利益相关人提供对项目的监督和控制机制，包括项目资金、范围、暴露的风险、提供的价值、以及过程的其他方面（参见：&lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/project_lifecycle_203F87.html&quot;&#xD;
-    guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot;>Concept: Project Lifecycle&lt;/a>).&#xD;
+    guid=&quot;_nSfVwCNYEdyCq8v2ZO4QcA&quot;>概念：项目生命周期&lt;/a>）。&#xD;
 &lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

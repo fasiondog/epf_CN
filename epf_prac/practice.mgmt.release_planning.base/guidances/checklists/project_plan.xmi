@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iMEYJ2Jbm9S8GihBKFOaFA" name="new_checklist,_-qtjsAasEdy1uLAzgK8btg" guid="-iMEYJ2Jbm9S8GihBKFOaFA" version="7.2.0">
-  <sections xmi:id="_J4SxQAa_Edy1uLAzgK8btg" name="Has the plan been elaborated with the team?" guid="_J4SxQAa_Edy1uLAzgK8btg">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-iMEYJ2Jbm9S8GihBKFOaFA" name="new_checklist,_-qtjsAasEdy1uLAzgK8btg" guid="-iMEYJ2Jbm9S8GihBKFOaFA" version="7.2.0">
+  <sections xmi:id="_J4SxQAa_Edy1uLAzgK8btg" name="计划是否对团队进行了详细的说明？" guid="_J4SxQAa_Edy1uLAzgK8btg">
     <sectionDescription>&lt;p>&#xD;
-    Project planning should not be done in isolation, and every member of the team should be involved.&#xD;
+    项目计划不应该被隔离，团队中的每一位成员都应该被涉及。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Ln-rYAatEdy1uLAzgK8btg" name="Has the team agreed on development practices for the project?" guid="_Ln-rYAatEdy1uLAzgK8btg">
+  <sections xmi:id="_Ln-rYAatEdy1uLAzgK8btg" name="团队是否约定了项目使用的开发实践？" guid="_Ln-rYAatEdy1uLAzgK8btg">
     <sectionDescription>&lt;p>&#xD;
-    Who plays which roles?&#xD;
+    谁扮演什么角色？&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    How long will the iterations be?&#xD;
+    迭代有多长？&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    What coding standards should be followed?&amp;nbsp;&#xD;
+    是否指定了编码规范？&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Has the project directory structure been identified?&#xD;
+    是否定义了项目文件夹目录结构？&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    What development, build, and test&amp;nbsp;tools&amp;nbsp;should be&amp;nbsp;used?&#xD;
+    将使用哪些开发、构建、测试工具？&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    What measures and metrics will be used to track progress?&#xD;
-&lt;/p>&lt;br /></sectionDescription>
+    使用哪些测量和度量指标跟踪进展？&#xD;
+&lt;/p>&#xD;
+&lt;br /></sectionDescription>
   </sections>
-  <sections xmi:id="_MdRUoAatEdy1uLAzgK8btg" name="Have the project milestones been defined?" guid="_MdRUoAatEdy1uLAzgK8btg">
+  <sections xmi:id="_MdRUoAatEdy1uLAzgK8btg" name="是否定义了项目里程碑？" guid="_MdRUoAatEdy1uLAzgK8btg">
     <sectionDescription>&lt;p>&#xD;
-    What are the major milestones for each release?&#xD;
+    每个发布的主要里程碑是什么？&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_T2-tIAatEdy1uLAzgK8btg" name="Has the deployment strategy been discussed?" guid="_T2-tIAatEdy1uLAzgK8btg">
+  <sections xmi:id="_T2-tIAatEdy1uLAzgK8btg" name="是否已经讨论了部署策略？" guid="_T2-tIAatEdy1uLAzgK8btg">
     <sectionDescription>&lt;p>&#xD;
-    How will the product be delivered to the customer?&#xD;
+    产品如何交付给客户？&#xD;
 &lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:ContentDescription>

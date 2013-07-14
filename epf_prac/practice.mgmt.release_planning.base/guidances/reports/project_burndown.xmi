@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-hrDndmFd0zexB0HNYX3gww" name="project_burndown,_ePrt8Dj3EduxovfWMDsntw" guid="-hrDndmFd0zexB0HNYX3gww" changeDate="2008-06-17T10:56:57.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hrDndmFd0zexB0HNYX3gww" name="project_burndown,_ePrt8Dj3EduxovfWMDsntw" guid="-hrDndmFd0zexB0HNYX3gww" changeDate="2013-07-14T22:46:56.627+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    The project burndown report is&amp;nbsp;the primary tool for understanding the status of a project. It shows the trend for&#xD;
-    how much work is left to do within that project. This is done by adding the estimated effort left for each of the work&#xD;
-    items to be addressed within the project, and showing how the estimated effort is changing from iteration to iteration.&#xD;
-    The project burndown report should be updated at the end of each iteration.&#xD;
+    项目燃尽报告是了解项目状态的基础工具。它展示了项目中还剩下多少工作的趋势。这是通过对每一个工作项添加估计的剩余时间做到的，并显示了估算的工作量从一个迭代到另一个迭代的变化情况。项目燃尽报告应该在每个迭代结束时更新。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The project burndown rate is usually communicated in graphical form.&amp;nbsp;The project burndown chart consists of two&#xD;
-    perspectives, with the horizontal axis showing the iterations and the vertical axis indicating the remaining points&#xD;
-    from the work items list. Additionally, the average burndown rate from previous iterations is calculated, and a trend&#xD;
-    for the remainder of the project forecasted from that historical data.&amp;nbsp;&#xD;
+    项目燃尽比率通常以图表的方式展示。项目燃尽图的横坐标表示第几轮迭代，纵坐标则显示了完成剩余工作项所需的剩余估算点数。此外，通过已经完成的迭代计算平均燃尽比率，并通过通过横轴显示剩余工作趋势。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Project burndown management is an enabling technique that allows direct linkage of iteration goals to work items. The&#xD;
-    project manager will use the project burndown information for communicating progress and trends to senior management.&#xD;
-&lt;/p>See &lt;a class=&quot;elementLink&quot;&#xD;
-href=&quot;./../../../practice.mgmt.release_planning.base/guidances/examples/project_burndown_report_example_847643C1.html&quot;&#xD;
-guid=&quot;_Yiq2EDcGEdyTZ9G7ByfQTw&quot;>Project Burndown Report&lt;/a>&amp;nbsp;for an example of project burndown report.&lt;br /></mainDescription>
+    项目燃尽管理是一个使能技术，使工作项之间关联迭代目标。项目管理者使用项目燃尽信息和高层管理者沟通项目的进展和趋势。&#xD;
+&lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>
