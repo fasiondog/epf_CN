@@ -150,7 +150,8 @@
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0keUEMlgEdmt3adZL5Dmdw" name="plan_iteration" guid="_0keUEMlgEdmt3adZL5Dmdw" presentationName="Plan Iteration" briefDescription="Plan the scope and responsibilities for a single iteration.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0keUEMlgEdmt3adZL5Dmdw" name="plan_iteration" guid="_0keUEMlgEdmt3adZL5Dmdw" presentationName="迭代策划" briefDescription="计划单一迭代的范围与责任。">
+            <methodElementProperty xmi:id="_zXiREO1VEeKXHd3YYTglfg" name="me_edited" value="true"/>
             <presentation xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_Wk7noKe1EdmGSrcKGOYDGg"/>
             <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
             <guidelines href="#_0auiMMlgEdmt3adZL5Dmdw"/>
@@ -200,7 +201,8 @@
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
             <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_kf7foNpUEdyzZqGyZ7hwdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0aQBEslgEdmt3adZL5Dmdw" name="iteration_plan" guid="_0aQBEslgEdmt3adZL5Dmdw" presentationName="Iteration Plan" briefDescription="A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration." checklists="_OHRDMAarEdy1uLAzgK8btg" examples="_GtGisDcGEdyTZ9G7ByfQTw _TuNhIEE4EdulKujnGUuxbg" reports="_uAzgkDg3Edu4E8ZdmlYjtA" templates="_0dBoQMlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0aQBEslgEdmt3adZL5Dmdw" name="iteration_plan" guid="_0aQBEslgEdmt3adZL5Dmdw" presentationName="迭代计划" briefDescription="一个细粒度的计划，描述了迭代的目标、工作任务和评估标准。" checklists="_OHRDMAarEdy1uLAzgK8btg" examples="_GtGisDcGEdyTZ9G7ByfQTw _TuNhIEE4EdulKujnGUuxbg" reports="_uAzgkDg3Edu4E8ZdmlYjtA" templates="_0dBoQMlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_zYFDoO1VEeKXHd3YYTglfg" name="me_edited" value="true"/>
             <presentation xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" href="uma://_BcBR8KX5EdmvhNXG0Oc2uA#_BcBR8KX5EdmvhNXG0Oc2uA"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
             <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>

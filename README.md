@@ -11,5 +11,5 @@ Chinese-EPF
 **中文在线阅读：**
 
 - [Scrum](http://fasiondog.github.io/epf_CN/scrum/index.htm)
-- [OpenUP](http://fasiondog.github.io/epf_CN/openUP/index.htm)（ *尚未发布，随进展更新* ）
+- [OpenUP](http://fasiondog.github.io/epf_CN/openUP/index.htm)（ *尚未发布，每周更新* ）
 

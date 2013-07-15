@@ -1,69 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2011-03-25T16:37:07.803-0700" version="7.2.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" name="plan_iteration,_0keUEMlgEdmt3adZL5Dmdw" guid="_Wk7noKe1EdmGSrcKGOYDGg" changeDate="2013-07-15T21:08:06.734+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    During project planning, iterations are identified, but the estimates have an acceptable uncertainty due to the lack of&#xD;
-    detail at the project inception. This task is repeated for each iteration within a release. It allows the team to&#xD;
-    increase the accuracy of the estimates for one iteration, as more detail is known along the project.&#xD;
+    在项目策划中，已经定义了迭代，但由于缺乏项目细化阶段的细节此时的估算是一个可接受的不确定的值。此任务在每个迭代中重复进行。随着项目细节逐步丰富，它使团队可为每个迭代明确精确的估算。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Ensure that the team commits to a reasonable amount of work for the iteration, based on team performance from previous&#xD;
-    iterations.&#xD;
+    基于前期迭代的团队性能，确保团队在迭代中承诺了合理的工作。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_7bz7AIyAEdyhZb-MhCJrlA" name="Prioritize Work Items List" guid="_7bz7AIyAEdyhZb-MhCJrlA">
-    <sectionDescription>Prioritize the work items list before you plan the next iteration. Consider what has changed since the last iteration plan&#xD;
-(such as new change requests, shifting priorities of your stakeholders, or new risks that have been encountered).</sectionDescription>
-  </sections>
-  <sections xmi:id="_CtKCMMBHEdqSgKaj2SZBmg" name="Define iteration objectives" guid="_CtKCMMBHEdqSgKaj2SZBmg">
+  <sections xmi:id="_7bz7AIyAEdyhZb-MhCJrlA" name="排序工作项列表" guid="_7bz7AIyAEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p>&#xD;
-    Work with the team to refine the iteration objectives found in the project definition and scope, and document them in&#xD;
-    the iteration plan in order to provide high-level direction to what should be targeted for the iteration. The&#xD;
-    objectives should be driven based on stakeholder priorities, and will be revised as the iteration plan is finalized.&#xD;
-    Those objectives are usually defined as high-level capabilities or scenarios, which need to be implemented and tested&#xD;
-    during the iteration in order to deliver increased value to the customer.&lt;br />&#xD;
+    在计划下一次迭代前，排序工作项列表。考虑自上次迭代以来发生的变化（例如新的变更请求、利益相关人调整了优先级、或者出现了新的风险）&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_HzNVgIyBEdyhZb-MhCJrlA" name="Identify and review risks" guid="_HzNVgIyBEdyhZb-MhCJrlA">
+  <sections xmi:id="_CtKCMMBHEdqSgKaj2SZBmg" name="定义迭代目标" guid="_CtKCMMBHEdqSgKaj2SZBmg">
     <sectionDescription>&lt;p>&#xD;
-    Throughout the project, new assumptions and concerns may arise. Help the team identify and prioritize new risks as part&#xD;
-    of iteration planning, updating the risk list. Add risk responses to the work items list, influencing the work that is&#xD;
-    being planned for that iteration.&#xD;
+    和团队一起工作定义迭代目标，这些目标可以在项目定义和范围中找到；在迭代计划中记录这些目标以为迭代提供高层的方向。目标应该由利益相关人优先级驱动，并在最终确定迭代计划时完成修改。通常通过高层的功能或场景定义这些目标，这些功能或场景需要在迭代中完成以向客户交付增量价值。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="Commit work to the iteration" guid="_307v0MMsEdmdo9HxCRR_Gw">
+  <sections xmi:id="_HzNVgIyBEdyhZb-MhCJrlA" name="识别并Review风险" guid="_HzNVgIyBEdyhZb-MhCJrlA">
     <sectionDescription>&lt;p>&#xD;
-    Work with the team, and especially the project stakeholders, to identify the high-priority work items from the work&#xD;
-    items list to be addressed. The high-level objectives provide guidance on what work items should be considered. The&#xD;
-    iteration plan from previous iteration should include an assessment of the results, and can also be used as input to&#xD;
-    the current iteration planning. The team reviews its velocity and determines the amount of work that can be done within&#xD;
-    the iteration. The team breaks down into tasks those work items that are assigned to the iteration, and estimates the&#xD;
-    effort to complete each task. Typical tasks range from half a day to two days in length, and are captured in the work&#xD;
-    items list. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    在项目中，可能出现新的假设和关注点。帮助团队识别并排序这些新的风险，并作为迭代计划的一部分，更新风险列表。在工作项列表中，添加风险应对工作项，将影响迭代计划中的工作。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_307v0MMsEdmdo9HxCRR_Gw" name="确定迭代工作" guid="_307v0MMsEdmdo9HxCRR_Gw">
+    <sectionDescription>&lt;p>&#xD;
+    和团队一起，尤其是项目利益相关人，从工作项列表中识别将要处理的高优先级的工作项。高层目标提供了考虑哪些工作项的指导。迭代计划应考虑上一次迭代的评估结果，这些评估结果可以作为当前迭代计划的输入。团队Review他们的速率并决定迭代中可以完成多少数量的工作。团队将这些迭代中选定的工作项拆分为任务，并对每个任务评估其工作量。通常任务的工作时间长度为0.5~2天，并将这些任务记录进工作项列表。更多信息，参见：&lt;a&#xD;
+     class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html&quot;&#xD;
-    guid=&quot;_CGHskBEdEdqY7JB6N6CW2w&quot;>Guideline: Agile Estimation&lt;/a> for more information.&#xD;
+    guid=&quot;_CGHskBEdEdqY7JB6N6CW2w&quot;>指南：Agile Estimation&lt;/a>。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    When the team has decided to take on a work item, it will assign the work to one or several team members. Ideally, this&#xD;
-    is done by team members signing up to do the work, since this makes people motivated and committed to doing the job.&#xD;
-    However, based on your culture, you may instead assign the work to team members.&lt;br />&#xD;
+    当团队决定接受一个工作项，它将被分配给一位或多为项目成员。理想情况是，团队成员主动领取这些工作，因为这让人积极且致力于完成这些工作。然后，基于组织文化，你可能需要通过指派来安排这些工作。&lt;br />&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="Define evaluation criteria" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
+  <sections xmi:id="_7Hqr4MMsEdmdo9HxCRR_Gw" name="定义评估准则" guid="_7Hqr4MMsEdmdo9HxCRR_Gw">
     <sectionDescription>&lt;p>&#xD;
-    Each iteration should include testing as a part of the evaluation, as well as the test objectives and test cases that&#xD;
-    need to be detailed. Other evaluation criteria may include successful demonstrations to key stakeholders, or favorable&#xD;
-    usage by a small group of target users. Document evaluation criteria in the iteration plan.&#xD;
-&lt;/p></sectionDescription>
+    每个迭代应该包括测试作为评估的一部分，因此测试目标和测试用例也需要细化。其它评估准则可以包括向关键利益相关人进行成功的演示、或通过一小组目标用户良好的使用。在迭代计划中记录评估准则。&#xD;
+&lt;/p>&#xD;
+&lt;br /></sectionDescription>
   </sections>
-  <sections xmi:id="_-tp18FHjEd2IaYFd32DrjQ" name="Refine project definition and scope" guid="_-tp18FHjEd2IaYFd32DrjQ">
+  <sections xmi:id="_-tp18FHjEd2IaYFd32DrjQ" name="完善项目定义和范围" guid="_-tp18FHjEd2IaYFd32DrjQ">
     <sectionDescription>&lt;p>&#xD;
-    Depending on the results of the previous iteration assessment, update the project definition work products as needed.&#xD;
-    Necessary changes can encompass the need to acquire new resources, to absorb an unplanned effort increase, or to&#xD;
-    implement a specific change request. If a change affects defined project milestones, consult with the stakeholders&#xD;
-    before committing to it.&#xD;
+    基于上一次迭代的评估结果，更新项目定义工件，如果需要的话。必需的更改包括需要新的资源、计划外增加的工作量，或者实现特定的变更请求。如果变更影响了项目里程碑，在确认它们之前和利益相关人商议。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    The purpose of this task is to identify the next increment of system capability, and create a fine-grained plan for&#xD;
-    achieving that capability within a single iteration.&#xD;
+    此任务的目的识别未来的增量系统功能，并创建一个细粒度的计划在一个迭代中实现这些功能。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

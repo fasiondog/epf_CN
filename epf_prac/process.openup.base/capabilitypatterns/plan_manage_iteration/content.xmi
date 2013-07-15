@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-b6sTuOuA7eFhaR_H3EfgBw" name="plan_manage_iteration,_oZgCsdOEEdyqlogshP8l4g" guid="-b6sTuOuA7eFhaR_H3EfgBw" version="7.2.0">
-    <mainDescription>&lt;p>
-    This activity is performed throughout the project lifecycle. The goal of this activity is to identify risks and issues
-    early enough that they can be mitigated, to establish the goals for the iteration, and to support the development team
-    in reaching these goals.
-&lt;/p>
-&lt;p>
-    The project manager and the team launch the iteration. The prioritization of work for a given iteration takes place.
-    The project manager, stakeholders, and team members agree on what is supposed to be developed during that iteration.
-&lt;/p>
-&lt;p>
-    Team members sign up for the work items they will develop in that iteration. Each team member breaks down the work
-    items into development tasks and estimates the effort. This provides a more accurate estimate of the amount of time
-    that will be spent, and of what can be realistically achieved, in a given iteration.
-&lt;/p>
-&lt;p>
-    As the iteration runs, the team meets regularly to report status of work completed, the work to do next, and issues
-    blocking the progress. In some projects, this status checking occurs in daily meetings, which allows for a more precise
-    understanding of how the work in an iteration is progressing. As necessary, the team makes corrections to achieve what
-    was planned. The overall idea is that risks and issues are identified and managed throughout the iteration, and
-    everyone knows the project status in a timely manner.
-&lt;/p>
-&lt;p>
-    During iteration assessments, the key success criterion is the demonstration that planned functionality has been
-    implemented. Lessons learned are captured in order to modify the project or improve the process. If the iteration end
-    coincides with the phase end, make sure the objectives for that phase have been met (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot; guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>Concept: Phase Milestones&lt;/a> for more information).
+    <mainDescription>&lt;p>&#xD;
+    该活动在整个项目生命周期中执行。活动的目标是尽早识别风险和问题以减缓风险，建立迭代目标，并支持开发团队实现这些目标。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    项目经理和团队启动迭代。工作任务按优先级顺序在指定的迭代中完成。项目经理、利益相关人和团队成员一致同意需在迭代中开发的工作。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    团队成员领取他们将在迭代中开发的工作项。每一位团队成员将该工作项分解为细化的开发任务并估算工作量。这提供了需花费的时间的精确估计，并能够确定在指定的迭代中工作确实可完成。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在迭代运行中，团队定期报告工作完成的状态，下一步工作，以及进展中阻塞的问题。在某些项目周，该状态通过每日例会进行检查，这样能够更精确的理解迭代中工作的进展。如果需要，团队可以纠正计划。总的来说，就是在整个迭代中识别并管理风险和问题，并且每个人都及时的知道项目状态。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    迭代评估期间，关键的成功标准是能够演示计划实现的功能。收集经验教训修改项目或改善过程。如果迭代结束的同时也是阶段结束，应确认阶段的目标被满足。（更多信息，参见 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/phase_milestones_5678231E.html&quot;&#xD;
+    guid=&quot;_HNxbwMBJEdqSgKaj2SZBmg&quot;>概念：Phase Milestones&lt;/a>）。&#xD;
 &lt;/p></mainDescription>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HoXXyN2BKM1DoI1eHGVrGw" name="plan_iteration,_y05RQNOJEdyqlogshP8l4g" guid="-HoXXyN2BKM1DoI1eHGVrGw">
