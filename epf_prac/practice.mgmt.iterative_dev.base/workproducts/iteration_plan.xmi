@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" name="iteration_plan,_0aQBEslgEdmt3adZL5Dmdw" guid="_BcBR8KX5EdmvhNXG0Oc2uA" changeDate="2013-07-15T22:01:37.215+0800" version="7.2.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_BcBR8KX5EdmvhNXG0Oc2uA" name="iteration_plan,_0aQBEslgEdmt3adZL5Dmdw" guid="_BcBR8KX5EdmvhNXG0Oc2uA" changeDate="2013-07-16T00:04:40.970+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
-    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
-    solved during the iteration.&#xD;
+    此工件描述了一个迭代的关键里程碑，显示了起始和结束日期、中间的里程碑、与其他团队的同步点、demo，等等。它也被用于描述需要在迭代中解决的问题。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess at&#xD;
-    the end if those objectives have been achieved.&#xD;
+    你应该为迭代列出少量的目标，这有助于知道你通过这个迭代。并且，在结束时，评估这些目标。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    分配给迭代的任务是&lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
-    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references those&#xD;
-    work items.&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>工件：Work Items List&lt;/a>中的任务子集。因此，迭代在理想情况下引用这些工作项。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate&#xD;
-    results and actions from assessments.&#xD;
+    该工件还描述了评估准则和评估信息，这样你可以通过评估沟通这些结果和行动。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work&#xD;
-    Items List, the iteration plan may end up having work items with different priorities (for example, you assign the&#xD;
-    remaining high priority work items, plus a few mid-priority ones from the Work Items List). Once work items have been&#xD;
-    assigned to the iteration, the team ensures that they can complete all work, regardless of original work item&#xD;
-    priorities. Deciding what to develop first on an iteration will vary across projects and iterations.&#xD;
+    分配给某个迭代的工作项不需要有相同的优先级。当从工作项列表中选择工作项时，迭代计划可能最终拥有不同优先级的工作项（如，你可以分配剩余的高优先级的工作项，加上少量的低优先级工作项）。一旦工作项被分配到迭代中，团队应确保他们能够完成全部的工作，而不需要考虑这些工作项的原始优先级。决定在迭代中首先开发什么，在不同的项目和迭代中有很多的不同。&#xD;
 &lt;/p></keyConsiderations>
   <purpose>&lt;p>&#xD;
     迭代计划的主要目标是为团队提供：&#xD;
@@ -43,24 +34,24 @@
 &lt;p>&#xD;
     此工件同时也帮助团队监控项目进展，并保留迭代的评估结果以帮助改进下一次迭代。&#xD;
 &lt;/p></purpose>
-  <impactOfNotHaving>Without this artifact, it will be difficult to assess the results of an iteration to determine whether or not the&#xD;
-objectives have been met.</impactOfNotHaving>
-  <reasonsForNotNeeding>This artifact is not required if no iterations are being performed, or if the scope of the project and each iteration is&#xD;
-sufficiently small as to be handled informally amongst the team.</reasonsForNotNeeding>
+  <impactOfNotHaving>&lt;p>&#xD;
+    没有此工件，将很难获取迭代的结果来判断目标是否被满足。&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    如果没有迭代被执行，那么不需要此工件；或者项目和每个迭代的范围足够的小，团队可以非正式的处理，那么也可以不需要此工件。&#xD;
+&lt;/p></reasonsForNotNeeding>
   <representationOptions>&lt;p>&#xD;
-    The level of detail or formality of the plan must be adapted to what you need in order to meet these objectives&#xD;
-    successfully. The plan could, for example, be captured on the following places:&#xD;
+    计划的详细程度或形式必须适应你的需要以成功的满足目标。此计划可以放置在以下地点，如：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        A whiteboard listing the objectives, task assignments, and evaluation criteria&#xD;
+        一个列出了目标、分配的任务和评估标准的白板&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        A one-page document listing the objectives and evaluation criteria of the iteration, as well as referencing the&#xD;
-        Work Items List for assignments for that iteration&#xD;
+        一页纸的文档，列出迭代的目标和评估标准，以及分配到该迭代的工作项列表&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        A more complex document, supported by a Gantt or Pert chart in a project planning tool&#xD;
+        更复杂的文档，支持甘特图的项目计划工具&#xD;
     &lt;/li>&#xD;
 &lt;/ul></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>
