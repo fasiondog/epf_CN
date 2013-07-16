@@ -65,13 +65,16 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_lFkpUOFlEdyhmsbt0Xyl8A" name="management_work_products" guid="_lFkpUOFlEdyhmsbt0Xyl8A" presentationName="Management Work Products">
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ckay8Cc_EduIsqH1Q6ZuqA" name="risk_list" guid="_Ckay8Cc_EduIsqH1Q6ZuqA" presentationName="Risk List" briefDescription="This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions." conceptsAndPapers="_0bsLgMlgEdmt3adZL5Dmdw" checklists="_7BZa0DIdEduDTv4Y1akVTA" templates="_MIUO0C8FEduzydamRseoUw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Ckay8Cc_EduIsqH1Q6ZuqA" name="risk_list" guid="_Ckay8Cc_EduIsqH1Q6ZuqA" presentationName="风险列表" briefDescription="此工件为项目已知且未关闭的风险的排序列表，按照重要性及与特定的缓解措施或可能行动的相关程度排序。" conceptsAndPapers="_0bsLgMlgEdmt3adZL5Dmdw" checklists="_7BZa0DIdEduDTv4Y1akVTA" templates="_MIUO0C8FEduzydamRseoUw">
+            <methodElementProperty xmi:id="_KWVeUO42EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-4VJ_0upihz-bR7VRlm63Vw" href="uma://-4VJ_0upihz-bR7VRlm63Vw#-4VJ_0upihz-bR7VRlm63Vw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_7BZa0DIdEduDTv4Y1akVTA" name="risk_list" guid="_7BZa0DIdEduDTv4Y1akVTA" presentationName="Risk List" briefDescription="This checklist provides guidance on assessing that all possible risks in a project have been considered." guidelines="_VNxL4ACsEdu8m4dIntu6jA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_7BZa0DIdEduDTv4Y1akVTA" name="risk_list" guid="_7BZa0DIdEduDTv4Y1akVTA" presentationName="风险列表" briefDescription="此检查单提供了评估项目中是否考虑了所有风险的指南。" guidelines="_VNxL4ACsEdu8m4dIntu6jA">
+            <methodElementProperty xmi:id="_ZWuM8O45EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-gqNN4DnROmJpgKtrdguhpg" href="uma://-gqNN4DnROmJpgKtrdguhpg#-gqNN4DnROmJpgKtrdguhpg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rGNWsCbSEdqh1LYUOGRh2A" name="work_items_list" guid="_rGNWsCbSEdqh1LYUOGRh2A" presentationName="Work Items List" briefDescription="This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item." checklists="_xlrdEAVtEdy3F_fZDaPZVA" guidelines="_CGHskBEdEdqY7JB6N6CW2w" examples="_nHomIDgzEdu4E8ZdmlYjtA" templates="_QwUJYDg0Edu4E8ZdmlYjtA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_rGNWsCbSEdqh1LYUOGRh2A" name="work_items_list" guid="_rGNWsCbSEdqh1LYUOGRh2A" presentationName="工作项列表" briefDescription="此工件包含了项目中所有计划的待完成的工作任务列表，以及那些可能在当前或未来项目中影响产品的建议工作。每个工作项描述中可能包含对执行该工作的相关信息的引用。" checklists="_xlrdEAVtEdy3F_fZDaPZVA" guidelines="_CGHskBEdEdqY7JB6N6CW2w" examples="_nHomIDgzEdu4E8ZdmlYjtA" templates="_QwUJYDg0Edu4E8ZdmlYjtA">
+            <methodElementProperty xmi:id="_L0PGEO4-EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-buxz4BVToq97bSxaqyjySg" href="uma://-buxz4BVToq97bSxaqyjySg#-buxz4BVToq97bSxaqyjySg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_xlrdEAVtEdy3F_fZDaPZVA" name="work_items_list" guid="_xlrdEAVtEdy3F_fZDaPZVA" presentationName="Work Items List" briefDescription="This checklist is used to verify that every kind of work to be done in the project &#xD;&#xA;is being tracked">
@@ -86,13 +89,16 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_onU40OFlEdyhmsbt0Xyl8A" name="management_resources (templates, reports, examples)" guid="_onU40OFlEdyhmsbt0Xyl8A" presentationName="Management Resources (Templates, Reports, Examples)">
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_MIUO0C8FEduzydamRseoUw" name="risk_list" guid="_MIUO0C8FEduzydamRseoUw" presentationName="Risk List" briefDescription="A list or table containing risk attributes. As it is usual to rank risks by priority, spreadsheets may be an alternative to capture risks">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_MIUO0C8FEduzydamRseoUw" name="risk_list" guid="_MIUO0C8FEduzydamRseoUw" presentationName="风险列表" briefDescription="包含风险属性的列表或表格。因为通常需要排序风险，电子表格可能是记录这些风险的一个选择。">
+            <methodElementProperty xmi:id="_7XTWYO45EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-OugFZJszm73z0_KSwRXZPw" href="uma://-OugFZJszm73z0_KSwRXZPw#-OugFZJszm73z0_KSwRXZPw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_nHomIDgzEdu4E8ZdmlYjtA" name="work_items_list" guid="_nHomIDgzEdu4E8ZdmlYjtA" presentationName="Work Items List" briefDescription="This is an example of a partial Work Items List for a small team who just started to work on iteration 3.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_nHomIDgzEdu4E8ZdmlYjtA" name="work_items_list" guid="_nHomIDgzEdu4E8ZdmlYjtA" presentationName="工作项列表" briefDescription="此样例是一个小团队开始第三次迭代时的工作项列表的一部分。">
+            <methodElementProperty xmi:id="_V28ogO47EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-qunTPN3vqTIGpELwajXpLA" href="uma://-qunTPN3vqTIGpELwajXpLA#-qunTPN3vqTIGpELwajXpLA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_QwUJYDg0Edu4E8ZdmlYjtA" name="work_items_list" guid="_QwUJYDg0Edu4E8ZdmlYjtA" presentationName="Work Items List" briefDescription="This is a spreadsheet suggested for representing a work items list. Alternative templates would be usage of a specific tool or database with similar information.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_QwUJYDg0Edu4E8ZdmlYjtA" name="work_items_list" guid="_QwUJYDg0Edu4E8ZdmlYjtA" presentationName="工作项列表" briefDescription="此电子表格是建议的工作项列表表达方式。可以选择其他的工具或数据库记录类似的信息。">
+            <methodElementProperty xmi:id="_vmuO0O46EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-mPA7vone29k1OvF_1rACjg" href="uma://-mPA7vone29k1OvF_1rACjg#-mPA7vone29k1OvF_1rACjg"/>
           </contentElements>
         </childPackages>

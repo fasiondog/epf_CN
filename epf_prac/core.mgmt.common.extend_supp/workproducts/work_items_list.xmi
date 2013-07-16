@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-buxz4BVToq97bSxaqyjySg" name="work_items_list,_rGNWsCbSEdqh1LYUOGRh2A" guid="-buxz4BVToq97bSxaqyjySg" changeDate="2008-10-08T09:41:03.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-buxz4BVToq97bSxaqyjySg" name="work_items_list,_rGNWsCbSEdqh1LYUOGRh2A" guid="-buxz4BVToq97bSxaqyjySg" changeDate="2013-07-17T01:36:29.080+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
     This artifact provides a focal point for the entire team:&#xD;
 &lt;/p>&#xD;
@@ -48,8 +48,9 @@
   <keyConsiderations>&lt;p>&#xD;
     Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
 &lt;/p></keyConsiderations>
-  <purpose>To collect all requests for work that will potentially be taken on within the project, so that work can be prioritized,&#xD;
-effort estimated, and progress tracked.</purpose>
+  <purpose>&lt;p>&#xD;
+    收集项目中所有可能需要的工作，这样可以对工作进行优先级排序、工作量估算，以及进展跟踪。&#xD;
+&lt;/p></purpose>
   <impactOfNotHaving>Without this artifact, there is not a single place that provides a list of all of the work to be done and its current&#xD;
 status.&amp;nbsp; Individual team members may also be unclear as to&amp;nbsp;what work has been&amp;nbsp;assigned to them.</impactOfNotHaving>
   <reasonsForNotNeeding>This artifact may not be needed&amp;nbsp;if the work assignments are going to be managed using a different technique or&#xD;

@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T01:38:14.000-0700" version="7.2.0">
-  <sections xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="Have all potential risks to the project been identified?" guid="_qO41ADIfEduDTv4Y1akVTA">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-gqNN4DnROmJpgKtrdguhpg" name="new_checklist,_7BZa0DIdEduDTv4Y1akVTA" guid="-gqNN4DnROmJpgKtrdguhpg" changeDate="2006-08-22T16:38:14.000+0800" version="7.2.0">
+  <sections xmi:id="_qO41ADIfEduDTv4Y1akVTA" name="是否识别了项目的所有潜在风险？" guid="_qO41ADIfEduDTv4Y1akVTA">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have you involved the team and stakeholders in risk identification?&#xD;
+        团队和利益相关人是否参与了风险识别？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have you made sure that several categories were considered (technical, project management, organizational, and&#xD;
-        external)?&#xD;
+        是否确信考虑了几个类别（技术、项目管理、组织和外部）？&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    List all potential risks, giving a description and type (direct or indirect). See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    列出所有潜在风险，给出描述和类型（直接或间接）。更多信息，参见 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
-    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more information.&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>概念：Risk&lt;/a> 。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_5RiSkDe2EduD7J48kKN20g" name="Have all risks been described without ambiguity?" guid="_5RiSkDe2EduD7J48kKN20g">
-    <sectionDescription>Is each risk described in a clear and concise way?</sectionDescription>
+  <sections xmi:id="_5RiSkDe2EduD7J48kKN20g" name="所有的风险描述是否清晰？" guid="_5RiSkDe2EduD7J48kKN20g">
+    <sectionDescription>&lt;p>&#xD;
+    每个风险是否以清晰、一致的方式进行了描述？&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="Have all major risks been evaluated?" guid="_2rpQoDIfEduDTv4Y1akVTA">
+  <sections xmi:id="_2rpQoDIfEduDTv4Y1akVTA" name="是否评估了所有主要风险？" guid="_2rpQoDIfEduDTv4Y1akVTA">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Has the team assessed the order of magnitude of&amp;nbsp; each risk (probability x impact)?&#xD;
+        团队是否为每一个风险指定了重要性（可能性、影响）？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have the risks been sorted according to their magnitude? This&amp;nbsp;allows you to address the higher-magnitude risks&#xD;
-        early in the project.&#xD;
+        风险是否按重要性进行了排序？这将使你在项目早期处理高优先级的风险。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Has a response strategy been chosen for higher-magnitude risks?&#xD;
+        是否为高优先级的风险指定了响应策略？&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
-    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    更多信息参见：&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>概念：Risk&lt;/a>&amp;nbsp;和 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../../core.mgmt.common.extend_supp/guidances/guidelines/managing_risks_B1256EB4.html&quot;&#xD;
-    guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>Guideline: Managing Risks&lt;/a> for more information.&#xD;
+    guid=&quot;_VNxL4ACsEdu8m4dIntu6jA&quot;>指南：Managing Risks&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_hSFaYDe3EduD7J48kKN20g" name="Are there interdependencies between risks?" guid="_hSFaYDe3EduD7J48kKN20g">
-    <sectionDescription>&lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Make sure that you establish interdependencies between risks as&#xD;
-appropriate. For example, the consequence of a risk happening may raise the probability of another risk happening or raise&#xD;
-the impact that another risk could have on the project. If risks depend on each other, you may need a response strategy to&#xD;
-mitigate&amp;nbsp;all interdependent risks&amp;nbsp;at the same time, or you may need revisit the risk list to update the magnitude&#xD;
-of dependent risks.&lt;/span></sectionDescription>
+  <sections xmi:id="_hSFaYDe3EduD7J48kKN20g" name="风险之间是否存在相互依赖？" guid="_hSFaYDe3EduD7J48kKN20g">
+    <sectionDescription>&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;>确信你建立的合适的风险依赖关系。例如，某个风险的结果可能引发或影响项目中的另一个风险。如果风险之间存在依赖，需要制定响应计划在同一时间减缓所有依赖的风险，或者你需要重新审视风险列表并更新依赖风险的优先级。&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:ContentDescription>

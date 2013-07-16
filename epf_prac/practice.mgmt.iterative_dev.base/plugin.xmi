@@ -218,6 +218,7 @@
             <fulfills href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_35jJkFpiEd2nNZq0B7jtNw" name="work_items_list.contributes" guid="_35jJkFpiEd2nNZq0B7jtNw" variabilityType="contributes" conceptsAndPapers="_S80VwCNbEdyCq8v2ZO4QcA" guidelines="_7vEXEMA4EdqSgKaj2SZBmg">
+            <methodElementProperty xmi:id="_ieee0O49EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-i0ekME-sXjZ7YmeJwZzW_A" href="uma://-i0ekME-sXjZ7YmeJwZzW_A#-i0ekME-sXjZ7YmeJwZzW_A"/>
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
           </contentElements>
