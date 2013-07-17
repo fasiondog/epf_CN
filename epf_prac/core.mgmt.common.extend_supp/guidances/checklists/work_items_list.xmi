@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-BTXdT-1bO6nbAPf25q0_yA" name="new_checklist,_xlrdEAVtEdy3F_fZDaPZVA" guid="-BTXdT-1bO6nbAPf25q0_yA" version="7.2.0">
-  <sections xmi:id="_U7JSUAbNEdy1uLAzgK8btg" name="Have Work Items been described without ambiguity?" guid="_U7JSUAbNEdy1uLAzgK8btg">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BTXdT-1bO6nbAPf25q0_yA" name="new_checklist,_xlrdEAVtEdy3F_fZDaPZVA" guid="-BTXdT-1bO6nbAPf25q0_yA" version="7.2.0">
+  <sections xmi:id="_U7JSUAbNEdy1uLAzgK8btg" name="是否清晰的描述了工作项？" guid="_U7JSUAbNEdy1uLAzgK8btg">
     <sectionDescription>&lt;p>&#xD;
-    Does each Work Item have a name and clear description? This helps the team estimate Work Item size. If necessary,&#xD;
-    include links on the Work Items List to reference material where further detail is available.&#xD;
+    是否每个工作项都有一个名称和清晰的描述？这将帮助团队估计工作项的规模。如果需要，在工作项列表中记录工作项参考资料的链接，以获得更详细的信息。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_dL2nwAVuEdy3F_fZDaPZVA" name="Have Work Items been prioritized?" guid="_dL2nwAVuEdy3F_fZDaPZVA">
+  <sections xmi:id="_dL2nwAVuEdy3F_fZDaPZVA" name="是否为工作项指定了优先级？" guid="_dL2nwAVuEdy3F_fZDaPZVA">
     <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    Has every Work Item been prioritized? This helps the team select the Work Items to be delivered in each iteration.&#xD;
+    是否为每项工作指定了优先级？这将帮助团队选择在每个迭代中交付的工作项。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_bF3LoAVuEdy3F_fZDaPZVA" name="Have Work Items been estimated?" guid="_bF3LoAVuEdy3F_fZDaPZVA">
+  <sections xmi:id="_bF3LoAVuEdy3F_fZDaPZVA" name="是否对工作项进行了估算？" guid="_bF3LoAVuEdy3F_fZDaPZVA">
     <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    Every Work Item should be estimated. This will help the team to select the Work Items to be delivered in each&#xD;
-    iteration.&#xD;
+    应该对每一个工作项进行估算。这将帮助团队选择在每个迭代中交付的工作项。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_O7VloAbFEdy1uLAzgK8btg" name="Are the Work Items being tracked?" guid="_O7VloAbFEdy1uLAzgK8btg">
+  <sections xmi:id="_O7VloAbFEdy1uLAzgK8btg" name="是否对工作项进行了跟踪？" guid="_O7VloAbFEdy1uLAzgK8btg">
     <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    Does every Work Item have a state attribute? This helps the team track its development project.&amp;nbsp;&#xD;
+    是否每个工作项都有状态属性？这将帮助团队在开发项目中跟踪这些工作项。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_tENnkAVuEdy3F_fZDaPZVA" name="Are scheduled Work Items the right size?" guid="_tENnkAVuEdy3F_fZDaPZVA">
-    <sectionDescription>If a Work Item is scheduled for an iteration, then it should be broken down into Work Items that can be completed in a&#xD;
-reasonable timeframe, from a few hours to a few days (micro-increments). This will help&amp;nbsp;the team be more productive&#xD;
-and produce&amp;nbsp;more detailed effort estimates. &lt;br align=&quot;left&quot; />&#xD;
-&lt;br /></sectionDescription>
+  <sections xmi:id="_tENnkAVuEdy3F_fZDaPZVA" name="被计划的工作项大小是否合适？" guid="_tENnkAVuEdy3F_fZDaPZVA">
+    <sectionDescription>&lt;p>&#xD;
+    如果某个工作项被计划安排进某个迭代，则需要对该工作项进行拆分，以使拆分后的工作项能够在合理的时间窗内完成，通常从几小时到几天时间（微增量）。这将帮助团队更有效率且能进行更详细的工作量估算。&#xD;
+&lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:ContentDescription>

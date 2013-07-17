@@ -77,10 +77,11 @@
             <methodElementProperty xmi:id="_L0PGEO4-EeK-wa_hp0jzxQ" name="me_edited" value="true"/>
             <presentation xmi:id="-buxz4BVToq97bSxaqyjySg" href="uma://-buxz4BVToq97bSxaqyjySg#-buxz4BVToq97bSxaqyjySg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_xlrdEAVtEdy3F_fZDaPZVA" name="work_items_list" guid="_xlrdEAVtEdy3F_fZDaPZVA" presentationName="Work Items List" briefDescription="This checklist is used to verify that every kind of work to be done in the project &#xD;&#xA;is being tracked">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_xlrdEAVtEdy3F_fZDaPZVA" name="work_items_list" guid="_xlrdEAVtEdy3F_fZDaPZVA" presentationName="工作项列表" briefDescription="使用此检查单验证是否跟踪了项目中将完成的各种类型的工作。">
+            <methodElementProperty xmi:id="_suY6sO6FEeKQI9yn8LIorg" name="me_edited" value="true"/>
             <presentation xmi:id="-BTXdT-1bO6nbAPf25q0_yA" href="uma://-BTXdT-1bO6nbAPf25q0_yA#-BTXdT-1bO6nbAPf25q0_yA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2CEzsLrREd-0rKmWr1vEGQ" name="project_defined_process" guid="_2CEzsLrREd-0rKmWr1vEGQ" presentationName="Project Defined Process" briefDescription="This work product describes the process that a project is to follow in order to produce the project's desired results.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2CEzsLrREd-0rKmWr1vEGQ" name="project_defined_process" guid="_2CEzsLrREd-0rKmWr1vEGQ" presentationName="项目自定义过程" briefDescription="此工作产品描述了为生成项目期望结果项目所需要遵循的过程。">
             <methodElementProperty xmi:id="_j67EAKFLEeGoh9FipVFw0g" name="me_edited" value="true"/>
             <presentation xmi:id="-wBOoiWwZUP1LDeCTqoNMBQ" href="uma://-wBOoiWwZUP1LDeCTqoNMBQ#-wBOoiWwZUP1LDeCTqoNMBQ"/>
           </contentElements>

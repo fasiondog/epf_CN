@@ -128,7 +128,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_oVMZADSoEdy07ZJqOGUGaQ" name="prioritizing_work_items" guid="_oVMZADSoEdy07ZJqOGUGaQ" presentationName="Prioritizing Work Items" briefDescription="This guidelines describes work items prioritization throughout the project lifecycle.">
             <presentation xmi:id="-b0rH1AkPSmj1YKyweFWSuQ" href="uma://-b0rH1AkPSmj1YKyweFWSuQ#-b0rH1AkPSmj1YKyweFWSuQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0l53cMlgEdmt3adZL5Dmdw" name="assess_results" guid="_0l53cMlgEdmt3adZL5Dmdw" presentationName="Assess Results" briefDescription="Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process." conceptsAndPapers="_2PfbIA4QEdy2q5zsU8WDnA" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0l53cMlgEdmt3adZL5Dmdw" name="assess_results" guid="_0l53cMlgEdmt3adZL5Dmdw" presentationName="评估结果" briefDescription="判断迭代成功还是失败。应用经验教训修改项目或改进过程。" conceptsAndPapers="_2PfbIA4QEdy2q5zsU8WDnA" toolMentors="_pJJuIOFSEdyhmsbt0Xyl8A">
+            <methodElementProperty xmi:id="_OS8akO72EeKqgLn_k81u5A" name="me_edited" value="true"/>
             <presentation xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_a3uz4LBYEdm7Eph_l9Cn9w"/>
             <guidelines href="#_277QEA4gEdy63f1yVoPyfA"/>
             <guidelines href="#_FekBAC4IEdyhZrtGEIITGQ"/>
@@ -141,7 +142,8 @@
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_fahB0EfUEdyiPI8btkmvmw"/>
             <optionalInput href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8S2aICbYEdqh1LYUOGRh2A" name="manage_iteration" guid="_8S2aICbYEdqh1LYUOGRh2A" presentationName="Manage Iteration" briefDescription="Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8S2aICbYEdqh1LYUOGRh2A" name="manage_iteration" guid="_8S2aICbYEdqh1LYUOGRh2A" presentationName="管理迭代" briefDescription="获取并识别阻塞的问题与机会。识别和管理异常、问题以及风险。沟通项目状态。">
+            <methodElementProperty xmi:id="_c3RPYO7lEeKqgLn_k81u5A" name="me_edited" value="true"/>
             <presentation xmi:id="-PbfqVxB_j9KN-Jx39_pEUA" href="uma://-PbfqVxB_j9KN-Jx39_pEUA#-PbfqVxB_j9KN-Jx39_pEUA"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0mYYkMlgEdmt3adZL5Dmdw"/>
@@ -155,7 +157,7 @@
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0keUEMlgEdmt3adZL5Dmdw" name="plan_iteration" guid="_0keUEMlgEdmt3adZL5Dmdw" presentationName="迭代策划" briefDescription="计划单一迭代的范围与责任。">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0keUEMlgEdmt3adZL5Dmdw" name="plan_iteration" guid="_0keUEMlgEdmt3adZL5Dmdw" presentationName="策划迭代" briefDescription="计划单一迭代的范围与责任。">
             <methodElementProperty xmi:id="_zXiREO1VEeKXHd3YYTglfg" name="me_edited" value="true"/>
             <presentation xmi:id="_Wk7noKe1EdmGSrcKGOYDGg" href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_Wk7noKe1EdmGSrcKGOYDGg"/>
             <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>

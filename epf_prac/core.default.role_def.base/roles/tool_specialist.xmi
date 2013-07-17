@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-58kSfjmClnawXPOPb1aUnQ" name="rup_tool_specialist,{67BD4971-9474-470E-945B-6F8A380FA8FC}" guid="-58kSfjmClnawXPOPb1aUnQ" changeDate="2010-10-28T10:50:14.911-0700" version="7.1.0">
-  <skills>&lt;a id=&quot;Skills&quot; name=&quot;Skills&quot;>&lt;/a> &#xD;
-&lt;p align=&quot;left&quot;>&#xD;
-    An individual playing this role needs to have a broad set of skills. This includes an understanding of the underlying&#xD;
-    processes used by the project, and for this training might be required prior to project startup. General systematic&#xD;
-    analysis skills are beneficial when comparing and selecting tools for the project. Knowledge of the development&#xD;
-    platform(s) is required, on networking issues in particular. A person acting as this role also needs good&#xD;
-    communication skills and a 'service-minded' attitude, since she or he is likely to be a support contact point for the&#xD;
-    project members, on installation and other tool troubleshooting issues.&#xD;
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-58kSfjmClnawXPOPb1aUnQ" name="rup_tool_specialist,{67BD4971-9474-470E-945B-6F8A380FA8FC}" guid="-58kSfjmClnawXPOPb1aUnQ" changeDate="2013-07-18T01:32:12.367+0800" version="7.1.0">
+  <skills>&lt;p align=&quot;left&quot;>&#xD;
+    扮演此角色的个人需要有一系列广泛的技能。包括理解项目所使用的低层过程，以及在项目启动时进行培训。在为项目比较和选择工具时，通用的系统分析技能是有益的。关于开发平台的知识是必需的，尤其是关于网络的问题。承担该角色的人员还需要良好的沟通过技能以及一个服务的心态，因为他或她需要在支持中接触项目成员，如在安装和其他工具故障时。&#xD;
 &lt;/p></skills>
   <assignmentApproaches>&lt;a id=&quot;RoleAssignment&quot; name=&quot;RoleAssignment&quot;>&lt;/a> &#xD;
 &lt;p>&#xD;
-    This role can be assigned in the following ways:&#xD;
+    此角色可以通过如下方式进行分配：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Assign one or more staff members to perform both this role and developer roles. This is a commonly&#xD;
-        adopted approach, especially in small-to-mid-sized teams, and capitalizes on the common development skills&#xD;
-        that developer role shares with this role.&#xD;
+        分配一位或多位员工同时执行此角色和开发人员角色。这是通常被采用的方式，尤其是小到中等规模的团队。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Assign one staff member to perform this role only. This is a commonly adopted approach and is particularly suitable&#xD;
-        for large teams or smaller teams where effective tool support and process automation is a key aspect of the&#xD;
-        projects development plan.&#xD;
+        指派专人执行此角色。这是通常被采用的方式，并且特别适合于大型的团队或者略小的团队，在那里有效的工具支持和流程自动化是项目开发计划的一个关键方面。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></assignmentApproaches>
 </org.eclipse.epf.uma:RoleDescription>

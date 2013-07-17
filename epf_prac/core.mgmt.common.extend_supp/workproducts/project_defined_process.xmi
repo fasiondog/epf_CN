@@ -1,50 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wBOoiWwZUP1LDeCTqoNMBQ" name="new_artifact,_2CEzsLrREd-0rKmWr1vEGQ" guid="-wBOoiWwZUP1LDeCTqoNMBQ" changeDate="2010-09-07T15:48:43.389-0700" version="7.5.1">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wBOoiWwZUP1LDeCTqoNMBQ" name="new_artifact,_2CEzsLrREd-0rKmWr1vEGQ" guid="-wBOoiWwZUP1LDeCTqoNMBQ" changeDate="2013-07-18T00:54:45.618+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    A project process typically describes or references the following items:&#xD;
+    通常项目过程描述或引用了以下内容：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        what organizational processes and policies must be adhered to.&#xD;
+        哪些组织过程和政策必须被遵循&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        what standard process, if any, is being adopted by the project.&#xD;
+        项目正在采用什么标准过程，如果有的话&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        any tailoring of the standard process, or deviations from policy mandates.&#xD;
+        任何裁剪的标准过程，或对政策规定的偏离&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        rationale for tailoring and deviations.&#xD;
+        裁剪或偏差的原理&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        approvals for deviations.&#xD;
+        对偏差的批准&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        which work products are reviewed at which milestones, and their level of completion.&#xD;
+        里程碑是评审哪些工作产品，以及它们的完成程度&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        guidelines and information that the project wants to use in addition to the information contained in the main.&#xD;
-        process&#xD;
+        除了包含在主过程中的，项目想要使用的其它指南或信息&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        what reviews will be performed, and their level of formality.&#xD;
+        要执行哪些评审，以及它们的正式化程度&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        what approvals are required, by whom, and when.&#xD;
+        有哪些批准要求，由谁、何时批准&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
-  <purpose>The purpose of the project process is to provide guidance and support for the members of the project. &quot;Information at your&#xD;
-finger tips&quot; is a metaphor that aligns well with the purpose of this work product.</purpose>
-  <impactOfNotHaving>&lt;br />&#xD;
-&lt;p>&#xD;
-    All teams have a process, although it may be ad-hoc. A defined process helps team members understand their&#xD;
-    responsibilities and capture lessons learned. A team that follows an ad-hoc process is at risk of being confused in&#xD;
-    terms of responsibilities, may miss opportunities to learn from experience, and is at risk of violating organizational&#xD;
-    process requirements.&#xD;
+  <purpose>&lt;p>&#xD;
+    项目过程的目的是为了提供指南并为项目成员提供支持。“信息在你的指尖（Information at your finger tips）”的隐喻，很符合此工作产品的目的。&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    所有的团队都有一个过程，尽管它可能是临时的。一个定义的过程有助于团队成员理解他们的职责以及吸取经验教训。一个遵循临时过程的团队可能面临责任混淆的风险、失去学习经验教训的机会，以及违反组织过程要求的风险。&#xD;
 &lt;/p></impactOfNotHaving>
-  <reasonsForNotNeeding>An ad-hoc process may be acceptable when there are no organizational process requirements, the team members understand&#xD;
-their responsibilities and are comfortable working without a defined process.</reasonsForNotNeeding>
-  <representationOptions>Processes can be captured informally in documents, formally captured in a Method Composer configuration, or specified by&#xD;
-configuring tools. Typically a project will use a combination of these: start with a Method Composer configuration, create&#xD;
-a document to describe variations from this configuration, and configure tools to support the process being followed.</representationOptions>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    当没有组织过程要求时，一个临时的过程可能被接受，如果团队成员理解他们的责任并且在没有定义过程的条件下对工作感觉舒服。&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p>&#xD;
+    过程可以被非正式的记入文档、正式的使用 Method Composer配置，或者使用其他配置工具来制定。通常，项目混合使用这些方式：从 Method Composer 配置开始，创建相对于配置偏差的描述文档，并配置工具支持将要遵循的过程。&#xD;
+&lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>

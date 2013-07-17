@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QSekP8qxW4BdpikByUiCUg" name="tailor_process,_NOBsuCZLEd-QuZFPf_YdqQ" guid="-QSekP8qxW4BdpikByUiCUg" changeDate="2010-03-10T00:56:14.000-0800" version="7.5.0">
-  <sections xmi:id="_NOBsuSZLEd-QuZFPf_YdqQ" name="Define the scope of the tailoring effort" guid="_NOBsuSZLEd-QuZFPf_YdqQ">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QSekP8qxW4BdpikByUiCUg" name="tailor_process,_NOBsuCZLEd-QuZFPf_YdqQ" guid="-QSekP8qxW4BdpikByUiCUg" changeDate="2013-07-18T00:36:12.739+0800" version="7.5.0">
+  <sections xmi:id="_NOBsuSZLEd-QuZFPf_YdqQ" name="定义裁剪工作的范围" guid="_NOBsuSZLEd-QuZFPf_YdqQ">
     <sectionDescription>&lt;p>&#xD;
-    Determine what processes and tools are mandated by the organization. Determine which process areas to document or&#xD;
-    tailor. You may choose to divide this task into separate tasks for each process area. See guidelines for typical&#xD;
-    process areas.&#xD;
+    判断哪些过程和工具是组织强制要求的。判断哪些过程域需要被文档化或裁剪。你可以选择为每个过程域细分此任务。参见典型的过程域指南。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_o6-UwCZLEd-QuZFPf_YdqQ" name="Involve appropriate stakeholders" guid="_o6-UwCZLEd-QuZFPf_YdqQ">
-    <sectionDescription>Depending on the process areas you intend to tailor, you will want to involve the affected team members. For example,&#xD;
-changes to coding guidelines should involve coders, changes to governance guidelines should involve stakeholders that&#xD;
-govern the project, project acceptance procedures should involve the customer, etc.</sectionDescription>
+  <sections xmi:id="_o6-UwCZLEd-QuZFPf_YdqQ" name="涵盖合适的利益相关人" guid="_o6-UwCZLEd-QuZFPf_YdqQ">
+    <sectionDescription>&lt;p>&#xD;
+    依赖于打算裁剪的过程域，你需要涉及到受影响的团队成员。例如，变更编码指南将会涉及到编码人员，变更管理指南将会涉及到管理项目的利益相关人，项目验收流程将涉及到客户，等等。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_vXIf4CZLEd-QuZFPf_YdqQ" name="Decide how the process will be documented" guid="_vXIf4CZLEd-QuZFPf_YdqQ">
-    <sectionDescription>You can use Rational Method Composer configurations, process documents such as a Development Case, RACI tables, and so&#xD;
-on.&lt;br />&#xD;
-See guidelines on documenting the project process.</sectionDescription>
+  <sections xmi:id="_vXIf4CZLEd-QuZFPf_YdqQ" name="决定过程如何被文档化" guid="_vXIf4CZLEd-QuZFPf_YdqQ">
+    <sectionDescription>&lt;p>&#xD;
+    你可以使用 Rational Method Composer 配置、处理文档，例如 开发案例，RACI表，等诸如此类。参考有关项目过程文档化的指南。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_2WBkoCZLEd-QuZFPf_YdqQ" name="Develop project-specific content" guid="_2WBkoCZLEd-QuZFPf_YdqQ">
-    <sectionDescription>Identify reusable processes/process assets including applicable practices, guidelines, and examples.</sectionDescription>
+  <sections xmi:id="_2WBkoCZLEd-QuZFPf_YdqQ" name="开发项目特定内容" guid="_2WBkoCZLEd-QuZFPf_YdqQ">
+    <sectionDescription>&lt;p>&#xD;
+    识别可重用的过程资产，包括可用的实践、指南、以及样例。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_LMrkQCZpEd-XKYR2S73PfQ" name="Decide which tools will be used to create and maintain work products" guid="_LMrkQCZpEd-XKYR2S73PfQ"/>
-  <sections xmi:id="_VXSXECZpEd-XKYR2S73PfQ" name="Review and approve the process" guid="_VXSXECZpEd-XKYR2S73PfQ"/>
-  <purpose>The purpose of this task is to ensure that the project team has a defined process that meets&amp;nbsp;their needs.</purpose>
+  <sections xmi:id="_LMrkQCZpEd-XKYR2S73PfQ" name="决定使用什么工具创建和维护工作产品" guid="_LMrkQCZpEd-XKYR2S73PfQ"/>
+  <sections xmi:id="_VXSXECZpEd-XKYR2S73PfQ" name="评审并批准过程" guid="_VXSXECZpEd-XKYR2S73PfQ"/>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是确保项目团队拥有符合他们需要的已定义的过程。&#xD;
+&lt;/p></purpose>
   <alternatives>&lt;p>
     &amp;nbsp;
 &lt;/p></alternatives>

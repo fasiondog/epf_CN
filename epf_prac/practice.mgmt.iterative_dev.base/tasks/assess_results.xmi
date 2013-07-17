@@ -1,65 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2008-07-14T09:22:56.000-0700" version="1.0.0">
-  <mainDescription>Coordinate the assessment and discuss with the team how the iteration results will be best presented to stakeholders, so&#xD;
-that they can learn as much about the solution as possible. Listen to what the team has to say about what went wrong (and&#xD;
-what went right) during the iteration. This knowledge will help everybody make informed decisions about the next iteration&#xD;
-planning, and determine the best course of action for the project. This task is performed at the end of every iteration&#xD;
-until the end of the project.</mainDescription>
-  <sections xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="Prepare for iteration assessment" guid="_o28GgMMsEdmdo9HxCRR_Gw">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_a3uz4LBYEdm7Eph_l9Cn9w" name="assess_results,_0l53cMlgEdmt3adZL5Dmdw" guid="_a3uz4LBYEdm7Eph_l9Cn9w" changeDate="2013-07-17T23:01:31.204+0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    协调评估并同团队讨论如何将迭代结果最好的展示给利益相关人，这样他们可以尽可能多的学习解决方案。听取团队关于迭代中做错了什么（做对了什么）的意见。这些支持将帮助团队在下一次迭代计划中做出明智的决定，并确定项目的最佳行动过程。在每个迭代结束时执行此任务，直到项目结束。&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_o28GgMMsEdmdo9HxCRR_Gw" name="做好迭代评估准备" guid="_o28GgMMsEdmdo9HxCRR_Gw">
     <sectionDescription>&lt;p>&#xD;
-    Towards the end of the iteration, the team jointly assesses whether the objectives and evaluation criteria established&#xD;
-    in the Iteration Plan were met, and whether the team adhered to the plan and completed all of the work items committed&#xD;
-    to the iteration. The team makes use of objective measures to the greatest extent possible. To assess that a given work&#xD;
-    item is completed, the team ensures that the corresponding test cases were successfully run against it.&#xD;
+    临近迭代结束时，团队共同评估是否满足了迭代计划中确定的目标和评估标准，以及团队是否坚持了计划并完成了迭代所承诺的所有工作项。团队尽最大的可能进行客观衡量。为了评估给定的工作任务是否完成，团队应确认成功运行了相应的测试用例。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The team prepares a demonstration of the features implemented at that point, so that during the iteration assessment&#xD;
-    stakeholders can have a real sense of progress made. The team decides whether each developer should demonstrate the&#xD;
-    features that they implemented, or if the project manager or senior developer demonstrates it all, with other team&#xD;
-    members present to answer questions.&#xD;
+    团队准备演示此时已实现的特性，这样在迭代评估中，利益相关人可以对进展有一个真实的印象。团队决定是否由每一位开发人员演示他们实现的功能，还是由项目经理或资深开发者来进行全部的演示，而其他成员则负责提问。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    In addition to the demonstration,&amp;nbsp;prepare reports that show project status, such as work burndown and test case&#xD;
-    reports.&#xD;
+    除了演示，准备好报告展示项目的进展，如工作燃尽情况和测试用例报告。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    These activities happen in preparation for the iteration assessment meeting with stakeholders that occurs on the last&#xD;
-    day of the iteration.&#xD;
+    这些活动发生在迭代会议的准备过程中。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_iSiDEIx4Edyzd4h-mxj9YA" name="Demonstrate value and gather feedback" guid="_iSiDEIx4Edyzd4h-mxj9YA">
+  <sections xmi:id="_iSiDEIx4Edyzd4h-mxj9YA" name="演示价值并收集反馈" guid="_iSiDEIx4Edyzd4h-mxj9YA">
     <sectionDescription>&lt;p>&#xD;
-    The team demonstrates the product to customers, end-users, and other stakeholders to collect their feedback or, better&#xD;
-    yet, have end users use the product themselves. This can be done throughout the iteration, but at least during the&#xD;
-    iteration assessment that occurs at the end of the iteration (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    团队向客户、最终用户以及其他利益相关人演示产品，以收集他们的反馈，或者更好的由最终用户自己使用产品。这可以在迭代进行中完成，但至少在迭代结束的评估中进行一次（参见：&lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../practice.mgmt.iterative_dev.base/guidances/guidelines/iteration_assessment_E27E9DDE.html&quot;&#xD;
-    guid=&quot;_FekBAC4IEdyhZrtGEIITGQ&quot;>Guideline: Iteration Assessment&lt;/a>). Work that is not completed should not be&#xD;
-    demonstrated.&#xD;
+    guid=&quot;_FekBAC4IEdyhZrtGEIITGQ&quot;>指南：Iteration Assessment&lt;/a>）。未完成的工作不应该进行演示。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Record resulting knowledge (such as new functionality, requested changes, and defects) in the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
-    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>, so that project priorities, scope, and duration can be refined in&#xD;
-    the next iteration planning.&#xD;
+    在工作项列表中记录结果（如新功能、变更请求以及缺陷），这样在下一次迭代策划中可以完善项目的优先级、范围和持续时间。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_iL7cQEpqEdup0IY9DKDPkg" name="Perform a retrospective" guid="_iL7cQEpqEdup0IY9DKDPkg">
+  <sections xmi:id="_iL7cQEpqEdup0IY9DKDPkg" name="执行回顾" guid="_iL7cQEpqEdup0IY9DKDPkg">
     <sectionDescription>&lt;p>&#xD;
-    Review with the team the approach taken to development and collaboration, the effectiveness of the development&#xD;
-    environment, the suitability of the working environment, and other factors. Discuss what things went well, what could&#xD;
-    have gone better, and how things could be changed to deliver better results. Capture in the current Iteration Plan the&#xD;
-    assessment results, stakeholder feedback, and actions to be taken to improve the development approach for the next&#xD;
-    iteration. Record lessons learned in this iteration with a collection of lessons learned for the entire project.&#xD;
+    团队Review采取的开发和协作方式、开发环境的有效性、工作环境的适合性，以及其他因素。讨论什么已经做得很好、什么可以做得更好，以及为了交付更好的结果可以做什么改变。记录当前迭代计划的评估结果、利益相关人反馈，以及下一次迭代将采取的改进行动。将经验教训记入整个项目的经验教训总结中。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_1YHH8DLqEdueZPye-FaNgA" name="Close-out project" guid="_1YHH8DLqEdueZPye-FaNgA">
+  <sections xmi:id="_1YHH8DLqEdueZPye-FaNgA" name="项目终结" guid="_1YHH8DLqEdueZPye-FaNgA">
     <sectionDescription>&lt;p>&#xD;
-    Perform this step when the iteration review coincides with the end of the project. Involve the team and stakeholders in&#xD;
-    a final assessment for project acceptance which, if successful, marks the point when the customer accepts ownership of&#xD;
-    the software product. Complete the close-out of the project by disposing of the remaining assets and reassigning the&#xD;
-    remaining staff.&#xD;
+    执行这一步，当迭代评审的时机恰好在项目结束时。团队和相关人一起对项目进行最后的评估，此点标志着客户接受软件产品的所有权。完成项目的收尾工作，处理剩余资产并重新分配剩余的员工。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <purpose>Demonstrate the value of the solution increment that was built during the iteration and apply the lessons learned to modify&#xD;
-the project or improve the process.</purpose>
+  <purpose>&lt;p>&#xD;
+    演示迭代中构建的增量方案的价值，并应用经验教训修改项目或改进过程。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9Vqcj7ekEd-D7YZN9NgldQ" guid="_9Vqcj7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="_-_dE0LekEd-D7YZN9NgldQ" id="-QSekP8qxW4BdpikByUiCUg" uri="tasks/tailor_process.xmi"/>
     <resourceDescriptors xmi:id="_-_dE0bekEd-D7YZN9NgldQ" id="-nvLaImb1prGvwbEmRDb5yw" uri="guidances/guidelines/tailor_process_project.xmi"/>
@@ -19,7 +19,7 @@
     <resourceDescriptors xmi:id="__AgNsbekEd-D7YZN9NgldQ" id="-oedHMQ8L-gzzjY50B2VznA" uri="guidances/guidelines/tailoring_risk_management.xmi"/>
     <resourceDescriptors xmi:id="__AgNsrekEd-D7YZN9NgldQ" id="-wDLe1SkoZ7BGW0tvvvQihA" uri="guidances/guidelines/tailoring_testing.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_NOBspSZLEd-QuZFPf_YdqQ" name="practice.mgmt.project_process_tailoring.base" guid="_NOBspSZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." changeDate="2010-11-23T16:05:20.342-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_NOBspSZLEd-QuZFPf_YdqQ" name="practice.mgmt.project_process_tailoring.base" guid="_NOBspSZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." changeDate="2010-11-24T08:05:20.342+0800">
     <methodElementProperty xmi:id="_-gnMxbekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9VqcgLekEd-D7YZN9NgldQ" name="Content" guid="_9VqcgLekEd-D7YZN9NgldQ">
@@ -38,7 +38,8 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Vqci7ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Vqci7ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NOBstCZLEd-QuZFPf_YdqQ" name="project_process_tailoring" guid="_NOBstCZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This package contains the method elements for Project Process Tailoring practice.">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NOBsuCZLEd-QuZFPf_YdqQ" name="tailor_process" guid="_NOBsuCZLEd-QuZFPf_YdqQ" presentationName="Tailor the Process" briefDescription="This task describes how to tailor a process for a project." conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _jUkS8Hf6Ed-uPNA0T8XOnA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_NOBsuCZLEd-QuZFPf_YdqQ" name="tailor_process" guid="_NOBsuCZLEd-QuZFPf_YdqQ" presentationName="裁剪过程" briefDescription="此任务描述了如何为某个项目进行过程裁剪。" conceptsAndPapers="_NOBsuyZLEd-QuZFPf_YdqQ" guidelines="_NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _jUkS8Hf6Ed-uPNA0T8XOnA">
+            <methodElementProperty xmi:id="_6Z7nwO8AEeKqgLn_k81u5A" name="me_edited" value="true"/>
             <presentation xmi:id="-QSekP8qxW4BdpikByUiCUg" href="uma://-QSekP8qxW4BdpikByUiCUg#-QSekP8qxW4BdpikByUiCUg"/>
             <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_C2FS4F_lEd2zpKtX6B7lBg"/>
             <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_dlGBQF_nEd2zpKtX6B7lBg"/>
@@ -88,7 +89,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jcjbMEmgEd-UYMQAaXd4fQ" name="verify_tool_config_installation" guid="_jcjbMEmgEd-UYMQAaXd4fQ" presentationName="Verify Tool Configuration and Installation" briefDescription="This task describes how to verify that the Development Configuration is ready to be used by the project." mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
             <presentation xmi:id="-YTA7QOxZpdM-is9Zx_tJXQ" href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#-YTA7QOxZpdM-is9Zx_tJXQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AeUr0EmiEd-UYMQAaXd4fQ" name="tools" guid="_AeUr0EmiEd-UYMQAaXd4fQ" presentationName="Tools" briefDescription="These work products are the tools needed to support the software development effort. ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AeUr0EmiEd-UYMQAaXd4fQ" name="tools" guid="_AeUr0EmiEd-UYMQAaXd4fQ" presentationName="工具" briefDescription="此工作产品是指支持软件开发工作所需要的工具。">
+            <methodElementProperty xmi:id="_1haAUO8FEeKqgLn_k81u5A" name="me_edited" value="true"/>
             <presentation xmi:id="-7TKJK1WF21Hi03R3UAjexQ" href="uma://-7TKJK1WF21Hi03R3UAjexQ#-7TKJK1WF21Hi03R3UAjexQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_A1qOACu3Ed-UrP371xHUyw" name="deploying_tools" guid="_A1qOACu3Ed-UrP371xHUyw" presentationName="Deploying Tools">
