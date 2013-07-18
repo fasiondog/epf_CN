@@ -116,7 +116,8 @@
             <methodElementProperty xmi:id="_MPezcOvUEeKna71GZFtYEA" name="me_edited" value="true"/>
             <presentation xmi:id="_zHTQUKYSEdmvhNXG0Oc2uA" href="uma://_zHTQUKYSEdmvhNXG0Oc2uA#_zHTQUKYSEdmvhNXG0Oc2uA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BVh9cL-CEdqb7N6KIeDL8Q" name="system_wide_requirements" guid="_BVh9cL-CEdqb7N6KIeDL8Q" presentationName="System-Wide Requirements" briefDescription="This artifact captures the quality attributes and constraints that have system-wide scope. It also captures system-wide functional requirements." guidelines="_6jXzYNcKEdqz_d2XWoVt6Q" templates="_m7p-AI5fEdyO5aWob1UGDA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_BVh9cL-CEdqb7N6KIeDL8Q" name="system_wide_requirements" guid="_BVh9cL-CEdqb7N6KIeDL8Q" presentationName="系统需求" briefDescription="此工件记录了整个系统范围内质量属性和约束，同时也捕获全系统的功能性需求。" guidelines="_6jXzYNcKEdqz_d2XWoVt6Q" templates="_m7p-AI5fEdyO5aWob1UGDA">
+            <methodElementProperty xmi:id="_-MWXIO_JEeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" href="uma://-_dNuyh-0q5vpCiIiLfbj6w#-_dNuyh-0q5vpCiIiLfbj6w"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0VGbUMlgEdmt3adZL5Dmdw" name="use_case" guid="_0VGbUMlgEdmt3adZL5Dmdw" presentationName="Use Case" briefDescription="This artifact captures the system behavior to yield an observable result of value to those who interact with the system." conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q" checklists="_0kNwINk1Edq2Q8qZoWbvGA" examples="_JLOiIMNvEdu2IdAIaWZyAw" templates="_3Y3XUI5fEdyO5aWob1UGDA">
@@ -350,7 +351,8 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Vqf5EMuFEdyuBO4ZIzcyig" name="technical_resources (templates, reports, examples)" guid="_Vqf5EMuFEdyuBO4ZIzcyig" presentationName="Technical Resources (Templates, Reports, Examples)">
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_m7p-AI5fEdyO5aWob1UGDA" name="systemwide_requirements_specification" guid="_m7p-AI5fEdyO5aWob1UGDA" presentationName="System-Wide Requirements Specification" briefDescription="This is the template suggested for specifying requirements and constraints in accordance with the FURPS+ classification.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_m7p-AI5fEdyO5aWob1UGDA" name="systemwide_requirements_specification" guid="_m7p-AI5fEdyO5aWob1UGDA" presentationName="系统需求规格说明书" briefDescription="这是建议的描述需求和约束的模板，依照FUPRS+分类。">
+            <methodElementProperty xmi:id="_cyougO_LEeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="-13wK-dfNa9N1G8Ob27m-Og" href="uma://-13wK-dfNa9N1G8Ob27m-Og#-13wK-dfNa9N1G8Ob27m-Og"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_3Y3XUI5fEdyO5aWob1UGDA" name="use_case_specification" guid="_3Y3XUI5fEdyO5aWob1UGDA" presentationName="Use-Case Specification" briefDescription="This is the informal template suggested for representing a use case specification." examples="_JLOiIMNvEdu2IdAIaWZyAw">

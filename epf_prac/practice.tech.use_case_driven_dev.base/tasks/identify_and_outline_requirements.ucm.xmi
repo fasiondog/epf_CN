@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Yt8TXGkE1rwydXR34apsrg" name="identify_and_outline_requirements.ucm,_txpV0AFmEduDPKiaP0pu-Q" guid="-Yt8TXGkE1rwydXR34apsrg" version="1.0.0">
-  <sections xmi:id="_N66nkApAEdyT57ElgMr6TA" name="Identify and capture Use Cases and Actors in a Use-Case Model" guid="_N66nkApAEdyT57ElgMr6TA">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Yt8TXGkE1rwydXR34apsrg" name="identify_and_outline_requirements.ucm,_txpV0AFmEduDPKiaP0pu-Q" guid="-Yt8TXGkE1rwydXR34apsrg" version="1.0.0">
+  <sections xmi:id="_N66nkApAEdyT57ElgMr6TA" name="在用例模型中识别并捕获用例与参与人" guid="_N66nkApAEdyT57ElgMr6TA">
     <sectionDescription>&lt;p>&#xD;
-    Find and define the line that divides the solution and the real world that surrounds the solution. Collaborate with the&#xD;
-    project manager&amp;nbsp;and architect, because decisions concerning system boundaries will have a major impact on cost,&#xD;
-    schedule and system architecture.&#xD;
+    寻找并定义将解决方案和真实世界隔离的边界线。同项目经理与架构师一起协作，因为有关系统边界的决策将对成本、进度和系统架构有主要的影响。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Collaborate&amp;nbsp;with stakeholders to identify interfaces, as well as input and output information exchanged with&#xD;
-    users, machines, or systems. Identify and capture&amp;nbsp;the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html&quot;&#xD;
-    guid=&quot;_zGqO0MDpEduTGJ8i4u8TMw&quot;>Actor&lt;/a>s and &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use&#xD;
-    Case&lt;/a>s in the &lt;a class=&quot;elementLink&quot;&#xD;
+    同利益相关人协作，识别接口，如用户、机器或系统之间交换的输入、输出信息。在&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_model_85965D1B.html&quot;&#xD;
-    guid=&quot;_W2SgEDR5EdutE_HNDTJk5Q&quot;>Use-Case Model&lt;/a>. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    guid=&quot;_W2SgEDR5EdutE_HNDTJk5Q&quot;>Use-Case Model&lt;/a> 识别并捕获 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/actor_411726C.html&quot;&#xD;
+    guid=&quot;_zGqO0MDpEduTGJ8i4u8TMw&quot;>Actor&lt;/a>&amp;nbsp;和 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use&#xD;
+    Case&lt;/a>。更多信息参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.use_case_driven_dev.base/guidances/guidelines/identify_and_outline_actors_and_ucs_BB5516A9.html&quot;&#xD;
-     guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Guideline: Identify and Outline Actors and Use Cases&lt;/a>&amp;nbsp;for more information.&#xD;
+     guid=&quot;_eyL0wCu-EdqSxKAVa9kmvA&quot;>Identify and Outline Actors and Use Cases&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

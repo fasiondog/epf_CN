@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9pU_b7ekEd-D7YZN9NgldQ" guid="_9pU_b7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__XS9ELekEd-D7YZN9NgldQ" id="_AGvpcMM3EdmSIPI87WLu3g" uri="guidances/guidelines/use_case_model.xmi"/>
     <resourceDescriptors xmi:id="__XS9EbekEd-D7YZN9NgldQ" id="-3kVaHsAKwWzKBx12XV-xTg" uri="guidances/concepts/use_case.ucm.xmi"/>
@@ -19,7 +19,7 @@
     <resourceDescriptors xmi:id="__Yyx4LekEd-D7YZN9NgldQ" id="-J8H_fSsJx2Au1sebs1zyCg" uri="guidances/practices/use_case_driven_dev_practice.xmi"/>
     <resourceDescriptors xmi:id="__Yyx4bekEd-D7YZN9NgldQ" id="-pnWJpKCphl8ewGRYM4tDOQ" uri="guidances/supportingmaterials/release_info_uc_driven_dev.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_GbYfULPaEduocbW-TPTq7A" name="practice.tech.use_case_driven_dev.base" guid="_GbYfULPaEduocbW-TPTq7A" presentationName="Use-Case Driven Development" briefDescription="Define requirements using use cases.  Drive development and testing from those use cases." changeDate="2011-04-01T15:35:07.408-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_GbYfULPaEduocbW-TPTq7A" name="practice.tech.use_case_driven_dev.base" guid="_GbYfULPaEduocbW-TPTq7A" presentationName="Use-Case Driven Development" briefDescription="Define requirements using use cases.  Drive development and testing from those use cases." changeDate="2011-04-02T06:35:07.408+0800">
     <methodElementProperty xmi:id="_-gnM3LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9pU_YLekEd-D7YZN9NgldQ" name="Content" guid="_9pU_YLekEd-D7YZN9NgldQ">
@@ -52,6 +52,7 @@
               <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_txpV0AFmEduDPKiaP0pu-Q" name="identify_and_outline_requirements.ucm" guid="_txpV0AFmEduDPKiaP0pu-Q" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1199391793298&quot;>&#xD;&#xA;    &lt;gUIDs>_ckG-cCY-EdqNHcQ-rAojXw&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_GAr3IOz3Edq2wJOsmRwmhg&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_fDbgkCY-EdqNHcQ-rAojXw&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_N66nkApAEdyT57ElgMr6TA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_CD_a8JJKEdyk6dG0ehkW5Q&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_Ql45gEI6Edyrh7YaMjqrlA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_0WhHsN-eEdqiM_wFaqLjNg&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes" variabilityBasedOnElement="_P9cMUPV_EdmdHa9MmVPgqQ">
+              <methodElementProperty xmi:id="_tatWAO-1EeKfMplbp53vgg" name="me_edited" value="true"/>
               <presentation xmi:id="-Yt8TXGkE1rwydXR34apsrg" href="uma://-Yt8TXGkE1rwydXR34apsrg#-Yt8TXGkE1rwydXR34apsrg"/>
               <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
             </contentElements>
@@ -78,7 +79,8 @@
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
             <output href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P9cMUPV_EdmdHa9MmVPgqQ" name="identify_and_outline_requirements" guid="_P9cMUPV_EdmdHa9MmVPgqQ" presentationName="Identify and Outline Requirements" briefDescription="This task describes how to identify and outline the requirements for the system so that the scope of work can be determined.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P9cMUPV_EdmdHa9MmVPgqQ" name="identify_and_outline_requirements" guid="_P9cMUPV_EdmdHa9MmVPgqQ" presentationName="识别并列出需求" briefDescription="此任务描述了如何识别并列出系统需求，从而确定工作范围。">
+            <methodElementProperty xmi:id="_LZQTwO--EeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="_P9iS8PV_EdmdHa9MmVPgqQ" href="uma://_P9iS8PV_EdmdHa9MmVPgqQ#_P9iS8PV_EdmdHa9MmVPgqQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Wh-sMlgEdmt3adZL5Dmdw"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_VXZ5wO0IEdqHTdbLTmC5IQ"/>

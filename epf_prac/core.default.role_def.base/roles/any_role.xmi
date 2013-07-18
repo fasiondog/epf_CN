@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" name="any_role,_0dsWoMlgEdmt3adZL5Dmdw" guid="_NqqcUqeqEdmKDbQuyzCoqQ" changeDate="2006-09-11T11:34:17.000-0700" version="7.2.0">
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqqcUqeqEdmKDbQuyzCoqQ" name="any_role,_0dsWoMlgEdmt3adZL5Dmdw" guid="_NqqcUqeqEdmKDbQuyzCoqQ" changeDate="2006-09-12T02:34:17.000+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    This role allows anyone on a team to perform general tasks:&#xD;
+    此角色允许团队中的任何人执行一般性任务：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Access artifacts in the configuration control system for development and maintenance&#xD;
+        访问配置控制系统中的工件&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Submit change requests for the project&#xD;
+        向项目提交变更申请&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Participate in assessments and reviews&#xD;
+        参与评估和Review&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Volunteer to work on a particular iteration&#xD;
+        作为志愿者参与特定的迭代&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
 </org.eclipse.epf.uma:RoleDescription>

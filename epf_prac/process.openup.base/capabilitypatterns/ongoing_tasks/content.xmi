@@ -1,65 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-aXudKqi6rjimd3UsF0smZA" name="ongoing_tasks,__ZInMdOEEdyqlogshP8l4g" guid="-aXudKqi6rjimd3UsF0smZA" version="7.2.0">
-    <mainDescription>&lt;p>
-    This activity includes a task for requesting changes. This task may occur any time during the lifecycle in response to
-    an observed defect, a desired enhancement, or a change request. It is not planned, which means that it does not appear
-    as a scheduled activity on the project plan, iteration plan, or work items list. Nevertheless, it is a critical
-    activity that must be performed to ensure project success, because your environment is not static.
-&lt;/p>
-&lt;p>
-    Any role may perform this task, however the most common sources of &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.continuous_integration.base/guidances/concepts/change_requests_AD4868FE.html&quot; guid=&quot;_6jdvECb3Edqh1LYUOGRh2A&quot;>Change Requests&lt;/a> are stakeholders (enhancement requests and change requests) and
-    testers (defect reports).
+    <mainDescription>&lt;p>&#xD;
+    此活动包含了变更请求任务。该任务可能出现在生命周期中的任何时刻，响应某个观测到的缺陷、某个期望的增强、或者某个变更请求。它不是计划得到的，这意味着它不是出现在项目计划、迭代计划或工作项列表中的计划的活动。然而，它是一个关键的活动，必须被执行，以保证项目成功。因为，环境并不是静止不变的。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    任何人员都可能执行此任务，然后绝大部分的变更请求来源于利益相关人（增强请求和变更请求）和测试人员（缺陷报告）。&#xD;
 &lt;/p></mainDescription>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-giG0nmV9ZE9q-25Wm3nzBQ" name="work_items_list,_HGqkMdnTEdyNj6EOmqy5Rg" guid="-giG0nmV9ZE9q-25Wm3nzBQ">
     <keyConsiderations>&lt;p>&#xD;
-    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+    工作项应该包含估算。参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.iterative_dev.base/guidances/guidelines/managing_work_items_32AC6ABD.html&quot;&#xD;
+    guid=&quot;_7vEXEMA4EdqSgKaj2SZBmg&quot;>Managing Work Items&lt;/a>&amp;nbsp;和 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html&quot;&#xD;
+    guid=&quot;_CGHskBEdEdqY7JB6N6CW2w&quot;>Agile Estimation&lt;/a>。&#xD;
 &lt;/p></keyConsiderations>
     <refinedDescription>&lt;p>&#xD;
-    This artifact provides a focal point for the entire team:&#xD;
+    此工件为整个团队提供了一个关注点：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
-        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+        提供了针对应用的所有新增或增强功能的请求列表。注意这些请求可能尚未实现或已经实现。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
-        is prioritized separately.&#xD;
+        提供了项目的所有工作清单，这些工作被排序、估算、分配。排序的风险列表是独立的。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
-        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+        为开发团队提供了一处理解将交付什么微增量的地点，通过引用需要的材料执行工作并报告进展。&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    These are the typical work items that go on this list:&#xD;
+    以下是出现在工作项列表里的典型工作项：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Use cases (and references to use-case specifications)&#xD;
+        用例（并引用用例规约）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        System-wide requirements&#xD;
+        全系统需求&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Changes and enhancement requests&#xD;
+        变更及增强请求&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Defects&#xD;
+        缺陷&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Development tasks&#xD;
+        开发任务&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
-    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
-    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
-    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
-    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
-    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+    工作项可能很大，尤其是增强的请求，如某个个人财务应用中的“支持财务计划”工作项。为了能够在微增量中开发应用，工作项被分析和分解到更小的工作项，这样能够将其分配的某个迭代中，例如某个用例场景“计算网络价值”。进一步的分析可能要求识别合适的任务以分配给开发者，例如“计算网络价值-开发UI界面”。这意味着工作项之间常常存在着父/子关系，那些最底层的工作项则被当做微增量的规格和跟踪设备。&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

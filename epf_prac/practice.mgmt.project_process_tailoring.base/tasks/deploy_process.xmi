@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2010-03-10T01:44:03.000-0800" version="7.5.0">
-  <sections xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="Make the changes public" guid="_kPN0oCZpEd-XKYR2S73PfQ">
-    <sectionDescription>Inform all project members about any significant updates.</sectionDescription>
-  </sections>
-  <sections xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="Educate project members" guid="_nGNP4CZpEd-XKYR2S73PfQ">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-dWzB4mHRr5uSP98BqAOy1g" name=",_XlJ80CZpEd-XKYR2S73PfQ" guid="-dWzB4mHRr5uSP98BqAOy1g" changeDate="2013-07-18T14:52:22.743+0800" version="7.5.0">
+  <sections xmi:id="_kPN0oCZpEd-XKYR2S73PfQ" name="公开变更" guid="_kPN0oCZpEd-XKYR2S73PfQ">
     <sectionDescription>&lt;p>&#xD;
-    Unless the change is trivial, you need to educate the project members about the new Development Process, including any&#xD;
-    guidelines, templates and/or tools. This can vary from an informal 2 hour presentation to more formal training,&#xD;
-    depending on the size of the project and the project members' familiarity with similar development processes.&lt;br />&#xD;
-    The following are commonly used ways to educate the project members:&#xD;
+    对任何重要的更新通知所有项目成员。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_nGNP4CZpEd-XKYR2S73PfQ" name="培训团队成员" guid="_nGNP4CZpEd-XKYR2S73PfQ">
+    <sectionDescription>&lt;p>&#xD;
+    除非变更非常微小，否则你需要对项目成员进行培训，介绍新的开发过程，包括指南、模板、工具。依赖于项目的规模和项目成员对类似开发过程的熟悉程度，培训方式可能非常不同，可以是从2小时的非正式介绍到更多时间的正式培训。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    以下是培训项目成员的常用方式：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Briefing&lt;br />&#xD;
-        If the change is small or easy to understand a briefing to the team may be sufficient.&#xD;
+        &lt;strong>简报&lt;/strong> 如果变更很小或容易理解，一份简报可能就足够了。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Mentors&lt;br />&#xD;
-        Having experienced mentors or consultants on the project or available to the project is an effective way to provide&#xD;
-        guidance on an as-needed basis.&#xD;
+        &lt;strong>导师&lt;/strong> 项目拥有经验丰富的导师或顾问或对项目可用，是按需提供指导的一种有效方式。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Workshop&lt;br />&#xD;
-        A one day process adoption workshop (PAW) for all project members can help &quot;kick-start&quot; a new or significantly&#xD;
-        changed process. See Guidelines: Process Adoption Workshop&#xD;
+        &lt;strong>研讨会（Workshop）&lt;/strong> 所有项目成员参与的一整天的过程采纳会议研讨会（PAW: Process Adoption Workshop）有助于“激活”一个新的或重要变化的过程。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Customized training courses.&lt;br />&#xD;
-        If the project member have not attended the standard training courses in process and tools, an alternative is to&#xD;
-        customize the standard training courses, to cover the project's development process, including guidelines,&#xD;
-        templates and tools. However, it can be expensive to customize training courses. Generic process training, like an&#xD;
-        introductory course to the Process or one or more practices, should be conducted prior to project startup, or in&#xD;
-        the early days of the project. More specialized training in techniques, methods or technologies, is often conducted&#xD;
-        &quot;just-in-time&quot;. This means that the training is given shortly before the method or technique is to be applied in&#xD;
-        the project, to ensure that new knowledge is fresh in mind. &quot;Boot-camps&quot;.&#xD;
+        &lt;strong>定制培训课程&lt;/strong>&#xD;
+        如果项目成员没有参加过过程和工具的标准培训课程，一种可选的方式是定制化标准的培训课程，覆盖项目的开发过程，包括指南、模板和工具。然而，它可能是昂贵的定制培训课程。一般过程培训，向过程或实践的介绍过程，应该在项目启动时优先引导，或者在项目早期的几天。更多特定的培训，如技巧、方法或技术，通常实时进行。这意味着培训是在方法或技术被应用到项目前不久，从而保证新的知识及时更新。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        1-5 weeks of concentrated hands-on training. Not many organizations can afford to arrange these kinds of&#xD;
-        boot-camps, but they have proven to be efficient if there are many new factors for the people in the project. A&#xD;
-        boot-camp is typically a mixture of seminars, training courses and hands-on work with the process and tools.&#xD;
+        &lt;strong>夏令营&quot;Boot-camps”&lt;/strong>&#xD;
+        1~5周的集中实习培训，没有许多组织能够负担得其这种引导夏令营式的培训，但当项目的人员中存在很大新的因素时，这被证明是一种有效的方式。这种夏令营方式通常混合了研讨、培训课程以及过程和工具实习。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="Collect feedback" guid="_8rmD8CZpEd-XKYR2S73PfQ"/>
-  <purpose>&lt;p>
-    The purpose of this task is to:
-&lt;/p>
-&lt;ul>
-    &lt;li>
-        Ensure that the project members are properly introduced to the process.
-    &lt;/li>
-    &lt;li>
-        Harvest any feedback on the process and refine the process, as necessary.
-    &lt;/li>
+  <sections xmi:id="_8rmD8CZpEd-XKYR2S73PfQ" name="收集反馈" guid="_8rmD8CZpEd-XKYR2S73PfQ"/>
+  <purpose>&lt;p>&#xD;
+    此任务的目的：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        确保向项目成员介绍了过程。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        获取有关过程的任何反馈并在需要时完善过程&#xD;
+    &lt;/li>&#xD;
 &lt;/ul></purpose>
 </org.eclipse.epf.uma:TaskDescription>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9Z1K37ekEd-D7YZN9NgldQ" guid="_9Z1K37ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__DB9QLekEd-D7YZN9NgldQ" id="_Nr0S4KeqEdmKDbQuyzCoqQ" uri="tasks/request_change.xmi"/>
     <resourceDescriptors xmi:id="__DB9QbekEd-D7YZN9NgldQ" id="-TuCzhSCW4ZtU_Z5h-cGwFQ" uri="guidances/roadmaps/how_to_adopt.xmi"/>
@@ -7,7 +7,7 @@
     <resourceDescriptors xmi:id="__DVfQLekEd-D7YZN9NgldQ" id="-r3bcpa8I8s9Ta-F-krEwBA" uri="guidances/practices/team_change_mgmt.xmi"/>
     <resourceDescriptors xmi:id="__DVfQbekEd-D7YZN9NgldQ" id="-xPhJw16KmT-h86ekuVaveQ" uri="guidances/supportingmaterials/release_info_team_change_mgmt.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_44o4AOvVEdyp6czxLiQq9g" name="practice.mgmt.team_change_mgmt.base" guid="_44o4AOvVEdyp6czxLiQq9g" presentationName="Team Change Management" briefDescription="This practice manages ad-hoc requests for change to the product being developed, or to the scope of the project, that occur during the development lifecycle." changeDate="2008-09-18T10:13:43.000-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_44o4AOvVEdyp6czxLiQq9g" name="practice.mgmt.team_change_mgmt.base" guid="_44o4AOvVEdyp6czxLiQq9g" presentationName="Team Change Management" briefDescription="This practice manages ad-hoc requests for change to the product being developed, or to the scope of the project, that occur during the development lifecycle." changeDate="2008-09-19T01:13:43.000+0800">
     <methodElementProperty xmi:id="_-gnMyrekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K0LekEd-D7YZN9NgldQ" name="Content" guid="_9Z1K0LekEd-D7YZN9NgldQ">
@@ -26,7 +26,8 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9Z1K27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9Z1K27ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_1Jhn4OxXEdyCFeiQwJE7Vg" name="team_change_management" guid="_1Jhn4OxXEdyCFeiQwJE7Vg" presentationName="Team change management">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0mwzEclgEdmt3adZL5Dmdw" name="request_change" guid="_0mwzEclgEdmt3adZL5Dmdw" presentationName="Request Change" briefDescription="Capture and record change requests." guidelines="_fnZj0NVXEdqy9sbRhejO5Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0mwzEclgEdmt3adZL5Dmdw" name="request_change" guid="_0mwzEclgEdmt3adZL5Dmdw" presentationName="变更请求" briefDescription="捕获并记录变更请求。" guidelines="_fnZj0NVXEdqy9sbRhejO5Q">
+            <methodElementProperty xmi:id="_DfviMO-wEeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="_Nr0S4KeqEdmKDbQuyzCoqQ" href="uma://_Nr0S4KeqEdmKDbQuyzCoqQ#_Nr0S4KeqEdmKDbQuyzCoqQ"/>
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
           </contentElements>

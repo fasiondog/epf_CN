@@ -56,7 +56,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_NOBsuiZLEd-QuZFPf_YdqQ" name="project_process_tailoring" guid="_NOBsuiZLEd-QuZFPf_YdqQ" presentationName="Project Process Tailoring" briefDescription="This practice describes how to select tools and an appropriate process and perform the typical tailoring required for use on a specific project." contentReferences="_NOBsxCZLEd-QuZFPf_YdqQ _NOBsuyZLEd-QuZFPf_YdqQ 7.27749388241665E-306 _A1qOACu3Ed-UrP371xHUyw _NOBsvSZLEd-QuZFPf_YdqQ _YxYU8E5hEd-TbrfwCHSPcA _9UrSwE5hEd-TbrfwCHSPcA _uWZwAF3gEd-8pIBWBGuz7w _AeUr0EmiEd-UYMQAaXd4fQ _vb78EF3dEd-8pIBWBGuz7w _XlJ80CZpEd-XKYR2S73PfQ _okIOcEmfEd-UYMQAaXd4fQ _NOBsuCZLEd-QuZFPf_YdqQ _jcjbMEmgEd-UYMQAaXd4fQ _jUkS8Hf6Ed-uPNA0T8XOnA _TtPscJqvEd-nwak7fOAUXg">
             <presentation xmi:id="-CKaoEA0OyFdrxbrlgIDEGg" href="uma://-CKaoEA0OyFdrxbrlgIDEGg#-CKaoEA0OyFdrxbrlgIDEGg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XlJ80CZpEd-XKYR2S73PfQ" name="deploy_process" guid="_XlJ80CZpEd-XKYR2S73PfQ" presentationName="Deploy the Process" briefDescription="This task describes how to rollout a development process to the project team." guidelines="_A1qOACu3Ed-UrP371xHUyw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XlJ80CZpEd-XKYR2S73PfQ" name="deploy_process" guid="_XlJ80CZpEd-XKYR2S73PfQ" presentationName="部署过程" briefDescription="该任务描述了如何向项目团队首次展示开发过程。" guidelines="_A1qOACu3Ed-UrP371xHUyw">
+            <methodElementProperty xmi:id="_uiMhIO92EeKtZ5Hgku1o1g" name="me_edited" value="true"/>
             <presentation xmi:id="-dWzB4mHRr5uSP98BqAOy1g" href="uma://-dWzB4mHRr5uSP98BqAOy1g#-dWzB4mHRr5uSP98BqAOy1g"/>
             <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
             <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
@@ -83,10 +84,12 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_OHgdIEmIEd-W_dGm6lzR1Q" name="project_tools" guid="_OHgdIEmIEd-W_dGm6lzR1Q" presentationName="Project Tools">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_okIOcEmfEd-UYMQAaXd4fQ" name="setup_tools" guid="_okIOcEmfEd-UYMQAaXd4fQ" presentationName="Set Up Tools" mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_okIOcEmfEd-UYMQAaXd4fQ" name="setup_tools" guid="_okIOcEmfEd-UYMQAaXd4fQ" presentationName="设置工具" mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+            <methodElementProperty xmi:id="_6OM_oO9SEeKtiJ74fH65_w" name="me_edited" value="true"/>
             <presentation xmi:id="-5i4nbMLokgXzl8E2LT94uQ" href="uma://-5i4nbMLokgXzl8E2LT94uQ#-5i4nbMLokgXzl8E2LT94uQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jcjbMEmgEd-UYMQAaXd4fQ" name="verify_tool_config_installation" guid="_jcjbMEmgEd-UYMQAaXd4fQ" presentationName="Verify Tool Configuration and Installation" briefDescription="This task describes how to verify that the Development Configuration is ready to be used by the project." mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jcjbMEmgEd-UYMQAaXd4fQ" name="verify_tool_config_installation" guid="_jcjbMEmgEd-UYMQAaXd4fQ" presentationName="验证工具配置与安装" briefDescription="此任务描述了如何验证项目的开发配置已经可用。" mandatoryInput="_AeUr0EmiEd-UYMQAaXd4fQ" output="_AeUr0EmiEd-UYMQAaXd4fQ">
+            <methodElementProperty xmi:id="_w3QJcO91EeKtZ5Hgku1o1g" name="me_edited" value="true"/>
             <presentation xmi:id="-YTA7QOxZpdM-is9Zx_tJXQ" href="uma://-YTA7QOxZpdM-is9Zx_tJXQ#-YTA7QOxZpdM-is9Zx_tJXQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AeUr0EmiEd-UYMQAaXd4fQ" name="tools" guid="_AeUr0EmiEd-UYMQAaXd4fQ" presentationName="工具" briefDescription="此工作产品是指支持软件开发工作所需要的工具。">

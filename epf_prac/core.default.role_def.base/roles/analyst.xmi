@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" name="analyst,_0VxJsMlgEdmt3adZL5Dmdw" guid="_Nx8icKYdEdmvhNXG0Oc2uA" changeDate="2013-07-13T18:18:24.385+0800" version="1.0.0">
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_Nx8icKYdEdmvhNXG0Oc2uA" name="analyst,_0VxJsMlgEdmt3adZL5Dmdw" guid="_Nx8icKYdEdmvhNXG0Oc2uA" changeDate="2013-07-18T20:45:23.971+0800" version="1.0.0">
   <skills>&lt;p>&#xD;
     分析人员需要以下的知识、技能和能力：&#xD;
 &lt;/p>&#xD;
@@ -11,7 +11,7 @@
         具备良好的表达能力，表述待解决的关键问题或待实现的机遇。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        具备和扩展团队高效协作的能力，通过合作工作会议、务虚会（workshop），联合应用开发会议（JAD sessions: joint application design）以及其他技术&#xD;
+        具备和扩展团队高效协作的能力，通过合作工作会议、研讨会（workshop），联合应用开发会议（JAD sessions: joint application design）以及其他技术&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
         良好的沟通技能，口头及写作技能&#xD;
