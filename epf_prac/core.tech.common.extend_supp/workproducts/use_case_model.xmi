@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kQg7MSGPB3RPjrplyxwimQ" name="uc_model,_W2SgEDR5EdutE_HNDTJk5Q" guid="-kQg7MSGPB3RPjrplyxwimQ" changeDate="2008-08-15T00:59:12.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kQg7MSGPB3RPjrplyxwimQ" name="uc_model,_W2SgEDR5EdutE_HNDTJk5Q" guid="-kQg7MSGPB3RPjrplyxwimQ" changeDate="2013-07-20T22:19:18.281+0800" version="1.0.0">
   <purpose>&lt;p>&#xD;
-    This artifact presents an overview of the intended behavior of the system. It is the basis for agreement between&#xD;
-    stakeholders and the project team in regards to the intended functionality of the system. It also guides various tasks&#xD;
-    in the software development lifecycle.&#xD;
+    此工件表述了系统预期功能的概貌。是利益相关人和项目团队之间就系统预期功能达成一致意见的基础。同时也指引了软件开发生命周期中的不同任务。&#xD;
 &lt;/p></purpose>
-  <impactOfNotHaving>Without this artifact, it is difficult to determine all of the relationships between actors and use cases. It is also&#xD;
-difficult to gain an understanding of how different use cases relate.</impactOfNotHaving>
+  <impactOfNotHaving>&lt;p>&#xD;
+    没有该工件，将很难判断参与人与用例之间的关联关系，同时也难以理解不同用例之间的关联。&#xD;
+&lt;/p></impactOfNotHaving>
   <reasonsForNotNeeding>&lt;p>&#xD;
-    You might not need this requirement if the overall set of use cases is small and has no complex relationships.&#xD;
+    你可以不需要此模型，如果所有的用例集合非常小且不存在复杂的关联关系。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    You also might not need a use-case model if you use an alternative approach to document functional requirements.&#xD;
+    如果使用了其它的方式文档化需求，也可以不使用用例模型。&#xD;
 &lt;/p></reasonsForNotNeeding>
   <representationOptions>&lt;p>&#xD;
-    Representation options include reports and diagrams from UML modeling tools, graphical representations created by using&#xD;
-    drawing tools, and drawings on whiteboards. Most of the information in the use-case model is captured in the use-case&#xD;
-    specifications.&#xD;
+    表达的方式包括：从UML建模工具产生的报告和图表、其它图形绘制工具绘制的图形、在白板上进行绘制。更多的用例模型信息在用例规约中表达。&#xD;
 &lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>

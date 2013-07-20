@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9nGKwLekEd-D7YZN9NgldQ" guid="_9nGKwLekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__VqlYLekEd-D7YZN9NgldQ" id="-CGSI-WD83sE5swSmSDjAYA" uri="guidances/roadmaps/adopt_tdd_practice.xmi"/>
     <resourceDescriptors xmi:id="__VzvULekEd-D7YZN9NgldQ" id="-UW-yTFk3AppqcGGU-Px63A" uri="tasks/implement_developer_tests.xmi"/>
@@ -12,7 +12,7 @@
     <resourceDescriptors xmi:id="__XJzILekEd-D7YZN9NgldQ" id="-DAk3ahn7Yqi4DY4VKX5b7A" uri="guidances/supportingmaterials/using_tdd_in_context.xmi"/>
     <resourceDescriptors xmi:id="__XJzIbekEd-D7YZN9NgldQ" id="-E53fUEmqkW0sT-FCrmpFDw" uri="guidances/supportingmaterials/release_info_test_driven_development.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_DZ1rEI7-Edy7q8CKc_B8eg" name="practice.tech.test_driven_development.base" guid="_DZ1rEI7-Edy7q8CKc_B8eg" presentationName="Test-Driven Development" briefDescription="This practice develops tests prior to implementing the code and uses those tests to drive the implementation." authors="Jim Ruehlin" changeDate="2008-01-25T02:22:48.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_DZ1rEI7-Edy7q8CKc_B8eg" name="practice.tech.test_driven_development.base" guid="_DZ1rEI7-Edy7q8CKc_B8eg" presentationName="Test-Driven Development" briefDescription="This practice develops tests prior to implementing the code and uses those tests to drive the implementation." authors="Jim Ruehlin" changeDate="2008-01-25T18:22:48.000+0800">
     <methodElementProperty xmi:id="_-gnM2rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9m8ZwLekEd-D7YZN9NgldQ" name="Content" guid="_9m8ZwLekEd-D7YZN9NgldQ">
@@ -75,7 +75,8 @@
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_JqYbgJ01EdyQ3oTO93enUw"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_FUDtMB4mEd2bS8fFOQ7WWA" name="test_driven_dev" guid="_FUDtMB4mEd2bS8fFOQ7WWA" presentationName="Test Driven Development" briefDescription="This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_FUDtMB4mEd2bS8fFOQ7WWA" name="test_driven_dev" guid="_FUDtMB4mEd2bS8fFOQ7WWA" presentationName="测试驱动开发" briefDescription="This practice describes an approach to development in which test cases are defined first, then code is developed to pass the tests.">
+            <methodElementProperty xmi:id="_vcjqwPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-nV4dgKPmOiwZnl6nUoKqQw" href="uma://-nV4dgKPmOiwZnl6nUoKqQw#-nV4dgKPmOiwZnl6nUoKqQw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_aGqAsJ01EdyQ3oTO93enUw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_xYMPoCZnEdyUaK463Ozu5g"/>

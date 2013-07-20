@@ -1,88 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_MqODAMM1EdmSIPI87WLu3g" name="uc_model,_0U6OEMlgEdmt3adZL5Dmdw" guid="_MqODAMM1EdmSIPI87WLu3g" changeDate="2005-07-07T11:50:06.000-0700" version="1.0.0">
-  <sections xmi:id="_rLdVMAeREduWycDgioo5rg" name="It is easy to understand what the system does by reviewing the model" guid="_rLdVMAeREduWycDgioo5rg">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_MqODAMM1EdmSIPI87WLu3g" name="uc_model,_0U6OEMlgEdmt3adZL5Dmdw" guid="_MqODAMM1EdmSIPI87WLu3g" changeDate="2005-07-08T02:50:06.000+0800" version="1.0.0">
+  <sections xmi:id="_rLdVMAeREduWycDgioo5rg" name="通过评审此模型判断是否易于理解系统做什么？" guid="_rLdVMAeREduWycDgioo5rg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the use-case model provide a clear, concise overview of the purpose and functionality of the system?&#xD;
+        用例模型是否为系统功能提供了清晰、简洁的概貌。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are there no long chains of &lt;i>include&lt;/i> relationships, such as when an included use case&amp;nbsp;includes other use&#xD;
-        cases? These can obscure comprehension.&#xD;
+        是否存在较长的包含关系(Include relationships)链，如一个包含一个？这可能使理解变得困难。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are&amp;nbsp;included use cases independent of the use cases that include them?&#xD;
+        被包含的用例是否不依赖与包含它们的用例？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        If several use cases contain similar&amp;nbsp;subflows, have you investigated whether factoring this&amp;nbsp;common&#xD;
-        behavior into an included use case will simplify the model?&#xD;
+        如果多个用例包含类似的子事件流，是否考虑过将公共的行为包含在一个独立的用例中，以简化模型？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="__kgR8AeREduWycDgioo5rg" name="All use cases have been identified" guid="__kgR8AeREduWycDgioo5rg">
+  <sections xmi:id="__kgR8AeREduWycDgioo5rg" name="是否识别了所有的用例？" guid="__kgR8AeREduWycDgioo5rg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Do the use cases identified collectively account for all required behavior of the system?&#xD;
+        收集的用例是否识别了所有系统要求的行为？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have all features identified in the vision document been addressed by at least one use case?&#xD;
+        愿景文档中识别的所有特性是否都至少有一个对应的用例？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have all nonfunctional requirements that must be satisfied by a specific use case been captured in that use case?&#xD;
+        是否每个用例都捕获了其必须满足的所有非功能需求？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have you verified that the use-case model contains no superfluous behavior (known as &quot;gold-plating&quot;)?&#xD;
+        是否验证了用例模型不包含多余的行为？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is each concrete use case associated with at least one actor, as it should be?&#xD;
+        是否每个用例都关联了至少一个参与人？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is every actor associated with at least one use case?&#xD;
+        是否每个参与人都至少关联了一个用例？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_fknU0Jz1EduBcbjYtLtItQ" name="The model is consistent" guid="_fknU0Jz1EduBcbjYtLtItQ">
+  <sections xmi:id="_fknU0Jz1EduBcbjYtLtItQ" name="模型是否一致？" guid="_fknU0Jz1EduBcbjYtLtItQ">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is the system behavior consistent under the same conditions and with the same input?&#xD;
+        在相同的条件和输入下，系统的行为是否一致？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_KowpkAeSEduWycDgioo5rg" name="All relationships between use cases are required" guid="_KowpkAeSEduWycDgioo5rg">
+  <sections xmi:id="_KowpkAeSEduWycDgioo5rg" name="是否所有用例之间的关系都是必需的？" guid="_KowpkAeSEduWycDgioo5rg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does each included use case make the model easier to understand, implement, and maintain?&#xD;
+        是否每一个被包含的用例都使系统易于理解、实现和维护？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is each concrete use case (not an included use case) independent of other use cases?&lt;br />&#xD;
+        是否每一个用例（非被包含的用例）都独立于其他的用例？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_jyHeMAeTEduWycDgioo5rg" name="Use-case packages are used appropriately" guid="_jyHeMAeTEduWycDgioo5rg">
+  <sections xmi:id="_jyHeMAeTEduWycDgioo5rg" name="用例包是否合适？" guid="_jyHeMAeTEduWycDgioo5rg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have cross-package dependencies been reduced or eliminated to prevent model ownership conflicts&#xD;
+        包之间的交叉依赖是否减少或消除了模型中所有权的冲突？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is packaging intuitive?&amp;nbsp;Does the packaging make the model easier to understand and implement?&amp;nbsp;&amp;nbsp;&#xD;
+        包是否直观？包是否有利于理解和实现模型？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_i-S-ADeKEdu6VLD0YaVLog" name="All model elements have appropriate names" guid="_i-S-ADeKEdu6VLD0YaVLog">
+  <sections xmi:id="_i-S-ADeKEdu6VLD0YaVLog" name="是否所有的模型元素都有合适的名称？" guid="_i-S-ADeKEdu6VLD0YaVLog">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have you verified that no two use cases have the same name?&#xD;
+        是否存在相同名称的用例？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does each actor have a name that effectively describes that person's role?&#xD;
+        每个参与人的名称是否有效的描述了其角色？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_IYRUkJz2EduBcbjYtLtItQ" name="Individual use cases are properly specified" guid="_IYRUkJz2EduBcbjYtLtItQ">
+  <sections xmi:id="_IYRUkJz2EduBcbjYtLtItQ" name="每个用例是否被正确的规格化？" guid="_IYRUkJz2EduBcbjYtLtItQ">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have you reviewed the quality of each&amp;nbsp;use-case specification using the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        是否使用了 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/checklists/use_case_C5362874.html&quot;&#xD;
-        guid=&quot;_0kNwINk1Edq2Q8qZoWbvGA&quot;>Checklist: Use Case&lt;/a>?&#xD;
+        guid=&quot;_0kNwINk1Edq2Q8qZoWbvGA&quot;>核对表：用例&lt;/a>&amp;nbsp;对每个用例的质量进行了评审？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>

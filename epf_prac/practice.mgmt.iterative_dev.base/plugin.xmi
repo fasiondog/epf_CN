@@ -81,7 +81,8 @@
               <supportingMaterials href="uma://_fRdVEMYbEdyXeo04os5BOw#_omneEMX4EduywMSzPTUUwA"/>
             </contentElements>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_LR_g4J9WEdy3Nc4rvuj7bA" name="iterative_development" guid="_LR_g4J9WEdy3Nc4rvuj7bA" presentationName="Iterative Development" briefDescription="Create a solution in increments. Each increment is completed in a fixed period of time, an iteration.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_LR_g4J9WEdy3Nc4rvuj7bA" name="iterative_development" guid="_LR_g4J9WEdy3Nc4rvuj7bA" presentationName="迭代开发" briefDescription="Create a solution in increments. Each increment is completed in a fixed period of time, an iteration.">
+            <methodElementProperty xmi:id="_dkcZsPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-Yvy3AKQTjSqBPNxsWkizkQ" href="uma://-Yvy3AKQTjSqBPNxsWkizkQ#-Yvy3AKQTjSqBPNxsWkizkQ"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_bpWt8OMPEdyM47cGD2jiaQ"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0l53cMlgEdmt3adZL5Dmdw"/>

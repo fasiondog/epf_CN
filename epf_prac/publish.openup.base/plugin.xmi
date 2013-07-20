@@ -59,7 +59,7 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_skPXU1RFEd2CWscN8Mx6rg"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_fRdVEMYbEdyXeo04os5BOw#_omneEMX4EduywMSzPTUUwA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-VOD4CB3Ed2BC837SW9yQQ" name="management_practice_list" guid="_-VOD4CB3Ed2BC837SW9yQQ" presentationName="Management Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-VOD4CB3Ed2BC837SW9yQQ" name="management_practice_list" guid="_-VOD4CB3Ed2BC837SW9yQQ" presentationName="管理实践" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
             <methodElementProperty xmi:id="__QUQYJoPEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_LR_g4J9WEdy3Nc4rvuj7bA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_4gXdoL8BEdyWX5Yd-9QZ1A#_9FqrQB4sEd2bS8fFOQ7WWA"/>
@@ -68,8 +68,9 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_44o4AOvVEdyp6czxLiQq9g#_tz6tkB4uEd2bS8fFOQ7WWA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBsuiZLEd-QuZFPf_YdqQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_L0maICB4Ed2BC837SW9yQQ" name="technical_practice_list" guid="_L0maICB4Ed2BC837SW9yQQ" presentationName="Technical Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_L0maICB4Ed2BC837SW9yQQ" name="technical_practice_list" guid="_L0maICB4Ed2BC837SW9yQQ" presentationName="技术实践" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
             <methodElementProperty xmi:id="_-cceYLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_a1zCIPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_Hz9OMG5KEdyAHIxjZ9kpqw#_9z1PgJ6NEdyQN-zRFaRrCQ"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_rJNiMB4rEd2bS8fFOQ7WWA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_4gaS4LPREduocbW-TPTq7A#_uVnpQB4qEd2bS8fFOQ7WWA"/>
@@ -104,7 +105,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_k0MJEFUOEd2_rMtRMt_EMg" name="understanding_openup" guid="_k0MJEFUOEd2_rMtRMt_EMg" presentationName="理解OpenUP" briefDescription="OpenUP是一个精益的统一过程，该过程在一个结构化的生命周期中，提供了迭代和增量的方法。OpenUP强调务实的、关注软件开发协作性的敏捷哲学。是一个与工具无关，低形式要求的过程，可以被扩展处理广泛的各式各样的项目类型。 " shapeicon="customcategories/resources/micl.gif" nodeicon="customcategories/resources/mic.gif" categorizedElements="_Q2ErcMn-EdyuBO4ZIzcyig _jd1tQMn9EdyuBO4ZIzcyig _qktUMMn7EdyuBO4ZIzcyig _xKvXkMn8EdyuBO4ZIzcyig">
             <methodElementProperty xmi:id="_MWf8kOMwEeKv3olp3YBXdQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TgP0wJoNEeGnJt_Qpwdfdg" name="deployment_practice_list" guid="_TgP0wJoNEeGnJt_Qpwdfdg" presentationName="Deployment Practices" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_TgP0wJoNEeGnJt_Qpwdfdg" name="deployment_practice_list" guid="_TgP0wJoNEeGnJt_Qpwdfdg" presentationName="部署实践" shapeicon="customcategories/resources/pract_dgm32.gif" nodeicon="customcategories/resources/pract_obj.gif">
             <methodElementProperty xmi:id="_X_1lgJoNEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_wDZIUOCFEeC1y_NExchKwQ#_-zdZceB8EeC1y_NExchKwQ"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_mYfo8OCIEeC1y_NExchKwQ#_IAG5wOB-EeC1y_NExchKwQ"/>

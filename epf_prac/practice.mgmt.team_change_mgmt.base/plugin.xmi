@@ -37,7 +37,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fnZj0NVXEdqy9sbRhejO5Q" name="submitting_change_requests" guid="_fnZj0NVXEdqy9sbRhejO5Q" presentationName="Submitting Change Requests" briefDescription="This guideline describes the type of information that is typically captured on a change request. This information is used to prioritize and scope the work required to implement the change and to monitor progress.">
             <presentation xmi:id="-w7sImtXWkf4HDXdUWjRsUg" href="uma://-w7sImtXWkf4HDXdUWjRsUg#-w7sImtXWkf4HDXdUWjRsUg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_tz6tkB4uEd2bS8fFOQ7WWA" name="team_change_mgmt" guid="_tz6tkB4uEd2bS8fFOQ7WWA" presentationName="Team Change Management" briefDescription="This is a practice for capturing change requests that are managed as part of work item management.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_tz6tkB4uEd2bS8fFOQ7WWA" name="team_change_mgmt" guid="_tz6tkB4uEd2bS8fFOQ7WWA" presentationName="团队变更管理" briefDescription="This is a practice for capturing change requests that are managed as part of work item management.">
+            <methodElementProperty xmi:id="_manJIPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-r3bcpa8I8s9Ta-F-krEwBA" href="uma://-r3bcpa8I8s9Ta-F-krEwBA#-r3bcpa8I8s9Ta-F-krEwBA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_PJoMYOxbEdyCFeiQwJE7Vg"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0mwzEclgEdmt3adZL5Dmdw"/>

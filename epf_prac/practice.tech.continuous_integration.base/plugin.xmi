@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9hbnr7ekEd-D7YZN9NgldQ" guid="_9hbnr7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__N6XkLekEd-D7YZN9NgldQ" id="-DlaqJu4sEqMPk84qhJ6IEA" uri="guidances/guidelines/continuous_integration.xmi"/>
     <resourceDescriptors xmi:id="__N6XkbekEd-D7YZN9NgldQ" id="-01L_eCnHjKmBPsGcdk8XTg" uri="tasks/integrate_and_create_build.xmi"/>
@@ -12,7 +12,7 @@
     <resourceDescriptors xmi:id="__OXDgLekEd-D7YZN9NgldQ" id="-CtyoBMfPzn2SCjU-fK3ehg" uri="guidances/practices/continous_integration.xmi"/>
     <resourceDescriptors xmi:id="__OXDgbekEd-D7YZN9NgldQ" id="-_P9JU4M-5_0FI_g7_EGi6g" uri="guidances/supportingmaterials/release_info_continuous_integration.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_D-ExQMktEdygFZkm1d5NtQ" name="practice.tech.continuous_integration.base" guid="_D-ExQMktEdygFZkm1d5NtQ" presentationName="Continuous Integration" briefDescription="Continuously maintain an integrated build and evolve it through frequent delivery of changes." changeDate="2008-09-22T09:43:27.000-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_D-ExQMktEdygFZkm1d5NtQ" name="practice.tech.continuous_integration.base" guid="_D-ExQMktEdygFZkm1d5NtQ" presentationName="Continuous Integration" briefDescription="Continuously maintain an integrated build and evolve it through frequent delivery of changes." changeDate="2008-09-23T00:43:27.000+0800">
     <methodElementProperty xmi:id="_-gnM0rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9hbnoLekEd-D7YZN9NgldQ" name="Content" guid="_9hbnoLekEd-D7YZN9NgldQ">
@@ -61,7 +61,8 @@
             <presentation xmi:id="-b9r9AqTZkhRIh8JdHv5pDQ" href="uma://-b9r9AqTZkhRIh8JdHv5pDQ#-b9r9AqTZkhRIh8JdHv5pDQ"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rJNiMB4rEd2bS8fFOQ7WWA" name="continous_integration" guid="_rJNiMB4rEd2bS8fFOQ7WWA" presentationName="Continuous Integration" briefDescription="In a Continuous Integration practice, team members integrate their work frequently (at least daily).">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rJNiMB4rEd2bS8fFOQ7WWA" name="continous_integration" guid="_rJNiMB4rEd2bS8fFOQ7WWA" presentationName="持续集成" briefDescription="In a Continuous Integration practice, team members integrate their work frequently (at least daily).">
+            <methodElementProperty xmi:id="_pbpRMPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-CtyoBMfPzn2SCjU-fK3ehg" href="uma://-CtyoBMfPzn2SCjU-fK3ehg#-CtyoBMfPzn2SCjU-fK3ehg"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_4qbzQPnTEdyLA5PXdgVJXw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_6jdvECb3Edqh1LYUOGRh2A"/>

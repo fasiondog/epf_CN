@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9j0NQLekEd-D7YZN9NgldQ" guid="_9j0NQLekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__QJMMLekEd-D7YZN9NgldQ" id="-c5Uh71vXTPN-VmrGYVRV7w" uri="guidances/concepts/design.xmi"/>
     <resourceDescriptors xmi:id="__QS9MLekEd-D7YZN9NgldQ" id="-g0jWGmg-E0rCQEmnibTDIA" uri="guidances/guidelines/refactoring.ed.xmi"/>
@@ -18,7 +18,7 @@
     <resourceDescriptors xmi:id="__UeSkbekEd-D7YZN9NgldQ" id="-HQSI39vBrjpmQL1qHYOJtA" uri="guidances/checklists/design.vm.xmi"/>
     <resourceDescriptors xmi:id="__UncgLekEd-D7YZN9NgldQ" id="-xn-M2VApZPqzI5KflPNIVw" uri="guidances/supportingmaterials/release_info_evolutionary_design.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z2cK0LPPEduocbW-TPTq7A" name="practice.tech.evolutionary_design.base" guid="_Z2cK0LPPEduocbW-TPTq7A" presentationName="Evolutionary Design" briefDescription="Apply evolutionary design techniques to ensure that the implementation will meet requirements." changeDate="2008-01-25T02:59:23.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Z2cK0LPPEduocbW-TPTq7A" name="practice.tech.evolutionary_design.base" guid="_Z2cK0LPPEduocbW-TPTq7A" presentationName="Evolutionary Design" briefDescription="Apply evolutionary design techniques to ensure that the implementation will meet requirements." changeDate="2008-01-25T18:59:23.000+0800">
     <methodElementProperty xmi:id="_-gnM1rekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9jqcQLekEd-D7YZN9NgldQ" name="Content" guid="_9jqcQLekEd-D7YZN9NgldQ">
@@ -94,7 +94,8 @@
             <presentation xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" href="uma://_zxB-QKYcEdmvhNXG0Oc2uA#_zxB-QKYcEdmvhNXG0Oc2uA"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_aSVhIB4qEd2bS8fFOQ7WWA" name="evolutionary_design" guid="_aSVhIB4qEd2bS8fFOQ7WWA" presentationName="Evolutionary Design" briefDescription="This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_aSVhIB4qEd2bS8fFOQ7WWA" name="evolutionary_design" guid="_aSVhIB4qEd2bS8fFOQ7WWA" presentationName="演化设计" briefDescription="This practice describes an approach to design that assumes that the design will evolve over time, minimizing documentation while still providing guidance for making design decisions and communicating those decisions.">
+            <methodElementProperty xmi:id="_tE-vYPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-6c0bIr5yRMTjbRKw9kIHrA" href="uma://-6c0bIr5yRMTjbRKw9kIHrA#-6c0bIr5yRMTjbRKw9kIHrA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_irQiEOCsEdynptYdmll41Q"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0fshwMlgEdmt3adZL5Dmdw"/>

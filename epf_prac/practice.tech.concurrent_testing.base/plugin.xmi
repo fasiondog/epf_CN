@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9gPU37ekEd-D7YZN9NgldQ" guid="_9gPU37ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__NdroLekEd-D7YZN9NgldQ" id="_NrVKsKeqEdmKDbQuyzCoqQ" uri="tasks/create_test_cases.xmi"/>
     <resourceDescriptors xmi:id="__NdrobekEd-D7YZN9NgldQ" id="_NrbRUKeqEdmKDbQuyzCoqQ" uri="tasks/implement_tests.xmi"/>
@@ -8,7 +8,7 @@
     <resourceDescriptors xmi:id="__NncorekEd-D7YZN9NgldQ" id="-gNCvPJgehxo6Gnb98n0AhA" uri="guidances/roadmaps/how_to_adopt_concurrent_testing.xmi"/>
     <resourceDescriptors xmi:id="__NwmkLekEd-D7YZN9NgldQ" id="-e5RSq4yShzCr1qkW4B-jJQ" uri="guidances/supportingmaterials/release_info_concurrent_testing.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" name="practice.tech.concurrent_testing.base" guid="_Hz9OMG5KEdyAHIxjZ9kpqw" presentationName="Concurrent Testing" briefDescription="Focus the testing effort where it will provide the greatest value, by applying agile testing principles." changeDate="2008-07-21T01:21:52.000-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_Hz9OMG5KEdyAHIxjZ9kpqw" name="practice.tech.concurrent_testing.base" guid="_Hz9OMG5KEdyAHIxjZ9kpqw" presentationName="Concurrent Testing" briefDescription="Focus the testing effort where it will provide the greatest value, by applying agile testing principles." changeDate="2008-07-21T16:21:52.000+0800">
     <methodElementProperty xmi:id="_-gnM0LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU0LekEd-D7YZN9NgldQ" name="Content" guid="_9gPU0LekEd-D7YZN9NgldQ">
@@ -54,7 +54,8 @@
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_9z1PgJ6NEdyQN-zRFaRrCQ" name="concurrent_testing" guid="_9z1PgJ6NEdyQN-zRFaRrCQ" presentationName="Concurrent Testing" briefDescription="This practice describes how to fold testing into agile development.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_9z1PgJ6NEdyQN-zRFaRrCQ" name="concurrent_testing" guid="_9z1PgJ6NEdyQN-zRFaRrCQ" presentationName="同步测试" briefDescription="This practice describes how to fold testing into agile development.">
+            <methodElementProperty xmi:id="_0Jc3sPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-MOoQ_OfD89D0nh4_1aSAuw" href="uma://-MOoQ_OfD89D0nh4_1aSAuw#-MOoQ_OfD89D0nh4_1aSAuw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_rV_9MPndEdyLA5PXdgVJXw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_0jnYcMlgEdmt3adZL5Dmdw"/>

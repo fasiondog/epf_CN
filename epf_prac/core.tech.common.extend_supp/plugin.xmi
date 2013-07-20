@@ -120,10 +120,12 @@
             <methodElementProperty xmi:id="_-MWXIO_JEeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="-_dNuyh-0q5vpCiIiLfbj6w" href="uma://-_dNuyh-0q5vpCiIiLfbj6w#-_dNuyh-0q5vpCiIiLfbj6w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0VGbUMlgEdmt3adZL5Dmdw" name="use_case" guid="_0VGbUMlgEdmt3adZL5Dmdw" presentationName="Use Case" briefDescription="This artifact captures the system behavior to yield an observable result of value to those who interact with the system." conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q" checklists="_0kNwINk1Edq2Q8qZoWbvGA" examples="_JLOiIMNvEdu2IdAIaWZyAw" templates="_3Y3XUI5fEdyO5aWob1UGDA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0VGbUMlgEdmt3adZL5Dmdw" name="use_case" guid="_0VGbUMlgEdmt3adZL5Dmdw" presentationName="用例" briefDescription="此工件捕获系统行为，从而产生对那些与系统交互的人（或物）来说可观察的有价值的结果。" conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q" checklists="_0kNwINk1Edq2Q8qZoWbvGA" examples="_JLOiIMNvEdu2IdAIaWZyAw" templates="_3Y3XUI5fEdyO5aWob1UGDA">
+            <methodElementProperty xmi:id="_UIbD0PDxEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="_zHZW8qYSEdmvhNXG0Oc2uA" href="uma://_zHZW8qYSEdmvhNXG0Oc2uA#_zHZW8qYSEdmvhNXG0Oc2uA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_W2SgEDR5EdutE_HNDTJk5Q" name="use_case_model" guid="_W2SgEDR5EdutE_HNDTJk5Q" presentationName="Use-Case Model" briefDescription="This artifact captures a model of the intended functions and environment of the system and serves as a contract between the customer and the team." conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q _2jyfUAhVEduRe8TeoBmuGg _zGqO0MDpEduTGJ8i4u8TMw" checklists="_0U6OEMlgEdmt3adZL5Dmdw" examples="_t4QdAMNqEdu2IdAIaWZyAw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_W2SgEDR5EdutE_HNDTJk5Q" name="use_case_model" guid="_W2SgEDR5EdutE_HNDTJk5Q" presentationName="用例模型" briefDescription="此工件描述了关于系统预期功能和环境的模型，该模型可作为客户和团队之间的合同。" conceptsAndPapers="_KudM0NcJEdqz_d2XWoVt6Q _2jyfUAhVEduRe8TeoBmuGg _zGqO0MDpEduTGJ8i4u8TMw" checklists="_0U6OEMlgEdmt3adZL5Dmdw" examples="_t4QdAMNqEdu2IdAIaWZyAw">
+            <methodElementProperty xmi:id="_jq4PAPFHEeKERaceDkA4DQ" name="me_edited" value="true"/>
             <presentation xmi:id="-kQg7MSGPB3RPjrplyxwimQ" href="uma://-kQg7MSGPB3RPjrplyxwimQ#-kQg7MSGPB3RPjrplyxwimQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_KudM0NcJEdqz_d2XWoVt6Q" name="use_case" guid="_KudM0NcJEdqz_d2XWoVt6Q" presentationName="Use Case" briefDescription="A use case describes what the system must do to provide value to the stakeholders." conceptsAndPapers="_0Wh-sMlgEdmt3adZL5Dmdw _zGqO0MDpEduTGJ8i4u8TMw">
@@ -136,7 +138,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_2jyfUAhVEduRe8TeoBmuGg" name="use_case_model" guid="_2jyfUAhVEduRe8TeoBmuGg" presentationName="Use-Case Model" briefDescription="This artifact is a model of the system's intended functions and its surroundings, and serves as a contract between the customer and the project team.">
             <presentation xmi:id="-yEWkrWZ3VUcjZPhq6bvScg" href="uma://-yEWkrWZ3VUcjZPhq6bvScg#-yEWkrWZ3VUcjZPhq6bvScg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zGqO0MDpEduTGJ8i4u8TMw" name="actor" guid="_zGqO0MDpEduTGJ8i4u8TMw" presentationName="Actor" briefDescription="An Actor is a role that a person or external system plays when interacting with a system. Instances of an Actor can be an individual or an external system.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_zGqO0MDpEduTGJ8i4u8TMw" name="actor" guid="_zGqO0MDpEduTGJ8i4u8TMw" presentationName="参与人" briefDescription="An Actor is a role that a person or external system plays when interacting with a system. Instances of an Actor can be an individual or an external system.">
+            <methodElementProperty xmi:id="_6HnSEPFYEeKERaceDkA4DQ" name="me_edited" value="true"/>
             <presentation xmi:id="-aN0zy068ovKHgmkkoYqoYQ" href="uma://-aN0zy068ovKHgmkkoYqoYQ#-aN0zy068ovKHgmkkoYqoYQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0VrDEMlgEdmt3adZL5Dmdw" name="actor" guid="_0VrDEMlgEdmt3adZL5Dmdw" presentationName="Actor" briefDescription="This check list provides questions to help ensure that all actors, and only valid actors, have been identified and described correctly.">
@@ -181,10 +184,12 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_Vael8CGMEdu3VKXZx45D3A" name="system_wide_rqmts_furps" guid="_Vael8CGMEdu3VKXZx45D3A" presentationName="System-Wide Requirements (FURPS+)" briefDescription="This check list is used to verify that the different types of system-wide requirements covered by FURPS+ have been considered.">
             <presentation xmi:id="-kw2vYHKDkWv2tZrDMrBPNA" href="uma://-kw2vYHKDkWv2tZrDMrBPNA#-kw2vYHKDkWv2tZrDMrBPNA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0kNwINk1Edq2Q8qZoWbvGA" name="use_case" guid="_0kNwINk1Edq2Q8qZoWbvGA" presentationName="Use Case" briefDescription="This checklist provides questions to verify that use cases are described in a consistent and complete manner." variabilityType="replaces">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0kNwINk1Edq2Q8qZoWbvGA" name="use_case" guid="_0kNwINk1Edq2Q8qZoWbvGA" presentationName="用例" briefDescription="此检查单提出了一系列的问题以验证用例的描述是一致且完整的。" variabilityType="replaces">
+            <methodElementProperty xmi:id="_ol8lYPFIEeKERaceDkA4DQ" name="me_edited" value="true"/>
             <presentation xmi:id="-T2IeqdOunweffIDgL-aM0w" href="uma://-T2IeqdOunweffIDgL-aM0w#-T2IeqdOunweffIDgL-aM0w"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0U6OEMlgEdmt3adZL5Dmdw" name="use_case_model" guid="_0U6OEMlgEdmt3adZL5Dmdw" presentationName="Use-Case Model" briefDescription="This checklist provides questions to verify that the use-case model is described in a consistent and complete manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0U6OEMlgEdmt3adZL5Dmdw" name="use_case_model" guid="_0U6OEMlgEdmt3adZL5Dmdw" presentationName="用例模型" briefDescription="此检查单提供了一系列问题以验证是否使用了一致且完整的方式描述了用例模型。">
+            <methodElementProperty xmi:id="_kSadMPFUEeKERaceDkA4DQ" name="me_edited" value="true"/>
             <presentation xmi:id="_MqODAMM1EdmSIPI87WLu3g" href="uma://_MqODAMM1EdmSIPI87WLu3g#_MqODAMM1EdmSIPI87WLu3g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_VXZ5wO0IEdqHTdbLTmC5IQ" name="system_wide_requirements" guid="_VXZ5wO0IEdqHTdbLTmC5IQ" presentationName="System-Wide Requirements" briefDescription="This concept describes the system-wide requirements.">
@@ -355,7 +360,8 @@
             <methodElementProperty xmi:id="_cyougO_LEeKfMplbp53vgg" name="me_edited" value="true"/>
             <presentation xmi:id="-13wK-dfNa9N1G8Ob27m-Og" href="uma://-13wK-dfNa9N1G8Ob27m-Og#-13wK-dfNa9N1G8Ob27m-Og"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_3Y3XUI5fEdyO5aWob1UGDA" name="use_case_specification" guid="_3Y3XUI5fEdyO5aWob1UGDA" presentationName="Use-Case Specification" briefDescription="This is the informal template suggested for representing a use case specification." examples="_JLOiIMNvEdu2IdAIaWZyAw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_3Y3XUI5fEdyO5aWob1UGDA" name="use_case_specification" guid="_3Y3XUI5fEdyO5aWob1UGDA" presentationName="用例规约" briefDescription="这是建议的非正式的用例规约模板" examples="_JLOiIMNvEdu2IdAIaWZyAw">
+            <methodElementProperty xmi:id="_j_FqoPEqEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-zGnAaKUwKnn2pPANr7E0MQ" href="uma://-zGnAaKUwKnn2pPANr7E0MQ#-zGnAaKUwKnn2pPANr7E0MQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_DtlRQI5gEdyO5aWob1UGDA" name="vision" guid="_DtlRQI5gEdyO5aWob1UGDA" presentationName="愿景" briefDescription="这是建议的表示愿景文档的非正式模板。">
@@ -365,7 +371,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_t4QdAMNqEdu2IdAIaWZyAw" name="uc_model_evolve" guid="_t4QdAMNqEdu2IdAIaWZyAw" presentationName="Evolution of the Use-Case Model" briefDescription="This example illustrates how the use-case model evolves over time when you use a &amp;quot;breadth before depth&amp;quot; approach to maximize value and minimize risk early in the lifecycle and to minimize re-work later." examples="_jiwo4IHGEd6NhZnUM27HMQ _MNZ2kIHHEd6NhZnUM27HMQ _gbL6UIHOEd6NhZnUM27HMQ _nwykAIHQEd6NhZnUM27HMQ _BkKmAIHSEd6NhZnUM27HMQ _7MzegIHVEd6NhZnUM27HMQ">
             <presentation xmi:id="-JviMIao63C7w9C8W6iPJrw" href="uma://-JviMIao63C7w9C8W6iPJrw#-JviMIao63C7w9C8W6iPJrw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_JLOiIMNvEdu2IdAIaWZyAw" name="use_case_spec" guid="_JLOiIMNvEdu2IdAIaWZyAw" presentationName="Use-Case Specification" briefDescription="An example of a completed use-case specification for the Withdraw Cash use case for an Automated Teller Machine." examples="_t4QdAMNqEdu2IdAIaWZyAw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_JLOiIMNvEdu2IdAIaWZyAw" name="use_case_spec" guid="_JLOiIMNvEdu2IdAIaWZyAw" presentationName="用例规约" briefDescription="这是一个ATM自动取款机的完整用例“提取现金”的示例。" examples="_t4QdAMNqEdu2IdAIaWZyAw">
+            <methodElementProperty xmi:id="_5T8oAPEtEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-qq-9Brh5oa6H3lsdp-m8mQ" href="uma://-qq-9Brh5oa6H3lsdp-m8mQ#-qq-9Brh5oa6H3lsdp-m8mQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yZtgQI5gEdyO5aWob1UGDA" name="test_script" guid="_yZtgQI5gEdyO5aWob1UGDA" presentationName="Test Script" briefDescription="This is the informal template suggested for test scripts.">

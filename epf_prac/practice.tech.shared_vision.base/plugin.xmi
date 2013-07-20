@@ -50,7 +50,8 @@
             <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WVxcMlgEdmt3adZL5Dmdw"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_a7qSUB4nEd2bS8fFOQ7WWA" name="shared_vision" guid="_a7qSUB4nEd2bS8fFOQ7WWA" presentationName="Shared Vision" briefDescription="This practice supports defining and communicating an overall vision for the project.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_a7qSUB4nEd2bS8fFOQ7WWA" name="shared_vision" guid="_a7qSUB4nEd2bS8fFOQ7WWA" presentationName="共享愿景" briefDescription="This practice supports defining and communicating an overall vision for the project.">
+            <methodElementProperty xmi:id="_uQYykPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-EywbC9-OjkU1AygGXtoGZQ" href="uma://-EywbC9-OjkU1AygGXtoGZQ#-EywbC9-OjkU1AygGXtoGZQ"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_OnoNQNSAEdmLhZ9H5Plxyw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WVxcMlgEdmt3adZL5Dmdw"/>

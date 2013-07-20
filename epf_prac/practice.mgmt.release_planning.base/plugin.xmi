@@ -75,7 +75,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_ihr3sOMPEdyM47cGD2jiaQ" name="how_to_adopt" guid="_ihr3sOMPEdyM47cGD2jiaQ" presentationName="How to Adopt the Release Planning Practice" briefDescription="This roadmap describes how to adopt the Release Planning practice. It helps an organization get prepared for creating a coarse-grained plan for the project, which in turn is used to guide the fine-grained plans and activities that happen throughout the project.">
             <presentation xmi:id="-4a1QxeLdn2OKx5_Lft8tBA" href="uma://-4a1QxeLdn2OKx5_Lft8tBA#-4a1QxeLdn2OKx5_Lft8tBA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_ijFkcB4sEd2bS8fFOQ7WWA" name="release_planning" guid="_ijFkcB4sEd2bS8fFOQ7WWA" presentationName="Release Planning" briefDescription="The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_ijFkcB4sEd2bS8fFOQ7WWA" name="release_planning" guid="_ijFkcB4sEd2bS8fFOQ7WWA" presentationName="发布计划" briefDescription="The Release Planning practice embodies the concept of high-level planning for the complete project scope (macro-) and low-level (micro-) planning for the immediate and next increments or iterations.">
+            <methodElementProperty xmi:id="_jzRTcPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-txho2faQkfNfyMw-X-Y_aA" href="uma://-txho2faQkfNfyMw-X-Y_aA#-txho2faQkfNfyMw-X-Y_aA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_ihr3sOMPEdyM47cGD2jiaQ"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0lC70MlgEdmt3adZL5Dmdw"/>

@@ -37,9 +37,10 @@
             <methodElementProperty xmi:id="_9wohQLekEd-D7YZN9NgldQ" name="include" value="DeliveryProcess"/>
             <methodElementProperty xmi:id="_UjeGcOJeEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHY8RdEdyD76CYS6Ta7A" name="practice_list" guid="_WCIHY8RdEdyD76CYS6Ta7A" presentationName="Practices" briefDescription="List of included practices." shapeicon="customcategories/resources/practice_set.gif" nodeicon="customcategories/resources/practice_set_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHY8RdEdyD76CYS6Ta7A" name="practice_list" guid="_WCIHY8RdEdyD76CYS6Ta7A" presentationName="实践" briefDescription="包含的实践列表。" shapeicon="customcategories/resources/practice_set.gif" nodeicon="customcategories/resources/practice_set_obj.gif">
             <methodElementProperty xmi:id="_9wxrMLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9wxrMbekEd-D7YZN9NgldQ" name="include" value="Practice"/>
+            <methodElementProperty xmi:id="_1HZ_oPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCIHZMRdEdyD76CYS6Ta7A" name="role_list" guid="_WCIHZMRdEdyD76CYS6Ta7A" presentationName="角色集" briefDescription="所有包含的角色列表。" shapeicon="customcategories/resources/rolel.gif" nodeicon="customcategories/resources/role.gif">
             <methodElementProperty xmi:id="_9wxrMrekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
@@ -58,25 +59,30 @@
             <methodElementProperty xmi:id="_9xOXILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xOXIbekEd-D7YZN9NgldQ" name="include" value="Outcome"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Y8RdEdyD76CYS6Ta7A" name="concept_list" guid="_WCR4Y8RdEdyD76CYS6Ta7A" presentationName="Concepts" briefDescription="Alphabetical list of included concepts (guidance that provides basic background &#xD;&#xA;information)." shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Y8RdEdyD76CYS6Ta7A" name="concept_list" guid="_WCR4Y8RdEdyD76CYS6Ta7A" presentationName="概念" briefDescription="字母排序的概念（提供基础背景信息的指南）列表。" shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif">
             <methodElementProperty xmi:id="_9xOXIrekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xOXI7ekEd-D7YZN9NgldQ" name="include" value="Concept"/>
+            <methodElementProperty xmi:id="_kwqasPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZMRdEdyD76CYS6Ta7A" name="example_list" guid="_WCR4ZMRdEdyD76CYS6Ta7A" presentationName="Examples" briefDescription="Alphabetical list of included examples." shapeicon="customcategories/resources/example_dgm32.gif" nodeicon="customcategories/resources/example_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZMRdEdyD76CYS6Ta7A" name="example_list" guid="_WCR4ZMRdEdyD76CYS6Ta7A" presentationName="样例" briefDescription="字母排序的样例列表。" shapeicon="customcategories/resources/example_dgm32.gif" nodeicon="customcategories/resources/example_obj.gif">
             <methodElementProperty xmi:id="_9xYIILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xYIIbekEd-D7YZN9NgldQ" name="include" value="Example"/>
+            <methodElementProperty xmi:id="_nflfEPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZcRdEdyD76CYS6Ta7A" name="guideline_list" guid="_WCR4ZcRdEdyD76CYS6Ta7A" presentationName="Guidelines" briefDescription="Alphabetical list of included guidelines (general guidance on how to perform tasks &#xD;&#xA;or create work products)." shapeicon="customcategories/resources/guide_dgm32.gif" nodeicon="customcategories/resources/guide_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZcRdEdyD76CYS6Ta7A" name="guideline_list" guid="_WCR4ZcRdEdyD76CYS6Ta7A" presentationName="指南" briefDescription="字母排序的指南（有关如何执行任务或创建工作产品的通用指导）列表。" shapeicon="customcategories/resources/guide_dgm32.gif" nodeicon="customcategories/resources/guide_obj.gif">
             <methodElementProperty xmi:id="_9xh5ILekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xh5IbekEd-D7YZN9NgldQ" name="include" value="Guideline"/>
+            <methodElementProperty xmi:id="_w1rrwPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZsRdEdyD76CYS6Ta7A" name="roadmap_list" guid="_WCR4ZsRdEdyD76CYS6Ta7A" presentationName="Roadmaps" briefDescription="List of included roadmaps (these provide guidance on the overall process)." shapeicon="customcategories/resources/roadmap32.gif" nodeicon="customcategories/resources/roadmap16.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4ZsRdEdyD76CYS6Ta7A" name="roadmap_list" guid="_WCR4ZsRdEdyD76CYS6Ta7A" presentationName="路线图" briefDescription="包含的路线图列表（提供了过程全貌的指南）。" shapeicon="customcategories/resources/roadmap32.gif" nodeicon="customcategories/resources/roadmap16.gif">
             <methodElementProperty xmi:id="_9xrDELekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xrDEbekEd-D7YZN9NgldQ" name="include" value="Roadmap"/>
+            <methodElementProperty xmi:id="_FLSS8PDtEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Z8RdEdyD76CYS6Ta7A" name="template_list" guid="_WCR4Z8RdEdyD76CYS6Ta7A" presentationName="Templates" briefDescription="Alphabetical list of included templates." shapeicon="customcategories/resources/template_dgm32.gif" nodeicon="customcategories/resources/template_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4Z8RdEdyD76CYS6Ta7A" name="template_list" guid="_WCR4Z8RdEdyD76CYS6Ta7A" presentationName="模板" briefDescription="字母排序的模板列表。" shapeicon="customcategories/resources/template_dgm32.gif" nodeicon="customcategories/resources/template_obj.gif">
             <methodElementProperty xmi:id="_9xrDErekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9xrDE7ekEd-D7YZN9NgldQ" name="include" value="Template"/>
+            <methodElementProperty xmi:id="_Po1acPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_WCR4acRdEdyD76CYS6Ta7A" name="whitepaper_list" guid="_WCR4acRdEdyD76CYS6Ta7A" presentationName="White papers" briefDescription="Alphabetical list of included white papers (formal guidance on additional topics)." shapeicon="customcategories/resources/white_lg_dgm32.gif" nodeicon="customcategories/resources/white_obj.gif">
             <methodElementProperty xmi:id="_9yHvALekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
@@ -85,13 +91,15 @@
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_h-lc4MReEdyD76CYS6Ta7A" name="capability_pattern_list" guid="_h-lc4MReEdyD76CYS6Ta7A" presentationName="Capability patterns" nodeicon="customcategories/resources/capabilitypattern16.gif">
             <methodElementProperty xmi:id="_9yRgALekEd-D7YZN9NgldQ" name="include" value="CapabilityPattern"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pGt9MMReEdyD76CYS6Ta7A" name="checklist_list" guid="_pGt9MMReEdyD76CYS6Ta7A" presentationName="Checklists" briefDescription="Alphabetical listing of all checklists." shapeicon="customcategories/resources/checklist_dgm32.gif" nodeicon="customcategories/resources/checklist_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_pGt9MMReEdyD76CYS6Ta7A" name="checklist_list" guid="_pGt9MMReEdyD76CYS6Ta7A" presentationName="检查单" briefDescription="字母排序的检查单列表。" shapeicon="customcategories/resources/checklist_dgm32.gif" nodeicon="customcategories/resources/checklist_obj.gif">
             <methodElementProperty xmi:id="_9yap8LekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9yap8bekEd-D7YZN9NgldQ" name="include" value="Checklist"/>
+            <methodElementProperty xmi:id="_PYkbwPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_sJd8gMReEdyD76CYS6Ta7A" name="report_list" guid="_sJd8gMReEdyD76CYS6Ta7A" presentationName="Reports" shapeicon="customcategories/resources/report_dgm32.gif" nodeicon="customcategories/resources/report_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_sJd8gMReEdyD76CYS6Ta7A" name="report_list" guid="_sJd8gMReEdyD76CYS6Ta7A" presentationName="报告" shapeicon="customcategories/resources/report_dgm32.gif" nodeicon="customcategories/resources/report_obj.gif">
             <methodElementProperty xmi:id="_9yap8rekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9yap87ekEd-D7YZN9NgldQ" name="include" value="Report"/>
+            <methodElementProperty xmi:id="_9Dkk8PDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_EfGDkMRfEdyD76CYS6Ta7A" name="domain_list" guid="_EfGDkMRfEdyD76CYS6Ta7A" presentationName="Domains" briefDescription="List of domains for categorizing work products." shapeicon="customcategories/resources/workproducts_lg_obj.gif" nodeicon="customcategories/resources/workproducts_obj.gif">
             <methodElementProperty xmi:id="_9yka8LekEd-D7YZN9NgldQ" name="include" value="Domain"/>
@@ -103,17 +111,19 @@
             <methodElementProperty xmi:id="_9y3V4LekEd-D7YZN9NgldQ" name="include" value="RoleSet"/>
             <methodElementProperty xmi:id="_tjayUOJdEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_PxzG4MRfEdyD76CYS6Ta7A" name="discipline_list" guid="_PxzG4MRfEdyD76CYS6Ta7A" presentationName="Disciplines" briefDescription="List of the disciplines for organizing tasks." shapeicon="customcategories/resources/discipline_dgm32.gif" nodeicon="customcategories/resources/discipline_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_PxzG4MRfEdyD76CYS6Ta7A" name="discipline_list" guid="_PxzG4MRfEdyD76CYS6Ta7A" presentationName="规程" briefDescription="规程列表" shapeicon="customcategories/resources/discipline_dgm32.gif" nodeicon="customcategories/resources/discipline_obj.gif">
             <methodElementProperty xmi:id="_9zBG4LekEd-D7YZN9NgldQ" name="include" value="Discipline"/>
+            <methodElementProperty xmi:id="_TfA3QPDtEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_VTspMMRfEdyD76CYS6Ta7A" name="tool_list" guid="_VTspMMRfEdyD76CYS6Ta7A" presentationName="工具集" shapeicon="customcategories/resources/toolment_lg_dgm32.gif" nodeicon="customcategories/resources/toolment_obj.gif">
             <methodElementProperty xmi:id="_9zBG4bekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9zBG4rekEd-D7YZN9NgldQ" name="include" value="Tool"/>
             <methodElementProperty xmi:id="_oAzzcOJfEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ZWrWcMRfEdyD76CYS6Ta7A" name="reusable_asset_list" guid="_ZWrWcMRfEdyD76CYS6Ta7A" presentationName="Reusable Assets" shapeicon="customcategories/resources/reasset_dgm32.gif" nodeicon="customcategories/resources/reasset_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ZWrWcMRfEdyD76CYS6Ta7A" name="reusable_asset_list" guid="_ZWrWcMRfEdyD76CYS6Ta7A" presentationName="可重要资产" shapeicon="customcategories/resources/reasset_dgm32.gif" nodeicon="customcategories/resources/reasset_obj.gif">
             <methodElementProperty xmi:id="_9zKQ0LekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_9zKQ0bekEd-D7YZN9NgldQ" name="include" value="ReusableAsset"/>
+            <methodElementProperty xmi:id="_-1eAYPDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4IC8cMRgEdyD76CYS6Ta7A" name="roles" guid="_4IC8cMRgEdyD76CYS6Ta7A" presentationName="角色" shapeicon="customcategories/resources/roles_dgm32.gif" nodeicon="customcategories/resources/roles_obj.gif" categorizedElements="_Km2E8MRfEdyD76CYS6Ta7A _WCIHZMRdEdyD76CYS6Ta7A">
             <methodElementProperty xmi:id="__JmCAOJhEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
@@ -134,7 +144,7 @@
             <methodElementProperty xmi:id="_O479UA87EeKP67D0FPmpTA" name="me_edited" value="true"/>
             <presentation xmi:id="-k2NlICHyHtI5SlMLr7c5cg" href="uma://-k2NlICHyHtI5SlMLr7c5cg#-k2NlICHyHtI5SlMLr7c5cg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_irqswCLOEd2ct852UDqXGQ" name="release_info" guid="_irqswCLOEd2ct852UDqXGQ" presentationName="Release Info" briefDescription="This is a list of the &quot;release&quot; pages for the content included in this configuration." shapeicon="customcategories/resources/whats_new_set.gif" nodeicon="customcategories/resources/whats_new_set_obj.gif">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_irqswCLOEd2ct852UDqXGQ" name="release_info" guid="_irqswCLOEd2ct852UDqXGQ" presentationName="发布信息" briefDescription="这是在此配置中包含内容的“发布”页面。" shapeicon="customcategories/resources/whats_new_set.gif" nodeicon="customcategories/resources/whats_new_set_obj.gif">
             <methodElementProperty xmi:id="_9zwtwLekEd-D7YZN9NgldQ" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_ERKBkOM6EeKv3olp3YBXdQ" name="PUBLISH_CATEGORY" value="true"/>
             <methodElementProperty xmi:id="_TMxFQOM6EeKv3olp3YBXdQ" name="me_edited" value="true"/>
@@ -148,7 +158,8 @@
             <methodElementProperty xmi:id="_Wi3o0OJSEeKz5sNvSNvWvQ" name="me_edited" value="true"/>
             <presentation xmi:id="-GHjXglv-7VqexaeTpzqp3Q" href="uma://-GHjXglv-7VqexaeTpzqp3Q#-GHjXglv-7VqexaeTpzqp3Q"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__nHToFndEd2EdJKkAyeBng" name="references" guid="__nHToFndEd2EdJKkAyeBng" presentationName="References" briefDescription="This page lists books, articles, and other references.">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__nHToFndEd2EdJKkAyeBng" name="references" guid="__nHToFndEd2EdJKkAyeBng" presentationName="参考" briefDescription="列出参考的书籍、文章、及其他参考资料。">
+            <methodElementProperty xmi:id="_8AuA0PDsEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-0aLpkB-z90mAiTJ2xDxrgg" href="uma://-0aLpkB-z90mAiTJ2xDxrgg#-0aLpkB-z90mAiTJ2xDxrgg"/>
           </contentElements>
         </childPackages>

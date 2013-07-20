@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_9ixrf7ekEd-D7YZN9NgldQ" guid="_9ixrf7ekEd-D7YZN9NgldQ">
     <resourceDescriptors xmi:id="__Og0gLekEd-D7YZN9NgldQ" id="-mEJbo_5lG227hXMdftmX_A" uri="guidances/guidelines/modeling_the_arch.xmi"/>
     <resourceDescriptors xmi:id="__OzvcLekEd-D7YZN9NgldQ" id="-5_3zlnRYAOz-wT6GBaWoNg" uri="workproducts/architecture_notebook.vm.xmi"/>
@@ -14,7 +14,7 @@
     <resourceDescriptors xmi:id="__PjWULekEd-D7YZN9NgldQ" id="-h09djKXIOUJlez8h6UXrWw" uri="guidances/templates/architecture_notebook.xmi"/>
     <resourceDescriptors xmi:id="__PjWUbekEd-D7YZN9NgldQ" id="-Iyj1LA3WbTQP_iQmRp7ibw" uri="guidances/supportingmaterials/release_info_evolutionary_arch.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gaS4LPREduocbW-TPTq7A" name="practice.tech.evolutionary_arch.base" guid="_4gaS4LPREduocbW-TPTq7A" presentationName="Evolutionary Architecture" briefDescription="Analyze the major technical concerns that affect the solution and capture those architectural decisions." changeDate="2008-01-28T01:24:45.000-0800">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4gaS4LPREduocbW-TPTq7A" name="practice.tech.evolutionary_arch.base" guid="_4gaS4LPREduocbW-TPTq7A" presentationName="Evolutionary Architecture" briefDescription="Analyze the major technical concerns that affect the solution and capture those architectural decisions." changeDate="2008-01-28T17:24:45.000+0800">
     <methodElementProperty xmi:id="_-gnM1LekEd-D7YZN9NgldQ" name="plugin_synFree" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9ixrcLekEd-D7YZN9NgldQ" name="Content" guid="_9ixrcLekEd-D7YZN9NgldQ">
@@ -97,7 +97,8 @@
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_uVnpQB4qEd2bS8fFOQ7WWA" name="evolutionary_arch" guid="_uVnpQB4qEd2bS8fFOQ7WWA" presentationName="Evolutionary Architecture" briefDescription="Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_uVnpQB4qEd2bS8fFOQ7WWA" name="evolutionary_arch" guid="_uVnpQB4qEd2bS8fFOQ7WWA" presentationName="演进架构" briefDescription="Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.">
+            <methodElementProperty xmi:id="_q9ihwPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-TleqHW_wvIYc0qLQgZUchA" href="uma://-TleqHW_wvIYc0qLQgZUchA#-TleqHW_wvIYc0qLQgZUchA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_kgtcoNc8Edyd7OybSySFxg"/>

@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oFAa8Uu6tr_GkE_E0iycdQ" name="detail_use_case_scenarios,_SL7N0LPdEduocbW-TPTq7A" guid="-oFAa8Uu6tr_GkE_E0iycdQ" changeDate="2007-12-18T02:40:22.000-0800" changeDescription="Review comments:||1. Step 2 was a copy of step 1.|2. Step 1 - excessive linking - remove 2nd paragraph|" version="7.1.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-oFAa8Uu6tr_GkE_E0iycdQ" name="detail_use_case_scenarios,_SL7N0LPdEduocbW-TPTq7A" guid="-oFAa8Uu6tr_GkE_E0iycdQ" changeDate="2013-07-21T00:31:32.569+0800" changeDescription="Review comments:||1. Step 2 was a copy of step 1.|2. Step 1 - excessive linking - remove 2nd paragraph|" version="7.1.0">
   <keyConsiderations>&lt;p>&#xD;
-    To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
-    the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
+    为了避免不必要的返工，&amp;nbsp;应该仅安排那些近期需要实现的用例场景（在下一次迭代或下下次）进行细化。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Not all use-case scenarios require detailing.&#xD;
+    不是所有的用例场景都需要细化描述。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_fAWPkJLZEdyk6dG0ehkW5Q" name="Detail use cases and scenarios" guid="_fAWPkJLZEdyk6dG0ehkW5Q">
+  <sections xmi:id="_fAWPkJLZEdyk6dG0ehkW5Q" name="细化用例和场景" guid="_fAWPkJLZEdyk6dG0ehkW5Q">
     <sectionDescription>&lt;p>&#xD;
-    Some&amp;nbsp;use cases and scenarios&amp;nbsp;might need to be described in more detail to validate the understanding of the&#xD;
-    requirements and to permit software development to begin. This does not imply that all&amp;nbsp;use cases and scenarios&#xD;
-    will be detailed prior to commencing implementation on them. The level of detail captured will vary depending upon the&#xD;
-    needs of the project and the complexity of the use case.&amp;nbsp;Capture the use case and scenarios details in the use&#xD;
-    case specification.&#xD;
+    某些用例和场景需要细化描述以验证对需求的理解，并允许开始进行软件开发。这并不意味着需要在实现之前对所有的用例和场景进行细化。依赖于项目的需要和用例的复杂度，细化的程度存在很大的不同。在用例规约中对用例和场景进行细化。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_iEvYMJLaEdyk6dG0ehkW5Q" name="Detail glossary terms" guid="_iEvYMJLaEdyk6dG0ehkW5Q">
+  <sections xmi:id="_iEvYMJLaEdyk6dG0ehkW5Q" name="细化术语表中的术语" guid="_iEvYMJLaEdyk6dG0ehkW5Q">
     <sectionDescription>&lt;p>&#xD;
-    Review the flow of the use case or scenario. If information is exchanged, be specific about what is passed back and&#xD;
-    forth. Collaborate with stakeholders to ensure that you define newly discovered domain terms, or ambiguous terms&#xD;
-    properly in the&amp;nbsp;glossary. If your understanding of the domain has improved, refine existing glossary terms.&#xD;
+    评审用例或场景的事件流。如果存在信息交互，应确定信息的传出和返回。和利益相关人协作，以确认定义了新发现的领域术语，或修正了术语表中存在歧义的术语。如果提高了对领域的理解，完善已存在的术语。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_kojt4JLcEdyk6dG0ehkW5Q" name="Achieve concurrence" guid="_kojt4JLcEdyk6dG0ehkW5Q">
+  <sections xmi:id="_kojt4JLcEdyk6dG0ehkW5Q" name="获得一致同意" guid="_kojt4JLcEdyk6dG0ehkW5Q">
     <sectionDescription>&lt;p>&#xD;
-    Review the&amp;nbsp;detailed use case and scenarios with relevant stakeholders and the development team to ensure&#xD;
-    consistency with the agreed vision.&amp;nbsp;Assess quality and identify any required changes.&#xD;
+    和利益相关人、开发团队一起评审细化的用例和场景，以确保和愿景的一致性。评估其质量，并识别任何需要的变更。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to describe&amp;nbsp;use-case scenarios in sufficient detail to validate understanding of the&#xD;
-requirements, to ensure concurrence with stakeholder expectations, and to permit software development to begin.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是足够精细的描述用例场景，以验证对需求的理解。从而保证和利益相关人期望一致，并允许开始进行软件开发。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
