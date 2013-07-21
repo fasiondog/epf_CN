@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>示例：Use-Case Specification</title>
+<title>示例：用例规约</title>
 <meta name="uma.type" content="Example">
 <meta name="uma.name" content="use_case_spec">
-<meta name="uma.presentationName" content="Use-Case Specification">
+<meta name="uma.presentationName" content="用例规约">
 <meta name="element_type" content="example">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_JLOiIMNvEdu2IdAIaWZyAw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">示例：Use-Case Specification</td><td width="100%">
+<td class="pageTitle" nowrap="true">示例：用例规约</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">An example of a completed use-case specification for the Withdraw Cash use case for an Automated Teller Machine.</td>
+<td valign="top">这是一个ATM自动取款机的完整用例“提取现金”的示例。</td>
 </tr>
 </table>
 </td>
@@ -55,10 +55,10 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html" guid="_0VGbUMlgEdmt3adZL5Dmdw">Use Case</a>
+<a href="./../../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html" guid="_0VGbUMlgEdmt3adZL5Dmdw">用例</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/templates/use_case_specification_9D9A2226.html" guid="_3Y3XUI5fEdyO5aWob1UGDA">Use-Case Specification</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/templates/use_case_specification_9D9A2226.html" guid="_3Y3XUI5fEdyO5aWob1UGDA">用例规约</a>
 </li>
 </ul>
 </td>
@@ -70,248 +70,238 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><h3>
-    1 Brief Description
+    1&nbsp;简要描述
 </h3>
 <p>
-    This use case describes how the Bank Customer uses the ATM to withdraw money to his/her bank account.
+    此用例描述了银行顾客如何使用ATM机从她/他的银行账户中提款。
 </p>
 <h3>
-    2 Actors
+    2 参与人
 </h3>
 <h4>
-    2.1 Bank Customer
+    2.1 银行顾客
 </h4>
 <h4>
-    2.2 Bank
+    2.2&nbsp;银行
 </h4>
 <h3>
-    3 Preconditions
+    3 前置条件
 </h3>
 <p>
-    There is an active network connection to the Bank.<br />
+    连接到银行的网络已激活。<br />
     <br />
-    The ATM has cash available.
+    ATM中有可用的现金。
 </p>
 <h3>
-    4 Basic Flow of Events
+    4 基本事件流
 </h3>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The use case begins when Bank Customer inserts their Bank Card.
+        1. 此用例开始于：当银行顾客插入银行卡
     </p>
     <p>
-        2. Use Case: Validate User is performed.
+        2. 用例：执行验证用户
     </p>
     <p>
-        3. The ATM displays the different alternatives that are available on this unit. [See Supporting Requirement SR-xxx
-        for list of alternatives]. In this case the Bank Customer always selects "Withdraw Cash".
+        3. ATM显示可用的功能选项[具体选项，见支持需求SR-xxx]。在此用例中，银行顾客总是选择“提取现金”。
     </p>
     <p>
-        4. The ATM prompts for an account. See Supporting Requirement SR-yyy for account types that shall be supported.
+        4. ATM给出账户提示。具体支持的账户提示参见支持需求SR-yyy。
     </p>
     <p>
-        5. The Bank Customer selects an account.
+        5. 银行顾客选择一个账户。
     </p>
     <p>
-        6. The ATM prompts for an amount.
+        6. ATM提示一个金额。
     </p>
     <p>
-        7. The Bank Customer enters an amount.
+        7. 银行顾客输入一个金额。
     </p>
     <p>
-        8. Card ID, PIN, amount and account is sent to Bank as a transaction. The Bank Consortium replies with a go/no go
-        reply telling if the transaction is ok.
+        8. 将卡ID、PIN、金额和账户传输到银行。银行联盟回应该运行该交易。
     </p>
     <p>
-        9. Then money is dispensed.
+        9. ATM吐出钞票。
     </p>
     <p>
-        10. The Bank Card is returned.
+        10. ATM吐出银行卡。
     </p>
     <p>
-        11. The receipt is printed.
+        11. ATM打印回执
     </p>
     <p>
-        12. The use case ends successfully.
+        12. 此用例成功结束。
     </p>
 </blockquote>
 <h3>
-    5 Alternative Flows
+    5 备选事件流
 </h3>
 <h4>
-    5.1 Invalid User
+    5.1 无效用户
 </h4>
 <p>
-    If in step 2 of the basic flow Bank Customer the use case: Validate User does not complete this successfully, then
+    如果步骤2中，执行验证用户不成功，那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The use case ends with a failure condition.
+        1. 此用例失败结束。
     </p>
 </blockquote>
 <h4>
-    5.2 Wrong account
+    5.2&nbsp;错误的账户
 </h4>
 <p>
-    If in step 8 of the basic flow the account selected by the Bank Customer is not associated with this bank card, then
+    如果步骤8中，银行顾客选择了未关联此银行卡的账户，那么
 </p>
 <p>
-    1. The ATM shall display the message "Invalid Account – please try again".
+    1. ATM将显示信息“无效账户—请重新选择”
 </p>
 <p>
-    2. The use case resumes at step 4.
+    2. 返回到步骤4
 </p>
 <h4>
-    5.3 Wrong amount
+    5.3 错误的金额
 </h4>
 <p>
-    If in step 7 in the basic flow, the Bank Customer enters an amount that can't be 'created' with the kind of in the ATM
-    (See Special Requirement WC-1 for valid amounts), then
+    如果在步骤7，银行顾客输入了ATM无法创建的金额（见特殊需求 WC-1 验证金额），那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The ATM shall display a the message indicating that the amount must be a multiple of the bills on hand, and ask
-        the Bank Customer to reenter the amount.
+        1. ATM机应该显示提示信息，金额必须是某个数值的整数倍，并请求银行顾客重新输入金额。
     </p>
     <p>
-        2. The use case resumes at step 7.
+        2. 返回步骤7。
     </p>
 </blockquote>
 <h4>
-    5.4 Amount Exceeds Withdrawal Limit
+    5.4 金额超出提款限额
 </h4>
 <p>
-    If in step 7 in the basic flow, the Bank Customer enters an amount that exceeds the withdrawal limit (See Special
-    Requirement WC-2 for maximum amount), then
+    如果在步骤7，银行顾客输入的金额超出了提取限制（见特殊需求WC-2 最大金额），那么
 </p>
 <p>
-    1. the ATM shall display a warning message, and ask the Bank Customer to reenter the amount
+    1. ATM显示错误信息，并请求银行顾客重新输入金额
 </p>
 <p>
-    2. The use case resumes at step 7
+    2.&nbsp;返回步骤7
 </p>
 <h4>
-    5.5 Amount Exceeds Daily Withdrawal Limit
+    5.5 金额超出每日提款限额
 </h4>
 <p>
-    If in step 8 in the basic flow, the Bank response indicates the daily withdrawal limit has been exceeded (this is
-    determined by the Bank and depends upon the specific account), then
+    如果在步骤8中，银行反馈提示已经超出了每日的提款限额（此金额由银行判断，并依赖于特定的账户），那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The ATM shall display a warning message, and ask the Bank Customer to reenter the amount.
+        1. ATM显示错误信息，并请求银行顾客重新输入金额。
     </p>
     <p>
-        2. The use case resumes at step 7.
+        2. 返回步骤7
     </p>
 </blockquote>
 <h4>
-    5.6 Insufficient Cash
+    5.6 现金不足
 </h4>
 <p>
-    If in step 7 in the basic flow, the Bank Customer enters an amount that exceeds the amount of cash available in the
-    ATM, then
+    如果在步骤7中，银行顾客输入的金额超出了当前ATM中可用的现金，那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The ATM will display a warning message, and ask the Bank Customer to reenter the amount.
+        1. ATM显示错误信息，并请求银行顾客重新输入金额
     </p>
     <p>
-        2. The use case resumes at step 7.
+        2. 返回步骤7
     </p>
 </blockquote>
 <h4>
-    5.7 No Response from Bank
+    5.7 银行无响应
 </h4>
 <p>
-    If in step 8 of the basic there is no response from the Bank within 3 seconds, then
+    如果步骤8，3秒内银行无响应，那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The ATM will re-try, up to three times.
+        1. ATM重试最多3次
     </p>
     <p>
-        2. If there is still no response from the Bank, the ATM shall display the message "Network unavailable – try again
-        later".
+        2. 如果银行仍旧没有响应，ATM显示信息“网络不可用-请稍后再试”。
     </p>
     <p>
-        3. The ATM shall return the card.
+        3. ATM吐出银行卡。
     </p>
     <p>
-        4. The ATM shall indicate that it is "Closed".
+        4. ATM提示已关闭。
     </p>
     <p>
-        5. The use case ends with a failure condition.
+        5.&nbsp;此用例失败结束。
     </p>
 </blockquote>
 <h4>
-    5.8 Money Not Removed
+    5.8 未取走现金
 </h4>
 <p>
-    If in step 9 of the basic flow the money is not removed from the machine within 15 seconds, then
+    如果在步骤9，现金没有在15秒内被取走，那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. the ATM shall issue a warning sound and display the message "Please remove cash".
+        1. ATM语音提示并显示信息“请取走现金”。
     </p>
     <p>
-        2. If there is still no response from the Bank Customer within 15 seconds the ATM will re-tract the money and note
-        the failure in the log.
+        2. 如果银行顾客在15秒内仍然没有反应，在ATM收回钞票，并记录失败日志。
     </p>
     <p>
-        3. the use case end with a failure condition.
+        3. 此用例失败结束。
     </p>
 </blockquote>
 <h4>
-    5.9 Quit
+    5.9 退出
 </h4>
 <p>
-    If at point prior to step 8 in the basic flow the Bank Customer selects Quit, then
+    如果在步骤8之前，银行顾客选择了退出，那么
 </p>
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+<blockquote style="MARGIN-RIGHT: 0px" dir="ltr">
     <p>
-        1. The ATM shall print a receipt indicating the transaction was canceled.
+        1. ATM打印回执并结束交易。
     </p>
     <p>
-        2. The ATM shall return the card.
+        2.&nbsp;ATM吐出卡片。
     </p>
     <p>
-        3. The use case ends.
+        3.&nbsp;用例结束。
     </p>
 </blockquote>
 <h3>
-    6 Key Scenarios
+    6 关键场景
 </h3>
 <h4>
-    6.1 No Response from Bank
+    6.1 银行无响应
 </h4>
 <h3>
-    7 Post-conditions
+    7 后置条件
 </h3>
 <h4>
-    7.1 Successful Completion
+    7.1 成功结束条件
 </h4>
 <p>
-    The user has received their cash and the internal logs have been updated.
+    用户接收现金，内部日志被更新。
 </p>
 <h4>
-    7.2 Failure Condition
+    7.2&nbsp;失败结束条件
 </h4>
 <p>
-    The logs have been updated accordingly.
+    日志被更新记录。
 </p>
 <h3>
-    8 Special Requirements
+    8 特殊需求
 </h3>
 <p>
-    [SpReq:WC-1] The ATM shall dispense cash in multiples of $20.
+    [SpReq:WC-1] ATM应该以$20的整数倍分配现金。
 </p>
 <p>
-    [SpReq2:WC-2] The maximum individual withdrawal is $500.
+    [SpReq2:WC-2] 最大提款限额$500。
 </p>
 <p>
-    [SpReq:WC-1] The ATM shall keep a log, including date and time, of all complete and incomplete transactions with the
-    Bank.
+    [SpReq:WC-3] ATM应该保留日志，包括日期和时间，所有成功或不成功的交易。
 </p></td>
 </tr>
 </table>

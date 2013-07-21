@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>规程：Test</title>
+<title>规程：测试</title>
 <meta name="uma.type" content="Discipline">
 <meta name="uma.name" content="test_discipline">
-<meta name="uma.presentationName" content="Test">
+<meta name="uma.presentationName" content="测试">
 <meta name="element_type" content="other">
 <meta name="filetype" content="description">
 <link rel="StyleSheet" href="./../../css/default.css" type="text/css">
@@ -24,7 +24,7 @@
 <div id="page-guid" value="_iGSHtlZ-EdyIUdvDLLUdeg"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">规程：Test</td><td width="100%">
+<td class="pageTitle" nowrap="true">规程：测试</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -40,7 +40,7 @@
 <td width="50"><img src="./../../images/discipline.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This discipline explains how to provide feedback about the maturing system by designing, implementing, running, and evaluating tests.</td>
+<td valign="top">此规程解释了如何通过设计、实现、运行和评估测试获得系统成熟度的反馈。</td>
 </tr>
 </table>
 </td>
@@ -54,7 +54,7 @@
 <th class="sectionTableHeading" scope="row">任务</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html" guid="_0iwc0clgEdmt3adZL5Dmdw">Create Test Cases</a>
+<a href="./../../practice.tech.concurrent_testing.base/tasks/create_test_cases_D39E98A1.html" guid="_0iwc0clgEdmt3adZL5Dmdw">创建测试用例</a>
 </li>
 <li>
 <a href="./../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
@@ -72,58 +72,49 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    The purpose of this discipline is to:
+    此规程的目的：
 </p>
 <ul>
     <li>
-        Provide early and frequent <em>feedback</em> about whether the system satisfies the requirements
+        提供系统是否满足需求的早期和频繁的反馈。
     </li>
     <li>
-        Objectively measure progress in small increments
+        在微增量中客观的度量进展
     </li>
     <li>
-        Identify issues with the solution, increasing the probability that the system will behave correctly
+        识别解决方案的问题，以提升系统正确运行的概率。
     </li>
     <li>
-        Provide assurance that changes to the system do not introduce new defects
+        保证了在系统中引入变更不引起新的缺陷
     </li>
     <li>
-        Improve velocity by facilitating the discovery of issues with requirements, designs, and implementations as early
-        as possible
+        通过尽早的发现需求、设计和实现中的问题，来提高速率
     </li>
 </ul>
 <p>
-    The Test discipline is iterative and incremental. It applies the strategy of "test early and test often" to retire
-    risks as early as possible in the system's lifecycle.
+    测试规程是迭代和增量的。它提供了“尽早和频繁的测试”策略，以在系统生命周期中尽早的消除风险。
 </p>
 <p>
-    Testing occurs in each iteration of the lifecycle, beginning with the earliest builds of the system. In fact, it is
-    common for one iteration to have many test cycles, depending on the frequency of new builds.
+    测试出现在生命周期里从最早构建系统的迭代及其之后的每次迭代中。事实上，一个迭代中往往有多轮测试，依赖于构建的频繁程度。
 </p>
 <p>
-    Testing asks the question: "What does the solution have to <em>do</em> for us to consider a requirement implemented?"
-    Tests elaborate on the requirements with specific conditions of satisfaction that the solution must meet.
+    测试提出了如下的问题：“考虑需求的实现，解决方案必须做什么？”。测试通过确定解决方案必须满足的条件细化了需求。
 </p>
 <p>
-    This discipline challenges the assumptions, risks, and uncertainty inherent in the development of highly technical
-    artifacts and addresses those concerns by using concrete demonstration and impartial evaluation.
+    此规程挑战了高层技术工件开发中的假设、风险和不确定性，并通过具体的演示和公正的评估来处理这些关注点。
 </p>
 <p>
-    The Test discipline relates to the other disciplines in the following ways:
+    此规程通过以下途径和其它规程关联：
 </p>
 <ul>
     <li>
-        The <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html" guid="_iGSHtVZ-EdyIUdvDLLUdeg">Requirements</a> discipline identifies the <em>intent</em> of the system. Testing
-        elaborates on the requirements with detailed tests that measure how the system supports the requirements.
+        <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/requirements_discipline_9520664.html" guid="_iGSHtVZ-EdyIUdvDLLUdeg">需求</a> 规程确定了系统意图。通过详尽的测试细化了需求，并衡量了系统如何满足这些需求。
     </li>
     <li>
-        The <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html" guid="_iGSHsVZ-EdyIUdvDLLUdeg">Development</a> discipline creates incremental builds of the system that the Test
-        discipline evaluates. In each iteration, testing provides objective feedback. Effective testing enables developers
-        to focus on implementing new functionality and improving the design of the system.
+        <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html" guid="_iGSHsVZ-EdyIUdvDLLUdeg">开发</a> 规程创建了那些测试规程所评估的系统增量构建。在每次迭代中，测试提供了目标的反馈。有效的测试使开发人员集中于实现新功能以及改善系统设计。
     </li>
     <li>
-        The <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html" guid="_iGSHtFZ-EdyIUdvDLLUdeg">Project Management</a> discipline plans the overall project and the scope of work
-        for each iteration. The Test discipline provides an objective measure of progress, which enables adaptive planning.
+        <a class="elementLink" href="./../../core.default.cat_def.base/disciplines/project_management_discipline_FEB42654.html" guid="_iGSHtFZ-EdyIUdvDLLUdeg">项目管理</a> 规程计划了项目和每次迭代的工作范围。测试规程提供了对进展的客观衡量。
     </li>
 </ul></td>
 </tr>
