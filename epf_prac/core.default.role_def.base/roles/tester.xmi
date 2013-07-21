@@ -65,28 +65,17 @@
     依赖于测试类型的不同，特定的技能需求有很大的不同。例如，使用系统负载自动化测试工具所要求的技能，不同于使用系统自动化功能测试所需要的技能。&#xD;
 &lt;/p></skills>
   <assignmentApproaches>&lt;p>&#xD;
-    This role can be assigned in the following ways:&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
     此角色可以通过以下方式指派：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Assign one or more testing staff members to perform this role. This is a fairly standard approach and is&#xD;
-        particularly suitable for small teams, as well as for teams of any size where the team is made up of an experienced&#xD;
-        group of testers of relatively equal skill levels.&#xD;
+        指派一位或多位测试员工执行此角色。这是一个相当标准的方法，特别适合于小团队，以及任何大小的团队，在那里由拥有相同技能水平的测试人员组成的富有经验的小组构成了团队。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        指派一个或多个测试员工执行此角色。这是一个相当标准的方法，特别适合于小团队，以及任何大小的团队，在那里，测试人员组成测试小组。&#xD;
+        指派一位或多位测试员工专职执行此角色。这适用于非常大的团队。在某些测试人员比其他测试人员拥有更多的自动化测试经验时，也有助于分离职责。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Assign one or more testing staff members to perform only this role. This works well in large teams. It is also&#xD;
-        useful to separate responsibilities when some of the testing staff has more test automation experience than other&#xD;
-        team members.&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Assign one (or more) team member who is already playing other role in the project to be responsible for the testing&#xD;
-        of some part of the system's capabilities. The team member must have the appropriate test skills.&#xD;
+        指派一位或多位已经承担了项目中其它角色的团队成员来负责部分系统功能的测试。这些团队成员必须拥有合适的测试技能。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></assignmentApproaches>
 </org.eclipse.epf.uma:RoleDescription>

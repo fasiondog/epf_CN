@@ -15,7 +15,7 @@
       <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
       <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_n75CddfeEdy8T_PKWvNDBA" name="technical_specification_slot" guid="_n75CddfeEdy8T_PKWvNDBA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_n75CddfeEdy8T_PKWvNDBA" name="technical_specification_slot" guid="_n75CddfeEdy8T_PKWvNDBA" presentationName="[技术-规格]" briefDescription="该槽作为一个抽象的高层工件集描述解决方案的需求、约束和目标。" isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_j245gea5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
     </processElements>
@@ -43,7 +43,7 @@
       <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Q2PRIFHSEd2zrOgIte8oWg"/>
       <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Xia1QFHSEd2zrOgIte8oWg"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="确认技术方案" briefDescription="Reach agreement on a viable technical approach to developing the solution." breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg">
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g" name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="确认技术方案" briefDescription="达成一致的可行的技术方法来开发解决方案。" breakdownElements="_BWf5gtOKEdyqlogshP8l4g _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg">
       <presentation xmi:id="-BZ8afnvoVBJs82vzcOBaCw" href="uma://-BZ8afnvoVBJs82vzcOBaCw#-BZ8afnvoVBJs82vzcOBaCw"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

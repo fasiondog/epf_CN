@@ -1,86 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2007-02-07T03:38:57.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" name="create_test_cases,_0iwc0clgEdmt3adZL5Dmdw" guid="_NrVKsKeqEdmKDbQuyzCoqQ" changeDate="2013-07-21T10:11:37.566+0800" version="1.0.0">
   <keyConsiderations>&lt;p>&#xD;
-    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
-    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
-    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
-    passing test cases.&amp;nbsp;&#xD;
+    与需求并行的开发测试用例，分析人员和利益相关人可以就每条需求需要满足的特定条件达成一致意见。通过实际使用的场景扩大系统的意图，测试用例被当做验收准则。这将运行团队成员通过通过的测试用例来衡量项目进展。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="Review the requirements to be tested" guid="_IJFSsKuSEdmhFZtkg1nakg">
+  <sections xmi:id="_IJFSsKuSEdmhFZtkg1nakg" name="评审待测试的需求" guid="_IJFSsKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Work with analysts and developers&amp;nbsp;to identify which scenarios and requirements&amp;nbsp;need new or additional test&#xD;
-    cases. Review the Plans&amp;nbsp;to ensure you understand the scope of development for the current iteration.&lt;br />&#xD;
+    与分析人员和开发人员一起，识别哪些场景或需求需要新的或额外的测试用例。评审计划以确保理解了当前迭代中的开发范围。&lt;br />&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_aDe_ILGcEdubqf8m_Zrvvg" name="Identify relevant Test Cases" guid="_aDe_ILGcEdubqf8m_Zrvvg">
+  <sections xmi:id="_aDe_ILGcEdubqf8m_Zrvvg" name="识别相关的测试用例" guid="_aDe_ILGcEdubqf8m_Zrvvg">
     <sectionDescription>&lt;p>&#xD;
-    Identify paths through the scenario as unique test conditions.&amp;nbsp; Consider alternative or exception paths from both&#xD;
-    a positive and negative perspective.&amp;nbsp;&amp;nbsp;Review the test ideas list for patterns of test cases that apply to the&#xD;
-    scenario.&#xD;
+    识别通过场景的路径，作为单独的测试条件。从积极或消极的角度考虑备选或异常的路径。Review作为应用的特定场景的测试用例模式的测试思路列表。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Discuss the requirement with&amp;nbsp;stakeholders to identify other conditions of satisfaction for the requirement.&#xD;
+    同利益相关人讨论需求以识别需求需要满足的其它条件。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    List the test cases with a unique name that identifies the condition they evaluate or their expected result.&#xD;
+    使用唯一的命名列出测试用例，以标识它们的评估条件和预期结果。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="Outline the Test Cases" guid="_LpbM8KuSEdmhFZtkg1nakg">
+  <sections xmi:id="_LpbM8KuSEdmhFZtkg1nakg" name="编写测试用例" guid="_LpbM8KuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    For each test case, write a brief description with an expected result.&amp;nbsp; Ensure that a casual reader can clearly&#xD;
-    understand the difference between test cases.&amp;nbsp; Note the logical pre-conditions and post-conditions that apply to&#xD;
-    each test case. Optionally, outline steps for the test case.&#xD;
+    对每个测试用例，编写基本说明和期望的结果。确信一个任意的读者能够清楚的理解这些测试用例之间的不同。注意每个测试用例的逻辑前置条件和后置条件。可选的，列出测试用例的步骤。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Verify that test cases meet the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_case_9D3F2E96.html&quot;&#xD;
-    guid=&quot;_0Zxf8MlgEdmt3adZL5Dmdw&quot;>Checklist: Test Case&lt;/a>&amp;nbsp;guidelines.&#xD;
+    验证测试用例满足 &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_case_9D3F2E96.html&quot; guid=&quot;_0Zxf8MlgEdmt3adZL5Dmdw&quot;>核对表：Test Case&lt;/a> 。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="Identify test data needs" guid="_NK18YKuSEdmhFZtkg1nakg">
+  <sections xmi:id="_NK18YKuSEdmhFZtkg1nakg" name="识别需要的测试数据" guid="_NK18YKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Review each test case and note where data input or output might be required. Identify the type, quantity, and&#xD;
-    uniqueness of the required data, and add these observations to the test case. Focus on articulating the data needed and&#xD;
-    not on creating specific data.&#xD;
+    评审每一个测试用例，并关注可能需要的输入、输出数据。识别需要的数据的类型、数量和唯一性，并将这些期望的观察值记入测试用例中。重点在于清晰的表达需要的数据而不是创建这些数据。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For more information on test data selection, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_data_48E804D.html&quot;&#xD;
-    guid=&quot;_KZQJMBhBEduxCP6DVVLxsA&quot;>Checklist: Test Data&lt;/a>.&#xD;
+    更多信息，参见：&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_data_48E804D.html&quot; guid=&quot;_KZQJMBhBEduxCP6DVVLxsA&quot;>核对表：Test Data&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="Share and evaluate the Test Cases" guid="_Ok_mMKuSEdmhFZtkg1nakg">
+  <sections xmi:id="_Ok_mMKuSEdmhFZtkg1nakg" name="分享并评估测试用例" guid="_Ok_mMKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Walk through the test cases with the analysts and developers&amp;nbsp;responsible for the related&#xD;
-    scenario.&amp;nbsp;&amp;nbsp;Ideally, the stakeholders will&amp;nbsp;also participate.&#xD;
+    同相关的分析人员和开发人员对测试用例进行走查。理想情况下，利益相关人也共同参与。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Ask the participants to agree that if &lt;em>these test cases pass&lt;/em>, they will consider these requirements&#xD;
-    implemented.&amp;nbsp; Elicit additional test ideas from Analysts and stakeholders to ensure you understand the expected&#xD;
-    behavior of the scenario.&#xD;
+    询问参与者是否认同“如果这些测试用例被通过，它们是否能够确认这些需求被满足”。从分析人员和利益相关人引出额外的测试思路，从而保证理解了这些场景启动的行为。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    During the walkthrough, ensure that:&#xD;
+    在走查期间，确保：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        The requirements&amp;nbsp;planned for the current iteration have test cases.&#xD;
+        当前迭代中计划的需求有对应的测试用例。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        All the participants agree with the expected results of the test cases.&#xD;
+        所有参与者认可测试用例的预期结果。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        There are no&amp;nbsp;&lt;em>other&lt;/em> conditions of satisfaction for the requirement being tested, which indicates&#xD;
-        either a missing test case or a missing requirement.&#xD;
+        没有其它需要满足的需求条件要测试，否则意味着遗漏了测试用例或需求。&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Optionally, capture new patterns of test cases&amp;nbsp;in&amp;nbsp;the test ideas list (see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    可选，捕获有关测试用例的新模式，记入测试思路列表（参见：&lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/test_ideas_ED562B58.html&quot;&#xD;
-    guid=&quot;_0jnYcMlgEdmt3adZL5Dmdw&quot;>Concept: Test Ideas&lt;/a>).&#xD;
+    guid=&quot;_0jnYcMlgEdmt3adZL5Dmdw&quot;>概念：Test Ideas&lt;/a>）。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    To achieve a shared understanding of the specific conditions that the solution must meet.&#xD;
+    获取对解决方案所必须满足的特定条件的共同理解。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

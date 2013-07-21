@@ -1,183 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-yNrF2Ac8VgD0WjoUxGOsIQ" name="identify_and_refine_requirements,_xxcpgdOEEdyqlogshP8l4g" guid="-yNrF2Ac8VgD0WjoUxGOsIQ" version="7.2.0">
-    <mainDescription>&lt;p>
-    This activity describes the tasks you perform to gather, specify, analyze, and validate a subset of system's
-    requirements prior to implementation and verification. This does not imply that all requirements are detailed prior to
-    commencing implementation. Rather, you perform this activity throughout the lifecycle with stakeholders and the entire
-    development team collaborating to ensure that a clear, consistent, correct, verifiable, and feasible set of
-    requirements is available, as needed, to drive implementation and verification.
-&lt;/p>
-&lt;p>
-    During &lt;b>Inception&lt;/b>, the focus is on gaining agreement on the problem to be solved, gathering stakeholder needs,
-    and capturing high-level system features.
-&lt;/p>
-&lt;p>
-    During &lt;b>Elaboration&lt;/b>, the focus shifts to defining the solution. This consists of finding those requirements that
-    have the most value to stakeholders, that are particularly challenging or risky, or that are architecturally
-    significant. You then describe requirements (that are prioritized, via the work items list, for implementation in the
-    early iterations) in sufficient detail to validate the development team's understanding of the requirements, to ensure
-    concurrence with stakeholders, and to permit software development to begin. For each of these requirements, define
-    associated test cases to ensure that the requirements are verifiable, and to provide the guidance needed for
-    verification and validation.
-&lt;/p>
-&lt;p>
-    During Construction, the focus shifts to refining the system definition. This consists of detailing the remaining
-    requirements and associated test cases as necessary to drive implementation and verification, and managing requirements
-    change.
+    <mainDescription>&lt;p>&#xD;
+    此活动描述了收集、确定、分析和验证系统需求的任务，在实现和验证它们之前。这并不意味着在开始实现之前，完成所有需求的细化。而是在整个生命周期中，和利益相关人及整个开发团队协作，确保可用的一个清晰、一致、正确、可验证、灵活的需求集合，从而驱动实现和验证。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在&lt;strong>初始阶段&lt;/strong>，重点关注获得对待解决的问题的一致认可、收集利益相关人需要、以及捕获高层次的系统特性。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在&lt;strong>细化阶段&lt;/strong>，重点关注于定义解决方案。包括寻找对利益相关人价值最大的需求，是那些对架构及其重要的需求（它们或者严重影响了架构、或者对架构有重要的风险）。描述这些需求（在工作项列表排序，并将在早期迭代中实现）的足够充分的细节，验证开发团队对需求的理解，从而确保获得利益相关人的同意，并开始软件开发活动。对这些需求中的每一条，定义相关的测试用例，保证需求是可验证的，并为验证和确认提供了指导。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在&lt;strong>构建阶段&lt;/strong>，重点关注于完善系统定义。包括细化剩余的需求及相关的测试用例，以驱动实现和验证，并管理需求变更。&#xD;
 &lt;/p></mainDescription>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x896fGqISERWysfNwjvB7w" name="system_wide_requirements,_EOwqptOLEdyqlogshP8l4g" guid="-x896fGqISERWysfNwjvB7w">
     <keyConsiderations>&lt;ul>&#xD;
     &lt;li>&#xD;
-        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
-        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
-        delivered.&#xD;
+        当编写系统需求文档时，确保表达了所有的利益相关人需要。特别是，包括那些在交付后负责维护和支持系统的人。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
-        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
-        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
-        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+        通常，全系统需求文档和其他需求工作产品之间存在某些重叠和灰色地带。例如，系统的鉴权行为可以通过用例的方式表达，也可以在全系统需求工件中描述。整体的原则是没有重要需求被遗漏或重复，并有一个约定的捕获和处理需求类型的方法。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
-        important when you separate externally mandated requirements.&#xD;
+        系统需求来源于许多地方。记录需求的来源很重要，当你区分外部强制性需求时。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
-        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
-        requirements.&#xD;
+        需求往往被看做“定性”（指定质量或合适的特征）与“定量”（指定数量）的。定性的需求有时会转化为定量的需求。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+        一个好的质量需求应该能够被验证，通过测试或其它客观评估。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
-        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+        必须为系统需求评估成本、进度影响，以及对业务目的的贡献水平。基于你的评估，系统需求应该被反复的挑战、防守和修订。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T_J_cyYgoF4KWAcGQbdjjA" name="glossary,_EOwqqNOLEdyqlogshP8l4g" guid="-T_J_cyYgoF4KWAcGQbdjjA">
     <keyConsiderations>&lt;p>&#xD;
-    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
-    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
-    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
-    are being used consistently.&#xD;
+    尽管此工件被当做需求规程里相关任务的输入、输出被列出，但它可以在任何时间、由任何角色进行更新，只要识别出新的术语。在所有的项目文档中使用这些定义的术语，从而使利益相关人可以清晰的看见这些术语被一致的使用。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
-    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
-    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+    在开发此工件时，有一个主要的决策，是使用单一的术语表，还是在多份不同的术语表（业务术语、工件和模型）中进行记录术语。如果它们在多个地方中定义，你需要和团队沟通所有的来源并确定它们的优先顺序。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
-    artifacts, or data models, where they exist.&#xD;
+    这可能很重要，即使在小项目中，引用和使用已存在的广泛术语表、业务术语工件、或数据模型，在它们存在的地方。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
-    required.&#xD;
+    针对行业或组织的术语表可能被引用，并需要遵循特定的标准。&#xD;
 &lt;/p></keyConsiderations>
     <refinedDescription>&lt;p>&#xD;
-    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+    此工件通过提供两个基础资源帮助避免误解：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        A central location to look for terms and abbreviations that are new to development team members&#xD;
+        可供新的开发团队成员查询术语和缩略语的集中的地点&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Definitions of terms that are used in specific ways within the domain&#xD;
+        在领域内以特定的方式使用的术语定义&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
-    discussions with stakeholders and domain experts.&#xD;
+    术语定义有不同的来源，例如需求文档、规格说明，以及和利益相关人、领域专家的讨论。&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7g1n_R9Eg7zeKCdFrem74A" name="detail_use_case_scenarios,_FX7SINOLEdyqlogshP8l4g" guid="-7g1n_R9Eg7zeKCdFrem74A">
     <keyConsiderations>&lt;p>&#xD;
-    To avoid unnecessary rework, only those use-case scenarios that are scheduled for implementation in the near term (in&#xD;
-    the next iteration or two)&amp;nbsp;must be detailed.&amp;nbsp;&#xD;
+    为了避免不必要的返工，&amp;nbsp;应该仅安排那些近期需要实现的用例场景（在下一次迭代或下下次）进行细化。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Not all use-case scenarios require detailing.&#xD;
+    不是所有的用例场景都需要细化描述。&#xD;
 &lt;/p></keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-snrpmf_Kt0OZ2R7QKJufUQ" name="detail_system_wide_requirements,_F68foNOLEdyqlogshP8l4g" guid="-snrpmf_Kt0OZ2R7QKJufUQ">
-    <keyConsiderations>To avoid unnecessary rework, only those requirements that are scheduled for implementation in the near term (in the next&#xD;
-iteration or two)&amp;nbsp;must be detailed.</keyConsiderations>
+    <keyConsiderations>&lt;p>&#xD;
+    为了避免不必要的返工，只有那些需要近期实现（在下一次迭代或下下次迭代）的需求必须要细化。&#xD;
+&lt;/p></keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Afh79qcpEs6i404AABE0rA" name="create_test_cases,_HDOWUNOLEdyqlogshP8l4g" guid="-Afh79qcpEs6i404AABE0rA">
     <keyConsiderations>&lt;p>&#xD;
-    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
-    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
-    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
-    passing test cases.&amp;nbsp;&#xD;
+    与需求并行的开发测试用例，分析人员和利益相关人可以就每条需求需要满足的特定条件达成一致意见。通过实际使用的场景扩大系统的意图，测试用例被当做验收准则。这将运行团队成员通过通过的测试用例来衡量项目进展。&#xD;
 &lt;/p></keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bQ7hVBwsq2Dzk11CI9pT_g" name="test_case,_HDOWUtOLEdyqlogshP8l4g" guid="-bQ7hVBwsq2Dzk11CI9pT_g">
     <refinedDescription>&lt;p>&#xD;
-    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
-    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
-    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
-    results.&#xD;
+    测试用例明确了系统必须被验证的条件，以保证通过测试对系统的指定方面进行了评估。测试用例比测试思路更加正式，通常，测试用例有指定的格式。在不那么正式的环境下，可以只创建测试用例，描述唯一的名称标识、名称、相关的测试数据和预期结果。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
-    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
-    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    驱动测试用例的来源可能很多，通常包含某个需求的子集（如用例集、性能特性、以及可靠性）以及其它类型的质量属性。更多有关测试类型和它们与质量属性的关系，参见概念：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
-    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Testing Qualitative Requirements&lt;/a>。&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZvkvSzDnhn7qjyIT-kzCdQ" name="work_items_list,_jrndp-a5EeKxKPHdq3K7Jw" guid="-ZvkvSzDnhn7qjyIT-kzCdQ">
     <keyConsiderations>&lt;p>&#xD;
-    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+    工作项应该包含估算。参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.iterative_dev.base/guidances/guidelines/managing_work_items_32AC6ABD.html&quot;&#xD;
+    guid=&quot;_7vEXEMA4EdqSgKaj2SZBmg&quot;>Managing Work Items&lt;/a>&amp;nbsp;和 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/guidelines/agile_estimation_A4EF42B3.html&quot;&#xD;
+    guid=&quot;_CGHskBEdEdqY7JB6N6CW2w&quot;>Agile Estimation&lt;/a>。&#xD;
 &lt;/p></keyConsiderations>
     <refinedDescription>&lt;p>&#xD;
-    This artifact provides a focal point for the entire team:&#xD;
+    此工件为整个团队提供了一个关注点：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
-        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+        提供了针对应用的所有新增或增强功能的请求列表。注意这些请求可能尚未实现或已经实现。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
-        is prioritized separately.&#xD;
+        提供了项目的所有工作清单，这些工作被排序、估算、分配。排序的风险列表是独立的。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
-        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+        为开发团队提供了一处理解将交付什么微增量的地点，通过引用需要的材料执行工作并报告进展。&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    These are the typical work items that go on this list:&#xD;
+    以下是出现在工作项列表里的典型工作项：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Use cases (and references to use-case specifications)&#xD;
+        用例（并引用用例规约）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        System-wide requirements&#xD;
+        全系统需求&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Changes and enhancement requests&#xD;
+        变更及增强请求&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Defects&#xD;
+        缺陷&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Development tasks&#xD;
+        开发任务&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
-    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
-    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
-    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
-    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
-    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+    工作项可能很大，尤其是增强的请求，如某个个人财务应用中的“支持财务计划”工作项。为了能够在微增量中开发应用，工作项被分析和分解到更小的工作项，这样能够将其分配的某个迭代中，例如某个用例场景“计算网络价值”。进一步的分析可能要求识别合适的任务以分配给开发者，例如“计算网络价值-开发UI界面”。这意味着工作项之间常常存在着父/子关系，那些最底层的工作项则被当做微增量的规格和跟踪设备。&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

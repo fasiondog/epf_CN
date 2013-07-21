@@ -42,13 +42,15 @@
               <presentation xmi:id="-5_3zlnRYAOz-wT6GBaWoNg" href="uma://-5_3zlnRYAOz-wT6GBaWoNg#-5_3zlnRYAOz-wT6GBaWoNg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s4ojQNqREdy88NBoQgfGyg" name="envision_the_arch.vm" guid="_s4ojQNqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0f-1oMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
+              <methodElementProperty xmi:id="_7t0mYPISEeKv6f27DVLWdQ" name="me_edited" value="true"/>
               <presentation xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" href="uma://-tmKVpMZoAoS-Wkvbe_iHpQ#-tmKVpMZoAoS-Wkvbe_iHpQ"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1kmN0NqREdy88NBoQgfGyg" name="refine_the_arch.vm" guid="_1kmN0NqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0gRJgMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
               <presentation xmi:id="-E459X-McFVuJGngiFPWf6w" href="uma://-E459X-McFVuJGngiFPWf6w#-E459X-McFVuJGngiFPWf6w"/>
             </contentElements>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0f-1oMlgEdmt3adZL5Dmdw" name="envision_the_arch" guid="_0f-1oMlgEdmt3adZL5Dmdw" presentationName="Envision the Architecture" briefDescription="This task is where the &quot;vision&quot; for the architecture is developed through analysis of the architecturally significant requirements and identification of architectural constraints, decisions and objectives." output="_0XAf0MlgEdmt3adZL5Dmdw" optionalInput="_0XAf0MlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0f-1oMlgEdmt3adZL5Dmdw" name="envision_the_arch" guid="_0f-1oMlgEdmt3adZL5Dmdw" presentationName="拟制架构" briefDescription="此任务是通过分析对架构重要的需求来开发“愿景”的架构，并确定架构约束、决策和目标。" output="_0XAf0MlgEdmt3adZL5Dmdw" optionalInput="_0XAf0MlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_E4DE0PIUEeKv6f27DVLWdQ" name="me_edited" value="true"/>
             <presentation xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_qDRSULBKEdm7Eph_l9Cn9w"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>

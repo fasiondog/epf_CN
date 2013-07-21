@@ -1,52 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T01:45:15.000-0700" version="1.0.0">
-  <sections xmi:id="_yXujsLcOEduFFo_97woSMw" name="General" guid="_yXujsLcOEduFFo_97woSMw">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_kwHAgMPbEdmbOvqy4O0adg" name="test_case,_0Zxf8MlgEdmt3adZL5Dmdw" guid="_kwHAgMPbEdmbOvqy4O0adg" changeDate="2005-07-07T16:45:15.000+0800" version="1.0.0">
+  <sections xmi:id="_yXujsLcOEduFFo_97woSMw" name="一般情况" guid="_yXujsLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the Test Case identify the requirement it evaluates?&amp;nbsp; This linking might be informal through a naming&#xD;
-        convention or formalized through a requirements traceability matrix.&#xD;
+        测试用例是否有对应的需求？此对应关系可能通过非正式的名称相关的方式，或通过正式的需求跟踪矩阵来表达。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does the Test Case reference the preconditions and postconditions that apply to it?&#xD;
+        测试用例是否参考了前置条件和后置条件？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="Name" guid="_Hv2n0BBbEduXULqRagzBHA">
+  <sections xmi:id="_Hv2n0BBbEduXULqRagzBHA" name="名称" guid="_Hv2n0BBbEduXULqRagzBHA">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is the&amp;nbsp;Test Case name unique?&#xD;
+        测试用例命名是否唯一？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does&amp;nbsp;the name express a test condition or&amp;nbsp;an expected result?&#xD;
+        此名称是否表达了某个测试条件或预期结果？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is&amp;nbsp;it unambiguous to a stakeholder?&#xD;
+        对于利益相关人是否有歧义？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_3i-gkLcOEduFFo_97woSMw" name="Brief Description" guid="_3i-gkLcOEduFFo_97woSMw">
+  <sections xmi:id="_3i-gkLcOEduFFo_97woSMw" name="基本描述" guid="_3i-gkLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
     &lt;li>&#xD;
-        Is the logical test condition clearly identified in the description?&#xD;
+        描述中是否清晰的识别了逻辑测试条件？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does the description clearly&amp;nbsp;state the expected result?&#xD;
+        是否清晰描述了预期结果？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the expected result stated as a concrete&amp;nbsp;outcome?&#xD;
+        是否描述了预期结果的具体输出？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Can a casual reader distinguish this Test Case from a similar one?&#xD;
+        一个任意的读者是否能够区别这些测试用例？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_4uresLcOEduFFo_97woSMw" name="Test Data Needs" guid="_4uresLcOEduFFo_97woSMw">
+  <sections xmi:id="_4uresLcOEduFFo_97woSMw" name="测试数据需求" guid="_4uresLcOEduFFo_97woSMw">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the Test Case note the kinds of test data required to implement a detailed Test Script?&#xD;
+        测试用例是否指出了在执行测试脚本是需要的测试数据？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are&amp;nbsp;the test data type, uniqueness, and quality sufficiently explained?&#xD;
+        是否对测试数据的类型、唯一性和质量进行了充分的解释？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>

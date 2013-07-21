@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_p1NpsJlfEeGlkdGl1HQlDA" guid="_p1NpsJlfEeGlkdGl1HQlDA">
     <resourceDescriptors xmi:id="_yw65E5liEeGlkdGl1HQlDA" id="-gzWORmCEYOe7ZhiVKDRrnA" uri="disciplines/deployment_disciplne.assign.xmi"/>
     <resourceDescriptors xmi:id="_2HfzUJliEeGlkdGl1HQlDA" id="-LO7pSlyujIzk-snyVUg48A" uri="domains/deployment_domain.assign.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" name="practice.gen.doc_trng.assign" guid="_p0w9wJlfEeGlkdGl1HQlDA" presentationName="Documentation and Training Assignments" changeDate="2012-05-08T15:47:42.994-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_p0w9wJlfEeGlkdGl1HQlDA" name="practice.gen.doc_trng.assign" guid="_p0w9wJlfEeGlkdGl1HQlDA" presentationName="Documentation and Training Assignments" changeDate="2012-05-09T06:47:42.994+0800">
     <methodElementProperty xmi:id="_p1NpsplfEeGlkdGl1HQlDA" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_0nlnIJlfEeGlkdGl1HQlDA" name="me_edited" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9wZlfEeGlkdGl1HQlDA" name="Content" guid="_p0w9wZlfEeGlkdGl1HQlDA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9wplfEeGlkdGl1HQlDA" name="Categories" guid="_p0w9wplfEeGlkdGl1HQlDA">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_p0w9w5lfEeGlkdGl1HQlDA" name="Domains" guid="_p0w9w5lfEeGlkdGl1HQlDA">
-          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_2GvlYJliEeGlkdGl1HQlDA" name="deployment_domain.assign" guid="_2GvlYJliEeGlkdGl1HQlDA" briefDescription="This is the list of work products related to the Documentation and Training domain." variabilityType="contributes">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_2GvlYJliEeGlkdGl1HQlDA" name="deployment_domain.assign" guid="_2GvlYJliEeGlkdGl1HQlDA" briefDescription="文档与培训领域的相关工作产品列表。" variabilityType="contributes">
             <methodElementProperty xmi:id="_2HWCUJliEeGlkdGl1HQlDA" name="CategoryElementsSortType" value="Alphabetic"/>
             <methodElementProperty xmi:id="_q6UPUJoJEeGnJt_Qpwdfdg" name="me_edited" value="true"/>
             <presentation xmi:id="-LO7pSlyujIzk-snyVUg48A" href="uma://-LO7pSlyujIzk-snyVUg48A#-LO7pSlyujIzk-snyVUg48A"/>

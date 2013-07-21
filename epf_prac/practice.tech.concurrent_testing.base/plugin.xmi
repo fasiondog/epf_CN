@@ -27,7 +27,8 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9gPU27ekEd-D7YZN9NgldQ" name="CoreContent" guid="_9gPU27ekEd-D7YZN9NgldQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4GsDkIfxEdy1GthOId7fdw" name="concurrent_testing" guid="_4GsDkIfxEdy1GthOId7fdw" presentationName="Concurrent Testing">
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0iwc0clgEdmt3adZL5Dmdw" name="create_test_cases" guid="_0iwc0clgEdmt3adZL5Dmdw" presentationName="Create Test Cases" briefDescription="Develop the test cases and test data for the requirements to be tested.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0iwc0clgEdmt3adZL5Dmdw" name="create_test_cases" guid="_0iwc0clgEdmt3adZL5Dmdw" presentationName="创建测试用例" briefDescription="为将被测试的需求开发测试用例与数据。">
+            <methodElementProperty xmi:id="_4hH8IPGqEeKb1PYVQ3GKtQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NrVKsKeqEdmKDbQuyzCoqQ" href="uma://_NrVKsKeqEdmKDbQuyzCoqQ#_NrVKsKeqEdmKDbQuyzCoqQ"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0jzlsMlgEdmt3adZL5Dmdw"/>
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>

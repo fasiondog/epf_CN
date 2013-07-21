@@ -74,7 +74,7 @@
             <output href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
             <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SL7N0LPdEduocbW-TPTq7A" name="detail_use_case_scenarios" guid="_SL7N0LPdEduocbW-TPTq7A" presentationName="细化用例场景" briefDescription="此任务描述了如何细化用例场景。">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_SL7N0LPdEduocbW-TPTq7A" name="detail_use_case_scenarios" guid="_SL7N0LPdEduocbW-TPTq7A" presentationName="细化用例与场景" briefDescription="此任务描述了如何细化用例场景。">
             <methodElementProperty xmi:id="_iCeWsPFbEeKERaceDkA4DQ" name="me_edited" value="true"/>
             <presentation xmi:id="-oFAa8Uu6tr_GkE_E0iycdQ" href="uma://-oFAa8Uu6tr_GkE_E0iycdQ#-oFAa8Uu6tr_GkE_E0iycdQ"/>
             <guidelines href="#_4BJ_YCxSEdqjsdw1QLH_6Q"/>

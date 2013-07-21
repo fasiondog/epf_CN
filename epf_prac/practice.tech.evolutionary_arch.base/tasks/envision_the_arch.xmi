@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2010-05-26T09:05:46.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_qDRSULBKEdm7Eph_l9Cn9w" name="envision_the_arch,_0f-1oMlgEdmt3adZL5Dmdw" guid="_qDRSULBKEdm7Eph_l9Cn9w" changeDate="2013-07-21T22:40:50.420+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This task focuses on envisioning the initial architecture and outlining the&amp;nbsp;architectural decisions that will&#xD;
-    guide development and testing. It relies on gathering experience gained in similar systems or problem domains to&#xD;
-    constrain and focus the architecture so that effort is not wasted in re-inventing architecture.&#xD;
+    此任务聚焦于拟制初始的架构并列出指导开发和测试的架构性的决策。这依赖于收集类似系统获得的经验、或问题领域的约束、以及架构焦点，从而不在“重新创建架构”上浪费时间。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The results are captured for future reference and are communicated across the team. It is important that the team has&#xD;
-    enough information to understand the technical approach being taken.&#xD;
+    记录其结果，并在团队之间进行沟通。获得足够的信息以理解技术方案，对团队开始工作很重要。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     The architecture evolves organically over time by outlining and refining portions of it. A few people get together in a&#xD;
@@ -182,14 +179,12 @@ guid=&quot;_0XAf0MlgEdmt3adZL5Dmdw&quot;>Architecture Notebook&lt;/a>&amp;nbsp;f
 understands the architecture&amp;nbsp;and can deliver it.</sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    To&amp;nbsp;envision a technical approach to the system that supports the project requirements, within the constraints&#xD;
-    placed on the system and the development team.&#xD;
+    为系统拟制技术方案，以支持项目需求，和放置在系统与开发团队上的约束。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    To provide sufficient guidance and direction for the team to begin development.&#xD;
+    为团队提供足够的指南和决策以开始开发。&#xD;
 &lt;/p></purpose>
   <alternatives>&lt;p>&#xD;
-    This task&amp;nbsp;is most&amp;nbsp;needed when developing new and unprecedented systems. In systems where there is already a&#xD;
-    well-defined architecture, this task may be omitted and replaced with a&amp;nbsp;review of the existing architecture.&#xD;
+    此任务在开发新的或前所未有的系统时最需要。对于那些已经存在良好定义架构的系统，可以忽略此任务，并替换成对已有架构的Review。&#xD;
 &lt;/p></alternatives>
 </org.eclipse.epf.uma:TaskDescription>
