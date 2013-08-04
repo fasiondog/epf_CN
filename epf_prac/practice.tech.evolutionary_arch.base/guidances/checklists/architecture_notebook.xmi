@@ -1,163 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" name="architecture,_17PYUNd6EdmIm-bsRSNCgw" guid="_17Ve8Nd6EdmIm-bsRSNCgw" authors="Chris Doyle, Mark Dickson" changeDate="2008-08-11T10:07:36.000-0700" changeDescription="(Mark Dickson) formatted &amp; applied changes from Chris Doyle " version="1.2">
-  <sections xmi:id="_MN7hMNjcEdydTt3eL7YyCQ" name="Is the architecture understandable?" guid="_MN7hMNjcEdydTt3eL7YyCQ">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" name="architecture,_17PYUNd6EdmIm-bsRSNCgw" guid="_17Ve8Nd6EdmIm-bsRSNCgw" authors="Chris Doyle, Mark Dickson" changeDate="2008-08-12T01:07:36.000+0800" changeDescription="(Mark Dickson) formatted &amp; applied changes from Chris Doyle " version="1.2">
+  <sections xmi:id="_MN7hMNjcEdydTt3eL7YyCQ" name="架构是否可理解？" guid="_MN7hMNjcEdydTt3eL7YyCQ">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is the description of the architecture complete, meaningful, and clear?&#xD;
+        架构描述是否完整、有意义、清晰？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the&amp;nbsp;architecture&amp;nbsp;at an appropriate level of detail, given the objectives?&#xD;
+        架构是否在一个适当的水平细节上给出了目标？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are concepts&amp;nbsp;handled in the simplest way possible?&#xD;
+        被处理的概念是否使用了尽可能简单的方式？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does&amp;nbsp;the architecture clearly convey not only the solution but also the motivation and objectives related to&#xD;
-        the&amp;nbsp;decisions that have been made in shaping the architecture?&#xD;
+        架构是否清晰的表达了解决方案，以及那些约束了架构的相关决策的动机和目的？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are the key assumptions and decisions that the&amp;nbsp;architecture is based on documented and visible to reviewers&#xD;
-        and those who will use the architecture?&#xD;
+        架构的关键假设和决策是否被文档化，并可被评审人员和那些使用架构的人员阅读？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the architecture description current?&#xD;
+        架构描述是否是最新的？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have the design guidelines been followed?&#xD;
+        是否存在需要遵循的设计指导方针？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_U-wp8NvXEdyrWIQpneun6w" name="Have the architectural goals, constraints and requirements been adequately described and handled?" guid="_U-wp8NvXEdyrWIQpneun6w">
+  <sections xmi:id="_U-wp8NvXEdyrWIQpneun6w" name="架构目标、约束和需求是否被充分的描述和处理？" guid="_U-wp8NvXEdyrWIQpneun6w">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        是否清晰的描述了&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot;&#xD;
-        guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>&amp;nbsp;been clearly described?&#xD;
+        guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have any &lt;a class=&quot;elementLink&quot;&#xD;
+        是否识别并记录了&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html&quot;&#xD;
-        guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>Architectural Constraints&lt;/a>&amp;nbsp;been identified and documented?&#xD;
+        guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>Architectural Constraints&lt;/a>？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        是否识别并清晰的描述了&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
-        guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>&amp;nbsp;been identified and are they&#xD;
-        clearly described.&#xD;
+        guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the architecture is consistent with the architectural goals, constraints and requirements?&#xD;
+        架构是否同架构的目标、约束和需求一直？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_UCJbQNvYEdyrWIQpneun6w" name="Have necessary architectural mechanisms been identified and described?" guid="_UCJbQNvYEdyrWIQpneun6w">
+  <sections xmi:id="_UCJbQNvYEdyrWIQpneun6w" name="是否识别并描述了必要的架构机制？" guid="_UCJbQNvYEdyrWIQpneun6w">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is it clear when&amp;nbsp;each &lt;a class=&quot;elementLink&quot;&#xD;
+        何时应用&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>&amp;nbsp;should be applied?&#xD;
+        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>是否清晰？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is there a clearly defined design pattern in place to support&amp;nbsp;each mechanism?&#xD;
+        是否有清晰的设计模式支持每个机制？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does each mechanism adequately address the requirements it is intended to meet?&#xD;
+        每个机制是否充分处理了其所希望满足的需求？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_hKAz8NvZEdyrWIQpneun6w" name="Have the system partitions been adequately defined?" guid="_hKAz8NvZEdyrWIQpneun6w">
+  <sections xmi:id="_hKAz8NvZEdyrWIQpneun6w" name="是否充分定义了系统划分？" guid="_hKAz8NvZEdyrWIQpneun6w">
     <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
     &lt;li>&#xD;
-        Is partitioning approach clearly described and applied consistently?&#xD;
+        是否清晰并一致的应用了划分方法？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does the partitioning approach reduce complexity and improve understanding?&#xD;
+        划分方法是否降低了复杂性并改善了理解？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have the partitions been defined to be highly cohesive within the partition, while the partitions themselves are&#xD;
-        loosely coupled?&#xD;
+        被定义的分区是否本身高内聚，而分区之间则是松散耦合？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_eYXBINvYEdyrWIQpneun6w" name="Have the key elements been adequately defined?" guid="_eYXBINvYEdyrWIQpneun6w">
+  <sections xmi:id="_eYXBINvYEdyrWIQpneun6w" name="是否充分定义了关键元素？" guid="_eYXBINvYEdyrWIQpneun6w">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Have the &lt;a class=&quot;elementLink&quot;&#xD;
+        是否充分定义了&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/key_abstractions_1474DBF2.html&quot;&#xD;
-        guid=&quot;_pLEGUNqGEdy88NBoQgfGyg&quot;>Key Abstractions&lt;/a>&amp;nbsp;adequately defined?&#xD;
+        guid=&quot;_pLEGUNqGEdy88NBoQgfGyg&quot;>Key Abstractions&lt;/a>？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have the the key design elements (i.e., &lt;a class=&quot;elementLink&quot;&#xD;
-        href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
-        guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>s) adequately defined?&#xD;
+        是否充分定义了设计元素（如组件）？&#xD;
     &lt;/li>&#xD;
     &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
         &lt;ul>&#xD;
             &lt;li>&#xD;
-                Do the components have well-defined interfaces?&#xD;
+                组件是否具有良好定义的接口？&#xD;
             &lt;/li>&#xD;
             &lt;li>&#xD;
-                Have the system's responsibilities been allocated to the components?&#xD;
+                是否将系统职责分配给了组件？&#xD;
             &lt;/li>&#xD;
             &lt;li>&#xD;
-                Are the number and types of components reasonable?&#xD;
+                组件的数量和类型是否合理？&#xD;
             &lt;/li>&#xD;
         &lt;/ul>&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_KU3WQNvbEdyrWIQpneun6w" name="Have interfaces to external systems been adequately represented?" guid="_KU3WQNvbEdyrWIQpneun6w">
+  <sections xmi:id="_KU3WQNvbEdyrWIQpneun6w" name="是否充分表达了外部系统接口？" guid="_KU3WQNvbEdyrWIQpneun6w">
     <sectionDescription>&lt;p>&#xD;
-    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html&quot;&#xD;
-    guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Guideline: Representing Interfaces to External Systems&lt;/a>&#xD;
+    guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Representing Interfaces to External Systems&lt;/a>&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_bQB24NvbEdyrWIQpneun6w" name="Has all reuse been identified?" guid="_bQB24NvbEdyrWIQpneun6w">
-    <sectionDescription>Have all reusable assets been identified -- either those reused by the system, or those elements within the system that&#xD;
-have been built to be reused.&amp;nbsp; For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
-guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.</sectionDescription>
+  <sections xmi:id="_bQB24NvbEdyrWIQpneun6w" name="是否识别了所有可重用资产？" guid="_bQB24NvbEdyrWIQpneun6w">
+    <sectionDescription>&lt;p>&#xD;
+    是否识别了所有可重用资产 —— 包括重用来自其它系统的可重用资产，以及可被其它系统重用的资产。更多信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Software Reuse&lt;/a>。&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_pgGfsNvaEdyrWIQpneun6w" name="Has the architecture been built to evolve?" guid="_pgGfsNvaEdyrWIQpneun6w">
+  <sections xmi:id="_pgGfsNvaEdyrWIQpneun6w" name="是否已构建了架构从而开始演进？" guid="_pgGfsNvaEdyrWIQpneun6w">
     <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
     &lt;li>&#xD;
-        Can the&amp;nbsp;architecture easily evolve,&amp;nbsp;so that&amp;nbsp;expected changes can be easily accommodated?&#xD;
+        架构是否易于演进，从而能够方便的适应期望的变化？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are all technical risks either mitigated or addressed in a contingency plan?&#xD;
+        是否所有的技术风险都在应急计划中进行了缓解和处理？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Has the&amp;nbsp;architecture been overly structured to handle unlikely change at the expense of simplicity and&#xD;
-        comprehensibility? (Hint: &quot;Yes&quot; to this question is not good.)&#xD;
-    &lt;/li>&#xD;
-&lt;/ul>&lt;br />&#xD;
-&lt;br /></sectionDescription>
-  </sections>
-  <sections xmi:id="_aWun4NjcEdydTt3eL7YyCQ" name="Can the architecture be delivered by the team?" guid="_aWun4NjcEdydTt3eL7YyCQ">
-    <sectionDescription>&lt;ul>&#xD;
-    &lt;li>&#xD;
-        Does the architecture provide a suitable basis for organizing the development teams?&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Does each team have the skills required to implement their allocated components?&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Are responsibilities divided well between teams?&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Do all team members share the same understanding of the architecture as the one presented by the architect?&#xD;
-    &lt;/li>&#xD;
-    &lt;li>&#xD;
-        Can team members understand enough from the architecture to successfully design and code their allocated&#xD;
-        components?&#xD;
+        架构是否过于结构化，牺牲了简单性和可理解性来处理不太可能发生的变化？（提示：如果答案是“Yes”，那么是不好的）&lt;br />&#xD;
+        &lt;br />&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_9LIDYNvbEdyrWIQpneun6w" name="Has the software been adequately mapped to the hardware?" guid="_9LIDYNvbEdyrWIQpneun6w">
+  <sections xmi:id="_aWun4NjcEdydTt3eL7YyCQ" name="团队是否可交付架构？" guid="_aWun4NjcEdydTt3eL7YyCQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        架构是否为组织开发团队提供了合适的基础？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        每个团队是否有实现分配给他们的组件所需要的技能？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        团队之间是否划分好了职责？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        所有团队成员是否共享了对架构的相同理解？&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        团队成员是否充分的理解了架构，从而可以成功设计、编码分配给他们的组件？&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_9LIDYNvbEdyrWIQpneun6w" name="是否将软件充分映射到硬件？" guid="_9LIDYNvbEdyrWIQpneun6w">
     <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
     &lt;li>&#xD;
-        Have the deployable software components been mapped to physical nodes?&#xD;
+        是否将可部署的软件组件映射到物理结点？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>

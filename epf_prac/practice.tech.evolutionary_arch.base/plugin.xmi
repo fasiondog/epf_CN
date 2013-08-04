@@ -39,6 +39,7 @@
               <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0SsecNr8EdyXE6np2_hUMA"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_G0xGANfdEdy8T_PKWvNDBA" name="architecture_notebook.vm" guid="_G0xGANfdEdy8T_PKWvNDBA" variabilityType="contributes" variabilityBasedOnElement="_0XAf0MlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
+              <methodElementProperty xmi:id="_sq4RsPhfEeKgEKGGY3fNSg" name="me_edited" value="true"/>
               <presentation xmi:id="-5_3zlnRYAOz-wT6GBaWoNg" href="uma://-5_3zlnRYAOz-wT6GBaWoNg#-5_3zlnRYAOz-wT6GBaWoNg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_s4ojQNqREdy88NBoQgfGyg" name="envision_the_arch.vm" guid="_s4ojQNqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0f-1oMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
@@ -46,6 +47,7 @@
               <presentation xmi:id="-tmKVpMZoAoS-Wkvbe_iHpQ" href="uma://-tmKVpMZoAoS-Wkvbe_iHpQ#-tmKVpMZoAoS-Wkvbe_iHpQ"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1kmN0NqREdy88NBoQgfGyg" name="refine_the_arch.vm" guid="_1kmN0NqREdy88NBoQgfGyg" variabilityType="contributes" variabilityBasedOnElement="_0gRJgMlgEdmt3adZL5Dmdw" guidelines="_HrgUQNcuEdy1nJEYZGzN4A">
+              <methodElementProperty xmi:id="_8Q3OYPkrEeK58_AWaiz_OQ" name="me_edited" value="true"/>
               <presentation xmi:id="-E459X-McFVuJGngiFPWf6w" href="uma://-E459X-McFVuJGngiFPWf6w#-E459X-McFVuJGngiFPWf6w"/>
             </contentElements>
           </childPackages>
@@ -62,7 +64,8 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_we3F4ACpEdu8m4dIntu6jA"/>
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0gRJgMlgEdmt3adZL5Dmdw" name="refine_the_arch" guid="_0gRJgMlgEdmt3adZL5Dmdw" presentationName="Refine the Architecture" briefDescription="Refine the architecture to an appropriate level of detail to support development." output="_0XAf0MlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0gRJgMlgEdmt3adZL5Dmdw" name="refine_the_arch" guid="_0gRJgMlgEdmt3adZL5Dmdw" presentationName="完善架构" briefDescription="在合适的水平上完善架构细节，以支持开发。" output="_0XAf0MlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_q9YCcPktEeK58_AWaiz_OQ" name="me_edited" value="true"/>
             <presentation xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_rUis8LBKEdm7Eph_l9Cn9w"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_HrZGIA4MEduibvKwrGxWxA"/>
@@ -79,7 +82,8 @@
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_17PYUNd6EdmIm-bsRSNCgw" name="architecture_notebook" guid="_17PYUNd6EdmIm-bsRSNCgw" presentationName="Architecture Notebook">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_17PYUNd6EdmIm-bsRSNCgw" name="architecture_notebook" guid="_17PYUNd6EdmIm-bsRSNCgw" presentationName="架构备忘录">
+            <methodElementProperty xmi:id="_zpEjIPhwEeKgEKGGY3fNSg" name="me_edited" value="true"/>
             <presentation xmi:id="_17Ve8Nd6EdmIm-bsRSNCgw" href="uma://_17Ve8Nd6EdmIm-bsRSNCgw#_17Ve8Nd6EdmIm-bsRSNCgw"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_jdKSsNpiEdyP58ppo1Ieaw"/>
@@ -94,7 +98,8 @@
             <presentation xmi:id="-KXvzdy6aJTFPQRS-UK5dvA" href="uma://-KXvzdy6aJTFPQRS-UK5dvA#-KXvzdy6aJTFPQRS-UK5dvA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0XAf0MlgEdmt3adZL5Dmdw" name="architecture_notebook" guid="_0XAf0MlgEdmt3adZL5Dmdw" presentationName="Architecture Notebook" briefDescription="This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture." checklists="_17PYUNd6EdmIm-bsRSNCgw" templates="_me8WcAANEdyRS9uciXlZ6g">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0XAf0MlgEdmt3adZL5Dmdw" name="architecture_notebook" guid="_0XAf0MlgEdmt3adZL5Dmdw" presentationName="架构备忘录" briefDescription="此工件描述那些在形成架构过程中所做决策的原理、假设、解释、以及影响。" checklists="_17PYUNd6EdmIm-bsRSNCgw" templates="_me8WcAANEdyRS9uciXlZ6g">
+            <methodElementProperty xmi:id="__iwZ0PhjEeKgEKGGY3fNSg" name="me_edited" value="true"/>
             <presentation xmi:id="_H4gOYKYTEdmvhNXG0Oc2uA" href="uma://_H4gOYKYTEdmvhNXG0Oc2uA#_H4gOYKYTEdmvhNXG0Oc2uA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
@@ -113,7 +118,8 @@
             <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_0gRJgMlgEdmt3adZL5Dmdw"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_Odpz8NciEdy1nJEYZGzN4A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_me8WcAANEdyRS9uciXlZ6g" name="architecture_notebook" guid="_me8WcAANEdyRS9uciXlZ6g" presentationName="Architecture Notebook" briefDescription="Template for describing the architecture.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_me8WcAANEdyRS9uciXlZ6g" name="architecture_notebook" guid="_me8WcAANEdyRS9uciXlZ6g" presentationName="架构备忘录" briefDescription="描述架构的模板">
+            <methodElementProperty xmi:id="_I6H8YPhlEeKgEKGGY3fNSg" name="me_edited" value="true"/>
             <presentation xmi:id="-h09djKXIOUJlez8h6UXrWw" href="uma://-h09djKXIOUJlez8h6UXrWw#-h09djKXIOUJlez8h6UXrWw"/>
           </contentElements>
         </childPackages>

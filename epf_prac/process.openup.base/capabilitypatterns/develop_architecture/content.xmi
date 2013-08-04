@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-VFp5B68iro5ga1pz4nbQFw" name="develop_architecture,_KaeNsdOFEdyqlogshP8l4g" guid="-VFp5B68iro5ga1pz4nbQFw" version="7.2.0">
-    <mainDescription>&lt;p>
-    This activity refines the initial high-level architecture into working software. The objective is to produce stable
-    software that adequately addresses the technical risks in scope.
-&lt;/p>
-&lt;p>
-    The architect and developers work together to:
-&lt;/p>
-&lt;ul>
-    &lt;li>
-        Refine the initial sketch of the architecture into concrete design elements
-    &lt;/li>
-    &lt;li>
-        Ensure that the architecture decisions are adequately captured and communicated
-    &lt;/li>
-    &lt;li>
-        Ensure that the team has enough information to enable software to be developed
-    &lt;/li>
-    &lt;li>
-        Ensure that the requirements that were prioritized for the current iteration are adequately addressed in the
-        software
-    &lt;/li>
-&lt;/ul>
-&lt;p>
-    In an iterative project, the team should not attempt to develop the architecture for the entire project in a single
-    pass. Rather, they should focus on meeting the requirements in scope for the current iteration, while making decisions
-    in the context of the wider project.
+    <mainDescription>&lt;p>&#xD;
+    此活动在可工作的软件中完善初始的高层架构。目的是产生稳定的软件，此软件充分涉及了范围中的技术风险。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    架构师与开发人员共同工作：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        完善初始的架构骨架，将其具体到设计元素&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        保证架构决策被充分的捕获并沟通&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        保证团队有足够的信息来开发软件&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        保证在软件中充分的处理了那些优先在当前迭代中开发的需求&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    在迭代项目中，团队不应该试图一次性开发项目的完整架构。相反，应该聚焦于当前迭代中的需求。&#xD;
 &lt;/p></mainDescription>
-    <howtoStaff>&lt;p>
-    These activities are best carried out as a collaborative effort by the team, with the architect acting as a focal point
-    for coordinating and facilitating the decisions.
+    <howtoStaff>&lt;p>&#xD;
+    这些活动最好通过团队协作共同进行，架构师在其中充当协调并促进决策的焦点。&#xD;
 &lt;/p></howtoStaff>
-    <usageNotes>&lt;p>
-    The work is best done in several sessions, perhaps performed over a few days.
+    <usageNotes>&lt;p>&#xD;
+    最好在多此会议中完成此工作，这可能需要花费几天的时间。&#xD;
 &lt;/p></usageNotes>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V51fxSq2AzJuVZF90kMOmA" name="architecture_notebook,_EjG_cNOKEdyqlogshP8l4g" guid="-V51fxSq2AzJuVZF90kMOmA">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mYj6YOCIEeC1y_NExchKwQ" guid="_mYj6YOCIEeC1y_NExchKwQ">
     <resourceDescriptors xmi:id="_I7u0gOB-EeC1y_NExchKwQ" id="-x6K6zdVklh4CbhxTeVvYew" uri="guidances/checklists/deployment_plan.xmi"/>
     <resourceDescriptors xmi:id="_I7Q6cOB-EeC1y_NExchKwQ" id="-wHkXWtQxFeicCBDHK-f7xg" uri="workproducts/release_communications.xmi"/>
@@ -23,7 +23,7 @@
     <resourceDescriptors xmi:id="___IdEPWeEeC-OfQYYSW77w" id="-8kqk1tE8R96b88T_NC7SoQ" uri="guidances/supportingmaterials/release_info_prod_release.xmi"/>
     <resourceDescriptors xmi:id="_i3UUQPddEeCG79QDqBlPXg" id="-Lo_rjBFuf6JDjdUw5nJjYw" uri="workproducts/release.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_mYfo8OCIEeC1y_NExchKwQ" name="practice.gen.production_release.base" guid="_mYfo8OCIEeC1y_NExchKwQ" presentationName="Production Release" briefDescription="This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment." changeDate="2012-05-18T17:09:20.554-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_mYfo8OCIEeC1y_NExchKwQ" name="practice.gen.production_release.base" guid="_mYfo8OCIEeC1y_NExchKwQ" presentationName="Production Release" briefDescription="This practice describes how to prepare and execute the release of a product (or subset thereof) into the production environment." changeDate="2012-05-19T08:09:20.554+0800">
     <methodElementProperty xmi:id="_mYj6YuCIEeC1y_NExchKwQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_qHAScJidEeGlkdGl1HQlDA" name="me_edited" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -53,7 +53,7 @@
               <methodElementProperty xmi:id="_1ikE4JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" href="uma://-zT8t7LcbcrgIhYd_XUi6DA#-zT8t7LcbcrgIhYd_XUi6DA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJ9EeB-EeC1y_NExchKwQ" name="plan_deployment" guid="_IAJ9EeB-EeC1y_NExchKwQ" presentationName="Plan Deployment" briefDescription="If a deployment plan for the project already exists, update it to reflect the nature of this release. If this document does not exist, develop a deployment plan to indicate how this release will be rolled out to the production environment." checklists="_IAG5weB-EeC1y_NExchKwQ" output="_IAJ9FeB-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJ9EeB-EeC1y_NExchKwQ" name="plan_deployment" guid="_IAJ9EeB-EeC1y_NExchKwQ" presentationName="策划部署" briefDescription="如果已经存在项目的部署计划，对其更新以反映当前的版本状态。如果不存在部署计划，则制定部署计划以指明如何将该版本展开到生产环境中。" checklists="_IAG5weB-EeC1y_NExchKwQ" output="_IAJ9FeB-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1lZWcJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-QqCVewwu8buOCXKRukpf5g" href="uma://-QqCVewwu8buOCXKRukpf5g#-QqCVewwu8buOCXKRukpf5g"/>
             </contentElements>
@@ -73,7 +73,7 @@
               <methodElementProperty xmi:id="_dXyYgKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-I1cGb0If2i9wNcOXbEU6XA" href="uma://-I1cGb0If2i9wNcOXbEU6XA#-I1cGb0If2i9wNcOXbEU6XA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9FeB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAJ9FeB-EeC1y_NExchKwQ" presentationName="Deployment Plan" briefDescription="A deployment plan is used to document all the information needed by deployment engineers to deploy a release successfully." checklists="_IAG5weB-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9FeB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAJ9FeB-EeC1y_NExchKwQ" presentationName="部署计划" briefDescription="部署计划用于记录部署工程师成功部署一个版本需要的所有信息。" checklists="_IAG5weB-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_dWmFsKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" href="uma://-4Fv0TSuJBCRxarK5ssyLGw#-4Fv0TSuJBCRxarK5ssyLGw"/>
             </contentElements>

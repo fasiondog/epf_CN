@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" name="deployment_plan,_j0qgcGPoEeCXEsUUiTbOuQ" guid="-4Fv0TSuJBCRxarK5ssyLGw" changeDate="2012-05-30T14:25:00.538-0700" version="7.5.1">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" name="deployment_plan,_j0qgcGPoEeCXEsUUiTbOuQ" guid="-4Fv0TSuJBCRxarK5ssyLGw" changeDate="2013-08-04T12:24:54.655+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    The deployment plan should contain the unique instructions for deploying a particular version of a product. By &quot;unique&#xD;
-    instructions&quot; we mean those things that are not part of a deployment engineer's normal procedures. Rather, they often&#xD;
-    are specific procedures and timing constraints that a deployment engineer should be aware of as they are rolling out a&#xD;
-    particular release.&#xD;
+    部署计划应该包含部署产品特定版本的独特指令。“独特指令”是指不包括那些部署工程师正常程序中的内容。部署计划包含的是特定的过程和时间限制，部署工程师应该意识到他们正在部署某个特定的版本。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    While&amp;nbsp;a draft version of the&amp;nbsp;deployment plan is typically developed by a development team, the deployment&#xD;
-    engineer is responsible for its contents and existence.&amp;nbsp;A deployment plan&amp;nbsp;normally consists of the following&#xD;
-    sections:&#xD;
+    通常，部署计划的草稿版本由开发团队制定，而部署工程师负责其中的内容。部署计划通常包含以下章节：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        The scope of the release and a general overview of the capabilities to be deployed&#xD;
+        版本范围以及部署的功能概述&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The timing and dependencies for deploying components to various nodes&#xD;
+        将组件部署到不同节点的时机和依赖关系&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The risks or issues associated with the release based on a risk assessment&#xD;
+        版本相关的风险或问题&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The customer organization, stakeholders, and end user community that will be impacted by the release&#xD;
+        版本将影响的客户组织、利益相关人、最终用户社区&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The person or persons who have the authority to approve the release as &quot;ready for production&quot;&#xD;
+        “准备生产”的批准人&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The development team members responsible for delivering the release package to the Deployment Manager, along with&#xD;
-        contact information&#xD;
+        将版本包交付和部署经理的开发人员及其联系信息&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications&#xD;
-        protocols and escalation procedures&#xD;
+        将版本包转交给部署工程师的方式，包括适当的联络方式及程序&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is&#xD;
-        successful so it can report success&#xD;
+        部署成功的关键准则；换句话说，部署工程师如何知道并报告该版本已经被成功的部署。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
-  <purpose>The purpose of this work product is to capture, in one document, the unique information that will be consumed by deployment&#xD;
-engineers before and during the deployment to production of a particular release package.</purpose>
+  <purpose>&lt;p>&#xD;
+    此工件的目的是在一个文档中描述部署工程师在部署某个发布包之前和过程中需要的独特信息。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:ArtifactDescription>

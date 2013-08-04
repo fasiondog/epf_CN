@@ -1,82 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" name="refine_the_arch,_0gRJgMlgEdmt3adZL5Dmdw" guid="_rUis8LBKEdm7Eph_l9Cn9w" changeDate="2008-08-08T11:29:21.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_rUis8LBKEdm7Eph_l9Cn9w" name="refine_the_arch,_0gRJgMlgEdmt3adZL5Dmdw" guid="_rUis8LBKEdm7Eph_l9Cn9w" changeDate="2013-08-04T10:04:13.308+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This task&amp;nbsp;builds upon the outlined architecture and makes concrete and unambiguous architectural decisions to&#xD;
-    support development.&amp;nbsp; It takes into&amp;nbsp;account any design and implementation work products that have been&#xD;
-    developed so far.&amp;nbsp; In other words, the architecture evolves as the solution is designed and implemented, and the&#xD;
-    architecture documentation is updated to reflect any changes made during development. This is&amp;nbsp;a key,&amp;nbsp;since&#xD;
-    the actual implementation is the only real &quot;proof&quot; that the software architecture is viable and provides the definitive&#xD;
-    basis for validating the suitability&amp;nbsp;of the architecture.&amp;nbsp; For more information, see &lt;a&#xD;
-    class=&quot;elementLinkWithType&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
-    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Concept: Executable Architecture&lt;/a>.&#xD;
+    此任务在架构大纲基础上构建架构，并做出具体、明确的决策，以支持开发。它将考虑到目前为止已经开发的所有设计和实现的工件。换句话说，当设计并实现解决方案时演进架构，并更新架构文档以反映开发所产生的变化。这是个关键，因为实际的实现是证明软件架构可行的唯一的“证据”，并为验证架构的适用性提供了明确的依据。更多信息，参见概念：&lt;a&#xD;
+     class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
+    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Executable Architecture&lt;/a>。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The results are captured for future reference and are communicated across the team.&#xD;
+    记录结果以被将来参考，并跨团队进行沟通。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    It is important to continue to reduce the complexity of the&amp;nbsp;solution by raising the levels of abstraction.&amp;nbsp;&#xD;
-    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    通过在一定的抽象层次上持续的降低解决方案的复杂性很重要。更多信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html&quot;&#xD;
-    guid=&quot;_we3F4ACpEdu8m4dIntu6jA&quot;>Guideline: Abstract Away Complexity&lt;/a>.&#xD;
+    guid=&quot;_we3F4ACpEdu8m4dIntu6jA&quot;>Abstract Away Complexity&lt;/a>。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Continue the collaboration with the whole&amp;nbsp;team on the refining of the architecture in order to promote consensus&#xD;
-    and a common understanding of the overall solution. The architect should be working to coordinate and guide the&#xD;
-    technical activities of the team rather than doing all the work alone.&amp;nbsp;Place special emphasis&amp;nbsp;on&#xD;
-    involving&amp;nbsp;the developer(s) throughout this task since it's the developed solution that will prove out the&#xD;
-    architecture and may result in refinements to the architecture documentation.&#xD;
+    在完善架构的过程中，持续的同整个团队合作，从而促进对整体解决方案的共识和共同理解。架构师应该协调并指导团队的技术活动，而不是独自完成这些工作。特别强调，在这些任务中应包括开发人员，因为是他们开发了解决方案从而证明了架构，并完善了架构文档。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Ensure that those who need to act upon the architectural work&amp;nbsp;understand&amp;nbsp;it and are able to work with&#xD;
-    it.&amp;nbsp;Make sure that the description of the architecture clearly conveys not only the solution but also the&#xD;
-    motivation and objectives related to the&amp;nbsp;decisions that have been made in shaping the architecture. This will make&#xD;
-    it easier for others to understand the architecture and to adapt it over time.&#xD;
+    确保那些遵照架构工作的人们理解并能够依靠架构进行工作。确保架构描述不仅清晰的表达了解决方案，还包括那些限制了架构的决策相关的动机和目标。这将使架构更容易被理解，并随时间进行调整。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    You can communicate your decisions as many ways as you wish.&amp;nbsp; For example:&#xD;
+    可以通过许多途径来沟通你所做的决策。例如：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Publication of&amp;nbsp;reference source code&#xD;
+        发布参考的源代码&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Publication of&amp;nbsp;reference models&#xD;
+        发布参考的模型&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Publication of&amp;nbsp;software architecture documentation&#xD;
+        发布软件架构文档&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Formal&amp;nbsp;presentations of the material&#xD;
+        正式的演讲材料&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Informal walkthroughs of the architecture&#xD;
+        非正式的架构走读&#xD;
     &lt;/li>&#xD;
 &lt;/ul></keyConsiderations>
-  <sections xmi:id="_l92AYNpaEdyP58ppo1Ieaw" name="Refine the architectural goals and architecturally-significant requirements" guid="_l92AYNpaEdyP58ppo1Ieaw">
+  <sections xmi:id="_l92AYNpaEdyP58ppo1Ieaw" name="完善架构目标和架构关键需求" guid="_l92AYNpaEdyP58ppo1Ieaw">
     <sectionDescription>&lt;p>&#xD;
-    Work with the team, especially the stakeholders and the requirements team, to review the status of the &lt;a&#xD;
-    class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot;&#xD;
-    guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;&#xD;
+    同团队一起，特别是利益相关人和需求团队，Review &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot;&#xD;
+    guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>&amp;nbsp;和 &lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
-    guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>&amp;nbsp;and refine them as needed. It may be&#xD;
-    that some new architecturally-significant requirements have been introduced or your architectural goals and priorities&#xD;
-    may have changed.&#xD;
+    guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant&#xD;
+    Requirements&lt;/a>&amp;nbsp;的状态，并根据需要完善它们。这可能导致出现新的架构关键需求，或者架构的目标和优先级发生变化。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The development work performed so far will also inform the decisions and goals you've identified. Use information from&#xD;
-    designing and implementing the system so far to adjust and refined those decisions and goals.&#xD;
+    到当前为止所执行的开发工作也将影响那些已定义的决策和目标。使用那些在当前设计和实现系统时所获得的信息，调整并完善所做的决策和目标。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_G_k1kBaqEduSTJywppIxVQ" name="Identify architecturally significant design elements" guid="_G_k1kBaqEduSTJywppIxVQ">
+  <sections xmi:id="_G_k1kBaqEduSTJywppIxVQ" name="识别架构关键设计元素" guid="_G_k1kBaqEduSTJywppIxVQ">
     <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    Identify concrete&amp;nbsp;design elements (such as &lt;a class=&quot;elementLink&quot;&#xD;
+    识别具体的设计元素（如&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html&quot;&#xD;
-    guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>s, classes and&amp;nbsp;subsystems)&amp;nbsp;and provide at least a name and brief&#xD;
-    description for each.&#xD;
+    guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>、类和子系统），并为它们命名并给出简要的描述。&#xD;
 &lt;/p>&#xD;
 &lt;p align=&quot;left&quot;>&#xD;
-    The following are some good sources for design elements:&#xD;
+    以下是一些设计元素的来源：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
@@ -84,8 +67,7 @@
             &lt;div align=&quot;left&quot;>&#xD;
                 &lt;a class=&quot;elementLink&quot;&#xD;
                 href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot;&#xD;
-                guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>. Highlight the areas of the&#xD;
-                architecture that participate in realizing, or implementing, the requirements.&#xD;
+                guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>。突出那些参与架构实现的需求。&#xD;
             &lt;/div>&#xD;
         &lt;/div>&#xD;
     &lt;/li>&#xD;
@@ -100,105 +82,91 @@
     &lt;/li>&#xD;
     &lt;li>&#xD;
         &lt;div align=&quot;left&quot;>&#xD;
-            &lt;div align=&quot;left&quot;>&#xD;
-                Components that encapsulate the system's interface with external systems.&amp;nbsp; For more information, see&#xD;
-                &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-                href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html&quot;&#xD;
-                 guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Guideline: Representing Interfaces to External Systems&lt;/a>&#xD;
-            &lt;/div>&#xD;
+            封装外部系统接口的组件。更对信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+            href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html&quot;&#xD;
+            guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Representing Interfaces to External Systems&lt;/a>。&#xD;
         &lt;/div>&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Components that implement the &lt;a class=&quot;elementLink&quot;&#xD;
+        实现了 &lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>s&#xD;
+        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>&amp;nbsp;的组件&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Architectural and key design &lt;a class=&quot;elementLink&quot;&#xD;
+        架构性的和关键设计&lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html&quot;&#xD;
-        guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>Pattern&lt;/a>s. Apply the chosen patterns to define a new set of elements that conform&#xD;
-        to the patterns.&#xD;
+        guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>Pattern&lt;/a>。应用所选模式来定义一组符合模式的新的元素。&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Identifying components will help hide the complexity of the system and help you work at a higher level. Components need&#xD;
-    to be internally cohesive and to provide external services through a limited interface.&amp;nbsp; At this point, interfaces&#xD;
-    do not need to be as detailed as a signature, but they do need to document what the elements need, what they can use,&#xD;
-    and what they can depend on.&#xD;
+    识别组件有助于隐藏系统的复杂性，并帮助你在较高的层次上工作。组件需要具有高内聚，并通过一个受限的接口来提供对外的服务。在此时，接口不需要进行详细的描述，但需要描述它们需要的、可使用的、以及依赖的元素。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Component identification can be&amp;nbsp;based on architectural layers, deployment choices, or key abstractions. Ask&#xD;
-    yourself these questions:&#xD;
+    识别组件可基于架构的层次、部署选择、或者关键抽象。问问自己这些问题：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        What is logically or functionally related (same use case or service, for example)?&#xD;
+        哪些是逻辑或功能上相关的（如相同的用例或服务）？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        What entities provide services to multiple others?&#xD;
+        哪些实体为他人提供服务？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        What entities depend on each other? Strongly or weakly?&#xD;
+        哪些实体彼此依赖？强或弱？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        What entities should you be able to exchange independently from others?&#xD;
+        哪些实体能够独立的和其它实体进行交互？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        What will run on the same processor or network node?&#xD;
+        哪些将运行在同一个进程或网络节点中？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        What parts are constrained by similar performance requirements?&#xD;
+        哪些部分受到了类似的性能需求的约束？&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    When you identify a component be sure to briefly describe the functionality that should be allocated to the components.&#xD;
+    当识别了某个组件时，必须简要的概述分配给该组件的的功能。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_0qoQ8CikEduQBKSg5n118w" name="Refine architectural mechanisms" guid="_0qoQ8CikEduQBKSg5n118w">
+  <sections xmi:id="_0qoQ8CikEduQBKSg5n118w" name="完善架构机制" guid="_0qoQ8CikEduQBKSg5n118w">
     <sectionDescription>&lt;p>&#xD;
-    Refine&amp;nbsp;the applicable &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>s, as needed to support the design.&amp;nbsp; For example,&#xD;
-    refining an analysis mechanism into a design mechanism and/or refining a design mechanism into an implementation&#xD;
-    mechanism.&amp;nbsp;&lt;br />&#xD;
+    完善&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
+    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>，以支持设计的需要。例如，将某个分析机制完善成相应的设计机制，和/或将设计机制完善成实现机制。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_82iI0FHOEd2zrOgIte8oWg" name="Define development architecture and test architecture" guid="_82iI0FHOEd2zrOgIte8oWg">
-    <sectionDescription>Ensure that the development and test architectures are defined. Note any architecturally significant differences between&#xD;
-these environments and work with the team to devise strategies to mitigate any risks these may introduce.</sectionDescription>
+  <sections xmi:id="_82iI0FHOEd2zrOgIte8oWg" name="定义开发架构和测试架构" guid="_82iI0FHOEd2zrOgIte8oWg">
+    <sectionDescription>&lt;p>&#xD;
+    确保定义了开发和测试架构。注意这些环境中的任何架构关键差异，并和团队一起制定策略来缓解可能出现的风险。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Vdln8MP3EdmWKcx6ixEiwg" name="Identify additional reuse opportunities" guid="_Vdln8MP3EdmWKcx6ixEiwg">
-    <sectionDescription>&lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
-    Continue to look for more opportunities to reuse existing assets.&amp;nbsp; Where applicable, identify existing components&#xD;
-    that could be built to be reused.&#xD;
+  <sections xmi:id="_Vdln8MP3EdmWKcx6ixEiwg" name="识别更多的重用机会" guid="_Vdln8MP3EdmWKcx6ixEiwg">
+    <sectionDescription>&lt;p style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    继续寻找更多的重用已有资产的机会。在合适的情况下，识别可以那些可以构建或使用的已存在的组件。&#xD;
 &lt;/p>&#xD;
-&lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
-    For more information, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+&lt;p style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    更多信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
-    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Software Reuse&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_GFLpsFHPEd2zrOgIte8oWg" name="Validate the architecture" guid="_GFLpsFHPEd2zrOgIte8oWg">
-    <sectionDescription>Make sure that the architecture supports the requirements and the needs of the team. &lt;br />&#xD;
-&lt;br />&#xD;
-Development work should be performed to produce just enough working software to show that the architecture is viable. This&#xD;
-should provide the definitive basis for validating the suitability of the architecture. As the software should be developed&#xD;
-iteratively, more than one increment of the build may be required to prove the architecture. During the early stages of the&#xD;
-project it may be acceptable for the software to have a incomplete or prototypical feel, as it will be primarily concerned&#xD;
-with baselining the architecture to provide a stable foundation for the remaining development work.</sectionDescription>
+  <sections xmi:id="_GFLpsFHPEd2zrOgIte8oWg" name=" 验证架构" guid="_GFLpsFHPEd2zrOgIte8oWg">
+    <sectionDescription>&lt;p>&#xD;
+    确认架构支持团队的需求和需要。&lt;br />&#xD;
+    &lt;br />&#xD;
+    开发足够的可工作的软件以展示架构的可行性。这将为架构的适用性验证提供明确的基础。当迭代的开发软件时，可能需要不止一个增量构建来证明架构。在项目的早期阶段，提供不完整或原型感觉的软件是可以接受的，因为此时关注于建立架构基线，以为剩余的开发工作提供一个稳定的基础。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_xIIVkMUbEdu5GrwIlTJV7g" name="Map the software to the hardware" guid="_xIIVkMUbEdu5GrwIlTJV7g">
+  <sections xmi:id="_xIIVkMUbEdu5GrwIlTJV7g" name="将软件映射到硬件" guid="_xIIVkMUbEdu5GrwIlTJV7g">
     <sectionDescription>&lt;p align=&quot;left&quot;>&#xD;
-    Map the architecturally significant design elements to the target deployment environment. Work with hardware and&#xD;
-    network specialists to ensure that the hardware is sufficient to meet the needs of the system; and that any new&#xD;
-    hardware is available in time.&#xD;
+    将架构关键设计元素映射到目标部署环境。同硬件和网络专家一起，确保硬件充分满足了系统需要，以及在需要时有新的硬件可用。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_pyyVoFHPEd2zrOgIte8oWg" name="Communicate decisions" guid="_pyyVoFHPEd2zrOgIte8oWg">
-    <sectionDescription>Ensure that those who need to act upon the architectural work understand it and are able to work with it. Make sure that&#xD;
-the description of the architecture clearly conveys not only the solution but also the motivation and objectives related to&#xD;
-the decisions that have been made in shaping the architecture. This will make it easier for others to understand the&#xD;
-architecture and to adapt it over time.</sectionDescription>
+  <sections xmi:id="_pyyVoFHPEd2zrOgIte8oWg" name="沟通决策" guid="_pyyVoFHPEd2zrOgIte8oWg">
+    <sectionDescription>&lt;p>&#xD;
+    确保那些遵照架构工作的人们理解并能够依据架构进行工作。确保架构描述不仅仅清晰的描述了解决方案，还包括那些限制了架构的决策相关的动机和目的。这将使架构更容易被理解，并随时间进行调整。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>To make and document the architectural decisions necessary to support development.</purpose>
+  <purpose>&lt;p>&#xD;
+    制定并记录支持开发所必要的架构决策。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
