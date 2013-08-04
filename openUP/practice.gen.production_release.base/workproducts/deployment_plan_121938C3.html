@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>工件：Deployment Plan</title>
+<title>工件：部署计划</title>
 <meta name="uma.type" content="Artifact">
 <meta name="uma.name" content="deployment_plan">
-<meta name="uma.presentationName" content="Deployment Plan">
+<meta name="uma.presentationName" content="部署计划">
 <meta name="uma.category" content="@Type:@Name:@DisplayName">
 <meta name="element_type" content="Artifact">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAJ9FeB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">工件：Deployment Plan</td><td width="100%">
+<td class="pageTitle" nowrap="true">工件：部署计划</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">A deployment plan is used to document all the information needed by deployment engineers to deploy a release successfully.</td>
+<td valign="top">部署计划用于记录部署工程师成功部署一个版本需要的所有信息。</td>
 </tr>
 <tr>
 <td>域：<a href="./../../core.default.cat_def.base/domains/deployment_domain_B4F12FAB.html" guid="_fEIy4JoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this work product is to capture, in one document, the unique information that will be consumed by deployment
-engineers before and during the deployment to production of a particular release package.</td>
+<td class="sectionTableSingleCell"><p>
+    此工件的目的是在一个文档中描述部署工程师在部署某个发布包之前和过程中需要的独特信息。
+</p></td>
 </tr>
 </table>
 </div>
@@ -111,7 +112,7 @@ engineers before and during the deployment to production of a particular release
 								</span>
 <ul>
 <li>
-<a href="./../../practice.gen.production_release.base/tasks/plan_deployment_4D8756A4.html" guid="_IAJ9EeB-EeC1y_NExchKwQ">Plan Deployment</a>
+<a href="./../../practice.gen.production_release.base/tasks/plan_deployment_4D8756A4.html" guid="_IAJ9EeB-EeC1y_NExchKwQ">策划部署</a>
 </li>
 </ul>
 </td>
@@ -123,43 +124,35 @@ engineers before and during the deployment to production of a particular release
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">主要描述</th><td class="sectionTableCell"><p>
-    The deployment plan should contain the unique instructions for deploying a particular version of a product. By "unique
-    instructions" we mean those things that are not part of a deployment engineer's normal procedures. Rather, they often
-    are specific procedures and timing constraints that a deployment engineer should be aware of as they are rolling out a
-    particular release.
+    部署计划应该包含部署产品特定版本的独特指令。“独特指令”是指不包括那些部署工程师正常程序中的内容。部署计划包含的是特定的过程和时间限制，部署工程师应该意识到他们正在部署某个特定的版本。
 </p>
 <p>
-    While&nbsp;a draft version of the&nbsp;deployment plan is typically developed by a development team, the deployment
-    engineer is responsible for its contents and existence.&nbsp;A deployment plan&nbsp;normally consists of the following
-    sections:
+    通常，部署计划的草稿版本由开发团队制定，而部署工程师负责其中的内容。部署计划通常包含以下章节：
 </p>
 <ul>
     <li>
-        The scope of the release and a general overview of the capabilities to be deployed
+        版本范围以及部署的功能概述
     </li>
     <li>
-        The timing and dependencies for deploying components to various nodes
+        将组件部署到不同节点的时机和依赖关系
     </li>
     <li>
-        The risks or issues associated with the release based on a risk assessment
+        版本相关的风险或问题
     </li>
     <li>
-        The customer organization, stakeholders, and end user community that will be impacted by the release
+        版本将影响的客户组织、利益相关人、最终用户社区
     </li>
     <li>
-        The person or persons who have the authority to approve the release as "ready for production"
+        “准备生产”的批准人
     </li>
     <li>
-        The development team members responsible for delivering the release package to the Deployment Manager, along with
-        contact information
+        将版本包交付和部署经理的开发人员及其联系信息
     </li>
     <li>
-        The approach for transitioning the release package to the Deployment Engineer, including appropriate communications
-        protocols and escalation procedures
+        将版本包转交给部署工程师的方式，包括适当的联络方式及程序
     </li>
     <li>
-        The success criteria for this deployment; in other words, how will the Deployment Engineer know that the release is
-        successful so it can report success
+        部署成功的关键准则；换句话说，部署工程师如何知道并报告该版本已经被成功的部署。
     </li>
 </ul></td>
 </tr>

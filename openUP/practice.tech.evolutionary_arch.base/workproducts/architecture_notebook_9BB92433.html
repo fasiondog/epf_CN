@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>工件：Architecture Notebook</title>
+<title>工件：架构备忘录</title>
 <meta name="uma.type" content="Artifact">
 <meta name="uma.name" content="architecture_notebook">
-<meta name="uma.presentationName" content="Architecture Notebook">
+<meta name="uma.presentationName" content="架构备忘录">
 <meta name="uma.category" content="@Type:@Name:@DisplayName">
 <meta name="element_type" content="Artifact">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0XAf0MlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">工件：Architecture Notebook</td><td width="100%">
+<td class="pageTitle" nowrap="true">工件：架构备忘录</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This artifact describes the rationale, assumptions, explanation, and implications of the decisions that were made in forming the architecture.</td>
+<td valign="top">此工件描述那些在形成架构过程中所做决策的原理、假设、解释、以及影响。</td>
 </tr>
 <tr>
 <td>域：<a href="./../../core.default.cat_def.base/domains/architecture_domain_7028166D.html" guid="_1r0bcK80Edy9cPK11VzBuQ">架构</a></td>
@@ -56,7 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">To capture and make architectural decisions and to explain those decisions to developers.&nbsp;</td>
+<td class="sectionTableSingleCell"><p>
+    捕获并做出架构决策，以及向开发人员解释这些决策。
+</p></td>
 </tr>
 </table>
 </div>
@@ -94,13 +96,13 @@
 								</span>
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">Refine the Architecture</a>
+<a href="./../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">完善架构</a>
 </li>
 </ul>
 <br>
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">Envision the Architecture</a>
+<a href="./../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">拟制架构</a>
 </li>
 </ul>
 <br>
@@ -119,10 +121,10 @@
 								</span>
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">Envision the Architecture</a>
+<a href="./../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">拟制架构</a>
 </li>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">Refine the Architecture</a>
+<a href="./../../practice.tech.evolutionary_arch.base/tasks/refine_the_arch_7723A69E.html" guid="_0gRJgMlgEdmt3adZL5Dmdw">完善架构</a>
 </li>
 </ul>
 </td>
@@ -134,99 +136,63 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">主要描述</th><td class="sectionTableCell"><p>
-    This artifact&nbsp;describes the <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>.
+    此工件描述了<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>。
 </p>
 <p>
-    It provides a place for maintaining the list of architectural issues, along with the associated architectural
-    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it
-    easy to understand what architectural decisions have been made and remain to be made.
+    它提供了一个地点维护架构问题清单，以及相关的架构决策、设计、模式、代码文档（或指向）等等——所有这些都在一个适当的层次上，以使已做出和未做出的架构决策更容易被理解。
 </p>
 <p>
-    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture
-    and to help team members understand the motivation behind architectural decisions so that those decisions can be
-    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between
-    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can
-    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the
-    system must adapt to this bottleneck by following a specific data packaging scheme.
+    使用此工件有助于架构师在架构开发中同其他团队成员协作，并帮助团队成员理解架构决策背后的动机，从而使这些决策能够被更坚定的执行。例如，架构师可能对数据如何打包以及如何在系统不同部件之间如何通信进行约束。这看起来可能是种负担，但是在架构备忘录中可以给出理由解释原因，在与遗留系统之间的通信中存在显著的性能瓶颈。其余的系统必须通过特定的数据打包方案来适应这个瓶颈。
 </p>
 <p>
-    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt
-    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must
-    maintain and change the architecture later.<br />
+    此工件同时应该告知团队成员系统是如何被划分或组织的，从而团队能够适应系统的需要。同时，它还为后续那些维护和变更架构的人提供了系统的初始概貌及其技术动机。
 </p></td>
 </tr>
 <tr valign="top">
-<th class="sectionTableHeading" scope="row">简述</th><td class="sectionTableCell"><p dir="ltr" style="MARGIN-RIGHT: 0px">
-    At a minimum, this artifact should do these three things:
+<th class="sectionTableHeading" scope="row">简述</th><td class="sectionTableCell"><p style="MARGIN-RIGHT: 0px" dir="ltr">
+    作为最低限度，此工件至少应该完成以下三件事：
 </p>
 <ul dir="ltr">
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            List guidelines, decisions, and constraints to be followed
-        </div>
+        列出需要遵循的指导方针、决策和约束
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Justify those guidelines, decisions, and constraints
-        </div>
+        给出这些指导方针、决策和约束的理由
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Describe the Architectural Mechanisms and where they should be applied
-        </div>
+        描述架构机制以及它们被应用的地点
     </li>
 </ul>
-<p dir="ltr" style="MARGIN-RIGHT: 0px">
-    Team members who were not involved in those architectural decisions need to understand the reasoning behind the context
-    of the architecture so that they can address the needs of the system. Consider adding more information when
-    appropriate. A small project shouldn't spend a lot of time documenting the architecture, but all critical elements of
-    the system must be communicated to current and future team members. This is all useful content:
+<p style="MARGIN-RIGHT: 0px" dir="ltr">
+    没有参与这些架构决策的团队成员需要理解架构上下文背后的原因，从而能够处理系统的需要。在适当的时候，考虑添加更多的信息。小项目不应该花费太多的时间编写架构文档，但是所有系统的关键元素必须同当前或未来的团队成员进行沟通。下面是所有有用的内容：
 </p>
 <ul dir="ltr">
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Goals and philosophy of the architecture
-        </div>
+        架构的目标和思想
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Architectural assumptions and dependencies
-        </div>
+        架构假设和依赖
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            References to architecturally significant requirements
-        </div>
+        对架构关键性需求的引用
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            References to architecturally significant design elements
-        </div>
+        对架构关键设计元素的引用
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Critical system interfaces
-        </div>
+        关键系统接口
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Packaging instructions for subsystems and components
-        </div>
+        打包子系统和组件的说明
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Layers and critical subsystems
-        </div>
+        分层和关键子系统
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Key abstractions
-        </div>
+        关键抽象
     </li>
     <li>
-        <div style="MARGIN-RIGHT: 0px">
-            Key scenarios that describe critical behavior of the system
-        </div>
+        描述了系统关键行为的关键场景
     </li>
 </ul></td>
 </tr>
@@ -239,7 +205,7 @@
 <th class="sectionTableHeading" scope="row">模板</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/guidances/templates/architecture_notebook_BCD3507B.html" guid="_me8WcAANEdyRS9uciXlZ6g">Architecture Notebook</a>
+<a href="./../../practice.tech.evolutionary_arch.base/guidances/templates/architecture_notebook_BCD3507B.html" guid="_me8WcAANEdyRS9uciXlZ6g">架构备忘录</a>
 </li>
 </ul>
 </td>
@@ -250,18 +216,19 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<th class="sectionTableHeading" scope="row">不具有的影响</th><td class="sectionTableCell">Without this artifact, there will be no coordination of the individual design efforts, and it will be difficult to
-establish and communicate an overall architectural vision of the project.</td>
-</tr>
-<tr valign="top">
-<th class="sectionTableHeading" scope="row">不需要的原因</th><td class="sectionTableCell"><p>
-    This artifact is not required if an existing reference architecture is being used or another approach or set of
-    artifacts are being used to document the architecture. This artifact may not be needed if the design is relatively
-    straight-forward and does not have any architecturally significant risks.
+<th class="sectionTableHeading" scope="row">不具有的影响</th><td class="sectionTableCell"><p>
+    没有此工件，将无法协调独立的设计工作，并且将难以建立和沟通项目的整体架构愿景。
 </p></td>
 </tr>
 <tr valign="top">
-<th class="sectionTableHeading" scope="row">说明选项</th><td class="sectionTableCell">A set of architectural models can be developed as part of the architectural documentation. For more information, see <a class="elementLinkWithType" href="./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html" guid="_HrgUQNcuEdy1nJEYZGzN4A">Guideline：Modeling the Architecture</a>.</td>
+<th class="sectionTableHeading" scope="row">不需要的原因</th><td class="sectionTableCell"><p>
+    如果使用了已经存在的参考架构，或有使用了其它方式或工件文档化架构，则不需要此工件。如果设计相对简单并且没有任何关键的架构风险，也可不需要此工件。
+</p></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">说明选项</th><td class="sectionTableCell"><p>
+    架构模型集合可以作为架构文档的一部分进行开发。更多信息，参见指南：<a class="elementLink" href="./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html" guid="_HrgUQNcuEdy1nJEYZGzN4A">Modeling the Architecture</a>。
+</p></td>
 </tr>
 </table>
 </div>
@@ -272,7 +239,7 @@ establish and communicate an overall architectural vision of the project.</td>
 <th class="sectionTableHeading" scope="row">核对表</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">Architecture Notebook</a>
+<a href="./../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">架构备忘录</a>
 </li>
 </ul>
 </td>

@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Refine the Architecture</title>
+<title>任务：完善架构</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="refine_the_arch">
-<meta name="uma.presentationName" content="Refine the Architecture">
+<meta name="uma.presentationName" content="完善架构">
 <meta name="uma.category" content="Discipline:architecture_discipline:架构">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0gRJgMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Refine the Architecture</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：完善架构</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Refine the architecture to an appropriate level of detail to support development.</td>
+<td valign="top">在合适的水平上完善架构细节，以支持开发。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/architecture_discipline_3A224435.html" guid="_iGSHsFZ-EdyIUdvDLLUdeg">架构</a></td>
@@ -56,7 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">To make and document the architectural decisions necessary to support development.</td>
+<td class="sectionTableSingleCell"><p>
+    制定并记录支持开发所必要的架构决策。
+</p></td>
 </tr>
 </table>
 </div>
@@ -91,7 +93,7 @@
 <a href="./../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html" guid="_i3vkoLS-EduDY8LNbMCDBA">[技术-规格]</a>
 </li>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">Architecture Notebook</a>
+<a href="./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a>
 </li>
 </ul>
 <ul></ul>
@@ -112,7 +114,7 @@
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">Architecture Notebook</a>
+<a href="./../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a>
 </li>
 </ul>
 <ul></ul>
@@ -125,15 +127,10 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    This task&nbsp;builds upon the outlined architecture and makes concrete and unambiguous architectural decisions to
-    support development.&nbsp; It takes into&nbsp;account any design and implementation work products that have been
-    developed so far.&nbsp; In other words, the architecture evolves as the solution is designed and implemented, and the
-    architecture documentation is updated to reflect any changes made during development. This is&nbsp;a key,&nbsp;since
-    the actual implementation is the only real "proof" that the software architecture is viable and provides the definitive
-    basis for validating the suitability&nbsp;of the architecture.&nbsp; For more information, see <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Concept：Executable Architecture</a>.
+    此任务在架构大纲基础上构建架构，并做出具体、明确的决策，以支持开发。它将考虑到目前为止已经开发的所有设计和实现的工件。换句话说，当设计并实现解决方案时演进架构，并更新架构文档以反映开发所产生的变化。这是个关键，因为实际的实现是证明软件架构可行的唯一的“证据”，并为验证架构的适用性提供了明确的依据。更多信息，参见概念：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Executable Architecture</a>。
 </p>
 <p>
-    The results are captured for future reference and are communicated across the team.
+    记录结果以被将来参考，并跨团队进行沟通。
 </p></td>
 </tr>
 </table>
@@ -143,39 +140,34 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Refine the architectural goals and architecturally-significant requirements</div>
+<div class="stepHeading">完善架构目标和架构关键需求</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Work with the team, especially the stakeholders and the requirements team, to review the status of the <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html" guid="_HlRqANpbEdyP58ppo1Ieaw">Architectural Goals</a>&nbsp;and <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>&nbsp;and refine them as needed. It may be
-    that some new architecturally-significant requirements have been introduced or your architectural goals and priorities
-    may have changed.
+    同团队一起，特别是利益相关人和需求团队，Review <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html" guid="_HlRqANpbEdyP58ppo1Ieaw">Architectural Goals</a>&nbsp;和 <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>&nbsp;的状态，并根据需要完善它们。这可能导致出现新的架构关键需求，或者架构的目标和优先级发生变化。
 </p>
 <p>
-    The development work performed so far will also inform the decisions and goals you've identified. Use information from
-    designing and implementing the system so far to adjust and refined those decisions and goals.
+    到当前为止所执行的开发工作也将影响那些已定义的决策和目标。使用那些在当前设计和实现系统时所获得的信息，调整并完善所做的决策和目标。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Identify architecturally significant design elements</div>
+<div class="stepHeading">识别架构关键设计元素</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p align="left">
-    Identify concrete&nbsp;design elements (such as <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html" guid="_0YP18MlgEdmt3adZL5Dmdw">Component</a>s, classes and&nbsp;subsystems)&nbsp;and provide at least a name and brief
-    description for each.
+    识别具体的设计元素（如<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html" guid="_0YP18MlgEdmt3adZL5Dmdw">Component</a>、类和子系统），并为它们命名并给出简要的描述。
 </p>
 <p align="left">
-    The following are some good sources for design elements:
+    以下是一些设计元素的来源：
 </p>
 <ul>
     <li>
         <div align="left">
             <div align="left">
-                <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>. Highlight the areas of the
-                architecture that participate in realizing, or implementing, the requirements.
+                <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>。突出那些参与架构实现的需求。
             </div>
         </div>
     </li>
@@ -188,125 +180,110 @@
     </li>
     <li>
         <div align="left">
-            <div align="left">
-                Components that encapsulate the system's interface with external systems.&nbsp; For more information, see
-                <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Guideline：Representing Interfaces to External Systems</a>
-            </div>
+            封装外部系统接口的组件。更对信息，参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Representing Interfaces to External Systems</a>。
         </div>
     </li>
     <li>
-        Components that implement the <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>s
+        实现了 <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>&nbsp;的组件
     </li>
     <li>
-        Architectural and key design <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>s. Apply the chosen patterns to define a new set of elements that conform
-        to the patterns.
+        架构性的和关键设计<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>。应用所选模式来定义一组符合模式的新的元素。
     </li>
 </ul>
 <p>
-    Identifying components will help hide the complexity of the system and help you work at a higher level. Components need
-    to be internally cohesive and to provide external services through a limited interface.&nbsp; At this point, interfaces
-    do not need to be as detailed as a signature, but they do need to document what the elements need, what they can use,
-    and what they can depend on.
+    识别组件有助于隐藏系统的复杂性，并帮助你在较高的层次上工作。组件需要具有高内聚，并通过一个受限的接口来提供对外的服务。在此时，接口不需要进行详细的描述，但需要描述它们需要的、可使用的、以及依赖的元素。
 </p>
 <p>
-    Component identification can be&nbsp;based on architectural layers, deployment choices, or key abstractions. Ask
-    yourself these questions:
+    识别组件可基于架构的层次、部署选择、或者关键抽象。问问自己这些问题：
 </p>
 <ul>
     <li>
-        What is logically or functionally related (same use case or service, for example)?
+        哪些是逻辑或功能上相关的（如相同的用例或服务）？
     </li>
     <li>
-        What entities provide services to multiple others?
+        哪些实体为他人提供服务？
     </li>
     <li>
-        What entities depend on each other? Strongly or weakly?
+        哪些实体彼此依赖？强或弱？
     </li>
     <li>
-        What entities should you be able to exchange independently from others?
+        哪些实体能够独立的和其它实体进行交互？
     </li>
     <li>
-        What will run on the same processor or network node?
+        哪些将运行在同一个进程或网络节点中？
     </li>
     <li>
-        What parts are constrained by similar performance requirements?
+        哪些部分受到了类似的性能需求的约束？
     </li>
 </ul>
 <p>
-    When you identify a component be sure to briefly describe the functionality that should be allocated to the components.
+    当识别了某个组件时，必须简要的概述分配给该组件的的功能。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Refine architectural mechanisms</div>
+<div class="stepHeading">完善架构机制</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Refine&nbsp;the applicable <a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>s, as needed to support the design.&nbsp; For example,
-    refining an analysis mechanism into a design mechanism and/or refining a design mechanism into an implementation
-    mechanism.&nbsp;<br />
+    完善<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>，以支持设计的需要。例如，将某个分析机制完善成相应的设计机制，和/或将设计机制完善成实现机制。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Define development architecture and test architecture</div>
+<div class="stepHeading">定义开发架构和测试架构</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Ensure that the development and test architectures are defined. Note any architecturally significant differences between
-these environments and work with the team to devise strategies to mitigate any risks these may introduce.</td>
+<td><p>
+    确保定义了开发和测试架构。注意这些环境中的任何架构关键差异，并和团队一起制定策略来缓解可能出现的风险。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Identify additional reuse opportunities</div>
+<div class="stepHeading">识别更多的重用机会</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td><p dir="ltr" style="MARGIN-RIGHT: 0px">
-    Continue to look for more opportunities to reuse existing assets.&nbsp; Where applicable, identify existing components
-    that could be built to be reused.
+<td><p style="MARGIN-RIGHT: 0px" dir="ltr">
+    继续寻找更多的重用已有资产的机会。在合适的情况下，识别可以那些可以构建或使用的已存在的组件。
 </p>
-<p dir="ltr" style="MARGIN-RIGHT: 0px">
-    For more information, see <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Guideline：Software Reuse</a>.
+<p style="MARGIN-RIGHT: 0px" dir="ltr">
+    更多信息，参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Software Reuse</a>。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Validate the architecture</div>
+<div class="stepHeading"> 验证架构</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Make sure that the architecture supports the requirements and the needs of the team. <br />
-<br />
-Development work should be performed to produce just enough working software to show that the architecture is viable. This
-should provide the definitive basis for validating the suitability of the architecture. As the software should be developed
-iteratively, more than one increment of the build may be required to prove the architecture. During the early stages of the
-project it may be acceptable for the software to have a incomplete or prototypical feel, as it will be primarily concerned
-with baselining the architecture to provide a stable foundation for the remaining development work.</td>
+<td><p>
+    确认架构支持团队的需求和需要。<br />
+    <br />
+    开发足够的可工作的软件以展示架构的可行性。这将为架构的适用性验证提供明确的基础。当迭代的开发软件时，可能需要不止一个增量构建来证明架构。在项目的早期阶段，提供不完整或原型感觉的软件是可以接受的，因为此时关注于建立架构基线，以为剩余的开发工作提供一个稳定的基础。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Map the software to the hardware</div>
+<div class="stepHeading">将软件映射到硬件</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p align="left">
-    Map the architecturally significant design elements to the target deployment environment. Work with hardware and
-    network specialists to ensure that the hardware is sufficient to meet the needs of the system; and that any new
-    hardware is available in time.
+    将架构关键设计元素映射到目标部署环境。同硬件和网络专家一起，确保硬件充分满足了系统需要，以及在需要时有新的硬件可用。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Communicate decisions</div>
+<div class="stepHeading">沟通决策</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Ensure that those who need to act upon the architectural work understand it and are able to work with it. Make sure that
-the description of the architecture clearly conveys not only the solution but also the motivation and objectives related to
-the decisions that have been made in shaping the architecture. This will make it easier for others to understand the
-architecture and to adapt it over time.</td>
+<td><p>
+    确保那些遵照架构工作的人们理解并能够依据架构进行工作。确保架构描述不仅仅清晰的描述了解决方案，还包括那些限制了架构的决策相关的动机和目的。这将使架构更容易被理解，并随时间进行调整。
+</p></td>
 </tr>
 </table>
 </div>
@@ -319,43 +296,35 @@ architecture and to adapt it over time.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    It is important to continue to reduce the complexity of the&nbsp;solution by raising the levels of abstraction.&nbsp;
-    For more information, see <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html" guid="_we3F4ACpEdu8m4dIntu6jA">Guideline：Abstract Away Complexity</a>.
+    通过在一定的抽象层次上持续的降低解决方案的复杂性很重要。更多信息，参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html" guid="_we3F4ACpEdu8m4dIntu6jA">Abstract Away Complexity</a>。
 </p>
 <p>
-    Continue the collaboration with the whole&nbsp;team on the refining of the architecture in order to promote consensus
-    and a common understanding of the overall solution. The architect should be working to coordinate and guide the
-    technical activities of the team rather than doing all the work alone.&nbsp;Place special emphasis&nbsp;on
-    involving&nbsp;the developer(s) throughout this task since it's the developed solution that will prove out the
-    architecture and may result in refinements to the architecture documentation.
+    在完善架构的过程中，持续的同整个团队合作，从而促进对整体解决方案的共识和共同理解。架构师应该协调并指导团队的技术活动，而不是独自完成这些工作。特别强调，在这些任务中应包括开发人员，因为是他们开发了解决方案从而证明了架构，并完善了架构文档。
 </p>
 <p>
-    Ensure that those who need to act upon the architectural work&nbsp;understand&nbsp;it and are able to work with
-    it.&nbsp;Make sure that the description of the architecture clearly conveys not only the solution but also the
-    motivation and objectives related to the&nbsp;decisions that have been made in shaping the architecture. This will make
-    it easier for others to understand the architecture and to adapt it over time.
+    确保那些遵照架构工作的人们理解并能够依靠架构进行工作。确保架构描述不仅清晰的表达了解决方案，还包括那些限制了架构的决策相关的动机和目标。这将使架构更容易被理解，并随时间进行调整。
 </p>
 <p>
-    You can communicate your decisions as many ways as you wish.&nbsp; For example:
+    可以通过许多途径来沟通你所做的决策。例如：
 </p>
 <ul>
     <li>
-        Publication of&nbsp;reference source code
+        发布参考的源代码
     </li>
     <li>
-        Publication of&nbsp;reference models
+        发布参考的模型
     </li>
     <li>
-        Publication of&nbsp;software architecture documentation
+        发布软件架构文档
     </li>
     <li>
-        Formal&nbsp;presentations of the material
+        正式的演讲材料
     </li>
     <li>
-        Informal walkthroughs of the architecture
+        非正式的架构走读
     </li>
 </ul><p/><p>
-    As you evolve the architecture, you may wish to evolve your architectural models.&nbsp; For more information, see <a class="elementLinkWithType" href="./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html" guid="_HrgUQNcuEdy1nJEYZGzN4A">Guideline：Modeling the Architecture</a>.
+    当演进架构时，你可能希望演进你的架构模型。更多信息，参见指南：<a class="elementLink" href="./../../practice.tech.evolutionary_arch.base/guidances/guidelines/modeling_the_arch_8BE6E55B.html" guid="_HrgUQNcuEdy1nJEYZGzN4A">Modeling the Architecture</a>。
 </p></td>
 </tr>
 </table>
