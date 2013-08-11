@@ -12,10 +12,17 @@
     <resourceDescriptors xmi:id="_m14_kVmREeCcpdiAcH0w-w" id="-nGFCabBnNthDU5t9ws5fbA" uri="content.xmi"/>
     <resourceDescriptors xmi:id="_m14_klmREeCcpdiAcH0w-w" id="-FB2KP2UFI653oVtHVkndvA" uri="content.xmi"/>
     <resourceDescriptors xmi:id="_m14_k1mREeCcpdiAcH0w-w" id="-9NwuPPfPDuUrGL-0O-B1Uw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vGp84P3LEeKrup_PWzAOjA" id="-8PzoNiNxVu39WHu7_Vn3NQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vGuOUP3LEeKrup_PWzAOjA" id="-q-wST_pJS6VTqXgKqyKxIQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vGxRoP3LEeKrup_PWzAOjA" id="-clt6MmLcD_02Nq3Fk1cSKA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vGzt4P3LEeKrup_PWzAOjA" id="-AqEUxefj7rwdKQHZnM01_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vG2KIP3LEeKrup_PWzAOjA" id="-BMkEvFNIuy_kjLIO6i_k_w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vG3_UP3LEeKrup_PWzAOjA" id="-QbVhskDewgg5Bu9N5YdlyA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vG7CoP3LEeKrup_PWzAOjA" id="-SoqKFRoGGRqZVAaycwtUVQ" uri="content.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_RXGooNOFEdyqlogshP8l4g" name="develop_solution" guid="_RXGooNOFEdyqlogshP8l4g">
     <methodElementProperty xmi:id="_3NJfYObAEeKxKPHdq3K7Jw" name="me_edited" value="true"/>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_frOcQNOKEdyqlogshP8l4g" name="design_solution" guid="_frOcQNOKEdyqlogshP8l4g" presentationName="Design the Solution" briefDescription="Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_frh-QtOKEdyqlogshP8l4g" output="_frh-QtOKEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_frOcQNOKEdyqlogshP8l4g" name="design_solution" guid="_frOcQNOKEdyqlogshP8l4g" presentationName="Design the Solution" briefDescription="Identify the elements and devise the interactions, behavior, relations, and data necessary to realize some functionality." superActivities="_RXGoodOFEdyqlogshP8l4g" additionallyPerformedBy="_abVEsP3IEeKrup_PWzAOjA _abVrwf3IEeKrup_PWzAOjA _abW54f3IEeKrup_PWzAOjA _abXg8f3IEeKrup_PWzAOjA" mandatoryInput="_frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_frh-QtOKEdyqlogshP8l4g" output="_frh-QtOKEdyqlogshP8l4g" performedPrimarilyBy="_abSocf3IEeKrup_PWzAOjA">
       <methodElementProperty xmi:id="_jufLcOa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <presentation xmi:id="-vRKhx96vINZLGd2eqNzVyg" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-vRKhx96vINZLGd2eqNzVyg"/>
       <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
@@ -38,11 +45,11 @@
       <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_OGYbwKuLEdmhFZtkg1nakg"/>
       <selectedSteps href="uma://_NrC20qeqEdmKDbQuyzCoqQ#_mUVt8BfnEduD353bkQ4frw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QNOKEdyqlogshP8l4g" name="technical_architecture_slot" guid="_frh-QNOKEdyqlogshP8l4g" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QNOKEdyqlogshP8l4g" name="technical_architecture_slot" guid="_frh-QNOKEdyqlogshP8l4g" presentationName="[技术-架构]" briefDescription="该槽为一个抽象的高层工件集，代表了架构的文档。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_jvQAcea5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QdOKEdyqlogshP8l4g" name="technical_specification_slot" guid="_frh-QdOKEdyqlogshP8l4g" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_frh-QdOKEdyqlogshP8l4g" name="technical_specification_slot" guid="_frh-QdOKEdyqlogshP8l4g" presentationName="[技术-规格]" briefDescription="该槽作为一个抽象的高层工件集描述解决方案的需求、约束和目标。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_jvoa8Oa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
     </processElements>
@@ -54,7 +61,7 @@
       <templates href="uma://_Z2cK0LPPEduocbW-TPTq7A#_EOPcMAMUEdylNddAObilIA"/>
       <WorkProduct href="uma://_Z2cK0LPPEduocbW-TPTq7A#_0WuL8slgEdmt3adZL5Dmdw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gXo2UNOKEdyqlogshP8l4g" name="implement_developer_tests" guid="_gXo2UNOKEdyqlogshP8l4g" presentationName="Implement Developer Tests" briefDescription="Implement one or more tests to verify an implementation element." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g" optionalInput="_gX7xQdOKEdyqlogshP8l4g" output="_gX7xQtOKEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gXo2UNOKEdyqlogshP8l4g" name="implement_developer_tests" guid="_gXo2UNOKEdyqlogshP8l4g" presentationName="Implement Developer Tests" briefDescription="Implement one or more tests to verify an implementation element." superActivities="_RXGoodOFEdyqlogshP8l4g" additionallyPerformedBy="_abXg8f3IEeKrup_PWzAOjA" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g" optionalInput="_gX7xQdOKEdyqlogshP8l4g" output="_gX7xQtOKEdyqlogshP8l4g" performedPrimarilyBy="_abSocf3IEeKrup_PWzAOjA">
       <methodElementProperty xmi:id="_jvuhkOa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <presentation xmi:id="-2uPX8tYcrG4NCorQpgu0eA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-2uPX8tYcrG4NCorQpgu0eA"/>
       <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
@@ -67,11 +74,11 @@
       <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_JAiqEJR-EdyVKbgqUOtqQA"/>
       <selectedSteps href="uma://-UW-yTFk3AppqcGGU-Px63A#_KkDrQJR-EdyVKbgqUOtqQA"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQNOKEdyqlogshP8l4g" name="technical_implementation_slot" guid="_gX7xQNOKEdyqlogshP8l4g" presentationName="[Technical Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQNOKEdyqlogshP8l4g" name="technical_implementation_slot" guid="_gX7xQNOKEdyqlogshP8l4g" presentationName="[技术-实现]" briefDescription="该槽包括了代表技术实现的工件，包括源代码、可执行代码、数据以及软/硬件配置。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_jvuhkea5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQdOKEdyqlogshP8l4g" name="technical_design_slot" guid="_gX7xQdOKEdyqlogshP8l4g" presentationName="[Technical Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_gX7xQdOKEdyqlogshP8l4g" name="technical_design_slot" guid="_gX7xQdOKEdyqlogshP8l4g" presentationName="[技术-设计]" briefDescription="该槽为描述系统功能实现的抽象的高层工件集，也是一个解决方案的抽象。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
       <methodElementProperty xmi:id="_jvuhkua5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
     </processElements>
@@ -81,7 +88,7 @@
       <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_dxaPUF-BEd2T0JdVjRyaQA"/>
       <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hVe-oNOKEdyqlogshP8l4g" name="implement_solution" guid="_hVe-oNOKEdyqlogshP8l4g" presentationName="Implement Solution" briefDescription="Implement source code to provide new functionality or fix defects." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQdOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4JojEd2XAqcHTC2Siw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hVe-oNOKEdyqlogshP8l4g" name="implement_solution" guid="_hVe-oNOKEdyqlogshP8l4g" presentationName="Implement Solution" briefDescription="Implement source code to provide new functionality or fix defects." superActivities="_RXGoodOFEdyqlogshP8l4g" additionallyPerformedBy="_abW54f3IEeKrup_PWzAOjA _abXg8f3IEeKrup_PWzAOjA" mandatoryInput="_gX7xQdOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g" optionalInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4JojEd2XAqcHTC2Siw" performedPrimarilyBy="_abSocf3IEeKrup_PWzAOjA">
       <methodElementProperty xmi:id="_jv6u0Oa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <presentation xmi:id="-383xzY4iZ_mRmebRFJ71-Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-383xzY4iZ_mRmebRFJ71-Q"/>
       <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
@@ -99,7 +106,7 @@
       <presentation xmi:id="-9Jb-Nex6ZZzYbdiQZ5yH9Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-9Jb-Nex6ZZzYbdiQZ5yH9Q"/>
       <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0YuXEMlgEdmt3adZL5Dmdw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_iRZNQNOKEdyqlogshP8l4g" name="run_developer_tests" guid="_iRZNQNOKEdyqlogshP8l4g" presentationName="Run Developer Tests" briefDescription="Run tests against the individual implementation elements to verify that their internal structures work as specified." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4ZojEd2XAqcHTC2Siw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_iRZNQNOKEdyqlogshP8l4g" name="run_developer_tests" guid="_iRZNQNOKEdyqlogshP8l4g" presentationName="Run Developer Tests" briefDescription="Run tests against the individual implementation elements to verify that their internal structures work as specified." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_gX7xQNOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g" output="_dC4w4ZojEd2XAqcHTC2Siw" performedPrimarilyBy="_abSocf3IEeKrup_PWzAOjA">
       <methodElementProperty xmi:id="_jwG8EOa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <presentation xmi:id="-aPWmfmaOCZsb1a9aCKpRSw" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-aPWmfmaOCZsb1a9aCKpRSw"/>
       <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
@@ -109,7 +116,7 @@
       <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_itj1QJfIEdyZkIR-s-Y8wQ"/>
       <selectedSteps href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#_C0_fYFQAEd2ECfw27om6fw"/>
     </processElements>
-    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Dlo8wNo8EdyzZqGyZ7hwdw" name="integrate_and_create_build" guid="_Dlo8wNo8EdyzZqGyZ7hwdw" presentationName="Integrate and Create Build" briefDescription="This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_Dlo8wdo8EdyzZqGyZ7hwdw _gX7xQNOKEdyqlogshP8l4g" output="_aJ1X4No7EdyzZqGyZ7hwdw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Dlo8wNo8EdyzZqGyZ7hwdw" name="integrate_and_create_build" guid="_Dlo8wNo8EdyzZqGyZ7hwdw" presentationName="Integrate and Create Build" briefDescription="This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build." superActivities="_RXGoodOFEdyqlogshP8l4g" mandatoryInput="_Dlo8wdo8EdyzZqGyZ7hwdw _gX7xQNOKEdyqlogshP8l4g" output="_aJ1X4No7EdyzZqGyZ7hwdw" performedPrimarilyBy="_abSocf3IEeKrup_PWzAOjA">
       <methodElementProperty xmi:id="_jwTJUOa5EeKxKPHdq3K7Jw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
       <presentation xmi:id="-nGFCabBnNthDU5t9ws5fbA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-nGFCabBnNthDU5t9ws5fbA"/>
       <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
@@ -143,7 +150,96 @@
       <presentation xmi:id="-9NwuPPfPDuUrGL-0O-B1Uw" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-9NwuPPfPDuUrGL-0O-B1Uw"/>
       <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
     </processElements>
-    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RXGoodOFEdyqlogshP8l4g" name="develop_solution" guid="_RXGoodOFEdyqlogshP8l4g" presentationName="开发解决方案增量" briefDescription="Design, implement, test, and integrate the solution for a requirement within a given context." breakdownElements="_frOcQNOKEdyqlogshP8l4g _frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g _frh-QtOKEdyqlogshP8l4g _gXo2UNOKEdyqlogshP8l4g _gX7xQNOKEdyqlogshP8l4g _gX7xQdOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g _hVe-oNOKEdyqlogshP8l4g _aJ1X4No7EdyzZqGyZ7hwdw _iRZNQNOKEdyqlogshP8l4g _Dlo8wNo8EdyzZqGyZ7hwdw _Dlo8wdo8EdyzZqGyZ7hwdw _dC4w4JojEd2XAqcHTC2Siw _dC4w4ZojEd2XAqcHTC2Siw">
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_abSocf3IEeKrup_PWzAOjA" name="developer" guid="_abSocf3IEeKrup_PWzAOjA" presentationName="开发人员" briefDescription="开发人员（Developer）负责开发系统的一部分，包括设计该部分以使其纳入架构、可能的用户界面原型、实现、单元测试，以及集成这些组件做为解决方案一部分。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g" modifies="_frh-QtOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g _dC4w4JojEd2XAqcHTC2Siw _dC4w4ZojEd2XAqcHTC2Siw _aJ1X4No7EdyzZqGyZ7hwdw" responsibleFor="_gX7xQtOKEdyqlogshP8l4g _dC4w4JojEd2XAqcHTC2Siw _aJ1X4No7EdyzZqGyZ7hwdw _frh-QtOKEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_abSocv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_abwigP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <guidelines href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_Jq64EJjsEduad8I_c-ogIA"/>
+      <guidelines href="uma://_40sbAJ6YEdyQN-zRFaRrCQ#_rmBEkJjsEduad8I_c-ogIA"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_abVEsP3IEeKrup_PWzAOjA" name="analyst" guid="_abVEsP3IEeKrup_PWzAOjA" presentationName="分析人员" briefDescription="该角色代表了客户和终端用户的关注点，通过从利益相关人处收集输入，以理解待解决的问题，并捕获需求和设置需求优先级。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g" responsibleFor="_ab2pIf3IEeKrup_PWzAOjA _ab33Qf3IEeKrup_PWzAOjA _ab5FYf3IEeKrup_PWzAOjA _ab6Tgf3IEeKrup_PWzAOjA _ab7hof3IEeKrup_PWzAOjA">
+      <methodElementProperty xmi:id="_abVEsf3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ab8vwP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_abVrwf3IEeKrup_PWzAOjA" name="architect" guid="_abVrwf3IEeKrup_PWzAOjA" presentationName="架构师" briefDescription="架构师（Architect ）负责定义软件的架构，包括做出关键技术决策，该决策指定了对系统设计和实现的整体约束。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g" responsibleFor="_acI9AP3IEeKrup_PWzAOjA">
+      <methodElementProperty xmi:id="_abVrwv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acJkEP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-8PzoNiNxVu39WHu7_Vn3NQ" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-8PzoNiNxVu39WHu7_Vn3NQ"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_abW54f3IEeKrup_PWzAOjA" name="stakeholder" guid="_abW54f3IEeKrup_PWzAOjA" presentationName="利益相关人" briefDescription="利益相关人（Stakeholder，也有人翻译为涉众）代表了项目必须使其得到满足的利益团队。该角色可能由那些对项目有极大影响（或潜在影响）的人来承担。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_abW54v3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_abhR8P3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_abXg8f3IEeKrup_PWzAOjA" name="tester" guid="_abXg8f3IEeKrup_PWzAOjA" presentationName="测试人员" briefDescription="测试人员（Tester）负责测试工作的核心活动。这些活动包括识别、定义、实现，并进行必要的测试，以及记录并分析测试结果。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g" responsibleFor="_abigEf3IEeKrup_PWzAOjA _dC4w4ZojEd2XAqcHTC2Siw _Dlo8wdo8EdyzZqGyZ7hwdw">
+      <methodElementProperty xmi:id="_abXg8v3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_abpNwP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-q-wST_pJS6VTqXgKqyKxIQ" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-q-wST_pJS6VTqXgKqyKxIQ"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_abigEf3IEeKrup_PWzAOjA" name="test_case" guid="_abigEf3IEeKrup_PWzAOjA" presentationName="测试用例" briefDescription="此工件描述了已识别的用于评估某个场景的特定方面的测试输入、执行条件和预期的结果。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_abigEv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_abrC8P3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-clt6MmLcD_02Nq3Fk1cSKA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-clt6MmLcD_02Nq3Fk1cSKA"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Zxf8MlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_yWaKEI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ab2pIf3IEeKrup_PWzAOjA" name="vision" guid="_ab2pIf3IEeKrup_PWzAOjA" presentationName="愿景" briefDescription="此工件定义了利益相关人和待开发的技术解决方案的视图。此视图是依据利益相关人的关键需要和特性制定的。愿景概述了对系统核心需求的展望。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_ab2pIv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acFSoP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-AqEUxefj7rwdKQHZnM01_w" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-AqEUxefj7rwdKQHZnM01_w"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WoFUMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_DtlRQI5gEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WVxcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ab33Qf3IEeKrup_PWzAOjA" name="glossary" guid="_ab33Qf3IEeKrup_PWzAOjA" presentationName="术语表" briefDescription="此工件定义了项目中使用的重要术语。这个术语的集合澄清了项目中使用的词汇。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_ab33Qv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acHH0P3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-BMkEvFNIuy_kjLIO6i_k_w" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-BMkEvFNIuy_kjLIO6i_k_w"/>
+      <WorkProduct href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_Wn7HcNcEEdqz_d2XWoVt6Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ab5FYf3IEeKrup_PWzAOjA" name="system_wide_requirements" guid="_ab5FYf3IEeKrup_PWzAOjA" presentationName="系统需求" briefDescription="此工件记录了整个系统范围内质量属性和约束，同时也捕获全系统的功能性需求。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_ab5FYv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acEEgP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-QbVhskDewgg5Bu9N5YdlyA" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-QbVhskDewgg5Bu9N5YdlyA"/>
+      <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_6jXzYNcKEdqz_d2XWoVt6Q"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_m7p-AI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_BVh9cL-CEdqb7N6KIeDL8Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ab6Tgf3IEeKrup_PWzAOjA" name="use_case_model" guid="_ab6Tgf3IEeKrup_PWzAOjA" presentationName="用例模型" briefDescription="此工件描述了关于系统预期功能和环境的模型，该模型可作为客户和团队之间的合同。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_ab6Tgv3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acC2YP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0U6OEMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_KudM0NcJEdqz_d2XWoVt6Q"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_2jyfUAhVEduRe8TeoBmuGg"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_zGqO0MDpEduTGJ8i4u8TMw"/>
+      <examples href="uma://_OOB2AAouEdyhlpBPrduOMw#_t4QdAMNqEdu2IdAIaWZyAw"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ab7hof3IEeKrup_PWzAOjA" name="use_case" guid="_ab7hof3IEeKrup_PWzAOjA" presentationName="用例" briefDescription="此工件捕获系统行为，从而产生对那些与系统交互的人（或物）来说可观察的有价值的结果。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_ab7hov3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_ab_MAP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kNwINk1Edq2Q8qZoWbvGA"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_KudM0NcJEdqz_d2XWoVt6Q"/>
+      <examples href="uma://_OOB2AAouEdyhlpBPrduOMw#_JLOiIMNvEdu2IdAIaWZyAw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_3Y3XUI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_acI9AP3IEeKrup_PWzAOjA" name="architecture_notebook" guid="_acI9AP3IEeKrup_PWzAOjA" presentationName="架构备忘录" briefDescription="此工件描述那些在形成架构过程中所做决策的原理、假设、解释、以及影响。" isPlanned="false" superActivities="_RXGoodOFEdyqlogshP8l4g">
+      <methodElementProperty xmi:id="_acI9Af3IEeKrup_PWzAOjA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_acLZQP3IEeKrup_PWzAOjA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-SoqKFRoGGRqZVAaycwtUVQ" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-SoqKFRoGGRqZVAaycwtUVQ"/>
+      <checklists href="uma://_4gaS4LPREduocbW-TPTq7A#_17PYUNd6EdmIm-bsRSNCgw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+      <guidelines href="uma://_4gaS4LPREduocbW-TPTq7A#_HrgUQNcuEdy1nJEYZGzN4A"/>
+      <templates href="uma://_4gaS4LPREduocbW-TPTq7A#_me8WcAANEdyRS9uciXlZ6g"/>
+      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_RXGoodOFEdyqlogshP8l4g" name="develop_solution" guid="_RXGoodOFEdyqlogshP8l4g" presentationName="开发解决方案增量" briefDescription="在某个给定的上下文中，为某个需求设计、实现、测试、集成解决方案。" breakdownElements="_frOcQNOKEdyqlogshP8l4g _frh-QNOKEdyqlogshP8l4g _frh-QdOKEdyqlogshP8l4g _frh-QtOKEdyqlogshP8l4g _gXo2UNOKEdyqlogshP8l4g _gX7xQNOKEdyqlogshP8l4g _gX7xQdOKEdyqlogshP8l4g _gX7xQtOKEdyqlogshP8l4g _hVe-oNOKEdyqlogshP8l4g _aJ1X4No7EdyzZqGyZ7hwdw _iRZNQNOKEdyqlogshP8l4g _Dlo8wNo8EdyzZqGyZ7hwdw _Dlo8wdo8EdyzZqGyZ7hwdw _dC4w4JojEd2XAqcHTC2Siw _dC4w4ZojEd2XAqcHTC2Siw _abSocf3IEeKrup_PWzAOjA _abVEsP3IEeKrup_PWzAOjA _abVrwf3IEeKrup_PWzAOjA _abW54f3IEeKrup_PWzAOjA _abXg8f3IEeKrup_PWzAOjA _abigEf3IEeKrup_PWzAOjA _ab2pIf3IEeKrup_PWzAOjA _ab33Qf3IEeKrup_PWzAOjA _ab5FYf3IEeKrup_PWzAOjA _ab6Tgf3IEeKrup_PWzAOjA _ab7hof3IEeKrup_PWzAOjA _acI9AP3IEeKrup_PWzAOjA">
       <presentation xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" href="uma://-ux7ytJ8wsCQm5rzKYxNA7Q#-ux7ytJ8wsCQm5rzKYxNA7Q"/>
     </process>
   </org.eclipse.epf.uma:ProcessComponent>

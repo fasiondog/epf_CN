@@ -133,7 +133,8 @@
             <methodElementProperty xmi:id="_6hAAUJq5EeGkJeeBCxGuog" name="me_edited" value="true"/>
             <presentation xmi:id="-IwJHnU8hFzICUIbJ3tygeg" href="uma://-IwJHnU8hFzICUIbJ3tygeg#-IwJHnU8hFzICUIbJ3tygeg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_IAG5weB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAG5weB-EeC1y_NExchKwQ" presentationName="Deployment Plan" briefDescription="This checklist is used to verify that a Deployment Plan is created in a correct and consistent manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_IAG5weB-EeC1y_NExchKwQ" name="deployment_plan" guid="_IAG5weB-EeC1y_NExchKwQ" presentationName="部署计划" briefDescription="此检查单用于验证以正确且一致的方式创建了部署计划。">
+            <methodElementProperty xmi:id="_Y04rUP3IEeKrup_PWzAOjA" name="me_edited" value="true"/>
             <presentation xmi:id="-x6K6zdVklh4CbhxTeVvYew" href="uma://-x6K6zdVklh4CbhxTeVvYew#-x6K6zdVklh4CbhxTeVvYew"/>
           </contentElements>
         </childPackages>

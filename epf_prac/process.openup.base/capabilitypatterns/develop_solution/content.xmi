@@ -1,109 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="-ux7ytJ8wsCQm5rzKYxNA7Q" name="develop_solution,_RXGoodOFEdyqlogshP8l4g" guid="-ux7ytJ8wsCQm5rzKYxNA7Q" version="7.2.0">
-    <mainDescription>&lt;h3>
-    Introduction
-&lt;/h3>
-&lt;p>
-    Run this activity as a way to perform goal-based planning and execution. Work is taken on by developers, and work
-    progress is tracked based on the goals achieved using the designed, developer-tested, and integrated source code.
-&lt;/p>
-&lt;h4>
-    Context of what is being developed
-&lt;/h4>
-&lt;p>
-    A context can be specified when a requirement is assigned to be developed, thus specifying how broadly a requirement is
-    to be developed in an iteration. Development may focus on a layer (such as the user interface, business logic, or
-    database access), on a component, and so on.
-&lt;/p>
-&lt;p>
-    Whether a context is specified or not, the developer's responsibility is to create a design and implementation for that
-    requirement.&amp;nbsp;The developer&amp;nbsp;also writes and runs developer tests against the implementation to make sure that
-    it works as designed, both as a unit and integrated into the code base.
-&lt;/p>
-&lt;h4>
-    Overview of workflow
-&lt;/h4>
-&lt;p>
-    Typical changes require some effort in designing the solution before moving into implementation, even if it is only a
-    mental exercise that results in no long-term work product. The design for trivial changes to the existing
-    implementation (to, for example, support some requirement) might be self-evident in the context of the existing
-    architecture and design.
-&lt;/p>
-&lt;p>
-    Once the organization of the technical solution is clear, define developer tests that will verify the implementation.
-    This test-driven approach ensures that design considerations have in fact taken place before the solution is coded. The
-    tests are run up front and, if they fail, clearly define the criteria to determine if the implementation works as
-    intended.
-&lt;/p>
-&lt;p>
-    Failed tests lead to&amp;nbsp;an implementation of the solution, upon completion of which you run the tests again. This
-    innermost loop of implementation and developer testing is repeated until the tests pass.
-&lt;/p>
-&lt;p>
-    Passing the tests does not necessarily mean that the solution is a high-quality, appropriate solution. It is proper to
-    revisit the design at this point. That path loops back through the process, since any changes to the design could
-    affect the developer tests and implementation.
-&lt;/p>
-&lt;p>
-    Once the tests pass and the design of the solution is appropriate, there is one more possible loopback. It is best to
-    keep the test-driven, evolutionary design inner loops as tight as possible. Come up with some small-scale design
-    solution for a part of the work item, define a test or two for the implementation of that one part of the solution,
-    pass that test, verify the quality, and then continue on in a test-first manner until that part of the design is
-    working. Then, in the outermost loop of the activity, go back to the work item and design another chunk to get closer
-    to completion.
+    <mainDescription>&lt;h3>&#xD;
+    简介&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    作为一种基于目标策划和执行的方式来执行此活动。使用已设计的、经开发人员测试并集成的源代码来达成目标，并基于目标来跟踪工作进展，这些工作由开发人员承担。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    开发的上下文？&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    当某个需求被分配开发时，将确定开发的上下文，因此，需要在迭代中明确需求的范围。开发可能集中在某个层（如用户接口、业务逻辑、或数据库访问）、某个组件，诸如此类。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    无论是否指定了上下文，开发人员都需要负责为需求创建相应的设计和实现。开发人员还需要编写并针对实现进行开发测试，以确保其和符合设计，同时，将这些实现作为一个单元合入源代码。&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    工作流概述&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    典型的变更在实现之前需要花费一定的工作量设计解决方案。而对于已有实现的微小的变更来说，其设计在已有的架构和设计中可能是不言而喻的。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    一旦明确了技术解决方案的组织，则定义用于验证实现的开发测试。这种测试驱动的方式保证了在对解决方案进行编码前考虑了设计所需的注意事项。在实现前运行这些测试（返回失败），它们明确定义了实现工作是否符合预期的标准。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    失败的测试将引导解决方案的实现，在完成相应的编码实现后重新执行这些测试。这些测试和实现不停地重复循环，直到通过这些测试。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    通过这些测试并不必然意味着解决方案是高质量、合适的。此时，正确的方式是重新设计。此路径通过该过程重新循环，因为任何设计的变更都可能影响开发测试和实现。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    一旦测试通过且解决方案的设计是合适的，那么存在一个或多个可能的循环回路。最好保持测试驱动，尽可能在循环反复中演进设计。针对部分的工作项想出小的设计方案，为实现定义一个或两个测试，执行通过这些测试，验证质量，然后继续这种测试先行的方式，直到该部分的设计能够工作。接着，回到活动的外层循环，继续工作任务项并设计另一个部分。&#xD;
 &lt;/p></mainDescription>
-    <purpose>&lt;ul>
-    &lt;li>
-        For developers: To create a solution for the work item for which they are responsible
-    &lt;/li>
-    &lt;li>
-        For project managers: To have a goal-based way of tracking project status
-    &lt;/li>
+    <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        对开发人员：为他们负责的工作项创建解决方案&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        对项目经理：拥有一个基于目标的方式跟踪项目状态&#xD;
+    &lt;/li>&#xD;
 &lt;/ul></purpose>
-    <usageNotes>&lt;p>
-    This activity occurs multiple times during each iteration. Usually, there is one instance for each work item planned
-    for that iteration. When instantiated in a project plan, the pattern becomes a development task to be taken on by one
-    or more developers, and you should rename it to include the actual requirement name. Optionally, the words &lt;b>Solution
-    Increment&lt;/b>&amp;nbsp;may be suppressed, then you can instantiate the pattern this way:
-&lt;/p>
-&lt;blockquote>
-    &lt;p align=&quot;left&quot;>
-        Develop requirement_name (within context_name context)
-    &lt;/p>
-&lt;/blockquote>
-&lt;p>
-    If a context is specified, there will be one instance of this pattern for each requirement for each context.
-&lt;/p>
-&lt;blockquote>
-    &lt;p>
-        &lt;b>Example&lt;/b>
-    &lt;/p>
-    &lt;ol>
-        &lt;li>
-            Develop scenario 1 (within user interface context)
-        &lt;/li>
-        &lt;li>
-            Develop scenario 1 (within business logic and database access context)
-        &lt;/li>
-        &lt;li>
-            Develop scenario 2
-        &lt;/li>
-        &lt;li>
-            Develop supplemental requirement 1
-        &lt;/li>
-    &lt;/ol>
-&lt;/blockquote>
-&lt;p>
-    Note that there are four instances of this pattern in the preceding example:
-&lt;/p>
-&lt;ul>
-    &lt;li>
-        The first two are related to the same requirement (scenario 1) but within two different contexts
-    &lt;/li>
-    &lt;li>
-        The last two are related to different requirements, with no context specified.
-    &lt;/li>
+    <usageNotes>&lt;p>&#xD;
+    此活动在每个迭代中多次出现。通常，针对迭代中的每一个工作项都有一个此活动的实例。在项目计划中实例化时，此模式成为由一个或多个开发人员承担的一个开发任务，应该为这些实例重新命名，命名中包含实际的需求名称。此外，“解决方案增量”这个活动名称可能会按下面的命名模式被替换：&#xD;
+&lt;/p>&#xD;
+&lt;blockquote>&#xD;
+    &lt;p align=&quot;left&quot;>&#xD;
+        开发“需求名称（包括上下文名称）”&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    如果指定了上下文，那么针对每个上下文中的每个需求可以按下面的方式实例化命名：&#xD;
+&lt;/p>&#xD;
+&lt;blockquote>&#xD;
+    &lt;p>&#xD;
+        &lt;strong>例如&lt;/strong>&#xD;
+    &lt;/p>&#xD;
+    &lt;ol>&#xD;
+        &lt;li>&#xD;
+            开发场景1（用户接口）&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            开发场景1（业务逻辑与数据库访问）&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            开发场景2&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            开发追加的需求1&#xD;
+        &lt;/li>&#xD;
+    &lt;/ol>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    注意在前面的例子中命名模式有四个实例：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        第一个和第二个和同一个需求相关（场景1），但是是在两个不同的上下文环境中&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        后两个分别关联了不同的需求，并且没有指定上下文&#xD;
+    &lt;/li>&#xD;
 &lt;/ul></usageNotes>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vRKhx96vINZLGd2eqNzVyg" name="design_solution,_frOcQNOKEdyqlogshP8l4g" guid="-vRKhx96vINZLGd2eqNzVyg">
@@ -290,5 +268,131 @@ being realized in the code.&lt;br /></keyConsiderations>
 provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
 trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
 the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8PzoNiNxVu39WHu7_Vn3NQ" name="architect,_abVrwf3IEeKrup_PWzAOjA" guid="-8PzoNiNxVu39WHu7_Vn3NQ">
+    <refinedDescription>&lt;p>&#xD;
+    此角色领导或协调系统的技术设计，并全面负责促进重大技术决策，这些决策被表达为软件架构。这通常包括识别并文档化系统架构的重要方面，这些方面是表达需求、设计、实现和部署的视图。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    此角色还负责提供这些决策的基本原理、平衡不同利益相关人观点、减少技术风险，以及确保决策被高效沟通、验证并跟随。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    此角色在人员和项目策划上与项目经理紧密合作，因为建议团队围绕架构进行组织。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    此角色同样和分析人员、开发人员紧密合作，从而确保架构上重要的需求被分配到合适的系统组件。&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-q-wST_pJS6VTqXgKqyKxIQ" name="tester,_abXg8f3IEeKrup_PWzAOjA" guid="-q-wST_pJS6VTqXgKqyKxIQ">
+    <refinedDescription>&lt;p>&#xD;
+    此角色主要负责以下任务：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        识别需要被执行的测试&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        对于给定的测试，确定最合适的实现方式&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        实施个人测试&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        设置并运行测试&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        记录结果并验证测试已被运行&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        从运行错误中分析并指导恢复&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        和团队沟通测试结果&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-clt6MmLcD_02Nq3Fk1cSKA" name="test_case,_abigEf3IEeKrup_PWzAOjA" guid="-clt6MmLcD_02Nq3Fk1cSKA">
+    <refinedDescription>&lt;p>&#xD;
+    测试用例明确了系统必须被验证的条件，以保证通过测试对系统的指定方面进行了评估。测试用例比测试思路更加正式，通常，测试用例有指定的格式。在不那么正式的环境下，可以只创建测试用例，描述唯一的名称标识、名称、相关的测试数据和预期结果。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    驱动测试用例的来源可能很多，通常包含某个需求的子集（如用例集、性能特性、以及可靠性）以及其它类型的质量属性。更多有关测试类型和它们与质量属性的关系，参见概念：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Testing Qualitative Requirements&lt;/a>。&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AqEUxefj7rwdKQHZnM01_w" name="vision,_ab2pIf3IEeKrup_PWzAOjA" guid="-AqEUxefj7rwdKQHZnM01_w">
+    <keyConsiderations>&lt;p>&#xD;
+    保持此工件的简短是个好的实践，这样你可以仅可能的向利益相关人发布此工件，并使利益相关人容易阅读和理解。你可以通过仅仅包含最重要的特性、避免详细的需求来实现此目的。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    那些关注于产品开发的项目可以添加市场章节并包含更多产品定位的描述，这基于它们的需要和研究。&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BMkEvFNIuy_kjLIO6i_k_w" name="glossary,_ab33Qf3IEeKrup_PWzAOjA" guid="-BMkEvFNIuy_kjLIO6i_k_w">
+    <keyConsiderations>&lt;p>&#xD;
+    尽管此工件被当做需求规程里相关任务的输入、输出被列出，但它可以在任何时间、由任何角色进行更新，只要识别出新的术语。在所有的项目文档中使用这些定义的术语，从而使利益相关人可以清晰的看见这些术语被一致的使用。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在开发此工件时，有一个主要的决策，是使用单一的术语表，还是在多份不同的术语表（业务术语、工件和模型）中进行记录术语。如果它们在多个地方中定义，你需要和团队沟通所有的来源并确定它们的优先顺序。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    这可能很重要，即使在小项目中，引用和使用已存在的广泛术语表、业务术语工件、或数据模型，在它们存在的地方。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    针对行业或组织的术语表可能被引用，并需要遵循特定的标准。&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    此工件通过提供两个基础资源帮助避免误解：&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        可供新的开发团队成员查询术语和缩略语的集中的地点&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        在领域内以特定的方式使用的术语定义&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    术语定义有不同的来源，例如需求文档、规格说明，以及和利益相关人、领域专家的讨论。&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QbVhskDewgg5Bu9N5YdlyA" name="system_wide_requirements,_ab5FYf3IEeKrup_PWzAOjA" guid="-QbVhskDewgg5Bu9N5YdlyA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        当编写系统需求文档时，确保表达了所有的利益相关人需要。特别是，包括那些在交付后负责维护和支持系统的人。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        通常，全系统需求文档和其他需求工作产品之间存在某些重叠和灰色地带。例如，系统的鉴权行为可以通过用例的方式表达，也可以在全系统需求工件中描述。整体的原则是没有重要需求被遗漏或重复，并有一个约定的捕获和处理需求类型的方法。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        系统需求来源于许多地方。记录需求的来源很重要，当你区分外部强制性需求时。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        需求往往被看做“定性”（指定质量或合适的特征）与“定量”（指定数量）的。定性的需求有时会转化为定量的需求。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        一个好的质量需求应该能够被验证，通过测试或其它客观评估。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        必须为系统需求评估成本、进度影响，以及对业务目的的贡献水平。基于你的评估，系统需求应该被反复的挑战、防守和修订。&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SoqKFRoGGRqZVAaycwtUVQ" name="architecture_notebook,_acI9AP3IEeKrup_PWzAOjA" guid="-SoqKFRoGGRqZVAaycwtUVQ">
+    <refinedDescription>&lt;p>&#xD;
+    此工件描述了&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    它提供了一个地点维护架构问题清单，以及相关的架构决策、设计、模式、代码文档（或指向）等等——所有这些都在一个适当的层次上，以使已做出和未做出的架构决策更容易被理解。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    使用此工件有助于架构师在架构开发中同其他团队成员协作，并帮助团队成员理解架构决策背后的动机，从而使这些决策能够被更坚定的执行。例如，架构师可能对数据如何打包以及如何在系统不同部件之间如何通信进行约束。这看起来可能是种负担，但是在架构备忘录中可以给出理由解释原因，在与遗留系统之间的通信中存在显著的性能瓶颈。其余的系统必须通过特定的数据打包方案来适应这个瓶颈。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    此工件同时应该告知团队成员系统是如何被划分或组织的，从而团队能够适应系统的需要。同时，它还为后续那些维护和变更架构的人提供了系统的初始概貌及其技术动机。&#xD;
+&lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

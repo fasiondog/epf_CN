@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqL7MqeqEdmKDbQuyzCoqQ" name="developer,_0YDosMlgEdmt3adZL5Dmdw" guid="_NqL7MqeqEdmKDbQuyzCoqQ" changeDate="2008-07-02T06:41:08.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqL7MqeqEdmKDbQuyzCoqQ" name="developer,_0YDosMlgEdmt3adZL5Dmdw" guid="_NqL7MqeqEdmKDbQuyzCoqQ" changeDate="2013-08-06T23:33:13.590+0800" version="1.0.0">
   <skills>&lt;p>&#xD;
-    The person in this role needs the following knowledge, skills, and abilities:&#xD;
+    此角色需要以下的知识、技能和能力：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Enough expertise and experience to define and create technical solutions in the project's technology&#xD;
+        足够的专业知识和经验，定义和创建项目的技术解决方案&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to understand and conform to the architecture&#xD;
+        理解并遵循架构的能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to identify and build developer tests that cover required behavior of the technical components&#xD;
+        识别并构建开发测试的能力，这些开发测试覆盖了技术组件要求的行为&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to communicate the design in a way that other team members understand&#xD;
+        沟通设计以使其他团队成员理解设计的能力&#xD;
     &lt;/li>&#xD;
 &lt;/ul></skills>
   <assignmentApproaches>&lt;p>&#xD;
-    A person performing this role can have specialized skills in a particular technical area but should also have a broad&#xD;
-    understanding of all of the technologies involved to be able to work with other technical team members.&#xD;
+    承担此角色的人员可能有特定技术领域的特殊技能，但除此之外，还应该广泛的了解与其他技术团队成员共同工作所涉及的所有技术。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Even in the smallest team, multiple individuals should be working together to create the technical solution. In small,&#xD;
-    agile teams, this role is often shared among several team members who also perform other roles. &#xD;
-&lt;/p>&lt;br /></assignmentApproaches>
+    即使在最小的团队中，他们也需要共同工作创建技术解决方案。在小的、敏捷的团队中，此角色经常是共享的，即他们往往还承担了其它的角色。&#xD;
+&lt;/p></assignmentApproaches>
 </org.eclipse.epf.uma:RoleDescription>

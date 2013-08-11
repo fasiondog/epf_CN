@@ -1,234 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2008-01-25T09:58:59.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NrC20qeqEdmKDbQuyzCoqQ" name="design_solution,_0fshwMlgEdmt3adZL5Dmdw" guid="_NrC20qeqEdmKDbQuyzCoqQ" changeDate="2013-08-11T13:42:14.820+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This task is about designing part of the system, not the whole system.&amp;nbsp; It should be applied based upon some small&#xD;
-    subset of requirements.&amp;nbsp; The requirements driving the design could be scenario-based functional requirements,&#xD;
-    non-functional requirements, or a combination.&#xD;
+    此任务是关于系统一部分的设计，而不是整个系统。它应该基于某个小的需求集合。这些驱动设计的需求可能是基于场景的功能需求、非功能需求，或者两种的混合。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    This task can be applied in some specific context such as the database access elements required for some&#xD;
-    scenario.&amp;nbsp; In this case the task might be applied&amp;nbsp;again later&amp;nbsp;to deal with a different context on the&#xD;
-    same requirements.&amp;nbsp; Keep in mind that to actually build some functionality of value&amp;nbsp;to the users, all&#xD;
-    contexts will typically need to be designed and implemented. For example, to actually utilize some system capability it&#xD;
-    will have to have been designed and implemented all its context such as user interface, business rules, database&#xD;
-    access, etc.&#xD;
+    此任务可以应用在某些指定的上下文中，如某些场景要求的数据访问元素。在此种情况下，可能在后续过程中会再次执行此任务来处理在不同上下文中的相同需求。&amp;nbsp;记住，为用户构建有价值的功能，所有的上下文通常都需要设计和实现。例如，实际使用的某些系统功能需要在所有的上下文环境中设计和实现，如用户接口、业务规则、数据库访问等等。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For cohesion and completeness, this task is described as an end-to-end pass of designing a scenario of system usage. In&#xD;
-    practice, this task will be revisited many times as the design is first considered, portions are implemented, more&#xD;
-    design is performed based on what was learned, etc. The healthiest application of this task is in very close proximity&#xD;
-    to the implementation.&#xD;
+    为了内聚和完整性，此任务被描述成一个端到端的设计某个系统场景的任务。实际上，此任务将重复许多次，在首先考虑设计、实现了部分设计后，将继续所了解学习的进行更多的设计。最健康的应用此任务会非常的接近实现。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If this task is being performed on an architecturally significant element the results of this design should be&#xD;
-    referenced by the &lt;a class=&quot;elementLink&quot;&#xD;
+    如果此任务是针对架构关键需求，其结果应该被 &lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html&quot;&#xD;
-    guid=&quot;_8OD-cLPTEduocbW-TPTq7A&quot;>[Technical Architecture]&lt;/a>.&#xD;
+    guid=&quot;_8OD-cLPTEduocbW-TPTq7A&quot;>[技术-架构]&lt;/a>&amp;nbsp;引用。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    Each step in this task can cause all previous steps to be revisited in light of new information and decisions.&amp;nbsp;&#xD;
-    For example, while determining how elements collaborate&amp;nbsp;you might find a gap in the requirements that causes you&#xD;
-    to go back to the beginning after collaborating with the analyst, or when evaluating the design a reviewer&#xD;
-    could&amp;nbsp;note that a reusable element being used doesn't work as expected and that could cause you to identify new&#xD;
-    elements to take its place.&#xD;
+    此任务中的每个步骤都可能因为出现新的信息和决策而引起重复之前的步骤。例如，当你决定元素如何协作时可能发现无法满足需求，这将导致你重新回到分析的起点；或者当进行设计评估时，某位评审人员注意到某个可重用的元素并不能按期望进行工作，这可能导致需要识别新的元素来进行替换。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Consider the architecture while performing this task.&amp;nbsp; All design work must be done while regarding the&#xD;
-    architecture within which the design exists.&amp;nbsp; Furthermore, certain design elements will be deemed architecturally&#xD;
-    significant; those elements will require updates to the architecture.&#xD;
+    在执行此任务时考虑架构。必须对照架构完成所有的设计工作。此外，某些设计元素被视为架构关键要素，这些元素需要被更新进架构描述。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    This task will be applied numerous times.&amp;nbsp; Design is best performed in small chunks.&#xD;
+    此任务将被执行多次。最好是小块小块进行设计。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Even when starting the design for a particular project it&amp;nbsp;is expected that there will be existing frameworks and&#xD;
-    reusable elements.&amp;nbsp; Every step of this task must give attention to the existing design and existing&#xD;
-    implementation, utilizing existing elements when possible and emulating or improving existing elements as appropriate&#xD;
-    while designing this portion of the solution.&#xD;
+    甚至在开始某个特定项目时，希望有已存在的框架和可重用的元素。此任务的每个步骤都必须注意现有的设计和实现，可能时利用这些现有的元素，效仿或者改善这些已有元素。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Apply patterns throughout this task.&amp;nbsp; Patterns represent proven designs and their usage promotes quality and&#xD;
-    consistency across the design.&#xD;
+    在此任务中应用模式。模式代表了经过证明的设计和使用方法，可提升设计的质量与一致性。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="Understand requirement details" guid="_4Z7WYKuKEdmhFZtkg1nakg">
+  <sections xmi:id="_4Z7WYKuKEdmhFZtkg1nakg" name="理解需求细节" guid="_4Z7WYKuKEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Examine the relevant&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html&quot;&#xD;
-    guid=&quot;_i3vkoLS-EduDY8LNbMCDBA&quot;>[Technical Specification]&lt;/a>&amp;nbsp;to understand the scope of the design task and the&#xD;
-    expectations on the &lt;a class=&quot;elementLink&quot;&#xD;
+    查看 &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.slot.base/workproducts/technical_specification_slot_2812F7EF.html&quot;&#xD;
+    guid=&quot;_i3vkoLS-EduDY8LNbMCDBA&quot;>[技术-规格]&lt;/a> 以理解设计任务的范围和对 &lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html&quot;&#xD;
-    guid=&quot;_0WuL8slgEdmt3adZL5Dmdw&quot;>Design&lt;/a>. Work with the stakeholder and Analyst to clarify ambiguous or missing&#xD;
-    information.&#xD;
+    guid=&quot;_0WuL8slgEdmt3adZL5Dmdw&quot;>Design&lt;/a>&amp;nbsp;的期望。同利益相关人和分析人员一起，澄清那些模糊或遗失的信息。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If the requirements are not represented in some sort of scenario form (for example a non-functional requirement might&#xD;
-    not have a scenario associated with it), a scenario will have to be identified that appropriately exercises the&#xD;
-    requirements under consideration.&#xD;
+    如果需求未被表达成简短的场景形式（如非功能需求可能没有指定相关的场景），那么将需要仔细的考虑并适当的练习识别其场景。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If the requirements are&amp;nbsp;determined to be&amp;nbsp;incomplete or incorrect, work with the analyst to get the&#xD;
-    requirements improved and possibly submit a change request against the requirements.&#xD;
+    如果需求不完整或不正确，那么需要和分析人员一起完善需求，可能需要提交相应的需求变更申请。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Ci7aYFixEdusJoWkvSRO9Q" name="Understand the architecture" guid="_Ci7aYFixEdusJoWkvSRO9Q">
+  <sections xmi:id="_Ci7aYFixEdusJoWkvSRO9Q" name="理解架构" guid="_Ci7aYFixEdusJoWkvSRO9Q">
     <sectionDescription>&lt;p>&#xD;
-    Review the Architecture Notebook to identify changes and additions to the architecture. See&amp;nbsp;&lt;a&#xD;
-    class=&quot;elementLinkWithType&quot;&#xD;
+    Review《架构备忘录》以识别架构的变更和新增内容。参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
-    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a>&amp;nbsp;for more information. Work with the architect if&#xD;
-    there is any uncertainty on the understanding of relevant parts of the architecture or of the conformance of the design&#xD;
-    strategy.&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Evolve the Design&lt;/a>&amp;nbsp;获得更多信息。如果不确定对架构相关部分的理解或设计策略的一致性，则向架构师询问。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    This step can be skipped if there were no changes to the&amp;nbsp;architecture in the previous iteration&#xD;
+    如果在前一次的迭代中，架构没有任何变化，可跳过此步骤。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="Identify design elements" guid="_--6tYKuKEdmhFZtkg1nakg">
+  <sections xmi:id="_--6tYKuKEdmhFZtkg1nakg" name="识别设计元素" guid="_--6tYKuKEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Identify the elements that collaborate together to provide the required behavior. This can start with the key&#xD;
-    abstractions identified in the Architecture Notebook, design, domain analysis, and classical analysis of the&#xD;
-    requirements (noun filtering) to derive the elements that would be required to fulfill them. The &lt;a class=&quot;elementLink&quot;&#xD;
+    识别那些提供要求的行为而一起协作的元素。这可以从《架构备忘录》中识别的关键抽象，对需求进行设计、领域和对象分析开始，识别其中的设计元素。“&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/entity_control_boundary_pattern_C4047897.html&quot;&#xD;
-    guid=&quot;_uF-QYEAhEdq_UJTvM1DM2Q&quot;>Entity-Control-Boundary Pattern&lt;/a> provides a good start for identifying elements. Also&#xD;
-    see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    guid=&quot;_uF-QYEAhEdq_UJTvM1DM2Q&quot;>Entity-Control-Boundary Pattern&lt;/a>”为识别这些元素提供了一个好的开始。也可以参考指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
-    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>.&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Analyze the Design&lt;/a>。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Existing elements of the design should be examined to see if they should participate in the collaboration. It is a&#xD;
-    mistake to create all new elements in each execution of this task.&#xD;
+    检查已存在的设计元素，看看它们是否应该参与某个协作。试图在每次执行此任务的过程中创建所有的新元素，是一个错误。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="Determine how elements collaborate to realize the scenario" guid="_A_LU8KuLEdmhFZtkg1nakg">
+  <sections xmi:id="_A_LU8KuLEdmhFZtkg1nakg" name="确定元素如何协作从而实现场景" guid="_A_LU8KuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Walk through the scenario distributing responsibilities to the participating elements and ensuring that the elements&#xD;
-    have the relationships required to collaborate.&#xD;
+    通过贯穿场景为参与的元素分配职责，并确定在协作中这些元素的关联关系。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    These responsibilities can be simple statements of behavior assigned to elements; they need not be detailed operation&#xD;
-    specifications with parameters, etc. Similarly, the relationships can just be defined at this step. This step is about&#xD;
-    ensuring that a quality model is being created that is robust enough to support the requirements. See &lt;a&#xD;
-    class=&quot;elementLinkWithType&quot;&#xD;
+    这些职责可能是对分配给这些元素的行为的简单描述，并不需要明确具体的操作规约和参数。类似的，可以此步骤中定义关联关系。此步骤是为了确保质量模型是被创建出来，并且足够健壮以支持那些需求。参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
-    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>.&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Analyze the Design&lt;/a>.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Look to the architecture and previous design work to create a consistent collaboration. Work with the architect to&#xD;
-    understand the details and motivations of the architecture. Look to reuse existing behavior and relations or to apply&#xD;
-    similar structure to simplify the design of the overall system.&amp;nbsp; For more information, see&amp;nbsp; &lt;a&#xD;
-    class=&quot;elementLinkWithType&quot;&#xD;
+    参考架构和之前的设计工作，创建一个一致的协作。和架构师一起，理解架构细节和动机。参考可重用的已存在行为和关系，或应用类似的结构，以简化整个系统的设计。更多信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
-    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Software Reuse&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="Refine design decisions" guid="_ENwJwKuLEdmhFZtkg1nakg">
+  <sections xmi:id="_ENwJwKuLEdmhFZtkg1nakg" name="完善设计决策" guid="_ENwJwKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Refine the design to an appropriate level of detail to drive implementation and to ensure that it fits into the&#xD;
-    architecture. In this step the design can take into consideration the actual implementation language and other&#xD;
-    technical decisions. Revisit the identification of the elements and the collaborations that realize the scenarios if&#xD;
-    necessary as this refinement takes into consideration details at a lower level of abstraction. Discuss testability&#xD;
-    issues, such as design elements that are difficult to test or critical performance areas, with the tester and&#xD;
-    architect.&#xD;
+    在适当的层次上完善设计细节以驱动实现，并确保它符合架构。在此步骤中，可以考虑实际的实现语言和其它技术决策。当在较低的抽象层次上考虑这些细节时，如果必要，重新审视实现场景所识别的元素和它们之间的协作。同测试人员和架构师讨论可测试性问题，如设计元素是否难于被测试或有关键的性能问题。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Evolve the design by examining recent changes in the larger context of the design and determine if refactoring and&#xD;
-    redesigning techniques will improve the robustness, flexibility, and understandability of the design. See&amp;nbsp;&lt;a&#xD;
-    class=&quot;elementLinkWithType&quot;&#xD;
+    在更大的上下文范围中，检查近期的变化，演进设计。并决定是否需要重构和重设计来改善健壮性、灵活性以及设计的可理解性。参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
-    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a> for guidance specific design decisions and on making&#xD;
-    design improvements just when they're needed.&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Evolve the Design&lt;/a>，获取有关特定的设计决策，以及在需要时的设计改进指南。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Incorporate &lt;a class=&quot;elementLink&quot;&#xD;
+    从架构中，合入&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>s from the architecture. Apply consistent structure of the&#xD;
-    elements and organization of the behavior as in other areas of the design and use patterns identified in the&#xD;
-    architecture.&#xD;
+    guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>。在其它部分的设计中，应用元素的一致结构、组织其行为，并使用在架构中识别的模式。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="Design internals (for large or complex elements)" guid="_KNZYAKuLEdmhFZtkg1nakg">
+  <sections xmi:id="_KNZYAKuLEdmhFZtkg1nakg" name="内部设计（对于大的或复杂的元素）" guid="_KNZYAKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Design large or complex elements or some complex internal behavior in more detail.&#xD;
+    对大的、复杂的元素或某些复杂的元素，进行更多的细节设计。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    This might just involve devising an algorithm that could be performed to produce the desired behavior. Add additional&#xD;
-    operations, attributes, and relationships to support the expectations of an element.&#xD;
+    这可能涉及到设计产生这些期望行为所需要执行的算法。为支持这些元素的期望，加入额外的操作、属性以及关系。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Design the state of the element over the course of its lifetime to ensure its proper behavior in various circumstances.&#xD;
-    It may be useful to describe a state machine for elements with complex states.&#xD;
+    设计元素其生命周期中的状态，从而保证其在不同的环境中做出正确的行为。对于那些有复杂状态的元素，可能需要通过描述状态机来提供帮助。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="Communicate the design" guid="_OGYbwKuLEdmhFZtkg1nakg">
+  <sections xmi:id="_OGYbwKuLEdmhFZtkg1nakg" name="沟通设计" guid="_OGYbwKuLEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Communicate&amp;nbsp;the system's design to&amp;nbsp;those who need to understand it. Though this is described here toward the&#xD;
-    end of the task, communication should be going on throughout the steps. Working collaboratively is always better than&#xD;
-    reviewing the work after it is complete.&#xD;
+    和那些需要理解系统设计的人员进行沟通。虽然是在此任务将结束时描述此步骤，但沟通应该在整个任务中进行。协作的工作总是比在完成工作时进行评审要更好。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Here are some ways to communicate&amp;nbsp;the design:&#xD;
+    存在以下一些方式来沟通设计：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Formal models&amp;nbsp;specified in UML.&#xD;
+        使用UML定义的正式模型&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Informal diagrams that render static structure and capture&amp;nbsp;dynamic behavior.&#xD;
+        描述了静态结构和动态行为的非正式图形&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Annotated code that communicates information about the static structure. This can be&amp;nbsp;supplemented with textual&#xD;
-        descriptions of collaborative behavior across code modules.&#xD;
+        为静态结构添加代码注释。这可以通过补充对跨代码模块的协作行为进行文本描述来进行。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Data models to describe the database schema.&#xD;
+        描述了数据库样式的数据模型&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Here are some examples of individuals&amp;nbsp;who will need to understand the design of the system:&#xD;
+    以下是谁需要理解系统设计的示例：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Developers&amp;nbsp;who will implement a solution based on the design.&#xD;
+        基于设计实现解决方案的开发人员&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Architects who can review the design to ensure that it conforms to the architecture or who might examine the design&#xD;
-        for opportunities to improve the architecture.&#xD;
+        评审设计以保证其符合架构或检查设计寻找改进架构机会的架构师&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Other designers who can examine the design for applicability to other parts of the system.&#xD;
+        检查设计是否可以用于系统其它部分的其他设计人员&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Developers or other designers who will be working on other parts of the system that will&amp;nbsp;depend on the&#xD;
-        elements designed in this task.&#xD;
+        依赖于此步骤中的元素进行系统其它部分工作的开发人员或设计人员&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Other reviewers&amp;nbsp;who will review the design for quality and adherence to standards.&#xD;
+        评审设计是否符合质量要求和遵守规范的其他评审人员&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_mUVt8BfnEduD353bkQ4frw" name="Evaluate the design" guid="_mUVt8BfnEduD353bkQ4frw">
+  <sections xmi:id="_mUVt8BfnEduD353bkQ4frw" name="评估设计" guid="_mUVt8BfnEduD353bkQ4frw">
     <sectionDescription>&lt;p>&#xD;
-    Evaluate the object design for coupling, cohesion, and other quality design measurements.&#xD;
+    评估对象设计的耦合、内聚以及其它的质量设计度量。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Consider the design from various angles to ensure that it is a high-quality, communicable design. Work with other&#xD;
-    technical team members; an independent party can provide a fresh perspective. Use the tester and architect to provide&#xD;
-    perspectives on design quality and adherence to the architecture. However, when identifying potential reviewers keep in&#xD;
-    mind that if someone can add value by reviewing the design, then perhaps they could have added even more value by&#xD;
-    actively participating in the design effort itself. If design flaws are identified, improve the design.&#xD;
+    从不同角度考虑设计，以保证其高质量、可沟通性。和其他技术团队成员进行此步骤，一个独立的团队可以提供新的视角。通过测试人员和架构师，提供设计质量和符合架构的视角。但是，当识别潜在的评审人员时记住，如果某人能通过评审提供价值，那么他们可以通过积极参与设计本身来提供更多的价值。如果识别了设计缺陷，修正它们改善设计。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    更多信息，参见概念：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html&quot;&#xD;
-    guid=&quot;_bFjlAPTYEduDKIuqTXQ8SA&quot;>Concept: Design&lt;/a>, &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    guid=&quot;_bFjlAPTYEduDKIuqTXQ8SA&quot;>Design&lt;/a>、指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html&quot;&#xD;
-    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Guideline: Analyze the Design&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    guid=&quot;__MnggPTdEduDKIuqTXQ8SA&quot;>Analyze the Design&lt;/a>、指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../practice.tech.evolutionary_design.base/guidances/guidelines/evolve_the_design_3C9D6965.html&quot;&#xD;
-    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Guideline: Evolve the Design&lt;/a>&amp;nbsp;for more information.&#xD;
+    guid=&quot;_C4U9QPTeEduDKIuqTXQ8SA&quot;>Evolve the Design&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    The purpose of&amp;nbsp;this&amp;nbsp;task&amp;nbsp;is to describe the&amp;nbsp;elements of the system so that they support the&#xD;
-    required behavior, are of high quality, and fit within the architecture.&#xD;
+    此任务的目的是描述系统的元素，使它们支持要求的行为、高质量，且符合架构。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
