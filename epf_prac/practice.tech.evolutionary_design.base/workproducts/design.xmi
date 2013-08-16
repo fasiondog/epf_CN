@@ -1,44 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" name="design,_0WuL8slgEdmt3adZL5Dmdw" guid="_zxB-QKYcEdmvhNXG0Oc2uA" changeDate="2011-03-28T13:03:35.495-0700" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" name="design,_0WuL8slgEdmt3adZL5Dmdw" guid="_zxB-QKYcEdmvhNXG0Oc2uA" changeDate="2013-08-15T21:22:36.834+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
-    particular portions of the implementation.&#xD;
+    此工作产品描述了那些将用于实现系统的元素。它为特定的实现部分进行了可沟通的抽象。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
-    readiness for implementation, or as part of implementation.&#xD;
+    当架构聚焦于接口、模式以及关键决策时，设计为做好实现准备充实了细节，或作为实现的一部分。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
-    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
-    together without contradiction.&lt;br />&#xD;
+    此工作产品为检查描述系统的多个静态和动态视图。虽然不同的视图可能聚集于有关系统如何被整合并工作的不同的、看起来互相独立的问题，但它们们应该彼此配合没有冲突。&#xD;
 &lt;/p></mainDescription>
   <purpose>&lt;p>&#xD;
-    &amp;nbsp;Describe the&amp;nbsp;elements of the system&amp;nbsp;so&amp;nbsp;they can be examined and understood in ways&#xD;
-    not&amp;nbsp;possible by reading the source code.&#xD;
+    描述系统的元素，从而能够检查并理解它们，而这些不可能通过阅读源代码的方式进行。&#xD;
 &lt;/p></purpose>
   <impactOfNotHaving>&lt;p>&#xD;
-    Implementation will proceed with fine-grained, inconsistent tactical decisions that lead to poor-quality software.&#xD;
+    实现将因细粒度的、不一致的战术决策，而导致低质量的软件。&#xD;
 &lt;/p></impactOfNotHaving>
-  <reasonsForNotNeeding>The design typically needs to be represented in some form, although it may be captured in code or tests and not distinct as&#xD;
-a separate artifact. In circumstances where a project involves applying well-understood, existing strategies for&#xD;
-architecture and design, it is possible that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer&#xD;
-to some existing design.</reasonsForNotNeeding>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    设计通常需要以某种形式进行表达，尽快它可以被源代码或测试捕获，并且没有明显的作为一个独立的工件。当项目已有对架构和设计的良好理解和策略时，你可能不需要进行新的设计。在这些情况中，可以简单的引用某些已有的设计。&#xD;
+&lt;/p></reasonsForNotNeeding>
   <representationOptions>&lt;p>&#xD;
-    It is important that the author of this work product be able to analyze key decisions about the structure and behavior&#xD;
-    of the system and communicate them to other collaborators. It is also important that these decisions can be&#xD;
-    communicated at various levels of abstraction and granularity. Some aspects of the design can be represented by source&#xD;
-    code, possibly with some extra annotations. But more abstract representations of the design will be at a higher-level&#xD;
-    than source code.&#xD;
+    此工作产品的作者能够分析有关系统结构和行为的关键决策，并能够就此和其它合作者进行沟通，这很重要。同样重要的是，这些决策能够在不同的抽象级别和粒度上进行沟通。设计的某些方面可以在源代码中尽可能的添加额外的注释来表达。但是，更多的设计的抽象表达应该比源代码高一个层次。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The more abstract representation could use various representation options. UML could be used either strictly or&#xD;
-    informally; it is a preferred notation based on its rich semantics and broad usage in the industry. Other techniques&#xD;
-    could be used to communicate the design. Or the design could use a mix of techniques as applicable.&#xD;
+    更多的抽象描述可以通过不同的表达方式进行表述。可以严格的或非正式的使用UML；这是基于丰富语义的且在工业中广泛使用的符号表示法。也可以使用其他的技术来沟通设计。或者混合应用这些技术。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Whether you record these representations on a white board or use a formal tool is not governed by this process. But any&#xD;
-    representation, whether characterized as formal or informal, should unambiguously communicate the technical decisions&#xD;
-    embodied by the design.&#xD;
+    此过程没有对是使用白板还是使用正式的工具来记录这些描述进行限定。但是，任何描述，无论是正式的还是非正式的，都应该明确的沟通技术决策所呈现的设计。&#xD;
 &lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>

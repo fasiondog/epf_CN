@@ -77,10 +77,12 @@
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_EOPcMAMUEdylNddAObilIA" name="design" guid="_EOPcMAMUEdylNddAObilIA" presentationName="Design" briefDescription="This is the informal template suggested for representing design.A requirements realization is a part of the design that shows how one or more&#xD;&#xA;requirements is implemented.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_EOPcMAMUEdylNddAObilIA" name="design" guid="_EOPcMAMUEdylNddAObilIA" presentationName="设计" briefDescription="这是表达设计的非正式的建议模板。一个需求的实现就是设计的一部分，设计展示了一个或多个需求如何被实现。">
+            <methodElementProperty xmi:id="_MVwKgAWyEeO7w4v6w_b0VQ" name="me_edited" value="true"/>
             <presentation xmi:id="-giTBOvJczHXweRzBQEo-7A" href="uma://-giTBOvJczHXweRzBQEo-7A#-giTBOvJczHXweRzBQEo-7A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0XSzsMlgEdmt3adZL5Dmdw" name="design" guid="_0XSzsMlgEdmt3adZL5Dmdw" presentationName="Design">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0XSzsMlgEdmt3adZL5Dmdw" name="design" guid="_0XSzsMlgEdmt3adZL5Dmdw" presentationName="设计">
+            <methodElementProperty xmi:id="_5-QcgAW2EeO7w4v6w_b0VQ" name="me_edited" value="true"/>
             <presentation xmi:id="_YIYIYMM1EdmSIPI87WLu3g" href="uma://_YIYIYMM1EdmSIPI87WLu3g#_YIYIYMM1EdmSIPI87WLu3g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_irQiEOCsEdynptYdmll41Q" name="how_to_adopt_evolutionary_design" guid="_irQiEOCsEdynptYdmll41Q" presentationName="How to Adopt the Evolutionary Design Practice" briefDescription="This roadmap describes how to adopt the Evolutionary Development practice." supportingMaterials="_atpj0GjLEd2PJ-nlV-86WA">
@@ -91,7 +93,8 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_YNx2sJ05EdyQ3oTO93enUw"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WuL8slgEdmt3adZL5Dmdw" name="design" guid="_0WuL8slgEdmt3adZL5Dmdw" presentationName="Design" briefDescription="This artifact describes the realization of required system functionality and serves as an abstraction of the source code." conceptsAndPapers="_bFjlAPTYEduDKIuqTXQ8SA" checklists="_0XSzsMlgEdmt3adZL5Dmdw" templates="_EOPcMAMUEdylNddAObilIA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0WuL8slgEdmt3adZL5Dmdw" name="design" guid="_0WuL8slgEdmt3adZL5Dmdw" presentationName="设计" briefDescription="此工件作为源代码的抽象描述了系统所需功能的实现。" conceptsAndPapers="_bFjlAPTYEduDKIuqTXQ8SA" checklists="_0XSzsMlgEdmt3adZL5Dmdw" templates="_EOPcMAMUEdylNddAObilIA">
+            <methodElementProperty xmi:id="_7SFq4AKgEeO8DIPEa3VbNg" name="me_edited" value="true"/>
             <presentation xmi:id="_zxB-QKYcEdmvhNXG0Oc2uA" href="uma://_zxB-QKYcEdmvhNXG0Oc2uA#_zxB-QKYcEdmvhNXG0Oc2uA"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
           </contentElements>
@@ -128,7 +131,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_1fM3AC9_EduW5uTjiIcspQ" name="designing_visually" guid="_1fM3AC9_EduW5uTjiIcspQ" presentationName="Designing Visually" briefDescription="This guideline provides information on how to apply visual modeling to designing a system.">
             <presentation xmi:id="-1xE2ZW3MjNAJ7jkaZNbkww" href="uma://-1xE2ZW3MjNAJ7jkaZNbkww#-1xE2ZW3MjNAJ7jkaZNbkww"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_nnSXcD6SEduAL-bCqar_dg" name="design.vm" guid="_nnSXcD6SEduAL-bCqar_dg" presentationName="Visual Modeling Design" variabilityType="contributes" variabilityBasedOnElement="_0XSzsMlgEdmt3adZL5Dmdw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_nnSXcD6SEduAL-bCqar_dg" name="design.vm" guid="_nnSXcD6SEduAL-bCqar_dg" presentationName="可视化建模设计" variabilityType="contributes" variabilityBasedOnElement="_0XSzsMlgEdmt3adZL5Dmdw">
+            <methodElementProperty xmi:id="_BynJoAW3EeO7w4v6w_b0VQ" name="me_edited" value="true"/>
             <presentation xmi:id="-HQSI39vBrjpmQL1qHYOJtA" href="uma://-HQSI39vBrjpmQL1qHYOJtA#-HQSI39vBrjpmQL1qHYOJtA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_m42lMPTeEduDKIuqTXQ8SA" name="analyze_the_design.vm" guid="_m42lMPTeEduDKIuqTXQ8SA" variabilityType="contributes" variabilityBasedOnElement="__MnggPTdEduDKIuqTXQ8SA" guidelines="_1fM3AC9_EduW5uTjiIcspQ"/>
