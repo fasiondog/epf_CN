@@ -1,148 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_YIYIYMM1EdmSIPI87WLu3g" name="design,_0XSzsMlgEdmt3adZL5Dmdw" guid="_YIYIYMM1EdmSIPI87WLu3g" changeDate="2008-08-11T02:21:25.000-0700" version="1.0.0">
-  <sections xmi:id="_sO-NINVUEduaE6F4-SvXzg" name="The design is understandable" guid="_sO-NINVUEduaE6F4-SvXzg">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_YIYIYMM1EdmSIPI87WLu3g" name="design,_0XSzsMlgEdmt3adZL5Dmdw" guid="_YIYIYMM1EdmSIPI87WLu3g" changeDate="2008-08-11T17:21:25.000+0800" version="1.0.0">
+  <sections xmi:id="_sO-NINVUEduaE6F4-SvXzg" name="设计是可理解的" guid="_sO-NINVUEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is the design organized in a way that team members can easily find the information that they're looking for?&#xD;
+        设计是否按某种易于团队成员查找所需信息的方式进行组织？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the design as simple as it can be, while still fulfilling the objectives of the design and giving sufficient&#xD;
-        direction to implementers?&#xD;
+        在满足设计目标并给出足够的实现方向的同时，设计是否足够简单？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the design neither too simple nor too advanced? The design sophistication should be appropriate to the&#xD;
-        experience level of other team members and technical stakeholders. This applies to both the concept and the&#xD;
-        representation of the design.&#xD;
+        设计是否既不过于简单也不过于先进？设计的复杂度应该适合于其他团队成员和技术利益相关人的经验水平。这同时适用于概念和表达的设计。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does the design express what the designer intends to express?&#xD;
+        设计是否表达了设计人员所想要表达的内容？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_7DUXMNTQEduaE6F4-SvXzg" name="The design is consistent" guid="_7DUXMNTQEduaE6F4-SvXzg">
+  <sections xmi:id="_7DUXMNTQEduaE6F4-SvXzg" name="设计是一致的" guid="_7DUXMNTQEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the design follow any design standards?&#xD;
+        设计是否遵循某些标准？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does&amp;nbsp;the design&amp;nbsp;apply other idioms consistently?&#xD;
+        设计是否应用了一致的术语？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are the names of the design elements consistent and easy to interpret?&#xD;
+        设计元素的名称是否一致并易于理解？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does any part of the design contradict another part of it in such a way that puts the project at risk?&#xD;
+        任何部分的设计之间是否存在矛盾？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        If the design is rendered visually, is the notation used to&amp;nbsp;describe the design used consistently so that it&#xD;
-        can be understood and is not ambiguous?&#xD;
+        如果设计是可视化的，那么用来描述设计的符号是否一致，是否能够理解并没有歧义？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_V_LgsNTREduaE6F4-SvXzg" name="The design is maintainable" guid="_V_LgsNTREduaE6F4-SvXzg">
+  <sections xmi:id="_V_LgsNTREduaE6F4-SvXzg" name="设计是可维护的" guid="_V_LgsNTREduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is the design structured well enough to be maintained?&#xD;
+        设计的结构是否足够好利于维护？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the design set up to appropriately accommodate expected changes? The design should not be overdone to handle&#xD;
-        &lt;em>any&lt;/em> possible change, just reasonably expected changes.&#xD;
+        设计是否能够恰当的容纳预期的变化？设计不应该过度处理任何可能的变化，仅仅需要合理预期的变化。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Have redundant areas of the design been removed so that the implementation does not contain redundant code?&#xD;
+        有冗余的设计可以被删除吗，以使实现不包含冗余的代码？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_ySbT4NTREduaE6F4-SvXzg" name="The design is traceable" guid="_ySbT4NTREduaE6F4-SvXzg">
+  <sections xmi:id="_ySbT4NTREduaE6F4-SvXzg" name="设计是可跟踪的" guid="_ySbT4NTREduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Is it clear how the design elements relate to the requirements? This does not need to involve a heavyweight&#xD;
-        traceability strategy, but is there some way to figure out what part of the design supports a particular&#xD;
-        requirement?&#xD;
+        设计如何和需求关联是否清晰？这不需要使用重量级的跟踪策略，但是否有某种方式指出了设计的那个部分支持某个特定的需求？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        It what portions of the implementation support each design element clear?&#xD;
+        每个设计元素由哪些实现部分支撑是否清晰？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_tywgENTQEduaE6F4-SvXzg" name="The design reflects the architectural objectives of the system" guid="_tywgENTQEduaE6F4-SvXzg">
+  <sections xmi:id="_tywgENTQEduaE6F4-SvXzg" name="设计反映了系统的架构目标" guid="_tywgENTQEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the design conform to the architecture as specified?&#xD;
+        设计是否遵循了指定的架构？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does it apply the architectural patterns appropriately?&#xD;
+        设计是否恰当的应用了架构模式？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are Architectural Mechanisms used appropriately? Are they applied in all applicable circumstances?&#xD;
+        是否使用了合适的架构机制？它们是否适用于所有的应用场景？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_nMogoNTQEduaE6F4-SvXzg" name="The design elements are modular" guid="_nMogoNTQEduaE6F4-SvXzg">
+  <sections xmi:id="_nMogoNTQEduaE6F4-SvXzg" name="设计元素是模块化的" guid="_nMogoNTQEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Do the design elements have high internal cohesion? Does the degree of interaction within the unit demonstrate that&#xD;
-        all of the internal parts belong together?&#xD;
+        设计元素是否是高内聚的？单元间的交互程度是否证明了所有的内部部件是一个整体？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Do the design elements have low coupling? Is there minimal interdependence between design elements? When design&#xD;
-        elements depend upon one another, is this done as simply as possible and in such a way that the client element will&#xD;
-        not be affected by changes to the internal parts of the supplier element?&#xD;
+        设计元素是否低耦合？设计元素之间的依赖关系是否最小化？当设计元素依赖于其它设计元素时，是否已尽可能的简单，当在供应方元素内部应用变更时客户端元素是否不受影响？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are the design elements defined with&amp;nbsp;abstract interfaces in ways that changes can be made to the internal&#xD;
-        implementation without affecting client design elements?&#xD;
+        设计元素是否定义了抽象接口，当内部实现发生变更时不影响客户端设计元素？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does each design element represent a clearly defined abstraction?&#xD;
+        是否每一个设计元素都表示了一个清晰定义的抽象？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_19E2INTQEduaE6F4-SvXzg" name="The system can be implemented from the information in the design" guid="_19E2INTQEduaE6F4-SvXzg">
+  <sections xmi:id="_19E2INTQEduaE6F4-SvXzg" name="通过设计中的信息能够实现系统" guid="_19E2INTQEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Has sufficient detail been included to direct the implementation?&#xD;
+        是否包含了足够的细节以指导实现？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Does the design constrain the implementation only as much as necessary? Does the design allow freedom for the&#xD;
-        implementer to implement it appropriately?&#xD;
+        设计是否仅在需要的是否约束了实现？设计是否给予了实现者以合适的方式实施的自由？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is the design feasible? Is it a design that can be reasonably implemented by the team by using the technologies&#xD;
-        selected within the timeframe of the project?&#xD;
+        设计是否可行？在项目的时间段内，设计是否能够被团队使用所选技术合理的实现？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_F_AWwNTTEduaE6F4-SvXzg" name="The design provide enough information for developer testing" guid="_F_AWwNTTEduaE6F4-SvXzg">
+  <sections xmi:id="_F_AWwNTTEduaE6F4-SvXzg" name="设计为开发人员测试提供了足够的信息" guid="_F_AWwNTTEduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Does the design provide enough information for developer test design? Are the expected behavior and constraints on&#xD;
-        the methods clear?&#xD;
+        设计是否为开发人员测试提供了足够的信息？方法的期望行为和约束是否清晰？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are the collaborations between design elements clear enough to create integration tests?&#xD;
+        设计元素间的协助是否足够清晰从而进行集成测试？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_upZp0NT0EduaE6F4-SvXzg" name="The design describe the system at the appropriate level of abstraction" guid="_upZp0NT0EduaE6F4-SvXzg">
-    <sectionDescription>Does the design describe the system at the appropriate level of abstraction given the objectives? This usually means that&#xD;
-the system is described at several different levels of abstraction and from different perspectives.</sectionDescription>
+  <sections xmi:id="_upZp0NT0EduaE6F4-SvXzg" name="设计在恰当的抽象级别描述了系统" guid="_upZp0NT0EduaE6F4-SvXzg">
+    <sectionDescription>&lt;p>&#xD;
+    设计是否在合适的抽象级别描述了系统？这通常意味在几个不同的抽象级别和不同的视角描述系统。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Nqih0NVREduaE6F4-SvXzg" name="The design supports a coarse-grained perspective of the system" guid="_Nqih0NVREduaE6F4-SvXzg">
+  <sections xmi:id="_Nqih0NVREduaE6F4-SvXzg" name="设计支持系统的粗粒度视角" guid="_Nqih0NVREduaE6F4-SvXzg">
     <sectionDescription>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Can the design be understood as a set of higher-order subsystems?&#xD;
+        设计是否作为一系列高阶子系统而被理解？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are the subsystem dependencies documented?&#xD;
+        子系统的依赖关系是否被记录？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Are interfaces clearly defined for each subsystem? Is each subsystem designed so that its services can be accessed&#xD;
-        through the interface without a need to access internal parts?&#xD;
+        是否清晰定义了每个子系统的接口？每个子系统是否被设计为可通过接口访问它们的服务而不需要访问它们的内部组成？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Is each subsystem designed so that someone can work within one part without having to understand the internal parts&#xD;
-        of the other elements?&#xD;
+        每个子系统是否被设计为使用某个部件时不需要考虑其他元素的内部组成？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>

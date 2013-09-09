@@ -1,89 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UW-yTFk3AppqcGGU-Px63A" name=",_znlIcJR9EdyVKbgqUOtqQA" guid="-UW-yTFk3AppqcGGU-Px63A" changeDate="2010-09-15T12:44:18.858-0700" version="7.2.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UW-yTFk3AppqcGGU-Px63A" name=",_znlIcJR9EdyVKbgqUOtqQA" guid="-UW-yTFk3AppqcGGU-Px63A" changeDate="2013-09-09T20:59:42.084+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
-    rather than being directly based on the system requirements.&#xD;
+    开发人员测试是与其他测试形式不同的测试，它基于代码单元的预期行为，而不是直接基于系统需求。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    It is best to do this at a small scale, much smaller than the complete code base to be authored by a developer over the&#xD;
-    course of an iteration. This can be done for one operation, one field added to a user interface, one stored procedure,&#xD;
-    etc. As the code base is incrementally built, new tests will be authored and existing tests might be revisited to test&#xD;
-    additional behavior.&#xD;
+    使用它的最好方式是在每个迭代过程中由开发人员在某个远小于完整代码的代码库上进行编写。这可能是一个操作、为某个接口增加一个域、一个存储过程。当代码库随着构建而增长时，将编写新的测试，并将重新访问已有的测试来测试添加的行为。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;ol>&#xD;
     &lt;li>&#xD;
-        Automate tests via a unit regression testing tool (for example, xUnit) so that tests may be run by developers&#xD;
-        whenever they make changes to the code.&#xD;
+        通过单元进度测试工具（如xUnit）进行的自动化测试可以使开发人员在任何代码变更时运行这些测试。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Test to the risk of the implementation element. For example, the more critical an element is, the more important it&#xD;
-        is to test it thoroughly.&#xD;
+        测试实现元素的风险。例如，元素有多重要，那么彻底的测试它就会更重要。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Pair with&amp;nbsp;team members with testing skills&amp;nbsp;in all steps of this task to gain insight on testing and&#xD;
-        quality considerations.&#xD;
+        在此任务的每个步骤中拥有测试技能的团队成员结对能够更深入的考虑测试和质量&#xD;
     &lt;/li>&#xD;
 &lt;/ol>&#xD;
 &lt;p>&#xD;
-    The&amp;nbsp;[Project Work] is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
-    being realized in the code.&#xD;
+    在实现此任务的过程中隐含的使用了&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>包来管理将在代码中实现的需求或变更请求。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_C_j_EJR-EdyVKbgqUOtqQA" name="Refine scope and identify the test(s)" guid="_C_j_EJR-EdyVKbgqUOtqQA">
+  <sections xmi:id="_C_j_EJR-EdyVKbgqUOtqQA" name="细化范围并识别测试" guid="_C_j_EJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p>&#xD;
-    Select the increment of work to be tested and identify developer test(s)&amp;nbsp;to verify that the software&#xD;
-    implementation&amp;nbsp;being developed behaves correctly. One source for the expected behavior for an implementation&#xD;
-    element is the software design.&#xD;
+    选择待测试的工作增量，并识别开发人员测试以验证软件已实现行为的正确性。实现元素预期行为的其中一个来源是软件设计。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    In identifying the&amp;nbsp;tests or in any other part of this task, consider collaborating with a team member who is&#xD;
-    well-versed in the issues of testing.&#xD;
+    在识别这些测试或此任务的其它部分时，考虑与某位熟悉测试问题的团队成员合作。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Es64wJR-EdyVKbgqUOtqQA" name="Write the test setup" guid="_Es64wJR-EdyVKbgqUOtqQA">
-    <sectionDescription>To successfully run a test the system must be in a known state so that the correct behavior can be defined. Implement the&#xD;
-setup logic that must be performed as part of the developer test.</sectionDescription>
-  </sections>
-  <sections xmi:id="_Fm4moJR-EdyVKbgqUOtqQA" name="Define the expected results" guid="_Fm4moJR-EdyVKbgqUOtqQA">
+  <sections xmi:id="_Es64wJR-EdyVKbgqUOtqQA" name="编写测试准备（setup）" guid="_Es64wJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p>&#xD;
-    Define the expected results of each test so that it can be verified.&#xD;
+    为了成功运行某个测试，系统必须处在某个已知的状态，才能定义正确的行为。实现测试准备，这必须是执行开发人员测试的一部分。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Fm4moJR-EdyVKbgqUOtqQA" name="定义预期结果" guid="_Fm4moJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    定义每个测试的预期结果，从而能够进行验证。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    After a test runs, you need to be able to compare the results of running the test against what was expected to happen.&#xD;
-    The test is successful when the actual results match the expected results.&#xD;
+    在运行测试后，你需要能够对运行的结果和预期结果进行比较。当实际结果和预期结果匹配时，测试成功。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_GZaPwJR-EdyVKbgqUOtqQA" name="Write the test logic" guid="_GZaPwJR-EdyVKbgqUOtqQA">
-    <sectionDescription>Write the steps that perform the actual test(s).</sectionDescription>
-  </sections>
-  <sections xmi:id="_IMxq0JR-EdyVKbgqUOtqQA" name="Define the test response" guid="_IMxq0JR-EdyVKbgqUOtqQA">
-    <sectionDescription>Define the information the test(s) must produce to successfully indicate success or failure. Consider if a response of True&#xD;
-or False is sufficient, or if a detailed message should be logged as well.</sectionDescription>
-  </sections>
-  <sections xmi:id="_JAiqEJR-EdyVKbgqUOtqQA" name="Write clean-up code" guid="_JAiqEJR-EdyVKbgqUOtqQA">
-    <sectionDescription>Identify, and then implement, the steps to be followed in order to restore the environment to the original state for each&#xD;
-test. The goal is to ensure that there are no side effects from running the tests.</sectionDescription>
-  </sections>
-  <sections xmi:id="_KkDrQJR-EdyVKbgqUOtqQA" name="Test the test" guid="_KkDrQJR-EdyVKbgqUOtqQA">
+  <sections xmi:id="_GZaPwJR-EdyVKbgqUOtqQA" name="编写测试逻辑" guid="_GZaPwJR-EdyVKbgqUOtqQA">
     <sectionDescription>&lt;p>&#xD;
-    Verify that each developer test works correctly. To do this:&#xD;
+    编写实际测试的执行步骤。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_IMxq0JR-EdyVKbgqUOtqQA" name="定义测试响应" guid="_IMxq0JR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    定义测试必须产生的指示成功或失败的信息。考虑仅有True或者False的响应是否足够，或者是否需要记录更详细的信息。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_JAiqEJR-EdyVKbgqUOtqQA" name="编写清除代码（clean-up）" guid="_JAiqEJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    为每个测试识别并实现其执行后恢复环境到原始状态需要的步骤。目的是保证对运行的测试没有其它影响。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KkDrQJR-EdyVKbgqUOtqQA" name="测试这些测试" guid="_KkDrQJR-EdyVKbgqUOtqQA">
+    <sectionDescription>&lt;p>&#xD;
+    验证每个开发人员测试工作的正确性：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Run the test(s), observe their behavior, and fix any defects in the tests.&#xD;
+        运行这些测试，观察它们的行为，并修正测试中的缺陷。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ensure that the expected results are defined properly and that they're being checked correctly.&#xD;
+        确保正确的定义了预期结果，并且正确的检查了这些结果。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Check the clean-up logic for each test.&#xD;
+        为每个测试检查清除逻辑&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ensure that each developer test works within your test suite framework.&#xD;
+        确保每个开发人员测试都在你的测试套件框架中。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <purpose>Prepare to validate an implementation element (e.g. an operation, a class, a stored procedure) through unit testing. The&#xD;
-result is one or more new developer tests.</purpose>
-  <alternatives>Rely on acceptance tests to validate your software. This will likely be time consuming, late, and not as effective as&#xD;
-developer testing in identifying bugs and finding their location in the code.</alternatives>
+  <purpose>&lt;p>&#xD;
+    通过单元测试做好验证某个实现元素（如一个操作、一个类、一个存储过程）的准备。其结果是一个或多个新的开发人员测试。&#xD;
+&lt;/p></purpose>
+  <alternatives>&lt;p>&#xD;
+    依靠验收测试来验证你的软件。这可能会浪费时间，并且效果不比不上开发人员测试，要在晚期才能识别并定位缺陷。&#xD;
+&lt;/p></alternatives>
 </org.eclipse.epf.uma:TaskDescription>

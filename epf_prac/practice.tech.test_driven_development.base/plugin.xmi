@@ -35,7 +35,7 @@
             <presentation xmi:id="-CGSI-WD83sE5swSmSDjAYA" href="uma://-CGSI-WD83sE5swSmSDjAYA#-CGSI-WD83sE5swSmSDjAYA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_znlIcJR9EdyVKbgqUOtqQA" name="implement_developer_tests" guid="_znlIcJR9EdyVKbgqUOtqQA" presentationName="Implement Developer Tests" briefDescription="Implement one or more tests to verify an implementation element.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_znlIcJR9EdyVKbgqUOtqQA" name="implement_developer_tests" guid="_znlIcJR9EdyVKbgqUOtqQA" presentationName="实现开发人员测试" briefDescription="实现一个或多个测试以验证某个实现元素。">
             <methodElementProperty xmi:id="_0dYcMANgEeKgIrW2BoUv0Q" name="me_edited" value="true"/>
             <presentation xmi:id="-UW-yTFk3AppqcGGU-Px63A" href="uma://-UW-yTFk3AppqcGGU-Px63A#-UW-yTFk3AppqcGGU-Px63A"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>

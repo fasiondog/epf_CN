@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" name="developer_test,_0YuXEclgEdmt3adZL5Dmdw" guid="-1QQ8ajRx-ZzZnCjhkuaMXQ" changeDate="2009-07-28T01:16:53.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" name="developer_test,_0YuXEclgEdmt3adZL5Dmdw" guid="-1QQ8ajRx-ZzZnCjhkuaMXQ" changeDate="2013-09-09T22:20:36.366+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
     This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
     could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
@@ -14,7 +14,9 @@
     The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
     run correctly.&#xD;
 &lt;/p></mainDescription>
-  <purpose>This artifact is used to evaluate whether an implementation element performs as specified.</purpose>
+  <purpose>&lt;p>&#xD;
+    此工件用于评估一个实现元素是否按指定的要求实现。&#xD;
+&lt;/p></purpose>
   <impactOfNotHaving>If you do not run developer tests, you cannot ensure that elements that you modify over time are working. This can inhibit&#xD;
 iterative development and maintenance.</impactOfNotHaving>
   <reasonsForNotNeeding>If you can embed the tests into the production code, you might not need a separate work product. Nonetheless, some level of&#xD;
