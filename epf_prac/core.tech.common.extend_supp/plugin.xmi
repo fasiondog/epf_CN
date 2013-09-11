@@ -201,7 +201,8 @@
             <methodElementProperty xmi:id="_PxRzMBlbEeOLrKk9OzYw2w" name="me_edited" value="true"/>
             <presentation xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" href="uma://-1QQ8ajRx-ZzZnCjhkuaMXQ#-1QQ8ajRx-ZzZnCjhkuaMXQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_dxaPUF-BEd2T0JdVjRyaQA" name="developer_test" guid="_dxaPUF-BEd2T0JdVjRyaQA" presentationName="Developer Test">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_dxaPUF-BEd2T0JdVjRyaQA" name="developer_test" guid="_dxaPUF-BEd2T0JdVjRyaQA" presentationName="开发人员测试">
+            <methodElementProperty xmi:id="_SI3poBrwEeOngI2AS2VOyg" name="me_edited" value="true"/>
             <presentation xmi:id="-zD7XGTc4k1GFe4PvMKlkKA" href="uma://-zD7XGTc4k1GFe4PvMKlkKA#-zD7XGTc4k1GFe4PvMKlkKA"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0YuXEMlgEdmt3adZL5Dmdw" name="build" guid="_0YuXEMlgEdmt3adZL5Dmdw" presentationName="Build" briefDescription="An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product.">

@@ -1,80 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" name="developer_test,_0YuXEclgEdmt3adZL5Dmdw" guid="-1QQ8ajRx-ZzZnCjhkuaMXQ" changeDate="2013-09-09T22:20:36.366+0800" version="1.0.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1QQ8ajRx-ZzZnCjhkuaMXQ" name="developer_test,_0YuXEclgEdmt3adZL5Dmdw" guid="-1QQ8ajRx-ZzZnCjhkuaMXQ" changeDate="2013-09-11T21:24:54.080+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
-    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
-    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
-    particular aspect of a scenario.&#xD;
+    此工件覆盖了用于验证某个实现元素特定方面的所有步骤。例如，一个测试可以确认某个方法的参数正确接受了要求的最大、最小值。一个开发人员测试指定了测试入口、执行条件和预期的结果。识别这些条件和结果从而评估某个场景的特定方面。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
-    specified.&#xD;
+    当你为某个特定的实现元素收集开发人员测试时，你可以验证此元素是否按规格执行。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
-    run correctly.&#xD;
+    这些测试是自我记录的，当测试完成时无论实现元素是否正确运行，结果都清晰可见。&#xD;
 &lt;/p></mainDescription>
   <purpose>&lt;p>&#xD;
     此工件用于评估一个实现元素是否按指定的要求实现。&#xD;
 &lt;/p></purpose>
-  <impactOfNotHaving>If you do not run developer tests, you cannot ensure that elements that you modify over time are working. This can inhibit&#xD;
-iterative development and maintenance.</impactOfNotHaving>
-  <reasonsForNotNeeding>If you can embed the tests into the production code, you might not need a separate work product. Nonetheless, some level of&#xD;
-support for developer testing is always necessary when you develop application software.</reasonsForNotNeeding>
+  <impactOfNotHaving>&lt;p>&#xD;
+    如果没有运行开发人员测试，随着时间的进展无法确保修改的元素随仍能工作。这将阻碍迭代开发和维护。&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    如果能够在产品代码中嵌入测试，那么可以不需要独立的此工作产品。尽管如此，当开发应用软件时，某次层次的开发人员测试支持始终是必要的。&#xD;
+&lt;/p></reasonsForNotNeeding>
   <briefOutline>&lt;p>&#xD;
-    Although there is no predefined template for this work product, and testing tools affect how the work product is&#xD;
-    handled, you should address the following issues:&#xD;
+    尽管没有给出此工作产品的预定义模板&amp;nbsp;，并且测试工具会影响如何处理此工作产品，你都应该处理下面的问题：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Setup&#xD;
+        设置（Setup）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Inputs&#xD;
+        输入&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Script&#xD;
+        脚本&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Expected Results&#xD;
+        预期结果&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Evaluation Criteria&#xD;
+        评估准则&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Clean-Up&#xD;
+        清理（Clean-Up)&#xD;
     &lt;/li>&#xD;
 &lt;/ul></briefOutline>
   <representationOptions>&lt;p align=&quot;left&quot;>&#xD;
-    Suggestions and options for representing this work product:&#xD;
+    表示此工作产品的建议和选择：&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
-    Suggestion: Automated code unit&#xD;
+    建议：自动化代码单元&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
-    The most appropriate technique for running these tests is to use code that tests the implementation element scenarios&#xD;
-    and that you can run regularly as you update the system during development.&#xD;
+    运行这些测试最合适的技术是使用代码测试实现元素场景，并且在开发过程中更新系统时，你可以定期运行这些测试。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    When code is the sole form of the tests, ensure that the code is self-documenting. The code should document the&#xD;
-    specifications of the conditions you are testing and the setup or clean-up that is required for the test to run&#xD;
-    properly.&#xD;
+    当代码是这些测试的唯一形式时，确保代码是自记录的。这些代码应该记录测试的指定条件以及测试正确运行所要求的环境设置或退出清理。&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
-    Option: Manual instructions&#xD;
+    选择：人工指令&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
-    In some cases, you can use manual instructions. For example, when testing a user interface, a developer might follow a&#xD;
-    script, explaining the implementation element. In this case, it is still valuable to create a test harness that goes&#xD;
-    straight to the user interface. That way, the developer can follow the script without having to follow a complicated&#xD;
-    set of instructions to find a particular screen or page.&#xD;
+    在某些情况下，可以使用人工指令。例如，当测试某个用户接口时，开发人员可能执行某个脚本，解释实现元素。在这种情况下，创建一个测试工具直接进入用户接口，仍旧是有价值的。这种方式下，开发人员可以执行脚本而无需执行一系列复杂的指令去找到特定的屏幕或页面。&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
-    Option: Embedded code&#xD;
+    选择：嵌入代码&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
-    You can use certain technologies (such as Java(TM)5 Test Annotation) to embed tests in the implementation. In these&#xD;
-    cases, there will be a logical work product, but it will be assimilated into the code that you are testing. When you&#xD;
-    use this option, ensure that the code is self-documenting.&#xD;
+    可以使用特定的技术（如Java(TM)5 Test Annotation）将测试嵌入到实现中。在这些情况中，将有一个逻辑的工作产品，但是它被嵌入到被测试的代码中。当选择此方式时，确保代码是自记录的。&#xD;
 &lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>
