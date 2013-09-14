@@ -34,7 +34,8 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_i8bUEL6cEdqti4GwqTkbsQ" name="continuous_integration" guid="_i8bUEL6cEdqti4GwqTkbsQ" presentationName="Continuous Integration" briefDescription="This guideline describes how to apply continuous integration to reduce the risk and effort associated with late integration.">
             <presentation xmi:id="-DlaqJu4sEqMPk84qhJ6IEA" href="uma://-DlaqJu4sEqMPk84qhJ6IEA#-DlaqJu4sEqMPk84qhJ6IEA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kkZBgJOKEdyaRbFYa4AN4A" name="integrate_and_create_build" guid="_kkZBgJOKEdyaRbFYa4AN4A" presentationName="Integrate and Create Build" briefDescription="This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build." guidelines="_i8bUEL6cEdqti4GwqTkbsQ _SM4YIL6dEdqti4GwqTkbsQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kkZBgJOKEdyaRbFYa4AN4A" name="integrate_and_create_build" guid="_kkZBgJOKEdyaRbFYa4AN4A" presentationName="集成与构建" briefDescription="此任务描述了如何将开放人员所做的所有变更集成到基础代码中，并执行最小的测试来验证该构建。" guidelines="_i8bUEL6cEdqti4GwqTkbsQ _SM4YIL6dEdqti4GwqTkbsQ">
+            <methodElementProperty xmi:id="_g5zhsByNEeOPx6vD_sqtzw" name="me_edited" value="true"/>
             <presentation xmi:id="-01L_eCnHjKmBPsGcdk8XTg" href="uma://-01L_eCnHjKmBPsGcdk8XTg#-01L_eCnHjKmBPsGcdk8XTg"/>
             <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
             <conceptsAndPapers href="#_0cEmAMlgEdmt3adZL5Dmdw"/>

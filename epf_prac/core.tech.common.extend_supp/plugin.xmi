@@ -177,10 +177,12 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZfMEMlgEdmt3adZL5Dmdw" name="test_script" guid="_0ZfMEMlgEdmt3adZL5Dmdw" presentationName="Test Script" briefDescription="This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable&#xD;&#xA;automated testing." checklists="_KZQJMBhBEduxCP6DVVLxsA _0Z9tMMlgEdmt3adZL5Dmdw" guidelines="_0aDz0MlgEdmt3adZL5Dmdw _0j5sUMlgEdmt3adZL5Dmdw _0kF5kMlgEdmt3adZL5Dmdw" templates="_yZtgQI5gEdyO5aWob1UGDA">
             <presentation xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" href="uma://_NqYIcqeqEdmKDbQuyzCoqQ#_NqYIcqeqEdmKDbQuyzCoqQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZlSsMlgEdmt3adZL5Dmdw" name="test_log" guid="_0ZlSsMlgEdmt3adZL5Dmdw" presentationName="Test Log" briefDescription="This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZlSsMlgEdmt3adZL5Dmdw" name="test_log" guid="_0ZlSsMlgEdmt3adZL5Dmdw" presentationName="测试日志" briefDescription="此工件收集了在单独的测试周期中执行测试所产生的原始输出。">
+            <methodElementProperty xmi:id="_XlD_4ByNEeOPx6vD_sqtzw" name="me_edited" value="true"/>
             <presentation xmi:id="_NqePEKeqEdmKDbQuyzCoqQ" href="uma://_NqePEKeqEdmKDbQuyzCoqQ#_NqePEKeqEdmKDbQuyzCoqQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_JqYbgJ01EdyQ3oTO93enUw" name="implementation" guid="_JqYbgJ01EdyQ3oTO93enUw" presentationName="Implementation" briefDescription="Software code files, data files, and supporting files (such as online help files) that represent the raw parts of a system that can be built.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_JqYbgJ01EdyQ3oTO93enUw" name="implementation" guid="_JqYbgJ01EdyQ3oTO93enUw" presentationName="实现" briefDescription="系统的原始部分，如软件代码文件、数据文件以及支持文件（如在线帮助文件），通过它们可以构建系统。">
+            <methodElementProperty xmi:id="_g0EQsBvKEeOF06qTVAkFsQ" name="me_edited" value="true"/>
             <presentation xmi:id="-HPCdXGOQ2SGSCHZaDEKJRg" href="uma://-HPCdXGOQ2SGSCHZaDEKJRg#-HPCdXGOQ2SGSCHZaDEKJRg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_Vael8CGMEdu3VKXZx45D3A" name="system_wide_rqmts_furps" guid="_Vael8CGMEdu3VKXZx45D3A" presentationName="System-Wide Requirements (FURPS+)" briefDescription="This check list is used to verify that the different types of system-wide requirements covered by FURPS+ have been considered.">
@@ -205,7 +207,8 @@
             <methodElementProperty xmi:id="_SI3poBrwEeOngI2AS2VOyg" name="me_edited" value="true"/>
             <presentation xmi:id="-zD7XGTc4k1GFe4PvMKlkKA" href="uma://-zD7XGTc4k1GFe4PvMKlkKA#-zD7XGTc4k1GFe4PvMKlkKA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0YuXEMlgEdmt3adZL5Dmdw" name="build" guid="_0YuXEMlgEdmt3adZL5Dmdw" presentationName="Build" briefDescription="An operational version of a system or part of a system that demonstrates a subset of the capabilities to be provided in the final product.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0YuXEMlgEdmt3adZL5Dmdw" name="build" guid="_0YuXEMlgEdmt3adZL5Dmdw" presentationName="构建" briefDescription="一个系统的可操作版本或系统的一部分，其展示了最终产品所提供功能的一个子集。">
+            <methodElementProperty xmi:id="_GTAGUB1KEeOLo-t6LkU5sg" name="me_edited" value="true"/>
             <presentation xmi:id="_NqSB0KeqEdmKDbQuyzCoqQ" href="uma://_NqSB0KeqEdmKDbQuyzCoqQ#_NqSB0KeqEdmKDbQuyzCoqQ"/>
           </contentElements>
         </childPackages>

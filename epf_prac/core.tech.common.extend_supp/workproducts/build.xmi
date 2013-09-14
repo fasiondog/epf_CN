@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqSB0KeqEdmKDbQuyzCoqQ" name="build,_0YuXEMlgEdmt3adZL5Dmdw" guid="_NqSB0KeqEdmKDbQuyzCoqQ" changeDate="2011-04-01T14:55:14.512-0700" version="7.5.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqSB0KeqEdmKDbQuyzCoqQ" name="build,_0YuXEMlgEdmt3adZL5Dmdw" guid="_NqSB0KeqEdmKDbQuyzCoqQ" changeDate="2013-09-14T22:12:11.932+0800" version="7.5.0">
   <mainDescription>&lt;p>&#xD;
-    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
-    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
-    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+    此系统的可工作版本或系统的部分是通过构建过程将实现放在一起的结果，这生产了一个可执行版本。该可执行版本通常有大量的支持文件，这些文件也被视为此工件的一部分。&#xD;
 &lt;/p></mainDescription>
-  <purpose>Deliver incremental value to the user and customer, and provide a testable artifact for verification.</purpose>
+  <purpose>&lt;p>&#xD;
+    向用户和客户交付增量价值，并为验证提供一个可测试的工件。&#xD;
+&lt;/p></purpose>
   <impactOfNotHaving>&lt;p>&#xD;
-    Without this artifact, there is no operational version of the system.&#xD;
+    没有此工件，将没有系统的可操作版本。&#xD;
 &lt;/p></impactOfNotHaving>
   <reasonsForNotNeeding>&lt;p>&#xD;
-    This artifact is not needed if the development of an application is not within the scope of the solution.&#xD;
+    如果开发的应用不在解决方案的范围内，那么不需要此工件。&#xD;
 &lt;/p></reasonsForNotNeeding>
   <representationOptions>&lt;p>&#xD;
-    This work product is almost always a product made up of numerous parts required to make the executable system.&#xD;
-    Therefore, a build is more than just executable files; it also includes such things as configuration files, help files,&#xD;
-    and data repositories that will be put together, resulting in the product that the users will run. The specifics of&#xD;
-    those parts will vary by technology in use.&#xD;
+    此工作产品总是由生产可执行系统所需要的大量部件组成。所以，一个构建不仅仅是可执行文件；还包括例如配置文件、帮助文件、数据库，这些将被放在一起生成用户可运行的产品。这些部件的细节随使用的技术不同而不同。&#xD;
 &lt;/p></representationOptions>
 </org.eclipse.epf.uma:ArtifactDescription>

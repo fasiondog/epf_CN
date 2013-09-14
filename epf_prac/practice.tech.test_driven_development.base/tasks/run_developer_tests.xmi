@@ -1,59 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" name=",_R7atwJfIEdyZkIR-s-Y8wQ" guid="-H6ob8eA7gz_mOsk8ulSFMQ" changeDate="2010-09-15T12:46:34.530-0700" version="7.2.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" name=",_R7atwJfIEdyZkIR-s-Y8wQ" guid="-H6ob8eA7gz_mOsk8ulSFMQ" changeDate="2013-09-13T22:03:33.218+0800" version="7.2.0">
   <keyConsiderations>&lt;p>&#xD;
-    It is common to require that code pass all developer tests before it can be delivered in an integrated source code&#xD;
-    repository.&#xD;
+    通常要求在提交代码到集成代码库前，代码通过了所有的开发人员测试。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Pair with testing experts to gain insight on testing and quality considerations.&#xD;
+    同测试专家结对能更深入的考虑测试和质量。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The&amp;nbsp;[Project Work]&amp;nbsp;is implicitly used in implementation tasks to manage which requirements or change requests&#xD;
-    are being realized in the code.&#xD;
+    在实现任务过程中，隐含使用了&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>包来管理那些在代码中实现的需求或变更。&#xD;
 &lt;/p></keyConsiderations>
-  <sections xmi:id="_gjLBUJfIEdyZkIR-s-Y8wQ" name="Run developer tests" guid="_gjLBUJfIEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_gjLBUJfIEdyZkIR-s-Y8wQ" name="运行开发人员测试" guid="_gjLBUJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Run the developer tests.&amp;nbsp;The procedure will vary, depending on whether the test is manual or automated and whether&#xD;
-    additional test components are necessary,&amp;nbsp;such as&amp;nbsp;drivers or stubs.&#xD;
+    运行开发人员测试。此过程会有所不同，这依赖于测试是手工还是自动，以及是否需要额外的测试组件，如驱动或桩。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    To run the tests, you need to make sure that you have initialized the test environment with all necessary elements,&#xD;
-    such as software, hardware, tools, data, and so on.&#xD;
+    为了运行这些测试，需要确认已经初始化了测试环境所需的所有必需元素，如软件、硬件、工具、数据等等。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Automated tests will often update a test results&amp;nbsp;which you can evaluate to determine where your tests went wrong.&#xD;
+    自动化测试通常将更新测试结果，该结果能够评估判断测试是否发生了错误。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_haRocJfIEdyZkIR-s-Y8wQ" name="Evaluate test execution" guid="_haRocJfIEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_haRocJfIEdyZkIR-s-Y8wQ" name="评估测试执行" guid="_haRocJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Evaluate the test execution by analyzing the test run.&amp;nbsp;&#xD;
+    通过分析测试运行情况，评估测试的执行。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Testing will&amp;nbsp;complete either&amp;nbsp;normally or abnormally.&amp;nbsp; For correctly implemented tests, a normal&#xD;
-    completion represents a passed test, though it could warrant additional examination of the test results log to&#xD;
-    ensure&amp;nbsp;the test&amp;nbsp;ran as expected.&amp;nbsp; Abnormal termination could be premature termination or just a test&#xD;
-    that does not complete as intended.&#xD;
+    测试可能正常或者异常结束。对于正确实现的测试，正常结束代表着通过测试，虽然可以对测试结果日志进行额外检查来确认测试按预期执行。异常终止可能是提前终止或测试未能按预期完成。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Review the test log to understand any reported failures, warnings, or unexpected results. The cause of the problem(s)&#xD;
-    might be that the implementation&amp;nbsp;element being tested is faulty, a problem with the developer tests, or a problem&#xD;
-    with the environment.&#xD;
+    Review测试日志，理解报告的失效、告警、或非预期的结果。问题的原因可能是被测试的实现元素有错误、开发人员测试存在问题，或者环境问题。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_itj1QJfIEdyZkIR-s-Y8wQ" name="Respond to test results" guid="_itj1QJfIEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_itj1QJfIEdyZkIR-s-Y8wQ" name="响应测试结果" guid="_itj1QJfIEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Determine the appropriate corrective action to recover from a &quot;failed&quot; developer test run. If the implementation&#xD;
-    element under test is faulty, fix the problem if possible and rerun the tests. If the problem is serious and cannot be&#xD;
-    immediately addressed, report the defect. If the developer test is faulty fix the test and rerun the tests. If there&#xD;
-    was a problem with the environment, resolve it and then rerun&amp;nbsp;the tests.&#xD;
+    确定合适的纠正措施，使开发人员测试从“失败（failed）”中恢复。如果被测的实现元素存在错误，修正该问题并重新运行测试。如果问题很严重并且无法立即处理，则报告该缺陷。如果开发人员测试存在错误，则修正错误并重新测试。如果是环境问题，解决它并重新测试。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_C0_fYFQAEd2ECfw27om6fw" name="Promote changes for integration test" guid="_C0_fYFQAEd2ECfw27om6fw">
+  <sections xmi:id="_C0_fYFQAEd2ECfw27om6fw" name="提交变更进行集成测试" guid="_C0_fYFQAEd2ECfw27om6fw">
     <sectionDescription>&lt;p>&#xD;
-    When the developer tests pass and no further work is need to complete the change set, promote the changes for&#xD;
-    integration test. If the passing of these tests represent completion of a requirement update the status of the work&#xD;
-    item.&#xD;
+    当通过开发人员测试并且变更集没有进一步的工作需要完成时，提交这些变更进行集成测试。如果这些测试的通过代表着某个需求的完成，那么更新对应工作项的状态。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <purpose>To verify that the implementation works as specified.</purpose>
+  <purpose>&lt;p>&#xD;
+    验证实现元素按照规格要求工作&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

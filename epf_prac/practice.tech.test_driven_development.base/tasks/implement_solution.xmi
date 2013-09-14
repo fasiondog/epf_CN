@@ -1,104 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" name=",_Ht-z8JfJEdyZkIR-s-Y8wQ" guid="-UaDGd7K2rQIFMwCrDuqQKQ" changeDate="2010-09-15T12:46:02.202-0700" version="7.2.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" name=",_Ht-z8JfJEdyZkIR-s-Y8wQ" guid="-UaDGd7K2rQIFMwCrDuqQKQ" changeDate="2013-09-12T23:09:47.129+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not&#xD;
-    need to be.&#xD;
+    通常，此任务聚焦于某个特定的实现元素，例如某个类或组件，但这不是必需的。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    A portion of the design is implemented by performing this task. This task can be performed any number of times during&#xD;
-    an iteration. In fact it is best to do this task in as small a scope as possible to tighten the loop between it and&#xD;
-    related tasks involving developer testing and consideration of the design.&#xD;
+    通过此任务来实现设计的某个部分。此任务可以在一个迭代中执行任意的次数。事实上，此任务最好同与其相关的开发人员测试和设计任务一起在尽可能小的循环中执行。&#xD;
 &lt;/p></mainDescription>
   <keyConsiderations>&lt;p>&#xD;
-    It is best when developer tests already exist so there is an unambiguous definition of what behavior is considered&#xD;
-    correct. The implementation should be immediately tested.&#xD;
-&lt;/p>The [Project Work]&amp;nbsp; is implicitly used in implementation tasks to manage which requirements or change requests are&#xD;
-being realized in the code.&lt;br /></keyConsiderations>
-  <sections xmi:id="_RiBg4JfJEdyZkIR-s-Y8wQ" name="Determine a strategy" guid="_RiBg4JfJEdyZkIR-s-Y8wQ">
+    最好在完成开发人员测试之后执行此任务，此时开发人员测试清晰的定义了正确的行为。实现应该被立即测试。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在执行此任务时，隐含使用了&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html&quot;&#xD;
+    guid=&quot;_1QZI8EfUEdyiPI8btkmvmw&quot;>[项目工作]&lt;/a>包来管理在代码中将要实现的需求或变更。&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_RiBg4JfJEdyZkIR-s-Y8wQ" name="明确策略" guid="_RiBg4JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Determine a strategy based on the software design and developer tests&amp;nbsp;for how you are going to implement the&#xD;
-    solution. The fundamental options are:&#xD;
+    基于软件设计和开发人员测试，确定实现解决方案的策略。其基础选项是：&#xD;
 &lt;/p>&#xD;
 &lt;ol>&#xD;
     &lt;li>&#xD;
-        Apply existing, reusable assets.&#xD;
+        应用已有、可重用的资产&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Model the design in detail and generate the source code (by model transformation).&#xD;
+        模型化设计细节并生成源代码（通过模型转换）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Write the source code.&#xD;
+        编写源代码&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Any combination of the above.&#xD;
+        以上的任意组合&#xD;
     &lt;/li>&#xD;
 &lt;/ol></sectionDescription>
   </sections>
-  <sections xmi:id="_SW1pAJfJEdyZkIR-s-Y8wQ" name="Identify opportunities for reuse" guid="_SW1pAJfJEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_SW1pAJfJEdyZkIR-s-Y8wQ" name="识别重用机会" guid="_SW1pAJfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Identify existing code or other implementation elements that can be reused in the portion of the implementation that&#xD;
-    you are creating or changing. A comprehensive understanding of the overall design is helpful, because it is best to&#xD;
-    leverage reuse opportunities when you have a thorough understanding of the proposed solution.&#xD;
+    识别可在实现中重用的已有代码或其它实现元素。对整体设计的全面理解非常有用，因为当你对建议的解决方案有一个全面的理解时能够最好的利用可重用机会。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IVaTAJ-uEdyHNcWzRYqQMg" name="Transform design into implementation" guid="_IVaTAJ-uEdyHNcWzRYqQMg">
+  <sections xmi:id="_IVaTAJ-uEdyHNcWzRYqQMg" name="将设计转换为实现" guid="_IVaTAJ-uEdyHNcWzRYqQMg">
     <sectionDescription>&lt;p>&#xD;
-    If you are using sophisticated modeling tools, you should be able to generate a portion of the required source code&#xD;
-    from the model. Note that programming is&amp;nbsp;commonly required to complete the implementation after the design model&#xD;
-    has been transformed into code.&#xD;
+    如果使用精细的建模工具，你可以从模型中生成部分所需的源代码。注意，在设计模型生成代码后，通常仍需要编程完成整个实现。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Even without tools, there is&amp;nbsp;typically some amount of code that can be created by rote by examining the design and&#xD;
-    developer tests.&#xD;
+    即使没有工具，通常仍有某些代码可以通过检查设计和开发人员测试来编写。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_TadCIJfJEdyZkIR-s-Y8wQ" name="Write source code" guid="_TadCIJfJEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_TadCIJfJEdyZkIR-s-Y8wQ" name="编写源代码" guid="_TadCIJfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Write the source code to make the implementation conform to the design and expected behavior. You should strive to&#xD;
-    reuse and/or generate code wherever possible, but you will still need to do some programming. To do so, consider the&#xD;
-    following:&#xD;
+    编写代码以使实现符合设计和预期的行为。你应该在任何可能的地方尽可能的重用和/或生成代码，但是仍需要进行某些编程工作。为此，考虑：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Examine the technical requirements. Because some requirement information does not translate directly into your&#xD;
-        design you should examine the requirement(s) to ensure that they are fully realized in the implementation.&#xD;
+        检查技术需求。因为某些需求信息不能直接转换到设计中，应该检查这些需求以保证它们被完整的实现。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Refactor your code to improve its design. Refactoring is a technique where you improve the quality of your code via&#xD;
-        small, safe changes.&#xD;
+        重构代码以改善设计。重构是一项技术，通过小的、安全的变更来改善代码质量。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Tune the results of the existing implementation by improving performance, the user interface, security, and other&#xD;
-        nonfunctional areas.&#xD;
+        通过改善性能、用户接口、安全性以及其它非功能领域来调优已有实现的结果&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Add missing details, such as completing the logic of operations or adding supporting classes and data structures&#xD;
+        添加遗失的细节，如完成操作的逻辑或增加支持类和数据结构&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Handle boundary conditions.&#xD;
+        处理边界条件&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Deal with unusual circumstances or error states.&#xD;
+        处理异常情况或错误状态&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Restrict behavior (preventing users or client code from executing illegal flows, scenarios, or combinations of&#xD;
-        options).&#xD;
+        约束行为（防止用户或客户端代码执行非法路径、场景或选项的组合）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Add critical sections for multi-threaded or re-entrant code.&#xD;
+        为多线程或可重入代码添加关键区&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Though many different considerations are listed here, there is one clear way to know when the source code is done. The&#xD;
-    solution has been implemented when it passes the developer tests. Any other considerations can be taken care of in a&#xD;
-    refactoring pass over the code to improve it once it is complete and correct.&#xD;
+    尽管上面列出了许多不同的考虑，但仍有一个明确的方式判断编码何时结束。当解决方案通过了开发人员测试，则完成了其实现。一旦代码完成并验证正确后，其它任何考虑可以通过代码重构来处理。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_WpB28JfJEdyZkIR-s-Y8wQ" name="Evaluate the implementation" guid="_WpB28JfJEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_WpB28JfJEdyZkIR-s-Y8wQ" name="评估实现" guid="_WpB28JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Verify that the implementation is fit for its purpose. Examine the code for its suitability to perform its intended&#xD;
-    function. This is a quality assurance step that you perform in addition to testing which is described in other tasks.&#xD;
-    Consider these strategies:&#xD;
+    验证实现符合其目的。检查代码是否匹配了其预期的功能。这是在测试之外的质量保证步骤。考虑以下策略：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
@@ -106,50 +89,40 @@ being realized in the code.&lt;br /></keyConsiderations>
         being written.&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Read through the code for common mistakes. Consider keeping a checklist of common mistakes that you make, as a&#xD;
-        reminder reference.&#xD;
+        结对编程。首先通过结对来实现代码，你可以在编写时高效的评估代码。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Use tools to check for implementation errors and inappropriate code. For example, use a static code rule checker or&#xD;
-        set the compiler to the most detailed warning level.&#xD;
+        通读代码寻找常见错误。考虑保留一个常犯错误的检查单，作为提示参考。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Use tools that can visualize the code. Code visualization, such as the UML visualizations in the Eclipse IDE, help&#xD;
-        developers identify issues such as excessive coupling or circular dependencies.&#xD;
+        使用工具检查实现的错误以及不合适的代码。例如，使用静态代码规则检查工具或者设置编译器显示最详细的告警级别。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Perform informal, targeted code inspections. Ask colleagues to review small critical sections of code and code with&#xD;
-        significant churn. Avoid reviewing large sections of code.&#xD;
+        使用工具可视化代码。代码可视化，如在Eclipse IDE中的UML可视化，帮助开发人员识别问题，如过度耦合或循环依赖。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Use&amp;nbsp;a tester to ensure the implementation is testable and understandable to testing resources.&#xD;
+        执行非正式的、有针对性的代码检视。请求同事Review小规模的关键代码。避免Review大量的代码。&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        使用测试人员来保证实现是可测试和可理解的测试资源&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Improve the implementation based on the results of these evaluations.&#xD;
+    基于这些评估的结果改进实现。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_XjAL4JfJEdyZkIR-s-Y8wQ" name="Communicate significant decisions" guid="_XjAL4JfJEdyZkIR-s-Y8wQ">
+  <sections xmi:id="_XjAL4JfJEdyZkIR-s-Y8wQ" name="沟通重要决策" guid="_XjAL4JfJEdyZkIR-s-Y8wQ">
     <sectionDescription>&lt;p>&#xD;
-    Communicate the impact of unexpected changes to the design and requirements.&#xD;
+    沟通意想不到的变化对设计和需求的影响。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The issues and constraints that you uncover when you implement the system must be communicated to the team. The impact&#xD;
-    of issues discovered during implementation must be incorporated into future decisions. If appropriate, use&amp;nbsp; the&#xD;
-    change management process to reflect ambiguities that you identified and resolved in the implementation so they can be&#xD;
-    tested and you can manage&amp;nbsp;stakeholder expectations appropriately. Similarly,&amp;nbsp;leverage the design process to&#xD;
-    update the design to reflect new constraints and issues uncovered during implementation to be sure that the new&#xD;
-    information is communicated to other developers.&#xD;
+    在实现系统时，必须和团队沟通你发现的问题和约束。在实现中发现的问题影响必须合并到未来的决策中。如果合适，使用变更管理过程来反映在实现中识别和解决的歧义，这样可以测试它们，并恰当的管理利益相关人期望。类似的，利用设计过程来更新设计以反映实现中新的约束和发现的问题，从而保证和其他开发人员沟通这些新的信息。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Usually, there is no need for a change request if the required change is small and the same person is designing and&#xD;
-    implementing the code element. That individual can make the design change directly. If the required change has a broad&#xD;
-    impact, it may be necessary to communicate that change to the other team members through a change request.&#xD;
+    通常，对于小的以及由同一个人进行设计和实现的代码不需要提交变更申请，他能够直接变更设计。如果变更有着广泛的影响，需要同其他团队成员沟通此变更时，变更申请可能是必需的。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    The purpose of this task is to produce an implementation for part of the solution (such as a class or component), or to&#xD;
-    fix one or more defects. The result is typically new or modified source code, which is&amp;nbsp;referred to the&#xD;
-    implementation.&#xD;
+    此任务的目的是生产解决方案部分的实现（如某个类或组件），或者修正缺陷。其结果通常是提交实现的新的或修改后的源代码。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

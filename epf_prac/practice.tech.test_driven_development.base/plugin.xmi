@@ -43,14 +43,16 @@
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R7atwJfIEdyZkIR-s-Y8wQ" name="run_developer_tests" guid="_R7atwJfIEdyZkIR-s-Y8wQ" presentationName="Run Developer Tests" briefDescription="Run tests against the individual implementation elements to verify that their internal structures work as specified.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_R7atwJfIEdyZkIR-s-Y8wQ" name="run_developer_tests" guid="_R7atwJfIEdyZkIR-s-Y8wQ" presentationName="运行开发人员测试" briefDescription="针对独立的实现元素运行测试，以验证它们的内部结构按照规格要求进行工作。">
+            <methodElementProperty xmi:id="_usRUYBx_EeOPx6vD_sqtzw" name="me_edited" value="true"/>
             <presentation xmi:id="-H6ob8eA7gz_mOsk8ulSFMQ" href="uma://-H6ob8eA7gz_mOsk8ulSFMQ#-H6ob8eA7gz_mOsk8ulSFMQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
             <mandatoryInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
             <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_kh9FcJ02EdyQ3oTO93enUw"/>
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ht-z8JfJEdyZkIR-s-Y8wQ" name="implement_solution" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ" presentationName="Implement Solution" briefDescription="Implement source code to provide new functionality or fix defects.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ht-z8JfJEdyZkIR-s-Y8wQ" name="implement_solution" guid="_Ht-z8JfJEdyZkIR-s-Y8wQ" presentationName="实现解决方案" briefDescription="实现源代码以提供新功能或修正缺陷。">
+            <methodElementProperty xmi:id="_PinNcBu-EeOF06qTVAkFsQ" name="me_edited" value="true"/>
             <presentation xmi:id="-UaDGd7K2rQIFMwCrDuqQKQ" href="uma://-UaDGd7K2rQIFMwCrDuqQKQ#-UaDGd7K2rQIFMwCrDuqQKQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_Poc7IPDzEdqYgerqi84oCA"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_mlKb8JyJEdy9brKHb521mQ"/>
