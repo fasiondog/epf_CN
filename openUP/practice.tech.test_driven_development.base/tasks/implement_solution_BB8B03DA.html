@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Implement Solution</title>
+<title>任务：实现解决方案</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="implement_solution">
-<meta name="uma.presentationName" content="Implement Solution">
+<meta name="uma.presentationName" content="实现解决方案">
 <meta name="uma.category" content="Discipline:development_discipline:开发">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_Ht-z8JfJEdyZkIR-s-Y8wQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Implement Solution</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：实现解决方案</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Implement source code to provide new functionality or fix defects.</td>
+<td valign="top">实现源代码以提供新功能或修正缺陷。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html" guid="_iGSHsVZ-EdyIUdvDLLUdeg">开发</a></td>
@@ -57,9 +57,7 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    The purpose of this task is to produce an implementation for part of the solution (such as a class or component), or to
-    fix one or more defects. The result is typically new or modified source code, which is&nbsp;referred to the
-    implementation.
+    此任务的目的是生产解决方案部分的实现（如某个类或组件），或者修正缺陷。其结果通常是提交实现的新的或修改后的源代码。
 </p></td>
 </tr>
 </table>
@@ -106,7 +104,7 @@
 <a href="./../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[技术-实现]</a>
 </li>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">Developer Test</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">开发人员测试</a>
 </li>
 </ul>
 <ul></ul>
@@ -116,7 +114,7 @@
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/implementation_AFFEFC46.html" guid="_JqYbgJ01EdyQ3oTO93enUw">Implementation</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/implementation_AFFEFC46.html" guid="_JqYbgJ01EdyQ3oTO93enUw">实现</a>
 </li>
 </ul>
 <ul></ul>
@@ -129,13 +127,10 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    Usually, this task is focused on a specific implementation&nbsp;element, such as a class or component, but it does not
-    need to be.
+    通常，此任务聚焦于某个特定的实现元素，例如某个类或组件，但这不是必需的。
 </p>
 <p>
-    A portion of the design is implemented by performing this task. This task can be performed any number of times during
-    an iteration. In fact it is best to do this task in as small a scope as possible to tighten the loop between it and
-    related tasks involving developer testing and consideration of the design.
+    通过此任务来实现设计的某个部分。此任务可以在一个迭代中执行任意的次数。事实上，此任务最好同与其相关的开发人员测试和设计任务一起在尽可能小的循环中执行。
 </p></td>
 </tr>
 </table>
@@ -145,114 +140,98 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Determine a strategy</div>
+<div class="stepHeading">明确策略</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Determine a strategy based on the software design and developer tests&nbsp;for how you are going to implement the
-    solution. The fundamental options are:
+    基于软件设计和开发人员测试，确定实现解决方案的策略。其基础选项是：
 </p>
 <ol>
     <li>
-        Apply existing, reusable assets.
+        应用已有、可重用的资产
     </li>
     <li>
-        Model the design in detail and generate the source code (by model transformation).
+        模型化设计细节并生成源代码（通过模型转换）
     </li>
     <li>
-        Write the source code.
+        编写源代码
     </li>
     <li>
-        Any combination of the above.
+        以上的任意组合
     </li>
 </ol></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Identify opportunities for reuse</div>
+<div class="stepHeading">识别重用机会</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Identify existing code or other implementation elements that can be reused in the portion of the implementation that
-    you are creating or changing. A comprehensive understanding of the overall design is helpful, because it is best to
-    leverage reuse opportunities when you have a thorough understanding of the proposed solution.
+    识别可在实现中重用的已有代码或其它实现元素。对整体设计的全面理解非常有用，因为当你对建议的解决方案有一个全面的理解时能够最好的利用可重用机会。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Transform design into implementation</div>
+<div class="stepHeading">将设计转换为实现</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    If you are using sophisticated modeling tools, you should be able to generate a portion of the required source code
-    from the model. Note that programming is&nbsp;commonly required to complete the implementation after the design model
-    has been transformed into code.
+    如果使用精细的建模工具，你可以从模型中生成部分所需的源代码。注意，在设计模型生成代码后，通常仍需要编程完成整个实现。
 </p>
 <p>
-    Even without tools, there is&nbsp;typically some amount of code that can be created by rote by examining the design and
-    developer tests.
+    即使没有工具，通常仍有某些代码可以通过检查设计和开发人员测试来编写。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Write source code</div>
+<div class="stepHeading">编写源代码</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Write the source code to make the implementation conform to the design and expected behavior. You should strive to
-    reuse and/or generate code wherever possible, but you will still need to do some programming. To do so, consider the
-    following:
+    编写代码以使实现符合设计和预期的行为。你应该在任何可能的地方尽可能的重用和/或生成代码，但是仍需要进行某些编程工作。为此，考虑：
 </p>
 <ul>
     <li>
-        Examine the technical requirements. Because some requirement information does not translate directly into your
-        design you should examine the requirement(s) to ensure that they are fully realized in the implementation.
+        检查技术需求。因为某些需求信息不能直接转换到设计中，应该检查这些需求以保证它们被完整的实现。
     </li>
     <li>
-        Refactor your code to improve its design. Refactoring is a technique where you improve the quality of your code via
-        small, safe changes.
+        重构代码以改善设计。重构是一项技术，通过小的、安全的变更来改善代码质量。
     </li>
     <li>
-        Tune the results of the existing implementation by improving performance, the user interface, security, and other
-        nonfunctional areas.
+        通过改善性能、用户接口、安全性以及其它非功能领域来调优已有实现的结果
     </li>
     <li>
-        Add missing details, such as completing the logic of operations or adding supporting classes and data structures
+        添加遗失的细节，如完成操作的逻辑或增加支持类和数据结构
     </li>
     <li>
-        Handle boundary conditions.
+        处理边界条件
     </li>
     <li>
-        Deal with unusual circumstances or error states.
+        处理异常情况或错误状态
     </li>
     <li>
-        Restrict behavior (preventing users or client code from executing illegal flows, scenarios, or combinations of
-        options).
+        约束行为（防止用户或客户端代码执行非法路径、场景或选项的组合）
     </li>
     <li>
-        Add critical sections for multi-threaded or re-entrant code.
+        为多线程或可重入代码添加关键区
     </li>
 </ul>
 <p>
-    Though many different considerations are listed here, there is one clear way to know when the source code is done. The
-    solution has been implemented when it passes the developer tests. Any other considerations can be taken care of in a
-    refactoring pass over the code to improve it once it is complete and correct.
+    尽管上面列出了许多不同的考虑，但仍有一个明确的方式判断编码何时结束。当解决方案通过了开发人员测试，则完成了其实现。一旦代码完成并验证正确后，其它任何考虑可以通过代码重构来处理。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Evaluate the implementation</div>
+<div class="stepHeading">评估实现</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Verify that the implementation is fit for its purpose. Examine the code for its suitability to perform its intended
-    function. This is a quality assurance step that you perform in addition to testing which is described in other tasks.
-    Consider these strategies:
+    验证实现符合其目的。检查代码是否匹配了其预期的功能。这是在测试之外的质量保证步骤。考虑以下策略：
 </p>
 <ul>
     <li>
@@ -260,50 +239,42 @@
         being written.
     </li>
     <li>
-        Read through the code for common mistakes. Consider keeping a checklist of common mistakes that you make, as a
-        reminder reference.
+        结对编程。首先通过结对来实现代码，你可以在编写时高效的评估代码。
     </li>
     <li>
-        Use tools to check for implementation errors and inappropriate code. For example, use a static code rule checker or
-        set the compiler to the most detailed warning level.
+        通读代码寻找常见错误。考虑保留一个常犯错误的检查单，作为提示参考。
     </li>
     <li>
-        Use tools that can visualize the code. Code visualization, such as the UML visualizations in the Eclipse IDE, help
-        developers identify issues such as excessive coupling or circular dependencies.
+        使用工具检查实现的错误以及不合适的代码。例如，使用静态代码规则检查工具或者设置编译器显示最详细的告警级别。
     </li>
     <li>
-        Perform informal, targeted code inspections. Ask colleagues to review small critical sections of code and code with
-        significant churn. Avoid reviewing large sections of code.
+        使用工具可视化代码。代码可视化，如在Eclipse IDE中的UML可视化，帮助开发人员识别问题，如过度耦合或循环依赖。
     </li>
     <li>
-        Use&nbsp;a tester to ensure the implementation is testable and understandable to testing resources.
+        执行非正式的、有针对性的代码检视。请求同事Review小规模的关键代码。避免Review大量的代码。
+    </li>
+    <li>
+        使用测试人员来保证实现是可测试和可理解的测试资源
     </li>
 </ul>
 <p>
-    Improve the implementation based on the results of these evaluations.
+    基于这些评估的结果改进实现。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Communicate significant decisions</div>
+<div class="stepHeading">沟通重要决策</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Communicate the impact of unexpected changes to the design and requirements.
+    沟通意想不到的变化对设计和需求的影响。
 </p>
 <p>
-    The issues and constraints that you uncover when you implement the system must be communicated to the team. The impact
-    of issues discovered during implementation must be incorporated into future decisions. If appropriate, use&nbsp; the
-    change management process to reflect ambiguities that you identified and resolved in the implementation so they can be
-    tested and you can manage&nbsp;stakeholder expectations appropriately. Similarly,&nbsp;leverage the design process to
-    update the design to reflect new constraints and issues uncovered during implementation to be sure that the new
-    information is communicated to other developers.
+    在实现系统时，必须和团队沟通你发现的问题和约束。在实现中发现的问题影响必须合并到未来的决策中。如果合适，使用变更管理过程来反映在实现中识别和解决的歧义，这样可以测试它们，并恰当的管理利益相关人期望。类似的，利用设计过程来更新设计以反映实现中新的约束和发现的问题，从而保证和其他开发人员沟通这些新的信息。
 </p>
 <p>
-    Usually, there is no need for a change request if the required change is small and the same person is designing and
-    implementing the code element. That individual can make the design change directly. If the required change has a broad
-    impact, it may be necessary to communicate that change to the other team members through a change request.
+    通常，对于小的以及由同一个人进行设计和实现的代码不需要提交变更申请，他能够直接变更设计。如果变更有着广泛的影响，需要同其他团队成员沟通此变更时，变更申请可能是必需的。
 </p></td>
 </tr>
 </table>
@@ -317,10 +288,11 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    It is best when developer tests already exist so there is an unambiguous definition of what behavior is considered
-    correct. The implementation should be immediately tested.
-</p>The [Project Work]&nbsp; is implicitly used in implementation tasks to manage which requirements or change requests are
-being realized in the code.<br /></td>
+    最好在完成开发人员测试之后执行此任务，此时开发人员测试清晰的定义了正确的行为。实现应该被立即测试。
+</p>
+<p>
+    在执行此任务时，隐含使用了<a class="elementLink" href="./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html" guid="_1QZI8EfUEdyiPI8btkmvmw">[项目工作]</a>包来管理在代码中将要实现的需求或变更。
+</p></td>
 </tr>
 </table>
 </div>

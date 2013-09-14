@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/capabilitypattern.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Design, implement, test, and integrate the solution for a requirement within a given context.</td>
+<td valign="top">在某个给定的上下文中，为某个需求设计、实现、测试、集成解决方案。</td>
 </tr>
 </table>
 </td>
@@ -66,10 +66,10 @@
 <tr valign="top">
 <td class="sectionTableSingleCell"><ul>
     <li>
-        For developers: To create a solution for the work item for which they are responsible
+        对开发人员：为他们负责的工作项创建解决方案
     </li>
     <li>
-        For project managers: To have a goal-based way of tracking project status
+        对项目经理：拥有一个基于目标的方式跟踪项目状态
     </li>
 </ul></td>
 </tr>
@@ -80,56 +80,37 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><h3>
-    Introduction
+    简介
 </h3>
 <p>
-    Run this activity as a way to perform goal-based planning and execution. Work is taken on by developers, and work
-    progress is tracked based on the goals achieved using the designed, developer-tested, and integrated source code.
+    作为一种基于目标策划和执行的方式来执行此活动。使用已设计的、经开发人员测试并集成的源代码来达成目标，并基于目标来跟踪工作进展，这些工作由开发人员承担。
 </p>
 <h4>
-    Context of what is being developed
+    开发的上下文？
 </h4>
 <p>
-    A context can be specified when a requirement is assigned to be developed, thus specifying how broadly a requirement is
-    to be developed in an iteration. Development may focus on a layer (such as the user interface, business logic, or
-    database access), on a component, and so on.
+    当某个需求被分配开发时，将确定开发的上下文，因此，需要在迭代中明确需求的范围。开发可能集中在某个层（如用户接口、业务逻辑、或数据库访问）、某个组件，诸如此类。
 </p>
 <p>
-    Whether a context is specified or not, the developer's responsibility is to create a design and implementation for that
-    requirement.&nbsp;The developer&nbsp;also writes and runs developer tests against the implementation to make sure that
-    it works as designed, both as a unit and integrated into the code base.
+    无论是否指定了上下文，开发人员都需要负责为需求创建相应的设计和实现。开发人员还需要编写并针对实现进行开发测试，以确保其和符合设计，同时，将这些实现作为一个单元合入源代码。
 </p>
 <h4>
-    Overview of workflow
+    工作流概述
 </h4>
 <p>
-    Typical changes require some effort in designing the solution before moving into implementation, even if it is only a
-    mental exercise that results in no long-term work product. The design for trivial changes to the existing
-    implementation (to, for example, support some requirement) might be self-evident in the context of the existing
-    architecture and design.
+    典型的变更在实现之前需要花费一定的工作量设计解决方案。而对于已有实现的微小的变更来说，其设计在已有的架构和设计中可能是不言而喻的。
 </p>
 <p>
-    Once the organization of the technical solution is clear, define developer tests that will verify the implementation.
-    This test-driven approach ensures that design considerations have in fact taken place before the solution is coded. The
-    tests are run up front and, if they fail, clearly define the criteria to determine if the implementation works as
-    intended.
+    一旦明确了技术解决方案的组织，则定义用于验证实现的开发测试。这种测试驱动的方式保证了在对解决方案进行编码前考虑了设计所需的注意事项。在实现前运行这些测试（返回失败），它们明确定义了实现工作是否符合预期的标准。
 </p>
 <p>
-    Failed tests lead to&nbsp;an implementation of the solution, upon completion of which you run the tests again. This
-    innermost loop of implementation and developer testing is repeated until the tests pass.
+    失败的测试将引导解决方案的实现，在完成相应的编码实现后重新执行这些测试。这些测试和实现不停地重复循环，直到通过这些测试。
 </p>
 <p>
-    Passing the tests does not necessarily mean that the solution is a high-quality, appropriate solution. It is proper to
-    revisit the design at this point. That path loops back through the process, since any changes to the design could
-    affect the developer tests and implementation.
+    通过这些测试并不必然意味着解决方案是高质量、合适的。此时，正确的方式是重新设计。此路径通过该过程重新循环，因为任何设计的变更都可能影响开发测试和实现。
 </p>
 <p>
-    Once the tests pass and the design of the solution is appropriate, there is one more possible loopback. It is best to
-    keep the test-driven, evolutionary design inner loops as tight as possible. Come up with some small-scale design
-    solution for a part of the work item, define a test or two for the implementation of that one part of the solution,
-    pass that test, verify the quality, and then continue on in a test-first manner until that part of the design is
-    working. Then, in the outermost loop of the activity, go back to the work item and design another chunk to get closer
-    to completion.
+    一旦测试通过且解决方案的设计是合适的，那么存在一个或多个可能的循环回路。最好保持测试驱动，尽可能在循环反复中演进设计。针对部分的工作项想出小的设计方案，为实现定义一个或两个测试，执行通过这些测试，验证质量，然后继续这种测试先行的方式，直到该部分的设计能够工作。接着，回到活动的外层循环，继续工作任务项并设计另一个部分。
 </p></td>
 </tr>
 </table>
@@ -162,47 +143,44 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <th class="sectionTableHeading" scope="row" id="property_使用说明" abbr="使用说明">使用说明</th><td class="sectionTableCell" headers="property_使用说明"><p>
-    This activity occurs multiple times during each iteration. Usually, there is one instance for each work item planned
-    for that iteration. When instantiated in a project plan, the pattern becomes a development task to be taken on by one
-    or more developers, and you should rename it to include the actual requirement name. Optionally, the words <b>Solution
-    Increment</b>&nbsp;may be suppressed, then you can instantiate the pattern this way:
+    此活动在每个迭代中多次出现。通常，针对迭代中的每一个工作项都有一个此活动的实例。在项目计划中实例化时，此模式成为由一个或多个开发人员承担的一个开发任务，应该为这些实例重新命名，命名中包含实际的需求名称。此外，“解决方案增量”这个活动名称可能会按下面的命名模式被替换：
 </p>
 <blockquote>
     <p align="left">
-        Develop requirement_name (within context_name context)
+        开发“需求名称（包括上下文名称）”
     </p>
 </blockquote>
 <p>
-    If a context is specified, there will be one instance of this pattern for each requirement for each context.
+    如果指定了上下文，那么针对每个上下文中的每个需求可以按下面的方式实例化命名：
 </p>
 <blockquote>
     <p>
-        <b>Example</b>
+        <strong>例如</strong>
     </p>
     <ol>
         <li>
-            Develop scenario 1 (within user interface context)
+            开发场景1（用户接口）
         </li>
         <li>
-            Develop scenario 1 (within business logic and database access context)
+            开发场景1（业务逻辑与数据库访问）
         </li>
         <li>
-            Develop scenario 2
+            开发场景2
         </li>
         <li>
-            Develop supplemental requirement 1
+            开发追加的需求1
         </li>
     </ol>
 </blockquote>
 <p>
-    Note that there are four instances of this pattern in the preceding example:
+    注意在前面的例子中命名模式有四个实例：
 </p>
 <ul>
     <li>
-        The first two are related to the same requirement (scenario 1) but within two different contexts
+        第一个和第二个和同一个需求相关（场景1），但是是在两个不同的上下文环境中
     </li>
     <li>
-        The last two are related to different requirements, with no context specified.
+        后两个分别关联了不同的需求，并且没有指定上下文
     </li>
 </ul></td>
 </tr>

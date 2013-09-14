@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Run Developer Tests</title>
+<title>任务：运行开发人员测试</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="run_developer_tests">
-<meta name="uma.presentationName" content="Run Developer Tests">
+<meta name="uma.presentationName" content="运行开发人员测试">
 <meta name="uma.category" content="Discipline:development_discipline:开发">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_R7atwJfIEdyZkIR-s-Y8wQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Run Developer Tests</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：运行开发人员测试</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Run tests against the individual implementation elements to verify that their internal structures work as specified.</td>
+<td valign="top">针对独立的实现元素运行测试，以验证它们的内部结构按照规格要求进行工作。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html" guid="_iGSHsVZ-EdyIUdvDLLUdeg">开发</a></td>
@@ -56,7 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">To verify that the implementation works as specified.</td>
+<td class="sectionTableSingleCell"><p>
+    验证实现元素按照规格要求工作
+</p></td>
 </tr>
 </table>
 </div>
@@ -82,7 +84,7 @@
 <a href="./../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[技术-实现]</a>
 </li>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">Developer Test</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html" guid="_kh9FcJ02EdyQ3oTO93enUw">开发人员测试</a>
 </li>
 </ul>
 <ul></ul>
@@ -97,7 +99,7 @@
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html" guid="_0ZlSsMlgEdmt3adZL5Dmdw">Test Log</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html" guid="_0ZlSsMlgEdmt3adZL5Dmdw">测试日志</a>
 </li>
 </ul>
 <ul></ul>
@@ -110,66 +112,54 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Run developer tests</div>
+<div class="stepHeading">运行开发人员测试</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Run the developer tests.&nbsp;The procedure will vary, depending on whether the test is manual or automated and whether
-    additional test components are necessary,&nbsp;such as&nbsp;drivers or stubs.
+    运行开发人员测试。此过程会有所不同，这依赖于测试是手工还是自动，以及是否需要额外的测试组件，如驱动或桩。
 </p>
 <p>
-    To run the tests, you need to make sure that you have initialized the test environment with all necessary elements,
-    such as software, hardware, tools, data, and so on.
+    为了运行这些测试，需要确认已经初始化了测试环境所需的所有必需元素，如软件、硬件、工具、数据等等。
 </p>
 <p>
-    Automated tests will often update a test results&nbsp;which you can evaluate to determine where your tests went wrong.
+    自动化测试通常将更新测试结果，该结果能够评估判断测试是否发生了错误。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Evaluate test execution</div>
+<div class="stepHeading">评估测试执行</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Evaluate the test execution by analyzing the test run.&nbsp;
+    通过分析测试运行情况，评估测试的执行。
 </p>
 <p>
-    Testing will&nbsp;complete either&nbsp;normally or abnormally.&nbsp; For correctly implemented tests, a normal
-    completion represents a passed test, though it could warrant additional examination of the test results log to
-    ensure&nbsp;the test&nbsp;ran as expected.&nbsp; Abnormal termination could be premature termination or just a test
-    that does not complete as intended.
+    测试可能正常或者异常结束。对于正确实现的测试，正常结束代表着通过测试，虽然可以对测试结果日志进行额外检查来确认测试按预期执行。异常终止可能是提前终止或测试未能按预期完成。
 </p>
 <p>
-    Review the test log to understand any reported failures, warnings, or unexpected results. The cause of the problem(s)
-    might be that the implementation&nbsp;element being tested is faulty, a problem with the developer tests, or a problem
-    with the environment.
+    Review测试日志，理解报告的失效、告警、或非预期的结果。问题的原因可能是被测试的实现元素有错误、开发人员测试存在问题，或者环境问题。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Respond to test results</div>
+<div class="stepHeading">响应测试结果</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Determine the appropriate corrective action to recover from a "failed" developer test run. If the implementation
-    element under test is faulty, fix the problem if possible and rerun the tests. If the problem is serious and cannot be
-    immediately addressed, report the defect. If the developer test is faulty fix the test and rerun the tests. If there
-    was a problem with the environment, resolve it and then rerun&nbsp;the tests.
+    确定合适的纠正措施，使开发人员测试从“失败（failed）”中恢复。如果被测的实现元素存在错误，修正该问题并重新运行测试。如果问题很严重并且无法立即处理，则报告该缺陷。如果开发人员测试存在错误，则修正错误并重新测试。如果是环境问题，解决它并重新测试。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Promote changes for integration test</div>
+<div class="stepHeading">提交变更进行集成测试</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    When the developer tests pass and no further work is need to complete the change set, promote the changes for
-    integration test. If the passing of these tests represent completion of a requirement update the status of the work
-    item.
+    当通过开发人员测试并且变更集没有进一步的工作需要完成时，提交这些变更进行集成测试。如果这些测试的通过代表着某个需求的完成，那么更新对应工作项的状态。
 </p></td>
 </tr>
 </table>
@@ -183,15 +173,13 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    It is common to require that code pass all developer tests before it can be delivered in an integrated source code
-    repository.
+    通常要求在提交代码到集成代码库前，代码通过了所有的开发人员测试。
 </p>
 <p>
-    Pair with testing experts to gain insight on testing and quality considerations.
+    同测试专家结对能更深入的考虑测试和质量。
 </p>
 <p>
-    The&nbsp;[Project Work]&nbsp;is implicitly used in implementation tasks to manage which requirements or change requests
-    are being realized in the code.
+    在实现任务过程中，隐含使用了<a class="elementLink" href="./../../core.mgmt.slot.base/workproducts/project_work_slot_F12BAC46.html" guid="_1QZI8EfUEdyiPI8btkmvmw">[项目工作]</a>包来管理那些在代码中实现的需求或变更。
 </p></td>
 </tr>
 </table>

@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Integrate and Create Build</title>
+<title>任务：集成与构建</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="integrate_and_create_build">
-<meta name="uma.presentationName" content="Integrate and Create Build">
+<meta name="uma.presentationName" content="集成与构建">
 <meta name="uma.category" content="Discipline:development_discipline:开发">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_kkZBgJOKEdyaRbFYa4AN4A"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Integrate and Create Build</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：集成与构建</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This task describes how to integrate all changes made by developers into the code base and perform the minimal testing to validate the build.</td>
+<td valign="top">此任务描述了如何将开放人员所做的所有变更集成到基础代码中，并执行最小的测试来验证该构建。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/development_discipline_44C02445.html" guid="_iGSHsVZ-EdyIUdvDLLUdeg">开发</a></td>
@@ -56,9 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to integrate all changes made by all developers into the code base and perform the minimal
-testing on the system increment in order to validate the build.&nbsp; The goal is to identify integration issues as soon as
-possible, so they can be corrected easily by the right person, at the right time.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是所有开人员所做的所有变更到基础代码中，并为验证此构建对系统增量进行最小化的测试。其目标是尽快的识别问题，从而能够在合适的时间由合适的人更容易的解决它们。
+</p></td>
 </tr>
 </table>
 </div>
@@ -99,7 +99,7 @@ possible, so they can be corrected easily by the right person, at the right time
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/build_95D7D8FD.html" guid="_0YuXEMlgEdmt3adZL5Dmdw">Build</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/build_95D7D8FD.html" guid="_0YuXEMlgEdmt3adZL5Dmdw">构建</a>
 </li>
 </ul>
 <ul></ul>
@@ -112,84 +112,72 @@ possible, so they can be corrected easily by the right person, at the right time
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Integrate implemented elements</div>
+<div class="stepHeading">集成实现元素</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    In&nbsp;the relevant&nbsp;<a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/concepts/workspace_722BBA90.html" guid="_0cEmAMlgEdmt3adZL5Dmdw">Workspace</a>, combine all completed&nbsp;<a class="elementLink" href="./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html" guid="_1QU9MAIoEdyLh7vsrHZ4YA">Change Set</a>s that are not in the latest baseline. Resolve any conflicting versions of
-    the artifacts by either removing one of the change sets that created the conflict&nbsp;or by creating a new change set
-    that includes merged versions of the conflicting artifacts.
+    在相关<a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/concepts/workspace_722BBA90.html" guid="_0cEmAMlgEdmt3adZL5Dmdw">Workspace</a>中，整合所有不在最近一次基线中的已完成的<a class="elementLink" href="./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html" guid="_1QU9MAIoEdyLh7vsrHZ4YA">Change Set</a>。通过删除产生冲突的某个变更集，或者创建合并了冲突工件的新的变更集，来解决任何产生冲突的工件版本。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Create build</div>
+<div class="stepHeading">创建构建</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Create the build.&nbsp;The details of this step depend upon the implementation language and development environment and
-    may involve compiling and linking (in the case of compiled languages) and/or other processes that result in an
-    executable increment of the system.
+    创建构建。此步骤的细节依赖于实现的语言、开发环境、并可能涉及编译、链接（在编译语言的情况下）和/或其他处理的结果。
 </p>
 <p>
-    Examples of these steps&nbsp;include:
+    这些步骤的例子包括：
 </p>
 <ol>
     <li>
-        Compiling and linking the source artifacts to create an executable
+        编译并链接源工件成为可执行程序
     </li>
     <li>
-        Loading binary objects on a test bench or simulator
+        在测试工作台或模拟器上加载二进制对象
     </li>
     <li>
-        Running a script to load/update database schemas
+        运行脚本加载/更新数据库模式
     </li>
     <li>
-        Packaging and deploying web applications<br />
+        打包并部署Web应用
     </li>
 </ol></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Test integrated elements</div>
+<div class="stepHeading">测试集成的元素</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Re-run the developer tests against the integrated elements to verify that they behave the same as they did in
-    isolation. Ensure that the scope of these&nbsp;tests is as broad as possible, which ensures that the latest change sets
-    did not cause failing developer tests in other areas of the system.
+    重新运行开发人员测试，验证这些被集成元素的行为是否和独立测试时一样。确保这些测试的范围尽可能的宽广，保证最近的变更集不会引起系统其它区域的开发人员测试出现失败。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Run "Smoke Tests"</div>
+<div class="stepHeading">运行&ldquo;冒烟测试&rdquo;</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Several builds will be created in each iteration. For each build, this step is performed only when change sets have
-    been delivered to satisfy the requirements of that build.
+    在每次迭代中将创建多个构建。对每个构建，仅当交付的变更集满足了该构建的需求时，执行此步骤。
 </p>
 <p>
-    Execute a sub-set of the system tests to ensure that the build is suitable prior to committing resources to the full
-    scope of system testing.&nbsp;While the level of testing will vary, focus on gaining confidence that the increment is
-    of sufficient quality to establish a baseline for system testing.
+    执行系统测试的一个子集，以保证该构建已经适合投入资源开展全范围的系统测试。此层面的测试会有所不同，重点在于获取信心，此增量拥有足够的质量能够为开展系统测试建立基线。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Make changes available</div>
+<div class="stepHeading">使变更可用</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    When tests are successfully completed and the build is considered "good," the results&nbsp;are made available to the
-    rest of the team by <a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/promoting_changes_9087B764.html" guid="_SM4YIL6dEdqti4GwqTkbsQ">Promoting Changes</a>.&nbsp;The details of this step depend on the configuration
-    management tools in use, but in general this involves committing&nbsp;a tested change set to the CM repository so that
-    it&nbsp;serves as the basis of development for the next increment of the system.&nbsp; This is the essence of <a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html" guid="_i8bUEL6cEdqti4GwqTkbsQ">Continuous Integration</a>.
+    当成功完成测试并认为此构建“良好”，那么通过<a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/promoting_changes_9087B764.html" guid="_SM4YIL6dEdqti4GwqTkbsQ">Promoting Changes</a>提交结果，以便其余的团队能够使用该结果。此步骤的细节依赖于使用的配置管理工具，但通常这涉及提交经过测试的变更集到配置库中，从而作为下一次系统增量的开发基础。这是<a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html" guid="_i8bUEL6cEdqti4GwqTkbsQ">Continuous Integration</a>的本质。
 </p></td>
 </tr>
 </table>
@@ -203,9 +191,7 @@ possible, so they can be corrected easily by the right person, at the right time
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    In order to be effective at applying the practice of <a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html" guid="_i8bUEL6cEdqti4GwqTkbsQ">Continuous Integration</a>,&nbsp;the time to integrate, build, and test the increment
-    must be short enough that it can be performed several times per day.&nbsp; Changes should be broken down into
-    relatively small <a class="elementLink" href="./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html" guid="_1QU9MAIoEdyLh7vsrHZ4YA">Change Set</a>s that can be implemented, integrated and tested quickly.
+    为了更高效的应用<a class="elementLink" href="./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html" guid="_i8bUEL6cEdqti4GwqTkbsQ">Continuous Integration</a>的实践，集成、构建、测试增量的时间必须足够的短，以便能够在每天多次的执行。变更应该被分解为相对较小的<a class="elementLink" href="./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html" guid="_1QU9MAIoEdyLh7vsrHZ4YA">Change Set</a>，这些变更集能够被快速的实现、集成并测试。
 </p></td>
 </tr>
 </table>

@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>工件：Test Log</title>
+<title>工件：测试日志</title>
 <meta name="uma.type" content="Artifact">
 <meta name="uma.name" content="test_log">
-<meta name="uma.presentationName" content="Test Log">
+<meta name="uma.presentationName" content="测试日志">
 <meta name="uma.category" content="@Type:@Name:@DisplayName">
 <meta name="element_type" content="Artifact">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0ZlSsMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">工件：Test Log</td><td width="100%">
+<td class="pageTitle" nowrap="true">工件：测试日志</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run.</td>
+<td valign="top">此工件收集了在单独的测试周期中执行测试所产生的原始输出。</td>
 </tr>
 <tr>
 <td>域：<a href="./../../core.default.cat_def.base/domains/test_domain_818B7A4.html" guid="_CsgDgK81Edy9cPK11VzBuQ">测试</a></td>
@@ -58,10 +58,10 @@
 <tr valign="top">
 <td class="sectionTableSingleCell"><ul>
     <li>
-        To provide verification that a set of tests was run
+        为执行的一系列测试提供验证
     </li>
     <li>
-        To provide information that relates to the success of those tests
+        为那些成功的测试提供相关信息
     </li>
 </ul></td>
 </tr>
@@ -111,10 +111,10 @@
 								</span>
 <ul>
 <li>
-<a href="./../../practice.tech.test_driven_development.base/tasks/run_developer_tests_3D3E4A79.html" guid="_R7atwJfIEdyZkIR-s-Y8wQ">Run Developer Tests</a>
+<a href="./../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
 </li>
 <li>
-<a href="./../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
+<a href="./../../practice.tech.test_driven_development.base/tasks/run_developer_tests_3D3E4A79.html" guid="_R7atwJfIEdyZkIR-s-Y8wQ">运行开发人员测试</a>
 </li>
 </ul>
 </td>
@@ -125,10 +125,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<th class="sectionTableHeading" scope="row">主要描述</th><td class="sectionTableCell">This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and
-provides information that relates to the success of those tests. The focus is typically on providing an accurate audit
-trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine
-the results of an aspect of the test effort.</td>
+<th class="sectionTableHeading" scope="row">主要描述</th><td class="sectionTableCell"><p>
+    此工件提供了详细的，通常基于时间的记录，这些记录验证了执行的一系列测试，并为这些成功执行的测试提供了相关信息。重点通常在于提供准确的审计跟踪，能够使你在运行后对失败进行诊断。随后分析这些原始数据，来确定测试工作某方面的结果。
+</p></td>
 </tr>
 </table>
 </div>
@@ -137,44 +136,41 @@ the results of an aspect of the test effort.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">不具有的影响</th><td class="sectionTableCell"><p>
-    Without this or similar documentation, there is no record of which tests were run, what variances were discovered, and
-    what action was taken. If this information is not available:
+    没有此工件或类似的文件，将没有运行测试的记录，也就无法发现差异以及确定需要采取的行动。如果此信息无效：
 </p>
 <ul>
     <li>
-        There is no way to know which tests passed and which failed.
+        无法知道哪些测试执行成功、哪些失败
     </li>
     <li>
-        There is no way to assess the status of testing and the quality of the product at that level of testing.
+        无法了解测试的状态，以及测试对应层面的产品质量
     </li>
     <li>
-        It is difficult to know how many tests remain outstanding.
+        无法了解还剩余哪些测试
     </li>
     <li>
-        There can be contractual and legal issues.
+        可能存在合同和法律上的问题
     </li>
 </ul></td>
 </tr>
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">不需要的原因</th><td class="sectionTableCell"><p>
-    When you execute automated tests, test logs are automatically produced. Typically, the issue is not whether to produce
-    the test log, but whether to keep a record, and where to keep the records. For manual testing, the issue is whether to
-    keep a separate test log or to summarize the test results in another form.
+    当执行自动化测试时，将自动产生测试日志。通常，问题不在于是否产生测试日志，而在与是否保留记录，以及在哪里保留记录。对于手工测试，问题在于是否保留单独的测试日志或以另一种形式保留测试结果的总结。
 </p></td>
 </tr>
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">说明选项</th><td class="sectionTableCell"><p>
-    Because this is a collection of raw data for subsequent analysis, it can be represented in a number of ways:
+    因为这是为了后续的分析收集的原始数据，它可以有多种表达方式：
 </p>
 <ul>
     <li>
-        For manual tests, log the actual results on a copy of the manual Test Script
+        对于手工测试，在手工测试脚本中记录实际结果
     </li>
     <li>
-        For automated tests, direct the output to log files that you can trace back to the automated Test Script
+        对自动化测试，直接将输出保存在日志文件中从而可以追溯到自动化测试脚本
     </li>
     <li>
-        Track raw results data in a test management tool
+        在测试管理工具中跟踪原始结果数据
     </li>
 </ul></td>
 </tr>

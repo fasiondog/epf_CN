@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>核对表：Design</title>
+<title>核对表：设计</title>
 <meta name="uma.type" content="Checklist">
 <meta name="uma.name" content="design">
-<meta name="uma.presentationName" content="Design">
+<meta name="uma.presentationName" content="设计">
 <meta name="element_type" content="Checklist">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -29,7 +29,7 @@
 <div id="page-guid" value="_0XSzsMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">核对表：Design</td><td width="100%">
+<td class="pageTitle" nowrap="true">核对表：设计</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -62,9 +62,6 @@
 <a href="./../../../practice.tech.evolutionary_design.base/guidances/guidelines/analyze_the_design_4C4750C0.html" guid="__MnggPTdEduDKIuqTXQ8SA">Analyze the Design</a>
 </li>
 <li>
-<a href="./../../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html" guid="_0WuL8slgEdmt3adZL5Dmdw">Design</a>
-</li>
-<li>
 <a href="./../../../practice.tech.evolutionary_design.base/guidances/concepts/design_E36137FA.html" guid="_bFjlAPTYEduDKIuqTXQ8SA">Design</a>
 </li>
 <li>
@@ -72,6 +69,9 @@
 </li>
 <li>
 <a href="./../../../core.tech.common.extend_supp/guidances/guidelines/refactoring_F3D63EBD.html" guid="_YNx2sJ05EdyQ3oTO93enUw">Refactoring</a>
+</li>
+<li>
+<a href="./../../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html" guid="_0WuL8slgEdmt3adZL5Dmdw">设计</a>
 </li>
 </ul>
 </td>
@@ -83,250 +83,233 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableCell">
-<div class="stepHeading">The design is understandable</div>
+<div class="stepHeading">设计是可理解的</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Is the design organized in a way that team members can easily find the information that they're looking for?
+        设计是否按某种易于团队成员查找所需信息的方式进行组织？
     </li>
     <li>
-        Is the design as simple as it can be, while still fulfilling the objectives of the design and giving sufficient
-        direction to implementers?
+        在满足设计目标并给出足够的实现方向的同时，设计是否足够简单？
     </li>
     <li>
-        Is the design neither too simple nor too advanced? The design sophistication should be appropriate to the
-        experience level of other team members and technical stakeholders. This applies to both the concept and the
-        representation of the design.
+        设计是否既不过于简单也不过于先进？设计的复杂度应该适合于其他团队成员和技术利益相关人的经验水平。这同时适用于概念和表达的设计。
     </li>
     <li>
-        Does the design express what the designer intends to express?
+        设计是否表达了设计人员所想要表达的内容？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design is consistent</div>
+<div class="stepHeading">设计是一致的</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Does the design follow any design standards?
+        设计是否遵循某些标准？
     </li>
     <li>
-        Does&nbsp;the design&nbsp;apply other idioms consistently?
+        设计是否应用了一致的术语？
     </li>
     <li>
-        Are the names of the design elements consistent and easy to interpret?
+        设计元素的名称是否一致并易于理解？
     </li>
     <li>
-        Does any part of the design contradict another part of it in such a way that puts the project at risk?
+        任何部分的设计之间是否存在矛盾？
     </li>
     <li>
-        If the design is rendered visually, is the notation used to&nbsp;describe the design used consistently so that it
-        can be understood and is not ambiguous?
+        如果设计是可视化的，那么用来描述设计的符号是否一致，是否能够理解并没有歧义？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design is maintainable</div>
+<div class="stepHeading">设计是可维护的</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Is the design structured well enough to be maintained?
+        设计的结构是否足够好利于维护？
     </li>
     <li>
-        Is the design set up to appropriately accommodate expected changes? The design should not be overdone to handle
-        <em>any</em> possible change, just reasonably expected changes.
+        设计是否能够恰当的容纳预期的变化？设计不应该过度处理任何可能的变化，仅仅需要合理预期的变化。
     </li>
     <li>
-        Have redundant areas of the design been removed so that the implementation does not contain redundant code?
+        有冗余的设计可以被删除吗，以使实现不包含冗余的代码？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design is traceable</div>
+<div class="stepHeading">设计是可跟踪的</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Is it clear how the design elements relate to the requirements? This does not need to involve a heavyweight
-        traceability strategy, but is there some way to figure out what part of the design supports a particular
-        requirement?
+        设计如何和需求关联是否清晰？这不需要使用重量级的跟踪策略，但是否有某种方式指出了设计的那个部分支持某个特定的需求？
     </li>
     <li>
-        It what portions of the implementation support each design element clear?
+        每个设计元素由哪些实现部分支撑是否清晰？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design reflects the architectural objectives of the system</div>
+<div class="stepHeading">设计反映了系统的架构目标</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Does the design conform to the architecture as specified?
+        设计是否遵循了指定的架构？
     </li>
     <li>
-        Does it apply the architectural patterns appropriately?
+        设计是否恰当的应用了架构模式？
     </li>
     <li>
-        Are Architectural Mechanisms used appropriately? Are they applied in all applicable circumstances?
+        是否使用了合适的架构机制？它们是否适用于所有的应用场景？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design elements are modular</div>
+<div class="stepHeading">设计元素是模块化的</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Do the design elements have high internal cohesion? Does the degree of interaction within the unit demonstrate that
-        all of the internal parts belong together?
+        设计元素是否是高内聚的？单元间的交互程度是否证明了所有的内部部件是一个整体？
     </li>
     <li>
-        Do the design elements have low coupling? Is there minimal interdependence between design elements? When design
-        elements depend upon one another, is this done as simply as possible and in such a way that the client element will
-        not be affected by changes to the internal parts of the supplier element?
+        设计元素是否低耦合？设计元素之间的依赖关系是否最小化？当设计元素依赖于其它设计元素时，是否已尽可能的简单，当在供应方元素内部应用变更时客户端元素是否不受影响？
     </li>
     <li>
-        Are the design elements defined with&nbsp;abstract interfaces in ways that changes can be made to the internal
-        implementation without affecting client design elements?
+        设计元素是否定义了抽象接口，当内部实现发生变更时不影响客户端设计元素？
     </li>
     <li>
-        Does each design element represent a clearly defined abstraction?
+        是否每一个设计元素都表示了一个清晰定义的抽象？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The system can be implemented from the information in the design</div>
+<div class="stepHeading">通过设计中的信息能够实现系统</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Has sufficient detail been included to direct the implementation?
+        是否包含了足够的细节以指导实现？
     </li>
     <li>
-        Does the design constrain the implementation only as much as necessary? Does the design allow freedom for the
-        implementer to implement it appropriately?
+        设计是否仅在需要的是否约束了实现？设计是否给予了实现者以合适的方式实施的自由？
     </li>
     <li>
-        Is the design feasible? Is it a design that can be reasonably implemented by the team by using the technologies
-        selected within the timeframe of the project?
+        设计是否可行？在项目的时间段内，设计是否能够被团队使用所选技术合理的实现？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design provide enough information for developer testing</div>
+<div class="stepHeading">设计为开发人员测试提供了足够的信息</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><ul>
     <li>
-        Does the design provide enough information for developer test design? Are the expected behavior and constraints on
-        the methods clear?
+        设计是否为开发人员测试提供了足够的信息？方法的期望行为和约束是否清晰？
     </li>
     <li>
-        Are the collaborations between design elements clear enough to create integration tests?
+        设计元素间的协助是否足够清晰从而进行集成测试？
     </li>
 </ul></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">The design describe the system at the appropriate level of abstraction</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>Does the design describe the system at the appropriate level of abstraction given the objectives? This usually means that
-the system is described at several different levels of abstraction and from different perspectives.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">The design supports a coarse-grained perspective of the system</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td><ul>
-    <li>
-        Can the design be understood as a set of higher-order subsystems?
-    </li>
-    <li>
-        Are the subsystem dependencies documented?
-    </li>
-    <li>
-        Are interfaces clearly defined for each subsystem? Is each subsystem designed so that its services can be accessed
-        through the interface without a need to access internal parts?
-    </li>
-    <li>
-        Is each subsystem designed so that someone can work within one part without having to understand the internal parts
-        of the other elements?
-    </li>
-</ul></td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Packages and Organization</div>
+<div class="stepHeading">设计在恰当的抽象级别描述了系统</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Is the package partitioning logical and consistent? Does it make sense to team members and stakeholders?
-</p>
-<p>
-    Do package names accurately describe the contents of the package and the role they play in the architecture? Do they
-    follow naming conventions?
-</p>
-<p>
-    Do public packages and interfaces provide a logically cohesive set of services?
-</p>
-<p>
-    Are all the contents of a package listed? Are the classes within a package cohesive?
-</p>
-<p>
-    Do package dependencies correspond to the dependencies of the contained classes?
-</p>
-<p>
-    Are there packages or classes within a package that can be separated into and independent or sub-package?<br />
+    设计是否在合适的抽象级别描述了系统？这通常意味在几个不同的抽象级别和不同的视角描述系统。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Views</div>
+<div class="stepHeading">设计支持系统的粗粒度视角</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><ul>
+    <li>
+        设计是否作为一系列高阶子系统而被理解？
+    </li>
+    <li>
+        子系统的依赖关系是否被记录？
+    </li>
+    <li>
+        是否清晰定义了每个子系统的接口？每个子系统是否被设计为可通过接口访问它们的服务而不需要访问它们的内部组成？
+    </li>
+    <li>
+        每个子系统是否被设计为使用某个部件时不需要考虑其他元素的内部组成？
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">分包与组织</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Does each diagram help the designer reason about the design, or communicate key design decisions to the team?
+    分包是否符合逻辑并一致？对团队成员和利益相关人是否有意义？
 </p>
 <p>
-    Are the relationships between diagrams clear when several diagrams are used to describe behavior?
+    包的名字是否准确的描述了包的内容，以及它们在架构中扮演的角色？是否遵循了命名规范？
 </p>
 <p>
-    Is it easy to navigate between related diagrams?
+    公共包和接口是否提供了逻辑上内聚的服务？
 </p>
 <p>
-    Does each diagram focus on a relevant perspective? For instance, does a set of diagrams show a single class and its
-    direct relationships, rather than using&nbsp;one or two diagrams to show all classes?
+    是否列出了包中所有的内容？包中的类是否内聚？
 </p>
 <p>
-    Is each diagram complete and minimal? Does it show everything relevant to that view and nothing more?
+    包依赖关系是否与所包含的类的依赖关系相符？
 </p>
 <p>
-    Are the diagrams tidy and easy to interpret, with a minimum of clutter?
+    包或包中包含的类是否可被划分为独立的子包？
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">视图</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    是否每个图形都有助于设计人员解释设计，或向团队沟通关键的设计决策？
+</p>
+<p>
+    当使用多个图形描述行为时，图形之间的关系是否清晰？
+</p>
+<p>
+    是否易于在关联的图形中导航？
+</p>
+<p>
+    是否每个图形都聚焦于相关的视角？例如，使用一系列的图来展示某个类和其直接的关联关系，而不是使用一个或两个图来表示所有的类？
+</p>
+<p>
+    每个图形是否完整并最小？是否显示了视图有关的所有事物而没有更多？
+</p>
+<p>
+    图形是否整洁易于理解？
 </p></td>
 </tr>
 </table>
@@ -336,75 +319,68 @@ the system is described at several different levels of abstraction and from diff
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Does the visual model conform to UML standards so all stakeholders can understand the model over time? See the&nbsp;<a href="http://www.uml.org/" target="_blank">OMG UML Resource Page</a>&nbsp;for more information.
+    可视化模型是否符合UML标准，从而所有的利益相关人可以理解模型？更多信息参见：<a href="http://www.uml.org/" target="_blank">OMG UML Resource Page</a>。
 </p>
 <p>
-    Does the visual model conform to project or organization specific modeling standards?
-</p>Is the visual model internally consistent? For instance, if an object diagram shows a relationship between objects,
-does a corresponding relationship exist between the appropriate classes?<br />
-<p>
-    Does the name of each class clearly reflect the role it plays?
+    可视化模型是否符合项目或组织特定的模型标准？
 </p>
 <p>
-    Does each class offer the required behavior?
+    可视化模型内部是否一致？例如，如果某个对象图显示了对象之间的关系，那么此关系是否存在于对应的类中？
 </p>
 <p>
-    Is there at least one&nbsp;realization association defined for each interface? The realization may represent a 3rd
-    party implementation of the subsystem.
+    每个类的名称是否清晰的反映了其扮演的角色？
 </p>
 <p>
-    Are&nbsp;there dependency associations from each subsystem to the interfaces it uses?
+    每个类是否提供了所需的行为？
 </p>
 <p>
-    Is each operation in a subsystem interface described in a sequence diagram? Or at least mapped directly to an operation
-    in a class?
+    是否为每个接口的协作定义了至少一个实现？实现可能代表某个第三方实现的子系统？
 </p>
 <p>
-    Does each class represent a single well defined abstraction?
+    每个子系统到其使用的接口是否存在依赖的协作？
 </p>
 <p>
-    Are generalization relationships used only to inherit definitions, not behavior (implementation)? In other words, is
-    behavior shared through the use of association, aggregation and containment relationships instead of generalization?
+    子系统接口中的每个操作是否在序列图中进行了描述？或者至少直接映射到某个类中的操作？
 </p>
 <p>
-    Are parent classes in generalization relationships abstract? Are the "leaf" classes in a generalization hierarchy the
-    only concrete classes?
+    每个类是否表示了某个单一良好定义的抽象？
 </p>
 <p>
-    Are stereotypes used consistently and meaningfully?
+    泛化关系是否仅在继承定义中使用，而不是行为（实现）？换句话说，行为是否只通过协作、聚合和包含关系进行共享，而不是泛化?
 </p>
 <p>
-    Do&nbsp;statecharts exist for classes with complex or restrictive state changes?
+    泛化关系中的父类是否抽象？泛化关系中的“叶子”类是否仅是具体类？
 </p>
 <p>
-    Do relationships have descriptive role or association names (one or the other but not both), and&nbsp;correct
-    multiplicities?
+    使用的原型是否一致并有意义？
 </p>
 <p>
-    Are relationships between classes unidirectional whenever possible?<br />
-    &nbsp;
+    有复杂或限制性状态变化的类是否存在对应的状态图？
+</p>
+<p>
+    关系是否描述了角色或协作名称（一个或其它但不是全部），以及正确的多样性？
+</p>
+<p>
+    类之间的关系是否尽可能是单向的？
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Non-UML Visual Modeling</div>
+<div class="stepHeading">非UML可视化模型</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Are the semantics of the visual modeling language clearly defined, documented, and accessible to team members? The
-    semantics should be meaningful to the users of the model.
+    可视化模型语言的语义是否被清晰定义、记录，并能被团队成员理解？语义应该对模型的使用者有意义。
 </p>
 <p>
-    Can the semantics of the modeling language be understood over time? Is the language documented well enough so that team
-    members can understand the model long after design decisions have taken place?
+    模型语言的语义随着时间流逝是否仍旧可被理解？语言记录是否足够好，从而使团队成员即使在做出设计决策之后很久都能够理解该模型？
 </p>
 <p>
-    Are team members and stakeholders trained in the modeling language being used?
+    是否对团队成员和利益相关人进行了使用模型语言的培训？
 </p>
 <p>
-    Does the visual model conform to the semantics of the visual modeling language? In other words, are the meanings
-    of&nbsp;the symbols in the diagrams&nbsp;consistent across the model and diagrams?&nbsp;
+    可视化模型是否符合可视化模型语言的语义？换句话说，模型和图中的符号意义是否一致？
 </p></td>
 </tr>
 </table>
