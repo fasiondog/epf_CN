@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>工件：Test Script</title>
+<title>工件：测试脚本</title>
 <meta name="uma.type" content="Artifact">
 <meta name="uma.name" content="test_script">
-<meta name="uma.presentationName" content="Test Script">
+<meta name="uma.presentationName" content="测试脚本">
 <meta name="uma.category" content="@Type:@Name:@DisplayName">
 <meta name="element_type" content="Artifact">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0ZfMEMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">工件：Test Script</td><td width="100%">
+<td class="pageTitle" nowrap="true">工件：测试脚本</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable<br/>&#xD;&#xA;automated testing.</td>
+<td valign="top">此工件包含了组成测试并使其可运行的一步一步的指令。文本脚本可以采用的形式包括：手工记录的文本指令，或者自动测试所用的计算机可读的指令。</td>
 </tr>
 <tr>
 <td>域：<a href="./../../core.default.cat_def.base/domains/test_domain_818B7A4.html" guid="_CsgDgK81Edy9cPK11VzBuQ">测试</a></td>
@@ -57,7 +57,7 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    Test scripts implement a subset of required tests in an efficient and effective manner.
+    测试脚本以一种有效率和效果的方式实现了测试所需的某个子集。
 </p></td>
 </tr>
 </table>
@@ -87,23 +87,23 @@
 								</span>
 <ul>
 <li>
-<a href="./../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">Run Tests</a>
+<a href="./../../practice.tech.continuous_integration.base/tasks/integrate_and_create_build_6191BF5D.html" guid="_kkZBgJOKEdyaRbFYa4AN4A">集成与构建</a>
 </li>
 <li>
-<a href="./../../practice.tech.continuous_integration.base/tasks/integrate_and_create_build_6191BF5D.html" guid="_kkZBgJOKEdyaRbFYa4AN4A">集成与构建</a>
+<a href="./../../practice.tech.concurrent_testing.base/tasks/run_tests_49698054.html" guid="_0jVEkMlgEdmt3adZL5Dmdw">运行测试</a>
 </li>
 </ul>
 <br>
 <ul>
 <li>
-<a href="./../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+<a href="./../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">实现测试</a>
 </li>
 </ul>
 </td><td class="sectionTableCell"><span class="sectionTableCellHeading">输出自:
 								</span>
 <ul>
 <li>
-<a href="./../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">Implement Tests</a>
+<a href="./../../practice.tech.concurrent_testing.base/tasks/implement_tests_26F00282.html" guid="_0jO98MlgEdmt3adZL5Dmdw">实现测试</a>
 </li>
 </ul>
 </td>
@@ -117,7 +117,7 @@
 <th class="sectionTableHeading" scope="row">模板</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/guidances/templates/test_script_976B2954.html" guid="_yZtgQI5gEdyO5aWob1UGDA">Test Script</a>
+<a href="./../../core.tech.common.extend_supp/guidances/templates/test_script_976B2954.html" guid="_yZtgQI5gEdyO5aWob1UGDA">测试脚本</a>
 </li>
 </ul>
 </td>
@@ -128,15 +128,13 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<th class="sectionTableHeading" scope="row">不具有的影响</th><td class="sectionTableCell">Without this artifact, it is difficult to ensure that tests are run consistently so that results are repeatable and errors
-can be recreated. If you do not use a test script, it is more difficult to verify that errors were not caused because of
-the way tests were run.</td>
+<th class="sectionTableHeading" scope="row">不具有的影响</th><td class="sectionTableCell"><p>
+    没有此工件，将难以保证测试被一致的运行，通过一致的运行可重复结果并可重现错误。如果没有使用测试脚本，将难以验证错误的出现是否是因为运行测试的方式本身引起的。
+</p></td>
 </tr>
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">不需要的原因</th><td class="sectionTableCell"><p>
-    This artifact might not be required if the tests are simple or if testing is done on an informal basis. However, for
-    this approach to be successful, testers must track their processes, as they might need to recreate a problem scenario.
-    Alternatively, you can use automatic capture and playback tools to provide a record of testing.
+    如果测试很简单或已经在某种非正式的基础上做过测试，那么可能不需要此工件。然后，为了保证这种方式是成功的，测试人员必须跟踪他们的处理，因为他们可能需要重现场景中的问题。或许，你可以使用一个自动捕捉和回放的工具来提供测试的记录。
 </p></td>
 </tr>
 </table>
@@ -148,10 +146,10 @@ the way tests were run.</td>
 <th class="sectionTableHeading" scope="row">核对表</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/guidances/checklists/test_data_48E804D.html" guid="_KZQJMBhBEduxCP6DVVLxsA">Test Data</a>
+<a href="./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html" guid="_0Z9tMMlgEdmt3adZL5Dmdw">测试脚本</a>
 </li>
 <li>
-<a href="./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html" guid="_0Z9tMMlgEdmt3adZL5Dmdw">Test Script</a>
+<a href="./../../core.tech.common.extend_supp/guidances/checklists/test_data_48E804D.html" guid="_KZQJMBhBEduxCP6DVVLxsA">测试数据</a>
 </li>
 </ul>
 </td>

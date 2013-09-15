@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Implement Tests</title>
+<title>任务：实现测试</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="implement_tests">
-<meta name="uma.presentationName" content="Implement Tests">
+<meta name="uma.presentationName" content="实现测试">
 <meta name="uma.category" content="Discipline:test_discipline:测试">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0jO98MlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Implement Tests</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：实现测试</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.</td>
+<td valign="top">实现测试脚本以验证解决方案的某个构建。将测试脚本组织成套件和协作以确保适当的深度和广度测试反馈。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html" guid="_iGSHtlZ-EdyIUdvDLLUdeg">测试</a></td>
@@ -57,7 +57,7 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    To implement step-by-step Test Scripts that demonstrate the solution satisfies the requirements.
+    实施循序渐进的测试脚本演示解决方案满足需求。
 </p></td>
 </tr>
 </table>
@@ -104,7 +104,7 @@
 <a href="./../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[技术-实现]</a>
 </li>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">测试脚本</a>
 </li>
 </ul>
 <ul></ul>
@@ -114,7 +114,7 @@
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">测试脚本</a>
 </li>
 </ul>
 <ul></ul>
@@ -127,124 +127,106 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Select Test Cases to implement</div>
+<div class="stepHeading">选择要实现的测试用例</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Select a set of Test Cases to develop into detailed, executable Test Scripts.&nbsp;
+    选择一组测试用例，开发成详细的可执行的测试脚本。
 </p>
 <p>
-    Work with project managers and developers to determine which Test Cases need detailed Test Scripts during the current
-    iteration. At a minimum, select Test Cases for requirements that are planned in the current or next iteration.
+    同项目管理者和开发人员一起确定在当前迭代中需要将哪些测试用例细化成测试脚本。 至少，为当前或下一次迭代中计划的需求选择测试用例。
+</p>
+对每个测试脚本执行此任务的后续步骤。</td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">设计测试脚本</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    列出测试脚本的逻辑步骤大纲。检查测试用例的数据需求，并确定已有的数据集是否足够，是否需要为测试脚本开发新的测试数据。检查应用于这个测试用例的整个系统的需求，并注意它们在何处影响步骤中的预期结果。
 </p>
 <p>
-    Perform each subsequent step in this task for each Test Script.
+    如果合适，审查构建，该构建实现了场景或展示了类似的功能。
+</p>
+<p>
+    为设计选择实现技术。至少，明确是手工测试脚本还是自动化测试脚本。如果测试用例很好理解，最好实现一个自动化测试脚本而没必要先编写手工过程。然后，如果是新的或不常见的测试用例，编写手工测试脚本能够有助于验证测试的设计，并辅助同其他团队成员的协作。更多信息参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html" guid="_0j5sUMlgEdmt3adZL5Dmdw">Programming Automated Tests</a>。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Design the Test Script</div>
+<div class="stepHeading">实现可执行的测试脚本</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Sketch an outline of the Test Script as a logical sequence of steps. Review the data requirements of the Test Case, and
-    determine if existing data sets are sufficient, or if you need to develop new test data for this Test Script. Examine
-    system-wide requirements that apply to this Test Script, and note where they affect the expected results of a step.
+    基于设计开发详细的过程化的测试脚本。使用请求-响应风格，声明精确的输入和预期的精确的输出。
 </p>
 <p>
-    If available, review a build that implements the scenario, or demonstrates similar functionality.
-</p>Select an implementation technique for this design. At a minimum, determine if the Test Script will be manual or
-automated. If the Test Case is well understood, it's best to implement an automated Test Script without first writing a
-manual procedure. However, if the Test Case is new or novel, writing a manual Test Script can help validate the design of
-the test and aid collaboration with other team members. See <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html" guid="_0j5sUMlgEdmt3adZL5Dmdw">Guideline：Programming Automated Tests</a> for more details about this decision.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Implement the executable Test Script</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td><p>
-    Develop a detailed, procedural Test Script based on your design. Use a request-response style that declares an exact
-    input, and expects an exact output.
-</p>
-<p>
-    Explain the pre-conditions that must be met before running this Test Script. Use temporary test data or put parameters
-    in your script for data values. Ensure that each post-condition in the Test Case is evaluated by steps in the Test
-    Script.
+    说明运行测试脚本前必须满足的前置条件。使用临时测试数据或输入参数作为脚本的数据值。确保通过测试脚本中的步骤对测试用例中的每个后置条件进行了评估。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Define specific test data</div>
+<div class="stepHeading">定义特定的测试数据</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Specify data values that are specific to the Test Script or reference existing test data. For example, instead of
-    specifying "a prime number", indicate an actual value such as "3."
+    指定特定于测试脚本的数据值或参考已有的测试数据。例如，用一个实际的值如“3”来代替说明性的“一个素数”。
 </p>
 <p>
-    If the Test Script uses a dataset (such as a file or database), add the new test data to it and parameterize the Test
-    Script to retrieve values from the dataset. Otherwise, add executable test data values to the steps of the Test Script.
-    This applies to both manual and automated scripts.
+    如果测试脚本使用数据集（如文件或数据库），为其增加新的测试数据，并参数化测试脚本以使其可以接受来自数据集中的值。否则，为测试脚本的步骤增加可执行的测试数据值。这适用于所有的手工或自动脚本。
 </p>
 <p>
-    Identify and minimize dependencies between test data used or modified by other Test Scripts. Note dependencies in the
-    Test Script.
+    识别并最小化使用的或被其它测试脚本修改的测试数据之间的依赖关系。注意测试脚本中的依赖关系。
 </p>
 <p>
-    If necessary, create containers for your test data sets, and separate the production data from generated data.
+    如果必要，为测试集创建容器，并区分分离生产数据（实际生产环境的数据）和生成的数据（手工或自动生成的模拟数据）。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Organize Test Scripts into suites</div>
+<div class="stepHeading">将测试脚本组织成套件</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Collect tests into related groups. The grouping you use depends on your test environment. Since the system under test
-    is undergoing its own evolution, create your test suites to facilitate regression testing, as well as system
-    configuration identification.
+    将测试分成相关的组。使用的分组依赖于测试环境。因为被测系统正在经历自己的演进，创建测试套件来促进回顾测试，以及系统配置识别。
 </p>
 <p>
-    For help with test suite organization, see <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html" guid="_0aDz0MlgEdmt3adZL5Dmdw">Guideline：Test Suite</a>.
+    获取关于组织测试套件的信息，参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html" guid="_0aDz0MlgEdmt3adZL5Dmdw">Test Suite</a>。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Verify Test implementation</div>
+<div class="stepHeading">验证测试实现</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Run the Test Script to verify that it implements the Test Case correctly. For manual testing, conduct a walkthrough of
-    the Test Script. For automated tests, verify that the Test Script executes correctly and produces the expected result.
+    运行测试脚本验证其正确实现了测试用。对于手工测试，。对于自动测试，执行预排的测试脚本。验证测试脚本执行正确并产生了预期的结果。
 </p>
 <p>
-    Verify that the Test Script meets the criteria in <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html" guid="_0Z9tMMlgEdmt3adZL5Dmdw">Checklist：Test Script</a>.
+    验证测试脚本符合检查单<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html" guid="_0Z9tMMlgEdmt3adZL5Dmdw">测试脚本</a>中的标准。
 </p>
 <p>
-    Add or update the Test Script(s) in configuration management.
+    在配置管理中，新增或更新测试脚本。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Share and evaluate Test Scripts</div>
+<div class="stepHeading">分享并评估测试脚本</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Walk through the new or refined Test Scripts with the developers responsible for the related
-    scenarios.&nbsp;Optionally, the&nbsp;analysts and the stakeholders&nbsp;also participate.
+    同负责相关场景的开发人员一起走查新增或修改的测试脚本。可选的，分析人员和利益相关人也可参与。
 </p>
 <p>
-    Seek agreement that the Test Scripts correctly evaluate the expected results of the test, and that you understand the
-    implementation of the requirements. If the scenario is already implemented (such as in a developer workspace), walk
-    through a representative set of the Test Scripts using an implementation of the system.
+    寻求一致，测试脚本正确的评估了测试的预期结果，以及理解了需求的实现。如果场景已经实现（如在某个开发人员工作区），使用系统的实现来走查一组有代表性的测试脚本。
 </p></td>
 </tr>
 </table>

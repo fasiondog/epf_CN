@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Run Tests</title>
+<title>任务：运行测试</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="run_tests">
-<meta name="uma.presentationName" content="Run Tests">
+<meta name="uma.presentationName" content="运行测试">
 <meta name="uma.category" content="Discipline:test_discipline:测试">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_0jVEkMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Run Tests</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：运行测试</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.</td>
+<td valign="top">运行合适的测试脚本、分析结果、阐明问题，并和团队沟通测试结果。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/test_discipline_F7EB1A7A.html" guid="_iGSHtlZ-EdyIUdvDLLUdeg">测试</a></td>
@@ -56,7 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">To provide feedback to the team about how well a build satisfies the requirements.</td>
+<td class="sectionTableSingleCell"><p>
+    为团队提供构建是否符合需求的反馈。
+</p></td>
 </tr>
 </table>
 </div>
@@ -82,7 +84,7 @@
 <a href="./../../core.tech.slot.base/workproducts/technical_implementation_slot_E92F6A39.html" guid="_Vux8UEfUEdyiPI8btkmvmw">[技术-实现]</a>
 </li>
 <li>
-<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>
+<a href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">测试脚本</a>
 </li>
 </ul>
 <ul></ul>
@@ -110,108 +112,94 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Review work items completed in the build</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>Review work items that were integrated into the build since the last test cycle. Focus on identifying any previously
-unimplemented or failing requirements are now expected to meet the conditions of satisfaction.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Select Test Scripts</div>
+<div class="stepHeading">Review在构建中完成的工作项</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Select test scripts related to work items completed in the build.
-</p>
-<p>
-    Ideally, each test cycle should execute all test scripts, but some types of tests are too time-consuming to include in
-    each test cycle. For manual or time-intensive tests, include test scripts that will provide the most useful feedback
-    about the maturing solution based on the objectives of the iteration.
-</p>
-<p>
-    Plan with test suites to&nbsp;simplify the process of selecting tests for each build (see <a class="elementLinkWithType" href="./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html" guid="_0aDz0MlgEdmt3adZL5Dmdw">Guideline：Test Suite</a>).
+    Review自上次测试周期后集成到构建中的工作项。重点识别那些先前未实现或失败的，但现在预期符合了满足条件的需求。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Execute Test Scripts against the build</div>
+<div class="stepHeading">选择测试脚本</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Run the tests using the step-by-step procedure in the <a class="elementLink" href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">Test Script</a>.
+    选择构建所完成的工作项相关的测试脚本。
 </p>
 <p>
-    For automated test scripts, initiate the test execution.&nbsp;Automated test scripts should run in suites in the
-    correct sequence, and collect results in the Test Log.
+    理想情况下，每个测试周期应该执行所有的测试脚本，但是某些类型的测试包含在每个测试周期中的话过于耗时。对于手工或耗时的测试，包括测试脚本，将基于迭代目标提供对解决方案成熟度最有用的反馈。
 </p>
 <p>
-    To execute a manual test script, establish its preconditions, perform the steps while logging results in the <a class="elementLink" href="./../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html" guid="_0ZlSsMlgEdmt3adZL5Dmdw">测试日志</a>, and perform any teardown steps.
+    策划测试套件来简化每次构建选择测试的过程（参见指南：<a class="elementLink" href="./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html" guid="_0aDz0MlgEdmt3adZL5Dmdw">Test Suite</a>）。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Analyze and communicate test results</div>
+<div class="stepHeading">针对构建执行测试脚本</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Post the test results in a conspicuous place that is accessible to the entire team, such as a white board or Wiki.
+    根据<a class="elementLink" href="./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html" guid="_0ZfMEMlgEdmt3adZL5Dmdw">测试脚本</a>一步步执行其中步骤。
 </p>
 <p>
-    For each failing test script, analyze the Test Log to identify the cause of the test failure. Begin with failing tests
-    that you expected to begin passing against this build, which may indicate newly delivered work items that do not meet
-    the conditions of satisfaction. Then review previously passing test scripts that are now failing, which may indicate
-    regressive issues in the build.
+    对于自动化测试脚本，开始执行测试。自动化测试脚本应该在测试套件中按正确的序列运行，并在测试日志中收集结果。
+</p>
+<p>
+    对于手工执行的测试脚本，建立其预置条件，按步骤执行，并在测试日志中记录结果，然后执行清除步骤。
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">分析并沟通测试结果</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    在显眼的地点公布测试结果，使其能够被整个团队所访问，例如白板或Wiki。
+</p>
+<p>
+    为每个失败的测试脚本，分析测试日志识别测试失败的原因。首先，在构建中预期通过的测试却失败了，这可能意味着新交付的工作项未能符合满足的条件。然后，以前通过的测试脚本现在却失败了，可能意味着构建存在回归问题。
 </p>
 <ul>
     <li>
-        If a test failed because the solution does not meet the conditions of satisfaction for the test case, log the issue
-        in the Work Items List. In the work item, clearly identify the observed behavior, the expected behavior, and steps
-        to repeat the issue. Note which failing test initially discovered the issue.
+        如果测试失败是因为解决方案没有满足测试用例的符合条件，那么在工作项列表中记录问题。在工作项中，清晰的描述观察到的行为、预期的行为以及重现问题的步骤。注意最初发现此问题的测试。
     </li>
     <li>
-        If a test failed because of a change in the system (such as a user-interface change), but the implementation still
-        meets the conditions of satisfaction in the test case, update the test script to pass with the new implementation.
+        如果测试失败是因为系统的某个变更（例如接口变化），但其实现仍旧是满足测试用例中的符合条件，那么更新测试脚本使其通过新的实现。
     </li>
     <li>
-        If a test failed because the test script is incorrect (a false negative result) or passed when it was expected to
-        fail (a false positive result), update the test script to correctly implement the conditions of satisfaction in the
-        test case. If the test case for a requirement is invalid, create a request change to modify the conditions of
-        satisfaction for the requirement.&nbsp;
+        如果测试失败是因为测试脚本不正确或预期失败却通过，那么更新测试脚本使其正确的实现测试用例的符合条件。如果测试用例或需求无效，创建变更申请修改此需求的满足条件。
     </li>
 </ul>
 <p>
-    It's best to update test scripts as quickly and continuously as possible. If the change to the test script is trivial,
-    update the test while analyzing the test results. If the change is a non-trivial task, submit it to the Work Items List
-    so it can be prioritized against other tasks.
+    最好是尽快且持续的更新测试脚本。如果是琐碎微小的测试脚本变更，在分析测试结果的同时更新测试。如果变更不是一个琐碎微小的任务，那么将其提交到工作项列表中，使其和其它任务一起进行优先级排序。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Provide feedback to the team</div>
+<div class="stepHeading">向团队提供反馈</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    Summarize and provide feedback to the team about how well the build satisfies the requirements planned to the
-    iteration. Focus on measuring progress in terms of passing tests.
+    总结并向团队提供反馈，该构建是否良好的满足了迭代中计划的需求。主要从通过的测试的方面来衡量进展。
 </p>
 <p>
-    Explain the results for the test cycle&nbsp;in the context of overall trends:
+    在整体趋势的上下文环境中解释此测试周期的结果：
 </p>
 <ul>
     <li>
-        How many tests were selected for the build, and what&nbsp;are their statuses (pass, fail, blocked, not run, etc.)?
+        该构建选择了多少测试，以及它们的状态（通过、失败、阻塞、未运行，等等）？
     </li>
     <li>
-        How many issues were added to the Work Items List, and what are their statuses and severities?
+        有多少问题被增加到工作项列表中，以及它们的状态和严重级别？
     </li>
     <li>
-        For test scripts that were blocked or skipped, what are the main reasons (such as known issues)?
+        哪些测试脚本被阻塞或跳过，其主要原因是什么（如已知的问题）？
     </li>
 </ul></td>
 </tr>
@@ -227,13 +215,10 @@ unimplemented or failing requirements are now expected to meet the conditions of
 <tr valign="top">
 <td class="sectionTableSingleCell"><ul>
     <li>
-        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test
-        environment. If this is impractical, run regression tests for existing functionality, and&nbsp;focus the test cycle
-        on work items completed in the new build.
+        尽可能频繁的运行所有测试，为每个部署到测试环境的构建运行所有测试脚本。如果做不到，为已有功能运行回归测试，并集中测试在新的构建中完成的工作项。
     </li>
     <li>
-        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it
-        should not fail&nbsp;against subsequent builds of the solution.
+        尽管测试脚本未必提供了有价值的反馈。但是，一旦通过了某个测试脚本，那么它不应该在解决方案的后续中出现失败。
     </li>
 </ul></td>
 </tr>
