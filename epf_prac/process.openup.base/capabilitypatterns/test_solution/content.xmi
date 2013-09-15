@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma:ProcessDescription xmi:id="--GUCGSJomnx0WV9XKvVyXQ" name="test_solution,_buG4sdOFEdyqlogshP8l4g" guid="--GUCGSJomnx0WV9XKvVyXQ" version="7.2.0">
-    <mainDescription>&lt;p>
-    This activity is repeated throughout the project lifecycle. The main goal of this activity is to validate that the
-    current build of the system satisfies the requirements allocated to it.
-&lt;/p>
-&lt;p>
-    Throughout the iterations, your intent is to validate that the implemented requirements reflect a robust architecture,
-    and that the remaining requirements are consistently implemented on top of that architecture. As developers implement
-    the solution for the requirements in a given iteration, unit test the integrated source code. Then, a
-    tester&amp;nbsp;conducts system-level testing in parallel with development to make sure that the solution, which is
-    continuously being integrated, satisfies the intent specified in the test cases. The tester defines what techniques to
-    use, what the data input is, and what test suites to create. As tests run, defects are identified and added to the work
-    items list, so that they can be prioritized as part of the work that you will do during iterations.
-&lt;/p>
-&lt;p>
-    stakeholders and end-users also may also be involved in performing tests to accept the release.
+    <mainDescription>&lt;p>&#xD;
+    该活动在整个项目生命周期中重复进行。活动的主要目标是验证当前的系统构建符合其分配的需求。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    在整个迭代中，你的目的是为了验证实现的需求反映了健壮的架构，以及在此架构上一致的实现了其余需求。当开发人员在指定的迭代中实现了针对需求、单元测试和集成源代码的解决方案后，将由测试人员并行的进行系统级测试以确保解决方案被持续的集成，且符合测试用例的要求。测试人员定义使用何种技术、输入的数据以及测试套件。当运行测试时，识别缺陷并将其加入工作项列表，从而能够对其进行优先级排序成为下一次迭代所做工作的一部分。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    利益相关人和最终用户也可能参与测试执行来接受这个版本。&#xD;
 &lt;/p></mainDescription>
-    <purpose>Develop and run test scripts to validate that the system satisfies the requirements.</purpose>
-    <howtoStaff>&lt;p>
-    The staff performing this activity must be integrated into the team.
+    <purpose>&lt;p>&#xD;
+    开发并运行测试脚本，以验证系统符合需求。&#xD;
+&lt;/p></purpose>
+    <howtoStaff>&lt;p>&#xD;
+    执行此活动的职员必须融入团队。&#xD;
 &lt;/p></howtoStaff>
-    <usageNotes>&lt;p>
-    Testing must occur throughout the process and throughout each iteration. Testing is not a final inspection to be
-    performed at the end of the project. As requirements are implemented and integrated into a build, you should test them
-    as soon as possible.
+    <usageNotes>&lt;p>&#xD;
+    测试必须发生在整个过程以及每次迭代中。测试不是一个在项目结束时执行的最终检查。当需求被实现并被集成到某个构建中时，应该尽快的对它们进行测试。&#xD;
 &lt;/p></usageNotes>
   </org.eclipse.epf.uma:ProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dGeCbV3mYf6d7tqFxsHq4A" name="test_case,_Vi5r8NOLEdyqlogshP8l4g" guid="-dGeCbV3mYf6d7tqFxsHq4A">
     <refinedDescription>&lt;p>&#xD;
-    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
-    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
-    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
-    results.&#xD;
+    测试用例明确了系统必须被验证的条件，以保证通过测试对系统的指定方面进行了评估。测试用例比测试思路更加正式，通常，测试用例有指定的格式。在不那么正式的环境下，可以只创建测试用例，描述唯一的名称标识、名称、相关的测试数据和预期结果。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
-    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
-    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    驱动测试用例的来源可能很多，通常包含某个需求的子集（如用例集、性能特性、以及可靠性）以及其它类型的质量属性。更多有关测试类型和它们与质量属性的关系，参见概念：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
-    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Testing Qualitative Requirements&lt;/a>。&#xD;
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S7RJDT8En1BwhtenbO3p8w" name="run_tests,_WttSMNOLEdyqlogshP8l4g" guid="-S7RJDT8En1BwhtenbO3p8w">
@@ -56,9 +44,8 @@
 &lt;/ul></keyConsiderations>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kjFCWWTMDhXbgfduK1uQCQ" name="test_log,_WttSMdOLEdyqlogshP8l4g" guid="-kjFCWWTMDhXbgfduK1uQCQ">
-    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
-provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
-trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
-the results of an aspect of the test effort.</refinedDescription>
+    <refinedDescription>&lt;p>&#xD;
+    此工件提供了详细的，通常基于时间的记录，这些记录验证了执行的一系列测试，并为这些成功执行的测试提供了相关信息。重点通常在于提供准确的审计跟踪，能够使你在运行后对失败进行诊断。随后分析这些原始数据，来确定测试工作某方面的结果。&#xD;
+&lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>

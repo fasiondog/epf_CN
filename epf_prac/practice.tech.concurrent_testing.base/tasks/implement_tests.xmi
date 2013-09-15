@@ -1,99 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T02:24:11.000-0800" version="1.0.0">
-  <sections xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="Select Test Cases to implement" guid="_A56NkKRKEdyLP-jEVj8Kyw">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" name="implement_tests,_0jO98MlgEdmt3adZL5Dmdw" guid="_NrbRUKeqEdmKDbQuyzCoqQ" changeDate="2013-09-15T15:28:58.419+0800" version="1.0.0">
+  <sections xmi:id="_A56NkKRKEdyLP-jEVj8Kyw" name="选择要实现的测试用例" guid="_A56NkKRKEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p>&#xD;
-    Select a set of Test Cases to develop into detailed, executable Test Scripts.&amp;nbsp;&#xD;
+    选择一组测试用例，开发成详细的可执行的测试脚本。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Work with project managers and developers to determine which Test Cases need detailed Test Scripts during the current&#xD;
-    iteration. At a minimum, select Test Cases for requirements that are planned in the current or next iteration.&#xD;
+    同项目管理者和开发人员一起确定在当前迭代中需要将哪些测试用例细化成测试脚本。 至少，为当前或下一次迭代中计划的需求选择测试用例。&#xD;
+&lt;/p>&#xD;
+对每个测试脚本执行此任务的后续步骤。</sectionDescription>
+  </sections>
+  <sections xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="设计测试脚本" guid="_WucQ4KRKEdyLP-jEVj8Kyw">
+    <sectionDescription>&lt;p>&#xD;
+    列出测试脚本的逻辑步骤大纲。检查测试用例的数据需求，并确定已有的数据集是否足够，是否需要为测试脚本开发新的测试数据。检查应用于这个测试用例的整个系统的需求，并注意它们在何处影响步骤中的预期结果。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Perform each subsequent step in this task for each Test Script.&#xD;
+    如果合适，审查构建，该构建实现了场景或展示了类似的功能。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    为设计选择实现技术。至少，明确是手工测试脚本还是自动化测试脚本。如果测试用例很好理解，最好实现一个自动化测试脚本而没必要先编写手工过程。然后，如果是新的或不常见的测试用例，编写手工测试脚本能够有助于验证测试的设计，并辅助同其他团队成员的协作。更多信息参见指南：&lt;a&#xD;
+     class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html&quot;&#xD;
+    guid=&quot;_0j5sUMlgEdmt3adZL5Dmdw&quot;>Programming Automated Tests&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_WucQ4KRKEdyLP-jEVj8Kyw" name="Design the Test Script" guid="_WucQ4KRKEdyLP-jEVj8Kyw">
+  <sections xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="实现可执行的测试脚本" guid="_VN5M0KuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Sketch an outline of the Test Script as a logical sequence of steps. Review the data requirements of the Test Case, and&#xD;
-    determine if existing data sets are sufficient, or if you need to develop new test data for this Test Script. Examine&#xD;
-    system-wide requirements that apply to this Test Script, and note where they affect the expected results of a step.&#xD;
+    基于设计开发详细的过程化的测试脚本。使用请求-响应风格，声明精确的输入和预期的精确的输出。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If available, review a build that implements the scenario, or demonstrates similar functionality.&#xD;
-&lt;/p>Select an implementation technique for this design. At a minimum, determine if the Test Script will be manual or&#xD;
-automated. If the Test Case is well understood, it's best to implement an automated Test Script without first writing a&#xD;
-manual procedure. However, if the Test Case is new or novel, writing a manual Test Script can help validate the design of&#xD;
-the test and aid collaboration with other team members. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/programming_automated_tests_7DA10019.html&quot;&#xD;
-guid=&quot;_0j5sUMlgEdmt3adZL5Dmdw&quot;>Guideline: Programming Automated Tests&lt;/a> for more details about this decision.</sectionDescription>
-  </sections>
-  <sections xmi:id="_VN5M0KuSEdmhFZtkg1nakg" name="Implement the executable Test Script" guid="_VN5M0KuSEdmhFZtkg1nakg">
-    <sectionDescription>&lt;p>&#xD;
-    Develop a detailed, procedural Test Script based on your design. Use a request-response style that declares an exact&#xD;
-    input, and expects an exact output.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Explain the pre-conditions that must be met before running this Test Script. Use temporary test data or put parameters&#xD;
-    in your script for data values. Ensure that each post-condition in the Test Case is evaluated by steps in the Test&#xD;
-    Script.&#xD;
+    说明运行测试脚本前必须满足的前置条件。使用临时测试数据或输入参数作为脚本的数据值。确保通过测试脚本中的步骤对测试用例中的每个后置条件进行了评估。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="Define specific test data" guid="_WvBoYKuSEdmhFZtkg1nakg">
+  <sections xmi:id="_WvBoYKuSEdmhFZtkg1nakg" name="定义特定的测试数据" guid="_WvBoYKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Specify data values that are specific to the Test Script or reference existing test data. For example, instead of&#xD;
-    specifying &quot;a prime number&quot;, indicate an actual value such as &quot;3.&quot;&#xD;
+    指定特定于测试脚本的数据值或参考已有的测试数据。例如，用一个实际的值如“3”来代替说明性的“一个素数”。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If the Test Script uses a dataset (such as a file or database), add the new test data to it and parameterize the Test&#xD;
-    Script to retrieve values from the dataset. Otherwise, add executable test data values to the steps of the Test Script.&#xD;
-    This applies to both manual and automated scripts.&#xD;
+    如果测试脚本使用数据集（如文件或数据库），为其增加新的测试数据，并参数化测试脚本以使其可以接受来自数据集中的值。否则，为测试脚本的步骤增加可执行的测试数据值。这适用于所有的手工或自动脚本。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Identify and minimize dependencies between test data used or modified by other Test Scripts. Note dependencies in the&#xD;
-    Test Script.&#xD;
+    识别并最小化使用的或被其它测试脚本修改的测试数据之间的依赖关系。注意测试脚本中的依赖关系。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If necessary, create containers for your test data sets, and separate the production data from generated data.&#xD;
+    如果必要，为测试集创建容器，并区分分离生产数据（实际生产环境的数据）和生成的数据（手工或自动生成的模拟数据）。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="Organize Test Scripts into suites" guid="_2IA70KRKEdyLP-jEVj8Kyw">
+  <sections xmi:id="_2IA70KRKEdyLP-jEVj8Kyw" name="将测试脚本组织成套件" guid="_2IA70KRKEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p>&#xD;
-    Collect tests into related groups. The grouping you use depends on your test environment. Since the system under test&#xD;
-    is undergoing its own evolution, create your test suites to facilitate regression testing, as well as system&#xD;
-    configuration identification.&#xD;
+    将测试分成相关的组。使用的分组依赖于测试环境。因为被测系统正在经历自己的演进，创建测试套件来促进回顾测试，以及系统配置识别。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For help with test suite organization, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    获取关于组织测试套件的信息，参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html&quot;&#xD;
-    guid=&quot;_0aDz0MlgEdmt3adZL5Dmdw&quot;>Guideline: Test Suite&lt;/a>.&#xD;
+    guid=&quot;_0aDz0MlgEdmt3adZL5Dmdw&quot;>Test Suite&lt;/a>。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="Verify Test implementation" guid="_X0dmcKuSEdmhFZtkg1nakg">
+  <sections xmi:id="_X0dmcKuSEdmhFZtkg1nakg" name="验证测试实现" guid="_X0dmcKuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Run the Test Script to verify that it implements the Test Case correctly. For manual testing, conduct a walkthrough of&#xD;
-    the Test Script. For automated tests, verify that the Test Script executes correctly and produces the expected result.&#xD;
+    运行测试脚本验证其正确实现了测试用。对于手工测试，。对于自动测试，执行预排的测试脚本。验证测试脚本执行正确并产生了预期的结果。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Verify that the Test Script meets the criteria in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    验证测试脚本符合检查单&lt;a class=&quot;elementLink&quot;&#xD;
     href=&quot;./../../core.tech.common.extend_supp/guidances/checklists/test_script_FBB4524E.html&quot;&#xD;
-    guid=&quot;_0Z9tMMlgEdmt3adZL5Dmdw&quot;>Checklist: Test Script&lt;/a>.&#xD;
+    guid=&quot;_0Z9tMMlgEdmt3adZL5Dmdw&quot;>Test Script&lt;/a>中的标准。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Add or update the Test Script(s) in configuration management.&#xD;
+    在配置管理中，新增或更新测试脚本。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="Share and evaluate Test Scripts" guid="_ABwoIKRLEdyLP-jEVj8Kyw">
+  <sections xmi:id="_ABwoIKRLEdyLP-jEVj8Kyw" name="分享并评估测试脚本" guid="_ABwoIKRLEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p>&#xD;
-    Walk through the new or refined Test Scripts with the developers responsible for the related&#xD;
-    scenarios.&amp;nbsp;Optionally, the&amp;nbsp;analysts and the stakeholders&amp;nbsp;also participate.&#xD;
+    同负责相关场景的开发人员一起走查新增或修改的测试脚本。可选的，分析人员和利益相关人也可参与。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Seek agreement that the Test Scripts correctly evaluate the expected results of the test, and that you understand the&#xD;
-    implementation of the requirements. If the scenario is already implemented (such as in a developer workspace), walk&#xD;
-    through a representative set of the Test Scripts using an implementation of the system.&#xD;
+    寻求一致，测试脚本正确的评估了测试的预期结果，以及理解了需求的实现。如果场景已经实现（如在某个开发人员工作区），使用系统的实现来走查一组有代表性的测试脚本。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;
-    To implement step-by-step Test Scripts that demonstrate the solution satisfies the requirements.&#xD;
+    实施循序渐进的测试脚本演示解决方案满足需求。&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

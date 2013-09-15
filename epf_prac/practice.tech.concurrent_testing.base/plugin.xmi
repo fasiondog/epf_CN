@@ -35,7 +35,8 @@
             <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
             <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jO98MlgEdmt3adZL5Dmdw" name="implement_tests" guid="_0jO98MlgEdmt3adZL5Dmdw" presentationName="Implement Tests" briefDescription="Implement Test Scripts to validate a Build of the solution. Organize Test Scripts into suites, and collaborate to ensure appropriate depth and breadth of test feedback.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jO98MlgEdmt3adZL5Dmdw" name="implement_tests" guid="_0jO98MlgEdmt3adZL5Dmdw" presentationName="实现测试" briefDescription="实现测试脚本以验证解决方案的某个构建。将测试脚本组织成套件和协作以确保适当的深度和广度测试反馈。">
+            <methodElementProperty xmi:id="_oTq-0B3YEeOGfY76DU1-kQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NrbRUKeqEdmKDbQuyzCoqQ" href="uma://_NrbRUKeqEdmKDbQuyzCoqQ#_NrbRUKeqEdmKDbQuyzCoqQ"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#_0jnYcMlgEdmt3adZL5Dmdw"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
@@ -46,7 +47,8 @@
             <optionalInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
             <optionalInput href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jVEkMlgEdmt3adZL5Dmdw" name="run_tests" guid="_0jVEkMlgEdmt3adZL5Dmdw" presentationName="Run Tests" briefDescription="Run the appropriate tests scripts, analyze results, articulate issues, and communicate test results to the team.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0jVEkMlgEdmt3adZL5Dmdw" name="run_tests" guid="_0jVEkMlgEdmt3adZL5Dmdw" presentationName="运行测试" briefDescription="运行合适的测试脚本、分析结果、阐明问题，并和团队沟通测试结果。">
+            <methodElementProperty xmi:id="_jQgoUB4XEeOENaZpgbxiKQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NrbRUqeqEdmKDbQuyzCoqQ" href="uma://_NrbRUqeqEdmKDbQuyzCoqQ#_NrbRUqeqEdmKDbQuyzCoqQ"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0kF5kMlgEdmt3adZL5Dmdw"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0j5sUMlgEdmt3adZL5Dmdw"/>

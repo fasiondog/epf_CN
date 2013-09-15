@@ -1,103 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NrbRUqeqEdmKDbQuyzCoqQ" name="run_tests,_0jVEkMlgEdmt3adZL5Dmdw" guid="_NrbRUqeqEdmKDbQuyzCoqQ" changeDate="2007-12-06T02:34:58.000-0800" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NrbRUqeqEdmKDbQuyzCoqQ" name="run_tests,_0jVEkMlgEdmt3adZL5Dmdw" guid="_NrbRUqeqEdmKDbQuyzCoqQ" changeDate="2013-09-15T22:25:26.594+0800" version="1.0.0">
   <keyConsiderations>&lt;ul>&#xD;
     &lt;li>&#xD;
-        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
-        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
-        on work items completed in the new build.&#xD;
+        尽可能频繁的运行所有测试，为每个部署到测试环境的构建运行所有测试脚本。如果做不到，为已有功能运行回归测试，并集中测试在新的构建中完成的工作项。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
-        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+        尽管测试脚本未必提供了有价值的反馈。但是，一旦通过了某个测试脚本，那么它不应该在解决方案的后续中出现失败。&#xD;
     &lt;/li>&#xD;
 &lt;/ul></keyConsiderations>
-  <sections xmi:id="_xVhnwKRLEdyLP-jEVj8Kyw" name="Review work items completed in the build" guid="_xVhnwKRLEdyLP-jEVj8Kyw">
-    <sectionDescription>Review work items that were integrated into the build since the last test cycle. Focus on identifying any previously&#xD;
-unimplemented or failing requirements are now expected to meet the conditions of satisfaction.</sectionDescription>
-  </sections>
-  <sections xmi:id="_1L1yAKRLEdyLP-jEVj8Kyw" name="Select Test Scripts" guid="_1L1yAKRLEdyLP-jEVj8Kyw">
+  <sections xmi:id="_xVhnwKRLEdyLP-jEVj8Kyw" name="Review在构建中完成的工作项" guid="_xVhnwKRLEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p>&#xD;
-    Select test scripts related to work items completed in the build.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Ideally, each test cycle should execute all test scripts, but some types of tests are too time-consuming to include in&#xD;
-    each test cycle. For manual or time-intensive tests, include test scripts that will provide the most useful feedback&#xD;
-    about the maturing solution based on the objectives of the iteration.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Plan with test suites to&amp;nbsp;simplify the process of selecting tests for each build (see &lt;a&#xD;
-    class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html&quot;&#xD;
-    guid=&quot;_0aDz0MlgEdmt3adZL5Dmdw&quot;>Guideline: Test Suite&lt;/a>).&#xD;
+    Review自上次测试周期后集成到构建中的工作项。重点识别那些先前未实现或失败的，但现在预期符合了满足条件的需求。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_gV408KuSEdmhFZtkg1nakg" name="Execute Test Scripts against the build" guid="_gV408KuSEdmhFZtkg1nakg">
+  <sections xmi:id="_1L1yAKRLEdyLP-jEVj8Kyw" name="选择测试脚本" guid="_1L1yAKRLEdyLP-jEVj8Kyw">
     <sectionDescription>&lt;p>&#xD;
-    Run the tests using the step-by-step procedure in the &lt;a class=&quot;elementLink&quot;&#xD;
-    href=&quot;./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html&quot; guid=&quot;_0ZfMEMlgEdmt3adZL5Dmdw&quot;>Test&#xD;
-    Script&lt;/a>.&#xD;
+    选择构建所完成的工作项相关的测试脚本。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For automated test scripts, initiate the test execution.&amp;nbsp;Automated test scripts should run in suites in the&#xD;
-    correct sequence, and collect results in the Test Log.&#xD;
+    理想情况下，每个测试周期应该执行所有的测试脚本，但是某些类型的测试包含在每个测试周期中的话过于耗时。对于手工或耗时的测试，包括测试脚本，将基于迭代目标提供对解决方案成熟度最有用的反馈。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    To execute a manual test script, establish its preconditions, perform the steps while logging results in the &lt;a&#xD;
-    class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/workproducts/test_log_CBA2FDF4.html&quot;&#xD;
-    guid=&quot;_0ZlSsMlgEdmt3adZL5Dmdw&quot;>Test Log&lt;/a>, and perform any teardown steps.&#xD;
+    策划测试套件来简化每次构建选择测试的过程（参见指南：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/test_suite_D54EEBED.html&quot;&#xD;
+    guid=&quot;_0aDz0MlgEdmt3adZL5Dmdw&quot;>Test Suite&lt;/a>）。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_sQaC4DO2EduqsLmIADMQ9g" name="Analyze and communicate test results" guid="_sQaC4DO2EduqsLmIADMQ9g">
+  <sections xmi:id="_gV408KuSEdmhFZtkg1nakg" name="针对构建执行测试脚本" guid="_gV408KuSEdmhFZtkg1nakg">
     <sectionDescription>&lt;p>&#xD;
-    Post the test results in a conspicuous place that is accessible to the entire team, such as a white board or Wiki.&#xD;
+    根据&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/workproducts/test_script_39A30BA2.html&quot;&#xD;
+    guid=&quot;_0ZfMEMlgEdmt3adZL5Dmdw&quot;>测试脚本&lt;/a>一步步执行其中步骤。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    For each failing test script, analyze the Test Log to identify the cause of the test failure. Begin with failing tests&#xD;
-    that you expected to begin passing against this build, which may indicate newly delivered work items that do not meet&#xD;
-    the conditions of satisfaction. Then review previously passing test scripts that are now failing, which may indicate&#xD;
-    regressive issues in the build.&#xD;
+    对于自动化测试脚本，开始执行测试。自动化测试脚本应该在测试套件中按正确的序列运行，并在测试日志中收集结果。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    对于手工执行的测试脚本，建立其预置条件，按步骤执行，并在测试日志中记录结果，然后执行清除步骤。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_sQaC4DO2EduqsLmIADMQ9g" name="分析并沟通测试结果" guid="_sQaC4DO2EduqsLmIADMQ9g">
+    <sectionDescription>&lt;p>&#xD;
+    在显眼的地点公布测试结果，使其能够被整个团队所访问，例如白板或Wiki。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    为每个失败的测试脚本，分析测试日志识别测试失败的原因。首先，在构建中预期通过的测试却失败了，这可能意味着新交付的工作项未能符合满足的条件。然后，以前通过的测试脚本现在却失败了，可能意味着构建存在回归问题。&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        If a test failed because the solution does not meet the conditions of satisfaction for the test case, log the issue&#xD;
-        in the Work Items List. In the work item, clearly identify the observed behavior, the expected behavior, and steps&#xD;
-        to repeat the issue. Note which failing test initially discovered the issue.&#xD;
+        如果测试失败是因为解决方案没有满足测试用例的符合条件，那么在工作项列表中记录问题。在工作项中，清晰的描述观察到的行为、预期的行为以及重现问题的步骤。注意最初发现此问题的测试。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        If a test failed because of a change in the system (such as a user-interface change), but the implementation still&#xD;
-        meets the conditions of satisfaction in the test case, update the test script to pass with the new implementation.&#xD;
+        如果测试失败是因为系统的某个变更（例如接口变化），但其实现仍旧是满足测试用例中的符合条件，那么更新测试脚本使其通过新的实现。&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        If a test failed because the test script is incorrect (a false negative result) or passed when it was expected to&#xD;
-        fail (a false positive result), update the test script to correctly implement the conditions of satisfaction in the&#xD;
-        test case. If the test case for a requirement is invalid, create a request change to modify the conditions of&#xD;
-        satisfaction for the requirement.&amp;nbsp;&#xD;
+        如果测试失败是因为测试脚本不正确或预期失败却通过，那么更新测试脚本使其正确的实现测试用例的符合条件。如果测试用例或需求无效，创建变更申请修改此需求的满足条件。&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    It's best to update test scripts as quickly and continuously as possible. If the change to the test script is trivial,&#xD;
-    update the test while analyzing the test results. If the change is a non-trivial task, submit it to the Work Items List&#xD;
-    so it can be prioritized against other tasks.&#xD;
+    最好是尽快且持续的更新测试脚本。如果是琐碎微小的测试脚本变更，在分析测试结果的同时更新测试。如果变更不是一个琐碎微小的任务，那么将其提交到工作项列表中，使其和其它任务一起进行优先级排序。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_3t6oADO2EduqsLmIADMQ9g" name="Provide feedback to the team" guid="_3t6oADO2EduqsLmIADMQ9g">
+  <sections xmi:id="_3t6oADO2EduqsLmIADMQ9g" name="向团队提供反馈" guid="_3t6oADO2EduqsLmIADMQ9g">
     <sectionDescription>&lt;p>&#xD;
-    Summarize and provide feedback to the team about how well the build satisfies the requirements planned to the&#xD;
-    iteration. Focus on measuring progress in terms of passing tests.&#xD;
+    总结并向团队提供反馈，该构建是否良好的满足了迭代中计划的需求。主要从通过的测试的方面来衡量进展。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Explain the results for the test cycle&amp;nbsp;in the context of overall trends:&#xD;
+    在整体趋势的上下文环境中解释此测试周期的结果：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        How many tests were selected for the build, and what&amp;nbsp;are their statuses (pass, fail, blocked, not run, etc.)?&#xD;
+        该构建选择了多少测试，以及它们的状态（通过、失败、阻塞、未运行，等等）？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        How many issues were added to the Work Items List, and what are their statuses and severities?&#xD;
+        有多少问题被增加到工作项列表中，以及它们的状态和严重级别？&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        For test scripts that were blocked or skipped, what are the main reasons (such as known issues)?&#xD;
+        哪些测试脚本被阻塞或跳过，其主要原因是什么（如已知的问题）？&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <purpose>To provide feedback to the team about how well a build satisfies the requirements.</purpose>
+  <purpose>&lt;p>&#xD;
+    为团队提供构建是否符合需求的反馈。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

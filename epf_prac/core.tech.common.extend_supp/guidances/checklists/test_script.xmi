@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_4LuPMMPcEdmbOvqy4O0adg" name="test_script,_0Z9tMMlgEdmt3adZL5Dmdw" guid="_4LuPMMPcEdmbOvqy4O0adg" changeDate="2005-07-26T01:21:21.000-0700" version="1.0.0">
-  <sections xmi:id="_DiPTsE_cEduqM_QlWBlZ_g" name="The test script conforms to the related test case" guid="_DiPTsE_cEduqM_QlWBlZ_g">
-    <sectionDescription>Ensure that the test script conforms to the specification established in the test case if one is associated with the test&#xD;
-script.&amp;nbsp; The test case captures the intent of the test; the test script must conform to this intent.</sectionDescription>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_4LuPMMPcEdmbOvqy4O0adg" name="test_script,_0Z9tMMlgEdmt3adZL5Dmdw" guid="_4LuPMMPcEdmbOvqy4O0adg" changeDate="2005-07-26T16:21:21.000+0800" version="1.0.0">
+  <sections xmi:id="_DiPTsE_cEduqM_QlWBlZ_g" name="测试脚本符合相关测试的用例" guid="_DiPTsE_cEduqM_QlWBlZ_g">
+    <sectionDescription>&lt;p>&#xD;
+    确保测试脚本符合相关测试用例规约。测试用例表达了测试的目的，测试脚本必须符合这些目的。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_KS930Bg9EduxCP6DVVLxsA" name="The test script is testable" guid="_KS930Bg9EduxCP6DVVLxsA"/>
-  <sections xmi:id="_H-q58Bg9EduxCP6DVVLxsA" name="The test script is reusable" guid="_H-q58Bg9EduxCP6DVVLxsA">
-    <sectionDescription>Ensure that your test scripts can be reused by designing your test scripts to maximize reuse.&amp;nbsp; Promoting reuse takes&#xD;
-different forms depending on whether you are generating, programming, or recording test scripts.</sectionDescription>
+  <sections xmi:id="_KS930Bg9EduxCP6DVVLxsA" name="测试脚本是可测试的" guid="_KS930Bg9EduxCP6DVVLxsA"/>
+  <sections xmi:id="_H-q58Bg9EduxCP6DVVLxsA" name="测试脚本是可重用的" guid="_H-q58Bg9EduxCP6DVVLxsA">
+    <sectionDescription>&lt;p>&#xD;
+    通过最大化可重用设计来保证测试脚本能够被重用。促使重用有不同的方式，这依赖于是生成、编程还是记录测试脚本。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_5_92wE_cEduqM_QlWBlZ_g" name="The test script is prescriptive and unambiguous" guid="_5_92wE_cEduqM_QlWBlZ_g">
-    <sectionDescription>Ensure that the test script represents clear instructions on how the test must be run and how the results should be&#xD;
-analyzed.&amp;nbsp; While non-automated tests can be written in such a way that the tester can have leeway in how the test is&#xD;
-precisely run, there is no room for creativity in how the test results are to be analyzed for success or failure.</sectionDescription>
+  <sections xmi:id="_5_92wE_cEduqM_QlWBlZ_g" name="测试脚本是规范且明确的" guid="_5_92wE_cEduqM_QlWBlZ_g">
+    <sectionDescription>&lt;p>&#xD;
+    确保测试脚本表达了清晰的指令，这些指令指示了测试必须如何运行以及应该如何分析结果。虽然在编写非自动测试时，测试人员能够在测试如何精确运行上有所保留，但在对测试结果（成功或失败）的分析上并没有创新的余地。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_La5wQBg9EduxCP6DVVLxsA" name="The test script is named consistently with the other test work products" guid="_La5wQBg9EduxCP6DVVLxsA">
-    <sectionDescription>Ensure that the naming of your test scripts is consistent with other test-related work products.&amp;nbsp; For example, if you&#xD;
-are creating test classes for each of your test cases, ensure that the naming represents this relationship.&amp;nbsp;&#xD;
-Alternatively, if you are building test scripts inside of a library, use a consistent naming convention to reflect the&#xD;
-library or libraries.</sectionDescription>
+  <sections xmi:id="_La5wQBg9EduxCP6DVVLxsA" name="测试脚本的命名与其它测试工作产品一致" guid="_La5wQBg9EduxCP6DVVLxsA">
+    <sectionDescription>&lt;p>&#xD;
+    确保你的测试脚本的命名与其它相关测试工作产品一致。例如，如果你为每一个测试用例创建了测试类，那么确保它们的名称表达这种关系。此外，如果你正在将测试脚本构建在某个库中，那么使用一致的命名惯例来反映这些库。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_Ng5zcBg9EduxCP6DVVLxsA" name="The test script provides appropriate test coverage" guid="_Ng5zcBg9EduxCP6DVVLxsA">
-    <sectionDescription>Ensure that your test scripts provide test coverage consistent with the system under test.</sectionDescription>
+  <sections xmi:id="_Ng5zcBg9EduxCP6DVVLxsA" name="测试脚本提供了合适的测试覆盖率" guid="_Ng5zcBg9EduxCP6DVVLxsA">
+    <sectionDescription>&lt;p>&#xD;
+    确保你的测试脚本提供了和被测系统一致的测试覆盖率。&#xD;
+&lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:ContentDescription>

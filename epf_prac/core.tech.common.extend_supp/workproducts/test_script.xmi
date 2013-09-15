@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2008-08-15T00:55:57.000-0700" version="7.2.0">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" name="test_script,_0ZfMEMlgEdmt3adZL5Dmdw" guid="_NqYIcqeqEdmKDbQuyzCoqQ" changeDate="2013-09-15T16:51:08.274+0800" version="7.2.0">
   <purpose>&lt;p>&#xD;
-    Test scripts implement a subset of required tests in an efficient and effective manner.&#xD;
+    测试脚本以一种有效率和效果的方式实现了测试所需的某个子集。&#xD;
 &lt;/p></purpose>
-  <impactOfNotHaving>Without this artifact, it is difficult to ensure that tests are run consistently so that results are repeatable and errors&#xD;
-can be recreated. If you do not use a test script, it is more difficult to verify that errors were not caused because of&#xD;
-the way tests were run.</impactOfNotHaving>
+  <impactOfNotHaving>&lt;p>&#xD;
+    没有此工件，将难以保证测试被一致的运行，通过一致的运行可重复结果并可重现错误。如果没有使用测试脚本，将难以验证错误的出现是否是因为运行测试的方式本身引起的。&#xD;
+&lt;/p></impactOfNotHaving>
   <reasonsForNotNeeding>&lt;p>&#xD;
-    This artifact might not be required if the tests are simple or if testing is done on an informal basis. However, for&#xD;
-    this approach to be successful, testers must track their processes, as they might need to recreate a problem scenario.&#xD;
-    Alternatively, you can use automatic capture and playback tools to provide a record of testing.&#xD;
+    如果测试很简单或已经在某种非正式的基础上做过测试，那么可能不需要此工件。然后，为了保证这种方式是成功的，测试人员必须跟踪他们的处理，因为他们可能需要重现场景中的问题。或许，你可以使用一个自动捕捉和回放的工具来提供测试的记录。&#xD;
 &lt;/p></reasonsForNotNeeding>
 </org.eclipse.epf.uma:ArtifactDescription>

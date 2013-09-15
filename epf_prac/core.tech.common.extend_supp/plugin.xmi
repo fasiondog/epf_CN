@@ -164,17 +164,20 @@
             <methodElementProperty xmi:id="_GboZEPG0EeKb1PYVQ3GKtQ" name="me_edited" value="true"/>
             <presentation xmi:id="_kwHAgMPbEdmbOvqy4O0adg" href="uma://_kwHAgMPbEdmbOvqy4O0adg#_kwHAgMPbEdmbOvqy4O0adg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_KZQJMBhBEduxCP6DVVLxsA" name="test_data" guid="_KZQJMBhBEduxCP6DVVLxsA" presentationName="Test Data" briefDescription="This checklist provides questions to verify that test data is created in a consistent and complete manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_KZQJMBhBEduxCP6DVVLxsA" name="test_data" guid="_KZQJMBhBEduxCP6DVVLxsA" presentationName="测试数据" briefDescription="此检查单提供了一系列问题来验证是否以一致且完整的方式创建了测试数据。">
+            <methodElementProperty xmi:id="_6C2jEB3oEeOGfY76DU1-kQ" name="me_edited" value="true"/>
             <presentation xmi:id="-GNUrr3mpSwOOaOKWSuftMg" href="uma://-GNUrr3mpSwOOaOKWSuftMg#-GNUrr3mpSwOOaOKWSuftMg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0Z9tMMlgEdmt3adZL5Dmdw" name="test_script" guid="_0Z9tMMlgEdmt3adZL5Dmdw" presentationName="Test Script" briefDescription="This checklist provides questions to verify that tests are created in a consistent and complete manner.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_0Z9tMMlgEdmt3adZL5Dmdw" name="test_script" guid="_0Z9tMMlgEdmt3adZL5Dmdw" presentationName="测试脚本" briefDescription="此检查单提供了一系列问题来验证以一致并完整的方式创建了测试。">
+            <methodElementProperty xmi:id="_eAGfoB4MEeOENaZpgbxiKQ" name="me_edited" value="true"/>
             <presentation xmi:id="_4LuPMMPcEdmbOvqy4O0adg" href="uma://_4LuPMMPcEdmbOvqy4O0adg#_4LuPMMPcEdmbOvqy4O0adg"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZS-0MlgEdmt3adZL5Dmdw" name="test_case" guid="_0ZS-0MlgEdmt3adZL5Dmdw" presentationName="测试用例" briefDescription="此工件描述了已识别的用于评估某个场景的特定方面的测试输入、执行条件和预期的结果。" conceptsAndPapers="_0aJ6cMlgEdmt3adZL5Dmdw" checklists="_0Zxf8MlgEdmt3adZL5Dmdw" templates="_yWaKEI5fEdyO5aWob1UGDA">
             <methodElementProperty xmi:id="_Hf8IAPGvEeKb1PYVQ3GKtQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NqYIdKeqEdmKDbQuyzCoqQ" href="uma://_NqYIdKeqEdmKDbQuyzCoqQ#_NqYIdKeqEdmKDbQuyzCoqQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZfMEMlgEdmt3adZL5Dmdw" name="test_script" guid="_0ZfMEMlgEdmt3adZL5Dmdw" presentationName="Test Script" briefDescription="This artifact contains the step-by-step instructions that compose a test, enabling its run. Text scripts can take the form of either documented textual instructions that are manually followed, or computer-readable instructions that enable&#xD;&#xA;automated testing." checklists="_KZQJMBhBEduxCP6DVVLxsA _0Z9tMMlgEdmt3adZL5Dmdw" guidelines="_0aDz0MlgEdmt3adZL5Dmdw _0j5sUMlgEdmt3adZL5Dmdw _0kF5kMlgEdmt3adZL5Dmdw" templates="_yZtgQI5gEdyO5aWob1UGDA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZfMEMlgEdmt3adZL5Dmdw" name="test_script" guid="_0ZfMEMlgEdmt3adZL5Dmdw" presentationName="测试脚本" briefDescription="此工件包含了组成测试并使其可运行的一步一步的指令。文本脚本可以采用的形式包括：手工记录的文本指令，或者自动测试所用的计算机可读的指令。" checklists="_KZQJMBhBEduxCP6DVVLxsA _0Z9tMMlgEdmt3adZL5Dmdw" guidelines="_0aDz0MlgEdmt3adZL5Dmdw _0j5sUMlgEdmt3adZL5Dmdw _0kF5kMlgEdmt3adZL5Dmdw" templates="_yZtgQI5gEdyO5aWob1UGDA">
+            <methodElementProperty xmi:id="_Nr14sB3lEeOGfY76DU1-kQ" name="me_edited" value="true"/>
             <presentation xmi:id="_NqYIcqeqEdmKDbQuyzCoqQ" href="uma://_NqYIcqeqEdmKDbQuyzCoqQ#_NqYIcqeqEdmKDbQuyzCoqQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_0ZlSsMlgEdmt3adZL5Dmdw" name="test_log" guid="_0ZlSsMlgEdmt3adZL5Dmdw" presentationName="测试日志" briefDescription="此工件收集了在单独的测试周期中执行测试所产生的原始输出。">
@@ -382,7 +385,8 @@
             <methodElementProperty xmi:id="_5T8oAPEtEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-qq-9Brh5oa6H3lsdp-m8mQ" href="uma://-qq-9Brh5oa6H3lsdp-m8mQ#-qq-9Brh5oa6H3lsdp-m8mQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yZtgQI5gEdyO5aWob1UGDA" name="test_script" guid="_yZtgQI5gEdyO5aWob1UGDA" presentationName="Test Script" briefDescription="This is the informal template suggested for test scripts.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yZtgQI5gEdyO5aWob1UGDA" name="test_script" guid="_yZtgQI5gEdyO5aWob1UGDA" presentationName="测试脚本" briefDescription="这是建议的非正式的测试脚本模板。">
+            <methodElementProperty xmi:id="_W8JmcB3lEeOGfY76DU1-kQ" name="me_edited" value="true"/>
             <presentation xmi:id="-PHKmXwkVhDR81vcyAQAkxQ" href="uma://-PHKmXwkVhDR81vcyAQAkxQ#-PHKmXwkVhDR81vcyAQAkxQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_yWaKEI5fEdyO5aWob1UGDA" name="test_case" guid="_yWaKEI5fEdyO5aWob1UGDA" presentationName="测试用例" briefDescription="这是建议的非正式的测试用例模板">
