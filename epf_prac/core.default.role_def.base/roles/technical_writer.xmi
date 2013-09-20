@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-OW9Mlf5qrIMlT-E_1TEn2A" name="technical_writer,_-zf1teB8EeC1y_NExchKwQ" guid="-OW9Mlf5qrIMlT-E_1TEn2A" changeDate="2011-10-13T07:00:11.197-0600" version="7.5.1">
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OW9Mlf5qrIMlT-E_1TEn2A" name="technical_writer,_-zf1teB8EeC1y_NExchKwQ" guid="-OW9Mlf5qrIMlT-E_1TEn2A" changeDate="2013-09-19T23:01:22.359+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Some organizations might engage a Technical Writer to help a development team member review and refine the documentation that&#xD;
-    is produced by the team during a Sprint/Iteration in support of delivered features.&#xD;
+    某些组织可能雇佣技术作者来帮助开发团队成员Review并完善文档，这些为交付特性提供支持的文档由团队在Sprint/迭代中输出。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Because they often are skilled at creating and maintaining technical documentation, Technical Writers help to ensure&#xD;
-    consistency and conformance to corporate standards.&#xD;
+    由于技术作者经常善于编写并维护技术文档，他们有助于保证文档的一致性并符合企业标准。&#xD;
 &lt;/p></mainDescription>
   <skills>&lt;p>&#xD;
-    A Technical Writer should possess the following skills:&#xD;
+    技术作者应该具备以下技能：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Excellent technical writing ability&#xD;
+        优秀的技术写作能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to understand complex technical concepts and to translate them into user-friendly procedures&#xD;
+        理解复杂技术概念并将它们转化为易于用户理解的能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to create concise Help Files that are delivered as part of the application&#xD;
+        编写简洁的帮助文档并使其成为应用程序一部分的能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to obtain technical details from Developers, Testers, and Product Owners and to document those details in a&#xD;
-        way that is easily understood by End Users and support personnel&#xD;
+        从开发人员、测试人员以及产品负责人那里获取技术细节，并以易于最终用户和支持人员理解的方式记录这些细节的能力&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ability to adhere to corporate documentation standards. If those standards don't already exist, this role should be&#xD;
-        able to write those standards and communicate them to the development team&#xD;
+        坚持企业文档标准的能力，如果不存在标准，那么应该有能力编写这些标准并和开发团队沟通&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        A strong understand of the domain in which the features are being developed&#xD;
+        对正在开发的特性所在领域有深刻的理解&#xD;
     &lt;/li>&#xD;
 &lt;/ul></skills>
 </org.eclipse.epf.uma:RoleDescription>
