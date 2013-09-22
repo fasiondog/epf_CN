@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-U5rK8ue_5v305MPzxKzQUg" name="training_materials,_B2vaMEVvEeC6_c5S_pc9RA" guid="-U5rK8ue_5v305MPzxKzQUg" changeDate="2012-05-30T14:04:32.231-0700" version="7.5.1">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-U5rK8ue_5v305MPzxKzQUg" name="training_materials,_B2vaMEVvEeC6_c5S_pc9RA" guid="-U5rK8ue_5v305MPzxKzQUg" changeDate="2013-09-22T01:02:47.963+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Training materials that can be used to train end users and production support personnel might be of the following&#xD;
-    types:&#xD;
+    可用来培训最终用户和产品支持人员的材料包括以下类型：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Presentation slides&#xD;
+        幻灯片&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Handouts&#xD;
+        讲义&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Job aids&#xD;
+        作业辅助程序&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Tutorials&#xD;
+        教程&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        On-line demos&#xD;
+        在线演示&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Video vignettes&#xD;
+        视频短片&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Lab exercises&#xD;
+        上机实习&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Quizzes&#xD;
+        测验&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Workshop materials, etc.&#xD;
+        研讨材料，等等&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
-  <purpose>The purpose of this work product is to provide direct understanding of how to use or support a set of features deployed in&#xD;
-a particular release.</purpose>
+  <purpose>&lt;p>&#xD;
+    此工作产品的目的是为如何使用或支持某个特定发布版本的特性提供直接的理解。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:ArtifactDescription>

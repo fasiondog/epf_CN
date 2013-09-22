@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_wDcysOCFEeC1y_NExchKwQ" guid="_wDcysOCFEeC1y_NExchKwQ">
     <resourceDescriptors xmi:id="_BhTfwOB9EeC1y_NExchKwQ" id="-jWMpCvzhJPOglJcxCiAYjA" uri="tasks/develop_support_documentation.xmi"/>
     <resourceDescriptors xmi:id="_BiH_IOB9EeC1y_NExchKwQ" id="-xCz7FMvINdv3zLvonMDolQ" uri="tasks/deliver_support_training.xmi"/>
@@ -16,7 +16,7 @@
     <resourceDescriptors xmi:id="_nKJ2EPUmEeC8PqSK-VPp4w" id="-8kqk1tE8R96b88T_NC7SoQ" uri="guidances/supportingmaterials/release_info_doc_and_training.xmi"/>
     <resourceDescriptors xmi:id="_Lxpj8PeDEeCFmpfCmMPILg" id="-YMjHOs9SW8oHj6-rZ9wobg" uri="guidances/supportingmaterials/release_info_doc_and_training.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_wDZIUOCFEeC1y_NExchKwQ" name="practice.gen.doc_trng.base" guid="_wDZIUOCFEeC1y_NExchKwQ" presentationName="Documentation and Training" briefDescription="This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel." changeDate="2012-05-23T09:49:48.092-0700">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_wDZIUOCFEeC1y_NExchKwQ" name="practice.gen.doc_trng.base" guid="_wDZIUOCFEeC1y_NExchKwQ" presentationName="Documentation and Training" briefDescription="This practice describes how to prepare documentation for a product release and how that documentation might be used to prepare and deliver training to end users and support personnel." changeDate="2012-05-24T00:49:48.092+0800">
     <methodElementProperty xmi:id="_wDcysuCFEeC1y_NExchKwQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_mnCLoJidEeGlkdGl1HQlDA" name="me_edited" value="true"/>
     <copyrightStatement href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
@@ -50,15 +50,16 @@
               <methodElementProperty xmi:id="_hko94JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-bkoNpaQhWX6FBG-iOZkRPg" href="uma://-bkoNpaQhWX6FBG-iOZkRPg#-bkoNpaQhWX6FBG-iOZkRPg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tuB8EeC1y_NExchKwQ" name="product_documentation" guid="_-zf1tuB8EeC1y_NExchKwQ" presentationName="Product Documentation" briefDescription="Information about a specific product that has been captured in an organized format.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tuB8EeC1y_NExchKwQ" name="product_documentation" guid="_-zf1tuB8EeC1y_NExchKwQ" presentationName="产品文档" briefDescription="通过某种有组织的形式表达的关于指定产品的信息。">
               <methodElementProperty xmi:id="_EPOVcKqaEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-NHao3cbpesderphl_fDlDw" href="uma://-NHao3cbpesderphl_fDlDw#-NHao3cbpesderphl_fDlDw"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zfOreB8EeC1y_NExchKwQ" name="support_documentation" guid="_-zfOreB8EeC1y_NExchKwQ" presentationName="Support Documentation" briefDescription="Documents used by members of a production support team that provide information about how to service and support a specific product.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zfOreB8EeC1y_NExchKwQ" name="support_documentation" guid="_-zfOreB8EeC1y_NExchKwQ" presentationName="支持文档" briefDescription="供产品支持团队使用的文档，提供了有关如何服务并支持指定产品的相关信息。">
               <methodElementProperty xmi:id="_9o2YABhuEeKp-bVgqy0qKg" name="me_edited" value="true"/>
               <presentation xmi:id="--5bZB7Fly_OXGWALfR7CCA" href="uma://--5bZB7Fly_OXGWALfR7CCA#--5bZB7Fly_OXGWALfR7CCA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tOB8EeC1y_NExchKwQ" name="user_documentation" guid="_-zf1tOB8EeC1y_NExchKwQ" presentationName="User Documentation" briefDescription="Documents that can be utilized by the end users of a particular system or product. This type of documentation typically is written in a way that enables system users to easily find information they need to use the product.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zf1tOB8EeC1y_NExchKwQ" name="user_documentation" guid="_-zf1tOB8EeC1y_NExchKwQ" presentationName="用户文档" briefDescription="该文档可以被特定系统或产品的最终用户所使用。此类文档通常以可使系统用户在需要时方便的找到所需要的信息。">
+              <methodElementProperty xmi:id="_RKEJsCLgEeOnD4sVAx5noA" name="me_edited" value="true"/>
               <presentation xmi:id="-SLpYMg7H4HpPFh-tX5CqoA" href="uma://-SLpYMg7H4HpPFh-tX5CqoA#-SLpYMg7H4HpPFh-tX5CqoA"/>
             </contentElements>
           </childPackages>
@@ -68,15 +69,15 @@
               <methodElementProperty xmi:id="_q_ZBEJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-IfcWgUklth25pRzdNTE8LA" href="uma://-IfcWgUklth25pRzdNTE8LA#-IfcWgUklth25pRzdNTE8LA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenlOB8EeC1y_NExchKwQ" name="deliver_support_training" guid="_-zenlOB8EeC1y_NExchKwQ" presentationName="Deliver Support Training" briefDescription="Personnel who support an application need training so they can perform their jobs effectively." mandatoryInput="_-zeAguB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenlOB8EeC1y_NExchKwQ" name="deliver_support_training" guid="_-zenlOB8EeC1y_NExchKwQ" presentationName="提供支持培训" briefDescription="支持应用人员需要培训从而能够高效的执行他们的工作。" mandatoryInput="_-zeAguB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_q__eAJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-xCz7FMvINdv3zLvonMDolQ" href="uma://-xCz7FMvINdv3zLvonMDolQ#-xCz7FMvINdv3zLvonMDolQ"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zeAg-B8EeC1y_NExchKwQ" name="deliver_end_user_training" guid="_-zeAg-B8EeC1y_NExchKwQ" presentationName="Deliver end user Training" briefDescription="In most cases, end users of a system require training to use the application effectively." mandatoryInput="_-zf1tOB8EeC1y_NExchKwQ _-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zeAg-B8EeC1y_NExchKwQ" name="deliver_end_user_training" guid="_-zeAg-B8EeC1y_NExchKwQ" presentationName="提供用户培训" briefDescription="在大多数情况下，系统的最终用户需要培训以高效的使用应用。" mandatoryInput="_-zf1tOB8EeC1y_NExchKwQ _-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_rAIn8JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-w4UHaO9nSn7-q_CMq-Ofog" href="uma://-w4UHaO9nSn7-q_CMq-Ofog#-w4UHaO9nSn7-q_CMq-Ofog"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zeAguB8EeC1y_NExchKwQ" name="training_materials" guid="_-zeAguB8EeC1y_NExchKwQ" presentationName="Training Materials" briefDescription="This work product represents all the materials needed to train end users and production support personnel on the features and inner workings of a product for a particular release.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-zeAguB8EeC1y_NExchKwQ" name="training_materials" guid="_-zeAguB8EeC1y_NExchKwQ" presentationName="培训材料" briefDescription="此工作产品代表所有需要培训最终用户和产品支持人员的材料，包括产品特定版本的特性及内部运作。">
               <methodElementProperty xmi:id="_K5L2kKqbEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-U5rK8ue_5v305MPzxKzQUg" href="uma://-U5rK8ue_5v305MPzxKzQUg#-U5rK8ue_5v305MPzxKzQUg"/>
             </contentElements>

@@ -1,62 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xCz7FMvINdv3zLvonMDolQ" name="03_deliver_support_training,_YryeIDHNEeC7j_IRiP-WPQ" guid="-xCz7FMvINdv3zLvonMDolQ" changeDate="2012-05-30T14:00:22.183-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xCz7FMvINdv3zLvonMDolQ" name="03_deliver_support_training,_YryeIDHNEeC7j_IRiP-WPQ" guid="-xCz7FMvINdv3zLvonMDolQ" changeDate="2013-09-22T22:12:42.966+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Because a release ultimately will have to be supported by Help Desk or other technical personnel, a set of training&#xD;
-    materials designed to convey key concepts to those individuals must be developed and delivered by the&amp;nbsp;development&#xD;
-    team or by a technically oriented trainer.&#xD;
+    因为发布最终将由帮助台或其他技术人员提供支持，所以必须开发一系列的培训材料来向他们传递关键概念，并由开发团队或技术性培训师来提供培训。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Delivery of this training might include presentation slides, job aids, lab exercises, or workshops designed to provide&#xD;
-    real-world scenarios to accelerate learning and retention. In addition, the training materials might be different for&#xD;
-    each level (tier) of support.&#xD;
+    提供此培训可能包括演示幻灯片、工作辅助器材、上机实习，或研讨，研讨被设计成真实世界的场景来加速学习和记忆。此外，培训材料可能针对不同的支持层次而有时不同。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_-zenmOB8EeC1y_NExchKwQ" name="Validate support training logistics" guid="_-zenmOB8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zenmOB8EeC1y_NExchKwQ" name="验证支持培训物资" guid="_-zenmOB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Before actually delivering the training to support personnel, ensure that you have all the necessary components of the&#xD;
-    training course, including:&#xD;
+    在实际开始支持培训前，确保已经拥有了培训课程所需的全部组件，包括：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Presentation slides&#xD;
+        演示幻灯片&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Handouts&#xD;
+        讲义&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Training aids&#xD;
+        培训辅助器材&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Hands-on labs and/or exercises&#xD;
+        上机实验和/或习题&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Quizzes or tests&#xD;
+        测验或测试&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Feedback and/or instructor assessment forms&#xD;
+        反馈和/或讲师评估表&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Ensure that the classes have been scheduled correctly and that attendees have been identified. Also, validate that the&#xD;
-    facilities where you will deliver the training have been properly booked and are furnished to accommodate the training&#xD;
-    content and audience. If possible, send a reminder notice to the attendees several days (or a week) before the delivery&#xD;
-    date.&#xD;
+    确保预定了正确的类，并明确了参与人。验证已经正确预定了进行培训的设施，并进行了配置以适应培训内容和听众。如果可能，在培训日期前几日（或一周）向参与人发送提醒通知。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenl-B8EeC1y_NExchKwQ" name="Prepare for support training delivery" guid="_-zenl-B8EeC1y_NExchKwQ">
-    <sectionDescription>Review the training materials so that you are familiar with them. If you encounter any areas where you are unsure or&#xD;
-tentative, engage experts from the development team or program who can help you understand the material. Then, update the&#xD;
-training materials accordingly and create instructor notes to help you remember key points as you deliver the training.&#xD;
-Instructor notes that you write will not only help you but might assist other instructors in the future who have not had&#xD;
-the benefit of working with the development team or program.</sectionDescription>
+  <sections xmi:id="_-zenl-B8EeC1y_NExchKwQ" name="准备支持培训" guid="_-zenl-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Review并熟悉培训材料。如果遇到任何不确定或担心的领域，向开发团队或其他能够帮助你理解材料的人员求助。然后，更新相应的培训材料，并创建指导注意事项以帮助记住培训中的关键点。指导注意事项不仅仅应该帮助你，也可以在未来辅助其他讲师。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenluB8EeC1y_NExchKwQ" name="deliver support training and gather feedback" guid="_-zenluB8EeC1y_NExchKwQ">
-    <sectionDescription>On the prescribed day(s) and time(s), deliver the training as planned. When each course is completed, solicit feedback from&#xD;
-the attendees about the course material, its organization and flow, the learning objectives, how well the instructor&#xD;
-delivered the content, and whether the course met their expectations.</sectionDescription>
+  <sections xmi:id="_-zenluB8EeC1y_NExchKwQ" name="进行支持培训并收集反馈" guid="_-zenluB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在规定的日期和时间，进行计划的培训。当课程结束时，向参与人征求有关反馈，包括课程材料、培训组织和流程、学习目标、讲师培训的好坏、以及课程是否符合他们的预期。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenleB8EeC1y_NExchKwQ" name="Provide feedback to the program" guid="_-zenleB8EeC1y_NExchKwQ">
-    <sectionDescription>Consolidate the feedback from the courses delivered and provide it to the program manager or their delegate for review.</sectionDescription>
+  <sections xmi:id="_-zenleB8EeC1y_NExchKwQ" name="向组织程序级别提供反馈" guid="_-zenleB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    合并从培训课程中获得的反馈，并提交给程序管理经理或他们指派的人员进行Review&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to provide personnel at all levels of support (Tiers 1, 2, and 3) with the appropriate amount&#xD;
-of training on the features that are being delivered as part of a specific Release.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是为所有层次的支持人员提供合适数量的培训，培训发布版本的相关特性。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
