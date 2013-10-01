@@ -38,15 +38,15 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zdZcOB8EeC1y_NExchKwQ" name="documentation_and_training" guid="_-zdZcOB8EeC1y_NExchKwQ" presentationName="Documentation and Training">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zenoOB8EeC1y_NExchKwQ" name="documentation" guid="_-zenoOB8EeC1y_NExchKwQ">
             <methodElementProperty xmi:id="_dKHTUJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOruB8EeC1y_NExchKwQ" name="develop_product_documentation" guid="_-zfOruB8EeC1y_NExchKwQ" presentationName="Develop Product Documentation" briefDescription="Because product documentation continues to be used after a development effort ends, it is important to ensure that the features developed within a particular release are clearly documented while the functionality is still fresh in the minds of team members." output="_-zf1tuB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOruB8EeC1y_NExchKwQ" name="develop_product_documentation" guid="_-zfOruB8EeC1y_NExchKwQ" presentationName="开发产品文档" briefDescription="因为产品文档在开发工作结束后仍将持续使用，所以趁着功能还在团队成员头脑中新鲜时清晰的将发布中开发的特性文档化非常重要。" output="_-zf1tuB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_dKj_QJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-Msu85VH5rLUfl0OEAnZdIQ" href="uma://-Msu85VH5rLUfl0OEAnZdIQ#-Msu85VH5rLUfl0OEAnZdIQ"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOp-B8EeC1y_NExchKwQ" name="develop_support_documentation" guid="_-zfOp-B8EeC1y_NExchKwQ" presentationName="Develop Support Documentation" briefDescription="This type of documentation is used by production support and IT operations personnel on a regular basis to answer end users' questions about a particular product, to troubleshoot issues, or to determine if an incident is a result of a defect or missed requirements." output="_-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOp-B8EeC1y_NExchKwQ" name="develop_support_documentation" guid="_-zfOp-B8EeC1y_NExchKwQ" presentationName="开发支持文档" briefDescription="此类文档供产品支持和IT运维人员使用，由他们定期答复特定产品最终用户的问题和故障、或者确定某个事件的原因缺陷或遗漏的需求导致。" output="_-zfOreB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_fZdfwJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-jWMpCvzhJPOglJcxCiAYjA" href="uma://-jWMpCvzhJPOglJcxCiAYjA#-jWMpCvzhJPOglJcxCiAYjA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOoOB8EeC1y_NExchKwQ" name="develop_user_documentation" guid="_-zfOoOB8EeC1y_NExchKwQ" presentationName="Develop User Documentation" briefDescription="User documentation must be developed and maintained for each Release so that the product's end users will know how to operate the system effectively." output="_-zf1tOB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zfOoOB8EeC1y_NExchKwQ" name="develop_user_documentation" guid="_-zfOoOB8EeC1y_NExchKwQ" presentationName="开发用户文档" briefDescription="每个发布都必须开发并维护用户文档，以使产品终端用户知道如何有效操作系统。" output="_-zf1tOB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_hko94JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-bkoNpaQhWX6FBG-iOZkRPg" href="uma://-bkoNpaQhWX6FBG-iOZkRPg#-bkoNpaQhWX6FBG-iOZkRPg"/>
             </contentElements>
@@ -65,7 +65,7 @@
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_-zeAgeB8EeC1y_NExchKwQ" name="training" guid="_-zeAgeB8EeC1y_NExchKwQ">
             <methodElementProperty xmi:id="_lGsIUJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenmeB8EeC1y_NExchKwQ" name="develop_training_materials" guid="_-zenmeB8EeC1y_NExchKwQ" presentationName="Develop Training Materials" briefDescription="This task is used to develop quality audio/visual materials that can be used to train end users and IT production support personnel." output="_-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-zenmeB8EeC1y_NExchKwQ" name="develop_training_materials" guid="_-zenmeB8EeC1y_NExchKwQ" presentationName="开发培训材料" briefDescription="此任务用于开发高质量的音/视频材料，这些材料可以用来培训终端用户和IT产品支持人员。" output="_-zeAguB8EeC1y_NExchKwQ" optionalInput="_-zf1tuB8EeC1y_NExchKwQ _-zfOreB8EeC1y_NExchKwQ _-zf1tOB8EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_q_ZBEJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-IfcWgUklth25pRzdNTE8LA" href="uma://-IfcWgUklth25pRzdNTE8LA#-IfcWgUklth25pRzdNTE8LA"/>
             </contentElements>

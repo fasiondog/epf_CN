@@ -1,88 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IfcWgUklth25pRzdNTE8LA" name="create_update_training_materials,_yJRakDHMEeC7j_IRiP-WPQ" guid="-IfcWgUklth25pRzdNTE8LA" changeDate="2012-05-30T14:02:19.664-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IfcWgUklth25pRzdNTE8LA" name="create_update_training_materials,_yJRakDHMEeC7j_IRiP-WPQ" guid="-IfcWgUklth25pRzdNTE8LA" changeDate="2013-10-01T00:53:18.876+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Having the correct amount and type of materials available to adequately train end users and supporters of an&#xD;
-    application is necessary to promote usability and to achieve the desired business value. If a course ceveloper is&#xD;
-    available, they can assume most of the burden of creating the training materials, lab exercises, and workshops&amp;nbsp;for&#xD;
-    delivery of&amp;nbsp;those courses to either end users or support personnel. If a course developer is not&#xD;
-    available,&amp;nbsp;development team members should take the time to properly develop a suite of training materials for the&#xD;
-    feature set developed during a release.&#xD;
+    拥有正确数量和类型的材料来充分培训终端用户和应用的支持人员，对提升可用性和达成期望的业务价值来说是必需的。如果有课程的开发人员，那么他们可以承担大部分创建培训材料、上机实验，以及研讨会的负担，这些材料将作为课程交付给终端用户和支持人员。如果没有课程开发人员，开发团队成员应该花费时间适当的为那些在发布中被开发的特性开发一套培训材料。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Although different parts of training materials should be created during feature development sprint/iterations, the bulk&#xD;
-    of the work (and the integration of the materials) usually is reserved for the release sprint/iteration that occurs&#xD;
-    immediately before a scheduled release.&#xD;
+    虽然培训材料的不同部分应该在特性开发Sprint/迭代中创建，但大部分工作（以及材料的整合）通常被保留在计划的发布前一个发布Sprint/迭代中进行。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_-zennOB8EeC1y_NExchKwQ" name="Determine scope of training materials" guid="_-zennOB8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zennOB8EeC1y_NExchKwQ" name="确定培训材料的范围" guid="_-zennOB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Consult the program manager and deployment manager to determine the extent of training materials required for this&#xD;
-    release. Depending on the contents of the release, more or fewer training materials might be needed to support both end&#xD;
-    users and IT operations support personnel.&#xD;
+    向流程程序经理和部署经理咨询，从而确定当前发布所需的培训材料范围。针对支持人员和终端用户所需培训材料的多少，依赖于当前发布的内容。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Training materials generally consist of a combination of:&#xD;
+    培训材料通常由以下材料的组合构成：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Presentation slides&#xD;
+        介绍幻灯片&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Handouts&#xD;
+        讲义&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Training aids&#xD;
+        培训辅助材料&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Hands-on labs and/or exercises&#xD;
+        上机实验或练习&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Quizzes or tests&#xD;
+        测验或测试&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Practical application workshops&#xD;
+        实际应用研讨会&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    Training materials often are grouped into modules, each with a set of learning objectives and competency assessments.&#xD;
+    培训材料常常被分组为模块，每个模块都有一组学习目标和能力评估。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenm-B8EeC1y_NExchKwQ" name="Develop user training materials" guid="_-zenm-B8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zenm-B8EeC1y_NExchKwQ" name="开发用户培训材料" guid="_-zenm-B8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Leverage all the user documentation that has been prepared previously or is in the process of being prepared. The table&#xD;
-    of contents of the user documentation will provide a starting point for developing a training course framework and a&#xD;
-    lesson plan.&#xD;
+    利用所有在之前准备的或者在此过程开始时准备的用户文档。用户文档的内容表格将为培训课程框架和教案提供起始点。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    First identify the learning objectives of each training module, then reuse as much user documentation as is possible.&#xD;
-    If tutorials were documented within either user or support documentation, they are a good source of content for&#xD;
-    training modules.&#xD;
+    首先是把每个培训模块的学习目标，然后尽可能的重用用户文档。如果在用户文档或支持文档中记录的教程，那么它们将是培训模块的良好内容来源。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenmuB8EeC1y_NExchKwQ" name="Develop support training materials" guid="_-zenmuB8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zenmuB8EeC1y_NExchKwQ" name="开发支持培训材料" guid="_-zenmuB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    In many cases, IT support personnel are experienced enough to require minimal training on a product release. However,&#xD;
-    where the product is new to the support organization, or the support personnel themselves are inexperienced or&#xD;
-    unfamiliar with a particular technology, support training becomes very important to the success of the product rollout.&#xD;
+    在许多情况下，当产品发布时IT支持人员有足够的经验可以要求最小化的培训。然后，那些对于支持组织来说是新的产品，或支持人员对特定的技术缺少经验或不熟悉时，支持培训将成为产品上线成功的重要因素。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Using the support documentation as a guideline, identify the parts of the product on which IT support personnel will&#xD;
-    need to be trained. Identify training modules and document learning objectives for each module, then leverage as much&#xD;
-    of the support documentation content as you can to create your training materials.&#xD;
+    使用支持文档做为指南，识别那些需要对IT支持人员进行培训的产品部分。识别培训模块并记录其学习目标，接着尽可能的利用支持文档中的内容来创建培训材料。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenn-B8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zenn-B8EeC1y_NExchKwQ">
-    <sectionDescription>As user and support training materials are developed, plan and conduct a quality review during the release sprint/iteration&#xD;
-to ensure that the materials are of sufficient quantity and quality. Update and improve the training materials based on the&#xD;
-results of the quality review.</sectionDescription>
+  <sections xmi:id="_-zenn-B8EeC1y_NExchKwQ" name="执行质量审查" guid="_-zenn-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    当开发用户和支持培训材料后，在发布sprint/迭代中计划并实施质量审查，从而保证这些材料有充足的质量和数量。基于质量审查的结果更新并改进培训材料。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zennuB8EeC1y_NExchKwQ" name="Perform dry run" guid="_-zennuB8EeC1y_NExchKwQ">
-    <sectionDescription>Before formally delivering the user or support training, plan a sprint/iteration task in which representatives of both the&#xD;
-user and support communities are invited to participate in a dry run of the training materials. Use the feedback obtained&#xD;
-from these sessions to improve the training materials during the release sprint/iteration.</sectionDescription>
+  <sections xmi:id="_-zennuB8EeC1y_NExchKwQ" name="执行演练" guid="_-zennuB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在正式交付用户或支持培训之前，计划一个sprint/迭代任务，邀请用户和支持人员团体中的代表参与培训演练。在发布Sprint/迭代中，依据从这些演练中获得的反馈来改进培训材料。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zenneB8EeC1y_NExchKwQ" name="Deliver training materials" guid="_-zenneB8EeC1y_NExchKwQ">
-    <sectionDescription>When the final user and support training materials are complete, deliver them to the deployment manager for integration&#xD;
-with the training materials from the other teams participating in the program.</sectionDescription>
+  <sections xmi:id="_-zenneB8EeC1y_NExchKwQ" name="交付培训材料" guid="_-zenneB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    当完成最终的用户和支持培训材料后，将它们交付给部署经理，以便和来自其他团队的培训材料进行集成。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to enable adoption of the product and to encourage its proper use.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是促进采用产品并鼓励正确的使用。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

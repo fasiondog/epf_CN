@@ -1,49 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Msu85VH5rLUfl0OEAnZdIQ" name="01_create_update_product_documenation,_t15g4DHMEeC7j_IRiP-WPQ" guid="-Msu85VH5rLUfl0OEAnZdIQ" changeDate="2012-05-30T13:03:23.148-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Msu85VH5rLUfl0OEAnZdIQ" name="01_create_update_product_documenation,_t15g4DHMEeC7j_IRiP-WPQ" guid="-Msu85VH5rLUfl0OEAnZdIQ" changeDate="2013-09-22T22:33:50.244+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Development team members sometimes take documentation for granted, or do not give it enough consideration. However,&#xD;
-    after a product is delivered, customers who pay for the system and for support often do not have enough information to&#xD;
-    effectively manage the product.&#xD;
+    开发团队成员有时认为文档是理所当然的，有时却对其缺乏足够的考虑。然而，在产品交付后，那些使用和支持系统的客户经常没有足够的信息来有效的管理产品。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If a technical writer is made available to a development team, that role often takes the burden off the team for&#xD;
-    developing the formal product documentation and for ensuring that it is in the correct format and business language. If&#xD;
-    a technical writer is not available, the development team and product owner must make every effort to create enough&#xD;
-    documentation to ensure that the features that have been developed for each release are understood and can be&#xD;
-    communicated effectively by the paying customer to their stakeholders.&#xD;
+    如果开发团队中有技术作者，那么该角色经常会减轻团队开发正式产品文档的负担，并确保这些文档使用了正确的格式和业务语言。如果没有技术作者，那么开发团队和产品负责人必须尽一切努力来创建足够的文档来确保每个发布所开发的特性能够被客户和利益相关人理解并与他们有效的沟通。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Delivering a professionally developed product requires that a development team provide the customer with accurate,&#xD;
-    detailed, and comprehensive product documentation.&#xD;
+    交付专业的开发产品要求开发团队向客户提供精确、详细且全面的产品文档。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_-zf1suB8EeC1y_NExchKwQ" name="Identify features of current release" guid="_-zf1suB8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zf1suB8EeC1y_NExchKwQ" name="识别当前发布的特性" guid="_-zf1suB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Every release will contain a set of features that were developed during the preceding feature development sprint or&#xD;
-    iterations. This list should drive the table of contents of the product documentation. It also is possible that some&#xD;
-    nonfunctional requirements should be documented as well.&#xD;
+    每个发布都包含在之前sprint或迭代中开发的一系列特性。此特性列表将驱动产品文档的内容表单。这也可能包括某些非功能需求。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    While the product documentation will not be used directly as user documentation, it will become the basis for the user&#xD;
-    documentation. That foundation of information is why this step is important.&#xD;
+    虽然产品文档并不像用户文档那样直接使用，但它是用户文档的基础。该基础也就是为什么此步骤如此重要的原因。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zf1seB8EeC1y_NExchKwQ" name="Document each feature" guid="_-zf1seB8EeC1y_NExchKwQ">
-    <sectionDescription>Write a comprehensive description of each feature and include appropriate screen shots as well as relevant information&#xD;
-about how the feature was developed.</sectionDescription>
+  <sections xmi:id="_-zf1seB8EeC1y_NExchKwQ" name="文档化每个特性" guid="_-zf1seB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    为每个特性编写全面的描述，并包含合适的屏幕截图，以及特性如何开发的相关信息。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zf1s-B8EeC1y_NExchKwQ" name="Review product documentation with stakeholders" guid="_-zf1s-B8EeC1y_NExchKwQ">
-    <sectionDescription>Schedule a review session with key stakeholders to ensure that the product documentation is adequate and that it contains&#xD;
-the level of detail needed by the product customer. If more detail is required, elicit one or more examples from the&#xD;
-stakeholders that show how they would like the documentation to be prepared.</sectionDescription>
+  <sections xmi:id="_-zf1s-B8EeC1y_NExchKwQ" name="同利益相关人一起评审产品文档" guid="_-zf1s-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    安排同关键利益相关人的评审会议，以确保产品文档是足够且包含了产品客户所需的细节。如果要求更多的细节，从利益相关人处引出一个或多个例子来展示他们希望如何准备产品文档。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOr-B8EeC1y_NExchKwQ" name="Update product documentation as necessary" guid="_-zfOr-B8EeC1y_NExchKwQ">
-    <sectionDescription>Based on the outcome of the review session, update the product documentation so that it can receive the proper approval on&#xD;
-delivery.</sectionDescription>
+  <sections xmi:id="_-zfOr-B8EeC1y_NExchKwQ" name="需要的话更新产品文档" guid="_-zfOr-B8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    基于评审结果，更新产品文档以使其获得适当的批准。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zf1sOB8EeC1y_NExchKwQ" name="Deliver product documentation" guid="_-zf1sOB8EeC1y_NExchKwQ">
-    <sectionDescription>For this release, deliver the final product documentation to the customer and key stakeholders. Obtain their formal&#xD;
-approval if necessary.</sectionDescription>
+  <sections xmi:id="_-zf1sOB8EeC1y_NExchKwQ" name="交付产品文档" guid="_-zf1sOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    针对此发布版本，向客户和关键利益相关人交付最终的产品文档。必要的话，获取正式的批准。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to document enough information about the features that were developed in a particular release&#xD;
-to be useful to customers throughout the life of the product.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是为特定发布中开发的特性文档化记录对客户在产品的整个生命周期中有用的足够信息。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

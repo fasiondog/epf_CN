@@ -1,93 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jWMpCvzhJPOglJcxCiAYjA" name="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" guid="-jWMpCvzhJPOglJcxCiAYjA" changeDate="2012-05-30T13:11:48.626-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-jWMpCvzhJPOglJcxCiAYjA" name="03_create_update_support_documenation,_nGAhcDHMEeC7j_IRiP-WPQ" guid="-jWMpCvzhJPOglJcxCiAYjA" changeDate="2013-09-30T23:15:11.536+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Support documentation often is the most overlooked aspect of a documentation effort. Anyone who has had the opportunity&#xD;
-    to provide end user support for a particular application can appreciate how important effective, well-written support&#xD;
-    documentation can be. This documentation very often is technical in nature and differs significantly from user or&#xD;
-    product documentation, which normally is written for the lay person.&#xD;
+    支持文档往往是文档工作中最容易忽视的方面。任何有机会为最终用户提供产品支持的人员都将理解有效的、良好编写的支持文档的重要性。此文档本质上往往是技术性的，并且和用户或产品文档有显著的不同，用户或产品文档通常是为外行人员编写的。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The development team should do its best to make sure that personnel who perform an IT support role have the right&#xD;
-    amount and the relevant type of information necessary to support the application, whether they provide Tier 1, Tier 2,&#xD;
-    or Tier 3 support. Support documentation often is developed based on these three different support categories. How&#xD;
-    effectively the code base is commented and the ease with which those comments are found and understood contributes to&#xD;
-    the quality and quantity of support documentation.&#xD;
+    开发团队应该尽自己最大的努力来保证那些执行IT支持的人员拥有支持应用所需的合适数量和相关类型的必要信息，无论他们是提供层1、层2，还是层3的支持。支持文档的开发常常基于这三个不同的支持类别。代码注释的有效程度以及这些注释被发现和可理解的容易程度有助于支持文档的质量和数量。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_-zfOquB8EeC1y_NExchKwQ" name="Determine support documentation contents" guid="_-zfOquB8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zfOquB8EeC1y_NExchKwQ" name="确定支持文档的内容" guid="_-zfOquB8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    This step is often challenging for development teams because they must put themselves in the position of IT support&#xD;
-    personnel to develop the right kind and right amount of useful content. It is advantageous to visit the support&#xD;
-    organization and ask them what types of documentation they would want delivered to them at each Release. You might be&#xD;
-    surprised at what they say, and it could make your documentation tasks easier if you know exactly what type of&#xD;
-    information they want.&#xD;
+    此步骤常常是开发团队的挑战，因为他们必须将自己放在IT支持人员的位置以开发合适类型和合适数量的有用内容。拜访支持组织并询问他们在每次发布时希望获得何种类型的文档是有益的。你可能惊讶于他们所说，并且这可以使你的文档编写工作更加容易，如果你确切的知道他们需要哪些类型的信息。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Because every product is different, and because each program or IT support organization has unique needs, it is&#xD;
-    impossible to list recommended contents for support documentation. However, each program should create support&#xD;
-    documentation standards for the development teams that support its program.&#xD;
+    因为每个产品都是不同的，也因为每个流程或IT支持组织有不同的需要，不可能为支持文档列出建议的内容。然后，每一个流程程序应该为那些支持程序的开发团队创建支持文档标准。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOq-B8EeC1y_NExchKwQ" name="Leverage available materials" guid="_-zfOq-B8EeC1y_NExchKwQ">
+  <sections xmi:id="_-zfOq-B8EeC1y_NExchKwQ" name="利用可用的材料" guid="_-zfOq-B8EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Use the development team's Release Plan as a mechanism to define the scope of the support documentation. Source&#xD;
-    materials that can contribute effectively to support documentation content include:&#xD;
+    在开发团队的发布计划中定义支持文档的范围。那些对支持文档内容有帮助的原材料包括：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Component Design Specifications&#xD;
+        组件设计规格&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Architecture Notebook&#xD;
+        架构备忘录&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        User Stories&#xD;
+        用户故事&amp;nbsp;&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Test Cases&#xD;
+        测试用例&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Test Scenarios&#xD;
+        测试场景&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Storyboards and Wireframes&#xD;
+        故事板或线框图&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Defect Records&#xD;
+        缺陷记录&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Lessons Learned&#xD;
+        经验教训&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Data Dictionary&#xD;
+        数据字典&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Logical and Physical Data Models&#xD;
+        逻辑和物理数据模型&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Coding Standards&#xD;
+        编码规范&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Acceptance Tests&#xD;
+        确认测试&amp;nbsp;&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Test Harness&#xD;
+        测试套件&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOqeB8EeC1y_NExchKwQ" name="Write support documentation" guid="_-zfOqeB8EeC1y_NExchKwQ">
-    <sectionDescription>Based on the previous steps, write the support documentation. One way to do this is to assign sections of the document&#xD;
-(determined in the step &quot;Determine Support Documentation Contents&quot; above) to development team members as sprint/iteration&#xD;
-tasks in the release sprint/iteration.</sectionDescription>
+  <sections xmi:id="_-zfOqeB8EeC1y_NExchKwQ" name="编写支持文档" guid="_-zfOqeB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    基于之前的步骤，编写支持文档。执行此步骤的一种方式是在发布sprint/迭代中将文档的不同章节（由之前的“确定支持文档内容”步骤决定）作为sprint/迭代的任务分配给开发团队成员。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOrOB8EeC1y_NExchKwQ" name="Perform quality review" guid="_-zfOrOB8EeC1y_NExchKwQ">
-    <sectionDescription>As the support documentation is integrated, plan and conduct a quality review during the release sprint/iteration to ensure&#xD;
-that the documentation is of sufficient quantity and quality. Update and improve the support documentation based on the&#xD;
-results of the quality review.</sectionDescription>
+  <sections xmi:id="_-zfOrOB8EeC1y_NExchKwQ" name="执行质量审核" guid="_-zfOrOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    当整合支持文档时，在发布sprint/迭代中计划并实施质量审查，来保证此文档拥有充分的数量和质量。在质量审查的基础上更新并改进支持文档。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_-zfOqOB8EeC1y_NExchKwQ" name="Deliver support documentation" guid="_-zfOqOB8EeC1y_NExchKwQ">
-    <sectionDescription>At the end of a release, deliver the completed support documentation to the deployment manager. Ensure that the program has&#xD;
-a plan for communicating the support documentation to the IT operations support organization in a timely manner.</sectionDescription>
+  <sections xmi:id="_-zfOqOB8EeC1y_NExchKwQ" name="交付支持文档" guid="_-zfOqOB8EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在发布结束时，向部署经理交付完整的支持文档。确保流程程序中拥有以及时的方式同IT运维支持组织进行沟通的计划。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to ensure that the personnel who are tasked with supporting the system have enough information&#xD;
-about the product to perform their jobs effectively after the product has been placed into production.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是确保那些负责支持系统的人员在产品部署到生产环境后，拥有对产品的足够信息以高效的执行他们的工作。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
