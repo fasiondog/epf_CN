@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>工件：Backout Plan</title>
+<title>工件：回退计划</title>
 <meta name="uma.type" content="Artifact">
 <meta name="uma.name" content="backout_plan">
-<meta name="uma.presentationName" content="Backout Plan">
+<meta name="uma.presentationName" content="回退计划">
 <meta name="uma.category" content="@Type:@Name:@DisplayName">
 <meta name="element_type" content="Artifact">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAHg2eB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">工件：Backout Plan</td><td width="100%">
+<td class="pageTitle" nowrap="true">工件：回退计划</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/artifact.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">A backout plan defines the criteria and procedures to be followed if a release into production needs to be rolled back.</td>
+<td valign="top">回退计划定义了如果一个部署到生产环境中的发布需要回退时的准则和流程。</td>
 </tr>
 <tr>
 <td>域：<a href="./../../core.default.cat_def.base/domains/deployment_domain_B4F12FAB.html" guid="_fEIy4JoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this work product is for the development team to provide, in one document, all the information needed by the
-production support organization to determine if a rollback is needed, who will authorize it, how it will be performed, etc.</td>
+<td class="sectionTableSingleCell"><p>
+    此工作产品的目的是为开发团队在一份文档中提供，生产支持组织判断是否需要回退、回退的批准人、以及如何执行回退等所有需要的信息。
+</p></td>
 </tr>
 </table>
 </div>
@@ -93,7 +94,7 @@ production support organization to determine if a rollback is needed, who will a
 								</span>
 <ul>
 <li>
-<a href="./../../practice.gen.production_release.base/tasks/develop_backout_plan_A909CDFE.html" guid="_IAIu8uB-EeC1y_NExchKwQ">Develop Backout Plan</a>
+<a href="./../../practice.gen.production_release.base/tasks/develop_backout_plan_A909CDFE.html" guid="_IAIu8uB-EeC1y_NExchKwQ">制定回退计划</a>
 </li>
 </ul>
 </td>
@@ -105,37 +106,35 @@ production support organization to determine if a rollback is needed, who will a
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <th class="sectionTableHeading" scope="row">主要描述</th><td class="sectionTableCell"><p>
-    While someone on the development team normally authors a draft version of the Backout Plan, the Deployment Engineer is
-    ultimately responsible for its contents and existence. A backout plan typically answers the following questions:
+    虽然回退计划的草稿版本是由开发团队中的某位成员所编写，但是部署工程师对其内容和存在最终负责。一份回退计划通常回答了如下问题：
 </p>
 <ul>
     <li>
-        Under what circumstances will a rollback be required? Or conversely, under what circumstances will the deployment
-        be considered a success?
+        在什么情况下，需要执行回退？或者相反，在什么情况下，部署被认为成功了？
     </li>
     <li>
-        What is the time period within which a rollback can take place?
+        回退可能发生的时间段是何时？
     </li>
     <li>
-        Which authorizing agent will make the decision to revert?
+        谁被授权做出回退的决定？
     </li>
     <li>
-        Who will perform the rollback and how soon after the decision has been made will the rollback be performed?
+        谁来执行回退，以及在做出回退决策后多长时间执行回退？
     </li>
     <li>
-        What procedures (manual and automated) will be followed to execute the rollback?
+        执行回退需要遵循什么流程（手工或自动）？
     </li>
     <li>
-        What other contingency measures or available workarounds should be considered?
+        应该考虑其他应急措施或可用的解决方案吗？
     </li>
     <li>
-        What is the expected time required to perform a reversion?
+        执行回退所要求的预期时间？
     </li>
     <li>
-        What are the communication procedures required in the event of a backout?
+        当回退事件发生时需要遵循什么沟通流程？
     </li>
     <li>
-        Has the Backout Plan been successfully tested?
+        回退计划是否成功的进行了测试？
     </li>
 </ul></td>
 </tr>

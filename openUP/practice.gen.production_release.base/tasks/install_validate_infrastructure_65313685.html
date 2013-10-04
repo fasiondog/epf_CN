@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Install and Validate Infrastructure</title>
+<title>任务：安装并确认基础设施</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="install_validate_infrastructure">
-<meta name="uma.presentationName" content="Install and Validate Infrastructure">
+<meta name="uma.presentationName" content="安装并确认基础设施">
 <meta name="uma.category" content="Discipline:deployment_discipline:部署">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAIH4eB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Install and Validate Infrastructure</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：安装并确认基础设施</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Any infrastructure components needed to support a release must be procured, installed, and tested.</td>
+<td valign="top">支持发布所需的任何基础设施组件必须被采购、安装及测试。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/deployment_discipline_491487DA.html" guid="_OjzNEJoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to ensure that all the necessary infrastructure components needed to support a successful
-release are in place.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是保证支持成功发布所需的所有基础设施组件已经到位。
+</p></td>
 </tr>
 </table>
 </div>
@@ -91,7 +92,7 @@ release are in place.</td>
 								</span>
 <ul>
 <li>
-<a href="./../../practice.gen.production_release.base/workproducts/release_controls_B00EB28E.html" guid="_IAJWA-B-EeC1y_NExchKwQ">Release Controls</a>
+<a href="./../../practice.gen.production_release.base/workproducts/release_controls_B00EB28E.html" guid="_IAJWA-B-EeC1y_NExchKwQ">发布控制</a>
 </li>
 </ul>
 <ul></ul>
@@ -101,7 +102,7 @@ release are in place.</td>
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../practice.gen.production_release.base/workproducts/infrastructure_5EEE428E.html" guid="_IAJ9EOB-EeC1y_NExchKwQ">Infrastructure</a>
+<a href="./../../practice.gen.production_release.base/workproducts/infrastructure_5EEE428E.html" guid="_IAJ9EOB-EeC1y_NExchKwQ">基础设施</a>
 </li>
 </ul>
 <ul></ul>
@@ -114,45 +115,43 @@ release are in place.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    A release package cannot be deployed to production if the environmental infrastructure within which the release will be
-    run is not sufficiently built or tested. Whether the release is deployed as a "push" (where the application is deployed
-    from a central point and proactively delivered to target locations) or a "pull" (where the application is made
-    available at central point and pulled by a user at a time of their choosing), the infrastructure needed to support the
-    application must be considered and implemented.
+    如果发布所需的基础环境设施未能被充分的构建或测试，那么无法将发布包部署到生产中。无论发布是以“推（push）”（应用被部署在一个集中的地方，并主动向目标位置交付）还是“拉（pull）”（应用被部署在一个集中的地方，并由用户选择时间拉过来部署）的方式部署，支持应用的基础设施都必须被考虑并实施。
 </p>
 <p>
-    Some key aspects of installing and/or validating the desired infrastructure:
+    安装并/或确认期望基础设施的某些关键方面：
 </p>
 <ul>
     <li>
-        Identify the requirements and components of the environment configuration
+        识别环境配置的需求和组件
     </li>
     <li>
-        Determine the lead times required to establish the infrastructure environments
+        确定建立基础设施环境要求的交货时间
     </li>
     <li>
-        Procure and install the infrastructure components that are not yet available
+        采购并安装那些尚不可用的基础设施组件
     </li>
     <li>
-        Test the newly installed infrastructure components
+        测试新安装的基础设施组件
     </li>
     <li>
-        Test the integration of newly installed components with the rest of the environmental configuration
+        测试新安装的组件和环境配置中其它部分的集成
     </li>
     <li>
-        Validate other aspects of the infrastructure including: 
+        确认基础设施的其它方面，包括：
+    </li>
+    <li style="LIST-STYLE-TYPE: none">
         <ul>
             <li>
-                Security components and their integration
+                安全组件及其集成
             </li>
             <li>
-                Database connectivity and security
+                数据库连接及安全
             </li>
             <li>
-                License management, as appropriate
+                许可证管理
             </li>
             <li>
-                Configuration management, in terms of configuration items (CIs)
+                配置管理
             </li>
         </ul>
     </li>
@@ -165,57 +164,56 @@ release are in place.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Identify infrastructure needs</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>Identify and describe all the components of the infrastructure that are needed to support the upcoming release. These
-requirements should be based completely on the feature set that is about to be deployed, not on intended future needs.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Procure components</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>Determine how long it will reasonably take to procure the needed components and to engage the appropriate division in the
-organization to place the order. Be sure to work with the procurement agency to track the order and to identify any issues
-with that order. Ultimately, the development team, not the procurement agency, is responsible for ensuring that the correct
-infrastructure components are in place.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Schedule components for installation</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>After the procured components arrive, schedule to have them installed by the IT operations group(s) that control the
-production environment. The development team should be developing tests to confirm the correct installation at this time.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Install and test components</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>When the components have been installed, be prepared to run the validation tests developed in the previous step. These
-tests should not only verify the individual components' readiness, but also should validate their integration with each
-other and with legacy components.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Validate other component aspects</div>
+<div class="stepHeading">识别基础设施需求</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    As the validation testing is underway, the development team also should consider how the newly installed components
-    impact overall system security, whether or not database connectivity and security have been compromised, and what
-    impact they have on the configuration management database that contains an inventory of CIs.
+    识别并描述支持即将来临的发布所需的所有基础设施组件。这些需求应该基于即将部署的完整特性集，而不是预期未来的需要。
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">采购组件</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    确定采购所需组件需要的合理时间，并提交组织中合适的部门进行采购。确保和采购代理机构一起跟踪订单，并识别订单中出现的问题。最后，开发团队，不是采购代理机构，负责确保正确的基础设施组件到位。
+</p>
+<br /></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">安排组件安装</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    在采购组件到达后，安排IT运维组进行安装并控制生产环境。开发团队应该在此时开发相应的测试来确认安装是否正确。
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">安装并测试组件</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    当安装组件后，准备执行在上一步骤中开发的确认测试。这些测试应该不仅仅确认单独的组件是否准备就绪，还应该确认它们之间以及与遗留组件之间的集成。
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">确认组件其它方面</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    在确认测试进行过程中，开发团队还应该考虑新安装的组件如何影响整个系统的安全，数据库连接和安全是否已经暴露，以及它们对包含库存CI的配置管理系统数据库的影响。
 </p>
 <p>
-    Also reconcile any licensing issues for the new components with the division that is responsible for documenting and
-    tracking enterprise licenses.
+    还应和负责记录和跟踪企业许可证的部门协调关于新安装组件的许可问题。
 </p></td>
 </tr>
 </table>

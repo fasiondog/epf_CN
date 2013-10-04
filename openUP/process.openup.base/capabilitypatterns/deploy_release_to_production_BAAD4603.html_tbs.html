@@ -81,7 +81,7 @@ columns: [
 ["is_optional", "可选"]],
 rows: [
 
-{id: "a67aecb5", parentId: "", relPath: ",_MPSc4SqjEeOhx_rqM9arDQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+{id: "c86b163e", parentId: "", relPath: ",_QUcDcC0LEeOJSanM2bHm2g", isSuppressed: "", indentSize: 0, hasChildren:true, 
 	index: "", prefix: "", name: "deployment_engineer", title: "部署工程师", url: "./../../core.default.role_def.base/roles/deployment_engineer_5F5FF257.html", 
 	predecessors: "", info: "", type: "角色", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
@@ -90,34 +90,7 @@ rows: [
 
 		
 
-{id: "b79e7b8c", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "backout_plan", title: "Backout Plan", url: "./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html", 
-	predecessors: "", info: "负责", type: "工件", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "ac1f1ef6", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "release", title: "Release", url: "./../../practice.gen.production_release.base/workproducts/release_8098E6F0.html", 
-	predecessors: "", info: "负责", type: "可交付件", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "bb1f6535", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "release_communications", title: "Release Communications", url: "./../../practice.gen.production_release.base/workproducts/release_communications_7698226F.html", 
-	predecessors: "", info: "负责", type: "工件", 
-	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
-	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
-	
-
-		
-
-{id: "a8ef305a", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c8728662", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "deployment_plan", title: "部署计划", url: "./../../practice.gen.production_release.base/workproducts/deployment_plan_121938C3.html", 
 	predecessors: "", info: "负责", type: "工件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -126,7 +99,34 @@ rows: [
 
 		
 
-{id: "5614df53", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "69926c94", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "release", title: "发布（Release）", url: "./../../practice.gen.production_release.base/workproducts/release_8098E6F0.html", 
+	predecessors: "", info: "负责", type: "可交付件", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "c5be7c6d", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "release_communications", title: "发布通知", url: "./../../practice.gen.production_release.base/workproducts/release_communications_7698226F.html", 
+	predecessors: "", info: "负责", type: "工件", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "b61106f9", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "backout_plan", title: "回退计划", url: "./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html", 
+	predecessors: "", info: "负责", type: "工件", 
+	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
+	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
+	
+
+		
+
+{id: "bb43c98e", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "deliver_release_communications", title: "Deliver Release Communications", url: "./../../practice.gen.production_release.base/tasks/deliver_release_communications_3D8C5C81.html", 
 	predecessors: "", info: "作为拥有者执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -135,7 +135,7 @@ rows: [
 
 		
 
-{id: "7a045b9", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "6b35017b", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "execute_backout_plan", title: "Execute Backout Plan (if necessary)", url: "./../../practice.gen.production_release.base/tasks/execute_backout_plan_104832F5.html", 
 	predecessors: "", info: "作为拥有者执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -144,7 +144,7 @@ rows: [
 
 		
 
-{id: "579ef905", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "72f5f89c", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "execute_deployment_plan", title: "Execute Deployment Plan", url: "./../../practice.gen.production_release.base/tasks/execute_deployment_plan_1F24F1CE.html", 
 	predecessors: "", info: "作为拥有者执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -153,7 +153,7 @@ rows: [
 
 		
 
-{id: "b873ed71", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c1a1bcee", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "verify_successful_deployment", title: "Verify Successful Deployment", url: "./../../practice.gen.production_release.base/tasks/verify_successful_deployment_8B4202DE.html", 
 	predecessors: "", info: "作为拥有者执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -162,7 +162,7 @@ rows: [
 
 		
 
-{id: "add3c6e9", parentId: "a67aecb5", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "66e6b1c2", parentId: "c86b163e", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "package_the_release", title: "Package the Release", url: "./../../practice.gen.production_release.base/tasks/package_the_release_7FC3863C.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -171,7 +171,7 @@ rows: [
 
 		
 
-{id: "adfdc4c2", parentId: "", relPath: ",_MP12gSqjEeOhx_rqM9arDQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+{id: "6a45486f", parentId: "", relPath: ",_QVBSQS0LEeOJSanM2bHm2g", isSuppressed: "", indentSize: 0, hasChildren:true, 
 	index: "", prefix: "", name: "product_owner", title: "产品负责人", url: "./../../core.default.role_def.base/roles/product_owner_1CADE89D.html", 
 	predecessors: "", info: "", type: "角色", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
@@ -180,7 +180,7 @@ rows: [
 
 		
 
-{id: "ba01a4da", parentId: "adfdc4c2", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c2bbf81f", parentId: "6a45486f", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "verify_successful_deployment", title: "Verify Successful Deployment", url: "./../../practice.gen.production_release.base/tasks/verify_successful_deployment_8B4202DE.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -189,7 +189,7 @@ rows: [
 
 		
 
-{id: "b104e908", parentId: "", relPath: ",_MPQnsSqjEeOhx_rqM9arDQ", isSuppressed: "", indentSize: 0, hasChildren:true, 
+{id: "bd2cb9ca", parentId: "", relPath: ",_QUZnMS0LEeOJSanM2bHm2g", isSuppressed: "", indentSize: 0, hasChildren:true, 
 	index: "", prefix: "", name: "developer", title: "开发人员", url: "./../../core.default.role_def.base/roles/developer_C633AB7.html", 
 	predecessors: "", info: "", type: "角色", 
 	repeatable: "", multiOccurences: "false", optional: "false", planned: "false",  ongoing: "", eventDriven: "", 
@@ -198,7 +198,7 @@ rows: [
 
 		
 
-{id: "5281d90f", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "7087d695", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "build", title: "构建", url: "./../../core.tech.common.extend_supp/workproducts/build_95D7D8FD.html", 
 	predecessors: "", info: "负责", type: "工件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -207,7 +207,7 @@ rows: [
 
 		
 
-{id: "aef51d5d", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "1605bf70", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "developer_test", title: "开发人员测试", url: "./../../core.tech.common.extend_supp/workproducts/developer_test_6A91CE05.html", 
 	predecessors: "", info: "负责", type: "工件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -216,7 +216,7 @@ rows: [
 
 		
 
-{id: "b91a81b1", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c8b477e6", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "design", title: "设计", url: "./../../practice.tech.evolutionary_design.base/workproducts/design_D677D182.html", 
 	predecessors: "", info: "负责", type: "工件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -225,7 +225,7 @@ rows: [
 
 		
 
-{id: "616486e9", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "714d20f8", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "implementation", title: "实现", url: "./../../core.tech.common.extend_supp/workproducts/implementation_AFFEFC46.html", 
 	predecessors: "", info: "负责", type: "工件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -234,8 +234,8 @@ rows: [
 
 		
 
-{id: "bd9eb079", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
-	index: "", prefix: "", name: "release", title: "Release", url: "./../../practice.gen.production_release.base/workproducts/release_8098E6F0.html", 
+{id: "bf43b942", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+	index: "", prefix: "", name: "release", title: "发布（Release）", url: "./../../practice.gen.production_release.base/workproducts/release_8098E6F0.html", 
 	predecessors: "", info: "修改", type: "可交付件", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
 	team: "", entryState: "", exitState: "", deliverable: "", variabilityType: ""},
@@ -243,7 +243,7 @@ rows: [
 
 		
 
-{id: "5f7ed61f", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "6451f99d", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "package_the_release", title: "Package the Release", url: "./../../practice.gen.production_release.base/tasks/package_the_release_7FC3863C.html", 
 	predecessors: "", info: "作为拥有者执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -252,7 +252,7 @@ rows: [
 
 		
 
-{id: "b5b5a224", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c0bb9790", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "deliver_release_communications", title: "Deliver Release Communications", url: "./../../practice.gen.production_release.base/tasks/deliver_release_communications_3D8C5C81.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -261,7 +261,7 @@ rows: [
 
 		
 
-{id: "5e595f20", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "bd89687f", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "execute_backout_plan", title: "Execute Backout Plan (if necessary)", url: "./../../practice.gen.production_release.base/tasks/execute_backout_plan_104832F5.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -270,7 +270,7 @@ rows: [
 
 		
 
-{id: "5ede5aee", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c0caa12d", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "execute_deployment_plan", title: "Execute Deployment Plan", url: "./../../practice.gen.production_release.base/tasks/execute_deployment_plan_1F24F1CE.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 
@@ -279,7 +279,7 @@ rows: [
 
 		
 
-{id: "5dbe62a3", parentId: "b104e908", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
+{id: "c41cbb58", parentId: "bd2cb9ca", relPath: "", isSuppressed: "", indentSize: 1, hasChildren:false, 
 	index: "", prefix: "", name: "verify_successful_deployment", title: "Verify Successful Deployment", url: "./../../practice.gen.production_release.base/tasks/verify_successful_deployment_8B4202DE.html", 
 	predecessors: "", info: "作为其他用户执行", type: "任务", 
 	repeatable: "", multiOccurences: "", optional: "", planned: "",  ongoing: "", eventDriven: "", 

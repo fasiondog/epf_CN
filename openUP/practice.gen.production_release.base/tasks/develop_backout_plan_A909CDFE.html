@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Develop Backout Plan</title>
+<title>任务：制定回退计划</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="develop_backout_plan">
-<meta name="uma.presentationName" content="Develop Backout Plan">
+<meta name="uma.presentationName" content="制定回退计划">
 <meta name="uma.category" content="Discipline:deployment_discipline:部署">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAIu8uB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Develop Backout Plan</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：制定回退计划</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This task results in a plan to be used by the production support organization to roll back the release if there is a problem during or after deployment.</td>
+<td valign="top">此任务的结果是一份计划，在部署过程中或之后，如果存在问题，产品支持组织使用它来对发布进行回退。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/deployment_discipline_491487DA.html" guid="_OjzNEJoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to develop the criteria, procedures, and responsibilities associated with rolling back a
-specific release into the production environment to prevent or minimize interruptions to other products or services.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是制定与回退投入到生产环境中的特定发布相关的准则、流程和责任，防止或最小化产品或服务的中断。
+</p></td>
 </tr>
 </table>
 </div>
@@ -101,7 +102,7 @@ specific release into the production environment to prevent or minimize interrup
 <th class="sectionTableHeading" scope="row">输出</th><td class="sectionTableCell" colspan="2">
 <ul>
 <li>
-<a href="./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html" guid="_IAHg2eB-EeC1y_NExchKwQ">Backout Plan</a>
+<a href="./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html" guid="_IAHg2eB-EeC1y_NExchKwQ">回退计划</a>
 </li>
 </ul>
 <ul></ul>
@@ -113,10 +114,9 @@ specific release into the production environment to prevent or minimize interrup
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">A rollback might be needed for a variety of reasons, including corruption of the production code base, inoperable
-components, an unplanned undesirable effect of the release on other production systems, an unhappy customer, etc.
-The&nbsp;Development team should provide the production support organization with a specific plan and decision criteria
-made available to them to avoid or minimize service interruptions.</td>
+<td class="sectionTableSingleCell"><p>
+    一次回退可能有许多不同的原因，包括产品代码的缺陷、不可操作的组件、对其他生产系统产生非计划非预期的影响、令人不快的客户等等。开发团队应该为产品支持组织提供特定的计划以及决策准则，从而使他们避免或最小化服务的中断。
+</p></td>
 </tr>
 </table>
 </div>
@@ -125,32 +125,33 @@ made available to them to avoid or minimize service interruptions.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Determine if backout plan exists</div>
+<div class="stepHeading">确定是否存在回退计划</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Determine whether the development team has a backout plan already written for a previous release. If so, part of that plan
-might be reusable. If this release is the development team's first, another development team with a similar feature set
-might have a plan that can be used as a starting point.</td>
+<td><p>
+    确定开发团队是否已经为前一次发布制定了回退计划。如果有，可以重用部分此计划。如果是开发团队的第一次发布，而其他开发团队有类似特性的回退计划，那么可以用来作为制定回退计划的起点。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Develop the backout plan (if applicable)</div>
+<div class="stepHeading">制定回退计划（如果合适）</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>If a backout plan does not exist, or one cannot be found to be used as a starting point, answer the questions documented in
-the <a class="elementLinkWithType" href="./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html" guid="_IAHg2eB-EeC1y_NExchKwQ">Artifact：Backout Plan</a> to start and develop a backout plan.</td>
+<td><p>
+    如果不存在回退计划，或无法找到其他可作为起点的回退计划，通过回答工件：<a class="elementLink" href="./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html" guid="_IAHg2eB-EeC1y_NExchKwQ">回退计划</a>&nbsp;中记录的问题，开始制定回退计划。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Update the backout plan (if applicable)</div>
+<div class="stepHeading">更新回退计划（如果合适）</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>If a backout plan does exist that can be used as a baseline, review that plan and update, add, or delete information as
-necessary. When the plan is completed, it should reflect entirely the contents of the upcoming deployment only, not a
-release in the past or one in the future. In other words, the backout plan should be specific only to this release.</td>
+<td><p>
+    如果已经存于一份可作为基线的回退计划，Review此计划，如果需要的话，更新、增加或删除其中的信息。当制定完此计划时，应该仅包含即将来临的部署的完整内容，不应该包含之前或将来的发布。换句话说，回退计划应该仅仅包含当前发布。
+</p></td>
 </tr>
 </table>
 </div>
