@@ -45,11 +45,11 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IADPYOB-EeC1y_NExchKwQ" name="production_release" guid="_IADPYOB-EeC1y_NExchKwQ" presentationName="Production Release">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IAHg2OB-EeC1y_NExchKwQ" name="release_preparation" guid="_IAHg2OB-EeC1y_NExchKwQ" presentationName="Release Preparation">
             <methodElementProperty xmi:id="_1iHY8JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIH4eB-EeC1y_NExchKwQ" name="install_validate_infrastructure" guid="_IAIH4eB-EeC1y_NExchKwQ" presentationName="Install and Validate Infrastructure" briefDescription="Any infrastructure components needed to support a release must be procured, installed, and tested." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAJ9EOB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIH4eB-EeC1y_NExchKwQ" name="install_validate_infrastructure" guid="_IAIH4eB-EeC1y_NExchKwQ" presentationName="安装并确认基础设施" briefDescription="支持发布所需的任何基础设施组件必须被采购、安装及测试。" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAJ9EOB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1jAw0JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-SLY9_MQQ_ykBIaLojfgzBQ" href="uma://-SLY9_MQQ_ykBIaLojfgzBQ#-SLY9_MQQ_ykBIaLojfgzBQ"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu9uB-EeC1y_NExchKwQ" name="review_conform_to_release_controls" guid="_IAIu9uB-EeC1y_NExchKwQ" presentationName="Review and Conform to Release Controls" briefDescription="Release controls normally are specified by the deployment manager. These controls document the requirements to which all releases must conform before being placed into the production environment." mandatoryInput="_IAJWA-B-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu9uB-EeC1y_NExchKwQ" name="review_conform_to_release_controls" guid="_IAIu9uB-EeC1y_NExchKwQ" presentationName="评审并符合发布控制" briefDescription="发布控制通常由部署经理制定。这些发布控制记录了发布在投入到生产环境之前必须符合的要求。" mandatoryInput="_IAJWA-B-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1ikE4JifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" href="uma://-zT8t7LcbcrgIhYd_XUi6DA#-zT8t7LcbcrgIhYd_XUi6DA"/>
             </contentElements>
@@ -57,19 +57,19 @@
               <methodElementProperty xmi:id="_1lZWcJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-QqCVewwu8buOCXKRukpf5g" href="uma://-QqCVewwu8buOCXKRukpf5g#-QqCVewwu8buOCXKRukpf5g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJWBOB-EeC1y_NExchKwQ" name="develop_release_communications" guid="_IAJWBOB-EeC1y_NExchKwQ" presentationName="Develop Release Communications" briefDescription="Stakeholders should be notified when a product (or feature set) is placed into production." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJWBOB-EeC1y_NExchKwQ" name="develop_release_communications" guid="_IAJWBOB-EeC1y_NExchKwQ" presentationName="编写发布通知" briefDescription="当某个产品（或特性集）被投入到生产中时，应通知利益相关人。" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1kWNkJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-FWdvN43s5ux00S-GVpDH-w" href="uma://-FWdvN43s5ux00S-GVpDH-w#-FWdvN43s5ux00S-GVpDH-w"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu8uB-EeC1y_NExchKwQ" name="develop_backout_plan" guid="_IAIu8uB-EeC1y_NExchKwQ" presentationName="Develop Backout Plan" briefDescription="This task results in a plan to be used by the production support organization to roll back the release if there is a problem during or after deployment." output="_IAHg2eB-EeC1y_NExchKwQ" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAIu8uB-EeC1y_NExchKwQ" name="develop_backout_plan" guid="_IAIu8uB-EeC1y_NExchKwQ" presentationName="制定回退计划" briefDescription="此任务的结果是一份计划，在部署过程中或之后，如果存在问题，产品支持组织使用它来对发布进行回退。" output="_IAHg2eB-EeC1y_NExchKwQ" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1kDSoJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" href="uma://-Z_sfrl6NWP_8GKlFeHrrgg#-Z_sfrl6NWP_8GKlFeHrrgg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJWA-B-EeC1y_NExchKwQ" name="release_controls" guid="_IAJWA-B-EeC1y_NExchKwQ" presentationName="Release Controls" briefDescription="Release controls normally are established by IT management and enforced by the deployment manager.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJWA-B-EeC1y_NExchKwQ" name="release_controls" guid="_IAJWA-B-EeC1y_NExchKwQ" presentationName="发布控制" briefDescription="发布控制通常由IT管理部门建立并由部署经理强制执行。">
               <methodElementProperty xmi:id="_daFekKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-s-_ZWqfnqO34JF-_nDPk3Q" href="uma://-s-_ZWqfnqO34JF-_nDPk3Q#-s-_ZWqfnqO34JF-_nDPk3Q"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9EOB-EeC1y_NExchKwQ" name="infrastructure" guid="_IAJ9EOB-EeC1y_NExchKwQ" presentationName="Infrastructure" briefDescription="In reference to a release sprint, infrastructure refers to all the hardware, software, and network facilities necessary to support a deployed release.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAJ9EOB-EeC1y_NExchKwQ" name="infrastructure" guid="_IAJ9EOB-EeC1y_NExchKwQ" presentationName="基础设施" briefDescription="基础设施指的是支持部署发布所必需的所有硬件、软件和网络设施，在发布Sprint中引用。">
               <methodElementProperty xmi:id="_dXyYgKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-I1cGb0If2i9wNcOXbEU6XA" href="uma://-I1cGb0If2i9wNcOXbEU6XA#-I1cGb0If2i9wNcOXbEU6XA"/>
             </contentElements>
@@ -77,15 +77,15 @@
               <methodElementProperty xmi:id="_dWmFsKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-4Fv0TSuJBCRxarK5ssyLGw" href="uma://-4Fv0TSuJBCRxarK5ssyLGw#-4Fv0TSuJBCRxarK5ssyLGw"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAHg2eB-EeC1y_NExchKwQ" name="backout_plan" guid="_IAHg2eB-EeC1y_NExchKwQ" presentationName="Backout Plan" briefDescription="A backout plan defines the criteria and procedures to be followed if a release into production needs to be rolled back.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAHg2eB-EeC1y_NExchKwQ" name="backout_plan" guid="_IAHg2eB-EeC1y_NExchKwQ" presentationName="回退计划" briefDescription="回退计划定义了如果一个部署到生产环境中的发布需要回退时的准则和流程。">
               <methodElementProperty xmi:id="_dV6wQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-O9dNph5o0Au5C2deOUG8Bg" href="uma://-O9dNph5o0Au5C2deOUG8Bg#-O9dNph5o0Au5C2deOUG8Bg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAIH4OB-EeC1y_NExchKwQ" name="release_communications" guid="_IAIH4OB-EeC1y_NExchKwQ" presentationName="Release Communications" briefDescription="This artifact provides information to concerned parties that a product (or subset) has been placed into production.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAIH4OB-EeC1y_NExchKwQ" name="release_communications" guid="_IAIH4OB-EeC1y_NExchKwQ" presentationName="发布通知" briefDescription="此工件通知各相关方产品已经部署到生产环境。">
               <methodElementProperty xmi:id="_dZzxwKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-wHkXWtQxFeicCBDHK-f7xg" href="uma://-wHkXWtQxFeicCBDHK-f7xg#-wHkXWtQxFeicCBDHK-f7xg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_EopWMPddEeCG79QDqBlPXg" name="release" guid="_EopWMPddEeCG79QDqBlPXg" presentationName="Release" briefDescription="A release is the transition of an increment of potentially shippable product from the development group into routine use by customers based on a successful placement of a release sprint's output into the production environment.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_EopWMPddEeCG79QDqBlPXg" name="release" guid="_EopWMPddEeCG79QDqBlPXg" presentationName="发布（Release）" briefDescription="A release is the transition of an increment of potentially shippable product from the development group into routine use by customers based on a successful placement of a release sprint's output into the production environment.">
               <methodElementProperty xmi:id="_dYXAQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-Lo_rjBFuf6JDjdUw5nJjYw" href="uma://-Lo_rjBFuf6JDjdUw5nJjYw#-Lo_rjBFuf6JDjdUw5nJjYw"/>
             </contentElements>

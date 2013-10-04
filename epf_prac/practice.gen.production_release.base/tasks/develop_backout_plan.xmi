@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" name="04_create_update_backout_plan,_2F7n8DHNEeC7j_IRiP-WPQ" guid="-Z_sfrl6NWP_8GKlFeHrrgg" changeDate="2011-07-28T12:18:22.207-0700" version="7.5.1">
-  <mainDescription>A rollback might be needed for a variety of reasons, including corruption of the production code base, inoperable&#xD;
-components, an unplanned undesirable effect of the release on other production systems, an unhappy customer, etc.&#xD;
-The&amp;nbsp;Development team should provide the production support organization with a specific plan and decision criteria&#xD;
-made available to them to avoid or minimize service interruptions.</mainDescription>
-  <sections xmi:id="_IAIu9eB-EeC1y_NExchKwQ" name="Determine if backout plan exists" guid="_IAIu9eB-EeC1y_NExchKwQ">
-    <sectionDescription>Determine whether the development team has a backout plan already written for a previous release. If so, part of that plan&#xD;
-might be reusable. If this release is the development team's first, another development team with a similar feature set&#xD;
-might have a plan that can be used as a starting point.</sectionDescription>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z_sfrl6NWP_8GKlFeHrrgg" name="04_create_update_backout_plan,_2F7n8DHNEeC7j_IRiP-WPQ" guid="-Z_sfrl6NWP_8GKlFeHrrgg" changeDate="2013-10-04T21:43:42.110+0800" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    一次回退可能有许多不同的原因，包括产品代码的缺陷、不可操作的组件、对其他生产系统产生非计划非预期的影响、令人不快的客户等等。开发团队应该为产品支持组织提供特定的计划以及决策准则，从而使他们避免或最小化服务的中断。&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAIu9eB-EeC1y_NExchKwQ" name="确定是否存在回退计划" guid="_IAIu9eB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    确定开发团队是否已经为前一次发布制定了回退计划。如果有，可以重用部分此计划。如果是开发团队的第一次发布，而其他开发团队有类似特性的回退计划，那么可以用来作为制定回退计划的起点。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAIu8-B-EeC1y_NExchKwQ" name="Develop the backout plan (if applicable)" guid="_IAIu8-B-EeC1y_NExchKwQ">
-    <sectionDescription>If a backout plan does not exist, or one cannot be found to be used as a starting point, answer the questions documented in&#xD;
-the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
-href=&quot;./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html&quot;&#xD;
-guid=&quot;_IAHg2eB-EeC1y_NExchKwQ&quot;>Artifact: Backout Plan&lt;/a> to start and develop a backout plan.</sectionDescription>
+  <sections xmi:id="_IAIu8-B-EeC1y_NExchKwQ" name="制定回退计划（如果合适）" guid="_IAIu8-B-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    如果不存在回退计划，或无法找到其他可作为起点的回退计划，通过回答工件：&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.gen.production_release.base/workproducts/backout_plan_DC0D7247.html&quot;&#xD;
+    guid=&quot;_IAHg2eB-EeC1y_NExchKwQ&quot;>回退计划&lt;/a>&amp;nbsp;中记录的问题，开始制定回退计划。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAIu9OB-EeC1y_NExchKwQ" name="Update the backout plan (if applicable)" guid="_IAIu9OB-EeC1y_NExchKwQ">
-    <sectionDescription>If a backout plan does exist that can be used as a baseline, review that plan and update, add, or delete information as&#xD;
-necessary. When the plan is completed, it should reflect entirely the contents of the upcoming deployment only, not a&#xD;
-release in the past or one in the future. In other words, the backout plan should be specific only to this release.</sectionDescription>
+  <sections xmi:id="_IAIu9OB-EeC1y_NExchKwQ" name="更新回退计划（如果合适）" guid="_IAIu9OB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    如果已经存于一份可作为基线的回退计划，Review此计划，如果需要的话，更新、增加或删除其中的信息。当制定完此计划时，应该仅包含即将来临的部署的完整内容，不应该包含之前或将来的发布。换句话说，回退计划应该仅仅包含当前发布。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to develop the criteria, procedures, and responsibilities associated with rolling back a&#xD;
-specific release into the production environment to prevent or minimize interruptions to other products or services.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是制定与回退投入到生产环境中的特定发布相关的准则、流程和责任，防止或最小化产品或服务的中断。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

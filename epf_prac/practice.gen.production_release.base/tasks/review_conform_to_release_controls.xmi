@@ -1,85 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" name="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" guid="-zT8t7LcbcrgIhYd_XUi6DA" changeDate="2012-05-30T14:22:34.002-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zT8t7LcbcrgIhYd_XUi6DA" name="01_review_conform_to_release_controls,_PwLDcDHMEeC7j_IRiP-WPQ" guid="-zT8t7LcbcrgIhYd_XUi6DA" changeDate="2013-10-05T00:28:08.092+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Release controls describe the minimum number of requirements that a software package must adhere to before being&#xD;
-    released into production. This is especially important if a development team is new or emerging, because they might not&#xD;
-    be aware of the great responsibilities a deployment manager has. In fact, a deployment manager is responsible to senior&#xD;
-    management for ensuring that nothing is placed into production that does not conform to the rigid controls designed to&#xD;
-    protect the IT organization's ability to successfully deliver IT services to internal and external customers.&#xD;
+    发布控制描述了一个软件包在发布投入到生产中所必须遵守的最小数量的需求。这对于新的开发团队来说特别重要，因为他们可能不知道部署经理的伟大责任。事实上，部署经理负责在部署时的高层管理，保证没有不符合严格控制的事物被投入到生产中，这些控制旨在保护IT组织向内外部客户成功交付IT服务的能力。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Release controls typically consist of the following:&#xD;
+    发布控制通常由以下事物组成：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Release or deployment plan&#xD;
+        发布和部署计划&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Backout plan&#xD;
+        回退计划&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Release component definitions&#xD;
+        发布组件定义&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Release package integrity verification&#xD;
+        发布包集成验证&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        References to configuration items (CIs)&#xD;
+        引用的配置项&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Customer approval&#xD;
+        客户批准&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Ready for transfer to operations and support staff&#xD;
+        准备到操作和支持人员的移交&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>
-  <sections xmi:id="_IAJWAuB-EeC1y_NExchKwQ" name="Locate release controls" guid="_IAJWAuB-EeC1y_NExchKwQ">
-    <sectionDescription>If the program's release controls are not readily available, the development team must engage the deployment manager and/or&#xD;
-their deployment engineers to know where to find the release controls and be able to comply with them.</sectionDescription>
-  </sections>
-  <sections xmi:id="_IAJWAeB-EeC1y_NExchKwQ" name="Review release controls" guid="_IAJWAeB-EeC1y_NExchKwQ">
-    <sectionDescription>The development team should thoroughly review the release controls so that it understands what is expected before a release&#xD;
-is accepted into the production environment. If the team has any questions or issues with the controls, team members should&#xD;
-communicate directly with the deployment manager or the deployment engineer to understand the issues.</sectionDescription>
-  </sections>
-  <sections xmi:id="_IAJWAOB-EeC1y_NExchKwQ" name="Ensure the team release conforms to the controls" guid="_IAJWAOB-EeC1y_NExchKwQ">
+  <sections xmi:id="_IAJWAuB-EeC1y_NExchKwQ" name="定位发布控制" guid="_IAJWAuB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    Coordinated releases at the program level are very formal processes. They are formal for a very good reason - namely,&#xD;
-    the company's production environment could be corrupted and serious business ramifications could result, including:&#xD;
+    如果没有可用的发布控制流程程序，开发团队必须保证部署经理和/或他们的部署工程师知道在哪里找到发布控制并能够遵守它们。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWAeB-EeC1y_NExchKwQ" name="评审发布控制" guid="_IAJWAeB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    开发团队应该彻底的评审发布控制，从而理解在发布被接受投入生产环境前的预期。如果团队对控制有任何问题或疑问，团队成员应该直接和部署经理或部署工程师沟通以理解这些问题。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_IAJWAOB-EeC1y_NExchKwQ" name="保证团队发布符合这些控制" guid="_IAJWAOB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在流程程序方面协调发布是非常正式的过程。之所以非常正式，是因为公司生产环境可能被破坏，且可能有严重的业务影响，包括：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Lost revenue&#xD;
+        收入损失&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        customer dissatisfaction&#xD;
+        客户不满&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Fines resulting from legal noncompliance&#xD;
+        不符合法律造成的罚款&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Lost employee productivity&#xD;
+        失去员工生产力&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    All development team members that contribute to a release are expected to adhere to all the controls defined at the&#xD;
-    program level. Non-compliance could result in multiple impacts:&#xD;
+    所有对发布有贡献的开发团队成员都需要遵守在流程程序层面定义的所有控制。不符合可能会有多方面的影响：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        The entire release being abandoned, which could lead to customer or end user dissatisfaction&#xD;
+        整个发布被放弃，导致客户或最终用户的不满&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        The results of multiple feature development Sprint/Iterations not being included in the release&#xD;
+        Sprint/迭代开发中的多个特性没有被包含在发布中&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Embarrassment on the part of the development team member that did not comply with the controls&#xD;
+        部分开发团队成员不遵守控制造成的难堪&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Loss of funding for that development team&#xD;
+        开发团队损失资金&#xD;
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to ensure that there are no (or minimal) negative impacts to existing production systems,&#xD;
-products, services, and operations.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是保证对已有产品系统、产品、服务和操作没有（或最小化）负面影响。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
