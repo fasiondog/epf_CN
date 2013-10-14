@@ -11,7 +11,7 @@
     开发团队应该确切的知道即将进行的发布将使哪些利益相关人群体收益。首先，为发布识别利益相关人。然后，确定每个利益相关人群体将从次发布中如何获得收益。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWBeB-EeC1y_NExchKwQ" name="为每个利益相关人群体起草通知" guid="_IAJWBeB-EeC1y_NExchKwQ">
+  <sections xmi:id="_IAJWBeB-EeC1y_NExchKwQ" name="为每个利益相关人群体起草通告" guid="_IAJWBeB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
     为每个利益相关人群体，起草以下：&#xD;
 &lt;/p>&#xD;
@@ -30,9 +30,9 @@
     &lt;/li>&#xD;
 &lt;/ul></sectionDescription>
   </sections>
-  <sections xmi:id="_IAJWB-B-EeC1y_NExchKwQ" name="向部署经理提交通知" guid="_IAJWB-B-EeC1y_NExchKwQ">
+  <sections xmi:id="_IAJWB-B-EeC1y_NExchKwQ" name="向部署经理提交通告" guid="_IAJWB-B-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    在为每个利益相关人群体起草通知后，开发团队应将这些草稿提供给部署经理。典型的，在流程程序层面整合并发布这些发布通知。部署经理和部署工程师通常负责保证所有发布通知的简洁和一致性。部署经理将确定合适的时间和即将来临发布相关的适当的利益相关人沟通这些信息。&#xD;
+    在为每个利益相关人群体起草通告后，开发团队应将这些草稿提供给部署经理。典型的，在流程程序层面整合并发布这些通告。部署经理和部署工程师通常负责保证所有发布通告的简洁和一致性。部署经理将确定合适的时间和即将来临发布相关的适当的利益相关人沟通这些信息。&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <purpose>&lt;p>&#xD;

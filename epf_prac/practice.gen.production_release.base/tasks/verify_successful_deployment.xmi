@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-chKviPT1F1yq5Y_KL9ET9g" name="02_03_verify_successful_deployment,_FCK_gmzvEeCPgecPbK9bdg" guid="-chKviPT1F1yq5Y_KL9ET9g" changeDate="2012-05-30T14:15:13.081-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-chKviPT1F1yq5Y_KL9ET9g" name="02_03_verify_successful_deployment,_FCK_gmzvEeCPgecPbK9bdg" guid="-chKviPT1F1yq5Y_KL9ET9g" changeDate="2013-10-14T19:54:21.519+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    Using the success criteria documented either in the deployment plan or in the backout plan, the deployment engineer, in&#xD;
-    collaboration with the development team, will determine whether the rollout can be declared a success or not.&#xD;
+    部署工程师同开发团队协作，依据部署计划或回退计划中记录的成功判断准则，确定上线是否成功。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    If the deployment is successful, the previously prepared release communiques should be delivered. If the deployment is&#xD;
-    unsuccessful, then the backout plan should be invoked.&#xD;
+    如果部署成功，发送之前准备好的发布通告。如果部署不成功，那么应该执行回退计划。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_IAFEleB-EeC1y_NExchKwQ" name="Test production release" guid="_IAFEleB-EeC1y_NExchKwQ">
-    <sectionDescription>In this step, automated smoke tests should be run to determine whether key components were deployed successfully. These&#xD;
-tests should be brief but revealing enough to quickly determine the validity of the deployment.</sectionDescription>
+  <sections xmi:id="_IAFEleB-EeC1y_NExchKwQ" name="测试部署至生产中的发布" guid="_IAFEleB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在此步骤中，应该执行自动化的冒烟测试来判断关键的组件是否已成功部署。这些测试应该简短而又能足够暴露问题，从而快速的验证部署。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAFEk-B-EeC1y_NExchKwQ" name="Run manual tests" guid="_IAFEk-B-EeC1y_NExchKwQ">
-    <sectionDescription>If the automated smoke tests are successful, run several complex manual tests to simulate key end user behavior. These&#xD;
-tests should be executed by development team members or stakeholders recruited specifically for this purpose.</sectionDescription>
+  <sections xmi:id="_IAFEk-B-EeC1y_NExchKwQ" name="执行手工测试" guid="_IAFEk-B-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    如果成功通过了自动化冒烟测试，那么手工执行一些复杂的测试来模拟关键最终用户的行为。这些测试应该由开发团队成员或利益相关人中专门为此目的而招聘的人员来执行。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAFElOB-EeC1y_NExchKwQ" name="Determine if release should be reversed" guid="_IAFElOB-EeC1y_NExchKwQ">
-    <sectionDescription>In some situations, problems with the release might be encountered but are not serious enough to reverse the deployment. If&#xD;
-the problem(s) associated with the release can be fixed easily, and if they are not detrimental to the production&#xD;
-environment, an emergency bug fix (EBF) might be the answer. In that case, the release is not backed out; rather, an EBF is&#xD;
-scheduled to be executed as soon as possible.</sectionDescription>
+  <sections xmi:id="_IAFElOB-EeC1y_NExchKwQ" name="确定发布是否需要被回退" guid="_IAFElOB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    在某些情况下，在发布中可能会遇到一些问题，但并没有严重到需要回退部署。如果和发布有关的问题可以被轻易修复，并且不影响生产环境，可能需要紧急故障修复（Emergency bug&#xD;
+    fix：EBF）。在这种情况下，并不需要回退发布，反而应尽快的进行紧急故障修复。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to confirm that a release has not caused any unintentional interruptions to service in the&#xD;
-production environment.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是确认发布没有引起在生产环境中的服务出现中断。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

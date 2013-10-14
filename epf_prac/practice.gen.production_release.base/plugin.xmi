@@ -57,7 +57,7 @@
               <methodElementProperty xmi:id="_1lZWcJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-QqCVewwu8buOCXKRukpf5g" href="uma://-QqCVewwu8buOCXKRukpf5g#-QqCVewwu8buOCXKRukpf5g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJWBOB-EeC1y_NExchKwQ" name="develop_release_communications" guid="_IAJWBOB-EeC1y_NExchKwQ" presentationName="编写发布通知" briefDescription="当某个产品（或特性集）被投入到生产中时，应通知利益相关人。" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAJWBOB-EeC1y_NExchKwQ" name="develop_release_communications" guid="_IAJWBOB-EeC1y_NExchKwQ" presentationName="编写发布通告" briefDescription="当某个产品（或特性集）被投入到生产中时，应通知利益相关人。" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ" output="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_1kWNkJifEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-FWdvN43s5ux00S-GVpDH-w" href="uma://-FWdvN43s5ux00S-GVpDH-w#-FWdvN43s5ux00S-GVpDH-w"/>
             </contentElements>
@@ -81,34 +81,34 @@
               <methodElementProperty xmi:id="_dV6wQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-O9dNph5o0Au5C2deOUG8Bg" href="uma://-O9dNph5o0Au5C2deOUG8Bg#-O9dNph5o0Au5C2deOUG8Bg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAIH4OB-EeC1y_NExchKwQ" name="release_communications" guid="_IAIH4OB-EeC1y_NExchKwQ" presentationName="发布通知" briefDescription="此工件通知各相关方产品已经部署到生产环境。">
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_IAIH4OB-EeC1y_NExchKwQ" name="release_communications" guid="_IAIH4OB-EeC1y_NExchKwQ" presentationName="发布通告" briefDescription="此工件通知各相关方产品已经部署到生产环境。">
               <methodElementProperty xmi:id="_dZzxwKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-wHkXWtQxFeicCBDHK-f7xg" href="uma://-wHkXWtQxFeicCBDHK-f7xg#-wHkXWtQxFeicCBDHK-f7xg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_EopWMPddEeCG79QDqBlPXg" name="release" guid="_EopWMPddEeCG79QDqBlPXg" presentationName="发布（Release）" briefDescription="A release is the transition of an increment of potentially shippable product from the development group into routine use by customers based on a successful placement of a release sprint's output into the production environment.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Deliverable" xmi:id="_EopWMPddEeCG79QDqBlPXg" name="release" guid="_EopWMPddEeCG79QDqBlPXg" presentationName="发布（Release）" briefDescription="发布是潜在可交付产品增量由开发群体向客户的例行使用进行的转换，这基于成功的将发布Sprint的输出投入到生产环境中。">
               <methodElementProperty xmi:id="_dYXAQKqeEeGLQ_Sv1UBWjg" name="me_edited" value="true"/>
               <presentation xmi:id="-Lo_rjBFuf6JDjdUw5nJjYw" href="uma://-Lo_rjBFuf6JDjdUw5nJjYw#-Lo_rjBFuf6JDjdUw5nJjYw"/>
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_IADPYuB-EeC1y_NExchKwQ" name="deployment" guid="_IADPYuB-EeC1y_NExchKwQ" presentationName="Deployment">
             <methodElementProperty xmi:id="_CRWrsJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAD2dOB-EeC1y_NExchKwQ" name="execute_deployment_plan" guid="_IAD2dOB-EeC1y_NExchKwQ" presentationName="Execute Deployment Plan" briefDescription="The deployment plan has all the unique instructions necessary to roll out a release." checklists="_IAG5weB-EeC1y_NExchKwQ" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJ9EOB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAD2dOB-EeC1y_NExchKwQ" name="execute_deployment_plan" guid="_IAD2dOB-EeC1y_NExchKwQ" presentationName="执行部署计划" briefDescription="部署计划包含了发布上线所需的所有说明。" checklists="_IAG5weB-EeC1y_NExchKwQ" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJ9EOB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJWA-B-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_CU7kIJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-PPEUOk6Gija0ckrWlDdCxA" href="uma://-PPEUOk6Gija0ckrWlDdCxA#-PPEUOk6Gija0ckrWlDdCxA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IADPY-B-EeC1y_NExchKwQ" name="execute_backout_plan" guid="_IADPY-B-EeC1y_NExchKwQ" presentationName="Execute Backout Plan (if necessary)" briefDescription="If a particular release into production goes wrong, the plan for cleanly reversing that deployment is executed." mandatoryInput="_IAHg2eB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IADPY-B-EeC1y_NExchKwQ" name="execute_backout_plan" guid="_IADPY-B-EeC1y_NExchKwQ" presentationName="执行回退计划（如果需要）" briefDescription="如果投入到生产中的发布出现错误，执行回退计划恢复原部署。" mandatoryInput="_IAHg2eB-EeC1y_NExchKwQ _EopWMPddEeCG79QDqBlPXg">
               <methodElementProperty xmi:id="_CZ2gYJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-mHGd7nm4EywKy0UPe9dZhg" href="uma://-mHGd7nm4EywKy0UPe9dZhg#-mHGd7nm4EywKy0UPe9dZhg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAFEkuB-EeC1y_NExchKwQ" name="verify_successful_deployment" guid="_IAFEkuB-EeC1y_NExchKwQ" presentationName="Verify Successful Deployment" briefDescription="Determine whether the rollout of a particular release into production has been successful or not." mandatoryInput="_EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAFEkuB-EeC1y_NExchKwQ" name="verify_successful_deployment" guid="_IAFEkuB-EeC1y_NExchKwQ" presentationName="验证发布成功" briefDescription="确定发布投入生产是成功还是失败。" mandatoryInput="_EopWMPddEeCG79QDqBlPXg" optionalInput="_IAJ9FeB-EeC1y_NExchKwQ">
               <methodElementProperty xmi:id="_CYXSoJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-chKviPT1F1yq5Y_KL9ET9g" href="uma://-chKviPT1F1yq5Y_KL9ET9g#-chKviPT1F1yq5Y_KL9ET9g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdhuB-EeC1y_NExchKwQ" name="deliver_release_communications" guid="_IAEdhuB-EeC1y_NExchKwQ" presentationName="Deliver Release Communications" briefDescription="After a product release has been declared a success and is available for use, all relevant stakeholders should receive a communique stating that fact." mandatoryInput="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_EopWMPddEeCG79QDqBlPXg">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdhuB-EeC1y_NExchKwQ" name="deliver_release_communications" guid="_IAEdhuB-EeC1y_NExchKwQ" presentationName="交付发布通告" briefDescription="在产品发布成功且可用之后，所有有关利益相关人都应该收到有关发布成功的通告。" mandatoryInput="_IAIH4OB-EeC1y_NExchKwQ" optionalInput="_EopWMPddEeCG79QDqBlPXg">
               <methodElementProperty xmi:id="_CaTMUJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-HIQR9GY0lX3xDuTpeslNtg" href="uma://-HIQR9GY0lX3xDuTpeslNtg#-HIQR9GY0lX3xDuTpeslNtg"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdgOB-EeC1y_NExchKwQ" name="package_the_release" guid="_IAEdgOB-EeC1y_NExchKwQ" presentationName="Package the Release" briefDescription="Each release should be built and packaged in a standard, controlled, and repeatable manner." mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJWA-B-EeC1y_NExchKwQ" output="_EopWMPddEeCG79QDqBlPXg">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IAEdgOB-EeC1y_NExchKwQ" name="package_the_release" guid="_IAEdgOB-EeC1y_NExchKwQ" presentationName="打包发布" briefDescription="每个发布应该以一种标准的、可控的、可重复的方式进行构建和打包。" mandatoryInput="_IAJ9FeB-EeC1y_NExchKwQ _IAJWA-B-EeC1y_NExchKwQ" output="_EopWMPddEeCG79QDqBlPXg">
               <methodElementProperty xmi:id="_CS_qcJigEeGlkdGl1HQlDA" name="me_edited" value="true"/>
               <presentation xmi:id="-fBwPDexzVTCxcEM5H1ljeQ" href="uma://-fBwPDexzVTCxcEM5H1ljeQ#-fBwPDexzVTCxcEM5H1ljeQ"/>
             </contentElements>

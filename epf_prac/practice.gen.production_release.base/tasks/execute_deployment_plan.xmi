@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PPEUOk6Gija0ckrWlDdCxA" name="02_02_execute_deployment_plan,_FCK_gWzvEeCPgecPbK9bdg" guid="-PPEUOk6Gija0ckrWlDdCxA" changeDate="2012-05-30T14:11:35.736-0700" version="7.5.1">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PPEUOk6Gija0ckrWlDdCxA" name="02_02_execute_deployment_plan,_FCK_gWzvEeCPgecPbK9bdg" guid="-PPEUOk6Gija0ckrWlDdCxA" changeDate="2013-10-13T22:10:02.779+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    This task is straightforward: follow the procedures in the Deployment Plan for the rollout of a specific product&#xD;
-    release. If the deployment plan does not exist or it is poorly constructed, this task might be much more difficult.&#xD;
+    此任务很简单：遵循部署计划中的流程步骤将指定的产品发布上线。如果不存在部署计划或者其内容贫乏，此任务可能面临许多困难。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The main point here is that to achieve a high probability of success, the development team should have previously&#xD;
-    developed a detailed plan that organizes and articulates all the unique instructions for deploying that particular&#xD;
-    release. Because an experienced deployment engineer normally executes this task, they might be able to overcome any&#xD;
-    missing deployment procedures or content. However, that is not an excuse for a development team to not develop the&#xD;
-    plan's contents.&#xD;
+    主要点是获得高概率的成功，开发团队应该在之前制定了详细的计划，组织并清晰的表达了部署发布的所有独特说明。虽然有经验的部署工程师常常在执行此任务的过程中克服部署步骤或内容中的遗漏。然而，这不是开发团队不制定计划内容的接口。&#xD;
 &lt;/p></mainDescription>
-  <sections xmi:id="_IAD2deB-EeC1y_NExchKwQ" name="Review deployment plan" guid="_IAD2deB-EeC1y_NExchKwQ">
-    <sectionDescription>Review the contents of the deployment plan to ensure that the production environment has all the dependent components&#xD;
-installed and that the system is in the correct state. Also ensure that the release window is ready to be achieved.</sectionDescription>
-  </sections>
-  <sections xmi:id="_IAD2duB-EeC1y_NExchKwQ" name="Release code" guid="_IAD2duB-EeC1y_NExchKwQ">
+  <sections xmi:id="_IAD2deB-EeC1y_NExchKwQ" name="审查部署计划" guid="_IAD2deB-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    When the preliminary review has been completed and the release window has started, deploy the release package into&#xD;
-    production. Depending on the release script and the size of the package, this installation might take anywhere from a&#xD;
-    few minutes to a few hours.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Monitor the release as the release script is run. Be prepared to terminate the script and back out the release if&#xD;
-    significant errors are encountered.&#xD;
+    审查部署计划的内容，以保证所有依赖的组件已经安装在生产环境中，且系统处于正确的状态。同时， 确认发布可以在指定的时间窗中获得。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to ensure that the rollout is based on clear, validated, repeatable instructions and to reduce&#xD;
-the risk of a deployment issue.</purpose>
+  <sections xmi:id="_IAD2duB-EeC1y_NExchKwQ" name="发布代码" guid="_IAD2duB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    当初步的审查完成后，并且发布窗口已经开始，将发布包部署到生产中。依赖于发布脚本和发布包大小，发布的安装可以需要花费几分钟到几小时的时间。&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    监控发布脚本运行。做好在遇到重大错误的情况下中断脚本并回退发布的准备。&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是确保上线是基于清晰的、已确认的、可重复的指令说明，以及减少部署问题的风险。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wHkXWtQxFeicCBDHK-f7xg" name="release_communications,_pQGOYGPoEeCXEsUUiTbOuQ" guid="-wHkXWtQxFeicCBDHK-f7xg" changeDate="2013-10-04T20:21:19.772+0800" version="7.5.1">
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wHkXWtQxFeicCBDHK-f7xg" name="release_communications,_pQGOYGPoEeCXEsUUiTbOuQ" guid="-wHkXWtQxFeicCBDHK-f7xg" changeDate="2013-10-09T23:04:58.067+0800" version="7.5.1">
   <mainDescription>&lt;p>&#xD;
-    有时，依赖于产品用户基础，可能需要为每个利益相关人群体准备单独的通知。在此种情况下，此工件应该为不同群体指定不同的通知，通知的方法（例如，email、文本或纸质通知、公告、通讯、电话等等）。所有的通知应该事先准备，这是传播信息的态度，当发布投入生产是已决定一定会成功。&#xD;
+    有时，依赖于产品用户基础，可能需要为每个利益相关人群体准备单独的通知。在此种情况下，此工件应该为不同群体指定不同的通知，通知的方法（例如，email、文本或纸质通知、公告、通讯、电话等等）。所有的通告应该事先准备，这是传播信息的态度，当发布投入生产是已决定一定会成功。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    此工件中除通知的时间和依赖关系外，还包含一份发布成功时负责执行通知的责任方（通知是部署工程师）列表。&#xD;
+    此工件中除通告的时间和依赖关系外，还包含一份发布成功时负责执行通知的责任方（通知是部署工程师）列表。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    虽然没有规定发布通知的格式，但是每个通知应该指明优先的交付机制（例如：通知、电话、网站上的内部公告、通过高级管理人员在线或预制的演示，等等）。此工件通常回答了如下问题：&#xD;
+    虽然没有规定发布通告的格式，但是每个通告应该指明优先的交付机制（例如：通知、电话、网站上的内部公告、通过高级管理人员在线或预制的演示，等等）。此工件通常回答了如下问题：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;

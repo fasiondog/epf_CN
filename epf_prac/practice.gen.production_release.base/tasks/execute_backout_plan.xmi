@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mHGd7nm4EywKy0UPe9dZhg" name="02_04_execute_backout_plan,_FCK_gGzvEeCPgecPbK9bdg" guid="-mHGd7nm4EywKy0UPe9dZhg" changeDate="2012-05-30T14:08:13.096-0700" version="7.5.1">
-  <mainDescription>Assuming a backout plan is available for this release, the deployment engineer (or development team) will follow the&#xD;
-instructions for reversing the installation of the product into production, if there is a problem. While the plan might&#xD;
-have been written with good intentions, sometimes key procedures are missing or have not been thought out. The team backing&#xD;
-out the release should be aware that blindly following the backout plan might not be the best approach. It is best to&#xD;
-consider the unique circumstances within which the deployment has failed and rely on common sense and experience when&#xD;
-executing the backout plan.</mainDescription>
-  <sections xmi:id="_IAD2c-B-EeC1y_NExchKwQ" name="Identify release problem(s)" guid="_IAD2c-B-EeC1y_NExchKwQ">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mHGd7nm4EywKy0UPe9dZhg" name="02_04_execute_backout_plan,_FCK_gGzvEeCPgecPbK9bdg" guid="-mHGd7nm4EywKy0UPe9dZhg" changeDate="2013-10-14T20:14:02.915+0800" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    假定此发布有可用的回退计划，如果发布存在问题，那么部署工程师（或开发团队）将按照其中的说明将已安装的发布从生产中移除并回复原生产环境。尽管可能在伴随着良好的意图下已经编写了回退计划，但仍可能存在缺失或没有考虑到的关键步骤。执行回退发布的团队应该意识到盲目的执行回退计划，可能并不是最好的方式。最好是在执行回退计划的同时，考虑部署失败的场景并依靠常识和经验。&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_IAD2c-B-EeC1y_NExchKwQ" name="识别发布存在的问题" guid="_IAD2c-B-EeC1y_NExchKwQ">
     <sectionDescription>&lt;p>&#xD;
-    In the event that the release to production experiences problems, either during or after deployment, the backout plan&#xD;
-    should be invoked. However, the deployment engineer (or development team) must understand where the release went wrong&#xD;
-    so that the code can be fixed before the next release attempt. This is a critical step, but it should be done quickly&#xD;
-    so that the problematic release can be reversed before significant damage is done to the production environment.&#xD;
+    无论在部署过程中还是部署之后，一旦发布在生产中出现问题，应执行回退计划。然而，部署工程师（或开发团队）必须知道发布在哪里遇到了问题，从而能够在下一次发布的代码中修复该问题。这是一个关键的步骤，应该被快速的完成，以使有问题的发布能够在生产环境出现严重损害之前被回退。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Log the issues as critical defects as soon as possible and assign those defects to the appropriate team members for&#xD;
-    resolution.&#xD;
+    将这些问题尽快作为关键缺陷记录，并将这些缺陷分配给合适的团队成员解决。&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAD2cOB-EeC1y_NExchKwQ" name="Backout the release" guid="_IAD2cOB-EeC1y_NExchKwQ">
-    <sectionDescription>Following the instructions in the backout plan, reverse the deployment. However, be aware that the backout plan&#xD;
-instructions are a guide and should not always be taken literally. This interpretation is due to the fact that not every&#xD;
-problematic condition can be documented in advance and because each real-world situation might be slightly different.</sectionDescription>
+  <sections xmi:id="_IAD2cOB-EeC1y_NExchKwQ" name="回退发布" guid="_IAD2cOB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    遵循回退计划中的说明，恢复部署。然而，应注意，回退计划说明是一份指南，不应该总是被逐字执行。这是因为事实上，并不是每一个存在问题的条件都可以被提前记录，并且每一个真实情况都可能略有不同。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAD2cuB-EeC1y_NExchKwQ" name="Determine if the backout was successful" guid="_IAD2cuB-EeC1y_NExchKwQ">
-    <sectionDescription>Ascertain whether the reversal was successful. If not, key members of the release team, development team, or program level&#xD;
-agile system team might need to be engaged to find and fix the problem(s).</sectionDescription>
+  <sections xmi:id="_IAD2cuB-EeC1y_NExchKwQ" name="确定回退成功" guid="_IAD2cuB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    确定回退是否成功。如果不成功，发布团队或部署团队的关键成员可能需要寻找并修复缺陷。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_IAD2ceB-EeC1y_NExchKwQ" name="Communicate the backout" guid="_IAD2ceB-EeC1y_NExchKwQ">
-    <sectionDescription>Ensure that all interested parties are aware of the failed release. Because releases often take place at odd hours to&#xD;
-minimize end user impact, use beeper-based notifications judiciously. In most cases, an email to key stakeholders (such as&#xD;
-the product owner and program manager) might suffice. Following up with a phone call also might be warranted.</sectionDescription>
+  <sections xmi:id="_IAD2ceB-EeC1y_NExchKwQ" name="通告本次回退" guid="_IAD2ceB-EeC1y_NExchKwQ">
+    <sectionDescription>&lt;p>&#xD;
+    确保所有相关方都清楚此次失败的发布。因为发布通常在闲暇时间进行以减少对最终用户的影响，应审慎的使用类似寻呼方式的通知。在大多数情况下，向关键的利益相关人（如产品负责人和程序经理）发送电子邮件就已足够。此外，也可能需要电话跟进。&#xD;
+&lt;/p></sectionDescription>
   </sections>
-  <purpose>The purpose of this task is to remove a specific release quickly and seamlessly from the production environment because the&#xD;
-release has caused problems or because it has been determined by the stakeholder community as unfit for service.</purpose>
+  <purpose>&lt;p>&#xD;
+    此任务的目的是从生产环境中快速且无缝的移除发布，因为该发布引发了某些问题或者利益相关人社区认为发布的服务并不适合。&#xD;
+&lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>
