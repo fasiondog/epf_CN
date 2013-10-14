@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Execute Deployment Plan</title>
+<title>任务：执行部署计划</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="execute_deployment_plan">
-<meta name="uma.presentationName" content="Execute Deployment Plan">
+<meta name="uma.presentationName" content="执行部署计划">
 <meta name="uma.category" content="Discipline:deployment_discipline:部署">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAD2dOB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Execute Deployment Plan</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：执行部署计划</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">The deployment plan has all the unique instructions necessary to roll out a release.</td>
+<td valign="top">部署计划包含了发布上线所需的所有说明。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/deployment_discipline_491487DA.html" guid="_OjzNEJoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to ensure that the rollout is based on clear, validated, repeatable instructions and to reduce
-the risk of a deployment issue.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是确保上线是基于清晰的、已确认的、可重复的指令说明，以及减少部署问题的风险。
+</p></td>
 </tr>
 </table>
 </div>
@@ -113,15 +114,10 @@ the risk of a deployment issue.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    This task is straightforward: follow the procedures in the Deployment Plan for the rollout of a specific product
-    release. If the deployment plan does not exist or it is poorly constructed, this task might be much more difficult.
+    此任务很简单：遵循部署计划中的流程步骤将指定的产品发布上线。如果不存在部署计划或者其内容贫乏，此任务可能面临许多困难。
 </p>
 <p>
-    The main point here is that to achieve a high probability of success, the development team should have previously
-    developed a detailed plan that organizes and articulates all the unique instructions for deploying that particular
-    release. Because an experienced deployment engineer normally executes this task, they might be able to overcome any
-    missing deployment procedures or content. However, that is not an excuse for a development team to not develop the
-    plan's contents.
+    主要点是获得高概率的成功，开发团队应该在之前制定了详细的计划，组织并清晰的表达了部署发布的所有独特说明。虽然有经验的部署工程师常常在执行此任务的过程中克服部署步骤或内容中的遗漏。然而，这不是开发团队不制定计划内容的接口。
 </p></td>
 </tr>
 </table>
@@ -131,27 +127,25 @@ the risk of a deployment issue.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Review deployment plan</div>
-<div class="stepContent">
-<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
-<td>Review the contents of the deployment plan to ensure that the production environment has all the dependent components
-installed and that the system is in the correct state. Also ensure that the release window is ready to be achieved.</td>
-</tr>
-</table>
-</div>
-<div class="stepHeading">Release code</div>
+<div class="stepHeading">审查部署计划</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    When the preliminary review has been completed and the release window has started, deploy the release package into
-    production. Depending on the release script and the size of the package, this installation might take anywhere from a
-    few minutes to a few hours.
+    审查部署计划的内容，以保证所有依赖的组件已经安装在生产环境中，且系统处于正确的状态。同时， 确认发布可以在指定的时间窗中获得。
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">发布代码</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    当初步的审查完成后，并且发布窗口已经开始，将发布包部署到生产中。依赖于发布脚本和发布包大小，发布的安装可以需要花费几分钟到几小时的时间。
 </p>
 <p>
-    Monitor the release as the release script is run. Be prepared to terminate the script and back out the release if
-    significant errors are encountered.
+    监控发布脚本运行。做好在遇到重大错误的情况下中断脚本并回退发布的准备。
 </p></td>
 </tr>
 </table>
