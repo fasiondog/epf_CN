@@ -289,7 +289,8 @@
                 <presentation xmi:id="-zfl87vJBFdinDB02ArLXOQ" href="uma://-zfl87vJBFdinDB02ArLXOQ#-zfl87vJBFdinDB02ArLXOQ"/>
               </contentElements>
             </childPackages>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__O7tAMVvEduLYZUGfgZrkQ" name="software_architecture" guid="__O7tAMVvEduLYZUGfgZrkQ" presentationName="Software Architecture" briefDescription="The software architecture represents the structure or structures of the system, which consists of software components, the externally visible properties of those components, and the relationships among them." conceptsAndPapers="_0YJvUMlgEdmt3adZL5Dmdw _kgtcoNc8Edyd7OybSySFxg _O1kAANvfEduv2KOT-Teh6w _jdKSsNpiEdyP58ppo1Ieaw _HlRqANpbEdyP58ppo1Ieaw _mzxI0A4LEduibvKwrGxWxA _HrZGIA4MEduibvKwrGxWxA _0YP18MlgEdmt3adZL5Dmdw _pLEGUNqGEdy88NBoQgfGyg" guidelines="_0gpkAMlgEdmt3adZL5Dmdw _0gjdYMlgEdmt3adZL5Dmdw _vO2uoO0OEduUpsu85bVhiQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__O7tAMVvEduLYZUGfgZrkQ" name="software_architecture" guid="__O7tAMVvEduLYZUGfgZrkQ" presentationName="软件架构" briefDescription="软件架构代表了系统结构，包括组成系统的软件组件、这些组件的外部可见属性，以及它们之间的关联关系。" conceptsAndPapers="_0YJvUMlgEdmt3adZL5Dmdw _kgtcoNc8Edyd7OybSySFxg _O1kAANvfEduv2KOT-Teh6w _jdKSsNpiEdyP58ppo1Ieaw _HlRqANpbEdyP58ppo1Ieaw _mzxI0A4LEduibvKwrGxWxA _HrZGIA4MEduibvKwrGxWxA _0YP18MlgEdmt3adZL5Dmdw _pLEGUNqGEdy88NBoQgfGyg" guidelines="_0gpkAMlgEdmt3adZL5Dmdw _0gjdYMlgEdmt3adZL5Dmdw _vO2uoO0OEduUpsu85bVhiQ">
+              <methodElementProperty xmi:id="_DhDQgJ_KEeOKMbnA2PQHnA" name="me_edited" value="true"/>
               <presentation xmi:id="-UQ_e8kozIP11Xu008RJd-A" href="uma://-UQ_e8kozIP11Xu008RJd-A#-UQ_e8kozIP11Xu008RJd-A"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0YP18MlgEdmt3adZL5Dmdw" name="component" guid="_0YP18MlgEdmt3adZL5Dmdw" presentationName="Component" briefDescription="This concept describes components as they are applied within this process.">
@@ -307,7 +308,8 @@
             <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0gjdYMlgEdmt3adZL5Dmdw" name="repres_interfaces_to_ext_systems" guid="_0gjdYMlgEdmt3adZL5Dmdw" presentationName="Representing Interfaces to External Systems" briefDescription="This guideline introduces system level interfaces." conceptsAndPapers="_0YP18MlgEdmt3adZL5Dmdw" guidelines="_uF-QYEAhEdq_UJTvM1DM2Q">
               <presentation xmi:id="_iCwb8MM3EdmSIPI87WLu3g" href="uma://_iCwb8MM3EdmSIPI87WLu3g#_iCwb8MM3EdmSIPI87WLu3g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kgtcoNc8Edyd7OybSySFxg" name="arch_views_viewpoints" guid="_kgtcoNc8Edyd7OybSySFxg" presentationName="Architectural Views and Viewpoints" briefDescription="This concept describes the important concepts of views and viewpoints in the context of architecture." examples="_4bC4cNs_EdyEW4klSH3vRA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kgtcoNc8Edyd7OybSySFxg" name="arch_views_viewpoints" guid="_kgtcoNc8Edyd7OybSySFxg" presentationName="架构视图与视点" briefDescription="This concept describes the important concepts of views and viewpoints in the context of architecture." examples="_4bC4cNs_EdyEW4klSH3vRA">
+              <methodElementProperty xmi:id="_QwpTwJ_JEeOKMbnA2PQHnA" name="me_edited" value="true"/>
               <presentation xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" href="uma://-QB0WnHnpcK1VJbdJJ5QJ5A#-QB0WnHnpcK1VJbdJJ5QJ5A"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_eQ_s8Om5Edupia_tZIXEqg" name="architectural_mechanism_attributes" guid="_eQ_s8Om5Edupia_tZIXEqg" presentationName="Architectural Mechanism Attributes" briefDescription="This example illustrates how to represent attributes for Architecture Mechanisms.">

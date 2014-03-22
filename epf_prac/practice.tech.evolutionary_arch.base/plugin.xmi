@@ -94,7 +94,8 @@
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_vO2uoO0OEduUpsu85bVhiQ"/>
             <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_0gjdYMlgEdmt3adZL5Dmdw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Odpz8NciEdy1nJEYZGzN4A" name="how_to_adopt_evolutionary_arch_practice" guid="_Odpz8NciEdy1nJEYZGzN4A" presentationName="How to adopt the Evolutionary Architecture practice" briefDescription="This roadmap describes how to adopt the Evolutionary Architecture practice.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_Odpz8NciEdy1nJEYZGzN4A" name="how_to_adopt_evolutionary_arch_practice" guid="_Odpz8NciEdy1nJEYZGzN4A" presentationName="如何引入演进架构实践" briefDescription="此路线图描述了如何引入演进架构实践。">
+            <methodElementProperty xmi:id="_uyiRgJ-yEeOKMbnA2PQHnA" name="me_edited" value="true"/>
             <presentation xmi:id="-KXvzdy6aJTFPQRS-UK5dvA" href="uma://-KXvzdy6aJTFPQRS-UK5dvA#-KXvzdy6aJTFPQRS-UK5dvA"/>
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
           </contentElements>
@@ -104,7 +105,7 @@
             <conceptsAndPapers href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
             <fulfills href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_uVnpQB4qEd2bS8fFOQ7WWA" name="evolutionary_arch" guid="_uVnpQB4qEd2bS8fFOQ7WWA" presentationName="演进架构" briefDescription="Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_uVnpQB4qEd2bS8fFOQ7WWA" name="evolutionary_arch" guid="_uVnpQB4qEd2bS8fFOQ7WWA" presentationName="演进架构" briefDescription="分析影响解决方案的主要技术关注点，并记录那些架构上的决策从而保证对这些决策进行了评估和沟通。">
             <methodElementProperty xmi:id="_q9ihwPDuEeKeSp6eDiBNbw" name="me_edited" value="true"/>
             <presentation xmi:id="-TleqHW_wvIYc0qLQgZUchA" href="uma://-TleqHW_wvIYc0qLQgZUchA#-TleqHW_wvIYc0qLQgZUchA"/>
             <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_mzxI0A4LEduibvKwrGxWxA"/>
