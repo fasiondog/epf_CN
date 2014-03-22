@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/practice.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Analyze the major technical concerns that affect the solution, and capture those architectural decisions to ensure that those decisions are assessed and communicated.</td>
+<td valign="top">分析影响解决方案的主要技术关注点，并记录那些架构上的决策从而保证对这些决策进行了评估和沟通。</td>
 </tr>
 </table>
 </td>
@@ -55,7 +55,7 @@
 <th class="sectionTableHeading" scope="row">内容引用</th><td class="sectionTableCell">
 <ul>
 <li>
-<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">How to adopt the Evolutionary Architecture practice</a>
+<img src="./../../../images/roadmap.gif" height="16" width="16"><a href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">如何引入演进架构实践</a>
 </li>
 </ul>
 <ul>
@@ -65,10 +65,10 @@
 <img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
 </li>
 <li>
-<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">Architectural Views and Viewpoints</a>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">架构视图与视点</a>
 </li>
 <li>
-<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>
+<img src="./../../../images/concept.gif" height="16" width="16"><a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">软件架构</a>
 </li>
 </ul>
 </ul>
@@ -128,33 +128,25 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableCell"><p>
-    <span class="c1">The Evolutionary Architecture practice describes how to incrementally build and improve the software
-    architecture while uncovering and addressing architectural issues during software development. This reduces technical
-    risk without requiring significant up-front architectural effort.</span>
+    演进架构实践描述了在软件开发中随着对架构问题的发现和处理如何增量的构建并改善软件架构。这减低了技术风险而不需要巨量的前期架构工作。
 </p>
 <p>
-    <span class="c1">This practice:</span>
+    <span class="c1">此实践：</span>
 </p>
 <ul>
     <li>
-        Improves quality and productivity by reducing the need to make time-consuming, error-prone fixes to late-detected
-        problems that result from architectural flaws. This is possible because the architecture is validated early, and
-        key architectural problems are corrected before the majority of development is done.
+        通过减少那些由于架构缺陷而引发的原本在后期发现的、耗时的、易出现的问题，来提升质量和生产力。这是因为在早期对架构进行了验证，并在主要的开发工作完成之前纠正了关键的架构问题。
     </li>
 </ul>
 <ul>
     <li>
-        Reduces time to market by focusing on reuse. It improves the consistency and maintainability of the system by
-        incorporating lessons learned from development back into the architecture and applying those lessons to the rest of
-        development.
+        通过关注重用来缩短上市时间。“重用”通过将开发中的教训回馈到架构并在剩下的开发中应用这些教训，来改善系统的一致性和可维护性。
     </li>
 </ul>
 <ul>
     <li>
         <div class="MsoNormal c2">
-            <span class="c1">Improves predictability by identifying and implementing the highest-risk technical areas
-            first.</span> It improves the team's responsiveness to change by shortening the architectural cycle and
-            minimizing time wasted in architectural scrap and rework when changes arise.
+            通过首先识别和解决高风险的技术领域来改善可预测性。它通过在变更发生时缩短架构周期以及最小化耗费在架构废料（指架构中无相关的部分）上的时间和返工，来提升团队的响应能力。
         </div>
     </li>
 </ul></td>
@@ -166,36 +158,28 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableCell"><h3>
-    The essence of evolutionary architecture
+    演进架构的本质
 </h3>
 <p>
-    In the Evolutionary Architecture practice, you analyze the major technical concerns that affect the solution and
-    document architectural decisions to ensure that you have assessed and communicated those decisions.
+    在演进架构实践中，分析影响解决方案的主要技术关注点，并记录架构决策以保证对这些决策进行了评估和沟通。
 </p>
 <h3>
-    The key principles of the Evolutionary Architecture practice are:
+    演进架构实践的关键原则：
 </h3>
 <ul type="disc">
     <li class="MsoNormal c3">
-        <strong><span class="c1">Perform architecture work "just in time" for all other work.</span></strong> <span         class="c1">When planning your project, identify and discuss architectural issues with your team, and then
-        prioritize architectural work with any other work.</span> Base your priorities on mitigating technical risk rather
-        than creating value. Deferring architectural issues to handle them "just in time" enables the architecture to
-        <em><span class="c2">evolve over time</span></em>.
+        <strong><span class="c1">“及时恰当”的进行架构工作。</span></strong>
+        在策划项目时，和团队一起识别并讨论架构相关问题，并对架构工作及其对应的相关工作划分优先级。优先级基于降低技术风险，而不是创造价值。推迟处理架构问题，在之后“及时恰当”的时间处理它们，以促使架构随时间演变。
     </li>
 </ul>
 <ul type="disc">
     <li class="MsoNormal c3">
-        <strong><span class="c1">Document key architectural decisions and outstanding issues</span></strong><span         class="c1">. The <a class="elementLink" href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a> a list of the architectural issues to make it easy to
-        understand which architectural decisions you've made and which you've not yet addressed.</span>
+        <span class="c1"><strong>记录关键架构决策和突出问题。</strong>《<a class="elementLink" href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a>》（记录架构相关问题的清单）有助于了解已做的架构决策和尚未处理的架构问题。</span>
     </li>
 </ul>
 <ul type="disc">
     <li class="MsoNormal c3">
-        <strong><span class="c1">Implement and test key capabilities as a way to address architectural
-        issues</span></strong><span class="c1">. Resolving architectural issues typically requires not only architectural
-        brainstorming, but also associated prototyping. In other words: implement enough code to validate the assumptions
-        behind the architecture. The code becomes production code, except for anything thrown away because it proves the
-        architecture invalid.</span>
+        <span         class="c1"><strong>实现并测试关键能力（能力包括：功能、性能）来解决架构问题。</strong>分析架构问题通常不仅要求有关架构的头脑风暴，还包括相关的原型。换句话说：实现足够的代码来验证架构背后的假设。这些代码将成为产品代码，或在证明架构无效后抛弃。</span>
     </li>
 </ul></td>
 </tr>
@@ -206,20 +190,16 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableCell"><p>
-    The best way to read this practice is to first familiarize yourself with its overall structure: what is in it and how
-    it is organized.
+    阅读此实践的最佳方式是首先熟悉整体结构，了解：包含了什么内容以及这些内容是如何组织的。
 </p>
 <p>
-    Next, review the key concepts for the practice. An especially important concept is <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Concept：Software Architecture</a>. After you understand what architecture is, turn your
-    attention to the Architecture Notebook. Then review the tasks, accessing guidelines and tool mentors associated with
-    each task as needed. You can also access the guidance provided by the practice directly through the Guidance folder.
+    随后，回顾此实践的关键概念。其中一个特别重要的概念是：<a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Concept：软件架构</a>。在你理解什么是架构后，将注意力转向《架构备忘录》。接着回顾相关任务，查看每个任务相关的指南与工具指导。你也可以访问直接提供此实践指南的文件夹。
 </p>
 <p>
-    Be sure to take a look at the list of enablement materials for additional sources of information. See the Additional
-    Resources section of this page.
+    一定要看一看附加来源信息中的相关资料。可参见此页中的“更多资源”。
 </p>
 <p>
-    For step-by-step instructions on how to adopt this practice, see <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">Roadmap：How to adopt the Evolutionary Architecture practice</a>.
+    如何一步步引入此事件，可参见 <a class="elementLinkWithType" href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">Roadmap：如何引入演进架构实践</a>。
 </p></td>
 </tr>
 </table>
@@ -229,10 +209,10 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableCell"><h3>
-    Additional resources
+    更多资源
 </h3>
 <p>
-    See these sources for more information on the evolutionary architecture approach:
+    有关演进架构方法的更多信息，参见:
 </p>
 <ul>
     <li>
@@ -247,7 +227,8 @@
         <a href="http://www.agiledata.org/essays/enterpriseArchitecture.html" target="_blank">Agile Enterprise
         Architecture</a>
     </li>
-</ul><br /></td>
+</ul>
+<br /></td>
 </tr>
 </table>
 </div>

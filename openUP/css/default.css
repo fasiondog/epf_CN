@@ -33,9 +33,28 @@ h2 {
 
 h3 {
 	font-family: arial, helvetica, sans-serif, kanji2;
+    color: #006699;
+    padding: 3px 5px;
+    background-color: #DCE6F4;
+    width: auto;
+    border-bottom: #98B1C4 solid 2px;
 }
 
-h4, h5, h6 {
+h4 {
+	font-family: arial, helvetica, sans-serif, kanji2;
+	font-size: 100%;
+    background-color: #F5F5F5;
+    padding: 3px 5px;
+    width: auto;
+    border-bottom: 1px dotted #444444;  
+}
+
+h5 {
+	font-family: arial, helvetica, sans-serif, kanji2;
+	font-size: 100%;
+}
+
+h6 {
 	font-family: arial, helvetica, sans-serif, kanji2;
 	font-size: 100%;
 }

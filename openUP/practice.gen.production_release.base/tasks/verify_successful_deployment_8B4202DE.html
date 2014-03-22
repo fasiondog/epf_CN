@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Verify Successful Deployment</title>
+<title>任务：验证发布成功</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="verify_successful_deployment">
-<meta name="uma.presentationName" content="Verify Successful Deployment">
+<meta name="uma.presentationName" content="验证发布成功">
 <meta name="uma.category" content="Discipline:deployment_discipline:部署">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IAFEkuB-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Verify Successful Deployment</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：验证发布成功</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Determine whether the rollout of a particular release into production has been successful or not.</td>
+<td valign="top">确定发布投入生产是成功还是失败。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/deployment_discipline_491487DA.html" guid="_OjzNEJoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to confirm that a release has not caused any unintentional interruptions to service in the
-production environment.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是确认发布没有引起在生产环境中的服务出现中断。
+</p></td>
 </tr>
 </table>
 </div>
@@ -110,12 +111,10 @@ production environment.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    Using the success criteria documented either in the deployment plan or in the backout plan, the deployment engineer, in
-    collaboration with the development team, will determine whether the rollout can be declared a success or not.
+    部署工程师同开发团队协作，依据部署计划或回退计划中记录的成功判断准则，确定上线是否成功。
 </p>
 <p>
-    If the deployment is successful, the previously prepared release communiques should be delivered. If the deployment is
-    unsuccessful, then the backout plan should be invoked.
+    如果部署成功，发送之前准备好的发布通告。如果部署不成功，那么应该执行回退计划。
 </p></td>
 </tr>
 </table>
@@ -125,32 +124,34 @@ production environment.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Test production release</div>
+<div class="stepHeading">测试部署至生产中的发布</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>In this step, automated smoke tests should be run to determine whether key components were deployed successfully. These
-tests should be brief but revealing enough to quickly determine the validity of the deployment.</td>
+<td><p>
+    在此步骤中，应该执行自动化的冒烟测试来判断关键的组件是否已成功部署。这些测试应该简短而又能足够暴露问题，从而快速的验证部署。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Run manual tests</div>
+<div class="stepHeading">执行手工测试</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>If the automated smoke tests are successful, run several complex manual tests to simulate key end user behavior. These
-tests should be executed by development team members or stakeholders recruited specifically for this purpose.</td>
+<td><p>
+    如果成功通过了自动化冒烟测试，那么手工执行一些复杂的测试来模拟关键最终用户的行为。这些测试应该由开发团队成员或利益相关人中专门为此目的而招聘的人员来执行。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Determine if release should be reversed</div>
+<div class="stepHeading">确定发布是否需要被回退</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>In some situations, problems with the release might be encountered but are not serious enough to reverse the deployment. If
-the problem(s) associated with the release can be fixed easily, and if they are not detrimental to the production
-environment, an emergency bug fix (EBF) might be the answer. In that case, the release is not backed out; rather, an EBF is
-scheduled to be executed as soon as possible.</td>
+<td><p>
+    在某些情况下，在发布中可能会遇到一些问题，但并没有严重到需要回退部署。如果和发布有关的问题可以被轻易修复，并且不影响生产环境，可能需要紧急故障修复（Emergency bug
+    fix：EBF）。在这种情况下，并不需要回退发布，反而应尽快的进行紧急故障修复。
+</p></td>
 </tr>
 </table>
 </div>

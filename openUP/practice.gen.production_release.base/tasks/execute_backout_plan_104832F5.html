@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>任务：Execute Backout Plan (if necessary)</title>
+<title>任务：执行回退计划（如果需要）</title>
 <meta name="uma.type" content="Task">
 <meta name="uma.name" content="execute_backout_plan">
-<meta name="uma.presentationName" content="Execute Backout Plan (if necessary)">
+<meta name="uma.presentationName" content="执行回退计划（如果需要）">
 <meta name="uma.category" content="Discipline:deployment_discipline:部署">
 <meta name="element_type" content="activity">
 <meta name="filetype" content="description">
@@ -26,7 +26,7 @@
 <div id="page-guid" value="_IADPY-B-EeC1y_NExchKwQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">任务：Execute Backout Plan (if necessary)</td><td width="100%">
+<td class="pageTitle" nowrap="true">任务：执行回退计划（如果需要）</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -42,7 +42,7 @@
 <td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">If a particular release into production goes wrong, the plan for cleanly reversing that deployment is executed.</td>
+<td valign="top">如果投入到生产中的发布出现错误，执行回退计划恢复原部署。</td>
 </tr>
 <tr>
 <td>规程：<a href="./../../core.default.cat_def.base/disciplines/deployment_discipline_491487DA.html" guid="_OjzNEJoGEeGnJt_Qpwdfdg">部署</a></td>
@@ -56,8 +56,9 @@
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">The purpose of this task is to remove a specific release quickly and seamlessly from the production environment because the
-release has caused problems or because it has been determined by the stakeholder community as unfit for service.</td>
+<td class="sectionTableSingleCell"><p>
+    此任务的目的是从生产环境中快速且无缝的移除发布，因为该发布引发了某些问题或者利益相关人社区认为发布的服务并不适合。
+</p></td>
 </tr>
 </table>
 </div>
@@ -106,12 +107,9 @@ release has caused problems or because it has been determined by the stakeholder
 <div class="sectionContent">
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td class="sectionTableSingleCell">Assuming a backout plan is available for this release, the deployment engineer (or development team) will follow the
-instructions for reversing the installation of the product into production, if there is a problem. While the plan might
-have been written with good intentions, sometimes key procedures are missing or have not been thought out. The team backing
-out the release should be aware that blindly following the backout plan might not be the best approach. It is best to
-consider the unique circumstances within which the deployment has failed and rely on common sense and experience when
-executing the backout plan.</td>
+<td class="sectionTableSingleCell"><p>
+    假定此发布有可用的回退计划，如果发布存在问题，那么部署工程师（或开发团队）将按照其中的说明将已安装的发布从生产中移除并回复原生产环境。尽管可能在伴随着良好的意图下已经编写了回退计划，但仍可能存在缺失或没有考虑到的关键步骤。执行回退发布的团队应该意识到盲目的执行回退计划，可能并不是最好的方式。最好是在执行回退计划的同时，考虑部署失败的场景并依靠常识和经验。
+</p></td>
 </tr>
 </table>
 </div>
@@ -120,49 +118,46 @@ executing the backout plan.</td>
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td class="sectionTableSingleCell">
-<div class="stepHeading">Identify release problem(s)</div>
+<div class="stepHeading">识别发布存在的问题</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td><p>
-    In the event that the release to production experiences problems, either during or after deployment, the backout plan
-    should be invoked. However, the deployment engineer (or development team) must understand where the release went wrong
-    so that the code can be fixed before the next release attempt. This is a critical step, but it should be done quickly
-    so that the problematic release can be reversed before significant damage is done to the production environment.
+    无论在部署过程中还是部署之后，一旦发布在生产中出现问题，应执行回退计划。然而，部署工程师（或开发团队）必须知道发布在哪里遇到了问题，从而能够在下一次发布的代码中修复该问题。这是一个关键的步骤，应该被快速的完成，以使有问题的发布能够在生产环境出现严重损害之前被回退。
 </p>
 <p>
-    Log the issues as critical defects as soon as possible and assign those defects to the appropriate team members for
-    resolution.
+    将这些问题尽快作为关键缺陷记录，并将这些缺陷分配给合适的团队成员解决。
 </p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Backout the release</div>
+<div class="stepHeading">回退发布</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Following the instructions in the backout plan, reverse the deployment. However, be aware that the backout plan
-instructions are a guide and should not always be taken literally. This interpretation is due to the fact that not every
-problematic condition can be documented in advance and because each real-world situation might be slightly different.</td>
+<td><p>
+    遵循回退计划中的说明，恢复部署。然而，应注意，回退计划说明是一份指南，不应该总是被逐字执行。这是因为事实上，并不是每一个存在问题的条件都可以被提前记录，并且每一个真实情况都可能略有不同。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Determine if the backout was successful</div>
+<div class="stepHeading">确定回退成功</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Ascertain whether the reversal was successful. If not, key members of the release team, development team, or program level
-agile system team might need to be engaged to find and fix the problem(s).</td>
+<td><p>
+    确定回退是否成功。如果不成功，发布团队或部署团队的关键成员可能需要寻找并修复缺陷。
+</p></td>
 </tr>
 </table>
 </div>
-<div class="stepHeading">Communicate the backout</div>
+<div class="stepHeading">通告本次回退</div>
 <div class="stepContent">
 <table class="stepTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
-<td>Ensure that all interested parties are aware of the failed release. Because releases often take place at odd hours to
-minimize end user impact, use beeper-based notifications judiciously. In most cases, an email to key stakeholders (such as
-the product owner and program manager) might suffice. Following up with a phone call also might be warranted.</td>
+<td><p>
+    确保所有相关方都清楚此次失败的发布。因为发布通常在闲暇时间进行以减少对最终用户的影响，应审慎的使用类似寻呼方式的通知。在大多数情况下，向关键的利益相关人（如产品负责人和程序经理）发送电子邮件就已足够。此外，也可能需要电话跟进。
+</p></td>
 </tr>
 </table>
 </div>

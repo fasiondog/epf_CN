@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：Software Architecture</title>
+<title>概念：软件架构</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="software_architecture">
-<meta name="uma.presentationName" content="Software Architecture">
+<meta name="uma.presentationName" content="软件架构">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="__O7tAMVvEduLYZUGfgZrkQ"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：Software Architecture</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：软件架构</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">The software architecture represents the structure or structures of the system, which consists of software components, the externally visible properties of those components, and the relationships among them.</td>
+<td valign="top">软件架构代表了系统结构，包括组成系统的软件组件、这些组件的外部可见属性，以及它们之间的关联关系。</td>
 </tr>
 </table>
 </td>
@@ -61,10 +61,10 @@
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Executable Architecture</a>
 </li>
 <li>
-<a href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">How to adopt the Evolutionary Architecture practice</a>
+<a href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a>
 </li>
 <li>
-<a href="./../../../practice.tech.evolutionary_arch.base/workproducts/architecture_notebook_9BB92433.html" guid="_0XAf0MlgEdmt3adZL5Dmdw">架构备忘录</a>
+<a href="./../../../practice.tech.evolutionary_arch.base/guidances/roadmaps/how_to_adopt_evolutionary_arch_practice_FEFA2CCF.html" guid="_Odpz8NciEdy1nJEYZGzN4A">如何引入演进架构实践</a>
 </li>
 </ul>
 </td>
@@ -76,226 +76,186 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><h3>
-    Introduction
+    简介
 </h3>
 <p>
-    Software architecture is a concept that is easy to understand, and that most engineers intuitively feel, especially
-    with a little experience, but it is hard to define precisely. In particular, it is difficult to draw a sharp line
-    between design and architecture-architecture is one aspect of design that concentrates on some specific features.
+    软件架构是一个很容易理解的概念，大部分工程师即使仅拥有少量的经验，都能够凭直观感觉理解。但是，它却很难被精确的定义。特别是，很难在设计和架构之间划定清晰的分界线——架构是设计的一个方面，集中于某些特定的特性。
 </p>
 <p>
-    In An Introduction to Software Architecture, David Garlan and Mary Shaw suggest that software architecture is a level
-    of design concerned with issues: "Beyond the algorithms and data structures of the computation; designing and
-    specifying the overall system structure emerges as a new kind of problem. Structural issues include gross organization
-    and global control structure; protocols for communication, synchronization, and data access; assignment of
-    functionality to design elements; physical distribution; composition of design elements; scaling and performance; and
-    selection among design alternatives." <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[GAR93]</a>
+    在《An Introduction to Software Architecture》中，David Garlan和Mary
+    Shaw建议，软件架构是设计的某个层面，它关注于：“在计算的算法和数据机构之外；设计和特定的整体系统结构暴露出一种新型的问题。结构性问题包括整体组织和全局控制结构；通讯协议，同步以及数据存取；为设计元素分配功能；物理分布；设计元素组合；可扩展性和性能；以及设计方案的选择。”<a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[GAR93]</a>
 </p>
 <p>
-    But there is more to architecture than just structure; the IEEE Working Group on Architecture defines it as "the
-    highest-level concept of a system in its environment" <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[IEP1471]</a>. It also encompasses the "fit" with system integrity, with economical
-    constraints, with aesthetic concerns, and with style. It is not limited to an inward focus, but takes into
-    consideration the system as a whole in its user environment and its development environment - an outward focus.
+    但是架构比结构包含的更多；IEEE架构工作组将架构定义为“系统在其环境中的最高级别的概念”<a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[IEP1471]</a>。它还包含了“匹配”系统的完整性，与经济的约束，美学问题，以及风格。它不仅限于一个向内的焦点，还将系统在其用户环境和开发环境中作为一个整体来考虑——向外的焦点。
 </p>
 <p>
-    The architecture focuses on specific aspects of the overall system design, concentrating on structure, essential
-    elements, key scenarios and those aspects that have a lasting impact on system qualities such as performance,
-    reliability, adaptability and cost. It also defines the set of <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>s, <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>s and styles that will guide the rest of the design, assuring its integrity.
+    架构聚焦于整个系统设计中的特定方面，专注于结构、基本要素、关键场景和那些对系统品质产生持久影响的方面，如性能、可靠性、适应性和成本。它还定义了一组架构机制、模式和风格，这些将指导剩余的设计，保证其完整性。
 </p>
 <h3>
-    Purpose of Architecture
+    架构用途
 </h3>
 <p>
-    The architecture can be used for many things:
+    架构可用于许多方面：
 </p>
 <ul>
     <li>
-        <strong>To describe the essential structure of the system and the decisions guiding the structure of the
-        system</strong> so the integrity and understandability of the system is assured.
+        <strong>描述系统的基本结构以及指导系统结构的决策</strong>，从而保证系统的完整性和可理解性。
     </li>
     <li>
-        <a id="Comment71_" name="Comment71_"><strong>To identify and attack risks to the system</strong> (using the
-        architecture as an artifact of governance)</a>
+        <strong>识别并降低系统风险</strong>（通过把架构当做管理中的工件）
     </li>
     <li>
-        <strong>To provide context and guidance for developers</strong> to construct the system by describing the
-        motivations behind the architectural decisions so those decisions can be robustly implemented. The architecture
-        services as the blueprint for development.&nbsp;For example, the architect may place constraints on how data is
-        packaged and communicated between different parts of the system. This may appear to be a burden, but the
-        justification in the Architecture Notebook can explain that there is a significant performance bottleneck when
-        communicating with a legacy system. The rest of the system must adapt to this bottleneck by following a specific
-        data packaging scheme.
+        <strong>为开发者提供上下文和指南。</strong>通过描述架构决策背后的动机，为开发者构造系统提供上下文和指南，从而使这些决策能够被坚定的执行。架构作为蓝图为开发提供服务。例如，架构可以为数据如何被打包及其如何在系统不同部件中通讯指明约束。这看起来像是一种负担，但是在架构备忘录中的理由可以对其给出解释：在和遗留系统通信时存在显著的瓶颈。系统的其余部分必须遵循这种特定的数据打包样式来适应这个瓶颈。
     </li>
     <li>
-        <strong>To provide an overview of the system to whoever must maintain the architecture</strong>, as well as an
-        understanding of the motivation behind the important technical decisions.&nbsp; Team members who were not involved
-        in those architectural decisions need to understand the reasoning behind the&nbsp;context of the architecture so
-        they can best address the needs of the system.
+        <strong>为那些必须维护系统的人们，提供系统的概述</strong>，以及对重要技术决策背后动机的理解。没有参与架构决策的团队成员需要理解架构上下文背后的原因，这样他们能够更好的处理系统需要。
     </li>
     <li>
-        <strong>To define the project structure and team organization.</strong> Architectural elements make excellent units
-        of implementation, unit testing, integration, configuration management and&nbsp;documentation.&nbsp;&nbsp; They can
-        also be used to define&nbsp; so that managers can plan the project.
+        <strong>定义项目结构和团队组织</strong>。架构元素是优秀的实现、单元测试、集成、配置管理和文档的单元。它们也可被管理者用于计划项目。
     </li>
 </ul>
 <h3>
-    Architecture Description
+    架构描述
 </h3>
 <p>
-    To speak and reason about software architecture, you must first define an architectural representation, a way of
-    describing important aspects of an architecture.
+    为了讲述和讨论软件架构，首先必须定义架构的表示方式，描述架构的重要方面。
 </p>
 <p>
-    The following is some information that is worth capturing as part of the software architecture:
+    以下是一些值得捕获的组成软件架构的信息：
 </p>
 <ul>
     <li>
-        Architectural goals (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html" guid="_HlRqANpbEdyP58ppo1Ieaw">Concept：Architectural Goals</a>)
+        架构目标 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html" guid="_HlRqANpbEdyP58ppo1Ieaw">Concept：Architectural Goals</a>)
     </li>
     <li>
-        References to architecturally significant requirements and how the architecture addresses those requirements,
-        including&nbsp;key scenarios that describe critical behavior of the system (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Concept：Architecturally Significant Requirements</a>)
+        引用关键架构需求以及架构如何处理这些需求，包括描述系统重要行为的关键场景 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Concept：Architecturally Significant Requirements</a>)
     </li>
     <li>
-        Constraints on the architecture and how the architecture addresses those constraints (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html" guid="_jdKSsNpiEdyP58ppo1Ieaw">Concept：Architectural Constraints</a>)
+        架构约束以及架构如何解决这些约束 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html" guid="_jdKSsNpiEdyP58ppo1Ieaw">Concept：Architectural Constraints</a>)
     </li>
     <li>
-        Key abstractions (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/key_abstractions_1474DBF2.html" guid="_pLEGUNqGEdy88NBoQgfGyg">Concept：Key Abstractions</a>)
+        关键抽象&nbsp;(参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/key_abstractions_1474DBF2.html" guid="_pLEGUNqGEdy88NBoQgfGyg">Concept：Key Abstractions</a>)
     </li>
     <li>
-        <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a> and where they should be applied (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Concept：Architectural Mechanism</a>).
+        <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a> 及其在何处应用 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Concept：Architectural Mechanism</a>).
     </li>
     <li>
-        Description of the partitioning approach, as well as a description of the key partitions.&nbsp; For example,
-        Layering&nbsp;(see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/layering_F169CF07.html" guid="_0gpkAMlgEdmt3adZL5Dmdw">Guideline：Layering</a>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        描述划分分区的方法，并描述关键部件。例如，分层&nbsp;(参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/layering_F169CF07.html" guid="_0gpkAMlgEdmt3adZL5Dmdw">Guideline：Layering</a>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </li>
     <li>
-        Description of the deployment approach, as well as how key components are allocated to deployment
-        nodes.&nbsp;&nbsp;&nbsp;&nbsp;
+        描述部署的方法，以及关键组件如何被分配到部署节点。
     </li>
     <li>
-        References to architecturally significant design elements (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html" guid="_0YP18MlgEdmt3adZL5Dmdw">Concept：Component</a>)&nbsp;
+        引用架构关键设计元素 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html" guid="_0YP18MlgEdmt3adZL5Dmdw">Concept：Component</a>)&nbsp;
     </li>
     <li>
-        Critical system interfaces (see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Guideline：Representing Interfaces to External Systems</a>)
+        重要系统接口 (参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Guideline：Representing Interfaces to External Systems</a>)
     </li>
     <li>
-        Assets that have been reused and/or assets that have been developed to be reused (for more information, see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Guideline：Software Reuse</a>)
+        重用的资产以及开发后能够重用的资产 (更多信息，参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html" guid="_vO2uoO0OEduUpsu85bVhiQ">Guideline：Software Reuse</a>)
     </li>
     <li>
-        Guidance, decisions, and constraints the developers must follow in building the system, along with justification
+        开发者在构建系统时必须遵循的指导、决策、约束及其说明。
     </li>
 </ul>
 <p>
-    The architecture can contain any information and references that are appropriate in communicating how developers should
-    build the system.
+    架构可以包含任何适合于同开发人员沟通应当如何构建系统的信息和引用。
 </p>
 <h4>
-    Architectural Representation
+    Architectural Representation 架构表示方式
 </h4>
 <p>
-    The architecture can be represented in many forms and from many viewpoints, depending on the needs of the project and
-    the preferences of the project team. It need not be a formal document. The essence of the architecture can often be
-    communicated through a series of simple diagrams on a whiteboard; or as a list of decisions. The illustration just
-    needs to show the nature of the proposed solution, convey the governing ideas, and represent the major building blocks
-    to make it easier to communicate the architecture to the project team and stakeholders.
+    架构可以有多种形式的表示方法和多个视点，这取决于项目的需要和项目团队的偏好。它并不需要一个正式的文档。架构的本质通常可以通过一系列绘制于白板上的简单图表来沟通；或者是一份决策的清单。架构的说明只需要展示建议的解决方案的本质，传递管理思想，以及主要的构建块，以便更容易的和项目团队及涉众沟通架构。
 </p>
 <p>
-    If a more complex system is required, then the architecture can be represented as a more comprehensive set
-    of&nbsp;views that describe the architecture from a number of viewpoints. For more information, see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">Concept：Architectural Views and Viewpoints</a>.
+    如果需要更复杂的系统，那么可以从更多的视点来描述一组更全面的视图来表达架构。更多信息，参见 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">Concept：架构视图与视点</a>.
 </p>
 <p>
-    The architecture can be expressed as a simple metaphor or as a comparison to a predefined architectural style or set of
-    styles. It may be a precise set of models or documents that describe the various aspects of the system's key elements.
-    Expressing it as skeletal implementation is another option - although this may need to be baselined and preserved to
-    ensure that the essence of the system can be understood as the system grows. Choose the medium that best meets the
-    needs of the project.
+    可以通过简单的隐喻或者通过和预定义的架构风格进行比较来表达架构。这也许是一组描述了系统关键要素各个方面的精确的模型或文档。将其表示为骨架实现是另一种选择-虽然这可能需要进行基线并保证对系统本质的理解随着系统的增长而增长。为项目选择最符合项目需要的媒介来表达架构。
 </p>
 <h3>
-    Architectural Patterns
+    架构模式
 </h3>
 <p>
-    Architectural <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>s are ready-made forms that solve recurring architectural problems. An
-    architectural framework or an architectural infrastructure (middleware) is a set of components on which you can build a
-    certain kind of architecture. Many of the major architectural difficulties should be resolved in the framework or in
-    the infrastructure, usually targeted to a specific domain: command and control, MIS, control system, and so on.
+    架构模式是解决重复出现的架构问题的现成形式。架构框架或架构基础设施（中间件）是可用于构建特定类型架构的一系列组件。许多重要的架构难题应当在框架或基础设施中予以解决，这些难题通常面向特定的领域：命令和控制、管理信息系统、控制系统等。
 </p>
 <p>
-    <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[BUS96]</a> groups architectural patterns according to the characteristics of the
+    <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[BUS96]</a> 根据系统groups architectural patterns according to the characteristics of the
     systems in which they are most applicable, with one category dealing with more general structuring issues. The table
     shows the categories presented in <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[BUS96]</a> and the patterns they contain.
 </p>
 <div align="center">
-    <table     style="BORDER-RIGHT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-BOTTOM: rgb(128,128,128) 1px solid"      cellspacing="0" bordercolordark="#808080" cellpadding="4" width="85%" bordercolorlight="#808080" border="1">
+    <table     style="BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-RIGHT: rgb(128,128,128) 1px solid; BORDER-BOTTOM: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid"      cellspacing="0" bordercolordark="#808080" cellpadding="4" width="85%" bordercolorlight="#808080" border="1">
         <tbody>
             <tr>
                 <th id="col1" width="50%">
-                    Category
+                    Category 分类
                 </th>
                 <th id="col2" width="50%">
-                    Pattern
+                    Pattern 模式
                 </th>
             </tr>
             <tr>
-                <th id="row2" align="left" headers="col1" width="50%" rowspan="3">
-                    Structure
+                <th id="row2" headers="col1" rowspan="3" width="50%" align="left">
+                    Structure 结构
                 </th>
                 <td headers="row2 col2" width="50%">
-                    Layers
+                    Layers 分层
                 </td>
             </tr>
             <tr>
                 <td headers="row2 col2" width="50%">
-                    Pipes and Filters
+                    Pipes and Filters 管道和过滤器
                 </td>
             </tr>
             <tr>
                 <td headers="row2 col2" width="50%">
-                    Blackboard
+                    Blackboard 黑板
                 </td>
             </tr>
             <tr>
-                <th id="row3" align="left" headers="col1" width="50%">
-                    Distributed Systems
+                <th id="row3" headers="col1" width="50%" align="left">
+                    Distributed Systems 分布式系统
                 </th>
                 <td headers="row3 col2" width="50%">
-                    Broker
+                    Broker 代理
                 </td>
             </tr>
             <tr>
-                <th id="row4" align="left" headers="col1" width="50%" rowspan="2">
-                    Interactive Systems
+                <th id="row4" headers="col1" rowspan="2" width="50%" align="left">
+                    Interactive Systems 交互式系统
                 </th>
                 <td headers="row4 col2" width="50%">
-                    Model-View-Controller
+                    Model-View-Controller 模型-视图-控制器
                 </td>
             </tr>
             <tr>
                 <td headers="row4 col2" width="50%">
-                    Presentation-Abstraction-Control
+                    Presentation-Abstraction-Control 演示-抽象-控制
                 </td>
             </tr>
             <tr>
-                <th id="row5" align="left" headers="col1" width="50%" rowspan="2">
-                    Adaptable Systems
+                <th id="row5" headers="col1" rowspan="2" width="50%" align="left">
+                    Adaptable Systems 适应性系统
                 </th>
                 <td headers="row5 col2" width="50%">
-                    Reflection
+                    Reflection 反射
                 </td>
             </tr>
             <tr>
                 <td headers="row5 col2" width="50%">
-                    Microkernel
+                    Microkernel 微内核
                 </td>
             </tr>
         </tbody>
-    </table><br />
+    </table>
+    <br />
 </div>
 <p>
-    Refer to <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[BUS96]</a> for a complete description of these patterns.
+    参考 <a class="elementlinkwithusertext" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">[BUS96]</a> ，获取这些模式的完整信息。
 </p>
 <h3>
-    <a id="Architectural Style" name="Architectural Style">Architectural Style</a>
+    <a id="Architectural Style" name="Architectural Style">Architectural Style</a>架构风格
 </h3>
 <p>
     A software architecture (or an architectural view) may have an attribute called <b>architectural style</b>, which
@@ -330,7 +290,7 @@
     </li>
 </ul>
 <h3>
-    Validating the Architecture
+    Validating the Architecture验证架构
 </h3>
 <p>
     The best way to validate the architecture is to actually implement it.&nbsp; For more information, see <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Executable Architecture</a>.
@@ -357,9 +317,6 @@
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">Architectural Views and Viewpoints</a>
-</li>
-<li>
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/component_CB167D48.html" guid="_0YP18MlgEdmt3adZL5Dmdw">Component</a>
 </li>
 <li>
@@ -370,6 +327,9 @@
 </li>
 <li>
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_views_viewpoints_7A6CD31.html" guid="_kgtcoNc8Edyd7OybSySFxg">架构视图与视点</a>
 </li>
 </ul>
 </td>
