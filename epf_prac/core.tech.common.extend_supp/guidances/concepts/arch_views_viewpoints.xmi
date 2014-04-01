@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" name="new_concept,_kgtcoNc8Edyd7OybSySFxg" guid="-QB0WnHnpcK1VJbdJJ5QJ5A" changeDate="2010-08-24T05:16:41.000-0700" version="7.2.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" name="new_concept,_kgtcoNc8Edyd7OybSySFxg" guid="-QB0WnHnpcK1VJbdJJ5QJ5A" changeDate="2014-03-26T00:00:16.657+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    Architecture can be represented from a variety of viewpoints, all of which can be combined to create a holistic view of&#xD;
-    the system. Each architectural view addresses some specific set of concerns, specific to stakeholders in the&#xD;
-    development process: users, designers, managers, system engineers, maintainers, and so on.&#xD;
+    架构可以从多个视点（角度）来表达 ，所有这些组合在一起可以获得系统的整体视图。每个视图处理一些特定的关注点，这些关注点面对开发过程中的涉众：用户、设计者、管理者、系统工程师、维护人员等等。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    The views capture the major structural design decisions by showing how the software architecture is decomposed into&#xD;
-    components, and how components are connected by connectors to produce useful forms &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
-    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html#PW92&quot;&#xD;
-    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[PW92]&lt;/a>. These design choices must be tied to the requirements -- functional and&#xD;
-    supplementary -- and other constraints. But these choices in turn put further constraints on the requirements, and on&#xD;
-    future design decisions at a lower level.&amp;nbsp;&#xD;
+    视图捕获了主要的设计结构决策，展现软件架构如何分解为组件，以及组件如何通过连接器连接。这些设计选择依赖于需求——功能及其附属要求——以及其他约束。但是这些选择反过来又对未来低层的需求和设计决策附加了约束。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    In essence, architectural views are abstractions, or simplifications, of the entire design, in which important&#xD;
-    characteristics are made more visible by leaving details aside. These characteristics are important when reasoning&#xD;
-    about:&#xD;
+    实际上，架构视图是对整体设计的抽象或简化，突出了其中重要的特征而忽略细节。这些特征在推导时很重要：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        System evolution-going to the next development cycle.&#xD;
+        系统演进到下一个开发周期&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Reuse of the architecture, or parts of it, in the context of a product line.&#xD;
+        在生产线中，重用架构或部分重用&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Assessment of supplementary qualities, such as performance, availability, portability, and safety.&#xD;
+        评估附加的质量，例如性能、可用性、可移植性和安全&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Assignment of development work to teams or subcontractors.&#xD;
+        团队或分包商的开发工作分配&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Decisions about including off-the-shelf components.&#xD;
+        关于包含现成组件的决策&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Insertion in a wider system.&amp;nbsp;&#xD;
+        插入进更广泛的系统&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;p>&#xD;
-    To choose the appropriate set of views,&amp;nbsp;identify the stakeholders who depend on software architecture&#xD;
-    documentation and the information that they need. For an example of a set of views that have been used to represent&#xD;
-    architecture, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    为了选择合适的视图，应识别那些依赖于软件架构文档的涉众以及他们的需要。作为表示架构的一组视图的示例，参见：&lt;a class=&quot;elementLinkWithType&quot;&#xD;
     href=&quot;./../../../core.tech.common.extend_supp/guidances/examples/four_plus_one_view_of_arch_9A93ACE5.html&quot;&#xD;
-    guid=&quot;_4bC4cNs_EdyEW4klSH3vRA&quot;>Example: 4+1 Views of Software Architecture&lt;/a>.&amp;nbsp; A more comprehensive set of views&#xD;
-    can be found in the &lt;a href=&quot;http://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/&quot;&#xD;
-    target=&quot;_blank&quot;>IBM Views and Viewpoints Framework for IT systems&lt;/a>.&#xD;
+    guid=&quot;_4bC4cNs_EdyEW4klSH3vRA&quot;>示例：4+1 Views of Software Architecture&lt;/a>。更全面的视图，可以参考：&lt;a&#xD;
+    href=&quot;http://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/&quot; target=&quot;_blank&quot;>IBM Views and&#xD;
+    Viewpoints Framework for IT systems&lt;/a>。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

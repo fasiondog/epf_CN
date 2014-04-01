@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Rex8oOBv985RruZNrCW0rg" name="implementation_mechanisms,_3ANskOK5EdqHEo0wLIc5jg" guid="-Rex8oOBv985RruZNrCW0rg" changeDate="2006-09-25T01:09:13.000-0700" version="1.0.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Rex8oOBv985RruZNrCW0rg" name="implementation_mechanisms,_3ANskOK5EdqHEo0wLIc5jg" guid="-Rex8oOBv985RruZNrCW0rg" changeDate="2014-03-31T00:03:44.038+0800" version="1.0.0">
   <mainDescription>&lt;p>&#xD;
-    An Implementation Mechanism is a refinement of a corresponding Design Mechanism that uses, for example, a particular&#xD;
-    programming language and other implementation technology (such as a particular vendor's middleware product). An&#xD;
-    Implementation Mechanism may instantiate one or more idioms or implementation patterns.&#xD;
+    实现机制是对应的设计机制的细化，例如，特定的编程语言及其它实现技术（如特定供应商的中间件产品）。一个实现机制可以实例化为一个或多个实现模式。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Review these points when you are considering Implementation Mechanisms:&#xD;
+    当你考虑实现机制时，回顾以下问题：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
         &lt;p>&#xD;
-            &lt;b>Determine the ranges of characteristics.&lt;/b> Take the characteristics that you identified for the Design&#xD;
-            Mechanisms into consideration to determine reasonable, economical, or feasible ranges of values to use in the&#xD;
-            Implementation Mechanism candidate.&#xD;
+            &lt;b>确定属性的范围&lt;/b> 在候选实现机制中，考虑你为设计机制所识别的那些属性的合理的、经济的、或可行的值域范围。&#xD;
         &lt;/p>&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
         &lt;p>&#xD;
-            &lt;b>Consider the cost of purchased components&lt;/b>. For Implementation Mechanism candidates, consider the cost of&#xD;
-            licensing, the maturity of the product, your history or relationship with the vendor, support, and so forth in&#xD;
-            addition to purely technical criteria.&#xD;
+            &lt;b>考虑购买组件的成本&lt;/b>. 为候选实现机制考虑许可的成本、产品成熟度、你的历史或供应商关系、支持等等，那些纯粹的技术标准除外。&#xD;
         &lt;/p>&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
         &lt;p>&#xD;
-            &lt;b>Conduct a search for the right components, or build the components.&lt;/b> You will often find that there is no&#xD;
-            apparently suitable Implementation Mechanism for a particular Design Mechanism. This will either trigger a&#xD;
-            search for the right product or make the need for in-house development apparent. You may also find that some&#xD;
-            Implementation Mechanisms are not used at all.&lt;br />&#xD;
+            &lt;b>搜索正确的组件，或构建组件.&lt;/b> 你会经常发现针对特定的设计机制没有合适的实现机制。这将促使搜索正确的产品或进行内部开发。你也可能发现某些实现机制根本不可用。&lt;br />&#xD;
             &lt;br />&#xD;
-            The choice of Implementation Mechanisms is based not only on a good match for the technical characteristics,&#xD;
-            but also on the non-technical characteristics, such as cost. Some of the choices may be provisional. Almost all&#xD;
-            have some risks attached to them. Performance, robustness, and scalability are nearly always concerns and must&#xD;
-            be validated by evaluation, exploratory prototyping, or inclusion in the architectural prototype.&#xD;
+            选择实现机制不仅仅基于与技术特征的良好匹配，还包括其它非技术性的特征，如成本。某些选择可能是暂时的。几乎所有的选择都有自身的风险。性能、鲁棒性和可扩展性几乎总是需要关注，并且必须通过评估、试验原型、或被包含在架构原型中来进行验证。&#xD;
         &lt;/p>&#xD;
     &lt;/li>&#xD;
 &lt;/ul></mainDescription>

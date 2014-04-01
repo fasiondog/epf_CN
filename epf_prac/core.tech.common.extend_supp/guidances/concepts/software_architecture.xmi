@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UQ_e8kozIP11Xu008RJd-A" name="new_concept,__O7tAMVvEduLYZUGfgZrkQ" guid="-UQ_e8kozIP11Xu008RJd-A" changeDate="2014-03-23T00:00:19.118+0800" version="7.2.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UQ_e8kozIP11Xu008RJd-A" name="new_concept,__O7tAMVvEduLYZUGfgZrkQ" guid="-UQ_e8kozIP11Xu008RJd-A" changeDate="2014-03-24T00:00:20.605+0800" version="7.2.0">
   <mainDescription>&lt;h3>&#xD;
     简介&#xD;
 &lt;/h3>&#xD;
@@ -77,9 +77,9 @@
     &lt;li>&#xD;
         &lt;a class=&quot;elementLink&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a> 及其在何处应用 (参见 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>架构机制&lt;/a> 及其在何处应用 (参见 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
         href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot;&#xD;
-        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>概念：Architectural Mechanism&lt;/a>).&#xD;
+        guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>概念：架构机制&lt;/a>).&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
         描述划分分区的方法，并描述关键部件。例如，分层&amp;nbsp;(参见 &lt;a class=&quot;elementLinkWithType&quot;&#xD;
@@ -112,7 +112,7 @@
     架构可以包含任何适合于同开发人员沟通应当如何构建系统的信息和引用。&#xD;
 &lt;/p>&#xD;
 &lt;h4>&#xD;
-    Architectural Representation 架构表示方式&#xD;
+    架构表示方式&#xD;
 &lt;/h4>&#xD;
 &lt;p>&#xD;
     架构可以有多种形式的表示方法和多个视点，这取决于项目的需要和项目团队的偏好。它并不需要一个正式的文档。架构的本质通常可以通过一系列绘制于白板上的简单图表来沟通；或者是一份决策的清单。架构的说明只需要展示建议的解决方案的本质，传递管理思想，以及主要的构建块，以便更容易的和项目团队及涉众沟通架构。&#xD;
@@ -134,11 +134,7 @@
 &lt;p>&#xD;
     &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
     href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html&quot;&#xD;
-    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[BUS96]&lt;/a> 根据系统groups architectural patterns according to the characteristics of the&#xD;
-    systems in which they are most applicable, with one category dealing with more general structuring issues. The table&#xD;
-    shows the categories presented in &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
-    href=&quot;./../../../core.tech.common.base/guidances/supportingmaterials/references.tech_6CCF393.html&quot;&#xD;
-    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[BUS96]&lt;/a> and the patterns they contain.&#xD;
+    guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[BUS96]&lt;/a> 根据架构模式的使用范围进行了分类，通过分类处理更一般的结构性问题。下表显示了这些分类及其包含的模式。&#xD;
 &lt;/p>&#xD;
 &lt;div align=&quot;center&quot;>&#xD;
     &lt;table&#xD;
@@ -215,46 +211,40 @@
     guid=&quot;_9ToeIB83Edqsvps02rpOOg&quot;>[BUS96]&lt;/a> ，获取这些模式的完整信息。&#xD;
 &lt;/p>&#xD;
 &lt;h3>&#xD;
-    &lt;a id=&quot;Architectural Style&quot; name=&quot;Architectural Style&quot;>Architectural Style&lt;/a>架构风格&#xD;
+    架构风格&#xD;
 &lt;/h3>&#xD;
 &lt;p>&#xD;
-    A software architecture (or an architectural view) may have an attribute called &lt;b>architectural style&lt;/b>, which&#xD;
-    reduces the set of possible forms to choose from, and imposes a certain degree of uniformity to the architecture. The&#xD;
-    style may be defined by a set of patterns, or by the choice of specific components or connectors as the basic building&#xD;
-    blocks.&#xD;
+    一个软件架构（或架构视图）可能拥有称为&lt;strong>架构风格&lt;/strong>的属性，风格减少了可供选择的形式，并强制架构拥有一定程度的一致性。风格可以通过一系列模式，或者选择特定的组件或连接器做为基础构建块来进行定义。&#xD;
 &lt;/p>&#xD;
 &lt;h3>&#xD;
-    Architectural Timing&#xD;
+    架构时机&#xD;
 &lt;/h3>&#xD;
 &lt;p>&#xD;
-    Teams should expect to spend more time on architectural issues early in the project.&amp;nbsp; This allows the team to&#xD;
-    reduce risk associated to technology early in the project, hence allowing the team to more rapidly reduce the variance&#xD;
-    in their estimate on what they can deliver at what time. Examples of architectural issues that needs to be resolved&#xD;
-    early on include the following:&#xD;
+    团队应该期望在项目早期对架构问题花费更多的时间。这将使团队在项目早期减少相关的技术风险，并将使团队更快的减小他们对何时能够交付的估算偏差。以下是需要在早期解决的架构问题示例：&#xD;
 &lt;/p>&#xD;
 &lt;ul>&#xD;
     &lt;li>&#xD;
-        Component and their major interfaces.&#xD;
+        组件及其关键接口&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Major technology choices (platform, languages, architecture frameworks / reference architectures, etc.).&#xD;
+        重要技术选择（平台、语言、架构框架/参考架构等）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Interfaces to external systems.&#xD;
+        与外部系统的接口&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Common services (persistence mechanisms, logging mechanisms, garbage collection, etc.).&#xD;
+        通用服务（持久存储机制、日志机制、垃圾收集等）&#xD;
     &lt;/li>&#xD;
     &lt;li>&#xD;
-        Key patterns.&#xD;
+        关键模式&amp;nbsp;&#xD;
     &lt;/li>&#xD;
 &lt;/ul>&#xD;
 &lt;h3>&#xD;
-    Validating the Architecture验证架构&#xD;
+    架构验证&#xD;
 &lt;/h3>&#xD;
 &lt;p>&#xD;
-    The best way to validate the architecture is to actually implement it.&amp;nbsp; For more information, see &lt;a&#xD;
-    class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
-    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Executable Architecture&lt;/a>.&#xD;
+    验证架构的最佳方式就是去实现它。进一步信息，参见 &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
+    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Executable Architecture&lt;/a>。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

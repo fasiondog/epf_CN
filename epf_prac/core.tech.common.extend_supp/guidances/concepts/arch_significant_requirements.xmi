@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-EytH4BCNGiHF6pZrp8ISCw" name="new_concept,_eFElAOK2EdqHEo0wLIc5jg" guid="-EytH4BCNGiHF6pZrp8ISCw" authors="Mark Dickson" changeDate="2008-10-15T08:24:39.000-0700" changeDescription="First Draft" version="1.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-EytH4BCNGiHF6pZrp8ISCw" name="new_concept,_eFElAOK2EdqHEo0wLIc5jg" guid="-EytH4BCNGiHF6pZrp8ISCw" authors="Mark Dickson" changeDate="2014-04-02T00:11:23.224+0800" changeDescription="First Draft" version="1.0">
   <mainDescription>&lt;p>&#xD;
-    Architecturally significant requirements are those requirements that play an important role in determining the&#xD;
-    architecture of the system.&amp;nbsp; Such requirements require special attention. Not all requirements have equal&#xD;
-    significance with regards to the architecture.&#xD;
+    架构关键需求是那些在决定系统架构时扮演重要角色的需求。这些需求需要特别关注。对架构而言，并非所有的需求都具有平等的意义。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Architecturally significant requirements&amp;nbsp;are a subset of the requirements that need to be satisfied before the&#xD;
     architecture can be considered &quot;stable&quot;. Typically, these are requirements that are technically challenging,&#xD;
     technically constraining, or central to the system's purpose. Furthermore, the system will generally be more sensitive&#xD;
     to changes&amp;nbsp;against architecturally significant requirements, so identifying and communicating this subset will&#xD;
-    help others understand the potential implications of change.&#xD;
+    help others understand the potential implications of change. 架构关键需求是需求的子集，&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Requirements can be explicitly or implicitly architecturally significant. Explicitly significant requirements are often&#xD;
@@ -73,7 +71,8 @@
     scenarios represent the important interactions between key abstractions.and should be identified as architecturally&#xD;
     significant requirements. For example, for an on-line book store describing the way the software handles the scenarios&#xD;
     for ordering a book and checking out the shopping cart are often enough to communicate the essence of the architecture.&#xD;
-&lt;/p>&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;br />&#xD;
 &lt;br />&#xD;
 &lt;br /></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

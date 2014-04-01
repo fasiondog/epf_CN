@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-je0zRqgX0Tg_761Z77cIkg" name="arch_constraints,_jdKSsNpiEdyP58ppo1Ieaw" guid="-je0zRqgX0Tg_761Z77cIkg" changeDate="2008-02-13T10:37:37.000-0800" version="7.2.0">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-je0zRqgX0Tg_761Z77cIkg" name="arch_constraints,_jdKSsNpiEdyP58ppo1Ieaw" guid="-je0zRqgX0Tg_761Z77cIkg" changeDate="2014-03-30T17:15:04.195+0800" version="7.2.0">
   <mainDescription>&lt;p>&#xD;
-    A variety of factors may place constraints on the architecture being developed:&#xD;
+    多种因素可能限制了架构开发：&#xD;
 &lt;/p>&#xD;
 &lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
     &lt;ul>&#xD;
         &lt;li>&#xD;
-            Network topology&#xD;
+            网络技术&#xD;
         &lt;/li>&#xD;
         &lt;li>&#xD;
-            Use of a given database vendor or an existing database&#xD;
+            使用指定的数据库提供商或现有的数据库&#xD;
         &lt;/li>&#xD;
         &lt;li>&#xD;
-            Web environment (server configurations, firewall, DMZs, and so forth)&#xD;
+            Web环境（服务器配置、防火墙、DMZs等等）&#xD;
         &lt;/li>&#xD;
         &lt;li>&#xD;
-            Servers (hardware model, operating system)&#xD;
+            服务器（硬件模型、操作系统）&#xD;
         &lt;/li>&#xD;
         &lt;li>&#xD;
-            Use of third-party software or a particular technology&#xD;
+            使用第三方软件或特定的技术&#xD;
         &lt;/li>&#xD;
         &lt;li>&#xD;
-            Compliance with existing standards&#xD;
+            符合现有标准&#xD;
         &lt;/li>&#xD;
     &lt;/ul>&#xD;
 &lt;/div>&#xD;
 &lt;p>&#xD;
-    For example, if the company uses only one type of database, you will probably try to use it as much as possible to&#xD;
-    leverage&amp;nbsp;the existing database administration skills, rather than introducing a new one.&#xD;
+    例如，某个公司仅仅使用了一种数据库，为了利用现有的数据库管理技能，估计你会尽可能的使用它，而不是引进新的数据库。&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    These architectural constraints, combined with the requirements, help you define&amp;nbsp;an appropriate&amp;nbsp;candidate for&#xD;
-    the system architecture. Capturing these constraints will ease integration with the environment; and may reduce risk,&#xD;
-    cost and duplication of solution elements.&#xD;
+    这些架构约束加上需求将帮助你定义合适的候选系统架构。捕获这些约束将更易于和环境集成并降低风险、成本，减少重复的解决方案元素。&#xD;
 &lt;/p></mainDescription>
 </org.eclipse.epf.uma:ContentDescription>

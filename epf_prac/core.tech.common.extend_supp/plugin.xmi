@@ -251,7 +251,8 @@
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cHHEIBEdEdyM7Iu0sxfrPA" name="Implementation Guidance" guid="_cHHEIBEdEdyM7Iu0sxfrPA">
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0LcUkA4LEduibvKwrGxWxA" name="implementation_mechanism" guid="_0LcUkA4LEduibvKwrGxWxA" presentationName="Implementation Mechanism" briefDescription="A representation of an Architecture Mechanism that uses a specific programming language or product.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0LcUkA4LEduibvKwrGxWxA" name="implementation_mechanism" guid="_0LcUkA4LEduibvKwrGxWxA" presentationName="实现机制" briefDescription="使用特定编程语言或产品来表示的架构机制。">
+              <methodElementProperty xmi:id="_Yted4LgnEeOSzaYMNd_46g" name="me_edited" value="true"/>
               <presentation xmi:id="-Rex8oOBv985RruZNrCW0rg" href="uma://-Rex8oOBv985RruZNrCW0rg#-Rex8oOBv985RruZNrCW0rg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_1fu-oNvTEdyrWIQpneun6w" name="arch_mechanism.impl" guid="_1fu-oNvTEdyrWIQpneun6w" variabilityType="contributes" variabilityBasedOnElement="_mzxI0A4LEduibvKwrGxWxA" conceptsAndPapers="_0LcUkA4LEduibvKwrGxWxA"/>
@@ -275,7 +276,8 @@
             </contentElements>
           </childPackages>
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_119G4NPSEduegN_z1rVgJA" name="Design Guidance" guid="_119G4NPSEduegN_z1rVgJA">
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_w2ACwA4LEduibvKwrGxWxA" name="design_mechanism" guid="_w2ACwA4LEduibvKwrGxWxA" presentationName="Design Mechanism" briefDescription="A Design Mechanism is a concrete representation of an Architectural Mechanism." conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _0gvqoMlgEdmt3adZL5Dmdw _0LcUkA4LEduibvKwrGxWxA" guidelines="_4k_Hsg4LEduibvKwrGxWxA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_w2ACwA4LEduibvKwrGxWxA" name="design_mechanism" guid="_w2ACwA4LEduibvKwrGxWxA" presentationName="设计机制" briefDescription="设计机制是架构机制的具体表示。" conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _0gvqoMlgEdmt3adZL5Dmdw _0LcUkA4LEduibvKwrGxWxA" guidelines="_4k_Hsg4LEduibvKwrGxWxA">
+              <methodElementProperty xmi:id="_KpxhULghEeOSzaYMNd_46g" name="me_edited" value="true"/>
               <presentation xmi:id="-EG22TRyJ5TDKW6U88AXfhw" href="uma://-EG22TRyJ5TDKW6U88AXfhw#-EG22TRyJ5TDKW6U88AXfhw"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_4k_Hsg4LEduibvKwrGxWxA" name="example_design_mechanisms" guid="_4k_Hsg4LEduibvKwrGxWxA" presentationName="Example: Design Mechanisms" briefDescription="Examples that show how to describe design mechanisms">
@@ -296,10 +298,12 @@
             <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0YP18MlgEdmt3adZL5Dmdw" name="component" guid="_0YP18MlgEdmt3adZL5Dmdw" presentationName="Component" briefDescription="This concept describes components as they are applied within this process.">
               <presentation xmi:id="_TZiasMM1EdmSIPI87WLu3g" href="uma://_TZiasMM1EdmSIPI87WLu3g#_TZiasMM1EdmSIPI87WLu3g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_mzxI0A4LEduibvKwrGxWxA" name="arch_mechanism" guid="_mzxI0A4LEduibvKwrGxWxA" presentationName="Architectural Mechanism" briefDescription="Architectural Mechanisms are common solutions to common problems that can be used during development to minimize complexity." conceptsAndPapers="_0gvqoMlgEdmt3adZL5Dmdw _HrZGIA4MEduibvKwrGxWxA _0YJvUMlgEdmt3adZL5Dmdw" guidelines="_M2lNcJo7Ed2Jdb_Cbj3yAA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_mzxI0A4LEduibvKwrGxWxA" name="arch_mechanism" guid="_mzxI0A4LEduibvKwrGxWxA" presentationName="架构机制" briefDescription="架构机制是针对通用问题的通用解决方案，在开发中使用可以减少复杂性。" conceptsAndPapers="_0gvqoMlgEdmt3adZL5Dmdw _HrZGIA4MEduibvKwrGxWxA _0YJvUMlgEdmt3adZL5Dmdw" guidelines="_M2lNcJo7Ed2Jdb_Cbj3yAA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+              <methodElementProperty xmi:id="_Gl28ALKnEeOf3YDMz_BQrg" name="me_edited" value="true"/>
               <presentation xmi:id="-SJrpVySJ2npYs8NwGvnHjw" href="uma://-SJrpVySJ2npYs8NwGvnHjw#-SJrpVySJ2npYs8NwGvnHjw"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0gvqoMlgEdmt3adZL5Dmdw" name="analysis_mechanism" guid="_0gvqoMlgEdmt3adZL5Dmdw" presentationName="Analysis Mechanism" briefDescription="An Analysis Mechanism is a conceptual representation of an Architectural Mechanism." conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _w2ACwA4LEduibvKwrGxWxA _0LcUkA4LEduibvKwrGxWxA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_0gvqoMlgEdmt3adZL5Dmdw" name="analysis_mechanism" guid="_0gvqoMlgEdmt3adZL5Dmdw" presentationName="分析机制" briefDescription="分析机制是架构机制概念性的表示。" conceptsAndPapers="_mzxI0A4LEduibvKwrGxWxA _w2ACwA4LEduibvKwrGxWxA _0LcUkA4LEduibvKwrGxWxA" examples="_eQ_s8Om5Edupia_tZIXEqg">
+              <methodElementProperty xmi:id="_8SEkILftEeOKmMB8yFvZKw" name="me_edited" value="true"/>
               <presentation xmi:id="_S8KCcMP2EdmWKcx6ixEiwg" href="uma://_S8KCcMP2EdmWKcx6ixEiwg#_S8KCcMP2EdmWKcx6ixEiwg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_O1kAANvfEduv2KOT-Teh6w" name="executable_arch" guid="_O1kAANvfEduv2KOT-Teh6w" presentationName="Executable Architecture" briefDescription="An executable architecture is an implementation that realizes a set of validated architecturally significant requirements." conceptsAndPapers="_HrZGIA4MEduibvKwrGxWxA __O7tAMVvEduLYZUGfgZrkQ">
@@ -308,26 +312,31 @@
             <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_0gjdYMlgEdmt3adZL5Dmdw" name="repres_interfaces_to_ext_systems" guid="_0gjdYMlgEdmt3adZL5Dmdw" presentationName="Representing Interfaces to External Systems" briefDescription="This guideline introduces system level interfaces." conceptsAndPapers="_0YP18MlgEdmt3adZL5Dmdw" guidelines="_uF-QYEAhEdq_UJTvM1DM2Q">
               <presentation xmi:id="_iCwb8MM3EdmSIPI87WLu3g" href="uma://_iCwb8MM3EdmSIPI87WLu3g#_iCwb8MM3EdmSIPI87WLu3g"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kgtcoNc8Edyd7OybSySFxg" name="arch_views_viewpoints" guid="_kgtcoNc8Edyd7OybSySFxg" presentationName="架构视图与视点" briefDescription="This concept describes the important concepts of views and viewpoints in the context of architecture." examples="_4bC4cNs_EdyEW4klSH3vRA">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_kgtcoNc8Edyd7OybSySFxg" name="arch_views_viewpoints" guid="_kgtcoNc8Edyd7OybSySFxg" presentationName="架构视图与视点" briefDescription="此处描述了在架构上下文中的重要概念视图和视点。" examples="_4bC4cNs_EdyEW4klSH3vRA">
               <methodElementProperty xmi:id="_QwpTwJ_JEeOKMbnA2PQHnA" name="me_edited" value="true"/>
               <presentation xmi:id="-QB0WnHnpcK1VJbdJJ5QJ5A" href="uma://-QB0WnHnpcK1VJbdJJ5QJ5A#-QB0WnHnpcK1VJbdJJ5QJ5A"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_eQ_s8Om5Edupia_tZIXEqg" name="architectural_mechanism_attributes" guid="_eQ_s8Om5Edupia_tZIXEqg" presentationName="Architectural Mechanism Attributes" briefDescription="This example illustrates how to represent attributes for Architecture Mechanisms.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_eQ_s8Om5Edupia_tZIXEqg" name="architectural_mechanism_attributes" guid="_eQ_s8Om5Edupia_tZIXEqg" presentationName="架构机制属性" briefDescription="此示例说明了如何表示架构机制的属性。">
+              <methodElementProperty xmi:id="_s8N9MLgpEeOSzaYMNd_46g" name="me_edited" value="true"/>
               <presentation xmi:id="-8LfKJab2khAUjdmnImaXPA" href="uma://-8LfKJab2khAUjdmnImaXPA#-8LfKJab2khAUjdmnImaXPA"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HrZGIA4MEduibvKwrGxWxA" name="arch_significant_requirements" guid="_HrZGIA4MEduibvKwrGxWxA" presentationName="Architecturally Significant Requirements" briefDescription="This concept describes what architecturally significant requirements are and why they are important.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HrZGIA4MEduibvKwrGxWxA" name="arch_significant_requirements" guid="_HrZGIA4MEduibvKwrGxWxA" presentationName="架构关键需求" briefDescription="此处描述了什么是架构关键需求以及它们为什么重要的原因。">
+              <methodElementProperty xmi:id="_kRWagLm4EeOcJ8na7lpiYQ" name="me_edited" value="true"/>
               <presentation xmi:id="-EytH4BCNGiHF6pZrp8ISCw" href="uma://-EytH4BCNGiHF6pZrp8ISCw#-EytH4BCNGiHF6pZrp8ISCw"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HlRqANpbEdyP58ppo1Ieaw" name="arch_goals" guid="_HlRqANpbEdyP58ppo1Ieaw" presentationName="Architectural Goals" briefDescription="This concept describes what architectural goals are and why they are important.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_HlRqANpbEdyP58ppo1Ieaw" name="arch_goals" guid="_HlRqANpbEdyP58ppo1Ieaw" presentationName="架构目标" briefDescription="此处描述了什么是架构目标以及架构目标为何重要的原因。">
+              <methodElementProperty xmi:id="_7twdgLfqEeOKmMB8yFvZKw" name="me_edited" value="true"/>
               <presentation xmi:id="-Mm7s8vlK5CaZZ_Msx8reCQ" href="uma://-Mm7s8vlK5CaZZ_Msx8reCQ#-Mm7s8vlK5CaZZ_Msx8reCQ"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_jdKSsNpiEdyP58ppo1Ieaw" name="arch_constraints" guid="_jdKSsNpiEdyP58ppo1Ieaw" presentationName="Architectural Constraints" briefDescription="This concept describes those things that may constrain the architecture of a system.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_jdKSsNpiEdyP58ppo1Ieaw" name="arch_constraints" guid="_jdKSsNpiEdyP58ppo1Ieaw" presentationName="架构约束" briefDescription="此处描述了哪些限制了系统架构的约束。">
+              <methodElementProperty xmi:id="_gmki4LfsEeOKmMB8yFvZKw" name="me_edited" value="true"/>
               <presentation xmi:id="-je0zRqgX0Tg_761Z77cIkg" href="uma://-je0zRqgX0Tg_761Z77cIkg#-je0zRqgX0Tg_761Z77cIkg"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_pLEGUNqGEdy88NBoQgfGyg" name="key_abstractions" guid="_pLEGUNqGEdy88NBoQgfGyg" presentationName="Key Abstractions" briefDescription="This concept describes  key abstractions and the role they play in the architecture">
               <presentation xmi:id="-HJbvivaRmrZ6rdQcdFd78Q" href="uma://-HJbvivaRmrZ6rdQcdFd78Q#-HJbvivaRmrZ6rdQcdFd78Q"/>
             </contentElements>
-            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4bC4cNs_EdyEW4klSH3vRA" name="four_plus_one_view_of_arch" guid="_4bC4cNs_EdyEW4klSH3vRA" presentationName="4+1 Views of Software Architecture" briefDescription="This example describes a possible set of views for describing a software architecture.">
+            <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4bC4cNs_EdyEW4klSH3vRA" name="four_plus_one_view_of_arch" guid="_4bC4cNs_EdyEW4klSH3vRA" presentationName="4+1 软件架构视图" briefDescription="此示例描述了一组可用于描述软件架构的视图集。">
+              <methodElementProperty xmi:id="_TT_o4Lm1EeOcJ8na7lpiYQ" name="me_edited" value="true"/>
               <presentation xmi:id="-sKBCb98PYCcliL0zVljcyQ" href="uma://-sKBCb98PYCcliL0zVljcyQ#-sKBCb98PYCcliL0zVljcyQ"/>
             </contentElements>
             <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_M2lNcJo7Ed2Jdb_Cbj3yAA" name="identify_common_architectural_mechanisms" guid="_M2lNcJo7Ed2Jdb_Cbj3yAA" presentationName="Identify Common Architectural Mechanisms" briefDescription="Many architectural mechanisms have common characteristics that can be used to quickly identify mechanisms that are useful in defining the system.">
