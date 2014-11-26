@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>示例：4+1 Views of Software Architecture</title>
+<title>示例：4+1 软件架构视图</title>
 <meta name="uma.type" content="Example">
 <meta name="uma.name" content="four_plus_one_view_of_arch">
-<meta name="uma.presentationName" content="4+1 Views of Software Architecture">
+<meta name="uma.presentationName" content="4+1 软件架构视图">
 <meta name="element_type" content="example">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_4bC4cNs_EdyEW4klSH3vRA"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">示例：4+1 Views of Software Architecture</td><td width="100%">
+<td class="pageTitle" nowrap="true">示例：4+1 软件架构视图</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This example describes a possible set of views for describing a software architecture.</td>
+<td valign="top">此示例描述了一组可用于描述软件架构的视图集。</td>
 </tr>
 </table>
 </td>
@@ -67,62 +67,48 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    You may want to consider the following views (not all views are relevant to all systems or all the stakeholders). This
-    set of views is known as the 4+1 Views of Software Architecture [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">KRU95</a>].
+    你可以考虑以下视图（并非所有视图都和所有系统或涉众相关）。这组视图被称为4+1软件架构视图 [<a class="elementLinkWithUserText" href="./../../../core.default.nav_view.base/guidances/supportingmaterials/references_C6FF2A8D.html" guid="__nHToFndEd2EdJKkAyeBng">KRU95</a>]。
 </p>
 <p>
-    <img height="254" alt="4+1 Views of Software Architecture" src="./../../../core.tech.common.extend_supp/guidances/examples/resources/4plus1_2.jpg" width="405" />
+    <img alt="4+1 Views of Software Architecture" src="./../../../core.tech.common.extend_supp/guidances/examples/./resources/4plus1_2.jpg" width="405" height="254" />
 </p>
 <ul>
     <li>
         <p>
-            <strong>Use-case view</strong>: Describes functionality of the system, its external interfaces, and its
-            principal users. This view is mandatory when using the 4+1 Views, because all elements of the architecture
-            should be derived from requirements.
+            <strong>Use-case view 用例视图</strong>: 描述系统功能、外部接口和主要用户。在使用4+1视图时，此视图是必须的，因为架构的所有元素都应该源于需求。
         </p>
     </li>
     <li>
         <p>
-            <strong>Logical view</strong>: Describes how the system is structured in terms of units of implementation. The
-            elements are packages, classes, and interfaces. The relationship between elements shows dependencies, interface
-            realizations, part-whole relationships, and so forth. Note: This view is mandatory when using the 4+1 Views of
-            Software Architecture.
+            <strong>Logical view 逻辑视图</strong>:
+            描述系统是如何由实现单元组织起来的。其元素是：包、类和接口。元素之间的关系包括依赖关系、接口实现关系、部分-整体关系等等。注意：在4+1软件架构视图中，此视图是必须的。
         </p>
     </li>
     <li>
         <p>
-            <strong>Implementation view</strong>: Describes how development artifacts are organized in the file system. The
-            elements are files and directories (any configuration items). This includes development artifacts and
-            deployment artifacts. This view is optional when using the 4+1 Views.
+            <strong>Implementation view 实现视图</strong>:
+            描述开发工件在文件系统中是如何组织的。其元素是文件和目录（任何配置项）。这包括开发工件和部署工件。在使用4+1软件架构视图时，此视图是可选的。
         </p>
     </li>
     <li>
         <p>
-            <strong>Process view</strong>: Describes how the run-time system is structured as a set of elements that have
-            run-time behavior and interactions. Run-time structure often bears little resemblance to the code structure. It
-            consists of rapidly changing networks of communication objects. The elements are components that have run-time
-            presence (processes, threads, Enterprise JavaBeans&trade; (EJB&trade;), servlets, DLLs, and so on), data stores, and
-            complex connectors, such as queues. Interaction between elements varies, based on technology. This view is
-            useful for thinking about run-time system quality attributes, such as performance and reliability. This view is
-            optional when using the 4+1 Views.
+            <strong>Process view 进程视图</strong>:
+            用一组元素的运行时行为和交互来描述运行时系统的结构。运行时结构常常看起来有点象代码结构。它由快速变化网络的通讯对象所组成。这些元素是运行时存在的组件（进程、线程、EJB、servlets、DLLs等等）、数据存储、以及复杂的连接器，如队列。这些元素之间的交互随技术的不同而不同。此视图对于思考运行时的系统属性非常有用，例如性能和可靠性。在使用4+1视图时，此视图是可选的。
         </p>
     </li>
     <li>
         <p>
-            <strong>Deployment view</strong>: Describe how the system is mapped to the hardware. This view is optional when
-            using the 4+1 Views.
+            <strong>Deployment view 部署视图</strong>: 描述系统如何映射到硬件。在使用4+1软件架构视图时，此视图是可选的。
         </p>
     </li>
 </ul>
 <p>
-    In addition, you may wish to represent the following,
+    此外，你可能还需要：
 </p>
 <ul>
     <li>
         <p>
-            <strong>Data view</strong>: A specialization of the logical view. Use this view if persistence is a significant
-            aspect of the system, and the translation from the design model to the data model is not done automatically by
-            the persistence mechanism.
+            <strong>Data view 数据视图</strong>: 特殊的逻辑视图。在持久化存储是系统的重要方面并且通过持久化机制无法自动将设计模型转化为数据模型时使用此视图。
         </p>
     </li>
 </ul></td>

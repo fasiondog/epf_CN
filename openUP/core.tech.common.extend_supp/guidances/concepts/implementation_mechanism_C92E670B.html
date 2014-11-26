@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：Implementation Mechanism</title>
+<title>概念：实现机制</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="implementation_mechanism">
-<meta name="uma.presentationName" content="Implementation Mechanism">
+<meta name="uma.presentationName" content="实现机制">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_0LcUkA4LEduibvKwrGxWxA"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：Implementation Mechanism</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：实现机制</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">A representation of an Architecture Mechanism that uses a specific programming language or product.</td>
+<td valign="top">使用特定编程语言或产品来表示的架构机制。</td>
 </tr>
 </table>
 </td>
@@ -55,13 +55,13 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">Analysis Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">分析机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>
 </li>
 <li>
 <a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">设计解决方案</a>
@@ -76,39 +76,27 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    An Implementation Mechanism is a refinement of a corresponding Design Mechanism that uses, for example, a particular
-    programming language and other implementation technology (such as a particular vendor's middleware product). An
-    Implementation Mechanism may instantiate one or more idioms or implementation patterns.
+    实现机制是对应的设计机制的细化，例如，特定的编程语言及其它实现技术（如特定供应商的中间件产品）。一个实现机制可以实例化为一个或多个实现模式。
 </p>
 <p>
-    Review these points when you are considering Implementation Mechanisms:
+    当你考虑实现机制时，回顾以下问题：
 </p>
 <ul>
     <li>
         <p>
-            <b>Determine the ranges of characteristics.</b> Take the characteristics that you identified for the Design
-            Mechanisms into consideration to determine reasonable, economical, or feasible ranges of values to use in the
-            Implementation Mechanism candidate.
+            <b>确定属性的范围</b> 在候选实现机制中，考虑你为设计机制所识别的那些属性的合理的、经济的、或可行的值域范围。
         </p>
     </li>
     <li>
         <p>
-            <b>Consider the cost of purchased components</b>. For Implementation Mechanism candidates, consider the cost of
-            licensing, the maturity of the product, your history or relationship with the vendor, support, and so forth in
-            addition to purely technical criteria.
+            <b>考虑购买组件的成本</b>. 为候选实现机制考虑许可的成本、产品成熟度、你的历史或供应商关系、支持等等，那些纯粹的技术标准除外。
         </p>
     </li>
     <li>
         <p>
-            <b>Conduct a search for the right components, or build the components.</b> You will often find that there is no
-            apparently suitable Implementation Mechanism for a particular Design Mechanism. This will either trigger a
-            search for the right product or make the need for in-house development apparent. You may also find that some
-            Implementation Mechanisms are not used at all.<br />
+            <b>搜索正确的组件，或构建组件.</b> 你会经常发现针对特定的设计机制没有合适的实现机制。这将促使搜索正确的产品或进行内部开发。你也可能发现某些实现机制根本不可用。<br />
             <br />
-            The choice of Implementation Mechanisms is based not only on a good match for the technical characteristics,
-            but also on the non-technical characteristics, such as cost. Some of the choices may be provisional. Almost all
-            have some risks attached to them. Performance, robustness, and scalability are nearly always concerns and must
-            be validated by evaluation, exploratory prototyping, or inclusion in the architectural prototype.
+            选择实现机制不仅仅基于与技术特征的良好匹配，还包括其它非技术性的特征，如成本。某些选择可能是暂时的。几乎所有的选择都有自身的风险。性能、鲁棒性和可扩展性几乎总是需要关注，并且必须通过评估、试验原型、或被包含在架构原型中来进行验证。
         </p>
     </li>
 </ul></td>

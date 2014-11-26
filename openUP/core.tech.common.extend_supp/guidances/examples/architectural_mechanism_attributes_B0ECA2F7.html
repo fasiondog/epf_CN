@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>示例：Architectural Mechanism Attributes</title>
+<title>示例：架构机制属性</title>
 <meta name="uma.type" content="Example">
 <meta name="uma.name" content="architectural_mechanism_attributes">
-<meta name="uma.presentationName" content="Architectural Mechanism Attributes">
+<meta name="uma.presentationName" content="架构机制属性">
 <meta name="element_type" content="example">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_eQ_s8Om5Edupia_tZIXEqg"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">示例：Architectural Mechanism Attributes</td><td width="100%">
+<td class="pageTitle" nowrap="true">示例：架构机制属性</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This example illustrates how to represent attributes for Architecture Mechanisms.</td>
+<td valign="top">此示例说明了如何表示架构机制的属性。</td>
 </tr>
 </table>
 </td>
@@ -55,10 +55,10 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">Analysis Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">分析机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>
 </li>
 </ul>
 </td>
@@ -70,80 +70,76 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    The following shows an example of how to capture information for <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>. The attributes of two possible mechanisms are shown:
-    Persistence and Communication.
+    下面展示了如何捕获架构机制信息的样例，持久化和通信：
 </p>
 <h3>
-    Persistence
+    持久化
 </h3>
 <p>
-    For all classes with instances that may become persistent, you need to identify:
+    对所有可能成为持久化的类实例，需要识别：
 </p>
 <ul>
     <li>
         <p>
-            <b>Granularity</b><b>:</b> What is the range of size of the objects to keep persistent?
+            <strong>粒度：</strong>需要持久化的对象的大小范围是多少？
         </p>
     </li>
     <li>
         <p>
-            <b>Volume</b><b>:</b> How many objects (number) do you need to keep persistent?
+            <b>数量：</b>有多少个对象需要进行持久化？
         </p>
     </li>
     <li>
         <p>
-            <b>Duration</b><b>:</b> How long does the object typically need to be kept?
+            <b>保留时间：</b>对象通常需要保留多长时间？
         </p>
     </li>
     <li>
         <p>
-            <b>Retrieval mechanism</b><b>:</b> How is a given object uniquely identified and retrieved?
+            <b>恢复机制：</b> 如何唯一的识别并恢复给定的对象？
         </p>
     </li>
     <li>
         <p>
-            <b>Update frequency</b><b>:</b> Are the objects more or less constant? Are they permanently updated?
+            <strong>更新频率：</strong>对象有多少内容保持不变？它们是永久的更新吗？
         </p>
     </li>
     <li>
         <p>
-            <b>Reliability</b><b>:</b> Do the objects need to survive a crash of the process, the processor, or the whole
-            system?
+            <b>可靠性：</b>在进程、处理器或整个系统崩溃时，对象需要被保存吗？
         </p>
     </li>
 </ul>
 <h3>
-    Communication
+    Communication通信
 </h3>
 <p>
-    For all model elements that need to communicate with components or services that are running in other processes or
-    threads, you need to identify:
+    对所有需要和运行在其他进程或线程中的组件或服务通信的模型元素，需要识别：
 </p>
 <ul>
     <li>
         <p>
-            <b>Latency</b><b>:</b> How fast must processes communicate with another?
+            <b>等待时间：</b>通信需要有多快？
         </p>
     </li>
     <li>
         <p>
-            <b>Synchronicity</b><b>:</b> Asynchronous communication
+            <b>同步</b><b>:</b> 异步通信
         </p>
     </li>
     <li>
         <p>
-            <b>Size of message</b><b>:</b> A spectrum might be more appropriate than a single number
+            <strong>消息大小：</strong>范围可能比单一的值更合适
         </p>
     </li>
     <li>
         <p>
-            <b>Protocol:</b> Flow control, buffering, and so on
+            <b>协议：</b> 控制流、缓存等等
         </p>
     </li>
 </ul>
 <p>
-    Notice that there is no design-level information or specification here. Instead, this is more about collating and
-    refining architecturally significant requirements.
+    注意这里没有设计级别的信息或规范。相反，这里更多的是整理和提炼对架构关键的需求。
 </p></td>
 </tr>
 </table>

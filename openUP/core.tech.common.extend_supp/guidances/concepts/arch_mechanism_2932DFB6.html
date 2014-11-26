@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：Architectural Mechanism</title>
+<title>概念：架构机制</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="arch_mechanism">
-<meta name="uma.presentationName" content="Architectural Mechanism">
+<meta name="uma.presentationName" content="架构机制">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_mzxI0A4LEduibvKwrGxWxA"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：Architectural Mechanism</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：架构机制</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">Architectural Mechanisms are common solutions to common problems that can be used during development to minimize complexity.</td>
+<td valign="top">架构机制是针对通用问题的通用解决方案，在开发中使用可以减少复杂性。</td>
 </tr>
 </table>
 </td>
@@ -55,10 +55,7 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">Analysis Mechanism</a>
-</li>
-<li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">分析机制</a>
 </li>
 <li>
 <a href="./../../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">架构备忘录</a>
@@ -68,6 +65,9 @@
 </li>
 <li>
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">软件架构</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>
 </li>
 <li>
 <a href="./../../../practice.tech.evolutionary_design.base/tasks/design_solution_A97CE9EA.html" guid="_0fshwMlgEdmt3adZL5Dmdw">设计解决方案</a>
@@ -85,203 +85,158 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><h3>
-    What are Architectural Mechanisms?
+    什么是架构机制？
 </h3>
 <p>
-    Architectural Mechanisms are common solutions to common problems that can be used during development to minimize
-    complexity.&nbsp; They represent key technical concepts that&nbsp;will be standardized across the solution.&nbsp;
-    Architecture mechanisms facilitate the evolution of architecturally significant aspects of the system. They allow the
-    team to maintain a cohesive architecture while enabling implementation details to be deferred until they really need to
-    be made.
+    架构机制是针对通用问题的通用解决方案，在开发过程中使用可以减少开发的复杂程度。它们代表了在解决方案中将被标准化的关键技术概念。架构机制促进了系统关键架构方面的演进。它们使团队可以维持一个有凝聚力的架构，使细节实现延迟到到真正需要的时候。
 </p>
 <p>
-    Architectural Mechanisms are&nbsp;used to satisfy architecturally significant requirements. Usually those are
-    non-functional requirements such as performance and security issues.&nbsp;When fully described, Architectural
-    Mechanisms show patterns of structure and behavior in the software. They&nbsp;form the basis of&nbsp;common
-    software&nbsp;that will be&nbsp;consistently applied&nbsp;across the product being developed. They also form the basis
-    for standardizing the way that the software works; therefore, they are an important element of the overall software
-    architecture. The definition of architecture mechanisms also enable decisions on whether existing software components
-    can be leveraged to provide the required behavior; or whether new software should be bought or built.
+    架构机制被用于满足关键架构需求。通常，这些需求是非功能需求，如性能和安全问题。完全描述的架构机制显示了软件中的结构和行为模式。它们形成了软件的公共基础，并将在整个产品开发中被持续的应用。它们也形成了软件的标准化工作方式的基础。因此，架构机制是整个软件架构中的一个重要元素。对架构机制进行定义也将促使做出决策，是否能够利用现有的软件组件来提供需要的行为，或者是否需要购买或构建新的软件。
 </p>
 <p>
-    The value in defining architecture mechanisms is that they:
+    定义架构机制的价值：
 </p>
 <ol>
     <li>
-        Explicitly call out&nbsp;aspects of the solution mechanics that are common across the system. This helps you plan.
+        显示的定义系统中常见的解决方案机制，有助于制定计划。
     </li>
     <li>
-        Put down markers for the developers to build those aspects of the system once and then re-use them. This reduces
-        the workload.
+        为开发者们记下标记，以使他们一次性构建系统标记方面，然后重用它们。这将减少重复工作。
     </li>
     <li>
-        Promote the development of a consistent set of services. This makes the system easier to maintain.
+        促进开发一组一致的服务。这将使系统更容易维护。
     </li>
 </ol>
 <p>
-    An&nbsp;Architectural Mechanism can have three states: Analysis, Design and Implementation.&nbsp;These
-    categories&nbsp;reflect the maturity of the mechanism's description. The state changes as successive levels of detail
-    are uncovered during when you refine <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>&nbsp;into working software. The categories
-    are summarized in the table that follows.
-</p><strong>States of an Architectural Mechanism</strong> 
-<table style="WIDTH: 806px; HEIGHT: 228px" border="1" cellspacing="0" summary="Types of Architectural Mechanism" cellpadding="2" width="806">
+    架构机制包含三个状态：分析、设计和实现。它们反映了机制描述的成熟度。在软件工作中，随着 <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">架构关键需求</a>&nbsp;的不断完善，架构机制的状态将沿水平方向变化并不断暴露新的细节。。
+</p>
+<strong>架构机制的状态</strong> 
+<table style="HEIGHT: 228px; WIDTH: 806px" cellspacing="0" cellpadding="2" width="806" summary="Types of Architectural Mechanism" border="1">
     <tbody valign="top">
         <tr>
             <th scope="col">
-                State
+                状态
             </th>
             <th scope="col">
-                Description
+                描述
             </th>
         </tr>
         <tr>
             <td>
-                Analysis
+                <p>
+                    分析
+                </p>
             </td>
             <td>
                 <p>
-                    A conceptual solution to a common technical problem. For example,&nbsp;persistence is an abstract
-                    solution to the common requirement to store data. The purpose of this category is simply to identify
-                    the need for an Architectural Mechanism to be designed and implemented; and capture basic attributes
-                    for that mechanism.
+                    针对常见技术问题的概念解决方案。例如：持久存储是针对存储数据的通用需求的一个抽象解决方案。该状态的用途是简单的识别一个需要被设计和实现的架构机制，并捕获此机制的基础属性。
                 </p>
             </td>
         </tr>
         <tr>
             <td>
-                Design
+                设计
             </td>
             <td>
                 <p>
-                    A refinement of an Analysis Mechanism into a concrete technology (for example, RDBMS). The purpose of
-                    this category is to guide precise product or technology selection.
+                    将分析机制细化到某个具体的技术（如RDBMS）。该状态的用途是指导精确的产品或技术选择。
                 </p>
             </td>
         </tr>
         <tr>
             <td>
-                Implementation
+                实现
             </td>
             <td>
                 <p>
-                    A further refinement from a design mechanism into a specification for the software. This can be
-                    presented as a design pattern or example code.
+                    将设计机制进一步细化为软件规范。这可以表达为一个设计模式或样例代码。
                 </p>
             </td>
         </tr>
     </tbody>
-</table><br />
+</table>
+<br />
 <p>
-    For more information on these different types of mechanisms, see the attached concepts.
+    有关这些不同类型机制的进一步信息，参见附加的概念材料。
 </p>
 <p>
-    Be aware that these states are frequently referred to themselves as Analysis, Design and Implementation
-    mechanisms.&nbsp;These are synonyms and merely represent the architecture mechanisms in different states of
-    development. The transition from one state to another&nbsp;can often be obvious or intuitive. Therefore, it can be
-    achieved in a matter of seconds. It can also require more considered analysis and design, thus take longer.&nbsp;The
-    important point here is that these categories of mechanisms apply to the same concept in different states. The only
-    difference between them is one of refinement or detail.
+    请注意，这些状态经常被称为分析机制、设计机制和实现机制。它们只不过是表达了架构机制在开发中的不同状态。从一个状态转换到另一个状态，经常很明显或直观，可以在几秒内实现。但也可能需要更多的分析和设计，而花费更多的时间。重要的一点是这些不同类别的机制其实是同一概念的不同状态。其区别仅仅是补充或细节。
 </p>
 <p>
-    The following diagram illustrates the transition of Architectural Mechanisms from one state to another.
+    下图说明了架构机制的状态转换：
 </p>
 <p>
-    <strong>State Machine for Architectural Mechanisms</strong>
+    <strong>架构机制状态机</strong>
 </p>
 <p>
-    <img style="WIDTH: 876px; HEIGHT: 115px" alt="Architectural Mechanism States" src="./../../../core.tech.common.extend_supp/guidances/concepts/resources/arch_mech_states.jpg"     width="600" height="113" />&nbsp;
+    <img style="HEIGHT: 115px; WIDTH: 876px" alt="Architectural Mechanism States" src="./../../../core.tech.common.extend_supp/guidances/concepts/./resources/arch_mech_states.jpg"     width="600" height="113" />&nbsp;
 </p>
 <h3>
-    What Information Should be Captured for Architectural Mechanisms?
+    架构机制中需要捕获什么信息？
 </h3>
 <p>
-    The information captured for each architectural mechanism category/state is different (though the information can be
-    seen as refinements of each other):
+    每一类/状态架构机制所捕获的信息是不同的（即时这些信息看起来像是另一个的补充）：
 </p>
 <ul>
     <li>
-        <strong>Analysis Mechanisms</strong>, which give the mechanism a name, brief description and some basic
-        attributes&nbsp;derived from&nbsp;the project requirements
+        <strong>分析机制</strong>, 为机制命名，给出概要描述以及从项目需求继承而来的某些基本属性
     </li>
     <li>
-        <strong>Design Mechanisms</strong>, which are more concrete and assume some details of the implementation
-        environment
+        <strong>设计机制</strong>, 更加具体，并假设某些实现环境的细节
     </li>
     <li>
-        <strong>Implementation Mechanisms</strong>, which specify the&nbsp;exact implementation of&nbsp;each mechanism
+        <strong>实现机制</strong>, 为每个机制给出准确的实现
     </li>
 </ul>
 <p>
-    When&nbsp;a mechanism is&nbsp;initially identified, it can be considered a marker that says to the team, "We are going
-    to handle this aspect of the system in a standard way. We'll figure out the details later." As the project proceeds,
-    the architectural mechanisms are gradually refined until they become part of the software.
+    初始时识别的机制，对于团队来说被看做一个标识，“我们将以标准的方式来处理系统的这个方面。我们将在后续补充完善。” 在项目进行过程中，架构机制被逐渐补充完善，直到成为系统的一部分。
 </p>
 <h4>
-    Analysis Mechanisms
+    分析机制
 </h4>
 <p>
-    Analysis mechanisms&nbsp;are the initial state for an architectural mechanism. They are identified early in the project
-    and represent&nbsp;bookmarks for future software development. They allow the&nbsp;team to focus on understanding the
-    requirements without getting distracted by the specifics of a complex implementation. Analysis mechanisms are
-    discovered by surveying the requirements and looking for recurrent technical concepts.&nbsp;Security, persistence and
-    legacy interface are some examples of these. In effect, the analysis mechanism is where the requirements that
-    describe&nbsp;architecturally significant topics&nbsp;are collated and brought&nbsp;together in a single list. This
-    makes them easier to manage.
+    分析机制是架构机制的初始状态。它们在项目的早期被识别，并被作为未来软件开发的书签。它们使团队专注于需求，而不会因复杂的实现细节被分心。通过浏览需求并寻找经常出现的技术概念来发现分析机制。安全、持久存储和遗留接口是其中的一些例子。实际上，分析机制是整理和汇集了描述架构关键主题需求的一份列表。这使它们更容易管理。
 </p>
 <p>
-    Analysis mechanisms are described in simple terms:
+    分析机制被简单的描述为：
 </p>
 <ul>
     <li>
-        <strong>Name:</strong> Identifies the mechanism.
+        <strong>名称:</strong> 识别机制
     </li>
     <li>
-        <strong>Basic attributes:</strong> Define the requirements of the mechanism. These attributes can vary depending
-        upon the mechanism being analyzed. Refer to <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：Architectural Mechanism Attributes</a>&nbsp;for more guidance.
+        <strong>基本属性:</strong> 定义机制的需求。这些属性随被分析的机制而不同。参考 <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：架构机制属性</a>&nbsp;获取更多指导。
     </li>
 </ul>
 <p>
-    Once the list of analysis mechanisms has been defined it can be prioritized and the mechanisms refined in line
-    with&nbsp;iteration&nbsp;objectives. It is not necessary to develop the entire set of architecture mechanisms into
-    working software in a single pass. It is often more sensible to develop only those mechanisms required to support the
-    functionality to be delivered in the current iteration.
+    一旦定义了分析机制的列表，就可以依据迭代目标划分优先级并进行细化。没有必要一次性开发所有的分析机制。更明智的方式是，仅仅开发那些支持当前迭代中要交付功能所需要的分析机制。
 </p>
 <h4>
-    Design Mechanisms
+    设计机制
 </h4>
 <p>
-    Design mechanisms&nbsp;represent decisions about the concrete technologies that are going to be used to&nbsp;develop
-    architectural mechanisms. For example, the decision to use an RDBMS for persistence. It's often no more complicated
-    than that (though of course, the effort involved in making the decision can sometimes be quite complex).
+    设计机制代表了使用哪些具体技术开发架构机制的决策。例如，决定使用关系数据库管理系统进行持久化存储。通常，没有比这更复杂的了（当然，制定决策所花费的努力有时相当复杂）。
 </p>
 <p>
-    The decision on when to refine an architectural mechanism from an analysis state to a design state is largely
-    arbitrary. Often there will be constraints on the project that&nbsp;force the decision on some of these issues. For
-    example, there may be a corporate standard for databases which mean that the decision&nbsp;for the&nbsp;persistence
-    mechanism can be made on day 1 of the project.
+    关于何时将架构机制从分析状态细化到设计状态的决定有很大的随意性。通常，在项目组中存在某些约束强制了这些决策。例如，可能存在企业数据库标准，这意味着关于持久化存储机制可以在项目的第一天就决定下来。
 </p>
 <p>
-    On other occasions the decision may point to products that the project team has not yet acquired.&nbsp;If so,&nbsp;the
-    decision needs to be made in time to enable the required products to be made available to the team.
+    在其它一些场合中，该决策可能指向项目团队尚未获得的产品。如果是这样，需要及时作出决定以使团队能够获得所需的产品。
 </p>
 <p>
-    It can often be useful to develop some prototype code to prove that these decisions are sound. The architect should be
-    confident that the technologies being selected are able to fulfill the requirements. The attributes captured against
-    the corresponding analysis mechanisms should be used as criteria to prove the validity of the decisions.
+    通常，开发一些原型代码来验证这些决策的合理性对开发是有益的。架构师应该自信所选择的技术能够满足需求。对应的分析机制的属性应该作为准则来验证该决策的正确性。
 </p>
 <h4>
-    Implementation Mechanism
+    实现机制
 </h4>
 <p>
-    An implementation mechanism&nbsp;specifies the actual implementation for the architectural mechanism (hence the
-    name).&nbsp;It can be modeled as a design pattern or presented as&nbsp;example code.
+    实现机制确定了架构机制的实际实现（因此得名）。它能够被模型化为某个设计模式或是提供样例代码。
 </p>
 <p>
-    The best time to&nbsp;produce the&nbsp;implementation mechanism is usually when the first piece of functionality that
-    needs it is scheduled for development. Architects and developers work together to develop this.
+    生产实现机制的最佳时间是开发计划中第一次需要此功能的时候。架构师和开发者共同开发。
 </p>
 <p>
-    For examples of the kinds of information that you might capture for a mechanism, see <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：Architectural Mechanism Attributes</a>.
+    关于在机制中能够捕获的各类信息，参见：<a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：架构机制属性</a>.
 </p></td>
 </tr>
 </table>
@@ -293,19 +248,19 @@
 <th class="sectionTableHeading" scope="row">概念</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">Analysis Mechanism</a>
-</li>
-<li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">Architecturally Significant Requirements</a>
-</li>
-<li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
-</li>
-<li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">Implementation Mechanism</a>
-</li>
-<li>
 <a href="./../../../core.tech.common.extend_supp/guidances/concepts/pattern_10BE6D96.html" guid="_0YJvUMlgEdmt3adZL5Dmdw">Pattern</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">分析机制</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html" guid="_HrZGIA4MEduibvKwrGxWxA">架构关键需求</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">实现机制</a>
 </li>
 </ul>
 </td>
@@ -314,7 +269,7 @@
 <th class="sectionTableHeading" scope="row">示例</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Architectural Mechanism Attributes</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">架构机制属性</a>
 </li>
 </ul>
 </td>

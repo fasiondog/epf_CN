@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：Analysis Mechanism</title>
+<title>概念：分析机制</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="analysis_mechanism">
-<meta name="uma.presentationName" content="Analysis Mechanism">
+<meta name="uma.presentationName" content="分析机制">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_0gvqoMlgEdmt3adZL5Dmdw"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：Analysis Mechanism</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：分析机制</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">An Analysis Mechanism is a conceptual representation of an Architectural Mechanism.</td>
+<td valign="top">分析机制是架构机制概念性的表示。</td>
 </tr>
 </table>
 </td>
@@ -55,10 +55,10 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>
 </li>
 </ul>
 </td>
@@ -70,62 +70,39 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    An Analysis Mechanism is a conceptual representation of an <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>. Over time, Analysis Mechanisms are refined into <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>s&nbsp;and, later, into <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">Implementation Mechanism</a>s.
+    分析机制是<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>概念性的表示。随着时间发展，分析技术被逐步完善成为<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>，之后成为<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">实现机制</a>s。
 </p>
 <p>
-    Analysis Mechanisms&nbsp;allow the developer to focus on understanding the requirements without getting distracted by
-    the specifics of a complex implementation. They are a way of abstracting away the complexity of the solution, so people
-    can better comprehend the problem.
+    分析机制使开发者专注于理解需求，而不被实现的复杂性所分心。它们是远离解决方案复杂性的一种抽象方式，这样人们能够更好的理解问题。
 </p>
 <p>
-    Analysis Mechanisms are described in simple terms:
+    分析机制通过简单的词汇进行描述：
 </p>
 <ul>
     <li>
-        <strong>Name:</strong> Identifies the mechanism.
+        <strong>名称</strong>：标识机制
     </li>
     <li>
-        <strong>Basic attributes:</strong> Define the requirements of the mechanism.
+        <strong>基本属性</strong>：定义机制的需求
     </li>
 </ul>
 <p>
-    You can identify Analysis Mechanisms top-down, from previous knowledge, or bottom-up, meaning that you discover them as
-    you proceed.
+    你可以利用以前的知识自顶向下的识别分析机制；也可以自底向上的识别它们，这意味着你在处理过程中发现了它们。
 </p>
 <p>
-    In the top-down mode, you are guided by experience -- you know that certain problems are present in the domain and will
-    require certain kinds of solutions. Examples of common architectural problems that might be expressed as mechanisms
-    during analysis are: persistence, transaction management, fault management, messaging, and inference engines. The
-    common aspect of all of these is that each is a general capability of a broad class of systems, and each provides
-    functionality that interacts with or supports the basic application functionality. The Analysis Mechanisms support
-    capabilities required in the basic functional requirements of the system, regardless of the platform that it is
-    deployed upon or the implementation language. Analysis Mechanisms also can be designed and implemented in different
-    ways. Generally, there will be more than one design mechanism that corresponds with each Analysis Mechanism. There may
-    also be more than one way of implementing each design mechanism.
+    在自顶向下模式中，是根据经验进行的——你知道在某些领域中存在的特定问题以及需要的特定的解决方案。例如在分析中，常见的架构问题可以表达为机制：持久存储、事务管理、错误处理、消息、接口引擎。所有这些机制的共同点是它们每一个都是某类广泛系统的通用功能，并且每个机制都提供与基础应用进行交互或支持的功能。分析机制支持系统基本功能要求所需要的功能，而与部署的平台或实现的语言无关。分析机制也能以不同的方式设计和实现。通常，每个分析机制存在多个对应的设计机制。同样的，每个设计机制也有多种不同方式的实现。
 </p>
 <p>
-    The bottom-up approach is where Analysis Mechanisms ultimately originate. They are created as the you see, perhaps
-    faintly at first, a common theme emerging from a set of solutions to various problems. For example: There is a need to
-    provide a way for elements in different threads to synchronize their clocks, and there is a need for a common way of
-    allocating resources. <a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">Analysis Mechanism</a>s, which simplify the language of analysis, emerge from these
-    patterns.
+    自底向上是分析机制的最后起源地。如你所见，它们起初可能从一系列不同问题的解决方案中隐约浮现。例如：需要提供某种方式为不同线程中的元素同步它们的时钟，以及需要一种资源分配的通用方法。<a class="elementLink" href="./../../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html" guid="_0gvqoMlgEdmt3adZL5Dmdw">分析机制</a>, 从这些模式中简化了分析语言。
 </p>
 <p>
-    Identifying an Analysis Mechanism means that you identify a common, perhaps implicit&nbsp;subproblem, and you give it a
-    name. Initially, the name might be all that exists. For example, the system will require a persistence
-    mechanism.&nbsp;Ultimately, this mechanism will be implemented through the collaboration of various classes, some of
-    which do not deliver application functionality directly, but exist only to support it. Very often these support classes
-    are located in the middle or lower layers of a layered architecture, thereby providing a common support service to all
-    application-level classes.
+    识别某个分析机制意味着你识别了某个通用的、也许隐藏的子问题，并且你给了它一个名称。起初，可能仅仅是个名字。例如，系统需要持久化机制。最后，该机制将通过不同的类之间的协助实现，这些类中的一部分可能并不直接交付应用功能，而仅仅是为应用提供支持。通常这些支持类位于架构的中间层或更低的层次，从而为应用层的类提供公共的支持服务。
 </p>
 <p>
-    If the subproblem that you identify is common enough, perhaps a pattern exists from which the mechanism can be
-    instantiated, probably by binding existing classes and implementing new ones, as required by the pattern. An Analysis
-    Mechanism produced this way will be abstract, and it will require further refinement throughout design and
-    implementation work.
+    如果识别的子问题足够通用化，那么此机制中可能存在某个可实例化的模式，可根此模式的要求通过绑定已有类或实现某些新类来实例化这个模式。分析模式为这种方式提供了抽象，未来需要通过设计和实现的工作逐步完善。
 </p>
 <p>
-    You can see examples of how Architectural Mechanisms can be represented in <a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：Architectural Mechanism Attributes</a>.
+    你可以在示例中看到如何表示分析机制：<a class="elementLinkWithType" href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Example：架构机制属性</a>.
 </p></td>
 </tr>
 </table>
@@ -137,13 +114,13 @@
 <th class="sectionTableHeading" scope="row">概念</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">Design Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html" guid="_w2ACwA4LEduibvKwrGxWxA">设计机制</a>
 </li>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">Implementation Mechanism</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html" guid="_0LcUkA4LEduibvKwrGxWxA">实现机制</a>
 </li>
 </ul>
 </td>
@@ -152,7 +129,7 @@
 <th class="sectionTableHeading" scope="row">示例</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">Architectural Mechanism Attributes</a>
+<a href="./../../../core.tech.common.extend_supp/guidances/examples/architectural_mechanism_attributes_B0ECA2F7.html" guid="_eQ_s8Om5Edupia_tZIXEqg">架构机制属性</a>
 </li>
 </ul>
 </td>

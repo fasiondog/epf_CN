@@ -2,10 +2,10 @@
 <html lang="zh" xml:lang="zh" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>概念：Architecturally Significant Requirements</title>
+<title>概念：架构关键需求</title>
 <meta name="uma.type" content="Concept">
 <meta name="uma.name" content="arch_significant_requirements">
-<meta name="uma.presentationName" content="Architecturally Significant Requirements">
+<meta name="uma.presentationName" content="架构关键需求">
 <meta name="element_type" content="concept">
 <meta name="filetype" content="description">
 <meta name="role" content="none">
@@ -25,7 +25,7 @@
 <div id="page-guid" value="_HrZGIA4MEduibvKwrGxWxA"></div>
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td class="pageTitle" nowrap="true">概念：Architecturally Significant Requirements</td><td width="100%">
+<td class="pageTitle" nowrap="true">概念：架构关键需求</td><td width="100%">
 <div align="right" id="contentPageToolbar"></div>
 </td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
 </tr>
@@ -41,7 +41,7 @@
 <td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
 <table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td valign="top">This concept describes what architecturally significant requirements are and why they are important.</td>
+<td valign="top">此处描述了什么是架构关键需求以及它们为什么重要的原因。</td>
 </tr>
 </table>
 </td>
@@ -55,9 +55,6 @@
 <th class="sectionTableHeading" scope="row">相关元素</th><td class="sectionTableCell">
 <ul>
 <li>
-<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">Architectural Mechanism</a>
-</li>
-<li>
 <a href="./../../../core.tech.common.extend_supp/guidances/guidelines/effective_req_reviews_5913D369.html" guid="_E-dPIL-GEdqb7N6KIeDL8Q">Effective Requirement Reviews</a>
 </li>
 <li>
@@ -65,6 +62,9 @@
 </li>
 <li>
 <a href="./../../../practice.tech.evolutionary_arch.base/guidances/checklists/architecture_notebook_BC815A4B.html" guid="_17PYUNd6EdmIm-bsRSNCgw">架构备忘录</a>
+</li>
+<li>
+<a href="./../../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html" guid="_mzxI0A4LEduibvKwrGxWxA">架构机制</a>
 </li>
 <li>
 <a href="./../../../practice.tech.evolutionary_arch.base/tasks/envision_the_arch_FF123A81.html" guid="_0f-1oMlgEdmt3adZL5Dmdw">拟制架构</a>
@@ -85,81 +85,60 @@
 <table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
 <tr valign="top">
 <td class="sectionTableSingleCell"><p>
-    Architecturally significant requirements are those requirements that play an important role in determining the
-    architecture of the system.&nbsp; Such requirements require special attention. Not all requirements have equal
-    significance with regards to the architecture.
+    架构关键需求是那些在决定系统架构时扮演重要角色的需求。这些需求需要特别关注。对架构而言，并非所有的需求都具有平等的意义。
 </p>
 <p>
-    Architecturally significant requirements&nbsp;are a subset of the requirements that need to be satisfied before the
-    architecture can be considered "stable". Typically, these are requirements that are technically challenging,
-    technically constraining, or central to the system's purpose. Furthermore, the system will generally be more sensitive
-    to changes&nbsp;against architecturally significant requirements, so identifying and communicating this subset will
-    help others understand the potential implications of change.
+    架构关键需求是在架构被认为“稳定”之前需要的满足需求，是全部需求的子集。通常，这些需求是技术挑战、技术约束，或者系统的核心目标。此外，通常系统对架构关键需求的变化会更敏感，因此识别并沟通这些需求有助于其他人理解变化带来的潜在影响。
 </p>
 <p>
-    Requirements can be explicitly or implicitly architecturally significant. Explicitly significant requirements are often
-    overtly technical in nature, such as performance targets; the need to interface to other systems; the number of users
-    that must be supported; or security requirements. Implicitly significant requirements may define the essence of the
-    functional behaviour of the system (for example, making a purchase from an on-line store).
+    对架构关键的需求可以是显式或隐式的。显式的关键需求常常是明显的技术，如性能指标、和其它系统的接口、必须支持的用户数、或者安全需求。隐式的关键需求可能定义了系统功能行为的本质（例如，从在线商店上购买）。
 </p>
 <p>
-    Deciding whether a specific requirement is architecturally significant is often a matter of judgment. The selection of
-    requirements that are considered "architecturally significant" is driven by several key driving factors:
+    决定某个需求是否是架构关键需求常常是一个判断的问题。判断需求是否“对架构关键”通常由几个关键因素所驱动：
 </p>
 <ul>
     <li>
-        The benefit of the requirement to stakeholders: critical, <b>important</b>, or <b>useful</b>.
+        需求对涉众的价值：关键的、重要的或有用的。
     </li>
     <li>
-        The architectural impact of the requirement: <b>none</b>, <b>extends</b>, or <b>modifies</b>. There may be critical
-        requirements that have little or no impact on the architecture and low-benefit requirements that have a big impact.
-        Low-benefit requirements with big architectural impacts should be reviewed by the project manager for possible
-        removal from the scope of the project.
+        需求对架构的影响：无影响、扩展或变更。可能存在某些对架构没有影响或者影响很小的关键需求，也可能存在某些低价值的需求却对架构有重要影响。对架构有重要影响但却是低价值的需求，需要项目经理评估并尽可能从项目范围中移除。
     </li>
     <li>
-        The risks to be mitigated: performance, availability of a product, and suitability of a component.
+        降低风险：性能、产品可用性、以及组件的匹配性。
     </li>
     <li>
-        The completion of the coverage of the architecture.
+        覆盖了整个架构。
     </li>
     <li>
-        Other tactical objectives or constraints, such as demonstration to the user, and so on.
+        其它战术目标或约束，如针对用户的示例，等等。
     </li>
 </ul>
 <p>
-    There may be two requirements that hit the same components and address similar risks. If you implement A first, then B
-    is not architecturally significant. If you implement B first, then A is not architecturally significant. Thus these
-    attributes can depend on the order the requirements are realized, and should be re-evaluated when the order changes, as
-    well as when the requirements themselves change.
+    可能存在两个需求需要相同的组件或处理相似的风险。如果先实现了A，那么B就不是架构关键需求。如果先实现了B，那么A就不是架构关键需求。这依赖于需求之间的实现顺序，当这些需求变化时应当重新评估它们的顺序。
 </p>
 <p>
-    The following are good examples of Architecturally Significant Requirements:
+    以下是优秀的架构关键需求示例：
 </p>
 <ul>
     <li>
-        The system must record every modification to customer records for audit purposes.
+        系统必须记录对客户记录的每一次修改，以满足审计要求
     </li>
     <li>
-        The system must respond within 5 seconds.
+        系统必须在5秒内响应
     </li>
     <li>
-        The system must&nbsp;deploy on Microsoft Windows XP and Linux.
+        系统必须部署在WindowXP和Linux上
     </li>
     <li>
-        The system must encrypt all network traffic.
+        系统必须加密所有网络流
     </li>
     <li>
-        The ATM system must dispense cash on&nbsp;demand&nbsp;to validated account holders with sufficient cleared funds.
+        ATM系统发放现金前必须验证账户持有人是否有足够的资金。
     </li>
 </ul>
 <p>
-    Architecturally significant requirements also describe key behaviors that the system needs to perform.&nbsp; Such
-    scenarios represent the important interactions between key abstractions.and should be identified as architecturally
-    significant requirements. For example, for an on-line book store describing the way the software handles the scenarios
-    for ordering a book and checking out the shopping cart are often enough to communicate the essence of the architecture.
-</p><br />
-<br />
-<br /></td>
+    架构关键需求也描述了系统需要执行的关键行为。这些场景代表了关键抽象之间的重要交互，应该被识别为架构关键需求。例如：对一个在线书店来说，描述软件处理场景“订购一本书和查看购物车”的方式，通常已足够沟通架构的本质。
+</p></td>
 </tr>
 </table>
 </div>
